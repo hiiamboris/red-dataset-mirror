@@ -1,0 +1,48 @@
+== REP 0 - Red Enhancement Process Index
+
+[width="100%"]
+|============================================
+|REP:|0
+|Title:|The Red Enhancement Process Index
+|Author:|Peter W A Wood
+|Status:|Permanent
+|Date Created:|22-Apr-2018
+|Date Last Actioned|1-Aug-2018
+|============================================
+
+== REP Index
+
+[cols="4", options="header"]
+|============================================
+
+|REP
+|Title
+|Author
+|Status
+
+|https://github.com/red/REP/blob/master/REPs/rep-0001.adoc[1]
+|The Red Enhancement Process
+|Peter W A Wood
+|Accepted
+
+|https://github.com/red/REP/blob/master/REPs/rep-0002.adoc[2]
+|REP Template
+|Peter W A Wood
+|Accepted
+
+|https://github.com/red/REP/blob/master/REPs/rep-0003.adoc[3]
+|Red Documentation
+|Peter W A Wood
+|Incomplete Draft
+
+|https://github.com/red/REP/blob/master/REPs/rep-0101.adoc[101]
+|For Loop Function
+|Gregg Irwin
+|Submitted
+
+|https://github.com/red/REP/blob/master/REPs/rep-0102.adoc[102]
+|Formal Function Spec Definition
+|Rudolf Meijer, Gregg Irwin
+|Incomplete Draft
+
+|============================================

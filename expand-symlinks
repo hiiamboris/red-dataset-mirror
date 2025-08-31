@@ -1,0 +1,13 @@
+#!/bin/bash
+
+find . -type l | while read -r symlink; do
+    if test -d "$symlink"; then
+        target=$(readlink -f "$symlink")
+        echo "Processing: $symlink -> $target"
+        # Remove the symlink
+        rm "$symlink"
+        # Copy the target directory contents recursively
+        cp -r "$target/." "$symlink"
+		rm -rf "$symlink/.git"
+    fi
+done

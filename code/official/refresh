@@ -1,0 +1,11 @@
+#!/bin/bash
+# no RS-fossil here because it exists in the scripts collection, and is outdated badly
+~/dataset/scrape-code https://github.com/red/red red
+~/dataset/scrape-code https://github.com/red/code code
+~/dataset/scrape-code https://github.com/red/community community
+~/dataset/scrape-code https://github.com/red/wallet wallet
+~/dataset/scrape-code https://github.com/red/VScode-extension vscode-extension
+~/dataset/scrape-code https://github.com/red/redlangserver lang-server
+~/dataset/scrape-code https://github.com/red/Animation Animation
+
+

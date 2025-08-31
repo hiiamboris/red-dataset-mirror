@@ -1,0 +1,88 @@
+===Frequently Asked Questions
+
+As a general remark it should be stated that it is a good idea to keep a Rebol console at hand when reading the source code.
+
+--The rsc.r script
+
+Q:  What is this rsc.r script about?
+Answer: This is the old compilation script wrapper for Red/System programs. It is still being kept around, 
+maybe one day it can serve another purpose.
+
+---Assert
+
+Q:  What are all these asserts about?
+Answer:  While assert is not on the documentation page http://www.rebol.com/docs/dictionary.html it is known in Rebol.
+This description is shown when help is used:
+? assert  
+USAGE:
+    ASSERT conditions /type
+
+DESCRIPTION:
+     Assert that condition is true, else throw an assertion error.
+     ASSERT is a function value.
+
+ARGUMENTS:
+     conditions -- (Type: block)
+
+REFINEMENTS:
+     /type -- Safely check datatypes of variables (words)
+
+(SPECIAL ATTRIBUTES)
+     catch
+     throw
+
+Q:  Why then is assert (re?)defined in 5 different places in the source code?
+Answer: In system/compiler.r the function comp-assert is defined
+In quick-test/quick-test.red and quick-test/quick-test.reds the function --assert is defined
+It is redefined because of extra functionality and because it also must be possible to run the tests independent of
+each other.
+
+---Function definition with set
+
+Q:  Why are some functions defined using "set 'fname" instead of "fname:"?
+Answer: In int-to-bin.r in system/utils a function to-bin32 is defined like this.
+
+===Diverse Questions
+
+---to
+
+Q:  Why is it to-hex and to integer! and why don't you use to-integer, that function exists too?
+Answer: Because to-integer is defined to be a function that does the to integer! casting. Otoh to-hex is a 
+native function that does not have a to hex! equivalent.
+
+---
+Q:  Why do you need to use Rebol/View to run the tests on Windows?
+Answer: (By Peter W.A. Wood) Rebol/View is needed to run the tests under Windows as it uses Nenad's call.r 
+due to the bugs in Rebol's call in 2.7.8. This involves linking to a library which is not supported in Rebol/Core.
+
+Q:  Will the quick-test documents for Red be updated soon? I saw some typo's in the docs, shall I fix them?
+Answer: (By Peter W.A. Wood) I am in the process of updating the Quick-Test documents so don't worry about any 
+typos just yet. There'll no doubt be plenty for you to find later :-)
+
+# Red/System Notes:
+
+There are dump4 and dump1 for dumping memory (using respectively 32-bit or 8-bit words). You can pass them any valid pointer (including structs).
+
+--- Struct!
+
+The struct member names exist only at compile-time (same as variable names), they don't exist at runtime anymore. It could be possible to extend the compiler in debug mode to store metadata about structs and build a runtime function for pretty printing that, though that's a couple of days of work at least.
+
+--- 
+Q: is there difference between using:
+
+    ptr: GlobalAlloc 0 size? IOleClientSiteImpl!
+    iOleClientSiteImpl: as IOleClientSiteImpl! ptr
+
+and plain:
+
+    iOleClientSiteImpl: declare IOleClientSiteImpl!
+
+?
+
+A: A big difference: the first one will allocate memory dynamically using the special global allocator from Windows API, the second one will statically allocate the memory in the data segment of the final executable (such memory cannot be freed, nor extended).
+
+
+
+
+
+###

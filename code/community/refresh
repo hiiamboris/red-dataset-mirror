@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# NOTE: delete %community-scripts.txt to renew it!
+
+if [ ! -e community-scripts.txt ]; then
+	echo "Collecting repository list, wait please..."
+	./list-community-scripts.red | tee community-scripts.txt
+fi
+
+for url in $(cat community-scripts.txt); do
+	echo "Scraping $url ..."
+	dir="${url#*//*/}"
+	# gists don't need a subdir
+	if [[ "$url" == "https://gist.github.com/"* ]]; then dir="${dir%/*}"; fi
+	~/dataset/scrape-code "$url" "$dir"
+done | tee community.log
+
+for f in ./scrape-only-*; do $f; done
+
+# special cleanup cases - duplicates and big irrelevant data
+
+rm -rf hiiamboris/red-icu-data/cldr
+rm -rf abdllhygt/coz/red-common
+rm -rf kenhancoder/red_training/code
+rm -rf kenhancoder/red_training/community
+
+echo Done. >>community.log

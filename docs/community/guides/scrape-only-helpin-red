@@ -1,0 +1,8 @@
+#!/bin/bash
+
+~/dataset/scrape-website http://helpin.red
+# the html of that page is 90% noise, so there's another way:
+# instead, using the provided docx: http://helpin.red/Helpin'%20Red.docx
+# pandoc output is weird, we lose images too, but at least the text is intact
+#curl https://helpin.red/Helpin\'\%20Red.docx | pandoc -f docx -t gfm >helpin-red.md
+

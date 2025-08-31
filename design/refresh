@@ -1,0 +1,9 @@
+#!/bin/bash
+
+~/dataset/scrape-code https://github.com/greggirwin/red-hof HOF
+~/dataset/scrape-code https://github.com/greggirwin/red-L10N L10N
+~/dataset/scrape-code https://github.com/greggirwin/red-split split
+~/dataset/scrape-code https://github.com/hiiamboris/red-formatting formatting
+
+./list-issues-red-REP
+./scrape-only-proposals.red

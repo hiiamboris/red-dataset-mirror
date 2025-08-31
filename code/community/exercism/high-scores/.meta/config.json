@@ -1,0 +1,18 @@
+{
+  "authors": [
+    "loziniak"
+  ],
+  "files": {
+    "solution": [
+      "high-scores.red"
+    ],
+    "test": [
+      "high-scores-test.red"
+    ],
+    "example": [
+      ".meta/example.red"
+    ]
+  },
+  "blurb": "Manage a player's High Score list.",
+  "source": "Tribute to the eighties' arcade game Frogger"
+}

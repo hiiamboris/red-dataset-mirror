@@ -1,0 +1,82 @@
+= Datový typ `routine!`
+:toc:
+:numbered:
+
+== Úvodem
+
+Hodnotou typu `routine!` je nativní funkce (func) z oboru Red/System, která se volá v programu Red.
+
+Specifikace přijímá jako argumenty a vratné hodnoty datové typy Redu, jež automaticky při volání konvertuje na příslušné typy soustavy Red/System.
+
+Dokumentaci pro Red/System lze nalézti zde: https://static.red-lang.org/red-system-specs.html
+
+Typ `routine!` je člen typesetů `default!` a `any-function!`
+
+== Vytvoření
+
+Hodnoty typu routine! lze vytvořit s použitím vestavěné funkce `routine`.
+
+== Literálová skladba
+
+```red
+<routine> ::= routine <routine-spec> <routine-body>
+<routine-spec> ::= [<docstring>° <routine-argument>* <locals>° <routine-return>°]
+<routine-argument> ::= <word> <argument doc>° | <word> [<type-literal>] <argument-doc>°
+<locals> ::= /local <routine-argument>*
+<routine-return> ::= return: [<type-literal>]
+<type-literal> ::= any-type! | <type-name>
+<routine-body> ::= <block>
+```
+
+== Vytvoření při runtime
+
+Hodnoty routine! nejsou pro interpreter povoleny. Musejí být uvedeny typem `set-word` a následně kompilovány.
+
+```red
+Red []
+
+increment: routine [
+    n       [integer!]
+    return: [integer!]
+][
+    n + 1
+]
+```
+
+Argumenty rutin jsou vymezeny jediným slovem typu `any-type!`, `integer!`, `float!` a `logic!` nebo aliasem struct! ze soustavy Red/System, definovaným zde: https://github.com/red/red/blob/master/runtime/datatypes/structures.reds.
+
+Datové typy `integer!`, `float!` a `logic!` se na ekvivalent soustavy Red/System nepřekládají.
+
+*Příklad*
+
+`block!` je přeložen na ekvivalent soustavy Red/System:
+
+```red
+red-block!: alias struct! [
+	header 	[integer!]
+    head    [integer!]
+	node    [node!]
+	extra   [integer!]
+]
+```
+
+== Testování hodnot
+
+K ověření, zda hodnota je typu `routine`, použijeme funkce `routine?`.
+
+```red
+routine? :increment
+== false
+```
+
+Datový typ zadané hodnoty získáme dotazem `type?`.
+
+```red
+type? :increment
+== unset!
+```
+
+
+== Předdefinovaná slova
+
+`routine`, `routine?`

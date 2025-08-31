@@ -1,0 +1,2613 @@
+:toc:
+:toclevels: 3
+
+
+Red is a homoiconic language (Red is its own meta-language and own data-format) and an important paradigm it uses is “code is data”. 
+A Red program is a sequence of Red values - everything is data before it’s evaluated. This makes one able to *express any task using syntax that best suits it*. The execution of a Red program is done by evaluating each of its constituent values in turn, according to the evaluation rules.
+
+== Words
+
+A special category of values is word. A word! is a symbolic value that can be used like a variable (the `!` at the end denotes a datatype). Red does not have identifiers nor keywords. Words do not store values, they point to values in some context – the global context by default.
+Words are formed by one or more characters from the entire Unicode range, including punctuation characters from the ASCII subset: `! & ' * + - . < = > ? _ | ~` 
+
+Here are some valid words:
+
+----
+foo
+foo+bar
+Fahrenheit451 
+C°
+__ (two underscores)
+----
+
+Words can’t start with a digit and can’t contain any control characters, whitespace characters, and punctuation characters from the ASCII subset: `/ \ ^ , [ ] ( ) { } " # $ % @ : ;`
+
+The presence of `! & ' * + - . < = > ? _ | ~`` in words leads to the implication that they must be delimited by spaces, tabs or \[]\(){}. In Python you can write:
+----
+a+b
+1and a>b
+----
+In Red you always need to put spaces between words:
+----
+a + b
+1 and a > b
+----
+
+Please note that Red is case insensitive.
+
+== Evaluation order
+
+At a semantic level, the Red program consist of expressions and not values. An expression groups one or more values, and may be formed in three ways: as an application of a (prefix) function, as an infix expression which uses an operator, or as a binding of a word to refer to a value.
+
+Functions in Red always have a fixed number of arguments (fixed arity), as opposed to Python, where one can have default arguments and variable-length arguments. Functions are called by their name followed by the arguments – no need of parentheses nor commas.
+
+----
+print  "Hello, world!”
+add 2 3
+find "Red" #"e"
+----
+
+Operators are always binary operations, like `+` (addition), `-` (subtraction) and so on.
+
+Evaluation of the operands of operators has precedence over function application and binding. There is no precedence between any two operators. This is different from Python, where the operators have different https://docs.python.org/3/reference/expressions.html#operator-precedence[precedence]
+
+----
+2 + 2      ; evaluates to 4
+2 + 3 * 4   ; evaluates to 20, not 14!
+max 3 + 4 5   ; evaluates to 7
+----
+
+As you may have guessed, `;` starts a comment until the end of the line. 
+Let’s take for example the following expression:
+
+----
+square-root 4 + 5
+----
+
+The operator `+` has precedence over the function `square-root` and that’s why Red first adds 5 to 4 and only then finds the square root of 9, resulting in 3.0.
+
+Since the function arguments aren’t enclosed in parentheses, a programmer must know the arity of the functions. 
+
+Evaluation order can be changed by the use of parentheses: 
+
+----
+2 + (3 * 4)    ; evaluates to 14
+(length? "abcd") / 2
+----
+
+If we had written `length? "abcd" / 2`, it would have resulted in an error, because Red would first try to divide "abcd” by 2.
+
+== https://github.com/red/docs/blob/master/en/datatypes.adoc[Datatypes]
+
+Red has a rich set of datatypes. Here are some types to start with:
+
+=== integer!
+
+32-bit numbers with no decimal point.
+
+`1234, +1234, -1234, 60'000'000`
+
+=== float!
+
+ 64-bit positive or negative number that contains a decimal point.
+
+`+123.4, -123.4, 0042.0, 60'000'12'3.4`
+
+=== logic!
+
+Boolean values
+
+`true false, yes no, on off`
+
+=== char!
+
+Unicode code points.
+
+`#"a", #"^C", #"^(esc)", #"^(41)", #"^(20AC)"`
+
+=== string!
+
+Sequence of Unicode code points (char! values) wrapped in quotes.
+
+`"Red"`
+
+Unlike  Python, strings in Red are mutable. 
+For  example, compare this Python code
+----
+>>> txt = "abcd"
+>>> txt.upper()
+'ABCD'
+>>> txt
+'abcd'
+----
+with Red:
+----
+>> txt: "abcd"
+== "abcd"
+>> uppercase txt
+== "ABCD"
+>> txt
+== "ABCD"
+----
+
+Multiline strings are enclosed in {} and can contain double-quotes:
+`{This text is
+split in "two" lines}`
+
+=== block!
+
+Collections of data or code that can be evaluated at any point in time. Values and expressions in a block are not evaluated by default. This is one of the most versatile Red types.
+
+`[], [one 2 "three"], [print 1.23], [x + y], [dbl: func[x][2 * x]]`
+
+=== paren!
+Immediately evaluated block!. Evaluation can be suppressed by using `quote` before a paren value. Unquoted paren values will return the type of the last expression.
+
+`(1 2 3), (3 * 4), (x + 5)`
+
+Please note that if `x` doesn’t have a value in the current context, the last example will throw an error.
+
+
+---- 
+>> (1 + 10)
+== 11
+>> type? (1 + 10)
+== integer!
+>> quote (1 + 10)
+== (1 + 10)
+>> type? quote (1 + 10)
+== paren!
+---- 
+
+=== path!
+
+Series of values delimited by slashes /. Limited in the types of values that they can contain – integers, words or parens.
+
+`buffer/1, a/b/c, data/(base + offs)`
+
+Path notation is used for indexing a block. Please note that Red uses 1-based indexing.
+The following Python code
+----
+>>> mylist = [3,1,4,2]
+>>> mylist[0]
+3
+----
+
+Can be written in Red as follows:
+----
+>> mylist: [3 1 4 2]
+== [3 1 4 2]
+>> mylist/1
+== 3
+----
+
+One can access the nested values in a block using as many levels of `/` as needed:
+
+----
+>> a: [1 [2 3] "456"]
+== [1 [2 3] "456"]
+>> a/1
+== 1
+>> a/2
+== [2 3]
+>> a/2/2
+== 3
+>> a/3/1
+== #"4"
+----
+
+=== map!
+
+Associative array of key/value pairs (similar to Python's dictionary)
+
+`#( ), #(a: 1 b: "two")`
+
+The keys can be any type of the following https://github.com/red/docs/blob/master/en/typesets.adoc[typesets]: 
+https://github.com/red/docs/blob/master/en/typesets.adoc#scalar[scalar!], https://github.com/red/docs/blob/master/en/typesets.adoc#all-word[all-word!], https://github.com/red/docs/blob/master/en/typesets.adoc#any-string[any-string!]
+
+=== object!
+
+Named or unnamed contexts that contain `word: value` pairs.
+
+----
+xy: make object! [
+    x: 45
+    y: 12
+    mult: func[k][x + y * k]    
+]
+----
+Please note that at this time it is not possible to extend an object with new `word: value` pairs.
+The objects in Red are prototype-based, and not class-based. 
+You can create a new object `xyz` using `xy` as a prototype and describe just the new pairs:
+
+----
+>> xyz: make xy [z: 1000]
+== make object! [
+    x: 45
+    y: 12
+    mult: func [k][x + y * k]
+    z: 1000
+]
+----
+
+You can find more about Red’s aggregate values  https://github.com/red/red/wiki/%5BDOC%5D-Comparison-of-aggregate-values-(block!-vector!-object!-hash!-map!)[here]
+
+=== function!
+
+user-defined functions. Functions have specification (a block that contains the arguments that the function needs for its workings and other optional information) and body (a block containing expressions):
+
+----
+x+y: function [x y][x + y]
+----
+
+There are also other kinds of functions - func, does, has - that will be explained in more details in a section dedicated to functions.
+
+=== op!
+
+Infix function of two arguments.
+
+`+ - * / // % ^`
+
+=== refinement!
+
+Refinement! values are symbolic values that are used as modifiers to functions or as extensions to objects, files, urls, or paths, but they are also valid standalone values.
+
+`option: /reverse`
+
+---- 
+>> replace/all "Mississippi" #"i" #"e"
+== "Messesseppe"
+----
+
+Without the `/all` refinement only the first "i" would be changed to "e".
+
+=== pair!
+
+Two-dimensional coordinates (two integers separated by a `x`)
+
+`1x2, -5x0, -3x-25`
+
+The pair fields can be accessed by /x and /y refinments (or /1 and /2)
+`+, -, *, /, %, //, add, subtract, multiply, divide, remainder, and mod` can be used with pair! values.
+
+
+=== date!
+
+Calendar dates, relying on the Gregorian calendar.
+
+`28-03-2021, 28/Mar/2021, 28-March-2021, 2021-03-28`
+
+As you can see, different input formats for literal dates are accepted. 
+
+The fields of any `date!` value can be accessed using path accessors - `/date`, `/year`, `/month`, `day` (or alternatively just `/1` `/2` `/3` `/4`) 
+
+One can use addition and subtraction operations with date!, as well as with date! and integer!. Dates will be explored in a special section.
+
+=== tuple!
+
+Three to twelve positive integers in the range from 0 to 255 separated by decimal points. Used for representing RGB and RGBA color values, ip addresses, and version numbers. 
+
+`255.255.255.0`
+
+=== bitset!
+
+A `bitset!` is an array of bits used to store boolean values. Bitset indexing is zero based with 1 values representing true, and 0 values representing false.Bitsets are used to model sets of non-negative integers such as Unicode Code Points.
+
+
+`make bitset! #"A"` `make bitset! "abc"`
+
+---- 
+>> make bitset! #"A"   ; create a bitset with bit 65 set
+== make bitset! #{000000000000000040}
+---- 
+
+== Blocks and series
+
+A block is a set of values arranged in some order. They can represent collections of data or code that can be evaluated upon request. Blocks are a type of https://github.com/red/docs/blob/master/en/typesets.adoc#series[series!] with no restriction on the type of values that can be referenced. A block, a string, a list, a URL, a path, an email, a file, a tag, a binary, a bitset, a port, a hash, an issue, and an image are all series and can be accessed and processed in the same way with the same small set of series functions
+
+Blocks in Red are similar to Python’s lists, but don’t forget that blocks are not evaluated by default. Compare these code snippets:
+
+Python
+----
+>>> p_list=[2+3,5]
+>>> p_list
+[5, 5]
+----
+
+Red
+
+----
+>> red-block: [2 + 3 5]
+== [2 + 3 5]
+----
+
+As you can see, red-block remains unchanged, while p_list is formed by the evaluated values of its constituents.
+
+=== Creating blocks
+
+Blocks are created by enclosing values (separated by whitespaces) in square brackets `[ ]`
+
+----
+[1 2 3]
+[42 6 * 7 "forty-two" forty two]
+----
+
+Except literally, blocks can be created at runtime using a `make` constructor: 
+
+----
+>> make block! 20
+== []
+----
+
+The above code creates and empty block pre-allocated for 20 elements.
+
+Block can also be created by converting other values:
+
+----
+>> msg: "send %reference.pdf to mail@site.com at 11:00"
+== "send %reference.pdf to mail@site.com at 11:00"
+>> type? msg
+== string!
+>> to block! msg
+== [send %reference.pdf to mail@site.com at 11:00:00]`
+----
+
+Here `msg` is of string! type. When converted to a `block!`, each part of the string is converted to a Red value (of course if it represents  a valid Red value):
+
+----
+>> foreach value to block! msg[print [value  ":" type? value]]
+send : word
+reference.pdf : file
+to : word
+mail@site.com : email
+at : word
+11:00:00 : time
+----
+
+The above code iterates over the items of the block created from a string using `to` conversion and prints the value and its type.
+
+Please note that `to` function (technically it’s an https://github.com/red/docs/blob/master/en/datatypes/action.adoc[`action!`]) expects a datatype OR an example value to which to convert the given value. This means that instead of `block!` we can use any literal block, even`[]`:
+
+----
+>> to [] msg
+== [send %reference.pdf to mail@site.com at 11:00:00]
+----
+
+=== Accessing block elements
+
+Now that you know what a block is and how you create one, let’s try to access block’s items. Let’s work with
+
+`data: ["Red" "Yellow" "Green" "Cyan" "Blue" "Magenta"]`
+
+The simplest way one can reference an item in a block is using the item’s index in the block. Unlike Python, Red uses 1-based indexing. So, to get the first item we use `path notation` and an integer index:
+
+----
+>> data/1
+== "Red"
+>> data/2
+== "Yellow"
+----
+
+Alternatively, we can use `pick`:
+
+----
+>> pick data 3
+== "Green"
+----
+
+Please note that in Red it’s not possible to use `path notation` to index a literal block (or series). It’s perfectly valid to write in Python:
+
+----
+>>> [2,3,1][2]
+1
+----
+
+To achieve a similar behavior in red we use `pick`:
+
+----
+>> pick [2 3 1] 3
+== 1
+----
+
+A useful feature of `pick` is the possibility to use a `logic!` value for the index. The `true` value refers to the first item in the block (series) and the `false` value – to the second item.
+
+---- 
+>> pick data 3 < 5
+== "Red"
+>> pick data 2 > 3
+== "Yellow"
+----
+
+Speaking of first and second items of a block, Red has predefined functions for accessing the first 5 items of a series:
+
+----
+>> first data
+== "Red"
+>> second data
+== "Yellow"
+>> third data
+== "Green"
+>> fourth data
+== "Cyan"
+>> fifth data
+== "Blue"
+---- 
+
+Let’s consider another block of values: ` signal: [a 2 7 b 1 8 c 2 8] `. Here `a b c` are just `word!`s – that is they represent themselves until they 	have some value in some context. 
+
+----
+>> first signal
+== a
+----
+
+So , the first item if `signal` is just `a`. 
+
+----
+>> type? first signal
+== word!
+----
+
+If we try to get the value `a` refers to, we get an error:
+
+----
+>> get first signal
+*** Script Error: a has no value
+*** Where: get
+*** Stack:  
+----
+
+However, if we assign `a` value in the current (global) context, the first item of `signal` will be referring to it:
+
+----
+>> a: "abc"
+== "abc"
+>> get first signal
+== "abc"
+----
+
+Of what use are the words in a block? We can use them to mark positions in the block for an easy access:
+
+----
+== 7
+>> signal/a
+== 2
+>> signal/b
+== 1
+>> signal/c
+== 2
+----
+
+Alternatively, we can use `select` to find a value in a series and get the value after it:
+
+----
+>> select signal 'a
+== 2
+>> select signal 2
+== 7
+>>
+----
+
+=== Traversing a series
+
+Let’s try to navigate within a block/series. Our new block will be `b: [1 2.0 #"3" "four"]`
+
+`head` returns a series at its first index. Please note – the entire series, not the element at that position.
+
+----
+>> b
+== [1 2.0 #"3" "four"]
+>> head b
+== [1 2.0 #"3" "four"]
+----
+
+Similarly, there is `tail` that returns a series at the index after its last value.
+
+----
+>> tail b
+== []
+----
+
+Here `[]` is an empty block – there are no elements in the series at its tail.
+
+If we are interested in the elements of a series between its head and tail, we can use `next` to iterate over the series. `next` returns a series at the next index:
+
+----
+>> next b
+== [2.0 #"3" "four"]
+>>
+----
+
+Please be careful - `next` doesn’t update the series, that’s why you need to use a `set-word!` to re-assign it:
+
+----
+>> next b
+== [2.0 #"3" "four"]
+>> b
+== [1 2.0 #"3" "four"]
+>> b: next b
+== [2.0 #"3" "four"]
+>> b
+== [2.0 #"3" "four"]
+----
+
+Let’s compare Red’s `next` to Python’s `next()` method. 
+
+----
+>>> a = [1,'2',[1,2,3]]
+>>> a_it = iter(a)
+>>> next(a_it)
+1
+>>> next(a_it)
+'2'
+>>> next(a_it)
+[1, 2, 3]
+----
+
+Python’s next()` returns a single element and not the list. If at any point you convert the iterator to a list using `list(a_it)` or `[*a_it]`, the iterator is exhausted and a subsequent call to `next(a_it)` raises a `StopIteration` exception. 
+
+We said that `head` refers to the series at its first index – index 1. We can check the current index of a series with `index?`
+
+----
+>> b
+== [2.0 #"3" "four"]
+>> index? b
+== 2
+>> head b
+== [1 2.0 #"3" "four"]
+>> index? head b
+== 1
+>> index? tail b
+== 5
+----
+
+Don’t forget that `tail` returns the series at the index after its last item. So `index? tail b` returns one more than the length of `b`.
+
+We can find the length of a series using `length?`:
+
+----
+>> length? b
+== 4
+----
+
+We can check if a series is at its head (first index) or tail with `head?` and `tail?` respectively:
+
+----
+>> b
+== [1 2.0 #"3" "four"]
+>> head? b
+== true
+>> b: next b
+== [2.0 #"3" "four"]
+>> head? b
+== false
+>> b: tail b
+== []
+>> tail? b
+== true
+----
+
+We saw that we can go from head to tail in a series using `next`. Similarly, we can go backwards with `back`:
+
+----
+>> b
+== [1 2.0 #"3" "four"]
+>> tail b
+== []
+>> back tail b
+== ["four"]
+----
+
+Both `next` and `back` address the relative index of a series one position at a time. In contrast, `skip` allows bigger “jumps” relative to the current index. 
+
+----
+>> head? b
+== true
+>> skip b 2
+== [#"3" "four"]
+----
+
+The series is at its head (first index) and we are `skip`ping 2 indices. The result is the series 2 indices after its head:
+
+----
+>> index? skip b 2
+== 3
+----
+
+Don’t forget that the series head has index 1. We can use negative offset as a second argument to `skip`:
+
+----
+>> skip tail b -2
+== [#"3" "four"]
+----
+
+We start at the tail of `b` and go two steps backwards, we will get the series two indices before its tail.
+
+----
+>> index? tail b
+== 5
+>> index? skip tail b -2
+== 3
+----
+
+Please note that `skip`, `next` and `back` don’t go beyond series’ head/tail:
+
+----
+>> index? skip b 20
+== 5
+>> index? skip tail b -20
+== 1
+>>
+----
+
+The `at` functions has functionality similar to `skip`, but returns the series at a given index, instead of at an offset (relative to the current index).
+
+----
+>> head? b
+== true
+>> skip b 1
+== [2.0 #"3" "four"]
+>> at b 1
+== [1 2.0 #"3" "four"]
+----
+
+`at` allows a negative integer for its `index` argument:
+
+----
+>> at tail b -1
+== ["four"]
+----
+
+We will finish our tour of series navigation functions with `offset?`. Not surprisingly, It returns the offset between two series positions.
+
+----
+>> offset? b tail b
+== 4
+>> b
+== [1 2.0 #"3" "four"]
+>> subtract index? tail b index? b
+== 4
+----
+
+As you can see, `offset?` is the difference between two indices in a series. 
+
+=== Finding values in series
+
+To search a `series!` (or a `bitset!`,`typeset!`, or a `map!`) for a value, use `find`:
+
+---- 
+>> find "Red is a full-stack programming language" "full"
+== "full-stack programming language"
+>> find [a: 345.5 b: 56] integer!
+== [56]
+>> find "Red" charset "aoeiu"
+== "ed"
+---- 
+
+`find` returns the series where a value is found, or NONE.
+
+It has several refinements:
+
+`/part` limits the length of the search, a `length`  argument must be supplied.
+
+`/only` treats a series search value as a single value. Please note the difference:
+
+---- 
+>> find [1 2 3 4 [2 3] 5]  [2 3]
+== [2 3 4 [2 3] 5]
+>> find/only [1 2 3 4 [2 3] 5]  [2 3]
+== [[2 3] 5]
+---- 
+
+` /case` perform a case-sensitive search.
+
+`/skip` treat the series as fixed size records, a `size` argument is expected. 
+
+---- 
+>> find "abcdef" #"d"
+== "def"
+>> find/skip "abcdef" #"d" 2
+== none
+---- 
+
+In the second example the input is treted as a series of length 2 records (you can think of it as ["ab" "cd" "ef"]) and #”d” is none of them.
+
+`/last` finds the last occurrence of value, from the tail:
+
+---- 
+>> find/last "Mississippi" "ssi"
+== "ssippi"
+---- 
+
+`/reverse` finds the last occurrence of value, from the current index:
+
+---- 
+>> find/reverse find/last "Mississippi" "ssi" "s"
+== "sissippi"
+---- 
+
+`/tail` returns the tail of the match found, rather than the head.
+
+---- 
+>> find/tail %report.pdf #"."
+== %pdf
+---- 
+
+`/match` match at current index only and return tail of match:
+
+---- 
+>> find "abracadabra" "abra"
+== "abracadabra"
+>> find next "abracadabra" "abra"
+== "abra"
+>> find/match "abracadabra" "abra"
+== "cadabra"
+>> find/match next "abracadabra" "abra"
+== none
+---- 
+
+=== Getting several values from a series at once
+ 
+We saw how one can access a single value from a series using index and path notation, `pick` and `select`. It is very often necessary to get more than one value from a series at once. In such cases we use `copy`.
+ 
+----
+>> c: copy b
+== [1 2.0 #"3" "four"]
+----
+ 
+Here we created a new series `c` with values that are copies of the values of `b`. If we just used a `set-word!` without the `copy` function,  we would have created a reference to `b`. In such case any change in either `b` or `c` would result in changing the other, as they share a single series:
+ 
+----
+>> b
+== [1 2.0 #"3" "four"]
+>> c: b
+== [1 2.0 #"3" "four"]
+>> b/1: 11
+== 11
+>> b
+== [11 2.0 #"3" "four"]
+>> c
+== [11 2.0 #"3" "four"]
+----
+
+When the series contains nested values, they are normally copied as a reference:
+
+---- 
+>> colors: [warm: ["red" "yellow" "orange"] cool: ["blue" "green" "purple"]]
+== [warm: ["red" "yellow" "orange"] cool: ["blue" "green" "purple"]]
+>> colors-copy: copy colors
+== [warm: ["red" "yellow" "orange"] cool: ["blue" "green" "purple"]]
+>> colors/warm/1: "papaya"
+== "papaya"
+>> colors
+== [warm: ["papaya" "yellow" "orange"] cool: ["blue" "green" "purple"]]
+>> colors-copy
+== [warm: ["papaya" "yellow" "orange"] cool: ["blue" "green" "purple"]]
+---- 
+
+As you see, the change in the original series leads to a change in the copy. In order to avoid this, you need to use `copy/deep` - it copies the nested values too:
+
+---- 
+>> colors-deep-copy: copy/deep colors
+== [warm: ["papaya" "yellow" "orange"] cool: ["blue" "green" "purple"]]
+>> colors/warm/1: "red"
+== "red"
+>> colors
+== [warm: ["red" "yellow" "orange"] cool: ["blue" "green" "purple"]]
+>> colors-deep-copy
+== [warm: ["papaya" "yellow" "orange"] cool: ["blue" "green" "purple"]]
+---- 
+
+Red’s `copy/deep` is similar to Python’s `copy.deepcopy()` 
+
+If want to copy just a part of the series, we can use `copy` with refinement `/part`. The first argument indicates where to start, the second – how many elements to copy.
+
+----
+>> b: [1 2.0 #"3" "four"]
+== [1 2.0 #"3" "four"]
+>> copy/part b 2
+== [1 2.0]
+>> copy/part at b 2 2
+== [2.0 #"3"]
+>> copy/part tail b -3
+== [2.0 #"3" "four"]
+>>
+----
+
+In the second example we start not at the head of the series, but at its second index.
+
+You can think of `copy/part` as using Python slices:
+
+----
+>>> a=[1,2.0,'3','four']
+>>> a[:2]
+[1, 2.0]
+>>> a[-3:]
+[2.0, '3', 'four']
+----
+
+You might be now wondering if it’s possible to mimic Pythons slicing with a step in Red. Python does it using the third parameter of the slice notation.
+
+
+----
+a[::2]
+[1, '3']
+----
+
+Red uses a different function for this - `extract`:
+
+----
+>> extract b 2
+== [1 #"3"]
+>> extract next b 2
+== [2.0 "four"]
+
+----
+
+=== Adding element to a series
+
+Until now we were only copying elements from a series. Let’s see how to add new items. If we need to add one or more elements at the tail of a series, we do it with `append`:
+
+----
+>> append b 5
+== [1 2.0 #"3" "four" 5]
+----
+
+We can append several copies of the element using `/dup` refinement:
+
+----
+>> append/dup b 6 3
+== [1 2.0 #"3" "four" 5 6 6 6]
+----
+
+Python has two separate methods for adding new elements to a list as a single value or multiple values - `append()` and `extend()
+
+----
+>>> a=[1,2,3,4]
+>>> a.append(5)
+>>> a
+[1, 2, 3, 4, 5]
+>>> a.append([6,7])
+>>> a
+[1, 2, 3, 4, 5, [6, 7]]
+>>> a.extend([8,9])
+>>> a
+[1, 2, 3, 4, 5, [6, 7], 8, 9]
+----
+
+Red uses the `/only` refinement to append the new value as block:
+
+----
+>> a: [1 2 3 4]
+== [1 2 3 4]
+>> append a [5 6]
+== [1 2 3 4 5 6]
+>> append/only a [7 8]
+== [1 2 3 4 5 6 [7 8]]
+----
+
+We can add elements at any position in a series using `insert`
+
+---- 
+>> b: [1 2.0 #"3" "four" 5 6 6 6]
+== [1 2.0 #"3" "four" 5 6 6 6]
+>> insert b 'zero
+== [1 2.0 #"3" "four" 5 6 6 6]
+>> b
+== [zero 1 2.0 #"3" "four" 5 6 6 6]
+>> insert/only at b 2 [2]
+== [1 2.0 #"3" "four" 5 6 6 6]
+>> b
+== [zero [2] 1 2.0 #"3" "four" 5 6 6 6]
+----
+
+Please note that we need to use the `only` refinement when we need the new element be added as a block, otherwise the block contents would be added.
+
+=== Removing items from a series
+
+We can remove values from a series using `remove`:
+
+----
+>> s: "Hello world!"
+== "Hello world!"
+>> remove s
+== "ello world!"
+>> s
+== "ello world!"
+>>
+----
+
+`remove`  returns the series at the same index after removing
+In Python you use `del` to remove an item at the specified index (I’ll mention `pop()` in a subsequent section):
+
+----
+>>> a=[3,1,4,1,5]
+>>> del a[2]
+>>> a
+[3, 1, 1, 5]
+----
+
+The argument can be a series at some specific index:
+
+----
+s: "Hello world!"
+== "Hello world!"
+>> remove at s 6
+== "world!"
+>> s
+== "Helloworld!"
+----
+
+If we need to remove more than one value, we can use the `/part` refinement:
+
+----
+>> remove/part at s 6 3
+== "ld!"
+>> s
+== "Hellold!"
+>>
+----
+
+One way to do this in Python is to use `del` with list slicing, like `del a[2:5]`
+Sometimes the whole series should the emptied, or all elements after certain index to be removed. It can be done with `remove/part`, but there is a special function for this - `clear`. It removes series values from current index to tail and returns the new tail.
+
+----
+>> s: "Hello world!"
+== "Hello world!"
+>> clear at s 6
+== ""
+>> s
+== "Hello"
+----
+
+A special case of removing items from series is getting rid of whitespaces from srtings or `none` from blocks. Red has a special function for this operation - `trim`:
+
+---- 
+>> txt: "   Removes space from a string or NONE from a block.  "
+== {   Removes space from a string or NONE from a block.  }
+>> trim txt
+== "Removes space from a string or NONE from a block."
+>> trim/all txt
+== "RemovesspacefromastringorNONEfromablock."
+>> trim/with txt #"e"
+== "RmovsspacfromastringorNONEfromablock."
+>> data
+== [345 none 1123 none none 0 -34]
+>> trim reduce data
+== [345 1123 0 -34]
+---- 
+
+=== Taking elements from series
+
+We saw that we could remove elements from series. Sometimes we need to use these elements and not just discard them. This is done using `take`:
+
+----
+>> a
+== ["yellow" "green" "blue"]
+>> color: take a
+== "yellow"
+>> color
+== "yellow"
+>> a
+== ["green" "blue"]
+----
+
+The element at the current index was removed from the series, and returned as result. `/part` refinement is available in `take’ too. Use `/last` when you need to take element(s) from the tail of a series. 
+Python’s `pop()` is similar to Red’s `take` (with no `/part` refinement)
+
+----
+>>> a=[3,1,4,1,5]
+>>> last_a=a.pop()
+>>> a
+[3, 1, 4, 1]
+>>> last_a
+5
+----
+
+----
+>> a: [3 1 4 1 5]
+== [3 1 4 1 5]
+>> last-a: take/last a
+== 5
+>> a
+== [3 1 4 1]
+----
+
+=== Changing values in series
+
+The easiest way to change a value in a series in Red is to use path notation and specify the index of the value we want to change: 
+
+---- 
+>> a: [3 1 4 1 5]
+== [3 1 4 1 5]
+>> a/2: 10
+== 10
+>> a
+== [3 10 4 1 5]
+---- 
+
+This corresponds to Python’s assignment that refers to the item’s index within a list:
+
+----
+>>> a=[3,1,4,1,5]
+>>> a[1]=10
+>>> a
+[3, 10, 4, 1, 5]
+----
+
+To change a value (or consecutive values) in Red wecan also use `change`. We need to indicate the series we want to change and the new value. If we give a single value, the value at the current index of the series will be changed to the new value:
+
+----
+>> a: [3 1 4 1 5]
+== [3 1 4 1 5]
+>> change at a 2 10
+== [4 1 5]
+>> a
+== [3 10 4 1 5]
+>>
+----
+
+If the new value is a block, Red will change the values starting at the current index with the values from the block, appending the new values if needed:
+
+----
+>> b: [2 3 1]
+== [2 3 1]
+>> change at b 2 [4 5 6 7]
+== []
+>> b
+== [2 4 5 6 7]
+----
+
+In contrast, Python changes a single value with a single value, keeping the list:
+
+----
+>>> b=[2,3,1]
+>>> b[1]=[4,5,6,7]
+>>> b
+[2, [4, 5, 6, 7], 1]
+----
+
+If we need to do a similar thing in Red, we would use the `/only` refinement (please note how the similar actions are described with the same word - `only` in this case, analogous to `/only` in `append` and `insert`)
+
+----
+>> b: [2 3 1]
+== [2 3 1]
+>> change/only at b 2 [4 5 6 7]
+== [1]
+>> b
+== [2 [4 5 6 7] 1]
+----
+
+If we need to change a given number of values with several values, we can do it with the `/part`  refinement:
+
+----
+>> b: [2 3 1]
+== [2 3 1]
+>> change/part at b 2 [4 5 6 7] 1
+== [1]
+>> b
+== [2 4 5 6 7 1]
+---- 
+
+While `change` changes a series based on index, `replace` changes the series based on value/pattern.
+
+`replace` series pattern value – replaces a pattern (a specific value or a `parse` rule) in a series (any-block!, aby-string!, binary! or vector!) with a new value, in place.
+
+---- 
+>> fruit: "Äpfel"
+== "Äpfel"
+>> replace fruit #"Ä" "Ae"
+== "Aepfel"
+>> data: [pos: 10x10 speed: 3x2 mass: 20 grid: 10x10]
+== [pos: 10x10 speed: 3x2 mass: 20 grid: 10x10]
+>> replace/all data 10x10 5x5
+== [pos: 5x5 speed: 3x2 mass: 20 grid: 5x5]
+---- 
+
+As you see, we can replace pairs in blocks as easiliy as characters in strings. 
+
+Although `parse` needs a separate tutorial, lets see how `replace` can benefit from using a `parse` rule for its pattern:
+
+---- 
+>> replace/all data pair! 0x0
+== [pos: 0x0 speed: 0x0 mass: 20 grid: 0x0]
+---- 
+
+I used the last value of ` data` block from the previous example and the simple `pair!` rule with `replace/all` - it replaced all values of `pair!`  datatype in the block with a new value – `0x0`.
+
+=== Moving values within series
+
+Every series is an ordered collection of elements. Sometimes we need to change the order of the elements in a block/series. In such cases, we use `move`:
+
+----
+>> a: ["red" "green" "blue" "yellow"]
+== ["red" "green" "blue" "yellow"]
+>> move back tail a next a
+== ["blue"]
+>> a
+== ["red" "yellow" "green" "blue"]
+----
+
+The two arguments to `move` are just series – that’s why we can move elements from one series to another, not just from one position in a series to another position in the same series:
+
+----
+>> b: ["cyan" "magenta"]
+== ["cyan" "magenta"]
+>> move at a 2 b
+== ["green" "blue"]
+>> b
+== ["yellow" "cyan" "magenta"]
+----
+
+`move` has a `/part` refinement too for moving more than one element at once.
+
+When we need to exchange a single element between series, we use `swap`:
+
+----
+>> a
+== ["red" "green" "blue"]
+>> b
+== ["yellow" "cyan" "magenta"]
+>> swap a b
+== ["yellow" "green" "blue"]
+>> a
+== ["yellow" "green" "blue"]
+>> b
+== ["red" "cyan" "magenta"]
+----
+
+=== Sorting series
+
+A special case of moving values within series is sorting. The goal of sorting is to arrange the elements of a series according some criterion, for example a number list from smallest number to the largest. 
+
+---- 
+>> a: [53 81 67 51 13 4 3 71 48 92]
+== [53 81 67 51 13 4 3 71 48 92]
+>> sort copy a
+== [3 4 13 48 51 53 67 71 81 92]
+>> a
+== [53 81 67 51 13 4 3 71 48 92]
+---- 
+
+When used without refinemens, `sort` arranges the items in ascending order, as it’s seen from the example above. `sort` modifies the series, that’s why you need to make a copy of your data if you still need the original arrangement.  The Python analogues are as follows:
+
+. Sorting in Python and Red
+[cols="1,1"] 
+|===
+|Python |Red
+
+|list.sort()
+|sort list
+
+|sorted(list)
+| sort copy list
+|===
+
+
+When you need to sort in descending order, use the `/reverse` refinement:
+
+---- 
+>> days: ["Monday" "Tuesday" "Wednesday" "Thursday" "Friday" "Saturday" "Sunday"]
+== ["Monday" "Tuesday" "Wednesday" "Thursday" "Friday" "Saturday" ...
+>> probe sort/reverse days
+["Wednesday" "Tuesday" "Thursday" "Sunday" "Saturday" "Monday" "Friday"]
+== ["Wednesday" "Tuesday" "Thursday" "Sunday" "Saturday" "Monday" "Friday"] 
+---- 
+
+You can sort just the initial part of a series using the `/part` refinement:
+
+---- 
+>> text: ["Lorem" "ipsum" "dolor" "sit" "amet," "consectetur" "adipiscing" "elit."]
+== ["Lorem" "ipsum" "dolor" "sit" "amet," "consectetur" "adipiscing" "elit."]
+>> sort/part text 5
+== ["amet," "dolor" "ipsum" "Lorem" "sit" "consectetur" "adipiscing" "elit."]
+---- 
+
+You can see that only the first five words have been sorted and the remaining block stayed unsorted.
+
+An interesting feature of `sort` is that it can treat the series as a set of fixed size records. Let’s illustrate this concept with the following example. Let’s assume we have the following `map` 
+
+---- 
+>> id-name-map: #[3 "John" 5 "Johan" 1 "Ivan" 2 "Jean" 4 "Giovanni" 6 "Juan"]
+== #[
+    3 "John"
+    5 "Johan"
+    1 "Ivan"
+    2 "Jean"
+    4 "Giovanni"
+    6 "Juan"
+]
+>> id-name-map/3
+== "John"
+>> id-name-block: to block! id-name-map
+== [
+    3 "John"
+    5 "Johan"
+    1 "Ivan"
+    2 "Jean"
+    4 "Giovanni"
+    6 "Juan...
+>> id-name-block/3
+== 5
+>> sort/skip id-name-block 2
+== [
+    1 "Ivan"
+    2 "Jean"
+    3 "John"
+    4 "Giovanni"
+    5 "Johan"
+    6 "Juan...
+---- 
+
+`id-name-map` is a `map` that associates an id to a name (note that it’s not guaranteed that the key-value pairs are in any specific order in a map; `sort` doesn’t work on maps). We convert the map to a block. The block `id-name-block` is flat and id – name pairs are preserved. We sort the block using the `/skip` refinement with value 2 – that is `sort` treates the block as a set of records with size 2 by their first firld. It sorts the `id` s and the names “associated” with them. 
+
+When we treat a series as fixed size records, we can also use `/all` - it compares all fields.
+
+It is possible to use `/compare` refinement. It accepts a number (offset) or a function. When the argument to `/compare` is an offset, we also need to use the `/skip` refinement, because it supposes we treat the series as fixed size records. It uses the offset to sort the records by their `n` th field, where `n` is the argument to `/compare`.
+
+---- 
+>> shapes: [
+[        triangle 50 255
+[        rectangle 225 340
+[        square 200 200
+[    ]
+== [
+    triangle 50 255 
+    rectangle 225 340 
+    square 200 200
+]
+>> sort/skip/compare copy shapes 3 1
+== [
+    rectangle 225 340 
+    square 200 200 
+    triangle 50 255
+]
+>> sort/skip/compare copy shapes 3 2
+== [
+    triangle 50 255 
+    square 200 200 
+    rectangle 225 340
+]
+>> sort/skip/compare copy shapes 3 3
+== [
+    square 200 200 
+    triangle 50 255 
+    rectangle 225 340
+]
+---- 
+
+We have a block of 9 values, which we want to treat as records of size 3 – that is the name of the shape, it’s `x` coordinate and it’s `y` coordinate. ` sort/skip/compare copy shapes 3 1` sorts the block as records of size 3 (`/skip` and parameter 3) by the 1st value of each record (`/compare` with argument 1). The next examples demonstrate sorting according to the 2nd (`x` coordinate) and 3rd (`y` coordinate) fields.
+
+When the argument to the `/compare` refinement is a function, it needs to be a function with exactly 2 arguments, because it will be called for each two elements that are currently sorted. We’ll talk about functions in more details in a dedicated section. For the moment let’s just sort a block of strings according to their length:
+
+---- 
+colors: ["transparent" "gray" "red" "white" "beige" "aqua" "black" "blue"]
+sort/compare colors func[x y][(length? x) <  length? y]
+== ["red" "gray" "blue" "aqua" "black" "white" "beige" "transparent"]
+---- 
+
+I’ve used an anonymous function with two arguments `x` and `y`, that compares wherher the length of the first argument is less than the length of the second. `sort` used this function an argument for the `/compare` refinement and sorted the strings according the comparison in the function.
+
+=== Series as sets
+
+Sometimes we only need to know what the series elements are, regardless of their count and order. In such cases we treat the series as a set. 
+We re move the duplicates in a series using `unique`:
+
+----
+>> a: [3 1 4 1 5]
+== [3 1 4 1 5]
+>> unique a
+== [3 1 4 5] 
+>> a
+== [3 1 4 1 5]
+>> unique "AbracadABra"
+== "Abrcd"
+----
+
+Please note that in the last example Red has removed the lowercase `a` to. By default, Red is case insensitive. In order to distinguish between uppercase ans lowercase characters, we need to use the `case` refinement:
+
+---- 
+>> unique/case "AbracadABra"
+== "AbracdB"
+----
+
+The series is not updated by the call to `unique` - you need to reassign it if you want to use the result as a new value for the series.
+Please note that there is no `set` datatype in Red as in Python:
+
+----
+>>> a=[3,1,4,1,5]
+>>> set_a=set(a)
+>>> set_a
+{1, 3, 4, 5}
+>>> type(set_a)
+<class 'set'>
+----
+
+Red provides the following operations on data sets: `union`, `difference`, `intersect` and `exclude`. 
+
+=== String-specific functions
+
+Let’s take a look at some functions that works only in string series.
+
+`split` breaks a string into pieces using the specified delimiter(s). The delimiter can be a character, a string, or a bitset.
+
+---- 
+>> legend: "Break a string series into pieces using the provided delimiters"
+== {Break a string series into pieces using the provided delimiters}
+>> split legend space
+== ["Break" "a" "string" "series" "into" "pieces" "using" "the" "provided" "delimiters"]
+---- 
+
+`space` is a predefined value for the space character `#" "`. The result of `split` is a block of strings. Spliting on string values is straightforward:
+
+---- 
+>> split "Mississippi" "ss"
+== ["Mi" "i" "ippi"]
+---- 
+
+A `bitset!` is an array of bits that is used to store boolean values. Bitset indexing is zero based with 1 values representing `true`, and 0 values representing `false`.  Bitsets are used to model sets of non-negative integers such as Unicode Code Points.
+
+---- 
+>> make bitset! #"A"   ; create a bitset with bit 65 set
+== make bitset! #{000000000000000040}
+>> make bitset! "hi"   ; create a bitset with bits 104 and 105 set
+== make bitset! #{00000000000000000000000000C0}
+---- 
+
+Red provides a shortcut for `make bitset!` - `charset`. This is what we are going to use in our example of splitting on a bitset. Let’s split a string on vowels `aoeiu`:
+
+---- 
+>> str: "A vowel is a syllabic speech sound pronounced..."
+== "A vowel is a syllabic speech sound pronounced..."
+>> vowel: charset "AOEIUaoeiu"
+== make bitset! #{000000000000000044410400444104}
+>> split str vowel
+== ["" " v" "w" "l " "s " " syll" "b" "c sp" "" "ch s" "" "nd pr" "n" "" "nc" "d..."]
+---- 
+
+`pad` - as its name implies, pads a string (or a formed value) with spaces, on the right side by default. 
+
+---- 
+>> pad "text" 10
+== "text      "
+---- 
+
+Use the `/left` refinement when you need to pad the string on the left side.
+
+---- 
+>> foreach n [999 15 7 1078][print pad/left n 4]
+ 999
+  15
+   7
+1078
+---- 
+
+I will introduce the `foreach` loop in a subsequent section – it goes through all the items in a series. In this example, I printed each element of the block padded with spaces to four characters on the left side. You can use another character for padding with `/with` refinement.
+
+When you need to change the case of a string, you can use `lowercase` and `uppercase`:
+
+---- 
+>> lowercase "Red and Python"
+== "red and python"
+>> uppercase "red and python"
+== "RED AND PYTHON"
+---- 
+
+Note that they change the string in place – make a `copy` when you need to preserve the original formatting. Python’s `upper()` and `lower()` methods return a new string.
+
+Red provides functions to encode/decode strings and binary! values to/from binary-coded strings. `enbase` encodes a string into a binary-coded string; `debase` decodes a binary-coded string to binary value. The possible bases are 2, 16, 58 and 64. The default is BASE-64. Use `/base` refinement with when you need one of 2, 16 or 58.
+
+---- 
+>> enbase "binary-coded"
+== "YmluYXJ5LWNvZGVk"
+>> debase "YmluYXJ5LWNvZGVk"
+== #{62696E6172792D636F646564}
+>> to-string debase "YmluYXJ5LWNvZGVk"
+== "binary-coded"
+---- 
+
+Note that `debase` returns a `binary!` - that’s why you need to convert the result explicitly to a string when necessary.
+
+---- 
+>> enbase/base "15" 2
+== "0011000100110101"
+>> enbase/base to-binary 15 2
+== "00000000000000000000000000001111"
+---- 
+
+In the example above, you can see how you can convert decimal integers to binary. 
+
+You can use `compress` to compress data of `any-string!` or `binary!` type and `decompress` to decompress it. ZLIB and DEFLATE formats are supported.
+
+== Code as data
+
+As you already know, an important paradigm in Red is “code is data”. We said that everything is just data until evaluated. 
+
+=== Load
+
+Usually every computer program starts as text that is analyzed, parsed and interpreted/compiled. Red has the `load` function that reads and evaluates a source and returns a value or block of values.
+
+---- 
+>> src: {n: 5 loop n [print "Hello world!"]}
+== {n: 5 loop n [print "Hello world!"]}
+>> src->code: load src
+== [n: 5 loop n [print "Hello world!"]]
+>> foreach item src->code [print[mold item ":" type? item]]
+n: : set-word
+5 : integer
+loop : word
+n : word
+[print "Hello world!"] : block
+---- 
+
+`src` is a string. We load it to a block named scr->code. Red has analyzed the string and converted each part to a Red-value. I used `foreach`to traverse the block and print the molded (more about molding will follow soon) value and its Red type.
+
+`load` has several refinements like `/next` (loads only the next value), `/part` (limits the loading to a certain position) or `/as` (specifies the type of data – e.g. bmp, gif, jpeg, png)
+
+=== Do
+
+When we want not only to load the data (convert it to Red values), but to execute it, we use `do`. It evaluates and executes all the values and returns the last one.
+
+---- 
+>> src->code
+== [n: 5 loop n [print "Hello world!"]]
+>> do src->code
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+---- 
+
+Here we used `do` to execute a block of Red values (`src->code`). Note that we could use `do` just as easily with `src`, that is with a string value.  
+
+---- 
+>> do src
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+---- 
+
+`do` has `/next` refinement too (do only the next value)
+
+`do` is similar to Python 3 `exec()` function. Don’t forget that `do` returns the result of the last evaluation; `exec()` doesn’t return any value (returns `None`). Python’s `eval()` returns a value, but it only accepts a single expression.
+
+=== Reduce
+
+`reduce` returns a copy of a block with all its expressions evaluated. This is very useful when we need to use the data from a block that was created dynamically in another function or DSL (like View or Draw).
+
+---- 
+>> str: "some text"
+== "some text"
+>> n: 10
+== 10
+>> data: ['num 2 * n 'len length? str]
+== ['num 2 * n 'len length? str]
+>> reduce data
+== [num 20 len 9]
+---- 
+
+`data` is composed of seven values with the following datatypes: lit-word, integer, word, word, lit-word ,word and word. What `reduce` does is get the values words refer to, evaluate all the expressions and collect the results in a block. `lit-words` evaluate to themselves, that’s why they remain in the reduced block.
+
+---- 
+>> select reduce data 'num
+== 20
+---- 
+
+You can use the `/into` refinement of `reduce` - it allows you to append the results from `reduce` to the block you have given as an argument to `/into`, instead of creating a new block.
+ 
+=== Compose
+
+`compose` is similar to `reduce` but it only evaluates the parens in a block.
+
+---- 
+>> set [x  y size] [32 25 20]
+== [32 25 20]
+>> x
+== 32
+>> y
+== 25
+>> size
+== 20
+>> compose[circle (as-pair x * size y * size) 100]
+== [circle 640x500 100]
+---- 
+
+`x`, `y` and `size` are all words that have values in the current context. `as-pair` is a Red function that takes two numbers and returns a `pair!` composed of them. `circle` is part of `Draw` dialect and draws a circle (or an ellipse) with given center (a pair of coordinates) and a radius (or radii for ellipses). If I had used `reduce` in the example above, I would have gotten an error `*** Script Error: circle has no value` - that’s why in the previous example I used `lit-words` (`'num` and `'len`).
+
+=== Rejoin
+
+`rejoin` reduces and joins a block of values. 
+
+---- 
+>> toy: "dog"
+== "dog"
+>> qty: 10
+== 10
+>> toy-ref: rejoin[toy ": " qty " pieces"]
+== "dog: 10 pieces"
+---- 
+
+`rejoin` evaluates all the values in the block and joins them to a new series. The type of the result is implied by the first value of the block:
+
+---- 
+>> rejoin [qty [20 12]]
+== "1020 12"
+>> rejoin [[20 12 ] qty]
+== [20 12 10]
+>> rejoin ["file" %.ext]
+== "file.ext"
+>> rejoin [%file  ".ext"]
+== %file.ext
+---- 
+ 
+=== Repend
+
+`repend` appends a reduced value to a series and returns the series head:
+
+---- 
+>> toy2: "doll"
+== "doll"
+>> qty2: 12
+== 12
+>> repend copy toy-ref ["; " toy2 ": " qty2 " pieces"]
+== "dog: 10 pieces; doll: 12 pieces"
+---- 
+Note how `repend` reduces the values before appending them, in contrast to `append`:
+
+---- 
+>> values: [20 15]
+== [20 15]
+>> repend copy values [qty qty2]
+== [20 15 10 12]
+>> append copy values [qty qty2]
+== [20 15 qty qty2]
+---- 
+
+`append` does not evaluate the values, as seen from the example above - `qty` and `qty2` remain just words.
+
+`repend` has a refinement `/only` for appending a block of values as a block (of reduced values).
+
+=== Form
+
+`form` returns a user-friendly string representation of a value:
+
+---- 
+>> a: ["red" "orange" "yellow"]
+== ["red" "orange" "yellow"]
+>> form a
+== "red orange yellow"
+---- 
+
+=== Mold
+
+`mold` returns a source format string representation of a value.
+
+---- 
+>> mold a
+== {["red" "orange" "yellow"]}
+>> m: #[a 10 b[3 1 2]]
+== #[
+    a: 10
+    b: [3 1 2]
+]
+>> mold m
+== {#(^/    a: 10^/    b: [3 1 2]^/)}
+>> print mold m
+#[
+    a: 10
+    b: [3 1 2]
+]
+---- 
+
+`mold` is similar to Python’s `repr()` function.
+
+== Conditionals
+
+As we said before, Red does not have any keywords. Where some other programming languages use special constructs for control flow, Red uses (native) functions.
+
+=== If
+
+When we want to execute some code depending on a condition, we use `if `. It expects two arguments:  a conditional expression and a block to evaluate. If the conditional expression is true, the block is evaluated, otherwise the function returns none.
+Using blocks as code is a common pattern in Red. Blocks stay unevaluated until feeded into some function. 
+
+----
+>> hooray!: [print "Weekend at last!"]
+== [print "Weekend at last!"]
+>> if now/weekday > 5 hooray!
+Weekend at last!
+>> now/weekday
+== 6
+----
+`hooray!` is just a block consisting of a word! `print` and a string! "Weekend at last!". Red just makes the `set-word!` `hooray!` to refer to the literal block that follows. At this point, `print` inside the block is just a word and doesn’t mean anything. 
+
+The conditional expression in our example is `now/weekday > 5`. `now` is a native function that returns a value of `date!`  datatype, set to the current date and time. `/weekday` is a `refinement!` to `now` that determines which day of the week is a given date, 1 for Monday. So we simply check if the weekday is greater then Friday and if it is, we want the block that we have given as a second argument evaluated. More often the then-block argument of `if` is a literal block, but don’t forget that if could have been declared and even changed before its use. Or it can be changed after its first use and used for another purposes.
+
+Red’s `if condition then-block` works similar to Pythons `if condition: code-block`, where code-block is either a one line of code immediately following the semicolon, or an indented block of code.
+
+Now it’s the right time to compare the comparison operators in Python and Red:
+
+.Comparison operators in Python and Red
+[cols="1,1,2"] 
+|===
+|Python |Red |Name
+
+|==
+|=
+|Equal to
+
+|!=
+|<>
+|Not equal to
+
+|>
+|>
+|Greater than
+
+|<
+|<
+|Less than
+
+|>=
+|>=
+|Greater than or equal to
+
+|#<#=
+|#<#=
+|Less than or equal to
+
+|===
+
+
+Note that the simple comparison is just `=` in Red. There is `==` too, but it performs a stricter comparison, taking also under account the datatypes of the values:
+
+----
+>> 345 = 345.0
+== true
+>> 345 == 345.0
+== false
+---- 
+
+`not` is used when we need to reverse the meaning of a Boolean expression. Remember that booleans are a `logic!` type in Red. True is indicated by any one of `true, on, yes`; False – by any one of `false, off, no`. 
+
+---- 
+>> not true
+== false
+>> not off
+== true
+>> not not no
+== false
+>> not 10 > 20
+== true
+----
+
+=== Unless
+You can write `if not condition`, but there is a convenient function for this pattern, `unless`:
+
+---- 
+>> a: 10
+== 10
+>> unless a >= 20 [print "a is less then 20"]
+a is less then 20
+---- 
+
+=== Either
+`if` and `unless` execute the code in the then-block when the condition is met; they do not provide an alternative. If you need to execute an appropriate code for the either Boolean results of a condition, you use `either`:
+
+---- 
+>> print either now/weekday > 5 ["Weekend"]["workday"]
+workday
+---- 
+
+As you can see, `either` corresponds to Pythons `if-else` statement – if the condition is true, the first block is executed, otherwise – the second one.
+
+If you need to reproduce the Pythonic `if-elif-else`, you’ll need to cascade two or more `either` function calls: `either cond1 [true-block-1][either cond2[true-block-2][false-block]]`.
+
+=== Case
+
+Sometimes you need to select one block of code to execute from many, based on which one has a true condition.
+
+---- 
+color: "Red"
+RYB-type: case [
+    find ["Red" "Yellow" "Blue"] color ["Primary color"]
+    find ["Orange" "Green" "Purple"] color ["Secondary color"]
+    find ["Vermilion" "Amber" "Chartreuse" "Teal" "Violet" "Magenta"] color ["Tertiary color"]
+]
+print RYB-type
+---
+Primary color
+---- 
+
+The syntax is `case block`, where `block` is a block of pairs, each pair consisting of condition and block to execute. `case` evaluates the block after the first true condition.
+One important thing to remember about `case` is that the pairs don’t have to be connected in any way. There’s a `/all` refinement, that evaluates the block after every true condition.
+
+---- 
+color: "Teal"
+case/all [
+    true [prin [form color " is a "]]
+    find ["Red" "Yellow" "Blue"] color [print "Primary color"]
+    find ["Orange" "Green" "Purple"] color [print "Secondary color"]
+    find ["Vermilion" "Amber" "Chartreuse" "Teal" "Violet" "Magenta"] color [print "Tertiary color"]
+true [print "Analysls complete! "]
+]
+---
+Teal  is a Tertiary color
+Analysls complete!
+----
+
+=== Switch
+
+Another form of branching is achieved using `switch`. It accepts a value of any type as a first argument and a block, consisting of any number of sets  - values followed by a block - as its second argument. The block after the value that matches the first argument is evaluated.
+
+---- 
+switch 5 [
+    1 2 3 ['low]
+    4 5 6 ['mid]
+    7 8 9 ['high]
+]
+---
+"mid"
+---- 
+
+If the value is not found in the block, `switch` returns `none`. If you need it to return some specific value in case the first argument is not found, use `/default` refinement:
+
+---- 
+color: "Orange"
+switch/default color [
+    "Blue" [0.0.255]
+    "Red" [255.0.0]
+    "Beige" [255.228.196]
+] [0.0.0]
+--- 
+0.0.0
+---- 
+
+Python doesn’t have a `switch` or `case` statement yet (Python 3.10 is going to have a `match/case` syntax. Until then you can use `if/elif/else` statement, or use a `get()` method with a dictionary as a workaround.
+
+=== Or, and, xor, any, all
+
+Very often the Boolean condition is not a simple one but compound, consisting of different parts combined using logcal operators. We already used `not`, which returns the logical complement of a value. 
+
+`or` returns `true` if either of the arguments or both of them are true.
+
+---- 
+>> a: 10
+== 10
+>> a > 0 or (a < 20)
+== true
+---- 
+
+Please note the use of parentheses around the right hand side argument of `or`. This is due to the fact that `or` is an op! (infix function) and there is no precedence. The left-hand side argument is if type `logic!` (`a > 0` is evaluated to `true`) and if there were no parentheses, Red would have tried to calculate `true or a` first. But `a` is a number and that would have resulted in an error.
+
+`and` returns `true` only if both arguments are `true`.
+
+`xor` returns true if only one of the arguments is true.
+
+`or`, `and` and `xor` are also used for the bitwise operations on numbers.
+
+Sometimes there are a lot of conditons that should be combined. It is often more convenient to use `all` and `any` functions. Let’s change our last example so that it uses `all`:
+
+---- 
+>> all [a > 0 a < 20 30]
+== 30
+---- 
+
+So, `all` takes a block of values, evaluates them and returns the last evaluated value if all are truthy, or `none` otherwise. 
+
+`any` evaluates and returns the first truthy value, if any; else NONE.
+
+In order to demonstrate `any`, let’s pretend that we want to check if a given point is outside of a given rectangle. The point is defined as a `pair!` of integers and the rectangle – as two pairs of integers (it’s top-left and bottom-right corners).
+
+---- 
+p: 50x23	; point with x = 50,  y = 23
+tl: 40x40	; top-left corner, x = 40, y = 40
+br: 100x100	; bottom-right corner, x = 100, y = 100
+any [
+    p/x < tl/x
+    p/y < tl/y
+    p/x > br/x
+    p/y > br/y
+]
+ ---
+true
+---- 
+
+The `y` coordinate of our point is less than the `y` coordinate of the top-left corner of the rectangle. Only this condition is true, but it is sufficient to know that the point lies outside of the rectangle.
+
+Be carefull when you try to apply some patterns you may have adopted with Python: in Python empty strings / lists / tuples / dictionaries etc. have `falsy` Boolean values, zero numeric values – too. This is not the case in Red:
+
+---- 
+>> to logic! []
+== true
+>> to logic! ""
+== true
+>> to logic! #[]
+== true
+>> to logic! 0
+== true
+>> to logic! 0.0
+== true
+---- 
+
+On the other hand, the Boolean value of `none` is `false`:
+
+----
+>> to logic! none
+== false
+----
+ 
+== Loops
+
+=== Loop
+
+The simplest of the looping constructs in Red is `loop`. It takes a value (an integer! or a float! – that is automatically truncated to an integer) and a block as its arguments and evaluates the block as many times as the value. Of course the value can be a word and not just a literal numeric value.
+
+---- 
+>> loop 5 [print "I Am a Strange Loop"]
+I Am a Strange Loop
+I Am a Strange Loop
+I Am a Strange Loop
+I Am a Strange Loop
+I Am a Strange Loop
+---- 
+
+=== Repeat
+
+`repeat` is the more useful cousin of `loop`. It evaluates a given block a predefined number of times, while a loop counter keeps a track of the iterations. The starting value of the counter is 1.
+
+---- 
+>> n: 4
+== 4
+>> repeat count n [print["Iteration number" count]]
+Iteration number 1
+Iteration number 2
+Iteration number 3
+Iteration number 4 
+---- 
+
+Here `n` is the number of times to evaluate the block and `count` is the iteration counter.
+
+You can think of `repeat x y []`  as Python’s `for x in range(y): …` (Just don’t forget that Red starts the repeat counter at 1):
+
+---- 
+>>> for n in range(5): print(n)
+0
+1
+2
+3
+4
+---- 
+
+=== While
+
+When it’s not known in advance how many times a loop will be exexcuted, it’s a good idea to use `while` or `until`. `while` takes a condition-block and a body-block as arguments and evaluates the body as long as the condition evaluates to truthy value.
+
+---- 
+>> text: "Red is a next-gen programming language, strongly inspired by REBOL "
+== {Red is a next-gen programming language, strongly inspired by REBOL }
+>> while [not empty? text][print take/part text index? find text space]
+Red 
+is 
+a 
+next-gen 
+programming 
+language, 
+strongly 
+inspired 
+by 
+REBOL 
+---- 
+
+In the example above the condition block is `[not empty? text]` - we simply check if there are still some characters left  in `text` and if there are, we evaluate the body. We find the next space in `text`, get its index, and take (remove) and print this part (substring) of `text`. After each step the condition is checked and if it’s still true, the body is evaluated again.
+
+`while` loop in Red is analogous to Python’s `while` loop.
+
+=== Until
+In contrast to `while`, `until` requires only one block. The block is evaluated until the last value in the block is true. This means that the block is executed at least once, whereas with `while` the execution of the block can be skipped altogether. 
+
+Let’s‘ see `until` in action with the follwong example. It demonstrates a simple conversion of a number from decimal to binary number system:
+
+---- 
+num: 13
+base: 2
+digits: copy []
+until [
+   insert digits num % base
+   zero? num: to-integer num / base
+]
+---- 
+
+---- 
+>> probe digits
+[1 1 0 1]
+---- 
+
+`num` is the number we want to convert to binary, `base` is the new number system base (changing it allows for the code to work for other number systems) and `digits` is an empty block that will contain the digits after conversion. We start a `until` loop, find the remainder from dividing the current value of `num` to `base` and insert the remainder to the head of `digits` (I inserted  the elements instead of appended them because otherwise I would need to reverse the block at the end). Then I find the new value of num by dividing it by `base` and casting it to an integer. The last value in the block is the result of checking `num` against `0` with `zero?`.  If it is false (`num` is not zero), we are not finished yet, so we loop again with the new value of `num`; otherwise we exit the loop.
+
+=== Forever
+Well, `forever` does what it’s name implies – loops through the block that follows and executes it indefinitely.
+
+=== Foreach
+
+`foreach is most probably the most frequently used looping construct in Red.  It expects three arguments as follows:
+
+`foreach 'word series body`
+
+`word` is a word (or block of words) that is set to the current value of the series at each iteration. `series` is the series to iterate and `body` is a block of expressions to be evaluated at each iteration. 
+
+---- 
+>> foreach toy ["car" "doll" "puppy" "robot" "teddy bear"][print toy]
+car
+doll
+puppy
+robot
+teddy bear
+---- 
+
+When `word` is a block of words, that many values are taken from the series current index onward and the words are assigned that values.
+
+---- 
+>> foreach [toy qty] ["car" 2 "doll" 3 "puppy" 1 "robot" 1 "teddy bear" 2][print [toy ":" qty]]
+car : 2
+doll : 3
+puppy : 1
+robot : 1
+teddy bear : 2
+---- 
+I’m sure you have already guessed that Red’s `foreach` is almost analogous to Python’s `for var in iterable: code`:
+
+---- 
+ >>> for toy in ["car","doll","puppy","robot","teddy bear"]: print(toy)
+car
+doll
+puppy
+robot
+teddy bear
+---- 
+
+There is a slight, but important, difference though. When in Red we use a block of words, at each iteration `foreach` takes exactly as many values from the series as the number of words in the block. That is, the series is treated as a flat list and the structure of each value is not important. At the opposite, when we use `for` with two or more variables in Python, the list is expected to be constructed of lists/tuples, each with exactly the same number of items as there are variables:
+
+---- 
+>>> for toy,qty in [("car",2),("doll",3),("puppy",1),("robot",1),("teddy bear",2)]:
+print(toy,qty)
+
+car 2
+doll 3
+puppy 1
+robot 1
+teddy bear 2
+---- 
+
+Python’s `for` consumes exactly one value from the iterable at each step, no matter how many variables/items in the substructure.
+
+
+=== Forall
+
+We saw that `foreach` traverses the series, getting one value from it at a time.  We may think its functionality is similar to this code:
+
+---- 
+toys: ["car" "doll" "puppy" "robot" "teddy bear"]
+repeat idx length? toys [
+    print[toys/:idx]
+]
+--- 
+car
+doll
+puppy
+robot
+teddy bear
+---- 
+
+In fact, the index/position in the series is not explicitly known with `foreach` - all we know is the current value of the series (of course we can add a counter and update it at each iteration, but that’s different story).
+
+That’s why Red has another looping function - `forall` - that exposes the series at each iteration.
+
+`forall 'word body` evaluates the body for all values in the series (‘word refers to series we want to iterate over).
+
+Did you notice the `'` in front of `word` in the function spec? This is very important. As you remember, I used a literal block in the `foreach` example. I could have set a word to refer to it and use it as an argument to `foreach`, that’s completely fine. There is no freedom of choice with `forall` - it must be a `word` and cannot be a literal block! The reason is simple – we use the word itself to refer to the series at each iteration (there is no additional word to set).
+
+What `forall` does is start at the head and go to the next series at each iteration:	
+---- 
+>> forall toys [probe toys]
+["car" "doll" "puppy" "robot" "teddy bear"]
+["doll" "puppy" "robot" "teddy bear"]
+["puppy" "robot" "teddy bear"]
+["robot" "teddy bear"]
+["teddy bear"]
+== ["teddy bear"]
+---- 
+
+Did you observe the difference with `foreach`? In our example `toys` refers to the entire series, not to a particular value at some index. This means that at each iteration we know where exactly in the series are we. 
+The above example can be written in Python using `for` loop with `range()` from 0 to the length of the list and a slice starting at the current loop variable at each iteration:
+
+---- 
+>>> toys = ["car","doll","puppy","robot","teddy bear"]
+>>> for idx in range(len(toys)): print(toys[idx:])
+
+['car', 'doll', 'puppy', 'robot', 'teddy bear']
+['doll', 'puppy', 'robot', 'teddy bear']
+['puppy', 'robot', 'teddy bear']
+['robot', 'teddy bear']
+['teddy bear']
+---- 
+
+
+
+We can easily use all series navigation functions with `toys` - `next back index? head? tail?` etc. inside the body of a `forall` loop:
+
+---- 
+>> forall toys[print[length? toys tail? next toys]]
+5 false
+4 false
+3 false
+2 false
+1 true
+---- 
+
+`forall` loop is very useful when we want to change all the values of the series in place. Let’s consider the following simple case: we have a list of numbers and want it updated after multiplying each of them by some coefficient. 
+
+---- 
+>> a: [2 3 11 7 16]
+== [2 3 11 7 16]
+>> coef: 2.5
+== 2.5
+>> forall a[a/1: coef * a/1]
+== 40.0
+>> a
+== [5.0 7.5 27.5 17.5 40.0]
+---- 
+
+Since `a` refers to the series as a whole, we need to tell Red that we want the item at the current index to be multiplied by the coefficient – that’s why we used `a/1`.
+
+=== Remove-each
+
+`remove-each 'word data body` - traverses `data`, sets `word` to the current value of `data` at each iteration and removes the current value if `body` returns truthy value.
+
+---- 
+words: ["premium" "launch" "false" "minister" "breathe" "dawn" "raw" "earthquake" "grow" "entertainment"]
+remove-each w words[(length? w) > 6]
+== ["launch" "false" "dawn" "raw" "grow"]
+---- 
+
+At each iteration we check if the length of `w` is greater than 6. If it is, `remove-each` removes the value from `words`.
+
+== Collect/Keep
+
+Very often, we traverse a series and gather all or some of the elements (possibly after some transformation) in a new series. We saw that `forall` is very handy when we are concerned with all of the series’ elements – we can change them in place. When we want to gather the elements in a new series, one option is to start with an empty series, loop through all of the elements of the existing series and append the ones we are interested in to the newly allocated series:
+
+---- 
+>> numbers: copy[]
+== []
+>> numbers: collect[loop 10[keep random 50]]
+== [3 31 17 1 13 4 3 21 48 42]
+>> numbers: [3 31 17 1 13 4 3 21 48 42]
+== [3 31 17 1 13 4 3 21 48 42]
+>> even-nums: copy[]
+== []
+>> foreach n numbers[if even? n[append even-nums n]]
+== [4 48 42]
+---- 
+An alternative to the above code is to use the `collect` - it accepts a block and collects in a new block all the values that have been passed to its `keep` function. Let’s rewrite the last example using `collect`:
+
+---- 
+>> numbers
+== [3 31 17 1 13 4 3 21 48 42]
+>> even-nums: collect[foreach n numbers[if even? n[keep n]]]
+== [4 48 42]
+---- 
+
+We can use `/into` refinement of `collect` to append the newly collected items into a specified buffer (that can be an existing or a new block), instead of in a new block.
+
+
+== Functions
+
+Until now we have been using Red’s predefined functions. It’s now time to learn how to define our own functions.
+
+Functions can be created using one of the predefined words `func`, `function`, `has`, or `does`, or using `make` with `function!` as its first argument (type). Let’s start with a simple example:
+
+---- 
+square: func[n][n * n]
+---- 
+
+---- 
+>> square 9
+== 81
+---- 
+
+We define `square` to be a function with one argument `n`, that returns its argument squared (multiplied by itself): `n * n`. As you can see, the arguments are enclosed in a block that is the first argument to `func`. That block is said to be the function’s specification. The second block, the function’s body, contains all the expressions that the function evaluates. The last computed value in the body is returned as a result of the function. If the result should be returned earlier than the last expression in the body due to branching, we can use `return` followed by a value/expression.
+
+
+=== Function specification
+
+As we saw, the function specification block contains the arguments that the function needs for its workings. Arguments are the only mandatory fields of the function specification (for functions with agruments).  There can be other fields though, that make functions better documented and more powerful. 
+
+==== Docstring 
+
+An optional string that may be used to document the purpose and working of the function. It precedes the arguments.
+
+==== Arguments specification
+
+One or more words, each followed by optional block of the allowed datatypes for the argument, followed by optional string that describes the argument.
+
+==== Refinements
+
+Refinements are optional.  In the context of functions refinements are symbolic values that are used as modifiers to function’s behavior. They start with forward slash `/`, followed by one or more Unicode characters, including punctuation characters from the ASCII subset: `! & ' * + - . < = > ? _ | ~{backtick}`.  Refinements can have optional documenting string, as well as optional arguments with the same syntax as the ordinary function arguments.
+
+==== Return
+
+The function specification can have a return section – that is `return:` followed by a block with the result’s allowed typesets (TBD).
+
+==== Locals
+
+The optional argument /local may be used to list the words that are local for the function.
+
+
+Let’s update the `square` function with a more detailed specification and add a refinement. 
+
+---- 
+square-c: func[
+    "Squares the input"
+    n [number!] "Number to be squared"
+    /scale "multiply the result with a coefficient"
+    coef [number!] "multiplier"
+    return: [number!]
+    /local result
+][
+    result: n * n
+    result: result * either scale [coef][1]
+]
+---- 
+
+=== Refinements
+
+Let me explain how refinements work with test calls to the function `square-c` we just defined:
+
+---- 
+>> square-c 25
+== 625
+>> square-c/scale 25 1.25
+== 781.25
+---- 
+
+In the body of our function we first calculate `result` to be the argument `n` multiplied by itself (squared). Then we multupliy it by either `coef` or 1, depending on the presence of `/scale` refinement. Note that `result` is defined to be local for the function body.
+
+Refinements don’t always need to have arguments - in many cases they work as flags. However, when they have arguments, we can use a slightly different logic. Instead of checking the refinement for existence, we can check directly if its argument exists:
+
+----
+square-c: func[n  /scale coef][ n * n * any [coef 1]]
+----
+
+We multiply `n` by `n` and then by the first truthy value in the block following `any` - `coef` if exists (if the function was called with `/scale` refinemet), otherwise by 1.
+
+Let’s see what are the differences between the four types of functions I mentioned earlier.
+
+=== func
+
+The built-in function `func` is defined as shorthand for `make function!`. All words that are not listed after `/local` in the function’s specification are bound to the global context. That means that if we hadn’t marked `result` as local in our `square-c` function, had we had a word in the global context named `result`, it would be set to the value of `result` from the `square-c` body.
+
+=== function
+
+`function` is similar to func, but it adds all set-words and words from iterators found in the body to the list of local arguments except the ones that occur in a block following the `/extern` refinement
+
+=== has
+
+`has` defines a function without other arguments than local words, thus `has [<arguments>] <block>` is equivalent to `func [/local <arguments>] <block>`.
+
+=== does
+
+`does` defines a function with no arguments, so `does <block>` is equal to `func [ ] <block>`
+
+=== routine!
+
+`routine` is a function with a Red specification and Red/System body. The routine specification takes Red datatypes as arguments and return value, and automatically converts them to appropriate Red/System types when called. A program that contains `routine` values can not be interpreted, it must be compiled since it contains Red/System (low level) code.
+
+=== op!
+
+`op!` values are infix functions of exactly two arguments. They are constructed from existing functions, including `native!`, `action!` and `routine!`. `op!` takes evaluation precedence over other function types. 
+
+Let’s demonstrate the creation of an `op!` value with a simple `range` function:
+
+---- 
+..: make op! function[a b][
+    collect[
+        while[a <= b][
+            keep a
+            a: a + 1 
+        ]
+    ]
+]
+---- 
+
+We define `..` to be an `op!`, constructed from a function of two arguments. The function itself just loops over and collects the integer values that are in the closed interval formed by the function’s arguments. 
+
+---- 
+>> 1 .. 5
+== [1 2 3 4 5]
+>> foreach n 40 .. 42 [print n]
+40
+41
+42
+----
+
+== Parse
+
+The Parse dialect is an embedded domain-specific language (DSL) of Red that allows concise processing of input series with grammar rules.
+
+Coming from Python, you are most probably familiar with regular expressions. Regexes are sequences of characters that specify search patterns, usually used by string-searching algorithms for "find" or "find and replace" operations on strings. Red `Parse` provides this string-level functionality and much more – it works not only with `any-string!` , but also with `binary!` and `any-block!` series. That means that `parse` is capable of parsing blocks of Red values too.
+
+The usage is as follows:
+
+`parse input rules`.
+
+`input` is any `series!` value except for `image!` and `vector!`. `rules` is a `block!` value with valid Parse dialect content (top-level rule).
+
+By default, `parse` returns `logic!` value to indicate whether or not provided grammar rules succeeded in fully matching the input series. However, it is possible for `parse` to return a `block!` instead of `logic!` value, when `collect` rule is used.
+
+Also by defualt `parse` is case-insensitive, following Red semantics. We can use the `/case` refinement to enable the case-sensitivity.
+
+=== Types of input
+
+The working of `parse` rules depends on the type of input series. When parsing `any-block!`, matching by character set has no meaning and always fails. When the input is of `any-string!` type,  matching by datatype or type set is not supported. For `binary!` the matching by datatype or type set is supported for UTF-8 encoded values; such match succeeds if matched portion of the input represents one of the datatype’s literal forms, blank characters before tokens are automatically skipped.
+
+Please refer to https://github.com/red/docs/blob/master/en/parse.adoc[Parse documentation] for complete and more formal description of `parse`. 
+
+I’ll give some basic examples of parsing strings, blocks and binaries.
+
+=== Parsing strings
+
+---- 
+>> parse "Mississippi" ["Mi" 2 "ssi" "ppi"]
+== true
+---- 
+
+Here we parse the string "Mississippi" with a block of rules as follows:
+
+* "Mi" – a literal string
+* 2 "ssi" – exactly two consecutive "ssi" ("ssissi")
+* "ppi" – a literal string
+
+---- 
+>> parse "Red lang" ["Red" space ["f" | "l"] "ang"]
+== true
+---- 
+
+* "Red" – a literal string
+* space 
+* ["f" | "l"] – a subrule that introduces two alternatives: "f" or "l".
+* "ang" – a literal string 
+
+When parsing strings, instead of numerous "|", we can use charsets:
+
+---- 
+>> f-or-l: charset "fl"
+== make bitset! #{0000000000000000000000000208}
+>> parse "Red fang" ["Red" space f-or-l "ang"]
+== true
+---- 
+
+`f-or-l` rule checks if at the current position is a single character from the charset "fl".
+
+Suppose we want to validate a hypothetical serial number that consists of three groups of four hexadecimal digits, separated by hyphens, for example `1A2B-3C4D-5E6F`
+
+---- 
+digits: charset "0123456789"
+letters: charset "abcdefABCDEF"
+hex: union digits letters
+group: [4 hex]
+ser-num: [group "-" group "-" group]
+str: "1A2B-3C4D-5E6F"
+---- 
+
+---- 
+>> parse str ser-num
+== true
+>> parse "1A2B-3C4D-5E6." ser-num
+== false
+---- 
+
+Let’s change our parsing rule so that it allows the groups be composed of 3 or 4 hexadecimal digits. We only need to change the `group` rule to `[3 4 hex]` - now it looks for 3 to 4 (inclusive) digits.
+
+---- 
+>> parse "A23B-3C4-5E4" ser-num
+== true
+---- 
+
+When a part of the input is not necessarily present (it is optional), we can use `opt` before the rule – it means that the rule is repeated zero or one times. `any` corresponds to zero or more repetitions of the rule; `some` - one or more repetitions. Lookahead is done using `ahead`.
+
+Let’s try to implement a rule that validates a floating point number.
+
+---- 
+zero: charset "0"
+non-zero: charset "123456789"
+digit: union zero non-zero
+float: [
+    opt "-"
+        [digit ahead dot 
+       | non-zero some digit]
+	dot
+	some digit
+]
+---- 
+
+---- 
+>> parse "-0.23" float
+== true
+>> parse "-.23" float
+== false
+>> parse "10.35" float
+== true
+>> parse "03.35" float
+== false
+---- 
+
+For this exercise, I decided to treat the floating numbers having an unnecessary leading zero as invalid, is it’s seen in the last example. So, we start with an optional "-" (` opt "-"`), then we check for either a single digit, followed by a dot (`digit ahead dot`) or digits that don’t start with a zero (`non-zero some digit`). The rest is trivial - `dot` followed by one or more digits.
+
+When we want to advance the position one step forward, we use `skip`.
+
+---- 
+>> parse "abc"["a" skip "c"]
+== true
+>> parse "a.c"["a" skip "c"]
+== true
+---- 
+
+`skip` matches any value and could fail only if the input position is at the tail of the series.
+
+When it is necessary to skip more than one position, we can use `to` or `thru`. 
+
+---- 
+delimiter: [space | tab | lf | cr | end]
+text: {Red	is a full-stack
+programming  language}
+print-words: [
+    any [
+        any delimiter
+        copy word to delimiter (print word)
+        any delimiter
+    ]
+]
+---- 
+
+---- 
+>> parse text print-words
+Red
+is
+a
+full-stack
+programming
+language
+== true
+---- 
+
+I used the opportunity to introduce a couple of new concepts besides `to` with this example. What it does is print the words in a string, where the words are separated from one another with whitespaces. Let’s go through it. `delimiter` is rule that introduces the white spaces – space, tab, linefeed or carriage return. I’ve also added `end` to them, so that the end of the input is taken into account. The rule`print-words` consists only of `any`, followed by a block as its rule. This rule will be matched one or more times. It works as follows – first we go thru any whitespaces with `any delimiter`, then `copy word to delimiter (print word)` advances the input position to the next whitespace. Here’s the first new concept - `copy word` copies to `word` the result of the rule that follows `to delimiter`. So this part pf the code effectively extracts the words. Please note that `copy` in `parse` is different from `copy` outside of the DSL. What follows is `(print word)`. This is very powerful concept in `parse` - parentheses enclose a code that is treated as regular Red code and not `parse`.  This way the code in parentheses is evaluated if the rule preceding it succeeds. Finally there is one more "any delimiter".
+
+=== Parsing blocks
+
+When we parse blocks, we work with Red values. Let’s start with a simple example:
+
+---- 
+>> parse [2 + 3][integer! word! integer!]
+== true
+---- 
+The block we are parsing consists of three values, that’s why we can use three parsing rules in the rules block. Note that `+` is just a word until is evaluated, when it becomes the `+` operation (`op!`).
+
+Let’s make a parse rule that validates a block, representing a binary operation in the form `a op b`, where `a` and `b` are literal numbers, and `op` is an `op!`  value (an infix function of two arguments). 
+
+---- 
+bin-op: [
+    number!
+    o: skip
+    if (all[word? o/1 op? get o/1])
+    number!
+]
+---- 
+
+---- 
+>> parse [2 * 17] bin-op
+== true
+>> parse [a ** 3] bin-op
+== false
+>> parse [4 print 3] bin-op
+== false
+---- 
+
+We start our rule with `number!` - it matches one value, that is a literal number. Then we have `o: skip` - this sets the word `o` to the current input position and skips the next value. `o` is a series, `o/1` refers to the skipped value. What we do next is check whether the type of the skipped value is `op!` - `if (all[word? o/1 op? get o/1])`. Here `if` is part of `parse`, and not of the regular Red. It succeeds if a given Red expression evaluates to true and never advances the input (we already advanced the input with `skip`). Remember that `+` is just a word? That’s why we first check if `o` is of type `word!` (`word? o`), and if it is, does this word refer to an `op!` value  (`op? get o/1`). The rule end with the right operand, a `number!`. 
+
+Let’s finish our short introduction to parsing blocks with another example – let’s check if a block consists of a single value, repetead one or more times. (Of course there is a short way to do it without `parse` - `single? unique block`).
+
+---- 
+rpt: [set w skip (r: reduce['quote w]) any r]
+---- 
+
+---- 
+>> parse [42 42 42 42] rpt
+== true
+>> parse [42 42 43 42] rpt
+== false
+>> parse [+ + + +] rpt
+== true
+>> parse [+ + + - /] rpt
+== false
+>> parse ["Red" "Red" "Red"] rpt
+== true
+---- 
+
+Our rule `rpt` starts with setting a word `w` to the first value at the input start and skipping it. Next, we escape to regular Red and evalueat the code in the parentheses - `r: reduce['quote w]`, that generates a rule `r`that we’ll use later. The logic of the rule is to match the literal value we set `w` to refer to. For this we will use `quote`. `quote` uses the value that follows it literally, that’s why we can’t just write `quote w` - it would mean that we are going to match literal `w`’s. What we do instead is to make a block that consist of `quote`, followed by the evaluated value of `w`. We could use alternatively `r: compose[quote (w)]`. Finally, we repeat the `r` rule zero or more times with `any r`.  If it succeds, then the block consists of a unique element.
+
+=== Parsing binary!
+
+`binary!` value is a series of bytes, so we can match the input to individual bytes :
+
+---- 
+>> parse #{CAFE} [#{CA} #{FE}]
+== true
+---- 
+
+#{CA} is 202 in decimal; #{FE} is 254, so we can make a `bitset!` consisting of these values and match against the bitset:
+
+---- 
+>> bs: make bitset! [202 254]
+== make bitset! #{0000000000000000000000000000000000000000000000000020000000000002}
+>> parse #{CAFE} [any bs]
+== true
+---- 
+
+Of course we can match series of bytes: 
+
+---- 
+>> parse #{001234CAFE0000} [to #{CAFE} to end]
+== true
+---- 
+
+As we already said, matching by datatype or type set is supported for UTF-8 encoded values (spaces are automatically skipped):  
+
+---- 
+>> parse to binary! "Red: lang" [set-word! word!]
+== true
+---- 
+
+You can (and definitely should, if you want to master `parse`) check the https://github.com/red/red/wiki/%5BDOC%5D-Parse[dedicated resources for learning `parse`]
+
+== View
+
+The Red/View (or just View) is a graphic system for the Red programming language. It provides a Virtual tree of objects as programming interface. The virtual tree is built using face objects; each face object maps to a graphic component on the display in a two-way binding. Face objects are clones of `face!` template object. A field in face object is called a facet. Facets include type, offset, size, text. Image color, menu, font, state, as well as many others.
+
+=== Face types
+
+* Base
+* Text
+* Button
+* Toggle
+* Check
+* Radio
+* Field
+* Area
+* Text-list
+* Drop-list
+* Drop-down
+* Calendar
+* Progress
+* Slider
+* Camera
+* Panel
+* Tab-panel
+* Window
+* Screen
+* Group-box
+
+=== Events
+
+* down
+* up
+* mid-down
+* mid-up
+* alt-down
+* alt-up
+* aux-down
+* aux-up
+* drag-start
+* drag
+* drop
+* click
+* dbl-click
+* over
+* move
+* resize
+* moving
+* resizing
+* wheel
+* zoom
+* pan
+* rotate
+* two-tap
+* press-tap
+* key-down
+* key
+* key-up
+* enter
+* focus
+* unfocus
+* select
+* change
+* menu
+* close
+* time
+
+Here’s a short example: 
+
+---- 
+view[
+    title "View test"
+    txt: field 100x20 on-key-up [btn/text: txt/text]
+    btn: button 100x20 [unview]
+]
+---- 
+
+The code is a block, supplied as an argument to `view` dialect. `title` sets the title of the window. We then define an edit field named `txt`, with dimensions 100 by 20 pixels. `on-key-up` defines the behavior when the key is released. `btn` is a button with dimensions 100 by 20 pixels. The block that follows describes the actions when the button is clicked – in this case `unview` closes the window. Back to txt’s `on-key-up` - when a key is released in the edit field, the `bnt` text is updated with txt’s text. 
+
+Since this is meant to be a short introduction to Red, I’m not going into details of View. Here are some useful links: 
+
+=== Resources on VID and View
+
+* https://github.com/red/docs/blob/master/en/view.adoc[Red/View Graphic Engine]
+
+* https://github.com/red/docs/blob/master/en/vid.adoc[Visual Interface Dialect]
+
+* http://www.red-by-example.org/vid.html[Red by Example - VID]
+
+* http://helpin.red/GUI.html[Ungaretti’s Helpin'Red - GUI]
+
+
+== https://github.com/red/docs/blob/master/en/draw.adoc[Draw]
+
+Draw is a dialect of Red language that provides a simple declarative way to specify 2D drawing operations. Such operations are expressed as lists of ordered commands (using blocks of values), which can be freely constructed and changed at run-time.
+
+Draw blocks can be rendered directly on top of an image using the draw function, or inside a View face using the draw facet.
+
+The basic drawing sommand are: `Line`, `Triangle`, `Box`, `Polygon`, `Circle`, `Ellipse`, `Arc`, `Curve`, `Spline`, `Image`, `Text`, `Font`.
+
+The pen (the outline drawing of a drawing command) can be one of the following: `Color pen`, `Linear gradient pen`, `Radial gradient pen`, `Diamond gradient pen`, `Pattern pen`, `Bitmap pen`.
+
+The fill-pen (the filling mode for the drawing commands) can be `Color fill`, `Linear gradient fill`, `Radial gradient fill`, `Diamond gradient fill`, `Pattern fill`, `Bitmap fill`.
+
+`line-width`, `line-join` and `line-cap` control the line operations.
+
+Here’s a short example:
+
+---- 
+my-font: make font![name: "Verdana" size: 30 color: red]
+view[
+    base 500x500 white
+    draw[
+        pen yellow
+        fill-pen red
+        box 10x10 100x100
+        line-width 5
+        pen red
+        fill-pen sky
+        circle 250x250 100
+        pen red
+        font my-font
+        text 400x450 "Red"
+    ]
+]
+---- 
+
+We first create a `font!` object to be used later. We then make a GUI, consisting of a simple `base` component (think a rectangle) with size 50x500 pixels which color is set to white. The `draw`  commands are going to be renedered in this `base`.  What follows is a `box`, drawn with yellow pen and filled with red color. The box’s top-left corner is at coordinate 10x10; its bottom-right corner is at 100x100. Then we change the pen to red and the fill-pen to sky in order to draw a `circle` centered at 250x250 with radius 100 pixels. Finally, we load the previously declared `font` and use it to render a `text` at coordinates 400x450. 
+
+When we need to use words instead of literal values in a `draw` block, we can use `reduce` or (more conveniently) `compose`. Let’s say we have a word `cntr` that refers to a pair 100x100 and `radius` that refers to 100. We can use these words in a `draw` block and draw a circle with center at `cntr` and radius `radius` as follows:
+
+---- 
+draw compose[circle (cntr) (radius)]
+---- 
+ 
+Of course the values these words refer to can be changed dynamically. 
+
+You can check these links for more information and examples on `Draw`:
+
+* https://www.red-by-example.org/draw.html[Red by example - Draw]
+* http://helpin.red/Draw.html[Helpin’ Red - Draw]
+
+

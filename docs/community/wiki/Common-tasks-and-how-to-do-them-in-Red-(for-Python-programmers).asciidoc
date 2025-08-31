@@ -1,0 +1,762 @@
+:toc:
+
+:toclevels: 3
+
+Related: https://github.com/red/red/wiki/%5BHOWTO%5D-How-Do-I-Do-X-with-Red%3F[[HOWTO\]-How-Do-I-Do-X-with-Red?]
+
+== Files and directories
+
+=== Selecting a directory
+
+`request-dir` displays a dialogue for the user to select a directory. Returns full directory path. You can set the starting directory with `/dir` refinement:
+
+---- 
+doc-dir: request-dir/dir %/C/Users/Owner/Documents/
+---- 
+
+You can set the title of the dialogue with `/title` refinement and provide a string for its `text` argument.
+
+=== Selecting a file
+
+Similarly, you can use `request-file` to select a file. You can set a default file or directory with `/file` refinement. Provide filters with `/filters`. The argument to this refinement is a block of name (`string!`) and type (`file!` or `string!`) pairs.
+
+---- 
+>> request-file/file/filter %"/C/Red-lang/Rededitor-11/examples/" ["red" %*.red]
+== %"/C/Red-lang/Rededitor-11/examples/7- Draw/71 - Draw demo.red"
+---- 
+
+The `/multi` refinement of `request-file` allows multiple file selection, the results are returned as a block.
+
+=== Reading from a file
+
+---- 
+== file: %README.md
+>> read file
+== {Red Programming Language^/------------------------^/^/**Red** is a new programming lan...
+---- 
+
+`read` takes an argument (`source`) of type `file!`, `url!` or `port!` and reads the contents of the source. If the source is a directory, `read` returns a block of elements of `file!` type.
+
+---- 
+>> red-master: %"/D/red-master/"
+== %/D/red-master/
+>> red-files: read red-master
+== [%.appveyor.yml %.editorconfig %.gitattributes-sample %.github/ %.gitignore-sample %...
+>> foreach file red-files[print [file "->" either dir? file["dir"]["file"]]]
+.appveyor.yml -> file
+.editorconfig -> file
+.gitattributes-sample -> file
+.github/ -> dir
+.gitignore-sample -> file
+.travis.yml -> file
+boot.red -> file
+bridges/ -> dir
+BSD-3-License.txt -> file
+BSL-License.txt -> file
+build/ -> dir
+CODE_OF_CONDUCT.md -> file
+compiler.r -> file
+CONTRIBUTING.md -> file
+docs/ -> dir
+environment/ -> dir
+lexer.r -> file
+libRed/ -> dir
+modules/ -> dir
+quick-test/ -> dir
+README.md -> file
+red.r -> file
+run-all.r -> file
+runtime/ -> dir
+system/ -> dir
+tests/ -> dir
+usage.txt -> file
+utils/ -> dir
+version.r -> file
+---- 
+
+=== Read/lines
+
+If we are reading from a text file, it makes sense to be able to get the file content as separate lines. We can first read the file and split the string on `newline`. `read` provides a refinement `/lines` that splits the text on `newline` and thus returns a block of strings.
+
+---- 
+>> usage: read/lines %/D/red-master/usage.txt
+== ["" "Usage: red [command] [options] [file]" "" {[file]: any Red or Red/System source...
+>> length? usage
+== 95
+---- 
+
+=== Reading binary files
+
+When the file we want to read does not consist of Unicode characters, we need to read it as a binary file. We use the `/binary` refinement with `read`:
+
+
+---- 
+>> bin: read/binary %/D/red-master/usage.txt
+== #{
+0A55736167653A20726564205B636F6D6D616E645D205B6F7074696F6E735D20
+5B66696C655D0A0A...
+>> length? bin
+== 4460
+>> to string! copy/part bin 60
+== {^/Usage: red [command] [options] [file]^/^/[file]: any Red or R}
+---- 
+
+You can start reading from specific position in a file with `/seek` refinement and limit the length of the content that is read with `/part`.
+
+As you might have observed, in Red you don’t need to open the file in advance and indicate the reading mode, as you do in Python:
+
+---- 
+>>> red_usage = open('D:/red-master/usage.txt', 'r')
+>>> lines = red_usage.readlines()
+>>> len(lines)
+95
+>>> lines[1]
+'Usage: red [command] [options] [file]\n'
+---- 
+
+=== Reading from URL
+
+Reading from web is just as easy as reading a local file:
+
+---- 
+>> red-about: read https://www.red-lang.org/p/about.html
+== {<!DOCTYPE html>^/<html class='v2' dir='ltr' xmlns='http://www.w3.org/1999/xhtml' xml...
+---- 
+
+=== Writing to a file
+
+Red uses `write` to  write data into file, url or other port. The format is following:
+
+`write destination data`, where `destination` can be `file!`, `url!` or `port!`. `data` can be of any type.
+
+---- 
+>> block:  [1 2 3.4 "Four" [5 6 7] print "Hello"]
+== [1 2 3.4 "Four" [5 6 7] print "Hello"]
+>> write %block.txt block
+>> read %block.txt
+== {[1 2 3.4 "Four" [5 6 7] print "Hello"]}
+----
+
+We can append data at the end of an existing file using the `/append` refinement of `write:
+
+---- 
+>> write/append %block.txt " ; some text"
+>> read %block.txt
+== {[1 2 3.4 "Four" [5 6 7] print "Hello"] ; some text}
+---- 
+
+You can write at a specific position in a file using `/seek` - just don’t forget that this way you overwrite the existing data.
+
+When the data you write to a file is Red code, it’s better for you to use `save` instead of `write`.  `save` removes the enclosing brackets. The code written to a file with `save` can be executed with simple call to `do`.
+
+---- 
+loop-code: [
+Red [] 
+    n: 5 
+    loop n [
+        print "Hello world!"
+    ] 
+]
+save %loop-code.red loop-code
+---- 
+ 
+---- 
+>> do %loop-code.red
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+---- 
+
+=== Write/lines
+
+You can write each value in a block as a separate line in a file using the `/lines` refinement:
+
+---- 
+colors: ["red" "orange" "yellow" "green" "blue" ["indigo" "violet"]]
+write/lines %colors.txt colors
+---- 
+
+The file `colors.txt` will look like this:
+
+---- 
+red
+orange
+yellow
+green
+blue
+["indigo" "violet"]
+---- 
+
+=== Writing as a binary file
+
+When you need to write your data as a binary file, use the `/binary` refinement – it preserves the contents exactly.
+
+You can use `save`  with refinement `/as` to save an image created within Red as a graphics file (bmp, gif, jpeg or png):
+
+---- 
+>> img: make image! [200x200 255.255.255]
+== make image! [200x200 #{
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFF...
+>> img: draw img[pen sky line-width 3 circle 100x100 80]
+== make image! [200x200 #{
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFF...
+>> save/as %circle.png img 'png
+---- 
+ 
+We create an image `img` with dimensions 200x200 pixels and white background. We then draw a circle with radius 80 centered at 100x100. (You can see the image directly from Red GUI console by typing `? (img)`). We finally save the image as .png file titled `circle.png`.
+
+== JSON/CSV
+
+=== load-json
+
+Red’s `load-json` function converts a JSON string to Red data.  Suppose you have the following json data, saved in `sample2.json` file:
+
+---- 
+{
+   "firstName": "Joe",
+   "lastName": "Jackson",
+   "gender": "male",
+   "age": 28,
+   "address": {
+       "streetAddress": "101",
+       "city": "San Diego",
+       "state": "CA"
+   },
+   "phoneNumbers": [
+       { "type": "home", "number": "7349282382" }
+   ]
+}
+---- 
+ 
+We can read the file contents and apply `load-json` to the string:
+
+---- 
+>> sample: load-json read %sample2.json
+== #(
+    firstName: "Joe"
+    lastName: "Jackson"
+    gender: "male"
+    age: 28
+    address: #(
+        streetAddress: ...
+>> probe sample
+#[
+    firstName: "Joe"
+    lastName: "Jackson"
+    gender: "male"
+    age: 28
+    address: #[
+        streetAddress: "101"
+        city: "San Diego"
+        state: "CA"
+    ]
+    phoneNumbers: [#[
+        type: "home"
+        number: "7349282382"
+    ]]
+]
+---- 
+
+As you see, the result is a map, populated by key-value pairs of data from the .json file
+
+
+=== load %file.json  and load/as %file.txt 'json
+`load-json` converts a string to Red values. You can directly load a .json file as Red data using `load`. It employs the Red codec system:
+
+---- 
+>> data: load  %example_1.json
+== #[
+    fruit: "Apple"
+    size: "Large"
+    color: "Red"
+]
+---- 
+
+If the file had an extension different than `.json` - for example `.txt` - we can load it using `load/as` and argument for the refinement `'json`: 
+
+---- 
+>> data: load/as %example_1.txt 'json
+== #[
+    fruit: "Apple"
+    size: "Large"
+    color: "Red"
+]
+---- 
+
+=== to-json
+`to-json` converts Red data to a JSON string. Let’s convert the following Red data:
+
+---- 
+car: #[
+    make: "Porsche"
+	model: 959
+	engine-type: "boxer 6"
+	engine-size: 2849
+power: 450
+	torque: 500
+    top-speed: 322
+]
+---- 
+
+to JSON string:
+
+---- 
+>> to-json car
+== {{"make":"Porsche","model":959,"engine-type":"boxer 6","engine-size":2849,"power":450,"torque":500,"top-speed":322}}
+---- 
+
+We can use the `/pretty` refinement to make the output pretty, providing a string for its `indent` argument:
+
+---- 
+>> print to-json/pretty car "    "
+{
+    "make": "Porsche",
+    "model": 959,
+    "engine-type": "boxer 6",
+    "engine-size": 2849,
+    "power": 450,
+    "torque": 500,
+    "top-speed": 322
+}
+---- 
+
+=== save/as %file data 'json
+
+You can save Red data to a .json file using `save/as`  with argument 'json:
+---- 
+>> save/as %porsche959.txt car 'json
+---- 
+
+
+=== load-csv
+
+Suppose we have a file called US_cities.csv with the following content:
+
+.US cities by population
+[width="80%",cols="1,2,2,1",options="header"]
+|====
+|2019 rank|City|State|2019 estimate
+|1|New York| New York|8,336,817
+|2|Los Angeles| California|3,979,576
+|3|Chicago| Illinois|2,693,976
+|4|Houston| Texas|2,320,268
+|5|Phoenix| Arizona|1,680,992
+|6|Philadelphia| Pennsylvania|1,584,064
+|7|San Antonio| Texas|1,547,253
+|8|San Diego| California|1,423,851
+|9|Dallas| Texas|1,343,573
+|10|San Jose| California|1,021,795
+|====
+
+`load-csv` converts CSV text to a block of rows, where each row is a block of fields:
+
+---- 
+>>cities: load-csv read %us_cities.csv
+== [["2019 rank" "City" "State" "2019 estimate"] ["1" "New York" "New York" "8,336,817"] ["2" "Los Angeles" "California" ...
+>> length? cities
+== 11
+---- 
+
+`cities` is a block of blocks. Let’s probe each block on a separate line:
+
+---- 
+>> foreach row cities[probe row]
+["2019 rank" "City" "State" "2019 estimate"]
+["1" "New York" "New York" "8,336,817"]
+["2" "Los Angeles" "California" "3,979,576"]
+["3" "Chicago" "Illinois" "2,693,976"]
+["4" "Houston" "Texas" "2,320,268"]
+["5" "Phoenix" "Arizona" "1,680,992"]
+["6" "Philadelphia" "Pennsylvania" "1,584,064"]
+["7" "San Antonio" "Texas" "1,547,253"]
+["8" "San Diego" "California" "1,423,851"]
+["9" "Dallas" "Texas" "1,343,573"]
+["10" "San Jose" "California" "1,021,795"]
+---- 
+
+The default delimiter is comma. Use `/with` refinement to change it.
+
+`load-csv` has other refinements that allow you to load the data as columns or records.
+
+---- 
+>> cities: load-csv/header read %us_cities.csv
+== #(
+    "2019 rank" ["1" "2" "3" "4" "5" "6" "7" "8" "9" "10"]
+    "City" ["New York" "Los Angeles" "Chicago" "Houston"...
+>> type? cities
+== map!
+>> keys-of cities
+== ["2019 rank" "City" "State" "2019 estimate"]
+---- 
+
+`/header` treats the first line as header and implies `/as-columns` if `/as-records` is not used. As you see, `load-csv/header` returns a map with keys that correspond to the items in the first line of the .csv file. The values are the columns:
+
+---- 
+>> foreach key keys-of cities[print[key "->" mold cities/:key]]
+2019 rank -> ["1" "2" "3" "4" "5" "6" "7" "8" "9" "10"]
+City -> ["New York" "Los Angeles" "Chicago" "Houston" "Phoenix" "Philadelphia" "San Antonio" "San Diego" "Dallas" "San Jose"]
+State -> ["New York" "California" "Illinois" "Texas" "Arizona" "Pennsylvania" "Texas" "California" "Texas" "California"]
+2019 estimate -> ["8,336,817" "3,979,576" "2,693,976" "2,320,268" "1,680,992" "1,584,064" "1,547,253" "1,423,851" "1,343,573" "1,021,795"]
+---- 
+
+If you use `/as-columns` refinement (not `/header`), Red doesn’t use the first line as header but automatically names the columns A, B, C etc.:
+
+---- 
+>> cities: load-csv/as-columns read %us_cities.csv 
+== #(
+    "A" ["2019 rank" "1" "2" "3" "4" "5" "6" "7" "8" "9" "10"]
+    "B" ["City" "New York" "Los Angeles" "Chicago" "Houston" ...
+>> foreach key keys-of cities[print[key "->" mold cities/:key]]
+A -> ["2019 rank" "1" "2" "3" "4" "5" "6" "7" "8" "9" "10"]
+B -> ["City" "New York" "Los Angeles" "Chicago" "Houston" "Phoenix" "Philadelphia" "San Antonio" "San Diego" "Dallas" "San Jose"]
+C -> ["State" "New York" "California" "Illinois" "Texas" "Arizona" "Pennsylvania" "Texas" "California" "Texas" "California"]
+D -> ["2019 estimate" "8,336,817" "3,979,576" "2,693,976" "2,320,268" "1,680,992" "1,584,064" "1,547,253" "1,423,851" "1,343,573" "1,021,795"]
+---- 
+
+`load-csv/as-records` returns a block of records (one record per row), each record is a map which keys are named automatically A, B, C… and values are taken from the corresponding row:
+
+---- 
+>> cities: load-csv/as-records read %us_cities.csv
+== [#[
+    "A" "2019 rank"
+    "B" "City"
+    "C" "State"
+    "D" "2019 estimate"
+] #(
+    "A" "1"
+    "B" "New York"
+    "C" "New...
+>> length? cities
+== 11
+---- 
+
+Most detailed result is obtained by using `load-csv` with `/header/as-records` refinements. It returns a block of records (one record per row excluding the first row). Each record is map with keys taken from the header (the first row) and values – the corresponding values at that row/column:
+
+---- 
+>> cities: load-csv/header/as-records read %us_cities.csv 
+== [#[
+    "2019 rank" "1"
+    "City" "New York"
+    "State" "New York"
+    "2019 estimate" "8,336,817"
+] #(
+    "2019 rank" "2"
+ ...
+
+>> last cities
+== #[
+    "2019 rank" "10"
+    "City" "San Jose"
+    "State" "California"
+    "2019 estimate" "1,021,795"
+]
+---- 
+
+If you don’t need the data to be grouped, you can use the `/flat` refinement. In such case `load-csv` returns a flat block with length rows*columns:
+
+---- 
+
+>> cities: load-csv/flat read %us_cities.csv
+== ["2019 rank" "City" "State" "2019 estimate" "1" "New York" "New York" "8,336,817" "2" "Los Angeles" "California" "3,979,576" "3...
+>> length? cities
+== 44
+---- 
+
+You need to know the dimensions of your .csv table.
+
+=== load %file.csv and load/as %file.txt 'csv
+
+As with .json files, you can `load` .csv files directly as Red data:.
+
+---- 
+>> data: load %addresses.csv
+== [["John" "Doe" "120 jefferson st." "Riverside" " NJ" " 08075"] ["Jack" "McGi...
+---- 
+
+If the file had an extension different than `.csv`, we can still load it directly using `load/as` with argument to the refinement `'csv`:
+
+---- 
+>> data: load/as %addresses.dat 'csv
+== [["John" "Doe" "120 jefferson st." "Riverside" " NJ" " 08075"] ["Jack" "McGi...
+---- 
+
+Returns a block of blocks.
+
+=== to-csv
+
+`to-csv` converts the input value to CSV data. The input can be one of the following types: `block!`, `map!` or `object!`. It may be a block of fixed size records, a block of block records, or map columns.
+
+Let’s save the predefined colors to a .csv file. We can extract the colors using the following expression:
+
+---- 
+>> colors: parse to [] system/words[collect[any[keep[set-word! tuple!] | skip]]]
+== [[
+    Red: 255.0.0
+] [
+    white: 255.255.255
+] [
+    transparent: 0.0.0.255
+] [
+  ...
+---- 
+
+We parse the `words` fields of the `system` object and extract the `set-word!` s that are followed by a `tuple!` value. The result is a block of block records. We can now save it as a .csv file:
+
+---- 
+>> write %colors.csv to-csv colors
+---- 
+
+Let’s try to load what we have just written:
+
+---- 
+>> colors2: load-csv read %colors.csv
+== [["Red" "255.0.0"] ["white" "255.255.255"] ["transparent" "0.0.0.255"] ["gray" "128.... 
+----
+
+You can provide `to-csv` with a flat block of data to be saved as a 2d table – use the `/skip` refinement. It will treat the block as a table of records with fixed length, indicated by the `size` argument of the refinement.
+
+---- 
+>> data: collect[loop 100 [keep random 100]]
+== [53 81 67 51 13 4 3 71 48 92 6 51 54 38 19 14 2 19 14 24 76 75 61 3 98 76 7 17 15 68...
+>> write %grid-10-by-10.csv to-csv/skip data 10
+---- 
+
+In the example above, I created a list of 100 random integers from 1 to 100, then saved the list as a .csv file. As explained before, the `/skip` refinement with argument `10` treated the flat 100-element block as a table of records with length 10. The resulting file `%grid-10-by-10.csv` has 10 rows and 10 columns.
+
+You can instruct `to-csv` to use delimiter different than the default comma with the refinement `/with` and provide the new delimiting character (or string) as its `delimiter` argument.
+
+=== save/as %file data 'csv
+
+You can save Red data direcrly as a .csv file:
+
+---- 
+>> save/as %addresses2.csv data 'csv
+>> data2: load/as %addresses2.csv 'csv
+== [["John" "Doe" "120 jefferson st." "Riverside" " NJ" " 08075"] ["Jack" "McGi...
+---- 
+
+`data` was organized as a block of blocks.
+
+== Working with dates
+
+=== Literal formats
+
+Red has a convenient `date!` datatype, which greatly facilitates the work with dates. `date!` has various literal formats to work with, here are some of them:
+
+---- 
+>> now/date
+== 30-May-2021
+>> reduce[2021-May-30 30-5-2021 30/05/2021 2021-W21-7 2021-150]
+== [30-May-2021 30-May-2021 30-May-2021 30-May-2021 30-May-2021]
+---- 
+
+`now` returns the current date and time, `/date` returns date only. The block after `reduce` consists of 5 `date!` values that have different format, but evaluate to the same date – 30-May-2021. The formats used are as follows: `<yyyy><sep><mon><sep><dd>`, `<dd><sep><m><sep><yyyy>`, `<dd><sep><mm><sep><yyyy>`, `<yyyy><sep>W<ww><sep><d>` and `<yyyy><sep><ddd>` respectively. 
+
+-	`<yyyy>` - 3 or 4 digits representing the year (4 digits for ISO dates);
+-	`<sep>`  - separator - `-` or `/`
+-	`<mon>` - 3 letters representing the beginning of the month;
+-	`<m>` -  1 or 2 digits representing the month
+-	`<mm>`  - 2 digits representing the month
+-	`<d>` is one digit, representing the day in the week (1 to 7);
+-	`<dd>` - 1 or 2 digits representing the day of the month;
+-	`<ddd>` - 3 digits representing the day of the year;
+-	`<ww>` - 2 digits representing the week of the year.
+
+A `date!` value fields can be easily accessed using the following path accessors: `date day hour isoweek julian minute month second time timezone week weekday year yearday zone`
+
+=== make date!
+
+Dates can be created not only literally, but also dynamically, using a `make` constructor or `to` conversion.
+
+---- 
+>> make date! [30 5 2021]
+== 30-May-2021
+>> make date! [2021 5 30]
+== 30-May-2021
+---- 
+
+As you see, we provide a block of three values to `make` with first argument `date!`. The values in the block are three integers for the day, month and year respectively. The day and the year can be swapped, if the date is unambiguous.
+
+=== to date!
+
+When we use `to` to create a date, we provide a block with 0 to 3 values, or a single integer. 
+
+---- 
+>> to date! []
+== 1-Jan-0000
+>> to date! 0
+== 1-Jan-1970/0:00:00
+---- 
+
+Calling `to date!`, or `to-date` with an empty block results in `January 1st 0000`. In contrast, if we give it `0`, `to-date` returns the Unix epoch. So, a single integer as a parameter to `to-date` represents the number of seconds that have elapsed since the Unix epoch.
+Let’s explore what happens when we use a block with a single integer:
+
+---- 
+>> to-date [99]
+== 9-Apr-0000
+>> to-date [100]
+== 31-Dec-0099
+---- 
+
+Unlike `make date!` which only accepts valid dates, `to date!` can be provided with a block of up to  3 arbitrary large numbers (including floating numbers) that are converted to a `date!`. When the single number is less than 100, it is treated as number of days, as seen in the above example. 
+
+Don’t forget that Red uses 1-based indexing. That’s why using `0` gives the previous day (or month, or year!)
+
+---- 
+>> to-date [32 5 2021]
+== 1-Jun-2021
+>> to-date [0 6 2021]
+== 31-May-2021
+>> to-date [1 0 2021]
+== 1-Dec-2020
+>> to-date [0]
+== 31/Dec/-1
+---- 
+
+=== Arithmetic operations on dates
+
+As implied by the examples in the previous section, Red makes the arithmetic on dates easy. All comparators can be applied on dates; `min` and `max` work with dates; you can sort a block of dates too:
+
+---- 
+>> 31-05-2021 > 31-12-2021
+== false
+>> max 01-06-2021 31-12-2021
+== 31-Dec-2021
+>> sort collect[loop 10[keep random 31-12-2021]]
+== [29-Oct-0192 8-Jan-0219 23-Nov-0259 29-Aug-0307 23-May-0507 26-Oct-0623 1-Jan-0768 18-May-1559 9-Jan-1564 10-Apr-1930]
+---- 
+
+We can add/subtract values to/from any date! field; the result is normalized:
+
+---- 
+>> today: now/date
+== 1-Jun-2021
+>> today+5w: today
+== 1-Jun-2021
+>> today+5w/day: today+5w/day + 35
+== 36
+>> today+5w
+== 6-Jul-2021
+---- 
+
+When we add or subtract an integer value to/from a date vale, it is interpreted as number of days:
+
+---- 
+>> today - 1
+== 31-May-2021
+>> today + 365
+== 1-Jun-2022
+---- 
+
+When we subtract two dates, the result is a signed number of days between the two dates:
+
+---- 
+>> 1-6-2021 - 16-11-1993
+== 10059
+>> 31-12-2000 - 01-07-2012
+== -4200
+---- 
+
+If we use `difference` with two dates as arguments, the result is the signed difference between the two dates as `time!` value:
+
+---- 
+>> t2: now/precise
+== 1-Jun-2021/13:37:27.113+03:00
+>> difference t2 to date! 0
+== 450706:37:27.113
+>> difference t2 1970-01-01/00:00:00
+== 450706:37:27.113
+---- 
+
+=== Predefined months and days names
+
+You can access the predefined months and days names in the `system/locale` object like this:
+
+---- 
+>> probe system/locale/months
+[
+    "January" "February" "March" "April" "May" "June" 
+    "July" "August" "September" "October" "November" "December"
+]
+>> probe system/locale/days
+[
+    "Monday" "Tuesday" "Wednesday" "Thursday" "Friday" "Saturday" "Sunday"
+]
+----
+== Clipboard
+
+=== read-clipboard
+
+You can access the contents of the system clipboard using `read-clipboard`. 
+
+.read-clipboard
+[width="80%",cols="1,2",options="header"]
+|====
+|clipboard content|Red value
+|failure|false
+|empty|none
+|text|string!
+|file(s)|block! of file!(s)
+|image|image!
+|====
+
+So, when the clipboard contains text, `read-clipboard` returns a Red `string!`:
+
+---- 
+>> read-clipboard
+== {:toc:^/^/:toclevels: 3^/^/Related: https://github.com/red/red/wiki/%5BHOWTO%5D-...
+---- 
+
+If the clipboard contains one or more files, `read-clipboard` returns a block of files, with full path:
+
+---- 
+>> files: read-clipboard
+== [%/C/ProgramData/Red/gui-console-2021-4-22-42035.exe %/C/ProgramData/Red/gui...
+>> print files
+/C/ProgramData/Red/gui-console-2021-4-22-42035.exe /C/ProgramData/Red/gui-console-2021-5-17-6838.exe /C/ProgramData/Red/gui-console-2021-5-19-43168.exe
+---- 
+
+When in the clipboard is an image, `read-clipboard` returns an `image!` object:
+
+---- 
+>> img: read-clipboard
+== make image! [1920x1080 #{
+    2A579A2A579A2A579A2A579A2A579A2A579A2A579A2A579A...
+---- 
+
+You can use it in your code (in `view` layout, `draw` and so on) or simply display it from the GUI console with `? (img)`
+
+=== write-clipboard
+
+You write content to the system clipboard with `write-clipboard`.  
+
+You can clear the clipboard with `write-clipboard none`.  Other datatypes that you can use with `write-clipboard` are `string!`, `block!` (of `file!` values) and `image!`.
+
+---- 
+>> text: "Cross-platform native GUI system, with a UI DSL and drawing DSL"
+== {Cross-platform native GUI system, with a UI DSL and drawing DSL}
+>> write-clipboard text
+== true
+---- 
+
+---- 
+>> files: [%/C/Gal/Tools/57.csv %/C/Gal/Tools/55.csv %/C/Gal/Tools/52.csv]
+== [%/C/Gal/Tools/57.csv %/C/Gal/Tools/55.csv %/C/Gal/Tools/52.csv]
+>> write-clipboard files
+== true
+---- 
+
+---- 
+>> img: make image! [200x200 255.255.255]
+== make image! [200x200 #{
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF...
+>> draw img[line-width 5 pen sky circle 100x100 80]
+== make image! [200x200 #{
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF...
+>> write-clipboard img
+== true
+----

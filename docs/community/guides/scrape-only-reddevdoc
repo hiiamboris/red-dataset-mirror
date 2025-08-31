@@ -1,0 +1,3 @@
+#!/bin/bash
+
+~/dataset/scrape-code https://github.com/iArnold/reddevdoc reddevdoc

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+mkdir -p specs
+~/dataset/scrape-website www.red-lang.org
+~/dataset/scrape-page https://static.red-lang.org/red-system-specs.html specs/red-system-specs.md
+~/dataset/scrape-page https://static.red-lang.org/red-system-quick-test.html specs/quick-test.md
+~/dataset/scrape-code https://github.com/red/docs specs/red
