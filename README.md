@@ -1,3 +1,5 @@
+Official URL of this project: <https://codeberg.org/hiiamboris/red-dataset> (you may be viewing an automatic mirror otherwise)
+
 # Red language dataset for LLM embeddings
 
 This repository contains all *public* code and documentation available to date on the [Red programming language](red-lang.org). It can be embedded into the knowledge context of large language models to let them "know" Red.
