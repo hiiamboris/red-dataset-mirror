@@ -3,7 +3,7 @@
 Red []
 
 home: to-red-file get-env "HOME"
-call/shell to-local-file home/list-issues-red-REP
+call/shell/console to-local-file home/list-issues-red-REP.sh
 
 parse gitconfig: read home/.gitconfig [thru "upstream = " change to [#"^/" | end] ("red/REP")]
 write home/.gitconfig gitconfig
@@ -27,6 +27,6 @@ foreach number numbers [
 	write file out
 ]
 
-call/shell/console rejoin [to-local-file home/dataset/scrape-code" https://github.com/red/REP/tree/master/REPs proposals/more"]
+call/shell/console rejoin [to-local-file home/dataset/scrape-code.sh" https://github.com/red/REP/tree/master/REPs proposals/more"]
 
 print "Done."

@@ -7,7 +7,7 @@ Red []
 
 home: to-red-file get-env 'HOME
 here: clean-path %.
-call/shell/output home/dataset/list-joined-matrix-rooms joined: {}
+call/shell/output home/dataset/list-joined-matrix-rooms.sh joined: {}
 print ["Already joined rooms:" joined]
 
 lines: read/lines %matrix-rooms
@@ -26,7 +26,7 @@ foreach [alias room] rooms [
 	replace/all dir #"/" #"_"
 	unless find joined room [
 		print ["Joining" alias "..."]
-		code: call/shell/output/error rejoin [to-local-file home/dataset/join-matrix-room" '"room"'"] out: clear {} err: clear {}
+		code: call/shell/output/error rejoin [to-local-file home/dataset/join-matrix-room.sh" '"room"'"] out: clear {} err: clear {}
 		write/append %matrix.log err
 		write/append %matrix.log out
 		if code <> 0 [
@@ -39,7 +39,7 @@ foreach [alias room] rooms [
 	unless any [exists? mdfile not skip-existing?] [
 		unless all [skip-existing?  exists? xzfile] [
 			print ["Scraping" alias "..."]
-			cmd: rejoin [""to-local-file home/dataset/scrape-matrix-room" '"room"' '"xzfile"'"]
+			cmd: rejoin [""to-local-file home/dataset/scrape-matrix-room.sh" '"room"' '"xzfile"'"]
 			print ["Command:" cmd]
 			code: call/shell/output/error cmd out: clear {} err: clear {}
 			write/append %matrix.log err
