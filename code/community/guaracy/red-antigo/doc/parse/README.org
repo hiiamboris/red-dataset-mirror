@@ -1,0 +1,1 @@
+Documentação exclusiva sobre o =parse= de Red.

@@ -1,0 +1,25 @@
+* Introdução
+  :PROPERTIES:
+  :CUSTOM_ID: section-intro
+  :END:
+
+  A ideia inicial deste documento é apenas apresentar a função *parse* bem como algumas outras funções para a manipulação de dados.
+** DONE Red
+
+Apesar da linguagem ser de fácil assimilação por quem já conhece programação, se você deseja mais informações sobre a linguagem, poderá obter no site de [[red][Red]] e na [[https://en.wikipedia.org/wiki/Red_(programming_language)][Wikipedia]]. Caso você não conheça a linguagem, por enquanto basta saber que é baseada em REBOL, pode ser interpretada ou compilada em diversos sistemas operacionais (Windows, Linux, Mac OSX, Android) e, mesmo beta, já é possível fazer muita coisa interessante com ela. Red ainda está em desenvolvimento.
+
+#+BEGIN_SRC red :exports both :results output
+  print "Documento baseado em:"
+  about
+#+END_SRC
+
+#+RESULTS:
+: Documento baseado em:
+: Red 0.6.1 - 3-Mar-2017/10:39:16-3:00
+
+** DONE Parse
+
+Apenas dizer que o *parse* é o substituto usado por Red para [[https://pt.wikipedia.org/wiki/Express%C3%A3o_regular][expressões regulares]] é omitir parte do todo. Seria como dizer que o *emacs* é um editor de texto. O *parse* é um dialeto (termo utilizado em Red para [[https://en.wikipedia.org/wiki/Domain-specific_language][DSL]]) para analisar uma entrada utilizando regras de gramática. O uso comum é para a validação de informações, extração e modificação de dados e até mesmo para a criação de um dialeto (DSL).
+
+O parse foi desenvolvido na própria linguagem (na realidade na versão de baixo nível de Red chamada de Red/System que equivaleria a linguagem C) e atualmente conta com menos de 1800 linhas de [[https://github.com/red/red/blob/master/runtime/parse.reds][código]]. O fato de ser desenvolvido na própria linguagem, além de mostrar uma sintaxe semelhante (diferente de uma regexp) permite uma total integração com o programa.
+

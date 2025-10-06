@@ -1,0 +1,155 @@
+Red [
+    Tests: [%topaz-parse.red]
+]
+
+
+[topaz-parse [1 2 3] [integer!]]
+[topaz-parse [1 2 3] [integer! integer!]]
+[topaz-parse [1 2 3] [integer! integer! integer!]]
+[topaz-parse [1 2 3] [integer! integer! integer! integer!]]
+[topaz-parse [1 2 3] [word!]]
+[topaz-parse [1 2 3] [some integer!]]
+[topaz-parse [1 2 3] [any integer!]]
+[topaz-parse [1 2 3] [collect some [keep integer!]]]
+[
+    topaz-parse [
+        prin: function [text] [] [
+            apply sys/print [text]
+            text
+        ]
+        print: function [text] [] [
+            apply sys/print [text + "^/"]
+            text
+        ]
+
+        _foreach: function [arr fnc] [] [
+            apply arr/for-each [fnc]
+        ]
+        macro 'foreach [word arr body] [
+            word: word/value
+            if not system/words/block? word [word: system/words/reduce [word]]
+            system/words/make system/words/expression! compose/only [
+                _foreach arr function (word) [] body
+            ]
+        ]
+        ; _foreach-blk defined in types/block.topaz
+        macro 'foreach-blk [word block body] [
+            word: word/value
+            if not system/words/block? word [word: system/words/reduce [word]]
+            system/words/make system/words/expression! compose/only [
+                _foreach-blk block function (word) [] body
+            ]
+        ]
+
+        macro 'topaz-value [value] [
+            value: system/words/mold value/value
+            system/words/make system/words/expression! compose [
+                load make string! (value)
+            ]
+        ]
+    ] [
+        collect any [
+            name: set-word! 'function
+            keep (name) keep ('funcall-macro) keep (make lit-word! name)
+            keep/only block! block! block!
+            |
+            'macro name: lit-word! block! block! keep (make set-word! name) keep ('none)
+            |
+            skip
+        ]
+    ]
+]
+[topaz-parse [a [b c d] e] [word! into [some word!] word!]]
+[topaz-parse [a b c d] [word! [integer!] | word! word!]]
+[topaz-parse [literal] [literal literal]]
+[topaz-parse [literal] [quote literal]]
+[topaz-parse [quote] [literal quote]]
+[topaz-parse [quote] [quote quote]]
+[topaz-parse [1 2 3] [literal literal]]
+[topaz-parse [1 2 3] [opt word! integer!]]
+[topaz-parse [a b c] [opt word!]]
+[topaz-parse [1 2 3] [any []]]
+[
+    output: copy []
+    reduce [topaz-parse [1 2 3] [any (append output "Hello")] output]
+]
+[
+    output: copy []
+    reduce [topaz-parse [1 2 3] [any [(append output "Hello")]] output]
+]
+[
+    word: 'word
+    topaz-parse [a b c] [word]
+]
+[topaz-parse [word b c] [word]]
+[topaz-parse [a [b c] d] [word! into [word! word!]]]
+[topaz-parse [a [b c] d] [word! into [word! word!] word!]]
+[topaz-parse [a [b c] d] [word! into paren! [word! word!]]]
+[topaz-parse [a [b c] d] [word! into paren! [word! word!] word!]]
+[topaz-parse [a (b c) d] [word! into paren! [word! word!]]]
+[topaz-parse [a (b c) d] [word! into paren! [word! word!] word!]]
+[topaz-parse [1 1.2 10%] [some number!]]
+[
+    word: [a block]
+    topaz-parse [word] [block!]
+]
+[topaz-parse [word] [get block!]]
+[topaz-parse [word] [get integer!]]
+[topaz-parse [1 2 3] [2 integer!]]
+[topaz-parse [1 2 3] [3 integer!]]
+[topaz-parse [1 2 3] [4 integer!]]
+[topaz-parse [1 2 3] [integer! if (false) integer!]]
+[topaz-parse [1 2 3] [integer! if (true) integer!]]
+[
+    foo: rule [a b] [a ("A matched") | b ("B matched") | ("Neither matched")]
+    topaz-parse [1 2 3] [foo word! integer!]
+]
+[topaz-parse [a b c] [foo word! integer!]]
+[topaz-parse [a b c] [foo block! paren!]]
+[
+    foo: rule [n [integer!]] [n integer!]
+    topaz-parse [1 2 3] [foo "String"]
+]
+[topaz-parse [1 2 3] [foo 3]]
+[
+    foo: rule [] [n: integer! (n * 3)]
+    topaz-parse [4] [foo]
+]
+[n]
+[topaz-parse [a b c] [word! word! end]]
+[
+    foo: [word!]
+    topaz-parse [a b c] [foo word!]
+]
+[topaz-parse [a b c] [foo word! end]]
+[topaz-parse [/a b /c] [collect any [keep to-word refinement! | skip]]]
+[topaz-parse [a b c] [word! here]]
+[topaz-parse [a b c] [word! pos: here word! word!]]
+[pos]
+[topaz-parse [a b c] [word! copy 2 word!]]
+
+; string parsing
+
+[topaz-parse "abc" ["a"]]
+[topaz-parse "abc" ["ab"]]
+[topaz-parse "abc" [copy "ab"]]
+[
+    text-chars: complement charset "<"
+    tag-name-chars: complement charset "/ >"
+    html: [object ["<html>" name: ('html) any [keep tag | keep text] "</html>"]]
+    tag: [object ["<" name: copy some tag-name-chars ">" any [keep tag | keep text] "</" some tag-name-chars ">"]]
+    text: [copy some text-chars]
+    topaz-parse "<html><head><title>My page</title></head><body><p>Paragraph</p></body></html>" html
+]
+
+[topaz-parse [a b c d] [to 'c here]]
+[topaz-parse [a b c d] [thru 'c here]]
+[topaz-parse [a b c d] [also 'a 'b]]
+[topaz-parse "/refinement" [load-next]]
+[
+    topaz-parse {/title "Spear of Aiste" /path %spear/ /author "Gabriele Santilli"} [
+        to-map collect some [
+            keep to-word load-next keep load-next
+        ]
+    ]
+]

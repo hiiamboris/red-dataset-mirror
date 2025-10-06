@@ -1,0 +1,3 @@
+"birleştir" kü
+    (insert coz/sonbellek (rejoin [coz/sonbellek/2 coz/sonbellek/1]) );
+me olsun

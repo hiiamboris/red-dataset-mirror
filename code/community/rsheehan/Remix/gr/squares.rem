@@ -1,0 +1,23 @@
+
+square : a shape of {
+	{-1, -1}
+	{ 1, -1}
+	{ 1,  1}
+	{-1,  1}
+}
+
+scatter squares :
+	draw together
+		no outline
+		repeat 100 times
+			square's position : random point
+			square's size	  : random 100
+			square's colour   : random colour
+			square's heading  : random 90
+			fill the (square)
+
+on standard paper
+	scatter squares
+	animate 1 time per sec
+		clear layer 1
+		scatter squares

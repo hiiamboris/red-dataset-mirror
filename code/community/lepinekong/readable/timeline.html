@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<title>Readable documentation - How to integrate timeline</title>
+
+<link href="./css/style.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="" type="image/x-icon"></head>
+<body>
+
+<!-- Begin the outermost container division -->
+<div id="container">
+
+<!-- begin main content division -->
+<div id="content">
+
+<H1>Use Case: how to integrate a nice timeline</H1>
+
+
+<H2>Readable Human Format</H2>
+
+<p>In this tutorial we'll show how to integrate this nice <a href='https://sbstjn.com/timesheet.js/'>timeline library</a> in readable human format. 
+<br>Pre-requisite:
+<a href='getting-started'>Getting Started with Readable</a>
+<br></p>
+<p>
+<script>
+window.onload = function() {new Timesheet('timesheet-placeholder', 2018, 2019, [
+    ['2018', '12/2018', 'readable core', 'dolor'],
+    ['02/2019', '03/2019', 'readable core documentation', 'ipsum'],
+    ['04/2019', '06/2019', 'tags and refinement extensibility mechanism', 'dolor'],
+    ['05/2019', '06/2019', 'tags and refinement developer documentation', 'ipsum'],
+    ['06/2019', '06/2019', 'google analytics extension', 'lorem'],
+    ['07/2019', '07/2019', 'timeline widget extension', 'lorem'],
+    ['08/2019', '08/2019', 'mindmapping widget extension', 'lorem'],          
+        ])  };
+</script> 
+</p>
+<p>
+        <div id="timesheet-placeholder" class="timesheet color-scheme-default">
+        </div>        
+    </p>
+<p>
+                <script type="text/javascript" src="https://sbstjn.com/timesheet.js/script/lib.js"></script>
+                <script type="text/javascript" src="https://sbstjn.com/timesheet.js/script/timesheet.min.js"></script>
+
+                <link rel="stylesheet" type="text/css" href="https://sbstjn.com/timesheet.js/styles/timesheet.css">       
+
+    </p>
+
+<H3>Step-1: Create dataset</H3>
+
+
+<H4>Create datas in json format</H4>
+
+<p>create a .text block and customize data below in json format. 
+You can enclose within [] for clarity but it isn't mandatory, for example:</p>
+<p><pre class='code-listing'>
+
+<xmp>
+Datas: [
+    .text: {
+    <script>
+    window.onload = function() {new Timesheet('timesheet-placeholder', 2018, 2030, [
+        ['2018', '12/2018', 'redlang/readable/codeops/quickrun/quickinstall foundations', 'lorem'],
+        ['2019', '03/2019', 'redlang/readable/codeops/quickrun/quickinstall documentation', 'lorem'],
+        ['03/2019', '04/2019', 'quickinstall ', 'ipsum'],
+        ['2020', 'Had very bad luck'],
+        ['10/2020', '2023', 'At least had fun', 'dolor'],
+        ['02/2021', '05/2025', 'Enjoyed those times as well', 'ipsum']
+            ])  };
+    </script> 
+    }
+]
+</xmp>
+    
+</pre></p>
+
+<H3>Step-2: Create a graphic placeholder</H3>
+
+
+<H4>Create a div placeholder</H4>
+
+<p>paste this code snippet:</p>
+<p><pre class='code-listing'>
+
+<xmp>
+Placeholder: [
+    .text: {
+        <div id="timesheet-placeholder" class="timesheet color-scheme-default">
+        </div>        
+    }
+]
+</xmp>
+    
+</pre></p>
+
+<H3>Step-3: Insert the timeline scripts and css files</H3>
+
+
+<H4>Create a div placeholder</H4>
+
+<p>paste this code snippet:</p>
+<p><pre class='code-listing'>
+
+<xmp>
+Scripts: [
+    .text: {
+        <script type="text/javascript" src="https://sbstjn.com/timesheet.js/script/lib.js"></script>
+        <script type="text/javascript" src="https://sbstjn.com/timesheet.js/script/timesheet.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="https://sbstjn.com/timesheet.js/styles/timesheet.css">       
+
+    } 
+]
+</xmp>
+    
+</pre></p>
+
+<H3>Step-4: Insert the timeline scripts and css files</H3>
+
+
+<H4>optional: override your main css stylesheet</H4>
+
+<p>if there is conflict between your stylesheet and the timeline stylesheet, add this snippet at the end of your stylesheet:</p>
+<p><pre class='code-listing'>
+
+<xmp>
+/*
+*Timeline overlapping
+*/
+.data{
+	margin-top: 15px!important;
+}
+</xmp>
+    
+</pre></p>
+    
+</div>  
+<!-- End the content division -->
+
+
+<!-- print footer -->
+</div>
+
+
+</div>  <!-- End the container division -->
+
+
+</body></html>
+
+<!--
+Red []    
+set to-word rejoin ["--" ">"] "timeline loaded"    
+do https://redlang.red/timeline.red
+-->
+

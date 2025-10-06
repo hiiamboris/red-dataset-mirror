@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+            <cyclicNameSet type="dayParts">
+                <cyclicNameContext type="format">
+                    <cyclicNameWidth type="abbreviated">
+                        <cyclicName type="1">zi</cyclicName>
+                        <cyclicName type="2">chou</cyclicName>
+                        <cyclicName type="3">yin</cyclicName>
+                        <cyclicName type="4">mao</cyclicName>
+                        <cyclicName type="5">chen</cyclicName>
+                        <cyclicName type="6">si</cyclicName>
+                        <cyclicName type="7">wu</cyclicName>
+                        <cyclicName type="8">wei</cyclicName>
+                        <cyclicName type="9">shen</cyclicName>
+                        <cyclicName type="10">you</cyclicName>
+                        <cyclicName type="11">xu</cyclicName>
+                        <cyclicName type="12">hai</cyclicName>
+                    </cyclicNameWidth>
+                    <cyclicNameWidth type="narrow">
+                        <alias source="locale" path="../cyclicNameWidth[@type='abbreviated']"/>
+                    </cyclicNameWidth>
+                    <cyclicNameWidth type="wide">
+                        <alias source="locale" path="../cyclicNameWidth[@type='abbreviated']"/>
+                    </cyclicNameWidth>
+                </cyclicNameContext>
+            </cyclicNameSet>

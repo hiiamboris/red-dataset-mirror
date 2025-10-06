@@ -1,0 +1,13 @@
+Turtle Graphics.
+================
+
+For the purposes of turtle graphics.
+	- the centre of the window is {0, 0}
+	- the axes have positive y at the top of the window
+
+turtle graphics on (purple) paper
+	turtle's speed : 100
+
+	repeat 100 times
+		turtle's colour : random colour
+		move to (random turtle point)

@@ -1,0 +1,5 @@
+- right now should work? tested with a test file. issue with permissions. will need to test by running compiled with elevated privileges
+- get the input to auto fit to the window
+- get a backup/toggle to switch between work/leisure
+- leanr the paser to be able to validate user inputs, formats, etc... 
+  - check can/does the parse translate to a type eg. parse input to ip, parse input to url, get both together as an entry

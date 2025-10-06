@@ -1,0 +1,8 @@
+Red [
+    Title: "crud-csv.red"
+    Alias: [
+        crud-csv
+    ]
+]
+
+do read http://redlang.red/crud-csv.red

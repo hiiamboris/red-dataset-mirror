@@ -1,0 +1,35 @@
+"tara" kü
+    (tara coz/sonbellek/1 false);
+me olsun
+
+"dosyayı oku" kü
+    (insert coz/sonbellek (read rejoin [%"" coz/sonbellek/1]));
+me olsun
+
+"okuyup tara" kü
+    dosyayı oku
+    tara
+me olsun
+
+"ortada olsun" kü
+    (insert coz/ortac coz/sonbellek/1);
+me olsun
+
+"giris_cikis.coz" okuyup tara
+"turler.coz" okuyup tara
+"matematik.coz" okuyup tara
+"metin.coz" okuyup tara
+"karsilastirma.coz" okuyup tara
+"renkler.coz" okuyup tara
+"dongu.coz" okuyup tara
+
+"cozut" kü
+    pembe yazı
+    "cozuttu: " bas
+    kırmızı yazı
+    (print coz/sonbellek/4);
+    sade yazı
+    kapat
+me olsun
+
+0 0 0 0

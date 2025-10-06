@@ -1,0 +1,9 @@
+xhr :post, :skip_next, id: auto_payment.to_param, format: 'json'
+
+xhr :delete, :destroy, id: 'some random'
+
+xhr :post, :cancel, :id => payment.id
+
+
+xhr :put, :update, format: :json, web_flow_id: web_flow.to_param
+

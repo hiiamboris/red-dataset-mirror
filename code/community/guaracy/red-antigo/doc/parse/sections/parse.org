@@ -1,0 +1,130 @@
+* TODO Parse
+
+** Sintaxe
+
+#+BEGIN_SRC red :exports both :results output
+  help parse
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+
+USAGE:
+      parse input rules /case /part length /trace callback
+ARGUMENTS:
+     input   [binary! any-block! any-string!] 
+     rules   [block!] 
+
+REFINEMENTS:
+     /case 
+     /part 
+         length   [number! series!] 
+     /trace 
+         callback   [function! [
+    event [word!] 
+    match? [logic!] 
+    rule [block!] 
+    input [series!] 
+    stack [block!] 
+    return: [logic!]
+]] 
+
+#+end_example
+
+** TODO Dialeto
+
+
+Os princípios centrais do parse são:
+- Adianta a série de entrada, combinando as regras de gramática até a falha da regra de nível superior (retornando false) ou exaustão de entrada (retornando true)[fn:1].
+- Opções ordenadas (por exemplo, na regra ["a" | "ab"], a segunda nunca terá sucesso).
+- Composição das regras (ilimitado)
+- Retrocesso limitado: apenas as posições de entrada e de regras são retrocedidas, outras alterações permanecem.
+- Dois modos: string-parsing (por exemplo: DSL externo) ou análise de blocos (por exemplo: DSL incorporado).
+
+[fn:1] Se a palavra-chave =collect= é usada em qualquer regra em sua forma mais simples, um bloco será retornado pelo =parse= não importa se a regra raiz teve êxito ou não.
+
+
+As regras do =parse= podem ser compostas por.
+
+-    =keyword= : uma palavra reservada do dialeto (veja tabela abaixo).
+-    =word= : =word= será avaliada e seu valor usado como regra.
+-    =word:= : ajusta =word= para a posição atual na entrada.
+-    =:word= : retoma a entrada na posição referenciada pela =word=.
+-    =integer value= : especifica o número de vezes que a regra será executada.
+-    =value= : casa a entrada com o valor.
+-    =|= : volta a posição na entrada e tenta casar com outra regra se a anterior falhou.
+-    =[rules]= : um bloco de sub-regras.
+-    =(expression)= : interrompe o dialeto, avalia uma expressão em Red e retorna para o parse.
+
+The following keywords are currently available in Red's Parse implementation. They can be composed together freely.
+As seguintes palavras-chave estão atualmente disponíveis na implementação do Parse do Red. Elas podem ser compostas livremente.
+
+| *Casamento*         | [[ahead][ahead]] rule               | casa a regra mas não avança a posição de entrada                                   |
+|                     | [[end][end]]                      | retorna sucesso se a posição na entrada chegou ao fim                              |
+|                     | [[none][none]]                     | sempre retorna sucesso                                                             |
+|                     | [[not][not]] rule                 | inverte o resultado da regra                                                       |
+|                     | [[opt][opt]] rule                 | olha para frente, opcionalmente casando a regra                                    |
+|                     | [[quote][quote]] value              | casa o próximo valor literalmente (se for necessário sair do dialeto)              |
+|                     | [[skip][skip]]                     | avança a entrada um elemento (caractere ou valor)                                  |
+|                     | [[thru][thru]] rule                | avança entrada até que a regra case posicionando a entrada após o casamento        |
+|                     | [[to][to]] rule                  | avança entrada até que a regra case posicionando a entrada no início do casamento  |
+| *Controle de fluxo* | [[break][break]]                    | interrompe o laço retornando sucesso                                               |
+|                     | [[if][if]] (expr)                | avalia uma expressão em Red. Se =false= ou =none=, falha e retorna                 |
+|                     | [[into][into]] rule                | muda a entrada para a série casada (=string= ou =block=) e analisa com a regra     |
+|                     | [[fail][fail]]                     | força a regra corrente a falhar e retorna                                          |
+|                     | [[then][then]]                     | independente de sucesso ou falha do que segue, pula para a próxima regra alternada |
+|                     | [[reject][reject]]                   | interrompe um loop e retorna falha                                                 |
+| *Iteração*          | [[any][any]] rule                 | repete a regra zero ou mais vezes até falhar ou a entrada não avançar              |
+|                     | [[some][some]] rule                | repete a regra uma ou mais vezes até falhar ou a entrada não avançar               |
+|                     | [[while][while]] rule               | repete a regra zero ou mais vezes até falhar independente do avanço da entrada     |
+| *Extração*          | [[collect][collect]] [rule]           | retorna um bloco com os valores coletados que casaram com a regra _keep            |
+|                     | [[collect1][collect]] set word [rule]  | coleta valores que casaram com a regra em um bloco e coloca em =word=              |
+|                     | [[collect2][collect]] into word [rule] | coleta valores que casaram com a regra inserindo no bloco referenciado por =word=  |
+|                     | [[copy][copy]] word rule           | coloca em =word= da posição atual até o casamento da regra                         |
+|                     | [[keep][keep]] rule                | adiciona a cópia do casamento na entrada no bloco =collect=                        |
+|                     | [[keep1][keep]] (expr)              | adiciona o último valor da expressão em Red no bloco =collect=                     |
+|                     | [[set][set]] word rule            | coloca em =word= o primeiro valor que casar com a entrada                          |
+| *Modificação*       | [[insert][insert]] only value        | insere[=/only=] o valor na posição atual da entrada e avança para depois do valor  |
+|                     | [[remove][remove]] rule              | remove a entrada casada                                                            |
+#+TBLFM: 
+
+
+*** TODO Casamento
+**** <<ahead>>ahead
+**** <<end>>end
+**** <<none>>none
+**** <<not>>not rule
+**** <<opt>>opt rule
+**** <<quote>>quote value
+**** <<skip>>skip
+**** <<thru>>thru rule
+**** <<to>>to rule
+*** TODO Fluxo de controle
+**** <<break>>break
+**** <<if>>if (expr)
+**** <<into>>into rule
+**** <<fail>>fail
+**** <<then>>then
+**** <<reject>>reject
+*** TODO Interação
+**** <<any>>any rule
+**** <<some>>some rule
+**** <<while>>while rule
+*** TODO Extração
+**** <<collect>>collect rule
+**** <<collect1>>collect set word rule
+**** <<collect2>>collect into word rule
+**** <<copy>>copy word rule
+**** <<keep>>keep rule
+**** <<keep1>>keep (expr)
+**** <<set>>set word rule
+*** TODO Modificação
+**** <<insert>>insert only value
+**** <<remove>>remove rule
+
+
+** TODO Dialetos
+parse
+** TODO Trace
+callback
+

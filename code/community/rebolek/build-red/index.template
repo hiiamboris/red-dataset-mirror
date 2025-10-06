@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title>Unofficial Red builds</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Sunflower:300" rel="stylesheet"> 
+</head>
+<body>
+	<h1>Unofficial Red builds</h1>
+	<p class="info">Here you can find unofficial builds of <a href="http://www.red-lang.org">Red language</a>. Builds are done every day, so when there's some regression in official nightly, you can get working version.</p>
+<!--
+	<p class="info">If there's no new commit, file is just linked to latest build. Such files are shown in <i>italic</i>, actual builds are shown in <b>bold</b>.</p>
+--!>
+	<p class="info">If you want to run GTK version, see <a href="https://github.com/red/red/wiki/%5BNOTES%5D-Gtk-Bindings-Development">Red GTK Wiki page</a> on what's required.</p>
+	<div class="divTable">
+		<div class="divTableBody">
+			<$table content$>
+		</div>
+	</div>
+</body>
+</html>

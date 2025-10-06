@@ -1,0 +1,42 @@
+pre
+{
+    background: #000000;
+    overflow-x: auto;
+}
+code
+{
+    font-family: "Consolas", "Courier New", "monospace";
+    tab-size: 4;
+}
+.Red,.native,.routine,.op
+{
+    color: #f92672;
+}
+.comment
+{
+    color: #757150;
+}
+.action,.function
+{
+    color: #66d9ef;
+}
+.refinement
+{
+    color: #EFB466;
+}
+.char,.pair,.logic,.numbers,.percent,.date,.time,.get-word,.lit-word
+{
+    color: #ae81ff
+}
+.string,.issue,.file,.email
+{
+    color: #e6db74;
+}
+.datatype,.setters
+{
+    color: #66EF6E;
+}
+.others
+{
+    color: #FFFFFF;
+}

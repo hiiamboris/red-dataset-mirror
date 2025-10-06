@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?> 
+<!DOCTYPE data SYSTEM "./data/menu.dtd">
+<?xml-stylesheet type="text/css" href="/style/design"?> 
+<?xml-stylesheet type="text/xsl" href="menu.xsl"?>
+<!-- Prolog comment 1 --> 
+<?welcome to the real world?>
+<?welcome x?>
+<?welcome ?>
+<!-- Prolog comment 2 --> 
+<customer_list comment="comment-attr" cdata="cdata-attr" PI="PI-attr"> 
+    <customer name="myVar1"> 
+        <![CDATA[Customer 1 CDATA]]>
+        <name type="first"> Sanjay</name> 
+        <!-- Customer 1 comment --> 
+        <location type="geo"> Mumbai</location> 
+        <?cust-1-PI type="app/red" href="/root/path"?> 
+    </customer> 
+    <customer name="myVar2"> 
+        <?cust-2-PI-1 type="app/red" href="/root/path/1"?> 
+        <?cust-2-PI-2 type="app/red" href="/root/path/2"?> 
+        <name type="first"> Micheal</name> 
+        <!-- Customer 2 comment 1 --> 
+        <![CDATA[customer 2 CDATA 1]]>
+        <location type="geo"> Washington</location> 
+        <![CDATA[customer 2 CDATA 2]]>
+        <!-- Customer 2 comment 2 --> 
+    </customer> 
+</customer_list>

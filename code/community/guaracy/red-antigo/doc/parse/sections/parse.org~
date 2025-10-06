@@ -1,0 +1,129 @@
+* TODO Parse
+
+
+** TODO Parse
+
+#+BEGIN_SRC red :exports both :results output
+  help parse
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+
+USAGE:
+      parse input rules /case /part length /trace callback
+ARGUMENTS:
+     input   [binary! any-block! any-string!] 
+     rules   [block!] 
+
+REFINEMENTS:
+     /case 
+     /part 
+         length   [number! series!] 
+     /trace 
+         callback   [function! [
+    event [word!] 
+    match? [logic!] 
+    rule [block!] 
+    input [series!] 
+    stack [block!] 
+    return: [logic!]
+]] 
+
+#+end_example
+
+The Parse dialect
+
+Parse's core principles are:
+
+- Advance input series by matching grammar rules until top-level rule failure (returning false) or input exhaustion (returning true). (*)
+- Ordered choices (e.g. in ["a" | "ab"] rule, the second one will never succeed).
+- Rules composability (unlimited).
+- Limited backtracking: only input and rules positions are backtracked, other changes remain.
+- Two modes: string-parsing (for example: external DSL) or block-parsing (for example: embedded DSL).
+
+(*) If collect keyword is used in any rule in its simplest form, a block will be returned by parse no matter if the root rule succeeded or not.
+
+
+The Parse rules can be made from:
+
+-    =keyword= : a dialect reserved word (see the tables below).
+-    =word= : word will be evaluated and its value used as a rule.
+-    =word:= : set the word to the current input position.
+-    =:word= : resume input at the position referenced by the word.
+-    =integer value= : specify an iterated rule with a fixed number or a range of iterations.
+-    =value= : match the input to a value
+-    =|= : backtrack and match next alternate rule
+-    =[rules]= : a block of sub-rules
+-    =(expression)= : escape the Parse dialect, evaluate a Red expression and return to the Parse dialect.
+
+The following keywords are currently available in Red's Parse implementation. They can be composed together freely.
+
+| *Matching*     | [[ahead][ahead]] rule               | look-ahead rule, match the rule, but do not advance input                             |
+|                | [[end][end]]                      | return success if current input position is at end                                    |
+|                | [[none][none]]                     | always return success (catch-all rule)                                                |
+|                | [[not][not]] rule                 | invert the result of the sub-rule                                                     |
+|                | [[opt][opt]] rule                 | look-ahead rule, optionally match the rule                                            |
+|                | [[quote][quote]] value              | match next value literally (for dialect escaping needs)                               |
+|                | [[skip][skip]]                     | advance the input by one element (a character or a value)                             |
+|                | [[thru][thru]] rule                | advance input until rule matches, input is set past the match                         |
+|                | [[to][to]] rule                  | advance input until rule matches, input is set at head of the match                   |
+| *Control flow* | [[break][break]]                    | break out of a matching loop, returning success                                       |
+|                | [[if][if]] (expr)                | evaluate the Red expression, if false or none, fail and backtrack                     |
+|                | [[into][into]] rule                | switch input to matched series (string or block) and parse it with rule               |
+|                | [[fail][fail]]                     | force current rule to fail and backtrack                                              |
+|                | [[then][then]]                     | regardless of failure or success of what follows, skip the next alternate rule        |
+|                | [[reject][reject]]                   | break out of a matching loop, returning failure                                       |
+| *Iteration*    | [[any][any]] rule                 | repeat rule zero or more times until failure or if input does not advance             |
+|                | [[some][some]] rule                | repeat rule one or more times until failure or if input does not advance              |
+|                | [[while][while]] rule               | repeat rule zero or more times until failure regardless of input advancing            |
+| *Extraction*   | [[collect][collect]] [rule]           | return a block of collected values from the matched rule                              |
+|                | [[collect1][collect]] set word [rule]  | collect values from the matched rule, in a block and set the word to it               |
+|                | [[collect2][collect]] into word [rule] | collect values from the matched rule and insert them in the block referred by word    |
+|                | [[copy][copy]] word rule           | set the word to a copy of the matched input                                           |
+|                | [[keep][keep]] rule                | append a copy of the matched input to the collecting block                            |
+|                | [[keep1][keep]] (expr)              | append the last value from the Red expression to the collecting block                 |
+|                | [[set][set]] word rule            | set the word to the first value of the matched input                                  |
+| *Modification* | [[insert][insert]] only value        | insert[/only] a value at the current input position and advance input after the value |
+|                | [[remove][remove]] rule              | remove the matched input                                                              |
+#+TBLFM: 
+
+*** TODO Casamento
+**** <<ahead>>ahead
+**** <<end>>end
+**** <<none>>none
+**** <<not>>not rule
+**** <<opt>>opt rule
+**** <<quote>>quote value
+**** <<skip>>skip
+**** <<thru>>thru rule
+**** <<to>>to rule
+*** TODO Fluxo de controle
+**** <<break>>break
+**** <<if>>if (expr)
+**** <<into>>into rule
+**** <<fail>>fail
+**** <<then>>then
+**** <<reject>>reject
+*** TODO Interação
+**** <<any>>any rule
+**** <<some>>some rule
+**** <<while>>while rule
+*** TODO Extração
+**** <<collect>>collect rule
+**** <<collect1>>collect set word rule
+**** <<collect2>>collect into word rule
+**** <<copy>>copy word rule
+**** <<keep>>keep rule
+**** <<keep1>>keep (expr)
+**** <<set>>set word rule
+*** TODO Modificação
+**** <<insert>>insert only value
+**** <<remove>>remove rule
+
+
+** TODO Dialetos
+parse
+** TODO Trace
+callback
+

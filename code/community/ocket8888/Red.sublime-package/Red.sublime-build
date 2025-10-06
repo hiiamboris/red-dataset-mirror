@@ -1,0 +1,23 @@
+{
+	// Note that these require "Red" to be in the default system $PATH (NOT just YOUR $PATH)
+	"variants": [
+		{
+			"name": "Quick",
+			"cmd": ["red", "-c", "$file"],
+			"selector": "source.red"
+		},
+		{
+			"name": "Release",
+			"cmd": ["red", "-r", "$file"]
+		},
+		{
+			"name": "Clean",
+			"cmd": ["red", "clear", "$file_path"]
+		},
+		{
+			"name": "Run",
+			"cmd": ["red", "$file"],
+			"file_regex": "^\\*\\*\\* ((?=\\w+\\s)+?Error.*?)\n\\*\\*\\* in file: (.*?)\n\\*\\*\\* line: (\\d+)"
+		}
+	],
+}

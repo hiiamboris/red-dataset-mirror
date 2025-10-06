@@ -1,0 +1,1 @@
+@red %~dp0reddo.red %*

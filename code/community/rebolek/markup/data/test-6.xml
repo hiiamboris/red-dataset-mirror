@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<calendar type="buddhist">
+	<months>
+		<alias source="locale" path="../../calendar[@type='gregorian']/months"/>
+	</months>
+	<days>
+		<alias source="locale" path="../../calendar[@type='gregorian']/days"/>
+	</days>
+	</calendar>

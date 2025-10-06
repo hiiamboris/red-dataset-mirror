@@ -1,0 +1,130 @@
+Red []
+{Example help text
+
+===Section
+
+Sections are started with `===` + section heading, followed by blank line.
+
+`===Section`
+
+---Subsection
+
+Subsections are started with `---` + subsection heading, followed by blank line.
+
+`---Subsection`
+
+===Text
+
+Text lines are continuously concatenated. 
+To break a line, 
+add two spaces in the end of it like this:`  `  
+- in this way`  `  
+- you can create`  `  
+- lists
+
+Paragraphs are separated by blank line(s).
+
+===Emphasis
+
+For *bolding* use `*...*`,  
+for /italics/ use `/.../`,  
+for _underlining_ use `_..._`.
+
+===Escaping
+
+To escape special characters, use `\`.
+
+Special characters are `\*/_<[^{`.
+
+Also `!`, `===`, `---`, `<space>` and `<tab>` in beginning of line may need escaping.
+
+Standard escape character for Red is `^^`, and it is used as usual here too.  
+Especially, remember to use `\^^^{` if you want to escape starting-brace without matching closing-brace.
+
+===Code
+
+Code examples are included by indenting by any number of spaces or tabs:
+
+ text "clicking executes"
+ area "Examples assume VID layout"
+   
+	result: text ""
+	do [repeat i 5 [append result/text i]]
+
+Clicking on code executes it, assuming VID layout.  
+You can alter code and play with it by ctrl-clicking on code.
+
+Short inline code is included between backticks ``...``.  
+Backticks themselves cannot be included in inline code except in the very beginning or in the very end, as in ```...```.
+
+===Table
+
+Poor man's table can be built from lines starting with some space (or tab) and followed by `+` or `|`. 
+
+E.g. table built with  
+
+` +--------+--------+-------------+  `  
+` | Cell1  | Cell2  | Cell3       |  `  
+` +--------+--------+-------------+  `  
+` | Text   | Text2  | Longer text |  `  
+` +--------+--------+-------------+  `
+
+will render as
+
+ +--------+--------+-------------+  
+ | Cell1  | Cell2  | Cell3       |  
+ +--------+--------+-------------+  
+ | Text1  | Text2  | Longer text |  
+ +--------+--------+-------------+  
+
+Notice 2 spaces in the end of each line - these ensure lines will break.
+
+After having built initial table with correct cell sizes, formatting may be added to cells:
+
+ +--------+--------+-------------+  
+ |{#leaf#} {green}Cell1  | Cell2  | Cell3{black}       {#}|  
+ +--------+--------+-------------+  
+ | *Text1*  | /Text2/  | _Longer text_ |  
+ +--------+--------+-------------+  
+
+Font changes will be overrun, otherwise columns become misaligned.
+
+===Notes
+
+Notes are included by starting line with !. E.g.  
+
+`!Pay attention!`
+
+will result in:
+
+!Pay attention!
+
+===Links
+
+Format for links is `<link text>(link)`.
+
+Links can be internal or external.
+
+/Internal links/ link to help pages by refering to page name,  
+like `[Text](Text)`: [Text](Text).
+
+/External links/ of course refer to external pages,  
+like `[Red](https://www.red-lang.org/)`: [Red](https://www.red-lang.org/).
+
+===Colors
+
+Text may be colored by declaring `{color}`. E.g. `{orange}` will result in {orange}orange color. 
+This color will be used for text until you declare {black}new color.
+
+Background color may be changed by `{#bg-color#}` {#yellow#}and background coloring ended by `{#}`{#}.
+
+===Font
+
+Font can be changed by `<"font-name" size>`. E.g. `<"Courier New" 12>` <"Courier New" 12>is 12 point "Courier New"<>.
+Altered font application is ended by `<>`.
+
+===Other
+
+You might want to use ☑ or other extended chars sometimes.
+
+}

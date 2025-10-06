@@ -1,0 +1,1048 @@
+\documentclass{article}
+\usepackage{color}
+\usepackage{alltt}
+\usepackage[T1]{fontenc}
+
+\input {highlight.sty}
+
+\title{demo.r}
+\begin{document}
+\pagecolor{bgcolor}
+\noindent
+\ttfamily
+\hlstd{REBOL\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{\ Title}\hlopt{:\ }\hlstd{}\hlstr{"R3\ GUI\ {-}\ Development\ Test\ Script"}\hlstd{\hspace*{\fill}\\
+\ Version}\hlopt{:\ }\hlstd{}\hlnum{0.1.2}\hspace*{\fill}\\
+\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{\hspace*{\fill}\\
+errout}\hlopt{:\ }\hlstd{func\ }\hlopt{{[}}\hlstd{msg}\hlopt{{]}\ {[}}\hlstd{}\hlkwa{if\ }\hlstd{msg\ }\hlopt{{[}}\hlstd{print\ msg\ print\ }\hlstr{"The\ demo\ cannot\ be\ shown."}\hlstd{\ halt}\hlopt{{]}{]}}\hspace*{\fill}\\
+\hlstd{}\hspace*{\fill}\\
+\hlopt{;}\hlstd{do\ }\hlopt{\%}\hlstd{load}\hlopt{{-}}\hlstd{gui}\hlopt{.}\hlstd{r\hspace*{\fill}\\
+\hspace*{\fill}\\
+load}\hlopt{{-}}\hlstd{gui\hspace*{\fill}\\
+\hspace*{\fill}\\
+errout\ case\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{\ not\ value?\ }\hlstr{'size{-}text\ {[}"This\ R3\ release\ does\ not\ provide\ a\ graphics\ system."{]}}\hspace*{\fill}\\
+\hlstr{\ load{-}gui\ $<$$>$\ 0.2.1\ {[}"Wrong\ GUI\ version\ for\ this\ test\ script."{]}}\hspace*{\fill}\\
+\hlstr{\ true\ {[}none{]}}\hspace*{\fill}\\
+\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{quick{-}start:\ none\ ;\ For\ specific\ section\ on\ start,\ eg.\ "Forms"}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{view\ {[}}\hspace*{\fill}\\
+\hlstr{\ title\ "R3\ Demo\ is\ pending..."}\hspace*{\fill}\\
+\hlstr{\ doc\ \{}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{A\ demo\ is\ not\ currently\ available.}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{However,\ you\ can\ run\ the\ GUI\ test\ script\ which\ shows}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{various\ examples,\ and\ you\ can\ easily\ examine\ the\ source}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{code\ to\ get\ a\ quick\ idea\ of\ how\ it\ works.}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{Note\ that\ we\ are\ using\ the\ development\ theme\ GUI,}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{not\ the\ default\ skin.}\hspace*{\fill}\\
+\hlstr{\ \}}\hspace*{\fill}\\
+\hlstr{\ group\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{button\ "Run\ Test"\ close}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{button\ "Quit"\ quit}\hspace*{\fill}\\
+\hlstr{\ {]}}\hspace*{\fill}\\
+\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{instructions:\ \{}\hspace*{\fill}\\
+\hlstr{\ ===GUI\ Prototype}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ This\ is\ a\ $<$b$>$development\ test\ version$<$/b$>$\ of\ the\ GUI.\ It\ has\ not}\hspace*{\fill}\\
+\hlstr{\ been\ finalized\ because\ we\ have\ a\ bit\ more\ to\ do.}\hspace*{\fill}\\
+\hlstr{\ }\hspace*{\fill}\\
+\hlstr{\ Note\ that\ the\ skin\ you\ are\ seeing\ is\ the\ development\ them,}\hspace*{\fill}\\
+\hlstr{\ $<$i$>$not\ the\ final\ skin$<$/i$>$.}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ ===Try\ This\ Test}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ Click\ on\ test\ categories\ on\ the\ left\ to\ view\ them\ in\ this}\hspace*{\fill}\\
+\hlstr{\ panel.\ Click\ or\ drag\ the\ various\ test\ objects\ to\ see\ what}\hspace*{\fill}\\
+\hlstr{\ happens.\ Resize\ the\ window.}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ To\ see\ the\ source\ code\ for\ any\ of\ these\ test\ panels,\ click}\hspace*{\fill}\\
+\hlstr{\ on\ the\ source\ button\ below.}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ ===Bugs\ and\ Optimizations}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ There\ are\ still\ bugs\ in\ the\ GUI,\ and\ we\ need\ a\ few\ more}\hspace*{\fill}\\
+\hlstr{\ features\ too.\ But,\ the\ GUI\ code\ works\ fairly\ well,\ although}\hspace*{\fill}\\
+\hlstr{\ it\ $<$b$>$has\ yet\ to\ be\ optimized.$<$/b$>$}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{view{-}code:\ func\ {[}text{]}{[}}\hspace*{\fill}\\
+\hlstr{\ view\ {[}code{-}area\ 600x400\ (text){]}}\hspace*{\fill}\\
+\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{calc{-}radius:\ func\ {[}p{]}\ {[}square{-}root\ add\ p/x\ {*}{*}\ 2\ p/y\ {*}{*}\ 2{]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{polar{-}to{-}rect:\ func\ {[}}\hspace*{\fill}\\
+\hlstr{\ "Convert\ radius\ and\ angle\ to\ x\ and\ y."}\hspace*{\fill}\\
+\hlstr{\ radius\ angle}\hspace*{\fill}\\
+\hlstr{{]}{[}}\hspace*{\fill}\\
+\hlstr{\ as{-}pair\ radius\ {*}\ sine\ angle\ radius\ {*}\ negate\ cosine\ angle}\hspace*{\fill}\\
+\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{clock{-}obj:\ context\ {[}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ radius:\ 800}\hspace*{\fill}\\
+\hlstr{\ center:\ 1000x1000}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ blk:}\hspace*{\fill}\\
+\hlstr{\ hour{-}hand:}\hspace*{\fill}\\
+\hlstr{\ min{-}hand:}\hspace*{\fill}\\
+\hlstr{\ sec{-}hand:\ none}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ make{-}clock:\ has\ {[}xy1\ xy2\ r{]}{[}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{blk:\ make\ block!\ 220}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{area{-}fill:\ span{-}colors\ white\ {[}.3\ 1.2{]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{;\ Draw\ background\ circle:}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{append\ blk\ compose\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{scale\ 1\ 1}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{pen\ black}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{line{-}width\ 30}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{fill{-}pen\ white}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{circle\ center\ (radius\ +\ 100)}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{line{-}width\ 20}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{;\ Draw\ minute\ tick\ marks:}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{for\ angle\ 0\ 359\ 6\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{xy1:\ center\ +\ polar{-}to{-}rect\ radius\ +\ 8\ angle}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{r:\ radius\ +\ pick\ {[}100\ 60{]}\ zero?\ mod\ angle\ 30}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{xy2:\ center\ +\ polar{-}to{-}rect\ r\ angle}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{repend\ blk\ {[}'}\hlstd{line\ xy1\ xy2}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{}\hlopt{;\ }\hlstd{Setup\ hour\ hand}\hlopt{:}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{append\ blk\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{pen\ black\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{line}\hlopt{{-}}\hlstd{cap\ rounded\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{line}\hlopt{{-}}\hlstd{width\ }\hlnum{60}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{hour}\hlopt{{-}}\hlstd{hand}\hlopt{:\ }\hlstd{tail\ blk\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{draw}\hlopt{{-}}\hlstd{hand\ hour}\hlopt{{-}}\hlstd{hand\ }\hlnum{0}\hspace*{\fill}\\
+\hlstd{\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{}\hlopt{;\ }\hlstd{Setup\ minute\ hand}\hlopt{:}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{append\ blk\ }\hlopt{{[}}\hlstd{line}\hlopt{{-}}\hlstd{width\ }\hlnum{40}\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{min}\hlopt{{-}}\hlstd{hand}\hlopt{:\ }\hlstd{tail\ blk\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{draw}\hlopt{{-}}\hlstd{hand\ min}\hlopt{{-}}\hlstd{hand\ }\hlnum{0}\hspace*{\fill}\\
+\hlstd{\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{}\hlopt{;\ }\hlstd{Setup\ second\ hand}\hlopt{:}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{append\ blk\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{line}\hlopt{{-}}\hlstd{width\ }\hlnum{25}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{pen\ maroon\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{fill}\hlopt{{-}}\hlstd{pen\ maroon\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{circle\ center\ }\hlnum{30}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{arrow\ }\hlnum{10}\hlstd{x0\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{}\hlopt{{]}\ }\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{sec}\hlopt{{-}}\hlstd{hand}\hlopt{:\ }\hlstd{tail\ blk\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{draw}\hlopt{{-}}\hlstd{hand\ sec}\hlopt{{-}}\hlstd{hand\ }\hlnum{0}\hspace*{\fill}\\
+\hlstd{\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{}\hlopt{;\ }\hlstd{Lame\ surface\ reflection}\hlopt{:}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{append\ blk\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{grad}\hlopt{{-}}\hlstd{pen\ radial\ }\hlnum{1000}\hlstd{x400\ }\hlnum{800\ 1100\ 0\ 1.2\ }\hlstd{}\hlopt{{[}}\hlstd{}\hlnum{255.255.255.240\ 100.100.100.200}\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{pen\ off\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{circle\ }\hlkwd{center\ }\hlstd{}\hlopt{(}\hlstd{radius\ }\hlopt{+\ }\hlstd{}\hlnum{100}\hlstd{}\hlopt{)}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{blk\hspace*{\fill}\\
+\ }\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{\hspace*{\fill}\\
+\ draw}\hlopt{{-}}\hlstd{hand}\hlopt{:\ }\hlstd{funct\ }\hlopt{{[}}\hlstd{hand\ angle\ }\hlopt{/}\hlstd{short\ }\hlopt{/}\hlstd{local\ r}\hlopt{{]}{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{r}\hlopt{:\ }\hlstd{either\ short\ }\hlopt{{[}}\hlstd{radius\ }\hlopt{{*}\ }\hlstd{}\hlnum{.75}\hlstd{}\hlopt{{]}\ {[}}\hlstd{radius}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{change\ hand\ reduce\ }\hlopt{{[}}\hlstd{}\hlstr{'line\ center\ center\ +\ polar{-}to{-}rect\ r\ angle\ {*}\ 6{]}}\hspace*{\fill}\\
+\hlstr{\ {]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ set{-}clock:\ funct\ {[}time{]}\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{draw{-}hand/short\ hour{-}hand\ to{-}integer\ 5\ {*}\ ((mod\ time/1\ 12)\ +\ (time/2\ /\ 60))}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{draw{-}hand\ min{-}hand\ time/2}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{draw{-}hand\ sec{-}hand\ time/3}\hspace*{\fill}\\
+\hlstr{\ {]}}\hspace*{\fill}\\
+\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{stylize\ {[}\ ;{-}{-}\ special\ styles\ for\ testing}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{clock:\ {[}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ about:\ "Analog\ clock\ with\ second\ hand.\ Resizable."}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ facets:\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{size:\ 200x200}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{max{-}size:\ 2000x2000}\hspace*{\fill}\\
+\hlstr{\ {]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ options:\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{size:\ {[}pair!{]}}\hspace*{\fill}\\
+\hlstr{\ {]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ faced:\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{clock:\ none}\hspace*{\fill}\\
+\hlstr{\ {]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ actors:\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{on{-}make:\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{face/facets/clock:\ clk:\ copy\ clock{-}obj}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{face/gob/draw:\ clk/make{-}clock}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{face/state/value:\ 0:00}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{on{-}resize:\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{face/gob/size:\ face/facets/area{-}size:\ arg}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{b:\ find/tail\ face/gob/draw\ '}\hlstd{scale\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{b}\hlopt{/}\hlstd{}\hlnum{1}\hlstd{}\hlopt{:\ }\hlstd{arg}\hlopt{/}\hlstd{x\ }\hlopt{/\ }\hlstd{}\hlnum{2000}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{b}\hlopt{/}\hlstd{}\hlnum{2}\hlstd{}\hlopt{:\ }\hlstd{arg}\hlopt{/}\hlstd{y\ }\hlopt{/\ }\hlstd{}\hlnum{2000}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{show}\hlopt{{-}}\hlstd{later\ face\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{on}\hlopt{{-}}\hlstd{set}\hlopt{:\ {[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{}\hlkwa{if\ }\hlstd{arg}\hlopt{/}\hlstd{}\hlnum{1\ }\hlstd{}\hlopt{=\ }\hlstd{}\hlstr{'value\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{if\ date?\ time:\ arg/2\ {[}time:\ time/time{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{face/state/value:\ time}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{face/facets/clock/set{-}clock\ time}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{show{-}later\ face}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{on{-}get:\ {[}face/state/value{]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{on{-}reset:\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{set{-}face\ face\ 0:00}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{\ {]}}\hspace*{\fill}\\
+\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{draw{-}box:\ {[}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ about:\ "Box\ for\ drawing\ shapes."}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ facets:\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{size:\ 200x200}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{max{-}size:\ 2000x2000}\hspace*{\fill}\\
+\hlstr{\ {]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ faced:\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{drawing:\ copy\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{pen\ coal}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{line{-}width\ 2}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{fill{-}pen\ snow}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{box\ 3}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{undo:\ copy\ {[}{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{marker:\ none}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{line{-}color:\ black}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{area{-}color:\ leaf}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{line{-}size:\ 2}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{corner:\ 3}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{mode:\ '}\hlstd{box\hspace*{\fill}\\
+\ }\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{\hspace*{\fill}\\
+\ actors}\hlopt{:\ {[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{on}\hlopt{{-}}\hlstd{draw}\hlopt{:\ {[}}\hlstd{face}\hlopt{/}\hlstd{facets}\hlopt{/}\hlstd{drawing}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{on}\hlopt{{-}}\hlstd{click}\hlopt{:\ {[}\ ;\ }\hlstd{arg}\hlopt{:\ }\hlstd{event\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{}\hlkwa{switch\ }\hlstd{arg}\hlopt{/}\hlstd{type\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ }\hlstd{down\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ \ }\hlstd{}\hlkwa{if\ }\hlstd{m}\hlopt{:\ }\hlstd{face}\hlopt{/}\hlstd{facets}\hlopt{/}\hlstd{marker\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ \ \ }\hlstd{}\hlopt{;\ }\hlstd{See\ note\ at\ top}\hlopt{:}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ \ \ }\hlstd{append}\hlopt{/}\hlstd{only\ face}\hlopt{/}\hlstd{facets}\hlopt{/}\hlstd{undo\ m\hspace*{\fill}\\
+}\hlstd{\ \ \ \ \ \ }\hlstd{delect}\hlopt{/}\hlstd{all\ system}\hlopt{/}\hlstd{dialects}\hlopt{/}\hlstd{draw\ m\ b}\hlopt{:\ {[}{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ \ \ }\hlstd{append\ clear\ m\ b\hspace*{\fill}\\
+}\hlstd{\ \ \ \ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ \ }\hlstd{face}\hlopt{/}\hlstd{facets}\hlopt{/}\hlstd{marker}\hlopt{:\ }\hlstd{tail\ face}\hlopt{/}\hlstd{facets}\hlopt{/}\hlstd{drawing\hspace*{\fill}\\
+}\hlstd{\ \ \ \ \ }\hlstd{return\ init}\hlopt{{-}}\hlstd{drag\ face\ arg}\hlopt{/}\hlstd{offset\hspace*{\fill}\\
+}\hlstd{\ \ \ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{none\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{on}\hlopt{{-}}\hlstd{drag}\hlopt{:\ {[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{append\ clear\ d}\hlopt{:\ }\hlstd{face}\hlopt{/}\hlstd{facets}\hlopt{/}\hlstd{marker\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ }\hlstd{pen\ line}\hlopt{{-}}\hlstd{color\hspace*{\fill}\\
+}\hlstd{\ \ \ \ }\hlstd{line}\hlopt{{-}}\hlstd{width\ line}\hlopt{{-}}\hlstd{size\hspace*{\fill}\\
+}\hlstd{\ \ \ \ }\hlstd{fill}\hlopt{{-}}\hlstd{pen\ area}\hlopt{{-}}\hlstd{color\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{append\ d\ mode}\hlopt{:\ }\hlstd{face}\hlopt{/}\hlstd{facets}\hlopt{/}\hlstd{mode\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{repend\ d\ select\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ }\hlstd{line\ }\hlopt{{[}}\hlstd{arg}\hlopt{/}\hlstd{base\ arg}\hlopt{/}\hlstd{base\ }\hlopt{+\ }\hlstd{arg}\hlopt{/}\hlstd{delta}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ }\hlstd{box\ }\hlopt{{[}}\hlstd{arg}\hlopt{/}\hlstd{base\ arg}\hlopt{/}\hlstd{base\ }\hlopt{+\ }\hlstd{arg}\hlopt{/}\hlstd{delta\ }\hlstr{'corner{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{circle\ {[}arg/base\ calc{-}radius\ arg/delta{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{{]}\ mode}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{draw{-}face\ face}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{on{-}undo:\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{clear\ face/facets/marker}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{face/facets/marker:\ take/last\ face/facets/undo}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{draw{-}face\ face}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{\ {]}}\hspace*{\fill}\\
+\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{color{-}chip:\ clicker\ {[}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ about:\ "Shows\ a\ color.\ Clicking\ on\ it\ will\ bring\ up\ color\ requestor."}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ facets:\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{size:\ 18x18}\hspace*{\fill}\\
+\hlstr{\ {]}}\hspace*{\fill}\\
+\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{free{-}drag:\ clicker\ {[}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ about:\ "Box\ that\ can\ be\ dragged\ in\ a\ panel\ and\ past\ its\ borders."}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ facets:\ {[}size:\ 50x50{]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ actors:\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{on{-}click:\ {[}\ ;\ arg:\ event}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{if\ arg/type\ =\ '}\hlstd{down\ }\hlopt{{[}}\hlstd{return\ init}\hlopt{{-}}\hlstd{drag\ face\ none}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{none\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{on}\hlopt{{-}}\hlstd{drag}\hlopt{:\ {[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{}\hlopt{;\ }\hlstd{arg}\hlopt{:\ }\hlstd{drag\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{face}\hlopt{/}\hlstd{gob}\hlopt{/}\hlstd{offset}\hlopt{:\ }\hlstd{arg}\hlopt{/}\hlstd{delta\ }\hlopt{+\ }\hlstd{arg}\hlopt{/}\hlstd{base\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{draw}\hlopt{{-}}\hlstd{face\ face\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{\ }\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{\hspace*{\fill}\\
+lock}\hlopt{{-}}\hlstd{drag}\hlopt{:\ }\hlstd{free}\hlopt{{-}}\hlstd{drag\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{\hspace*{\fill}\\
+\ about}\hlopt{:\ }\hlstd{}\hlstr{"Box\ that\ can\ be\ dragged\ within\ a\ panel,\ but\ stops\ at\ borders."}\hlstd{\hspace*{\fill}\\
+\hspace*{\fill}\\
+\ actors}\hlopt{:\ {[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{on}\hlopt{{-}}\hlstd{drag}\hlopt{:\ {[}\ ;\ }\hlstd{arg}\hlopt{:\ }\hlstd{drag\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{do}\hlopt{{-}}\hlstd{style\ parent}\hlopt{{-}}\hlstd{face?\ face\ }\hlstr{'on{-}offset\ face/gob/offset:}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{min\ face/gob/parent/size\ {-}\ face/gob/size\ max\ 0x0\ arg/delta\ +\ arg/base}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{draw{-}face\ face}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{do{-}face\ parent{-}face?\ face}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{\ {]}}\hspace*{\fill}\\
+\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{box{-}cross:\ box\ {[}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ about:\ "Test\ box\ for\ horizontal\ and\ vertical\ scrollers."}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ facets:\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{size:\ 280x140}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{max{-}size:\ 1000x1000}\hspace*{\fill}\\
+\hlstr{\ {]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ state:\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{valx:\ 0}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{valy:\ 0}\hspace*{\fill}\\
+\hlstr{\ {]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ faced:\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{cross{-}xy:\ 5x5}\hspace*{\fill}\\
+\hlstr{\ {]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ draw:\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{pen\ 30.30.30}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{line{-}width\ 1.5}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{fill{-}pen\ snow}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{box\ 1x1\ area{-}size\ 3}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{fill{-}pen\ yellow}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{circle\ cross{-}xy\ 5}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{line\ (cross{-}xy\ {-}\ 8x0)\ (cross{-}xy\ +\ 8x0)}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{line\ (cross{-}xy\ {-}\ 0x8)\ (cross{-}xy\ +\ 0x8)}\hspace*{\fill}\\
+\hlstr{\ {]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ actors:\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{on{-}set:\ {[}\ ;\ arg:\ {[}word\ value{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{word:\ value:\ none}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{set\ {[}word\ value{]}\ arg\ ;\ change\ SET\ !!}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{unless\ find\ {[}valx\ valy{]}\ word\ {[}exit{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{face/state/:word:\ value}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{set{-}facet\ face\ '}\hlstd{cross}\hlopt{{-}}\hlstd{xy\ }\hlnum{5}\hlstd{x5\ }\hlopt{+\ }\hlstd{as}\hlopt{{-}}\hlstd{pair\hspace*{\fill}\\
+}\hlstd{\ \ \ \ }\hlstd{face}\hlopt{/}\hlstd{facets}\hlopt{/}\hlstd{area}\hlopt{{-}}\hlstd{size}\hlopt{/}\hlstd{x\ }\hlopt{{-}\ }\hlstd{}\hlnum{10\ }\hlstd{}\hlopt{{*}\ }\hlstd{face}\hlopt{/}\hlstd{state}\hlopt{/}\hlstd{valx\hspace*{\fill}\\
+}\hlstd{\ \ \ \ }\hlstd{face}\hlopt{/}\hlstd{facets}\hlopt{/}\hlstd{area}\hlopt{{-}}\hlstd{size}\hlopt{/}\hlstd{y\ }\hlopt{{-}\ }\hlstd{}\hlnum{10\ }\hlstd{}\hlopt{{*}\ }\hlstd{face}\hlopt{/}\hlstd{state}\hlopt{/}\hlstd{valy\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{on}\hlopt{{-}}\hlstd{reset}\hlopt{:\ {[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{set}\hlopt{{-}}\hlstd{facet\ face\ }\hlstr{'cross{-}xy\ 5x5}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{draw{-}face\ face}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{\ {]}}\hspace*{\fill}\\
+\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{tests:\ {[}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ "Buttons"}\hspace*{\fill}\\
+\hlstr{\ "Single{-}state\ buttons\ and\ dual{-}state\ toggle\ buttons.\ Layout\ in\ a\ simple\ panel\ that\ has\ no\ groups\ or\ panels."}\hspace*{\fill}\\
+\hlstr{\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{when\ {[}load{]}\ do\ {[}print\ "Load\ trigger!"{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{clicker}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{button\ "Do"\ alert\ "Button\ pressed!"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{button\ "Big\ Quit\ Button"\ maroon\ options\ {[}max{-}size:\ 2000x50{]}\ quit}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{bar}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{text\ {[}bold\ "Toggle\ button..."{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{t1:\ toggle\ "Toggle"\ of\ '}\hlstd{tog\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{button\ }\hlstr{"Set\ False"}\hlstd{\ set\ }\hlstr{'t1\ false}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{button\ "Set\ True"}\hlstd{\ \ }\hlstr{set\ '}\hlstd{t1\ true\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{toggle\ }\hlstr{"Mirror"}\hlstd{\ attach\ }\hlstr{'t1}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{toggle\ "Mutex"\ of\ '}\hlstd{tog\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{bar\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{text\ }\hlopt{{[}}\hlstd{bold\ }\hlstr{"Radios\ and\ check\ boxes"}\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{radio\ }\hlstr{"Set\ above\ toggle\ on"}\hlstd{}\hlstd{\ \ }\hlstd{set\ }\hlstr{'t1\ true}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{radio\ "Set\ above\ toggle\ off"\ set\ '}\hlstd{t1\ false\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{bar\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{check\ }\hlstr{"Checkbox\ attached\ to\ above\ toggle"}\hlstd{\ attach\ }\hlstr{'t1}\hspace*{\fill}\\
+\hlstr{\ {]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ "Groups"}\hspace*{\fill}\\
+\hlstr{\ "Group\ and\ panel\ layouts\ with\ simple\ contents\ (buttons)\ and\ tests\ for\ auto{-}sizing.\ Includes\ sub{-}panels."}\hspace*{\fill}\\
+\hlstr{\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{group\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "Button"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{bar}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{group\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "Button"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "50x50"\ 50x50\ 180.0.0}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{bar}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{group\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "50x50"\ 50x50\ 180.0.0}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "maxsize\ 200x200"\ options\ {[}max{-}size:\ 200x200{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{bar}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{group\ 2\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "A\ A"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "A\ B"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "B\ A"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "B\ B"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{bar}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{panel\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{text\ "Panel\ example"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "Button"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{panel\ gray\ 0\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{text\ "Gray\ panel\ example"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "Button"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "Button"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{\ {]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ "Progress"}\hspace*{\fill}\\
+\hlstr{\ "Progress\ bar\ with\ various\ value\ set\ tests."}\hspace*{\fill}\\
+\hlstr{\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{p1:\ progress}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{group\ 4\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "Set\ 0\%"}\hlstd{\ \ \ }\hlstr{set\ '}\hlstd{p1\ }\hlnum{0}\hlstd{}\hlopt{\%}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{button\ }\hlstr{"Set\ 10\%"}\hlstd{}\hlstd{\ \ }\hlstd{set\ }\hlstr{'p1\ 10\%}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "Set\ 50\%"}\hlstd{\ \ }\hlstr{set\ '}\hlstd{p1\ }\hlnum{50}\hlstd{}\hlopt{\%}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{button\ }\hlstr{"Set\ 100\%"}\hlstd{\ set\ }\hlstr{'p1\ 100\%}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{toggle\ "Color"\ do\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{set{-}facet\ p1\ '}\hlstd{bar}\hlopt{{-}}\hlstd{fill\ span}\hlopt{{-}}\hlstd{colors\ pick1\ value\ red\ green\ }\hlopt{{[}}\hlstd{}\hlnum{1.0\ 1.5\ .6}\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ }\hlstd{draw}\hlopt{{-}}\hlstd{face\ p1\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{button\ }\hlstr{"Simulate"}\hlstd{\ do\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ }\hlstd{}\hlkwa{repeat\ }\hlstd{n\ }\hlnum{100\ }\hlstd{}\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ \ }\hlstd{set}\hlopt{{-}}\hlstd{face\ p1\ to\ percent}\hlopt{!\ }\hlstd{n\ }\hlopt{/\ }\hlstd{}\hlnum{100}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ \ }\hlstd{show\ p1}\hlopt{/}\hlstd{gob\ }\hlopt{;\ }\hlstd{optimized\hspace*{\fill}\\
+}\hlstd{\ \ \ \ \ }\hlstd{wait\ }\hlnum{.01\ }\hlstd{}\hlopt{;\ }\hlstd{Temporary\ }\hlopt{{-}\ }\hlstd{REMOVE\ }\hlopt{!!}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{button\ }\hlstr{"Lo\ limit"}\hlstd{\ set\ }\hlstr{'p1\ {-}10\%}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "Hi\ limit"\ set\ '}\hlstd{p1\ }\hlnum{150}\hlstd{}\hlopt{\%}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{text\ }\hlstr{"Bar\ of\ different\ color:"}\hlstd{\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{p2}\hlopt{:\ }\hlstd{progress\ gold\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{button\ }\hlstr{"Check\ color"}\hlstd{\ set\ }\hlstr{'p2\ 50\%}\hspace*{\fill}\\
+\hlstr{\ {]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ "Slider"}\hspace*{\fill}\\
+\hlstr{\ "Numeric\ slider\ with\ attached\ progress\ to\ show\ actual\ value."}\hspace*{\fill}\\
+\hlstr{\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{text\ "Drag\ this\ slider\ to\ see\ progress\ bar\ change:"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{var:\ slider\ attach\ '}\hlstd{prog\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{prog}\hlopt{:\ }\hlstd{progress\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{group\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{button\ }\hlstr{"Set\ 0\%"}\hlstd{}\hlstd{\ \ \ }\hlstd{set\ }\hlstr{'var\ 0\%}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "Set\ 10\%"}\hlstd{\ \ }\hlstr{set\ '}\hlstd{var\ }\hlnum{10}\hlstd{}\hlopt{\%}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{button\ }\hlstr{"Set\ 50\%"}\hlstd{}\hlstd{\ \ }\hlstd{set\ }\hlstr{'var\ 50\%}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "Set\ 100\%"\ set\ '}\hlstd{var\ }\hlnum{100}\hlstd{}\hlopt{\%}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{panel\ }\hlnum{2\ }\hlstd{}\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{text\ }\hlstr{"Within\ another\ offset..."}\hlstd{\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{slider\ green\ attach\ }\hlstr{'prog}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{{]}\ options\ {[}max{-}size:\ 1000x50{]}}\hspace*{\fill}\\
+\hlstr{\ {]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ "Dragger"}\hspace*{\fill}\\
+\hlstr{\ "Drag\ test\ of\ two\ kinds\ of\ boxes,\ one\ bounded\ the\ other\ unbounded."}\hspace*{\fill}\\
+\hlstr{\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{doc\ \{}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{===Drag\ the\ boxes}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{Blue\ boxes\ are\ unbounded.}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{Red\ boxes\ are\ parent\ panel\ bounded.}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{\}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{d1:\ free{-}drag}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{d4:\ lock{-}drag\ red}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{panel\ 0\ 80.200.80.80\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{d2:\ free{-}drag}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{d3:\ lock{-}drag\ red}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{\ {]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ "Scroller"}\hspace*{\fill}\\
+\hlstr{\ "Scrollbar\ with\ readout\ of\ value,\ settings\ for\ delta\ and\ value.\ Example\ panel\ with\ controls."}\hspace*{\fill}\\
+\hlstr{\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{group\ 1\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{;\ Use\ a\ group\ here\ to\ avoid\ scroller\ changing\ all\ ON{-}SCROLL\ related\ faces}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{sbar:\ scroller\ attach\ '}\hlstd{prog\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{prog}\hlopt{:\ }\hlstd{progress\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{panel\ }\hlnum{80.200.180.80\ }\hlstd{}\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{text\ }\hlstr{"These\ attached\ faces\ SET\ the\ above\ scroller:"}\hlstd{\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{slider\ attach\ }\hlstr{'sbar}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{scroller\ attach\ '}\hlstd{sbar\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{group\ }\hlnum{3\ }\hlstd{}\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{radio\ }\hlstr{"Delta\ 10\%"}\hlstd{\ on\ set\ }\hlstr{'sbar\ '}\hlstd{delta\ }\hlnum{10}\hlstd{}\hlopt{\%}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{radio\ }\hlstr{"Delta\ 50\%"}\hlstd{}\hlstd{\ \ }\hlstd{set\ }\hlstr{'sbar\ '}\hlstd{delta\ }\hlnum{50}\hlstd{}\hlopt{\%}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{radio\ }\hlstr{"Delta\ 100\%"}\hlstd{\ set\ }\hlstr{'sbar\ '}\hlstd{delta\ }\hlnum{100}\hlstd{}\hlopt{\%}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{button\ }\hlstr{"Set\ 0\%"}\hlstd{}\hlstd{\ \ \ \ }\hlstd{set\ }\hlstr{'sbar\ 0\%}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "Set\ 10\%"}\hlstd{\ \ \ }\hlstr{set\ '}\hlstd{sbar\ }\hlnum{10}\hlstd{}\hlopt{\%}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{button\ }\hlstr{"Set\ 50\%"}\hlstd{}\hlstd{\ \ \ }\hlstd{set\ }\hlstr{'sbar\ 50\%}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "Set\ 90\%"}\hlstd{\ \ \ }\hlstr{set\ '}\hlstd{sbar\ }\hlnum{90}\hlstd{}\hlopt{\%}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{button\ }\hlstr{"Set\ 100\%"}\hlstd{}\hlstd{\ \ }\hlstd{set\ }\hlstr{'sbar\ 100\%}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "Set\ 150\%"}\hlstd{\ \ }\hlstr{set\ '}\hlstd{sbar\ }\hlnum{150}\hlstd{}\hlopt{\%}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{tight\ }\hlnum{2\ }\hlstd{}\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{bc}\hlopt{:\ }\hlstd{box}\hlopt{{-}}\hlstd{cross\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{scroller\ attach\ }\hlstr{'bc\ '}\hlstd{valy\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{scroller\ attach\ }\hlstr{'bc\ '}\hlstd{valx\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{\ }\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{\hspace*{\fill}\\
+\ }\hlstr{"Text\ View"}\hlstd{\hspace*{\fill}\\
+\ }\hlstr{"Variety\ of\ text\ outputs,\ including\ richtext\ and\ scrolling\ text\ within\ panels."}\hlstd{\hspace*{\fill}\\
+\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{text\ }\hlstr{"This\ is\ plain\ text\ {-}\ from\ a\ string"}\hlstd{\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{text\ }\hlopt{{[}}\hlstd{}\hlstr{"This\ is\ "}\hlstd{\ bold\ }\hlstr{"bold\ rich{-}text"}\hlstd{\ drop\ italic\ }\hlstr{"\ {-}\ from\ a\ block"}\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{text\ }\hlopt{{[}}\hlstd{red\ }\hlstr{"This\ is\ red\ "}\hlstd{\ bold\ }\hlstr{"bold\ rich{-}text"}\hlstd{\ drop\ drop\ black\ italic\ }\hlstr{"\ {-}\ from\ a\ block"}\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{tight\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{ts}\hlopt{:\ }\hlstd{text}\hlopt{{-}}\hlstd{}\hlkwd{box\ }\hlstd{}\hlopt{(}\hlstd{form\ now}\hlopt{)}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{scroller\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{group\ }\hlnum{4\ }\hlstd{}\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{button\ }\hlstr{"Small"}\hlstd{}\hlstd{\ \ }\hlstd{set\ }\hlstr{'ts\ {[}"version\ is"\ system/version\ "on"\ now{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "Medium"\ set\ '}\hlstd{}\hlkwd{ts\ }\hlstd{}\hlopt{(}\hlstd{form\ system}\hlopt{/}\hlstd{standard}\hlopt{)}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{button\ }\hlstr{"Huge"}\hlstd{}\hlstd{\ \ \ }\hlstd{set\ }\hlstr{'ts\ (form\ system)}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "reset"}\hlstd{\ \ }\hlstr{reset\ '}\hlstd{ts\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{button\ }\hlstr{"Goto\ 0"}\hlstd{\ do\ }\hlopt{{[}}\hlstd{set}\hlopt{{-}}\hlstd{face}\hlopt{/}\hlstd{field\ ts\ }\hlnum{0\ }\hlstd{}\hlstr{'locate{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "Goto\ 500"\ do\ {[}set{-}face/field\ ts\ 500\ '}\hlstd{locate}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{button\ }\hlstr{"Goto\ 5000"}\hlstd{\ do\ }\hlopt{{[}}\hlstd{set}\hlopt{{-}}\hlstd{face}\hlopt{/}\hlstd{field\ ts\ }\hlnum{5000\ }\hlstd{}\hlstr{'locate{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "Goto\ tail"\ do\ {[}set{-}face/field\ ts\ tail\ get{-}face\ ts\ '}\hlstd{locate}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{info\ }\hlstr{"Info\ text\ field."}\hlstd{\hspace*{\fill}\\
+\ }\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{\hspace*{\fill}\\
+\ }\hlstr{"Text\ Edit"}\hlstd{\hspace*{\fill}\\
+\ }\hlstr{"Text\ edit\ fields\ and\ areas.\ Allows\ keyboard\ input\ and\ control."}\hlstd{\hspace*{\fill}\\
+\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{field\ }\hlstr{"text\ field"}\hlstd{\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{field\ }\hlstr{"second\ field\ {-}\ reset\ on\ enter"}\hlstd{\ reset\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{}\hlkwd{area\ }\hlstd{}\hlopt{(}\hlstd{form\ system}\hlopt{/}\hlstd{options}\hlopt{)}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{}\hlkwd{area\ }\hlstd{}\hlopt{(}\hlstd{form\ system}\hlopt{/}\hlstd{standard}\hlopt{)}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{button\ }\hlstr{"Get"}\hlstd{\ do\ }\hlopt{{[}}\hlstd{probe\ get}\hlopt{{-}}\hlstd{face\ parent}\hlopt{{-}}\hlstd{face?\ face}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{\ }\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{\hspace*{\fill}\\
+\ }\hlstr{"Drawing"}\hlstd{\hspace*{\fill}\\
+\ }\hlstr{"Scalar\ vector\ drawings\ and\ pixel{-}based\ images."}\hlstd{\hspace*{\fill}\\
+\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{drawing\ }\hlnum{200}\hlstd{x200\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{pen\ silver\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{line}\hlopt{{-}}\hlstd{width\ }\hlnum{4}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{grad}\hlopt{{-}}\hlstd{pen\ radial\ }\hlnum{0\ 200\ }\hlstd{}\hlopt{{[}}\hlstd{}\hlnum{0.0.100\ 100.0.0}\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{box\ }\hlnum{3}\hlstd{x3\ }\hlnum{190}\hlstd{x190\ }\hlnum{5}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{scale\ }\hlnum{.5\ .5}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{pen\ snow\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{line}\hlopt{{-}}\hlstd{width\ }\hlnum{4}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{fill}\hlopt{{-}}\hlstd{pen\ red\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{arc\ }\hlnum{204}\hlstd{x204\ }\hlnum{150}\hlstd{x150}\hlstd{\ \ \ }\hlstd{}\hlnum{0}\hlstd{\ \ }\hlnum{90\ }\hlstd{closed\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{fill}\hlopt{{-}}\hlstd{pen\ green\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{arc\ }\hlnum{196}\hlstd{x204\ }\hlnum{150}\hlstd{x150}\hlstd{\ \ }\hlstd{}\hlnum{90}\hlstd{\ \ }\hlnum{30\ }\hlstd{closed\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{fill}\hlopt{{-}}\hlstd{pen\ blue\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{arc\ }\hlnum{180}\hlstd{x190\ }\hlnum{150}\hlstd{x150\ }\hlnum{120\ 150\ }\hlstd{closed\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{fill}\hlopt{{-}}\hlstd{pen\ yellow\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{arc\ }\hlnum{204}\hlstd{x196\ }\hlnum{150}\hlstd{x150\ }\hlnum{270}\hlstd{\ \ }\hlnum{90\ }\hlstd{closed\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{group\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{drawing\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ }\hlstd{pen\ black\hspace*{\fill}\\
+}\hlstd{\ \ \ \ }\hlstd{line}\hlopt{{-}}\hlstd{width\ }\hlnum{2.7}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ }\hlstd{fill}\hlopt{{-}}\hlstd{pen\ red\hspace*{\fill}\\
+}\hlstd{\ \ \ \ }\hlstd{circle\ }\hlnum{50}\hlstd{x50\ }\hlnum{40}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{}\hlopt{{]}\ }\hlstd{print\ }\hlstr{"clicked!"}\hlstd{\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{drawing\ }\hlnum{200}\hlstd{x100\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ }\hlstd{pen\ black\hspace*{\fill}\\
+}\hlstd{\ \ \ \ }\hlstd{}\hlopt{;}\hlstd{box\hspace*{\fill}\\
+}\hlstd{\ \ \ \ }\hlstd{line}\hlopt{{-}}\hlstd{width\ }\hlnum{2.7}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ }\hlstd{fill}\hlopt{{-}}\hlstd{pen\ lime\hspace*{\fill}\\
+}\hlstd{\ \ \ \ }\hlstd{circle\ }\hlnum{50}\hlstd{x50\ }\hlnum{40}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ }\hlstd{fill}\hlopt{{-}}\hlstd{pen\ red\hspace*{\fill}\\
+}\hlstd{\ \ \ \ }\hlstd{grad}\hlopt{{-}}\hlstd{pen\ radial\ }\hlnum{150}\hlstd{x50\ }\hlnum{0\ 50\ }\hlstd{}\hlopt{{[}}\hlstd{}\hlnum{255.0.0\ 0.255.0}\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ }\hlstd{circle\ }\hlnum{150}\hlstd{x50\ }\hlnum{40}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ }\hlstd{pen\ snow\hspace*{\fill}\\
+}\hlstd{\ \ \ \ }\hlstd{line}\hlopt{{-}}\hlstd{width\ }\hlnum{4}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ }\hlstd{arrow\ }\hlnum{1}\hlstd{x2\ snow\hspace*{\fill}\\
+}\hlstd{\ \ \ \ }\hlstd{fill}\hlopt{{-}}\hlstd{pen\ off\hspace*{\fill}\\
+}\hlstd{\ \ \ \ }\hlstd{curve\ }\hlnum{60}\hlstd{x40\ }\hlnum{100}\hlstd{x0\ }\hlnum{150}\hlstd{x50\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{text\ }\hlstr{"Note:\ below\ requires\ image\ loaders"}\hlstd{\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{group\ }\hlnum{2}\hlstd{}\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{image\ print\ }\hlstr{'image1}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{image\ print\ '}\hlstd{image2\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{\ }\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{\hspace*{\fill}\\
+\ }\hlstr{"Draw\ It"}\hlstd{\hspace*{\fill}\\
+\ }\hlstr{"Tests\ interactive\ drawing.\ Click\ and\ drag\ to\ draw\ new\ shapes."}\hlstd{\hspace*{\fill}\\
+\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{group\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{group\ }\hlnum{1\ }\hlstd{}\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ }\hlstd{radio\ }\hlstr{"Box"}\hlstd{\ on\ do\ }\hlopt{{[}}\hlstd{set}\hlopt{{-}}\hlstd{facet\ pb\ }\hlstr{'mode\ '}\hlstd{box}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ }\hlstd{radio\ }\hlstr{"Circle"}\hlstd{\ do\ }\hlopt{{[}}\hlstd{set}\hlopt{{-}}\hlstd{facet\ pb\ }\hlstr{'mode\ '}\hlstd{circle}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ }\hlstd{radio\ }\hlstr{"Line"}\hlstd{\ do\ }\hlopt{{[}}\hlstd{set}\hlopt{{-}}\hlstd{facet\ pb\ }\hlstr{'mode\ '}\hlstd{line}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ }\hlstd{bar\hspace*{\fill}\\
+}\hlstd{\ \ \ \ }\hlstd{group\ }\hlnum{2\ }\hlstd{}\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ \ }\hlstd{}\hlopt{;$<${-}}\hlstd{need\ color}\hlopt{{-}}\hlstd{chip\ style\hspace*{\fill}\\
+}\hlstd{\ \ \ \ \ }\hlstd{color}\hlopt{{-}}\hlstd{chip\ black\ alert\ }\hlstr{"Need\ color\ requestor"}\hlstd{\hspace*{\fill}\\
+}\hlstd{\ \ \ \ \ }\hlstd{text\ }\hlstr{"Line\ color"}\hlstd{\hspace*{\fill}\\
+}\hlstd{\ \ \ \ \ }\hlstd{color}\hlopt{{-}}\hlstd{chip\ leaf\ alert\ }\hlstr{"Need\ color\ requestor"}\hlstd{\hspace*{\fill}\\
+}\hlstd{\ \ \ \ \ }\hlstd{text\ }\hlstr{"Fill\ color"}\hlstd{\hspace*{\fill}\\
+}\hlstd{\ \ \ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ }\hlstd{text\ }\hlstr{"Line\ width:"}\hlstd{\ }\hlnum{100}\hlstd{x16\hspace*{\fill}\\
+}\hlstd{\ \ \ \ }\hlstd{slider\ }\hlnum{100}\hlstd{x20\ do\ }\hlopt{{[}}\hlstd{set}\hlopt{{-}}\hlstd{facet\ pb\ }\hlstr{'line{-}size\ 30\ {*}\ value\ draw{-}face\ pb{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{text\ "Box\ rounding:"\ 100x16}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{slider\ 100x20\ do\ {[}set{-}facet\ pb\ '}\hlstd{corner\ }\hlnum{30\ }\hlstd{}\hlopt{{*}\ }\hlstd{value\ draw}\hlopt{{-}}\hlstd{face\ pb}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ }\hlstd{pad\hspace*{\fill}\\
+}\hlstd{\ \ \ \ }\hlstd{button\ }\hlstr{"Undo"}\hlstd{\ do\ }\hlopt{{[}}\hlstd{do}\hlopt{{-}}\hlstd{style\ pb\ }\hlstr{'on{-}undo\ none{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{button\ "Help"\ browse\ http://www.rebol.net/wiki/R3\textunderscore GUI}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{{]}\ options\ {[}max{-}size:\ 100x1000{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{pb:\ draw{-}box}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{\ {]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ "Text{-}List"}\hspace*{\fill}\\
+\hlstr{\ "A\ mini\ system\ browser\ using\ text\ lists."}\hspace*{\fill}\\
+\hlstr{\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{group\ {[}\ }\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{t1:\ text{-}list\ (words{-}of\ system)\ do\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{if\ integer?\ value\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ \ }\hlstr{section:\ select\ system\ face/facets/contents/:value}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ \ }\hlstr{either\ object?\ section\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ \ \ }\hlstr{set{-}face/field\ t2\ words{-}of\ section\ '}\hlstd{list\hspace*{\fill}\\
+}\hlstd{\ \ \ \ \ \ }\hlstd{set}\hlopt{{-}}\hlstd{face\ tb\ }\hlstr{"(object)"}\hlstd{\hspace*{\fill}\\
+}\hlstd{\ \ \ \ \ }\hlstd{}\hlopt{{]}{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ \ \ }\hlstd{set}\hlopt{{-}}\hlstd{face\ tb\ mold\ section\hspace*{\fill}\\
+}\hlstd{\ \ \ \ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{t2}\hlopt{:\ }\hlstd{text}\hlopt{{-}}\hlstd{list\ do\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ }\hlstd{all\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ \ }\hlstd{integer?\ value\hspace*{\fill}\\
+}\hlstd{\ \ \ \ \ }\hlstd{integer?\ v}\hlopt{:\ }\hlstd{get}\hlopt{{-}}\hlstd{face\ t1\hspace*{\fill}\\
+}\hlstd{\ \ \ \ \ }\hlstd{object?\ s}\hlopt{:\ }\hlstd{select\ system\ pick\ words}\hlopt{{-}}\hlstd{of\ system\ v\ }\hlopt{;}\hlstd{bogus}\hlopt{!}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ \ }\hlstd{set}\hlopt{{-}}\hlstd{face\ tb\ mold\ select\ s\ pick\ words}\hlopt{{-}}\hlstd{of\ s\ value\hspace*{\fill}\\
+}\hlstd{\ \ \ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{tb}\hlopt{:\ }\hlstd{text}\hlopt{{-}}\hlstd{box\ }\hlstr{"(value)"}\hlstd{\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{\ }\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{\hspace*{\fill}\\
+\ }\hlstr{"Sub{-}Panel"}\hlstd{\hspace*{\fill}\\
+\ }\hlstr{"Scrolling\ subpanel\ of\ fixed\ size.\ Can\ be\ scrolled\ vertically\ and\ horizontally."}\hlstd{\hspace*{\fill}\\
+\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{group\ }\hlnum{2\ }\hlstd{}\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{sub}\hlopt{{-}}\hlstd{pan}\hlopt{:\ }\hlstd{plane\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{scroller\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{scroller\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{when\ }\hlopt{{[}}\hlstd{enter}\hlopt{{]}\ }\hlstd{do\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{blk}\hlopt{:\ }\hlstd{make\ block}\hlopt{!\ }\hlstd{}\hlnum{10}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{fields}\hlopt{:\ }\hlstd{system}\hlopt{/}\hlstd{catalog}\hlopt{/}\hlstd{datatypes\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{}\hlkwa{repeat\ }\hlstd{n\ }\hlnum{60\ }\hlstd{}\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ }\hlstd{append2\ blk\ }\hlstr{'label\ ajoin\ {[}"Field\ "\ n{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{append2\ blk\ '}\hlstd{field\ form\ first}\hlopt{+\ }\hlstd{fields\hspace*{\fill}\\
+}\hlstd{\ \ \ \ }\hlstd{append2\ blk\ }\hlstr{'button\ "Change"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{test{-}sub{-}pan:\ make{-}panel\ '}\hlstd{group\ blk\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ }\hlstd{size}\hlopt{:\ }\hlstd{}\hlnum{800}\hlstd{x2000\hspace*{\fill}\\
+}\hlstd{\ \ \ \ }\hlstd{margin}\hlopt{:\ }\hlstd{}\hlnum{10}\hlstd{x10\hspace*{\fill}\\
+}\hlstd{\ \ \ \ }\hlstd{columns}\hlopt{:\ }\hlstd{}\hlnum{3}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{view}\hlopt{{-}}\hlstd{panel\ sub}\hlopt{{-}}\hlstd{pan\ test}\hlopt{{-}}\hlstd{sub}\hlopt{{-}}\hlstd{pan\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{}\hlopt{;\ }\hlstd{Bug}\hlopt{:\ }\hlstd{something\ causes\ view\ to\ update\ before\ it}\hlstr{'s\ ready\ !!}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{;\ (note\ that\ you\ see\ the\ panel,\ then\ the\ switch\ effect)}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{\ {]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ "Forms"}\hspace*{\fill}\\
+\hlstr{\ "Test\ of\ simple\ form,\ getting\ and\ setting\ fields\ too."}\hspace*{\fill}\\
+\hlstr{\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{pan:\ group\ 2\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{label\ "First\ name:"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{f1:\ field}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{label\ "Last\ name:"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{field}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{label\ "City:"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{field}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{label\ "Email\ address:"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{field}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{label\ "Platform:"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{group\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{radio\ "Windows"\ on}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{radio\ "OS\ X"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{radio\ "Linux"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{radio\ "Amiga"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{label\ "Status"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{check\ "First\ class\ reboler."}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{label\ "Time\ stamp:"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{time:\ field\ silver}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{label\ ""}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{group\ 2\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{button\ "Set\ All"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ \ }\hlstr{set\ '}\hlstd{pan\ }\hlopt{{[}}\hlstd{}\hlstr{"Roy"}\hlstd{\ }\hlstr{"Rebol"}\hlstd{\ }\hlstr{"Ukiah"}\hlstd{\ }\hlstr{"reb@example"}\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ \ }\hlstd{do\ }\hlopt{{[}}\hlstd{set}\hlopt{{-}}\hlstd{face\ time\ now}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ }\hlstd{button\ }\hlstr{"Clear\ All"}\hlstd{\ clear\ }\hlstr{'pan}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{button\ "Submit"\ submit\ '}\hlstd{pan\hspace*{\fill}\\
+}\hlstd{\ \ \ \ }\hlstd{button\ }\hlstr{"Reset"}\hlstd{}\hlstd{\ \ }\hlstd{alert\ }\hlstr{"Reset\ not\ yet\ defined."}\hlstd{\hspace*{\fill}\\
+}\hlstd{\ \ \ \ }\hlstd{button\ }\hlstr{"Set\ Time"}\hlstd{\ do\ }\hlopt{{[}}\hlstd{set}\hlopt{{-}}\hlstd{face\ time\ now}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ }\hlstd{button\ }\hlstr{"Get\ Time"}\hlstd{\ submit\ }\hlstr{'time}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{when\ {[}enter{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{clear\ '}\hlstd{pan\hspace*{\fill}\\
+}\hlstd{\ \ \ \ }\hlstd{do\ }\hlopt{{[}}\hlstd{set}\hlopt{{-}}\hlstd{face\ time\ now}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ }\hlstd{focus\ }\hlstr{'f1}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{\ {]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ "Document"}\hspace*{\fill}\\
+\hlstr{\ "Simple\ document\ markup\ method\ that\ uses\ MakeDoc\ format."}\hspace*{\fill}\\
+\hlstr{\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{group\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{doc\ \{}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{===About\ the\ DOC\ style:}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{This\ is\ an\ example\ of\ the\ DOC\ style.\ It\ is\ a\ $<$b$>$simple}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{rich{-}text\ document\ markup\ method$<$/b$>$\ to\ easily\ format}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{and\ display\ notes,\ instructions,\ and\ comments\ within}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{your\ GUIs.}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{===Basic\ usage:}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{The\ DOC\ style\ uses\ the\ same\ basic\ rules\ as\ $<$b$>$MakeDoc$<$/b$>$.}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{This\ is\ a\ line\ of\ paragraph\ text.}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{Its\ source\ lines\ are\ automatically\ combined\ and\ wrapped.}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{A\ blank\ line\ starts\ a\ new\ paragraph.}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{(This\ is\ good\ method,\ because\ it\ allows\ paragraphs\ to}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{be\ independent\ of\ line\ length\ and\ wrapping.\ It\ also}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{makes\ the\ source\ text\ more\ clear.)}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{===Other\ features:}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{You\ can\ use\ $<$b$>$bold$<$/b$>$\ and\ $<$i$>$italic$<$/i$>$\ markup\ just}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{like\ in\ HTML\ (with\ tags).}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{A\ line\ that\ begins\ with\ ===\ is\ a\ title:}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ \ }\hlstr{===New\ Heading}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{To\ show\ code,\ just\ indent\ it.}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ \ }\hlstr{Code\ is\ not\ wrapped.}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ \ }\hlstr{It\ is\ shown\ in\ a\ fixed{-}width\ font\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ \ \ }\hlstr{so\ that}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ \ \ }\hlstr{its\ indentation}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ \ \ }\hlstr{is\ preserved}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{The\ DOC\ style\ will\ be\ expanded\ in\ the\ future.}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{But,\ not\ to\ the\ extreme.}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{$<$em$>$Click\ the\ source\ button\ below\ to\ see\ the\ source}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{for\ this\ test.$<$/em$>$}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{\}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{scroller}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{\ {]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ "Clock"}\hspace*{\fill}\\
+\hlstr{\ "Here\ is\ an\ example\ of\ a\ custom\ style\ that\ draws\ an\ analog\ clock\ face."}\hspace*{\fill}\\
+\hlstr{\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{panel\ coal\ 240x320\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{clk:\ clock}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{group\ 2\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{button\ "10:20:30"\ do\ {[}set{-}face\ clk\ 10:20:30{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{button\ "Random"\ do\ {[}set{-}face\ clk\ random\ 12:00{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{button\ "Now"}\hlstd{\ \ \ }\hlstr{do\ {[}set{-}face\ clk\ now{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{button\ "Spin"\ do\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ \ }\hlstr{loop\ 60\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ \ \ }\hlstr{set{-}face\ clk\ 1:02:04\ +\ get{-}face\ clk}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ \ \ }\hlstr{show{-}now}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ \ \ }\hlstr{wait\ 1\ /\ 60}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{button\ "Reset"\ reset\ '}\hlstd{clk\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{\ }\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hspace*{\fill}\\
+\hlopt{;\ }\hlstd{}\hlstr{"Charts"}\hlstd{}\hspace*{\fill}\\
+\hlopt{;\ }\hlstd{}\hlstr{"Bar\ charts\ and\ pie\ charts."}\hlstd{}\hspace*{\fill}\\
+\hlopt{;\ {[}}\hspace*{\fill}\\
+\hlstd{}\hlopt{;}\hlstd{\ \ }\hlopt{}\hlstd{text\ }\hlstr{"Pending"}\hlstd{}\hspace*{\fill}\\
+\hlopt{;}\hlstd{\ \ }\hlopt{;\ }\hlstd{graph\ }\hlopt{{[}{]},\ }\hlstd{chart}\hlopt{,\ }\hlstd{diagram\ }\hlopt{{[}{]}}\hspace*{\fill}\\
+\hlstd{}\hlopt{;\ {]}}\hspace*{\fill}\\
+\hlstd{\hspace*{\fill}\\
+\ }\hlstr{"Triggers"}\hlstd{\hspace*{\fill}\\
+\ }\hlstr{"Tests\ various\ triggers.\ Special\ testing\ required."}\hlstd{\hspace*{\fill}\\
+\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{text\ }\hlstr{"Triggers\ (When\ events):"}\hlstd{\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{trig1}\hlopt{:\ }\hlstd{check\ }\hlstr{"Triggered\ on\ load"}\hlstd{\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{when\ }\hlopt{{[}}\hlstd{load}\hlopt{{]}\ }\hlstd{set\ }\hlstr{'trig1\ true}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{trig2:\ check\ "Triggered\ on\ view"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{when\ {[}enter{]}\ set\ '}\hlstd{trig2\ true\hspace*{\fill}\\
+\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{trig3}\hlopt{:\ }\hlstd{check\ }\hlstr{"Triggered\ on\ exit"}\hlstd{\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{when\ }\hlopt{{[}}\hlstd{exit}\hlopt{{]}\ }\hlstd{set\ }\hlstr{'trig3\ true}\hspace*{\fill}\\
+\hlstr{\ {]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ "Reactors"}\hspace*{\fill}\\
+\hlstr{\ "Tests\ that\ reactors\ do\ what\ they\ are\ supposed\ to."}\hspace*{\fill}\\
+\hlstr{\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{panel\ 2\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "Do"\ do\ {[}request\ "Got\ it!"\ "It\ worked."{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "Browse"\ browse\ http://www.rebol.com}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "Run"\ run\ \%explorer}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "Alert"\ alert\ "This\ is\ an\ alert."}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{panel\ 2\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{f1:\ field\ "Field\ 1"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{f2:\ field\ "Field\ 2"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "Focus\ on\ 1"\ focus\ '}\hlstd{f1\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{button\ }\hlstr{"Focus\ on\ 2"}\hlstd{\ focus\ }\hlstr{'f2}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{panel\ 2\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "Close"\ close}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "Halt"\ halt}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "Quit"\ quit}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "?"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "Print"\ print\ "print\ this\ message"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "Dump"\ dump}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{\ {]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ "Windows"}\hspace*{\fill}\\
+\hlstr{\ "Test\ basic\ window\ options\ and\ actions.\ Note\ differences\ in\ event\ handling."}\hspace*{\fill}\\
+\hlstr{\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{group\ 2\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "simple\ view"\ do\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{view\ {[}title\ "Simple\ window\ with\ title"\ button\ "Close"\ close{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{text\ "Really\ simple\ window"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "view/across"\ do\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{view/across\ {[}title\ "Layout\ across"\ button\ "Close"\ close{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{text\ "Layout\ horizontally"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "view/options"\ do\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{view/options\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ \ }\hlstr{title\ "View\ with\ options"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ \ }\hlstr{text\ "Options:\ size,\ color,\ margin,\ offset"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ \ }\hlstr{button\ "Close"\ close}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{{]}{[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ \ }\hlstr{size:\ 300x300}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ \ }\hlstr{area{-}color:\ silver}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ \ }\hlstr{margin:\ 10x50}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ \ }\hlstr{offset:\ '}\hlstd{top}\hlopt{{-}}\hlstd{left\hspace*{\fill}\\
+}\hlstd{\ \ \ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{text\ }\hlstr{"Tries\ special\ options"}\hlstd{\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{button\ }\hlstr{"view/modal"}\hlstd{\ do\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ }\hlstd{view}\hlopt{/}\hlstd{modal\ }\hlopt{{[}}\hlstd{title\ }\hlstr{"Modal\ popup"}\hlstd{\ button\ }\hlstr{"Close"}\hlstd{\ close}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{text\ }\hlstr{"Block\ events\ to\ other\ windows"}\hlstd{\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{bar\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{group\ }\hlnum{2\ }\hlstd{}\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{button\ }\hlstr{"simple\ gob"}\hlstd{\ do\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ }\hlstd{view\ make\ gob}\hlopt{!\ {[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ \ }\hlstd{size}\hlopt{:\ }\hlstd{}\hlnum{300}\hlstd{x300\hspace*{\fill}\\
+}\hlstd{\ \ \ \ \ }\hlstd{draw}\hlopt{:\ {[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ \ \ }\hlstd{pen\ white\hspace*{\fill}\\
+}\hlstd{\ \ \ \ \ \ }\hlstd{fill}\hlopt{{-}}\hlstd{pen\ red\hspace*{\fill}\\
+}\hlstd{\ \ \ \ \ \ }\hlstd{circle\ }\hlnum{150}\hlstd{x150\ }\hlnum{100}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ \ \ }\hlstd{text\ }\hlopt{{[}}\hlstd{}\hlstr{"Simple\ GOB\ {-}\ no\ background"}\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{text\ }\hlstr{"A\ raw\ GOB\ with\ DRAW\ block"}\hlstd{\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{button\ }\hlstr{"options\ gob"}\hlstd{\ do\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ }\hlstd{view}\hlopt{/}\hlstd{options\ make\ gob}\hlopt{!\ {[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ \ }\hlstd{size}\hlopt{:\ }\hlstd{}\hlnum{300}\hlstd{x300\hspace*{\fill}\\
+}\hlstd{\ \ \ \ \ }\hlstd{draw}\hlopt{:\ {[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ \ \ }\hlstd{pen\ white\hspace*{\fill}\\
+}\hlstd{\ \ \ \ \ \ }\hlstd{fill}\hlopt{{-}}\hlstd{pen\ red\hspace*{\fill}\\
+}\hlstd{\ \ \ \ \ \ }\hlstd{circle\ }\hlnum{150}\hlstd{x150\ }\hlnum{100}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ \ \ }\hlstd{text\ }\hlopt{{[}}\hlstd{white\ }\hlstr{"Simple\ GOB\ w/background"}\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ }\hlstd{}\hlopt{{]}{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ \ }\hlstd{offset}\hlopt{:\ }\hlstd{}\hlstr{'top{-}right}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ \ }\hlstr{color:\ navy}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{text\ "Raw\ gob\ with\ a\ few\ options"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{\ {]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ "Requestors"}\hspace*{\fill}\\
+\hlstr{\ "Requestor\ functions\ and\ results."}\hspace*{\fill}\\
+\hlstr{\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{group\ 2\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "Ok"\ do\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{set{-}face\ r0\ request\ "Command:"\ "Click\ OK\ to\ set\ checkmark."}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{r0:\ check\ "OK\ was\ clicked"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{button\ "Ask"\ do\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{set{-}face\ r1\ request/ask\ "Question:"\ "Click\ yes\ to\ set\ the\ checkmark."}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{r1:\ check\ "YES\ was\ clicked"}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{\ {]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{\ "Read\ HTTP"}\hspace*{\fill}\\
+\hlstr{\ "Read\ via\ HTTP\ from\ a\ website\ and\ display\ HTTP\ source\ here."}\hspace*{\fill}\\
+\hlstr{\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{when\ {[}load{]}\ do\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{read{-}site:\ funct\ {[}site{]}\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{set{-}face\ i1\ dt\ {[}set{-}face\ t1\ to{-}string\ read\ site{]}\ ;\ as\ UTF{-}8\ !}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{group\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{toggle\ "REBOL.com"\ of\ '}\hlstd{site\ do\ }\hlopt{{[}}\hlstd{read}\hlopt{{-}}\hlstd{site\ http}\hlopt{://}\hlstd{www}\hlopt{.}\hlstd{rebol}\hlopt{.}\hlstd{com}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{toggle\ }\hlstr{"REBOL.net"}\hlstd{\ of\ }\hlstr{'site\ do\ {[}read{-}site\ http://www.rebol.net{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{toggle\ "REBOL.org"\ of\ '}\hlstd{site\ do\ }\hlopt{{[}}\hlstd{read}\hlopt{{-}}\hlstd{site\ http}\hlopt{://}\hlstd{www}\hlopt{.}\hlstd{rebol}\hlopt{.}\hlstd{org}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{t1}\hlopt{:\ }\hlstd{code}\hlopt{{-}}\hlstd{area\ }\hlopt{;!!}\hlstd{BUG\ }\hlopt{{-}\ }\hlstd{size\ does\ not\ expand}\hlopt{!!}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{group\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{}\hlopt{;!!}\hlstd{NEED\ }\hlopt{{-}\ }\hlstd{auto}\hlopt{{-}}\hlstd{width\ }\hlkwd{text\ }\hlstd{}\hlopt{(}\hlstd{expands\ to\ necessary\ size}\hlopt{)}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{text\ }\hlstr{"Elapsed\ time:"}\hlstd{\ }\hlnum{90}\hlstd{x20\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{i1}\hlopt{:\ }\hlstd{info\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{bar\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{button\ }\hlstr{"Run\ script\ from\ net"}\hlstd{\ do\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{file}\hlopt{:\ \%}\hlstd{web3works}\hlopt{.}\hlstd{r\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{write\ file\ read\ join\ http}\hlopt{://}\hlstd{www}\hlopt{.}\hlstd{rebol}\hlopt{.}\hlstd{com}\hlopt{/}\hlstd{r3}\hlopt{/\ }\hlstd{file\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{launch\ file\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{text\ }\hlopt{{[}}\hlstd{italic\ }\hlstr{"Requires\ a\ direct\ Internet\ connection."}\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{\ }\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{}\hspace*{\fill}\\
+\hspace*{\fill}\\
+\hlopt{;\ }\hlstd{Use\ above\ TEST\ block\ to\ generate\ the\ GUI\ and\ buttons}\hlopt{:}\hspace*{\fill}\\
+\hlstd{\hspace*{\fill}\\
+test}\hlopt{{-}}\hlstd{sections}\hlopt{:\ {[}{]}}\hspace*{\fill}\\
+\hlstd{test}\hlopt{{-}}\hlstd{notes}\hlopt{:\ {[}{]}}\hspace*{\fill}\\
+\hlstd{test}\hlopt{{-}}\hlstd{blocks}\hlopt{:\ {[}{]}}\hspace*{\fill}\\
+\hlstd{\hspace*{\fill}\\
+foreach\ }\hlopt{{[}}\hlstd{title\ notes\ content}\hlopt{{]}\ }\hlstd{tests\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{\ }\hlkwa{if\ }\hlstd{title\ }\hlopt{=\ }\hlstd{}\hlstr{'end\ {[}break{]}}\hspace*{\fill}\\
+\hlstr{\ append/only\ test{-}blocks\ content}\hspace*{\fill}\\
+\hlstr{\ append\ test{-}notes\ notes}\hspace*{\fill}\\
+\hlstr{\ append\ test{-}sections\ title}\hspace*{\fill}\\
+\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{test{-}panels:\ array\ length?\ test{-}blocks}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{current{-}panel:\ none}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{view{-}sub{-}panel:\ funct\ {[}}\hspace*{\fill}\\
+\hlstr{\ index}\hspace*{\fill}\\
+\hlstr{\ main{-}pan}\hspace*{\fill}\\
+\hlstr{\ desc}\hspace*{\fill}\\
+\hlstr{{]}{[}}\hspace*{\fill}\\
+\hlstr{\ set\ '}\hlstd{current}\hlopt{{-}}\hlstd{panel\ index\hspace*{\fill}\\
+\ set}\hlopt{{-}}\hlstd{face\ desc\ form\ pick\ test}\hlopt{{-}}\hlstd{notes\ index\hspace*{\fill}\\
+\ pan}\hlopt{:\ }\hlstd{pick\ test}\hlopt{{-}}\hlstd{panels\ index\hspace*{\fill}\\
+\ unless\ pan\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{pan}\hlopt{:\ }\hlstd{make}\hlopt{{-}}\hlstd{panel\ }\hlstr{'group\ pick\ test{-}blocks\ index\ {[}columns:\ 1{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{poke\ test{-}panels\ index\ pan}\hspace*{\fill}\\
+\hlstr{\ {]}}\hspace*{\fill}\\
+\hlstr{\ switch{-}panel\ main{-}pan\ pan\ '}\hlstd{fly}\hlopt{{-}}\hlstd{right}\hspace*{\fill}\\
+\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{\hspace*{\fill}\\
+view\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{\ title\ }\hlstr{"R3\ GUI\ Tests"}\hlstd{\hspace*{\fill}\\
+\ }\hlkwd{text\ }\hlstd{}\hlopt{(}\hlstd{reform\ }\hlopt{{[}}\hlstd{}\hlstr{"R3\ V"}\hlstd{\ system}\hlopt{/}\hlstd{version\ }\hlstr{"of"}\hlstd{\ system}\hlopt{/}\hlstd{build}\hlopt{{]})}\hspace*{\fill}\\
+\hlstd{\ bar\hspace*{\fill}\\
+\ group\ }\hlnum{3\ }\hlstd{}\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{}\hlopt{;\ }\hlstd{List\ of\ test\ sections}\hlopt{:}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{text}\hlopt{{-}}\hlstd{list\ test}\hlopt{{-}}\hlstd{sections\ do\ }\hlopt{{[}}\hlstd{view}\hlopt{{-}}\hlstd{sub}\hlopt{{-}}\hlstd{panel\ value\ main}\hlopt{{-}}\hlstd{pan\ desc}\hlopt{{]}}\hspace*{\fill}\\
+\hlstd{\hspace*{\fill}\\
+}\hlstd{\ \ }\hlstd{}\hlopt{;\ }\hlstd{Panel\ }\hlkwa{for\ }\hlstd{showing\ test\ results}\hlopt{:}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ }\hlstd{group\ }\hlnum{1\ }\hlstd{}\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ }\hlstd{desc}\hlopt{:\ }\hlstd{text}\hlopt{{-}}\hlstd{area\ }\hlstr{"Please\ read\ the\ instructions\ below."}\hlstd{\hspace*{\fill}\\
+}\hlstd{\ \ \ }\hlstd{options\ }\hlopt{{[}}\hspace*{\fill}\\
+\hlstd{}\hlstd{\ \ \ \ }\hlstd{max}\hlopt{{-}}\hlstd{size}\hlopt{:\ }\hlstd{}\hlnum{2000}\hlstd{x40\hspace*{\fill}\\
+}\hlstd{\ \ \ \ }\hlstd{text}\hlopt{{-}}\hlstd{style}\hlopt{:\ }\hlstd{}\hlstr{'bold}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{main{-}pan:\ panel\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{doc\ instructions}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{{]}\ options\ {[}min{-}size:\ 300x500\ max{-}size:\ 1000x1000{]}}\hspace*{\fill}\\
+\hlstr{}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{group\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{button\ "Source"\ do\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ \ }\hlstr{either\ current{-}panel\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ \ \ }\hlstr{view{-}code\ trim/head\ mold/only\ pick\ test{-}blocks\ current{-}panel}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ \ }\hlstr{{]}{[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ \ \ }\hlstr{request\ "Note:"\ "Pick\ a\ test\ first."}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{button\ "Halt"\ leaf\ close\ halt}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{button\ "Quit"\ maroon\ quit}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{check\ "Debug"}\hlstd{\ \ }\hlstr{do\ {[}guie/debug:\ if\ value\ {[}{[}all{]}{]}{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{check\ "Remind"\ guie/remind\ do\ {[}guie/remind:\ value{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{\ {]}}\hspace*{\fill}\\
+\hlstr{\ when\ {[}enter{]}\ do\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{if\ quick{-}start\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{if\ spot:\ find\ test{-}sections\ quick{-}start\ {[}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ \ }\hlstr{view{-}sub{-}panel\ index?\ spot\ main{-}pan\ desc}\hlstd{\ \ }\hlstr{;\ for\ faster\ testing}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{\ \ }\hlstr{;{[}request\ "Alert"\ instructions{]}}\hspace*{\fill}\\
+\hlstr{\ {]}}\hspace*{\fill}\\
+\hlstr{{]}}\hspace*{\fill}\\
+\hlstr{;{[}reactors:\ {[}{[}moved\ {[}save\ \%win{-}xy.r\ face/gob/offset{]}{]}{]}{]}}\hspace*{\fill}\\
+\hlstr{}\hlstd{}\hspace*{\fill}\\
+\mbox{}
+\normalfont
+\normalsize
+\end {document}
+(* LaTeX generated by highlight 3.23, http://www.andre-simon.de/ *)

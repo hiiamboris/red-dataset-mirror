@@ -1,0 +1,124 @@
+# Structure
+
+# WBB
+
+# Boris
+
+The `Boris` structure is optimized for path access. It looks like this:
+
+```
+<namespace> <tag-name> <content> <attribute-namespace> <attribute-name> <value>
+```
+
+## namespace
+
+Namespace is optional and it’s type is `refinement!`.
+
+## tag-name
+
+Tag name is converted to `word!`. It’s required value.
+
+## content
+
+Content is either `block!` when the tag has children or `string!` when not.
+Content is required and always follows tag-name so tag-names can be used in
+paths.
+
+## attribute-namespace
+
+Attribute-namespace follows the same rules as normal namespaces. They are
+optional and their type is `refinement!`
+
+## attribute-name
+
+Attribute names are optional and their type is `issue!`.
+
+## attribute value
+
+Attribute value follows attribute-name and is always a `string!`.
+
+# Old info
+
+
+The current structure of converted data is:
+
+```
+<tag-name> <content> <attributes>
+```
+
+## tag-name
+
+`tag-name` is converted to `word!` if possible or `path!` if it contains
+namespace. If it’s not possible to convert to Red type, it’s kept as `string!`.
+This behaviour can be controled with settings `xml/red-keys?`.
+`tag-name` can be `none!` for content that’s not enclosed in tag.
+
+```
+<b>Hello<c>world</c></b>
+```
+
+will be represented as:
+
+[
+	b [
+		none "Hello" none
+		c "world" #()
+	] #()
+]
+
+## content
+
+`content` can be
+
+- `block!` if the element has children
+- `string!` if it has only textual content
+- `none!` for some metadata
+
+## attributes
+
+`attributes` can be either `map!` or `none!`. `none!` is used for textual
+content and some metadata. Attribute names are converted to `word!` if possible
+or kept as strings. This can be controlled with the `xml/red-keys?` setting.
+Unlike `tag-name`, attribute names with namespace cannot be converted to paths
+as `map!` doesn’t support `path!` as keys.
+
+# Problems
+
+We want to convert tag and attribute names to Red types for easier access,
+however, that’s not always possible. There are some edge cases, but they are
+rare so we can safely ignore them (names can start with a colon `:`).
+The bigger problem are namespaces. Conversion to `path!` is an obvious solution,
+however, this gives us `path!` as keys for tag names, which is unusual in Red,
+but possible. But for attribute names, it’s impossible to use `path!` as a key
+in `map!`.
+
+# Solutions
+
+There are multiple solutions, each has it’s pros and cons. We can change
+the type of `attributes` to `block!` - this way it would be possible `path!`
+as an attribute name. This brings some minor problems: 
+
+- Visually there would be no difference between content and attributes
+- In some cases getting attribute value would be impossible with `select`
+
+Consider this example:
+
+```
+<tag att1="att2" att2="smth">content</tag>
+```
+
+If we turn off conversion to Red types, this XML would be represented as:
+
+```
+[
+	tag "content" [
+		"att1" "att2"
+		"att2" "smth"
+	]
+]
+```
+
+`select attributes "att2"` would return `"att2"` instead of `"smth"`
+so a different mechanism must be used. This can be solved actually very easy
+with `select/skip attributes att-name 2`. Also, using blocks, the reason why
+keys should be kept as `string!` is almost non-existent.

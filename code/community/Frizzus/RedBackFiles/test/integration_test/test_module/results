@@ -1,0 +1,28 @@
+Starting tests in directory : ../../test/integration_test/test_module/test_directory/
+[34mbasic_operation.test.red[0m	test_addition	[32mpassed[0m	Testing basics
+[34mbasic_operation.test.red[0m	test_addition	[32mpassed[0m	Testing with float
+[34mbasic_operation.test.red[0m	test_addition	[32mpassed[0m	Testing two floats
+[34mbasic_operation.test.red[0m	test_substraction	[32mpassed[0m	Testing basics
+[34mbasic_operation.test.red[0m	test_substraction	[32mpassed[0m	Testing negatives
+[34mbasic_operation.test.red[0m	test_substraction	[32mpassed[0m	Testing floats
+[34mbasic_operation.test.red[0m	test_division	[32mpassed[0m	Testing basics
+[34mbasic_operation.test.red[0m	test_division	[32mpassed[0m	Testing negatives numbers
+[34mbasic_operation.test.red[0m	test_division	[32mpassed[0m	Testing floats
+[34mbasic_operation.test.red[0m	test_multiplication	[32mpassed[0m	Testing basics
+[34mbasic_operation.test.red[0m	test_multiplication	[32mpassed[0m	Testing square
+[34mbasic_operation.test.red[0m	test_multiplication	[32mpassed[0m	Testing with negatives numbers
+[34mbasic_operation2.test.red[0m	test_addition	[32mpassed[0m	Testing basics
+[34mbasic_operation2.test.red[0m	test_addition	[32mpassed[0m	Testing with float
+[34mbasic_operation2.test.red[0m	test_addition	[32mpassed[0m	Testing two floats
+[34mbasic_operation2.test.red[0m	test_substraction	[32mpassed[0m	Testing basics
+[34mbasic_operation2.test.red[0m	test_substraction	[32mpassed[0m	Testing negatives
+[34mbasic_operation2.test.red[0m	test_substraction	[32mpassed[0m	Testing floats
+[34mbasic_operation2.test.red[0m	test_division	[32mpassed[0m	Testing basics
+[34mbasic_operation2.test.red[0m	test_division	[32mpassed[0m	Testing negatives numbers
+[34mbasic_operation2.test.red[0m	test_division	[32mpassed[0m	Testing floats
+[34mbasic_operation2.test.red[0m	test_multiplication	[32mpassed[0m	Testing basics
+[34mbasic_operation2.test.red[0m	test_multiplication	[32mpassed[0m	Testing square
+[34mbasic_operation2.test.red[0m	test_multiplication	[32mpassed[0m	Testing with negatives numbers
+Results for test the ../../test/integration_test/test_module/test_directory/ directory.
+
+Number of test made : 24	passed : [32m24[0m	failed : [31m0[0m

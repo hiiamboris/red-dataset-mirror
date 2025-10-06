@@ -1,0 +1,2 @@
+# Sozluk
+Kelime çeviri sistemi

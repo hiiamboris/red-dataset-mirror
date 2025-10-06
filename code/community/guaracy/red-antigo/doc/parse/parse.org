@@ -1,0 +1,30 @@
+# -*- org-confirm-babel-evaluate: nil -*- 
+
+#+TITLE: Red - Parse
+#+LANGUAGE: pt_br
+# #+OPTIONS: toc:nil h:4 html-postamble:nil html-preamble:t tex:t f:t
+#+OPTIONS: prop:("VERSION")
+#+HTML_DOCTYPE: <!DOCTYPE html>
+#+AUTHOR: Guaracy Monteiro
+#+EMAIL: guaracy.bm@gmail.com
+#+SETUPFILE: theme-readtheorg-local.setup
+# #+SETUPFILE: theme-bigblow-local.setup
+
+#+LINK: red   http://www.red-lang.org/
+#+TOC: headlines 5
+
+
+#+BEGIN_COMMENT
+Each major section of this document is defined in its own file.
+
+You can jump to each file by moving the cursor on an "#+include" line
+and typing =C-c '= Note: There is *no requirement* to split, but large
+org-mode files can become quite slow to edit, so separate sections help
+keeping things fluid...
+#+END_COMMENT
+
+#+INCLUDE: "./sections/intro.org" :minlevel 1
+#+INCLUDE: "./sections/dados.org" :minlevel 1
+#+INCLUDE: "./sections/parse.org" :minlevel 1
+
+

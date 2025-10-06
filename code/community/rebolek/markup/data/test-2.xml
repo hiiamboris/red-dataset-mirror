@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<symbols numberSystem="arab">
+	<decimal>٫</decimal>
+	<group>٬</group>
+	<list>؛</list>
+	<percentSign>٪؜</percentSign>
+	<plusSign>؜+</plusSign>
+	<minusSign>؜-</minusSign>
+	<approximatelySign>~</approximatelySign>
+	<exponential>اس</exponential>
+	<superscriptingExponent>×</superscriptingExponent>
+	<perMille>؉</perMille>
+	<infinity>∞</infinity>
+	<nan>NaN</nan>
+	<timeSeparator>:</timeSeparator>
+</symbols>

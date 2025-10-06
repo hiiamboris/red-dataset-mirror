@@ -1,0 +1,64 @@
+<html>
+<head>
+    <title>pad</title>
+    
+    <meta charset="utf-8">
+    <meta name='language' content='en'>
+    
+    <link rel="stylesheet" href="../../../styles/main.css">
+    
+</head>
+<body>
+    <nav>
+      Navigation: <br>
+      <a href="#pad">pad</a> <br>
+      <a href="#pad/left">pad/left</a> <br>
+      <a href="#pad/with">pad/with</a> <br>
+      <a href="#pad/left/with">pad/left/with</a> <br>
+    </nav>
+    
+    <section id="pad">
+        <a href="#pad">pad</a> <br>
+        <div class="description">Pad a FORMed value on right side with spaces.</div>
+        <code>
+            pad "abc" 10
+        </code>
+        <samp>
+            "abc       "
+        </samp>
+    </section>
+    <section id="pad/left">
+        <a href="#pad/left">pad/left</a> <br>
+        <div class="description">Pad the string on left side</div>
+        <code>
+            pad/left "abc" 10
+        </code>
+        <samp>
+            "       abc"
+        </samp>
+    </section>
+    <section id="pad/with">
+        <a href="#pad/with">pad/with</a> <br>
+        <div class="description">Pad with char.</div>
+        <code>
+            pad/with "abc" 10 #"*"
+        </code>
+        <samp>
+            "abc*******"
+        </samp>
+    </section>
+    <section id="pad/left/with">
+        <a href="#pad/left/with">pad/left/with</a> <br>
+        <div class="description">Pad the string with char on left side.</div>
+        <code>
+            pad/left/with "abc" 10 #"*"
+        </code>
+        <samp>
+            "*******abc"
+        </samp>
+    </section>
+    
+    <script src="../../../js/clean_tag.js"></script>
+    <script>clean_tag("samp")</script>
+</body>
+</html>

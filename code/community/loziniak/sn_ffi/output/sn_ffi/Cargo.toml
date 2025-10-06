@@ -1,0 +1,18 @@
+[package]
+name = "sn_ffi"
+version = "0.1.0"
+authors = ["loziniak <maciej@robotix-lozinski.pl>"]
+edition = "2018"
+
+[dependencies]
+redbin = { path = "../../../redbin" }
+bls = { package = "blsttc", version = "8.0.1" }
+libp2p = { version="0.52", features = ["identify"] }
+tokio = { version="1.17.0", features = ["rt", "rt-multi-thread"] }
+hex = "~0.4.3"
+serde = "1.0.130"
+safe = { path = "../../../safe" }
+
+[lib]
+name = "sn_ffi"
+crate-type = ["cdylib"]

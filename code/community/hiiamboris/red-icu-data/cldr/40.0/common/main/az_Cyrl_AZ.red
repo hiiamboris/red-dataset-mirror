@@ -1,0 +1,10 @@
+
+    ldml [
+        identity [
+            version [#number "$Revision$"] 
+            language [#type "az"] 
+            script [#type "Cyrl"] 
+            territory [#type "AZ"]
+        ]
+    ]
+

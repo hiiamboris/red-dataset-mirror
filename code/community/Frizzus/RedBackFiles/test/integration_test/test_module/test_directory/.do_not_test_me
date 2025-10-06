@@ -1,0 +1,5 @@
+test_substraction: func [] [
+    assert "Testing basics" (10 - 5) == 5
+    assert "Testing negatives" (4 - 8) == 3
+    assert "Testing floats" (4 -  3.5) == 0.5
+]

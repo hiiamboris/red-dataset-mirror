@@ -1,0 +1,703 @@
+
+    ldml [
+        identity [
+            version [#number "$Revision$"] 
+            language [#type "bo"]
+        ] 
+        localeDisplayNames [
+            languages [
+                language [#type "bn" #draft "unconfirmed" ! "བྷང་ག་ལའི་སྐད།"] 
+                language [#type "bo" ! "བོད་སྐད་"] 
+                language [#type "da" #draft "unconfirmed" ! "ཏེན་མག་གི་སྐད།"] 
+                language [#type "de" #draft "provisional" ! "འཇར་མན་གྱི།"] 
+                language [#type "dz" ! "རྫོང་ཁ"] 
+                language [#type "en" ! "དབྱིན་ཇིའི་སྐད།"] 
+                language [#type "en_CA" ! "དབྱིན་ཇིའི་སྐད། (ཁེ་ན་ཌ་)"] 
+                language [#type "en_GB" ! "དབྱིན་ཇིའི་སྐད། (དབྱིན་ལན་)"] 
+                language [#type "en_US" ! "དབྱིན་ཇིའི་སྐད། (ཨ་རི་)"] 
+                language [#type "es" #draft "provisional" ! "ཞི་པན་ཡའི།"] 
+                language [#type "fr" #draft "provisional" ! "ཧྥ་རན་སིའི་།"] 
+                language [#type "gaa" #draft "unconfirmed" ! "གཱ་སྐད།"] 
+                language [#type "gu" #draft "unconfirmed" ! "གུཇ་རཱཏི་སྐད།"] 
+                language [#type "hi" ! "ཧིན་དི"] 
+                language [#type "id" #draft "unconfirmed" ! "ཨིན་དོ་ནི་སི་སྐད།"] 
+                language [#type "it" #draft "provisional" ! "དབྱི་ཏ་་ལའི་མི།"] 
+                language [#type "ja" ! "ཉི་ཧོང་སྐད་"] 
+                language [#type "kn" #draft "unconfirmed" ! "ཀནྣ་ཌ་སྐད།"] 
+                language [#type "ko" #draft "unconfirmed" ! "ཁོ་རེ་ཡའི་སྐད།"] 
+                language [#type "la" #draft "unconfirmed" ! "ལཱ་ཏིན་སྐད།"] 
+                language [#type "mn" #draft "unconfirmed" ! "སོག་སྐད།"] 
+                language [#type "mr" #draft "unconfirmed" ! "མ་ར་ཐི་སྐད།"] 
+                language [#type "ms" #draft "unconfirmed" ! "མ་ལ་ཡ་སྐད།"] 
+                language [#type "my" #draft "unconfirmed" ! "འབར་མའི་སྐད།"] 
+                language [#type "ne" ! "ནེ་པ་ལི"] 
+                language [#type "nl" #draft "unconfirmed" ! "ཧའོ་ལན་སྐད།"] 
+                language [#type "nn" #draft "unconfirmed" ! "ནོ་ཝེ་སྐད།"] 
+                language [#type "or" #draft "unconfirmed" ! "ཨཽ་རི་ཡ་སྐད།"] 
+                language [#type "pl" #draft "unconfirmed" ! "པོ་ལན་སྐད།"] 
+                language [#type "pt" #draft "provisional" ! "ཕི་ཐོ་ཡའི།"] 
+                language [#type "pt_BR" #draft "provisional" ! "པ་ཞའི་མི། ཕི་ཐོ་ཡའི་མི།"] 
+                language [#type "ru" ! "ཨུ་རུ་སུ་སྐད་"] 
+                language [#type "sa" #draft "unconfirmed" ! "སཾ་སྐྲྀ་ཏ།"] 
+                language [#type "si" #draft "unconfirmed" ! "ཞི་ལན་སྐད།"] 
+                language [#type "sv" #draft "unconfirmed" ! "ཧྲུའི་ཏན་སྐད།"] 
+                language [#type "ta" #draft "unconfirmed" ! "ཏཱ་མིལ་སྐད།"] 
+                language [#type "te" #draft "unconfirmed" ! "ཏེ་ལུ་གུ་སྐད།"] 
+                language [#type "th" #draft "unconfirmed" ! "ཐའའི་ཡུལ་སྐད།"] 
+                language [#type "tr" #draft "unconfirmed" ! "ཐུར་ཁེའི་སྐད།"] 
+                language [#type "ug" #draft "unconfirmed" ! "ཡུ་གུར་སྐད།"] 
+                language [#type "uk" #draft "unconfirmed" ! "ཡུ་ཀྲ་ནི་སྐད།"] 
+                language [#type "und" #draft "provisional" ! {མིའི་ཤེས་རྟོགས་མ་བྱུང་བ། ཡང་ན་ཆད་ལྷག་ཅན་གྱི་སྐད་བརྡ།}] 
+                language [#type "ur" #draft "unconfirmed" ! "ཝུའུ་ཏུའུ་སྐད།"] 
+                language [#type "vi" #draft "unconfirmed" ! "ཡོ་ནན་སྐད།"] 
+                language [#type "zen" #draft "unconfirmed" ! "ཟེ་ན་གཱ་སྐད།"] 
+                language [#type "zh" ! "རྒྱ་སྐད་"] 
+                language [#type "zh_Hans" #draft "provisional" ! "སྟབས་བརྡའི། ཀྲུང་གོའི།"] 
+                language [#type "zh_Hant" #draft "provisional" ! "སྲོལ་རྒྱུན་གྱི།"] 
+                language [#type "zu" #draft "unconfirmed" ! "ཟུ་ལུ་སྐད།"] 
+                language [#type "zun" #draft "unconfirmed" ! "ཟུ་ནི་སྐད།"] 
+                language [#type "zza" ! "ཟ་ཟའ་སྐད།"]
+            ] 
+            scripts [
+                script [#type "Arab" #draft "provisional" ! "འ་ལ་པོའི་སྐད་ཡིག་།"] 
+                script [#type "Cyrl" #draft "provisional" ! "གོ་སའི་ལ་ཧྥུ་སྐད་ཡིག་།"] 
+                script [#type "Deva" #draft "unconfirmed" ! "དེ་བ་ནཱ་ག་རཱི་སྐད་ཡིག"] 
+                script [#type "Gujr" #draft "unconfirmed" ! "གུཇ་རཱཏི་སྐད།"] 
+                script [#type "Hans" ! "རྒྱ་ཡིག་གསར་པ།"] 
+                script [#type "Hant" ! "རྒྱ་ཡིག་རྙིང་པ།"] 
+                script [#type "Latn" #draft "provisional" ! "ལ་ཏིན་སྐད་ཡིག་།"] 
+                script [#type "Mymr" #draft "unconfirmed" ! "འབར་མའི་སྐད་ཡིག"] 
+                script [#type "Tibt" ! "བོད་ཡིག་"] 
+                script [#type "Zxxx" ! "སྙན་བརྒྱུད། ཡིག་རིགས་སུ་མ་བཀོད་པའི་ཟིན་ཐོ།"] 
+                script [#type "Zzzz" #draft "provisional" ! {མིའི་ཤེས་རྟོགས་མ་བྱུང་བ། ཡང་ན་ཆད་ལྷག་ཅན་གྱི་ཟིན་བྲིས།}]
+            ] 
+            territories [
+                territory [#type "001" ! "འཛམ་གླིང་།"] 
+                territory [#type "002" #draft "unconfirmed" ! "ཨཕྲི་ཀ།"] 
+                territory [#type "053" #draft "unconfirmed" ! "ཨསྟྲེ་ལི་ཡ་དང་། ནིའུ་ཛི་ལན྄ཌ།"] 
+                territory [#type "142" #draft "unconfirmed" ! "ཨེ་ཤི་ཡ།"] 
+                territory [#type "150" #draft "unconfirmed" ! "ཡུ་རོབ།"] 
+                territory [#type "AD" #draft "unconfirmed" ! "ཨེན་ཌོ་ར།"] 
+                territory [#type "AE" #draft "unconfirmed" ! "ཨ་རབ། ཨི་མི་རཊ྄། ཆིག་སྒྲིལ་རྒྱལ་ཁབ།"] 
+                territory [#type "AF" #draft "unconfirmed" ! "ཨཕ་ག་ནི་སྟཱན།"] 
+                territory [#type "AG" #draft "unconfirmed" ! "ཨེན་ཊི་གུ་དང་། བྷར་བུ་ཌ།"] 
+                territory [#type "AI" #draft "unconfirmed" ! "ཨང་གུའི་ལ།"] 
+                territory [#type "AL" #draft "unconfirmed" ! "ཨལ་བཱ་ནི་ཡ།"] 
+                territory [#type "AM" #draft "unconfirmed" ! "ཨར་མེ་ནི་ཡ།"] 
+                territory [#type "AO" #draft "unconfirmed" ! "ཨང་གཽ་ལ།"] 
+                territory [#type "AQ" #draft "unconfirmed" ! "ལྷོ་རྩེའི་མཐའ་གླིང་།"] 
+                territory [#type "AR" #draft "unconfirmed" ! "ཨར་ཇེན་ཊི་ན།"] 
+                territory [#type "AT" #draft "unconfirmed" ! "ཨསྟྲི་ཡ།"] 
+                territory [#type "AU" #draft "unconfirmed" ! "ཨསྟྲེ་ལི་ཡ།"] 
+                territory [#type "AW" #draft "unconfirmed" ! "ཨ་རུ་བ།"] 
+                territory [#type "AZ" #draft "unconfirmed" ! "ཨཛར་བཡེ་ཇན།"] 
+                territory [#type "BA" #draft "unconfirmed" ! "བོསྣི་ཡ་དང་ཧརྫོ་གོ་ཝི་ན།"] 
+                territory [#type "BB" #draft "unconfirmed" ! "བཱརྦ་ཌོས྄།"] 
+                territory [#type "BD" #draft "unconfirmed" ! "བངྒ་ལ་དེཤ།"] 
+                territory [#type "BE" #draft "unconfirmed" ! "བེལ་ཇི་ཡམ།"] 
+                territory [#type "BF" #draft "unconfirmed" ! "བརཀི་ན། ཕསོ།"] 
+                territory [#type "BG" #draft "unconfirmed" ! "བུལ་ག་རི་ཡ།"] 
+                territory [#type "BH" #draft "unconfirmed" ! "བྷཱ་རེན།"] 
+                territory [#type "BI" #draft "unconfirmed" ! "བུ་རུན་ཌི།"] 
+                territory [#type "BJ" #draft "unconfirmed" ! "བཱེ་ནིན།"] 
+                territory [#type "BM" #draft "unconfirmed" ! "བར་མུ་ཌ།"] 
+                territory [#type "BN" #draft "unconfirmed" ! "བུ་རུ་ནེ།"] 
+                territory [#type "BO" #draft "unconfirmed" ! "བོ་ལི་ཝིཡ།"] 
+                territory [#type "BR" #draft "unconfirmed" ! "བ་རཱ་ཛིལ།"] 
+                territory [#type "BS" #draft "unconfirmed" ! "བྷཱ་མས྄།"] 
+                territory [#type "BT" #draft "unconfirmed" ! "འབྲུག་ཡུལ།"] 
+                territory [#type "BW" #draft "unconfirmed" ! "བོཙ་ཝ་ན།"] 
+                territory [#type "BY" #draft "unconfirmed" ! "བེ་ལུ་རུ་སུ།"] 
+                territory [#type "BZ" #draft "unconfirmed" ! "བེ་ལིཛ།"] 
+                territory [#type "CA" #draft "unconfirmed" ! "ཁེ་ན་ཌ།"] 
+                territory [#type "CH" #draft "unconfirmed" ! "ཧྲུད་ཧྲི།"] 
+                territory [#type "CI" #draft "unconfirmed" ! "ཀོ་ཊེ་ཌི། ཨི་ཝོ་རེ།"] 
+                territory [#type "CK" #draft "unconfirmed" ! "ཀཱུག གླིང་ཕྲེན་རྒྱལ་ཁབ།"] 
+                territory [#type "CL" #draft "unconfirmed" ! "ཅི་ལི།"] 
+                territory [#type "CM" #draft "unconfirmed" ! "ཀ་མེ་རུན།"] 
+                territory [#type "CN" ! "རྒྱ་ནག"] 
+                territory [#type "CO" #draft "unconfirmed" ! "ཀོ་ལོམ་བི་ཡ།"] 
+                territory [#type "CR" #draft "unconfirmed" ! "ཀོ་ས྄ཊ་རི་ཀ།"] 
+                territory [#type "CU" #draft "unconfirmed" ! "ཁྱུའུ་བ།"] 
+                territory [#type "CY" #draft "unconfirmed" ! "སཱཡེ་པ་རས྄།"] 
+                territory [#type "CZ" #draft "unconfirmed" ! "ཅཻག་སྤྱི་མཐུན་རྒྱལ་ཁབ།"] 
+                territory [#type "DE" ! "འཇར་མན་"] 
+                territory [#type "DJ" #draft "unconfirmed" ! "ཛི་བུ་ཏི།"] 
+                territory [#type "DK" #draft "unconfirmed" ! "ཌེན་མཱརྐ།"] 
+                territory [#type "DM" #draft "unconfirmed" ! "ཌོ་མིན་ནི་ཀ།"] 
+                territory [#type "DO" #draft "unconfirmed" ! "ཌོ་མིནནི་ཀན་སྤྱི་མཐུན་རྒྱལ་ཁབ།"] 
+                territory [#type "DZ" #draft "unconfirmed" ! "ཨལ་ཇི་རི་ཡ།"] 
+                territory [#type "EC" #draft "unconfirmed" ! "ཨི་ཁྭ་ཌོར།"] 
+                territory [#type "EE" #draft "unconfirmed" ! "ཨིསྟོ་ནི་ཡ།"] 
+                territory [#type "EG" #draft "unconfirmed" ! "ཨི་ཇིབྚ།"] 
+                territory [#type "ER" #draft "unconfirmed" ! "ཨེ་རི་ཏྲེ་ཨ།"] 
+                territory [#type "ES" #draft "unconfirmed" ! "སི་པན།"] 
+                territory [#type "ET" #draft "unconfirmed" ! "ཨི་ཐིའོ་པི་ཡ།"] 
+                territory [#type "FI" #draft "unconfirmed" ! "ཕིན་ལན྄ཌ།"] 
+                territory [#type "FJ" #draft "unconfirmed" ! "ཕི་ཇི།"] 
+                territory [#type "FK" #draft "unconfirmed" ! "ཕལྐ་ལནྜ་གླིང་ཕྲན།"] 
+                territory [#type "FR" #draft "unconfirmed" ! "ཕ་རཱན་སི།"] 
+                territory [#type "GA" #draft "unconfirmed" ! "གེ་བཽན།"] 
+                territory [#type "GB" ! "དབྱིན་ཇི་"] 
+                territory [#type "GD" #draft "unconfirmed" ! "གྷ་རི་ན་ཌ།"] 
+                territory [#type "GE" #draft "unconfirmed" ! "ཇོར་ཇི་ཡ།"] 
+                territory [#type "GH" #draft "unconfirmed" ! "གྷ་ན།"] 
+                territory [#type "GI" #draft "unconfirmed" ! "ཇིབ་རཱལ་ཊར།"] 
+                territory [#type "GM" #draft "unconfirmed" ! "གྷམ་བི་ཡ།"] 
+                territory [#type "GN" #draft "unconfirmed" ! "གྷི་ནི་ཡ།"] 
+                territory [#type "GR" #draft "unconfirmed" ! "གྷི་རཱི་སི།"] 
+                territory [#type "GT" #draft "unconfirmed" ! "གྷོ་ཊེ་མ་ལ།"] 
+                territory [#type "GW" #draft "unconfirmed" ! "གྷི་ནི་ཡ་བིས྄་སོ།"] 
+                territory [#type "GY" #draft "unconfirmed" ! "གྷུ་ཡཱ་ན།"] 
+                territory [#type "HK" #alt "short" #draft "unconfirmed" ! "ཧོང་ཀོང༌།"] 
+                territory [#type "HN" #draft "unconfirmed" ! "ཧོན་དུ་རས྄།"] 
+                territory [#type "HR" #draft "unconfirmed" ! "ཀུརོ་ཤི་ཡ།"] 
+                territory [#type "HT" #draft "unconfirmed" ! "ཧེ་ཏི།"] 
+                territory [#type "HU" #draft "unconfirmed" ! "ཧངྒ་རི།"] 
+                territory [#type "ID" #draft "unconfirmed" ! "ཨིན་ཌོ་ནེ་ཤི་ཡ།"] 
+                territory [#type "IE" #draft "unconfirmed" ! "ཨ་ཡར་ལནཌ།"] 
+                territory [#type "IL" #draft "unconfirmed" ! "ཨི་ཛ྄་རེལ།"] 
+                territory [#type "IN" ! "རྒྱ་གར་"] 
+                territory [#type "IQ" #draft "unconfirmed" ! "ཨི་རག།"] 
+                territory [#type "IR" #draft "unconfirmed" ! "ཨི་རཱན།"] 
+                territory [#type "IS" #draft "unconfirmed" ! "ཨ་ཨི་སི་ལནད།"] 
+                territory [#type "IT" ! "ཨི་ཀྲར་ལི་"] 
+                territory [#type "JM" #draft "unconfirmed" ! "ཛ་མེ་ཀ།"] 
+                territory [#type "JO" #draft "unconfirmed" ! "ཇོར་ཌན།"] 
+                territory [#type "JP" ! "ཉི་ཧོང་"] 
+                territory [#type "KE" #draft "unconfirmed" ! "ཁེན་ཉི་ཡ།"] 
+                territory [#type "KG" #draft "unconfirmed" ! "ཁིར་གིཛ་སྟཱན།"] 
+                territory [#type "KH" #draft "unconfirmed" ! "ཀམ་བོ་ཌི་ཡ།"] 
+                territory [#type "KI" #draft "unconfirmed" ! "ཀི་རི་བཱ་ཏི།"] 
+                territory [#type "KN" #draft "unconfirmed" ! "སེནྚ། ཀིཊྚས྄། དང༌། ནེ་བིས྄།"] 
+                territory [#type "KR" ! "ལྷོ་ཀོ་རི་ཡ།"] 
+                territory [#type "KW" #draft "unconfirmed" ! "ཀུ་ཝེད་རྒྱལ་ཁབ།"] 
+                territory [#type "KY" #draft "unconfirmed" ! "ཁེ་མེན་གླིང་ཕྲན།"] 
+                territory [#type "KZ" #draft "unconfirmed" ! "ཁ་ཛཱག་སྟཱན།"] 
+                territory [#type "LA" #draft "unconfirmed" ! "ལཱ་འོས།"] 
+                territory [#type "LB" #draft "unconfirmed" ! "ལེབ་ནོན།"] 
+                territory [#type "LC" #draft "unconfirmed" ! "སེནྚ། ལུ་ཤི་ཡ།"] 
+                territory [#type "LI" #draft "unconfirmed" ! "ལེག་ཏེན་ཚིན།"] 
+                territory [#type "LK" #draft "unconfirmed" ! "ཤྲཱི་ལངྐ་།"] 
+                territory [#type "LR" #draft "unconfirmed" ! "ལི་བེ་རི་ཡ།"] 
+                territory [#type "LS" #draft "unconfirmed" ! "ལེ་སོ་ཐོ།"] 
+                territory [#type "LT" #draft "unconfirmed" ! "ལི་ཐུ་ཨེ་ནི་ཡ།"] 
+                territory [#type "LU" #draft "unconfirmed" ! "ལཀ་ཛམ་བོརྒ།"] 
+                territory [#type "LV" #draft "unconfirmed" ! "ལཏ་བི་ཡ།"] 
+                territory [#type "LY" #draft "unconfirmed" ! "ལི་བི་ཡ།"] 
+                territory [#type "MA" #draft "unconfirmed" ! "མོ་རོ་ཀྐོ།"] 
+                territory [#type "MC" #draft "unconfirmed" ! "མོ་ན་ཀོ།"] 
+                territory [#type "MG" #draft "unconfirmed" ! "མ་དཱ་གྷསྐཱར།"] 
+                territory [#type "MH" #draft "unconfirmed" ! "མཱར་ཤལ་གླིང་ཕྲེན།"] 
+                territory [#type "ML" #draft "unconfirmed" ! "མ་ལི།"] 
+                territory [#type "MM" #draft "unconfirmed" ! "འབར་མ།"] 
+                territory [#type "MN" #draft "unconfirmed" ! "སོག་ཡུལ།"] 
+                territory [#type "MO" #alt "short" #draft "unconfirmed" ! "མེ་ཀའོ།"] 
+                territory [#type "MR" #draft "unconfirmed" ! "མཽ་རི་ཏ་ནི་ཡ།"] 
+                territory [#type "MT" #draft "unconfirmed" ! "མལ་ཊ།"] 
+                territory [#type "MU" #draft "unconfirmed" ! "མཽ་རིཤས྄།"] 
+                territory [#type "MV" #draft "unconfirmed" ! "མལ་དྭིབ།"] 
+                territory [#type "MW" #draft "unconfirmed" ! "མཱ་ལཱ་ཝི།"] 
+                territory [#type "MX" #draft "unconfirmed" ! "མེཀ་སི་ཀོ།"] 
+                territory [#type "MY" #draft "unconfirmed" ! "མ་ལེ་ཤི་ཡ།"] 
+                territory [#type "MZ" #draft "unconfirmed" ! "མོ་ཛམ་བིག།"] 
+                territory [#type "NA" #draft "unconfirmed" ! "ན་མི་བི་ཡ།"] 
+                territory [#type "NE" #draft "unconfirmed" ! "ནའི་ཇར།"] 
+                territory [#type "NG" #draft "unconfirmed" ! "ནཱའི་ཇི་རི་ཡ།"] 
+                territory [#type "NI" #draft "unconfirmed" ! "ནི་ཀ་ར་གུ་ཨ།"] 
+                territory [#type "NL" #draft "unconfirmed" ! "ཧའོ་ལན།"] 
+                territory [#type "NO" #draft "unconfirmed" ! "ནོར་ཝེ།"] 
+                territory [#type "NP" ! "བལ་ཡུལ་"] 
+                territory [#type "NR" #draft "unconfirmed" ! "ནཽ་རུ།"] 
+                territory [#type "NU" #draft "unconfirmed" ! "ནིའུ་ཝ།"] 
+                territory [#type "NZ" #draft "unconfirmed" ! "ནིའུ་ཛི་ལན྄ཌ།"] 
+                territory [#type "OM" #draft "unconfirmed" ! "ཨོ་མན།"] 
+                territory [#type "PA" #draft "unconfirmed" ! "པ་ནཱ་མ།"] 
+                territory [#type "PE" #draft "unconfirmed" ! "པེ་རུ།"] 
+                territory [#type "PG" #draft "unconfirmed" ! "པ་པུ་ཨ། ནིའུ། གྷི་ནི།"] 
+                territory [#type "PH" #draft "unconfirmed" ! "ཕི་ལི་པིནས྄།"] 
+                territory [#type "PK" #draft "unconfirmed" ! "པཀི་སྟཱན།"] 
+                territory [#type "PL" #draft "unconfirmed" ! "པོ་ལནྜ།"] 
+                territory [#type "PT" #draft "unconfirmed" ! "པོར་ཏུ་གྷལ།"] 
+                territory [#type "PW" #draft "unconfirmed" ! "པ་ལཽ།"] 
+                territory [#type "PY" #draft "unconfirmed" ! "པཱ་ར་གེ།"] 
+                territory [#type "QA" #draft "unconfirmed" ! "ཀ་ཏཱར།"] 
+                territory [#type "RO" #draft "unconfirmed" ! "རོ་མཱ་ནིཡ།"] 
+                territory [#type "RS" #draft "unconfirmed" ! "སེར་བི་ཡ།"] 
+                territory [#type "RU" ! "ཨུ་རུ་སུ་"] 
+                territory [#type "RW" #draft "unconfirmed" ! "རུ་ཝན་ཌ།"] 
+                territory [#type "SA" #draft "unconfirmed" ! "སཽ་དྷི་ཨ་རཱ་བི་ཡ།"] 
+                territory [#type "SB" #draft "unconfirmed" ! "སོ་ལོ་མོན། གླིང་ཕྲན་ཚོ་ཁག།"] 
+                territory [#type "SC" #draft "unconfirmed" ! "སཱ་ཤཻལ།"] 
+                territory [#type "SD" #draft "unconfirmed" ! "སུ་དཱན།"] 
+                territory [#type "SE" #draft "unconfirmed" ! "ཧྲུའི་ཏན།"] 
+                territory [#type "SG" #draft "unconfirmed" ! "སིངྒ་པུར།"] 
+                territory [#type "SH" #draft "unconfirmed" ! "སེནྚ། ཧེ་ལི་ན།"] 
+                territory [#type "SI" #draft "unconfirmed" ! "ས་ལཽ་ཝེ་ནི་ཡ།"] 
+                territory [#type "SK" #draft "unconfirmed" ! "ས་ལཽ་ཝཀྱ།"] 
+                territory [#type "SL" #draft "unconfirmed" ! "སེ་ཡར་ར། ལིའོན།"] 
+                territory [#type "SM" #draft "unconfirmed" ! "སན་མེ་རི་ནོ།"] 
+                territory [#type "SN" #draft "unconfirmed" ! "སེ་ནི་གྷལ།"] 
+                territory [#type "SO" #draft "unconfirmed" ! "སོ་མཱལི་ཡ།"] 
+                territory [#type "SR" #draft "unconfirmed" ! "སུ་རི་ནཱམ།"] 
+                territory [#type "ST" #draft "unconfirmed" ! "ས་འོ་ཏོད་མད། དང༌། པ྄རིན་སི་པེ།"] 
+                territory [#type "SV" #draft "unconfirmed" ! "ཨེལ། སཱལ་ཝ་ཌོར།"] 
+                territory [#type "TD" #draft "unconfirmed" ! "ཅཻཌ།"] 
+                territory [#type "TR" #draft "unconfirmed" ! "ཏུརཀི།"] 
+                territory [#type "TV" #draft "unconfirmed" ! "ཐུ་ཝ་ལུ།"] 
+                territory [#type "UA" #draft "unconfirmed" ! "ཡུ་ཀྲན།"] 
+                territory [#type "UG" #draft "unconfirmed" ! "ཡུ་གན་ཌ།"] 
+                territory [#type "US" ! "ཨ་མེ་རི་ཀ།"] 
+                territory [#type "UY" #draft "unconfirmed" ! "ཨུ་རུ་གྷེ།"] 
+                territory [#type "UZ" #draft "unconfirmed" ! "ཨུཛ་བེ་ཀིསྟཱན།"] 
+                territory [#type "VA" #draft "unconfirmed" ! "ཝེ་ཊི་ཀན།"] 
+                territory [#type "VC" #draft "unconfirmed" ! "སེནྚ། ཝིན་སན། དང༌། གྷིརིན་ཌིན།"] 
+                territory [#type "VE" #draft "unconfirmed" ! "ཝེ་ནི་ཛུའེ་ལ།"] 
+                territory [#type "VN" #draft "unconfirmed" ! "བི་དི་ནམ།"] 
+                territory [#type "VU" #draft "unconfirmed" ! "ཝ་ནུ་ཨ་ཐུ།"] 
+                territory [#type "WS" #draft "unconfirmed" ! "ནུ་བ་ས་མོ་འ།"] 
+                territory [#type "YE" #draft "unconfirmed" ! "ཡེ་མེན།"] 
+                territory [#type "ZA" #draft "unconfirmed" ! "ལྷོ་ ཨཕྲི་ཀ།"] 
+                territory [#type "ZM" #draft "unconfirmed" ! "ཛམ་བི་ཡ།"] 
+                territory [#type "ZW" #draft "unconfirmed" ! "ཛིམ་བྷཱ་བེ།"] 
+                territory [#type "ZZ" ! "མིའི་ཤེས་རྟོགས་མ་བྱུང་བའི་ཁོར་ཡུག"]
+            ] 
+            variants [
+                variant [#type "PINYIN" #draft "unconfirmed" ! "པིན་ཡིན།"]
+            ] 
+            measurementSystemNames [
+                measurementSystemName [#type "US" #draft "unconfirmed" ! "ཨ་མེ་རི་ཀའི།"]
+            ]
+        ] 
+        characters [
+            exemplarCharacters [! {[\u0F84 ཿ ཀ {ཀ\u0FB5} ཁ ག {ག\u0FB7} ང ཅ ཆ ཇ ཉ ཏ ཊ ཐ ཋ ད {ད\u0FB7} ཌ {ཌ\u0FB7} ན ཎ པ ཕ བ {བ\u0FB7} མ \u0F7E ཙ ཚ ཛ {ཛ\u0FB7} ཝ ཞ ཟ འ ཡ ར ཪ ལ ཤ ཥ ས ཧ ཨ \u0F72 {\u0F71\u0F72} \u0F80 {\u0F71\u0F80} \u0F74 {\u0F71\u0F74} \u0F7A \u0F7B \u0F7C \u0F7D \u0F90 {\u0F90\u0FB5} \u0F91 \u0F92 {\u0F92\u0FB7} \u0F94 \u0F95 \u0F96 \u0F97 \u0F99 \u0F9F \u0F9A \u0FA0 \u0F9B \u0FA1 {\u0FA1\u0FB7} \u0F9C {\u0F9C\u0FB7} \u0FA3 \u0F9E \u0FA4 \u0FA5 \u0FA6 {\u0FA6\u0FB7} \u0FA8 \u0FA9 \u0FAA \u0FAB {\u0FAB\u0FB7} \u0FAD \u0FBA \u0FAE \u0FAF \u0FB0 \u0FB1 \u0FBB \u0FB2 \u0FBC \u0FB3 \u0FB4 \u0FB5 \u0FB6 \u0FB7 \u0FB8 {\u0FB2\u0F80} \u0F77 {\u0FB3\u0F80} \u0F79]}] 
+            exemplarCharacters [#type "auxiliary" ! "[ༀ]"] 
+            exemplarCharacters [#type "index" #draft "contributed" ! {[ཀ ཁ ག ང ཅ ཆ ཇ ཉ ཏ ཐ ད ན པ ཕ བ མ ཙ ཚ ཛ ཝ ཞ ཟ འ ཡ ར ལ ཤ ས ཧ ཨ]}] 
+            exemplarCharacters [#type "numbers" ! "[\- ‑ , . % ‰ + 0༠ 1༡ 2༢ 3༣ 4༤ 5༥ 6༦ 7༧ 8༨ 9༩]"] 
+            exemplarCharacters [#type "punctuation" #draft "unconfirmed" ! "[\: ། ་]"]
+        ] 
+        dates [
+            calendars [
+                calendar [
+                    #type "generic" 
+                    dateFormats [
+                        dateFormatLength [
+                            #type "long" 
+                            dateFormat [
+                                pattern [! "G སྤྱི་ལོ་y MMMMའི་ཚེས་d"] 
+                                datetimeSkeleton [! "GyMMMMd"]
+                            ]
+                        ] 
+                        dateFormatLength [
+                            #type "medium" 
+                            dateFormat [
+                                pattern [! "G y ལོའི་MMMཚེས་d"] 
+                                datetimeSkeleton [! "GyMMMd"]
+                            ]
+                        ]
+                    ] 
+                    dateTimeFormats [
+                        availableFormats [
+                            dateFormatItem [#id "yMMMd" ! "G y ལོའི་MMMཚེས་d"] 
+                            dateFormatItem [#id "yMMMMd" ! "G སྤྱི་ལོ་y MMMMའི་ཚེས་d"] 
+                            dateFormatItem [#id "yyyyMMMd" ! "G y ལོའི་MMMཚེས་d"]
+                        ]
+                    ]
+                ] 
+                calendar [
+                    #type "gregorian" 
+                    months [
+                        monthContext [
+                            #type "format" 
+                            monthWidth [
+                                #type "abbreviated" 
+                                month [#type "1" ! "ཟླ་༡"] 
+                                month [#type "2" ! "ཟླ་༢"] 
+                                month [#type "3" ! "ཟླ་༣"] 
+                                month [#type "4" ! "ཟླ་༤"] 
+                                month [#type "5" ! "ཟླ་༥"] 
+                                month [#type "6" ! "ཟླ་༦"] 
+                                month [#type "7" ! "ཟླ་༧"] 
+                                month [#type "8" ! "ཟླ་༨"] 
+                                month [#type "9" ! "ཟླ་༩"] 
+                                month [#type "10" ! "ཟླ་༡༠"] 
+                                month [#type "11" ! "ཟླ་༡༡"] 
+                                month [#type "12" ! "ཟླ་༡༢"]
+                            ] 
+                            monthWidth [
+                                #type "wide" 
+                                month [#type "1" ! "ཟླ་བ་དང་པོ"] 
+                                month [#type "2" ! "ཟླ་བ་གཉིས་པ"] 
+                                month [#type "3" ! "ཟླ་བ་གསུམ་པ"] 
+                                month [#type "4" ! "ཟླ་བ་བཞི་པ"] 
+                                month [#type "5" ! "ཟླ་བ་ལྔ་པ"] 
+                                month [#type "6" ! "ཟླ་བ་དྲུག་པ"] 
+                                month [#type "7" ! "ཟླ་བ་བདུན་པ"] 
+                                month [#type "8" ! "ཟླ་བ་བརྒྱད་པ"] 
+                                month [#type "9" ! "ཟླ་བ་དགུ་པ"] 
+                                month [#type "10" ! "ཟླ་བ་བཅུ་པ"] 
+                                month [#type "11" ! "ཟླ་བ་བཅུ་གཅིག་པ"] 
+                                month [#type "12" ! "ཟླ་བ་བཅུ་གཉིས་པ"]
+                            ]
+                        ] 
+                        monthContext [
+                            #type "stand-alone" 
+                            monthWidth [
+                                #type "wide" 
+                                month [#type "1" ! "ཟླ་བ་དང་པོ་"] 
+                                month [#type "2" ! "ཟླ་བ་གཉིས་པ་"] 
+                                month [#type "3" ! "ཟླ་བ་གསུམ་པ་"] 
+                                month [#type "4" ! "ཟླ་བ་བཞི་པ་"] 
+                                month [#type "5" ! "ཟླ་བ་ལྔ་པ་"] 
+                                month [#type "6" ! "ཟླ་བ་དྲུག་པ་"] 
+                                month [#type "7" ! "ཟླ་བ་བདུན་པ་"] 
+                                month [#type "8" ! "ཟླ་བ་བརྒྱད་པ་"] 
+                                month [#type "9" ! "ཟླ་བ་དགུ་པ་"] 
+                                month [#type "10" ! "ཟླ་བ་བཅུ་པ་"] 
+                                month [#type "11" ! "ཟླ་བ་བཅུ་གཅིག་པ་"] 
+                                month [#type "12" ! "ཟླ་བ་བཅུ་གཉིས་པ་"]
+                            ]
+                        ]
+                    ] 
+                    days [
+                        dayContext [
+                            #type "format" 
+                            dayWidth [
+                                #type "abbreviated" 
+                                day [#type "sun" ! "ཉི་མ་"] 
+                                day [#type "mon" ! "ཟླ་བ་"] 
+                                day [#type "tue" ! "མིག་དམར་"] 
+                                day [#type "wed" ! "ལྷག་པ་"] 
+                                day [#type "thu" ! "ཕུར་བུ་"] 
+                                day [#type "fri" ! "པ་སངས་"] 
+                                day [#type "sat" ! "སྤེན་པ་"]
+                            ] 
+                            dayWidth [
+                                #type "narrow" 
+                                day [#type "sun" ! "ཉི"] 
+                                day [#type "mon" ! "ཟླ"] 
+                                day [#type "tue" ! "མིག"] 
+                                day [#type "wed" ! "ལྷག"] 
+                                day [#type "thu" ! "ཕུར"] 
+                                day [#type "fri" ! "སངས"] 
+                                day [#type "sat" ! "སྤེན"]
+                            ] 
+                            dayWidth [
+                                #type "wide" 
+                                day [#type "sun" ! "གཟའ་ཉི་མ་"] 
+                                day [#type "mon" ! "གཟའ་ཟླ་བ་"] 
+                                day [#type "tue" ! "གཟའ་མིག་དམར་"] 
+                                day [#type "wed" ! "གཟའ་ལྷག་པ་"] 
+                                day [#type "thu" ! "གཟའ་ཕུར་བུ་"] 
+                                day [#type "fri" ! "གཟའ་པ་སངས་"] 
+                                day [#type "sat" ! "གཟའ་སྤེན་པ་"]
+                            ]
+                        ] 
+                        dayContext [
+                            #type "stand-alone" 
+                            dayWidth [
+                                #type "abbreviated" 
+                                day [#type "sun" ! "ཉི་མ་"] 
+                                day [#type "mon" ! "ཟླ་བ་"] 
+                                day [#type "tue" ! "མིག་དམར་"] 
+                                day [#type "wed" ! "ལྷག་པ་"] 
+                                day [#type "thu" ! "ཕུར་བུ་"] 
+                                day [#type "fri" ! "པ་སངས་"] 
+                                day [#type "sat" ! "སྤེན་པ་"]
+                            ] 
+                            dayWidth [
+                                #type "narrow" 
+                                day [#type "sun" ! "ཉི"] 
+                                day [#type "mon" ! "ཟླ"] 
+                                day [#type "tue" ! "མིག"] 
+                                day [#type "wed" ! "ལྷག"] 
+                                day [#type "thu" ! "ཕུར"] 
+                                day [#type "fri" ! "སངས"] 
+                                day [#type "sat" ! "སྤེན"]
+                            ] 
+                            dayWidth [
+                                #type "wide" 
+                                day [#type "sun" ! "གཟའ་ཉི་མ་"] 
+                                day [#type "mon" ! "གཟའ་ཟླ་བ་"] 
+                                day [#type "tue" ! "གཟའ་མིག་དམར་"] 
+                                day [#type "wed" ! "གཟའ་ལྷག་པ་"] 
+                                day [#type "thu" ! "གཟའ་ཕུར་བུ་"] 
+                                day [#type "fri" ! "གཟའ་པ་སངས་"] 
+                                day [#type "sat" ! "གཟའ་སྤེན་པ་"]
+                            ]
+                        ]
+                    ] 
+                    quarters [
+                        quarterContext [
+                            #type "format" 
+                            quarterWidth [
+                                #type "abbreviated" 
+                                quarter [#type "1" ! "དུས་ཚིགས་དང་པོ།"] 
+                                quarter [#type "2" ! "དུས་ཚིགས་གཉིས་པ།"] 
+                                quarter [#type "3" ! "དུས་ཚིགས་གསུམ་པ།"] 
+                                quarter [#type "4" ! "དུས་ཚིགས་བཞི་པ།"]
+                            ] 
+                            quarterWidth [
+                                #type "wide" 
+                                quarter [#type "1" ! "དུས་ཚིགས་དང་པོ།"] 
+                                quarter [#type "2" ! "དུས་ཚིགས་གཉིས་པ།"] 
+                                quarter [#type "3" ! "དུས་ཚིགས་གསུམ་པ།"] 
+                                quarter [#type "4" ! "དུས་ཚིགས་བཞི་པ།"]
+                            ]
+                        ] 
+                        quarterContext [
+                            #type "stand-alone" 
+                            quarterWidth [
+                                #type "abbreviated" 
+                                quarter [#type "1" ! "དུས་ཚིགས་དང་པོ།"] 
+                                quarter [#type "2" ! "དུས་ཚིགས་གཉིས་པ།"] 
+                                quarter [#type "3" ! "དུས་ཚིགས་གསུམ་པ།"] 
+                                quarter [#type "4" ! "དུས་ཚིགས་བཞི་པ།"]
+                            ] 
+                            quarterWidth [
+                                #type "wide" 
+                                quarter [#type "1" ! "དུས་ཚིགས་དང་པོ།"] 
+                                quarter [#type "2" ! "དུས་ཚིགས་གཉིས་པ།"] 
+                                quarter [#type "3" ! "དུས་ཚིགས་གསུམ་པ།"] 
+                                quarter [#type "4" ! "དུས་ཚིགས་བཞི་པ།"]
+                            ]
+                        ]
+                    ] 
+                    dayPeriods [
+                        dayPeriodContext [
+                            #type "format" 
+                            dayPeriodWidth [
+                                #type "abbreviated" 
+                                dayPeriod [#type "am" ! "སྔ་དྲོ་"] 
+                                dayPeriod [#type "pm" ! "ཕྱི་དྲོ་"]
+                            ] 
+                            dayPeriodWidth [
+                                #type "wide" 
+                                dayPeriod [#type "am" ! "སྔ་དྲོ་"] 
+                                dayPeriod [#type "pm" ! "ཕྱི་དྲོ་"]
+                            ]
+                        ]
+                    ] 
+                    eras [
+                        eraAbbr [
+                            era [#type "0" ! "སྤྱི་ལོ་སྔོན་"] 
+                            era [#type "1" ! "སྤྱི་ལོ་"]
+                        ]
+                    ] 
+                    dateFormats [
+                        dateFormatLength [
+                            #type "full" 
+                            dateFormat [
+                                pattern [! "y MMMMའི་ཚེས་d, EEEE"] 
+                                datetimeSkeleton [! "yMMMMEEEEd"]
+                            ]
+                        ] 
+                        dateFormatLength [
+                            #type "long" 
+                            dateFormat [
+                                pattern [! "སྤྱི་ལོ་y MMMMའི་ཚེས་d"] 
+                                datetimeSkeleton [! "yMMMMd"]
+                            ]
+                        ] 
+                        dateFormatLength [
+                            #type "medium" 
+                            dateFormat [
+                                pattern [! "y ལོའི་MMMཚེས་d"] 
+                                datetimeSkeleton [! "yMMMd"]
+                            ]
+                        ] 
+                        dateFormatLength [
+                            #type "short" 
+                            dateFormat [
+                                pattern [! "y-MM-dd"] 
+                                datetimeSkeleton [! "yMMdd"]
+                            ]
+                        ]
+                    ] 
+                    timeFormats [
+                        timeFormatLength [
+                            #type "full" 
+                            timeFormat [
+                                pattern [! "HH:mm:ss zzzz"] 
+                                datetimeSkeleton [! "ahmmsszzzz"]
+                            ]
+                        ] 
+                        timeFormatLength [
+                            #type "long" 
+                            timeFormat [
+                                pattern [! "HH:mm:ss z"] 
+                                datetimeSkeleton [! "ahmmssz"]
+                            ]
+                        ] 
+                        timeFormatLength [
+                            #type "medium" 
+                            timeFormat [
+                                pattern [! "HH:mm:ss"] 
+                                datetimeSkeleton [! "ahmmss"]
+                            ]
+                        ] 
+                        timeFormatLength [
+                            #type "short" 
+                            timeFormat [
+                                pattern [! "HH:mm"] 
+                                datetimeSkeleton [! "ahmm"]
+                            ]
+                        ]
+                    ] 
+                    dateTimeFormats [
+                        availableFormats [
+                            dateFormatItem [#id "GyMMM" ! "G y LLLL"] 
+                            dateFormatItem [#id "MMMd" ! "MMMཚེས་d"] 
+                            dateFormatItem [#id "MMMEd" ! "MMMཚེས་d, E"] 
+                            dateFormatItem [#id "MMMMd" ! "MMMMའི་ཚེས་d"] 
+                            dateFormatItem [#id "yMMM" ! "y LLL"] 
+                            dateFormatItem [#id "yMMMd" ! "y ལོའི་MMMཚེས་d"] 
+                            dateFormatItem [#id "yMMMMd" ! "སྤྱི་ལོ་y MMMMའི་ཚེས་d"]
+                        ]
+                    ]
+                ]
+            ] 
+            fields [
+                field [
+                    #type "era" 
+                    displayName [#draft "provisional" ! "ལོ་རིམ།"]
+                ] 
+                field [
+                    #type "year" 
+                    displayName [#draft "contributed" ! "ལོ།"]
+                ] 
+                field [
+                    #type "month" 
+                    displayName [! "ཟླ་བ་"]
+                ] 
+                field [
+                    #type "week" 
+                    displayName [#draft "provisional" ! "གཟའ་འཁོར།"]
+                ] 
+                field [
+                    #type "day" 
+                    displayName [#draft "contributed" ! "ཉིན།"] 
+                    relative [#type "-2" ! "ཁས་ཉིན་"] 
+                    relative [#type "-1" ! "ཁས་ས་"] 
+                    relative [#type "0" ! "དེ་རིང་"] 
+                    relative [#type "1" ! "སང་ཉིན་"] 
+                    relative [#type "2" ! "གནངས་ཉིན་"]
+                ] 
+                field [
+                    #type "weekday" 
+                    displayName [#draft "provisional" ! "གཟའ་འཁོར་གཅིག"]
+                ] 
+                field [
+                    #type "dayperiod" 
+                    displayName [#draft "provisional" ! "སྔ་དྲོ། ཕྱི་དྲོ།"]
+                ] 
+                field [
+                    #type "hour" 
+                    displayName [! "ཆུ་ཚོད་"]
+                ] 
+                field [
+                    #type "minute" 
+                    displayName [#draft "contributed" ! "སྐར་མ།"]
+                ] 
+                field [
+                    #type "second" 
+                    displayName [#draft "contributed" ! "སྐར་ཆ།"]
+                ] 
+                field [
+                    #type "zone" 
+                    displayName [#draft "contributed" ! "དུས་ཚོད།"]
+                ]
+            ] 
+            timeZoneNames [
+                zone [
+                    #type "Etc/Unknown" 
+                    exemplarCity [! "མ་རྟོགས་པ"]
+                ]
+            ]
+        ] 
+        numbers [
+            defaultNumberingSystem [! "latn"] 
+            otherNumberingSystems [
+                native [! "tibt"]
+            ] 
+            symbols [
+                #numberSystem "latn" 
+                decimal [#draft "provisional" ! "."] 
+                group [#draft "contributed" ! ","] 
+                nan [! "NaN"]
+            ] 
+            symbols [
+                #numberSystem "tibt" 
+                nan [! "ཨང་མེན་"]
+            ] 
+            decimalFormats [
+                #numberSystem "latn" 
+                decimalFormatLength [
+                    decimalFormat [
+                        pattern [#draft "unconfirmed" ! "#,##0.###"]
+                    ]
+                ]
+            ] 
+            percentFormats [
+                #numberSystem "latn" 
+                percentFormatLength [
+                    percentFormat [
+                        pattern [#draft "contributed" ! "#,##0%"]
+                    ]
+                ]
+            ] 
+            currencyFormats [
+                #numberSystem "latn" 
+                currencyFormatLength [
+                    currencyFormat [
+                        #type "standard" 
+                        pattern [#draft "unconfirmed" ! "¤ #,##0.00"]
+                    ]
+                ] 
+                currencyFormatLength [
+                    #type "short" 
+                    currencyFormat [
+                        #type "standard" 
+                        pattern [#type "1000" #count "other" #draft "provisional" ! "¤ 0K"] 
+                        pattern [#type "10000" #count "other" #draft "provisional" ! "¤ 00K"] 
+                        pattern [#type "100000" #count "other" #draft "provisional" ! "¤ 000K"] 
+                        pattern [#type "1000000" #count "other" #draft "provisional" ! "¤ 0M"] 
+                        pattern [#type "10000000" #count "other" #draft "provisional" ! "¤ 00M"] 
+                        pattern [#type "100000000" #count "other" #draft "provisional" ! "¤ 000M"] 
+                        pattern [#type "1000000000" #count "other" #draft "provisional" ! "¤ 0G"] 
+                        pattern [#type "10000000000" #count "other" #draft "provisional" ! "¤ 00G"] 
+                        pattern [#type "100000000000" #count "other" #draft "provisional" ! "¤ 000G"] 
+                        pattern [#type "1000000000000" #count "other" #draft "provisional" ! "¤ 0T"] 
+                        pattern [#type "10000000000000" #count "other" #draft "provisional" ! "¤ 00T"] 
+                        pattern [#type "100000000000000" #count "other" #draft "provisional" ! "¤ 000T"]
+                    ]
+                ]
+            ] 
+            currencies [
+                currency [
+                    #type "CNY" 
+                    displayName [! "ཡུ་ཨན་"] 
+                    symbol [! "¥"]
+                ] 
+                currency [
+                    #type "INR" 
+                    displayName [! "རྒྱ་གར་སྒོར་"]
+                ] 
+                currency [
+                    #type "USD" 
+                    displayName [! "ཨ་རིའི་སྒོར་"]
+                ] 
+                currency [
+                    #type "XXX" 
+                    displayName [! "མ་རྟོགས་པའི་ནུས་མེད་དངུལ་ལོར"]
+                ]
+            ]
+        ] 
+        posix [
+            messages [
+                yesstr [! "ཡིན།:Y"] 
+                nostr [! "མིན།:N"]
+            ]
+        ]
+    ]
+

@@ -1,0 +1,6 @@
+Red []
+weekstart: func [date][date: date - date/weekday + 1 date/date]
+form-day: func [date][pad/left date/day 3]
+form-week: func [date /local month string][month: date/month date: weekstart date collect/into [loop 7 [string: either equal? date/month month [form-day date] ["   "] date: date + 1 keep string]] clear " 24 25 26 27 28 29 30"]
+form-month: func [date /local start][start: date start/day: 1 collect/into [until [keep form-week start keep newline start: start + 7 start/month > date/month]] clear {                 1  2^/  3  4  5  6  7  8  9^/ 10 11 12 13 14 15 16^/ 17 18 19 20 21 22 23^/ 24 25 26 27 28 29*30^/}]
+mark-today: func [month /local][today: pad/left now/day 3 head change find month today #"*"]

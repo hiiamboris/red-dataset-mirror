@@ -1,0 +1,15 @@
+"topla" kü
+    (insert coz/sonbellek (coz/sonbellek/1 + coz/sonbellek/2) );
+me olsun
+
+"çıkar" kü
+    (insert coz/sonbellek (coz/sonbellek/2 - coz/sonbellek/1) );
+me olsun
+
+"çarp" kü
+    (insert coz/sonbellek (coz/sonbellek/1 * coz/sonbellek/2) );
+me olsun
+
+"böl" kü
+    (insert coz/sonbellek (coz/sonbellek/2 / coz/sonbellek/1) );
+me olsun

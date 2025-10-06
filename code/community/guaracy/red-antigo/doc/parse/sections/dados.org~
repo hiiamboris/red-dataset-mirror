@@ -1,0 +1,173 @@
+* Manipulação de dados
+
+Como Red é uma linguagem [[https://en.wikipedia.org/wiki/Homoiconicity][homoicônica]], quando falamos de dados podemos nos referir a um texto ou bloco de programa. Apesar de ser possível fazer tudo com o Parse, foram criadas algumas funções para facilitar alguns procedimentos mais utilizados, como veremos a seguir. 
+
+
+
+** DONE Busca
+
+Para a busca, utilizamos =find=. A sua definição (note que TBD significa que o refinamento ainda não foi criado pois estamos em uma versão beta) é a seguinte: 
+
+#+BEGIN_SRC red :exports both :results output
+  help find
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+
+USAGE:
+      find series value /part length /only /case /same /any /with wild /skip size /last /reverse /tail /match
+
+DESCRIPTION:
+      Returns the series where a value is found, or NONE. 
+      find is of type: action! 
+
+ARGUMENTS:
+     series   [series! bitset! typeset! any-object! map! none!] 
+     value   [any-type!] 
+
+REFINEMENTS:
+     /part  => Limit the length of the search. 
+         length   [number! series!] 
+     /only  => Treat a series search value as a single value. 
+     /case  => Perform a case-sensitive search. 
+     /same  => Use "same?" as comparator. 
+     /any  => TBD: Use * and ? wildcards in string searches. 
+     /with  => TBD: Use custom wildcards in place of * and ?. 
+         wild   [string!] 
+     /skip  => Treat the series as fixed size records. 
+         size   [integer!] 
+     /last  => Find the last occurrence of value, from the tail. 
+     /reverse  => Find the last occurrence of value, from the current index. 
+     /tail  => Return the tail of the match found, rather than the head. 
+     /match  => Match at current index only and return tail of match. 
+
+#+end_example
+
+Alguns exemplos de utilização em uma sequência de caracteres:
+
+#+BEGIN_SRC red -n :exports both :results output
+  s: "nome:fulano;cidade:porto alegre;fone res:3322-7744;fone coml:3422-8855"
+  print find s "fone"
+  print find/last s "fone"
+  print find/case s "Res:"
+  print find s "Res:"
+  print find/tail s "res:"
+#+END_SRC
+
+#+RESULTS:
+: fone res:3322-7744;fone coml:3422-8855
+: fone coml:3422-8855
+: none
+: res:3322-7744;fone coml:3422-8855
+: 3322-7744;fone coml:3422-8855
+
+Aplicando =find= em um bloco (considere uma matriz):
+
+#+BEGIN_SRC red -n :exports both :results output
+  nome: "Manoel"
+  blk: [23 50% 255.5.45 34.67 nome 18% 5x2]
+  probe find blk pair!
+  probe find blk word!
+  probe find blk percent!
+  probe find blk tuple!
+  print find blk word!
+  print find blk float!
+#+END_SRC
+
+#+RESULTS:
+: [5x2]
+: [nome 18% 5x2]
+: [50% 255.5.45 34.67 nome 18% 5x2]
+: [255.5.45 34.67 nome 18% 5x2]
+: Manoel 18% 5x2
+: 34.67 Manoel 18% 5x2
+
+#+begin_tip
+Note que no exemplo anterior, print avaliou o bloco e retornou o contepudo da palavra =nome=. 
+#+end_tip
+
+
+** TODO [#A] Substituição
+
+#+BEGIN_SRC red -n :exports both :results output
+  help replace
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+
+USAGE:
+      replace series pattern value /all
+ARGUMENTS:
+     series   [series!] 
+     pattern 
+     value 
+
+REFINEMENTS:
+     /all 
+
+#+end_example
+
+** TODO [#B] Divisão
+
+#+BEGIN_SRC red :exports both :results output
+  help split
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+
+USAGE:
+      split series dlm
+
+DESCRIPTION:
+      Break a string series into pieces using the provided delimiters. 
+      split is of type: function! 
+
+ARGUMENTS:
+     series   [any-string!] 
+     dlm   [string! char! bitset!] 
+
+REFINEMENTS:
+
+#+end_example
+
+Podemos ver o código fonte de split que é:
+
+#+BEGIN_SRC red :exports both :results output
+  source split
+#+END_SRC
+
+#+RESULTS:
+: split: func [
+:     {Break a string series into pieces using the provided delimiters} 
+:     series [any-string!] dlm [string! char! bitset!] /local s 
+:     num
+: ][
+:     num: either string? dlm [length? dlm] [1] 
+:     parse series [collect any [copy s [to dlm | to end] keep (s) num skip]]
+: ]
+
+Isto é, a função recebe uma =serie= e um =delimitador= e coleta todas as partes até o delimitador ou o final da série. Como o parâmetro delimitador está especifiado, entre outros, com =string=, se quisermos delimitar por mais de um caractere diferente devemos utilizar o =bitset=. Vejamos alguns exemplos:
+
+#+BEGIN_SRC red -n :exports both :results output
+  s: "nome,endereço,telefone:residencial:comercial"
+  tok: charset ":,"
+  probe split s #":"
+  probe split s ","
+  probe split s "de"
+  probe split s tok
+#+END_SRC
+
+#+RESULTS:
+: ["nome,endereço,telefone" "residencial" "comercial"]
+: ["nome" "endereço" "telefone:residencial:comercial"]
+: ["nome,endere" "o,telefone:residencial:comercial"]
+: ["nome,endere" "o,telefone:residencial:comercial"]
+: ["nome,en" "reço,telefone:resi" "ncial:comercial"]
+: ["nome" "endereço" "telefone" "residencial" "comercial"]
+
+Como pode ser visto no código fonte de =split=, ele usa =collect= que retorna um bloco. Para o caso de dividir o texto casando com um caractere, não faz diferença se utilizamos o caractere ou uma string com um caractere. Na 5 linha utilizamos uma string "de" e a entrada foi dividida no en[de]reço e resi[de]ncial. Finalmente, para dividir a entrada nas ocorrências de =.= e =;=, utilizamos um =charset=.
+
+

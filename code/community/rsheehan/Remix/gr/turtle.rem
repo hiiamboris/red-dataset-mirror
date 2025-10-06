@@ -1,0 +1,25 @@
+Turtle Graphics.
+================
+
+For the purposes of turtle graphics.
+	- the centre of the window is {0, 0}.
+	- the axes have positive y at the top of the window.
+
+turtle graphics on (black) paper
+	turtle's speed : 500
+	for each (angle) from 90 to 270 in steps of 5
+		erase the turtle
+		turtle's position : centre
+		group together
+			move 10 change by 5 count down from 100
+		pause turtle for 1 sec
+
+========================================
+
+move (distance) change by (delta) count down from (count):
+	if (count < 0)
+		return
+	turtle's colour : random colour
+	move (distance) steps
+	turn (angle) degrees
+	move (distance + delta) change by (delta) count down from (count - 1)

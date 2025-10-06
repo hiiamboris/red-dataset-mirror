@@ -1,0 +1,29 @@
+<!ENTITY apos   '''>
+<!ENTITY quot   '"'>
+<!ENTITY nbsp   ' '>
+<!ENTITY mdash  '&#x2014;'>
+<!ENTITY ldquo  '&#x201C;'>
+<!ENTITY rdquo  '&#x201D;'>
+<!ENTITY % DataContent    "(rootmenu)">
+<!ENTITY % MenuContent    "(menu | item)*">
+<!ENTITY % DataAttrs
+ "ref         CDATA       #REQUIRED
+  name        CDATA       #REQUIRED
+  target      CDATA       ''
+  target2     CDATA       #IMPLIED
+  description CDATA       #REQUIRED"
+  >
+<!ELEMENT data       %DataContent;>
+<!ELEMENT rootmenu   %MenuContent;>
+<!ELEMENT menu       %MenuContent;>
+<!ELEMENT item       EMPTY>
+<!ATTLIST data
+  >
+<!ATTLIST rootmenu>
+<!ATTLIST menu
+  %DataAttrs;
+  >
+<!ATTLIST item
+  %DataAttrs;
+  >
+

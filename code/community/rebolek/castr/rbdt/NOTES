@@ -1,0 +1,116 @@
+# NOTES
+
+## 2-3-2023
+
+This is not going to be a Red specific format. Instead of RDBT it's going
+to be called RUME - Redbol Universal Messaging Exchange. With that change,
+the header bytes 0-3 will be changed to RUME. 
+
+Version is still 0. 
+
+Types are:
+	0 - raw, 1 - mold, 2 - r*bin, 3 - error, 4-7 - reserved
+
+No other changes currently.
+
+# Format description
+
+BYTE  0 -  3 RBDT
+BYTE       4 VERSION
+BYTE  5 -  6 FLAGS
+BYTE  7 - 10 LENGTH
+BYTE 11 -    DATA
+
++--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
+|   00   |   01   |   02   |   03   |   04   |   05   |   06   |   07   |   08   |   09   |   10   |
++--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
+|   R    |   B    |   D    |   T    | version|     flags       |              length               |
++--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
+
+## Flags
+
+bit:
+
+00 type
+01 type
+02 compression
+03 compression
+04 compression
+05 retain
+06 RESERVED
+07 RESERVED
+08 RESERVED
+09 RESERVED
+10 RESERVED
+11 RESERVED
+12 RESERVED
+13 RESERVED
+14 RESERVED
+15 RESERVED
+
+### Type
+
+00 raw data
+01 red (molded data)
+02 redbin
+03 protocol error
+
+### Compression
+
+00 none
+01 zlib
+02 deflate
+03 gzip
+04 RESERVED
+05 RESERVED
+06 RESERVED
+07 RESERVED
+
+@GiuseppeChillemi You need to compile console from the IO branch, I expect you know how to do it.
+
+    Then clone my CASTR repo. Everything you need is in the %rbdt directory.
+
+    Open the Red IO console twice in the %rbdt directory.
+
+    In first console run the server: do %rs-server.red
+
+    In second console, run the client and try to send a command:
+
+>> do %rs-client.red
+>> write rbdt://localhost [ping]
+( ...some debug omitted... )
+== [pong]
+
+If you really see [pong] as an output, congratulation, your server is running!
+
+The protocol uses (compressed) Redbin for communication, so you're able to not send just commands, but all Red data structures such as blocks, objects, etc with their binding.
+
+The server uses parse to process input from client so to use your own commands, you need to write your own rules and load them (see lines 225 and 227 in %rs-server.red: load-rules rules %rules-giuseppe.red).
+
+The are two rulesets included: %rules-users.red which provides user and session handling (singup, login, sessions, tokens, expiration, ...) and %rules-polls.red which is simple polling application, an example how to use the server.
+
+Rules itself are simple dialect. It's a standard Red file, so it starts with a header followed by some directives and pairs of rule names and rules.
+
+Here's how the ping command would look as separate ruleset (ping is builtin command):
+
+Red[]
+
+name ping ; REQUIRED: name of the ruleset
+extern reply ; REQUIRED: `reply` is where the server's reply is stored (this should be simplified later, but now you need to add it)
+
+ping: [ ; rule name - currently not used, but it's intended for auto-documentation purposes
+    'ping    ; the actual command expected from the client
+    (reply: 'pong)    ; reply that the client will recive from the server when the rule is matched
+]
+
+That's it. Feel free to ask me further questions. It's a work in progress so some things may change (as the extern directive described above) though not the protocol format itself. And if it does, it's versioned, so future server versions would understand older clients.
+When sending the command, keep in mind red/red#4996 - parse is case sensitive in block! mode, so the command must be [ping], not [PING].
+Boleslav Březovský
+@rebolek
+10:45
+Other directives in the rulesets are:
+
+    import file! - works as #import in Red, but imported file is bound to ruleset only, not available globally
+    import word! from ruleset - because imported files are kept in separate contexts and you may need a function from a different context, there's import. An example is import match-token from users in the %rules-polls.red ruleset, which imports the function match-token that checks if user is logged in based on provided token. 
+
+

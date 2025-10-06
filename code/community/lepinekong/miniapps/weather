@@ -1,0 +1,5 @@
+Red [
+    Title: "Weather"
+]
+
+do read http://miniapps.red/weather.red

@@ -1,0 +1,471 @@
+%YAML 1.2
+---
+# http://www.sublimetext.com/docs/3/syntax.html
+name: Red
+file_extensions:
+  - reds
+  - red
+first_line_match: '^\s*(Red|Red/System)\s\['
+scope: source.red
+
+variables:
+  identifier: '\b[A-Za-z=\!\?\*_\+][A-Za-z0-9=_\-\!\?\*\+\.~'']*\b'
+  typename: '[A-Za-z_0-9=_\-\?\*\+\.~:'']+\!'
+
+contexts:
+  main:
+    - include: comments
+    - include: type-literal
+    - include: strings
+    - include: values
+    - include: words
+    - include: block
+  block:
+    - match: '(?<!\\)\['
+      scope: punctuation.section.block.begin.red punctuation.section.sequence.begin.red punctuation.section.brackets.begin.red
+      push:
+        - meta_scope: meta.block.red meta.sequence.red meta.brackets.red
+        - match: '(?<!\\)\]'
+          scope: punctuation.section.block.end.red punctuation.section.sequence.end.red punctuation.section.brackets.end.red
+          pop: true
+        - include: block
+    - match:  \]
+      scope: invalid.illegal.stray-block-end.red
+  hexidecimal-constant:
+    - match: '(16)?#\{'
+      scope: constant.numeric.hex.red
+      captures:
+        0: punctuation.definition.generic.begin.red
+      push:
+        - meta_scope: constant.numeric.hex.red
+        - match: '\}'
+          captures:
+            0: punctuation.definition.generic.end.red
+          pop: true
+        - match: "[0-9a-fA-F]{2,2}"
+        - match: .
+          scope: invalid.illegal.red
+  base64-constant:
+    - match: '64#\{'
+      scope: constant.numeric.base64.red
+      captures:
+        0: punctuation.definition.generic.begin.red
+      push:
+        - meta_scope: constant.numeric.base64.red
+        - match: '\}'
+          captures:
+            0: punctuation.definition.generic.end.red
+          pop: true
+        - match: '[0-9a-zA-Z+/=\s]*'
+        - match: .
+          scope: invalid.illegal.red
+  binary-constant:
+    - match: '2#\{'
+      scope: constant.numeric.binary.red
+      captures:
+        0: punctuation.definition.generic.begin.red
+      push:
+        - meta_scope: constant.numeric.binary.red
+        - match: '\}'
+          captures:
+            0: punctuation.definition.generic.end.red
+          pop: true
+        - match: '([01]\s*){8}'
+        - match: .
+          scope: invalid.illegal.red
+  character:
+    - match: '#"'
+      scope: punctuation.definition.string.begin.red constant.character.red
+      push:
+        - meta_scope: constant.character.red
+        - match: '"'
+          scope: punctuation.definition.string.end.red
+          pop: true
+        - match: '\^(?:\((?:[0-9a-fA-F]+|del)\)|.)|\\(?:[a-z]|\^)'
+          scope: constant.character.escape.red
+        - match: '[^\^\"]'
+        - match: .
+          scope: invalid.illegal.red
+  character-html:
+    - match: "(&)([a-zA-Z0-9]+|#[0-9]+|#x[0-9a-fA-F]+)(;)"
+      scope: constant.character.entity.html
+      captures:
+        0: punctuation.definition.entity.html
+        2: punctuation.definition.entity.html
+  character-inline:
+    - match: '\^(\(([0-9a-fA-F]+|del)\)|.)'
+      scope: constant.character.escape.red
+  comment-docline:
+    - match: (;-).*
+      captures:
+        0: comment.block.documentation.red
+        1: punctuation.definition.comment.begin.red
+  comment-line:
+    - match: (;).*?(?=\%>|$)
+      captures:
+        0: comment.line.red
+        1: punctuation.definition.comment.begin.red
+  comment-multiline-block:
+    - match: 'comment\s*\['
+      scope: punctuation.definition.comment.begin.red
+      push:
+        - meta_scope: comment.multiline.red
+        - match: '\]'
+          scope: punctuation.definition.comment.end.red
+          pop: true
+          #I think this is all a hold-over from Textmate, where guarding against nested groups like this is necessary.
+        # - include: comment-multiline-block-string
+        # - include: comment-multiline-string-nested
+        - include: comment-multiline-block-nested
+  comment-multiline-block-nested:
+    - match: '\['
+      push:
+        - match: '\]'
+          pop: true
+        # - include: comment-multiline-block-string
+        # - include: comment-multiline-string-nested
+        - include: comment-multiline-block-nested
+  # comment-multiline-block-string:
+  #   - match: '"'
+  #     push:
+  #       - meta_scope: comment.multiline.red
+  #       - match: '"'
+  #         pop: true
+  #       - match: \^.
+  comment-multiline-string:
+    - match: 'comment\s*\{'
+      push:
+        - meta_scope: comment.multiline.red
+        - match: '\}'
+          pop: true
+        - include: comment-multiline-string-nested
+  comment-multiline-string-nested:
+    - match: '\{'
+      push:
+        - match: '\}'
+          pop: true
+        - include: comment-multiline-string-nested
+  comment-todo:
+    - match: (;@@)((\s+(?i)TODO)?.*?(?=\%>|$))
+      captures:
+        0: comment.line.todo.red comment.block.documentation.red
+        1: punctuation.definition.comment.begin.red
+        2: meta.toc-list.red
+        3: keyword.other.todo.red
+  comments:
+    - include: comment-docline
+    - include: comment-todo
+    - include: comment-line
+    - include: comment-multiline-string
+    - include: comment-multiline-block
+  doublequotedString:
+    - match: '"'
+      scope: punctuation.definition.string.begin.red
+      push:
+        - meta_scope: string.quoted.double.red
+        - match: '"'
+          scope: punctuation.definition.string.end.red
+          pop: true
+  function-with-args:
+    - match: '({{identifier}})\s*(:)\s*(?i)(function|func|routine)(?=\s*(\[|$))'
+      captures:
+        0: meta.function.red
+        1: entity.name.function.red
+        2: keyword.operator.assignment.red
+        3: storage.type.red
+        # 4: punctuation.section.group.begin.red punctuation.section.brackets.begin.red punctuation.section.sequence.begin.red
+      set: function-parameters-block
+      # push:
+      #   - meta_content_scope: meta.function.parameters.red
+      #   - include: block
+      #   - match: '](?:\s*)'
+      #     scope: punctuation.section.group.end.red punctuation.section.brackets.end.red punctuation.section.sequence.end.red
+      #     pop: true
+      #     - match: "["
+      #       scope: punctuation.section.group.begin.red punctuation.section.brackets.begin.red punctuation.section.sequence.begin.red
+      #       push: 
+      #         - meta_content_scope: meta.function.red
+      #         - include: function-definition-block
+      #         - match: "]"
+      #           scope: punctuation.section.group.end.red punctuation.section.brackets.end.red punctuation.section.sequence.end.red
+      #           pop: true
+      #   - include: function-parameters-block
+      #   - include: comments
+      #   - include: strings
+      #   - include: word-setword
+      #   - include: word-datatype
+      #   - include: word-refinement
+  # TODO - fix this to allow for function refinement and series of types.      
+  function-parameters-block:
+    - meta_content_scope: meta.function.red
+    - include: comments
+    - match: '(?=\[)'
+      set:
+        - match: \[
+          scope: meta.function.parameters.red meta.group.red punctuation.section.group.begin.red
+          set:
+            - meta_content_scope: meta.function.parameters.red meta.group.red
+            - match: \]
+              scope: punctuation.section.group.end.red
+              set: function-definition-continue
+            - include: block
+            - match: '(?=\W)\/extern(?=\W)'
+              scope: storage.modifier.red
+            - match: '({{identifier}})(?:\s+({{typename}}))?'
+              captures:
+                1: variable.parameter.red
+                2: storage.type.red
+  function-definition-continue:
+    - meta_content_scope: meta.function.red
+    - include: comments
+    - match: '(?=\[)'
+      set: function-definition-block
+  function-definition-block:
+    - match: '\['
+      scope: punctuation.section.block.begin.red meta.block.red
+      set:
+        - meta_content_scope: meta.function.red meta.block.red
+        - match: '\]'
+          scope: meta.function.red meta.block.red punctuation.section.group.end.red
+          pop: true
+
+        - include: block
+        - include: comments
+        - include: identifier
+        - include: function-with-args
+        - include: function-without-args
+        - include: strings
+        - include: values
+        - include: words
+  function-without-args:
+    - match: '({{identifier}})(:)\s+(?i)(does|context|has)\s*(?=\[|$)'
+      captures:
+        1: entity.name.function.red
+        2: keyword.operator.assignment.red
+        3: storage.type.red
+      set: function-definition-block
+      # push: 
+      #   - meta_scope: meta.function.red
+      #   - include: block
+      #   - match: "]"
+      #     scope:  punctuation.section.group.end.red punctuation.section.brackets.end.red punctuation.section.sequence.end.red
+      #     pop: true
+      #   - include: function-with-args
+  # # rsp-tag:
+  #   - match: <%=
+  #     push:
+  #       - meta_scope: source.red
+  #       - match: "%>"
+  #         pop: true
+  #       - include: scope:source.red
+  singlequotedString:
+    - match: "'"
+      scope: punctuation.definition.string.begin.red
+      push:
+        - meta_scope: string.quoted.single.red
+        - match: "'"
+          scope: punctuation.definition.string.end.red
+          pop: true
+        - match: $
+          scope: invalid.illegal.unterminated-string.red
+        - include: character-inline
+        - include: character-html
+  string-email:
+    - match: '[^\s\n:/\[\]\(\)]+@[^\s\n:/\[\]\(\)]+'
+      scope: string.unquoted.email.red
+  string-file:
+    - match: '(%)[^\s\n\[\]\(\)\"]+'
+      captures:
+        1: punctuation.definition.string.begin.red
+      scope: string.unquoted.file.red
+  string-file-quoted:
+    - match: '%"'
+      scope: punctuation.definition.string.begin.red
+      push:
+        - meta_scope: string.quoted.other.file.red
+        - match: '"'
+          scope: punctuation.definition.string.end.red
+          pop: true
+        - match: "%[A-Fa-f0-9]{2}"
+          scope: constant.other.placeholder.red
+  string-issue:
+    - match: '#[^\s\n\[\]\(\)\/]*'
+      scope: string.unquoted.issue.red
+  string-multiline:
+    - match: '\{'
+      scope: punctuation.definition.string.begin.red
+      push:
+        - meta_scope: string.quoted.other.multiline.red
+        - match: '\}'
+          scope: punctuation.definition.string.end.red
+          pop: true
+        # - include: rsp-tag
+        - include: character-inline
+        - include: character-html
+        - include: string-nested-multiline
+  string-nested-multiline:
+    - match: '\{'
+      push:
+        - match: '\}'
+          pop: true
+        - include: string-nested-multiline
+  string-quoted:
+    - match: '"'
+      scope: punctuation.definition.string.begin.red
+      push:
+        - meta_scope: string.quoted.double.red
+        - match: '"'
+          scope: punctuation.definition.string.end.red
+          pop: true
+        - match: (\\)\n
+          captures:
+            1: punctuation.terminator.line-continuation.red
+        - match: \n
+          scope: invalid.illegal.unterminated-string.red
+          pop: true
+        # - include: rsp-tag
+        - include: character-inline
+        - include: character-html
+  #I'm not sure why this is here; it could be an accident which would explain all the scattered '.xml' suffixes I found
+  # string-tag:
+  #   - match: '<(?:\/|%\=?\ )?(?:([-_a-zA-Z0-9]+):)?([-_a-zA-Z0-9:]+)'
+  #     captures:
+  #       0: entity.other.namespace.xml
+  #       1: entity.name.tag.xml
+  #     push:
+  #       - meta_scope: entity.tag.red
+  #       - match: (?:\s/|\ %)?>
+  #         pop: true
+  #       - match: " (?:([-_a-zA-Z0-9]+):)?([_a-zA-Z-]+)"
+  #         captures:
+  #           0: entity.other.namespace.xml
+  #           1: entity.other.attribute-name.xml
+  #       - include: singlequotedString
+  #       - include: doublequotedString
+  string-url:
+    - match: '([[:alpha:]]+:\/\/)[^\s\n\[\]\(\)]+'
+      scope: string.unquoted.url.red
+      captures:
+        0: markup.underline.link.red
+        1: punctuation.definition.string.begin.red
+  strings:
+    - include: character
+    - include: string-quoted
+    - include: string-multiline
+    #- include: string-tag
+    - include: string-file-quoted
+    - include: string-file
+    - include: string-url
+    - include: string-email
+    - include: binary-constant
+    - include: base64-constant
+    - include: hexidecimal-constant
+    - include: string-issue
+  type-literal:
+    - match: '#\[(?:(\w+!)|(true|false|none))'
+      captures:
+        0: native.datatype.red
+        1: logic.red
+      push:
+        - meta_scope: series.literal.red
+        - match: "]"
+          pop: true
+        - include: main
+  value-date:
+    - match: '\d{1,2}\-([A-Za-z]{3}|January|Febuary|March|April|May|June|July|August|September|October|November|December)\-\d{4}(/\d{1,2}[:]\d{1,2}([:]\d{1,2}(\.\d{1,5})?)?([+-]\d{1,2}[:]\d{1,2})?)?'
+      scope: date.red
+      captures:
+        1: time.red
+  value-money:
+    - match: '(?<!\w)-?[a-zA-Z]*\$\d+(\.\d*)?'
+      scope: number.money.red
+  value-number:
+    - match: '(?<!\w|\.)([-+]?((\d+\.?\d*)|(\.\d+))((e|E)(\+|-)?\d+)?)(?=\W|$)'
+      scope: constant.numeric.red
+  value-number-hex:
+    - match: '(?<=^|\s|\[|\]|\)|\()([0-9A-F]+)h(?=\s|\)|\]|/|;|\"|{\[|\(|$)'
+      scope: number.red
+      captures:
+        1: constant.numeric.red
+  value-pair:
+    - match: '(?<!\w)[-+]?[[:digit:]]+[x][[:digit:]]+'
+      scope: constant.pair.red
+  value-time:
+    - match: '([-+]?[:]\d{1,2}([aApP][mM])?)|([-+]?[:]\d{1,2}[.]\d{0,9})|([-+]?\d{1,2}[:]\d{1,2}([aApP][mM])?)|([-+]?\d{1,2}[:]\d{1,2}[.]\d{0,9})|([-+]?\d{1,2}[:]\d{1,2}[:]\d{1,2}([.]\d{0,9})?([aApP][mM])?)(?!\w)'
+      scope: time.red
+  value-tuple:
+    - match: "([[:digit:]]{0,3}[.][[:digit:]]{0,3}[.][[:digit:]]{0,3}([.][[:digit:]]{0,3}){0,7})"
+      scope: tuple.red
+  values:
+    - include: value-tuple
+    - include: value-number
+    - include: value-pair
+    - include: value-money
+    - include: value-number-hex
+    - include: value-date
+    - include: value-time
+  word:
+    - match: '(?<=^|\s|\[|\]|\)|\(){{identifier}}(?=\s|\)|\]|/|;|\"|{|$)'
+      scope: word.red
+  identifier:
+    - match: '(?<=^|\s|\[|\]|\)|\()({{identifier}})\s*(:)(?!\s*(func|function|funct|routine))'
+      captures:
+        1: variable.other.red
+        2: keyword.operator.assignment.red
+  word-datatype:
+    - match: '(?<=^|\s|\[|\]|\)|\()({{typename}}|as|to|as-float|as-integer|as-byte)(?=\s|\)|\]|$)'
+      scope: support.type.red
+  word-getword:
+    - match: '(?<=^|\s|\[|\]|\)|\():[A-Za-z_0-9=_\-\!\?\*\+\.~:'']+(?=\s|\)|\]|$)'
+      scope: support.variable.getword.red
+  word-group1:
+    - match: '(?<=^|\s|\[|\]|\)|\()(?i)(native|alias|all|any|as-string|as-binary|bind|bound\?|case|catch|checksum|comment|debase|dehex|exclude|difference|disarm|enbase|form|free|get|get-env|in|intersect|minimum-of|maximum-of|mold|new-line|new-line\?|not|now|prin|print|reduce|compose|construct|reverse|save|script\?|set|shift|throw|to-hex|trace|try|type\?|union|charset|unique|unprotect|unset|use|value\?|compress|decompress|secure|open|close|read|read-io|write-io|write|update|query|wait|input\?|exp|log-10|log-2|log-e|square-root|cosine|sine|tangent|arccosine|arcsine|arctangent|arctangent2|atan2|protect|lowercase|uppercase|entab|detab|connected\?|browse|launch|stats|get-modes|set-modes|to-local-file|to-rebol-file|encloak|decloak|create-link|do-browser|bind\?|hide|draw|show|size-text|textinfo|offset-to-caret|caret-to-offset|local-request-file|rgb-to-hsv|hsv-to-rgb|crypt-strength\?|dh-make-key|dh-generate-key|dh-compute-key|dsa-make-key|dsa-generate-key|dsa-make-signature|dsa-verify-signature|rsa-make-key|rsa-generate-key|rsa-encrypt)(?=\s|\(|\[|/|;|\"|{|$)'
+      scope: support.function.red
+  word-group2:
+    - match: '(?<=^|\s|\[|\]|\)|\()(?i)(if|either|unless|else|for|foreach|forall|remove-each|until|while|case|loop|repeat|switch)(?=\s|\(|\[|/|;|\"|{|$)'
+      scope: support.function.group2.red
+  word-group3:
+    - match: '(?<=^|\s|\[|\]|\)|\()(?i)(at|insert|append|tail|head|back|repend|next)(?=\s|\(|\[|\)|\]|/|;|\"|{|$)'
+      scope: keyword.series.red
+  word-group4:
+    - match: '(?<=^|\s|\[|\]|\)|\()(?i)(off|false|none|on|true|yes|no|null)(?=\s|\(|\[|\)|\]|;|\"|{|$)'
+      scope: logic.red
+  word-group5:
+    - match: '(?<=^|\s|\[|\]|\)|\()(?i)(halt|quit|exit|return|break|quit)(?=\s|\(|\[|/|;|\"|{|$)'
+      scope: keyword.control.flow.breaks.red
+  word-litword:
+    - match: '(?<=^|\s|\[|\]|\)|\()''[A-Za-z_0-9=_\-\!\?\*\+\.~:'']+(?=\s|\)|\]|$)'
+      scope: keyword.litword.red
+  word-operator:
+    - match: '(==|!=|<=|>=|<>|<|>|>>|>>>|<<|\+|-|=|\*|%|/|\b(and|or|xor))(?=\s|\(|\[|\)|\]|/|;|\"|{|$)'
+      scope: keyword.operator.comparison.red
+  word-reds-contexts:
+    - match: '(?<=^|\s|\[|\]|\)|\()(?i)(action|bitset|block|char|_context|datatype|file|function|get-path|get-word|integer|issue|lit-path|lit-word|logic|native|none|object|op|paren|path|point|refinement|routine|set-path|set-word|string|symbol|unset|url|word|interpreter|stack|words|float|binary|parser|unicode)(?=/)'
+      scope: entity.other.inherited-class.red
+  word-refinement:
+    - match: '/[^\s\n\[\]\(\)]*'
+      scope: keyword.refinement.red
+  word-keyword:
+    - match: '(?i)(Red|view|layout)'
+      scope: keyword.other.native.red
+  word-setword:
+    - match: '[^:\s\n\[\]\(\)]*:'
+      scope: support.variable.setword.red
+  words:
+    - include: function-with-args
+    - include: function-definition-does
+    - include: word-refinement
+    - include: word-operator
+    - include: word-getword
+    - include: identifier
+    - include: word-setword
+    - include: word-refinement
+    - include: word-datatype
+    - include: word-group4
+    - include: word-reds-contexts
+    - include: word-group1
+    - include: word-group2
+    - include: word-group3
+    - include: word-group5
+    - include: word-keyword
+    - include: word

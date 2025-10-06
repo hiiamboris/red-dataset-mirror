@@ -1,0 +1,3 @@
+Desenvolvimento da documentação da linguagem temporariamente suspenso.
+
+Dedicação a documentação do =parse=

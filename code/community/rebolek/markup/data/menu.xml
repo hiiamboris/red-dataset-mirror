@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE data SYSTEM "./data/menu.dtd">
+<?xml-stylesheet type="text/xsl" href="menu.xsl"?>
+<data>
+   <rootmenu>
+       <menu name="Osobní vozy" ref="./?cat=cars" target="" description="">
+                    <item name="C1" ref="./?cat=car&amp;model=c1" target="" description="" />
+                    <item name="C2" ref="./?cat=car&amp;model=c2" target="" description="" />
+                    <item name="C3" ref="./?cat=car&amp;model=c3" target="" description="" />
+                    <item name="C4" ref="./?cat=car&amp;model=c4" target="" description="" />
+                    <item name="C4 Picasso" ref="./?cat=car&amp;model=c4picasso" target="" description="" />
+                    <item name="Xsara Picasso" ref="./?cat=car&amp;model=xsarapi" target="" description="" />
+                    <item name="Berlingo" ref="./?cat=car&amp;model=berlingo" target="" description="" />
+                    <item name="Leasing" ref="./?cat=leasing" target="" description="" />
+                    <item name="Vozy na prodejně" ref="./?cat=shopcars" target="" description="" />
+       </menu>
+       <item name="Předváděcí vozy" ref="./?cat=showcars" target="" description="" />
+       <item name="Autobazar" ref="./?cat=oldcars" target="" description="" />
+       <menu name="Další informace" ref="./?cat=other" target="" description="">
+              <item name="Co je to Acrobat Reader?" ref="./?cat=acrobat" target="" description="" />
+              <item name="Prodej odtahové služby" ref="./?cat=towsale" target="" description="" />
+              <item name="Akce zimní pneu 2006" ref="./redir.php?uri=./info/wpneu2006-2.pdf" target="_blank" description="" />
+              <item name="Akce a novinky!" ref="./?cat=news" target="" description="" />
+       </menu>
+   </rootmenu>
+</data>

@@ -1,0 +1,95 @@
+Red [Options: [
+    grammar-only?: false 
+    ruleset: true 
+    hovering: true 
+    string-input: true 
+    case-parsing: false 
+    live-edit?: true 
+    iterate-times: 1 
+    max-iterate: 5 
+    font-size: 11 
+    selected-rule: "chunk" 
+    style*: none 
+    latest-inputs: []
+]]
+
+ws: charset " -^/"
+ws*: [any ws]
+
+=': [ws* #"=" ws*]
+
+chunk:  [any stat opt [";"] opt laststat opt ";"]
+
+block: chunk
+
+digit: charset [#"0" - #"9"]
+number: [some digit]
+chars: charset [#"a" - #"z"]
+name: [ws* not reserved some chars ws*]
+
+stat: [
+	varlist "=" explist
+;|	functioncall
+|	"do" block "end"
+|	"while" exp "do" block "end"
+|	"repeat" block "until" exp
+|	"if" exp "then" block any ["elseif" exp "then" block] opt ["else" block] "end"
+|	"for" name "=" exp any ["," exp] "do" block "end"
+|	"for" namelist "in" explist "do" block "end"
+|	"function" funcname funcbody 
+|	"local" ws* "function" name funcbody 
+|	"local" ws* namelist opt [=' explist]
+] 
+
+laststat: ["return" explist | "break" ]
+
+funcname: [any [name #"." name] opt [#":" name]]
+
+varlist: [var any [#"," var]]
+
+var: [ws* [name | prefixexp #"[" exp #"]" | prefixexp #"." name] ws*]
+
+namelist: [name any [#"," name]]
+
+explist: [any [exp #","] exp]
+
+exp: [ws* exp_ ws*]
+
+exp_: [
+	"nil" | "false" | "true" | number | name | "..." | function | 
+	prefixexp | tableconstructor | exp binop exp | unop exp
+]
+
+;prefixexp: [var | functioncall | #"(" exp #")"]
+prefixexp: [#"(" exp #")"]
+
+functioncall: [prefixexp args | prefixexp ":" name args] 
+
+args:  [#"(" opt explist #")" | tableconstructor | name]
+
+function: ["function" funcbody]
+
+funcbody: [#"(" opt parlist #")" block "end"]
+
+parlist: [namelist opt [#"," "..."] |[ "..."]]
+
+tableconstructor: [#"{" opt fieldlist #"}"]
+
+fieldlist: [ field any [fieldsep field] opt fieldsep]
+
+field: [#"[" exp #"]" =' exp | name =' exp | exp]
+
+fieldsep: [#"," | #";"]
+
+binop: [
+	#"+" | #"-" | #"*" | #"/" | #"^^" | #"%" | ".." |
+	#"<" | "<=" | #">" | ">=" | "==" | "~=" | "and" | "or"
+]
+
+unop: [ #"-" | "not" | #"#" ]
+
+reserved: [
+	"and" | "break" | "do" | "else" | "elseif" | "end" | "false" | "for" |
+	"function" | "goto" | "if" | "in" | "local" | "nil" | "not" | "or" |
+	"repeat" | "return" | "then" | "true" | "until" | "while"
+]

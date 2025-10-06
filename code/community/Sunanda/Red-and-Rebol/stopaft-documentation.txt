@@ -1,0 +1,226 @@
+
+STOPAFT is a debugging tool for Rebol and Red.
+
+ ==============
+[Sample usage 1]
+ ==============
+
+    do %STOPAFT.red
+    loop 10000 [
+        STOPAFT/do 1 [print "loop entered"]
+        ]
+
+----run:
+loop entered
+-----end
+
+Although we are in a loop that executes 10,000 times the confirmation
+message "loop entered" is printed only once.
+
+
+
+
+ ==============
+[Sample usage 2]
+ ==============
+
+    do %STOPAFT.red
+    loop 10000 [
+        x: random 200000
+        STOPAFT/do 10 [if x > 5000 [print ["debug: x is" x]]]
+        ]
+       
+------run:
+debug: x is 126762
+debug: x is 159679
+debug: x is 165137
+debug: x is 99566
+debug: x is 52793
+debug: x is 107922
+debug: x is 109233
+debug: x is 145854
+debug: x is 131870
+debug: x is 158824
+-----end
+
+We only see 10 debugging messages, rather than being flooded with many thousands of them.   
+
+
+
+
+ ==============
+[Sample usage 3]
+ ==============
+
+    do %STOPAFT.red
+     repeat n 10000 [
+         STOPAFT/do 1 [print "loop entered"]
+         x: random 200000
+         STOPAFT/do 9000x5 [print ["loop" n x]]
+         ]
+
+-----run:
+loop entered
+loop 9000 521
+loop 9001 99850
+loop 9002 25859
+loop 9003 164875
+loop 9004 149016
+-----end
+
+We only see six debugging messages rather than thousands of them.
+
+
+
+
+ ==============
+[Sample usage 4]
+ ==============
+ 
+   do %STOPAFT.red
+   m: 10000
+   repeat n m [
+         STOPAFT/do 1 [print "loop entered"]
+         x: random 200000
+         STOPAFT/do to-pair reduce [m - 10 11] [print ["loop" n x]]
+         ]
+
+-----run:
+
+loop entered
+loop 9990 121196
+loop 9991 114075
+loop 9992 45870
+loop 9993 114915
+loop 9994 139720
+loop 9995 64187
+loop 9996 64155
+loop 9997 110682
+loop 9998 55180
+loop 9999 83992
+loop 10000 174755
+-----end
+
+We see debugging information from the end of the loop only.
+
+
+
+
+ ==============
+[Sample usage 5]
+ ==============
+
+   do %STOPAFT.red
+   m: 10000
+   repeat n m [
+         STOPAFT/do 1 [print "loop entered"]
+         x: random 200000
+         STOPAFT/do 100  [
+             print ["loop" n x]
+             if (x // 7) = 0 [STOPAFT/off]
+             ]
+         ]
+
+-----run:
+loop entered
+loop 1 3312
+loop 2 174380
+loop 3 162208
+loop 4 56417
+loop 5 119015
+loop 6 63620
+loop 7 161698
+loop 8 158024
+loop 9 110154
+loop 10 57940
+loop 11 111357
+-----end
+
+We don't see 100 debugging messages, as the STOPAFT turns itself off when the if (x // 7) condition is hit.
+
+
+
+
+ ==============
+[Sample usage 6]
+ ==============
+
+Run example 3 as above, and then:
+
+     STOPAFT/show
+
+-----run:
+      Hit      Run  Expression
+    10000        1  [print loop entered]
+    10000        5  [print loop  n x]
+-----end
+
+It's like a cheap profiler for free. We see all the STOPAFTs in the run, how 
+many times the code was encountered, and how many times it was executed
+
+
+
+
+ ==============
+[Sample usage 7]
+ ==============
+
+    do %STOPAFT.red
+    loop random 1000 [
+         STOPAFT/do 0 ["debug point 1"]
+         loop random 1000 [
+             STOPAFT/do 0 ["debug point 2"]
+             ]
+         ]
+STOPAFT/show
+
+=====Run:
+      Hit      Run  Expression
+      267        0  [debug point 1]
+   140064        0  [debug point 2]
+===== End
+
+These STOPAFTs don't "do" anything, but they are counted; again: cheap profiler 
+
+
+
+ ==============
+[Sample usage 9]
+ ==============
+
+   do %STOPAFT.red
+   STOPAFT/off
+
+All STOPAFTs in the code are now disabled.....No need to comment them out, or redefine 'print.
+
+
+
+
+=========================
+WHY IS IT CALLED STOPAFT?
+=========================
+
+STOPAFT is not a particularly Rebolly or REDdy name. And especially not when capitalized.
+
+It is named in honour of its inspiration - the mainframe (mainly) utility SELCOPY.
+
+In SELCOPY, STOPAFT is a parameter that can attached to any keyword. The nearest equivalent in Red would
+be as if it were a universal refinement that can be used on any function.
+
+No one reading this probably wants to read the SELCOPY manual .....
+
+https://www.cbl.com/pdf/SELCOPY_3.30_User_Manual.pdf
+
+.... As a language, it makes Perl look elegant and sane.
+
+But when it's 03:00 in the morning at a large multinational, and you are debugging
+corruption that has spread across three different generations of incompatible legacy
+databases, and the CEO wants to know if they can even open for business in the local
+morning: - that's when you dust off SELCOPY; pepper some code with STOPAFTs while 
+you check you are only editing the target 150 records out of severaln billion records
+databases; and save the day. You might even, eventually, get thanked.
+
+Thanks to SELCOPY developer, Doug of Compute Bridgend, for the inspiration behind this tool.
+
+
+

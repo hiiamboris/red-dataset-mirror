@@ -1,0 +1,5 @@
+Red [
+    Title: "inventory.red"
+]
+
+do read http://miniapps.red/inventory.red

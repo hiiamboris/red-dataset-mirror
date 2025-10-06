@@ -1,0 +1,40 @@
+Drawing Arrows.
+===============
+arrow : a shape of {
+	{ 0, 1},
+	{-2, 2},
+	{ 0,-2},
+	{ 2, 2}
+} with size 5
+
+on standard (maroon) paper
+
+no outline
+
+for each (size) from 100 to 400 in steps of 100
+	plot (arrow) around centre with (size)
+
+(arrow) heading  : 0
+(arrow) colour	 : red
+(arrow) position : centre
+(arrow) size	 : 20
+
+fill (arrow)
+
+show paper
+
+========================================
+
+plot (arrow) around centre with (size) :
+	angle : 0
+	while [angle < 360] repeat
+
+		x : (size × cosine (angle)) + centre-x
+		y : centre-y - (size × sine (angle))
+
+		(arrow) position : {x, y}
+		(arrow) heading  : -1 × angle
+		(arrow) colour   : random colour
+
+		fill (arrow)
+		angle : angle + 10

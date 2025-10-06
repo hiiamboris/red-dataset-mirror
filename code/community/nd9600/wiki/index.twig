@@ -1,0 +1,124 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.png">
+    <title>Wiki</title>
+
+    <link rel="stylesheet" href="static/css/normalize.min.css" type="text/css">
+    <link rel="stylesheet" href="static/css/master.css" type="text/css">
+    <link rel="stylesheet" href="static/css/wiki.css" type="text/css">
+<head>
+
+<body>
+    <h1 class="header header--1 m-0">My wiki</h1>
+
+    <section id="search" class="display-none">
+        <h2 class="header header--2">Search</h2>
+        <input id="search__input" class="input" placeholder="article name">
+        <div id="search__results"></div>
+    </section>
+
+    <section>
+        <h2 class="header header--2">Index</h2>
+        <div>
+            <section class='treeIndex'> 
+                <h3 class='header header--3'>Tree</h3>
+                {{ indexListHTML }}
+            </section>
+
+            <section class='aToZindex'> 
+                <h3 class='header header--3'>A - Z</h3>
+                {{ aToZindexHTML }}
+            </section>
+        </div>
+    </section>
+
+    <script>
+        function slugify(article) {
+            return article.replace(
+                /./g, 
+                function(char) {
+                    const letterRegex = RegExp(/[a-zA-Z]/);
+                    const numberRegex = RegExp(/[0-9]/);
+                    const specialCharacterRegex = RegExp(/[\$\-\_\.\+\!\*\(\)\,]/);
+            
+                    const isLetter = letterRegex.test(char);
+                    const isNumber = numberRegex.test(char);
+                    const isSpecialCharacter = specialCharacterRegex.test(char);
+                    if (isLetter) {
+                        return char.toLowerCase();
+                    } else if (char === " ") {
+                        return "_";
+                    } else if (isNumber || isSpecialCharacter) {
+                        return char;
+                    } else {
+                        return "";
+                    }
+                }
+            );
+        }
+        const search = document.getElementById("search");
+        search.classList.remove("display-none");
+        
+        const searchInput = document.getElementById("search__input");
+        searchInput.focus();
+
+        const ARTICLES = [
+            {% for page in listOfPages %}"{{ page }}",
+            {% endfor %}
+        ];
+
+        const searchResults = document.getElementById("search__results");
+        
+        // filters the article list by the search input
+        searchInput.addEventListener("input", function (event) {
+            searchResults.innerHTML = "";
+
+            const searchTerm = event.target.value.toLowerCase();
+            if (searchTerm.trim().length === 0) {
+                return;
+            }
+
+            const matchedArticles = ARTICLES.filter(function (article) {
+                return article.toLowerCase().indexOf(searchTerm) > -1;
+            });
+
+            matchedArticles.forEach(function (article) {
+                const slugifiedArticle = slugify(article);
+
+                const searchResult = document.createElement("a");
+                searchResult.classList.add("link", "display-block");
+                searchResult.href = slugifiedArticle + ".html";
+                searchResult.innerText = article;
+
+                searchResults.append(searchResult);
+            });
+        });
+        
+        // opens the 1st result in a new tab/window when enter is pressed
+        searchInput.addEventListener("keyup", function (event) {
+            if (event.code === "Enter") {
+                const searchTerm = searchInput.value.toLowerCase();
+                if (searchTerm.trim().length === 0) {
+                    return;
+                }
+
+                const matchedArticles = ARTICLES.filter(function (article) {
+                    return article.toLowerCase().indexOf(searchTerm) > -1;
+                });
+                
+                if (matchedArticles.length === 0) {
+                    return;
+                }
+                
+                const firstMatchedArticle = matchedArticles[0];
+                const slugifiedFirstMatchedArticle = slugify(firstMatchedArticle);
+                window.open(slugifiedFirstMatchedArticle + ".html", "_blank");
+            }
+        });
+    </script>
+</body>
+
+</html>

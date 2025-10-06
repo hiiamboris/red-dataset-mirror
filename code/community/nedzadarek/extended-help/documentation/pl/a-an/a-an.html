@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title>a-an</title>
+    
+    <meta charset="utf-8">
+    <meta name='language' content='pl'>
+    
+    <link rel="stylesheet" href="../../../styles/main.css">
+
+</head>
+<body>
+    <nav>
+      Nawigacja: <br>
+      <a href="#a-an">a-an</a> <br>
+      <a href="#a-an/pre">a-an/pre</a> <br>
+    </nav>
+    
+    
+    <section id="a-an">
+        <a href="#a-an">a-an</a> <br>
+        <div class="description">Zwraca "a" albo "an".</div>
+        <code>
+            a-an "foo" || PL
+        </code>
+        <samp>
+            "a"
+        </samp>
+    </section>
+    <section id="a-an/pre">
+        <a href="#a-an/pre">a-an/pre</a> <br>
+        <div class="description">Dodaje "a"/"an" do wartości string.</div>
+        <code>
+            a-an/pre "foo" || PL
+        </code>
+        <samp>
+            "a foo"
+            baz---
+        </samp>
+    </section>
+
+    <script src="../../../js/clean_tag.js"></script>
+    <script>clean_tag("samp")</script>
+
+</body>
+</html>

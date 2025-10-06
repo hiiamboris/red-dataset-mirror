@@ -1,0 +1,614 @@
+\documentclass[12pt,a4paper]{article}
+%\usepackage{color}
+\usepackage[dvipsnames]{xcolor}
+%\usepackage{alltt}
+%\usepackage[T1]{fontenc}
+%\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+
+\usepackage[brazil]{babel}
+%\ usepackage[printwatermark]{xwatermark}
+\usepackage[pdftex]{graphicx}
+\usepackage[colorlinks=true,linkcolor=blue]{hyperref}
+%\usepackage{hyperref}
+
+\definecolor{bg}{rgb}{0.16,0.16,0.16}
+
+% colorir código fonte
+\usepackage{minted}
+\usemintedstyle{tango}
+
+\usepackage{fancyhdr}
+
+\usepackage{draftwatermark}
+\SetWatermarkScale{4}
+\SetWatermarkText{Rascunho}
+
+
+\usepackage{framed, color}
+\definecolor{shadecolor}{rgb}{0.93,0.93,0.9}
+
+% \newwatermark*[allpages,color=bg,angle=45,scale=3,xpos=0,ypos=0]{DRAFT}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{Share\LaTeX}
+\fancyhead[RE,LO]{\textbf{Red} Programming Language}
+\fancyfoot[CE,CO]{\leftmark}
+\fancyfoot[LE,RO]{\thepage}
+
+\input{highlight.sty}
+
+
+\newcommand{\inchf}[2]{
+  \begin{listing}[ht]
+    \begin{shaded}
+      \small{
+        \input{./fragmentos/#1.red.tex}
+      }
+    \end{shaded}
+    \caption{#2}
+    \label{listing:3}
+  \end{listing}
+}
+
+\newcommand{\incss}[1]{
+  \ttfamily\small
+  \begin{shaded}
+    \VerbatimInput{./fragmentos/#1.ss}
+  \end{shaded}
+  \normalfont
+}
+
+\newcommand{\Red}{\textbf{\textcolor{red}{Red }}}
+
+\newcommand{\codigo}[1]{\ttfamily\small\textcolor{Brown}{\textbf{#1}}\normalfont}
+
+\title{\huge \textbf{\textcolor{red}{Red}} \\Programming Language}
+\author{Guaracy Monteiro \\ \small https://github.com/guaracy/red} %\thanks{emcs, \LaTeX , \TeX}
+\date{\today}
+
+\begin{document}
+\begin{titlepage}
+\begin{figure}  %[h!t]
+\centering
+\includegraphics[scale=1]{Red_Language_Tower_Logo.png}
+\end{figure}
+\maketitle
+\end{titlepage}
+
+\setcounter{tocdepth}{2}
+%level -1: part, 0: chapter, 1: section, etc.
+
+\tableofcontents
+\pagebreak
+\renewcommand\listingscaption{Listagem}
+\renewcommand\listoflistingscaption{Listagens}
+\listoflistings
+\listoftables
+\pagebreak
+
+\shorthandoff{"}
+
+\section{Introdução}
+
+\subsection{Objetivo}
+
+O objetivo inicial não é o de ser um manual, livro ou algo do gênero sobre a
+linguagem. Apenas um local para que eu possa agrupar as informações e o
+conhecimento sobre a linguagem. Em segundo lugar, compartilhar a linguagem com
+quem estiver interessado. Vender e ficar rico está fora de cogitação. :D
+
+\subsection{A Linguagem}
+
+A linguagem \Red é fortemente baseada em REBOL compartilhando, entre outros, a
+homoiconicidade, o grande número de tipos de dados, a mistura código+data como
+em Lisp. Como diferenças é possível citar a possibilidade de gerar executáveis
+em código nativo (não precisa ser na mesma plataforma de desenvolvimento) e a
+tipagem opcional para parâmetros nas funções.
+
+\subsection{Configuração}
+
+Para criar um ambiente de desenvolvimento não são necessários poderes especiais.
+A primeira coisa a fazer é baixar de 
+\href{http://www.red-lang.org/p/download.html}{www.red-lang.org} a versão para o
+seu sistema operacional e colocar no local que ficar mais conveniente. Note que
+para o Linux, a versão disponível é de 32 bits. Para rodar em uma instalação de
+64 bits é necessário instalar algumas bibliotecas para suportar a versão. As
+formas mais comuns de executar o programa são:
+
+\begin{itemize}
+\item Apenas executar o programa \textbf{red} e entrará no REPL (ead–eval–print loop),
+  isto é, um ambiente interativo onde você vai digitando e executando as
+  instruções.
+\item Executando \textbf{red \textless arquivo.red\textgreater} o script
+  existente no arquivo será executado.
+\item Executando \textbf{red -c \textless arquivo.red\textgreater} o script
+  existente no arquivo será compilado e irá gerar um executável para a
+  plataforma atual.
+\item Executando \textbf{red -c -t \textless plataforma\textgreater \textless
+    arquivo.red\textgreater}, o script será compilado para a plataforma
+  especificada. Assim você pode estar no Linux e gerar executáveis, por exemplo,
+  para Linux, Windows, Android e OSX, sem a necessidade de trocar de ambiente.
+  As plataformas disponíveis são:
+  \begin{itemize}
+  \item \textbf{MSDOS} : Windows, x86, aplicações console (+ GUI)
+  \item \textbf{Windows} : Windows, x86, GUI applications
+  \item \textbf{Linux} : GNU/Linux, x86
+  \item \textbf{Linux-ARM} : GNU/Linux, ARMv5, armel (soft-float)
+  \item \textbf{RPi} : GNU/Linux, ARMv5, armhf (hard-float)
+  \item \textbf{Darwin} : MacOSX Intel, apenas aplicações console
+  \item \textbf{Syllable} : Syllable OS, x86
+  \item \textbf{FreeBSD} : FreeBSD, x86
+  \item \textbf{Android} : Android, ARMv5
+  \item \textbf{Android-x86} : Android, x86
+  \end{itemize}
+
+\end{itemize}
+
+\section{Sintaxe}
+
+Antes de começar qualquer coisa, aprender um pouco da sintaxe é importante. Até
+porque você deve estar acostumado com aquelas linguagens complicadas onde é
+necessário separar algumas coisas com vírgula, outras com ponto e vírgula,
+outras com chaves, outras com colchetes, etc., etc., etc..
+Então vamos lá:
+
+\subsection{Delimitadores}
+
+Basicamente são três os delimitadores. Para string, blocos e caminho.
+\begin{itemize}
+\item \textbf{Strings} : utiliza-se aspas ( \texttt{"string"} ) para strings que não
+  possuam quebra de linha no interior ou chaves (\textbf{ \{string até\\ aqui\}} ) caso a string
+  tenha mais de uma linha. 
+\item \textbf{Blocos} : os blocos são delimitados por colchetes ( \textbf{[ ]} )
+  e não possuem limite.
+\item \textbf{Caminhos} : são delimitados (ou concatenados) com a barra
+  invertida ( \textbf{\textbackslash} )
+\end{itemize}
+
+\subsection{Sintaxe livre}
+O delimitador padrão é o espaço e, a única restrição é separar os tokens por um
+ou mais espaços. Os códigos abaixo são todos válidos e possuem a mesma
+avaliação:
+
+\inchf{freeformsyntax}{Sintaxe livre}
+
+Note que, se você entrar com  \textbf{a $<$ 0} ou \textbf{a-1} (sem espaços) causará
+um erro. Ou melhor, poderá causar um erro já que serão consideradas como
+palavras (variáveis) e poderão existir e conter um valor válido. 
+
+\subsection{Comentários}
+Existem dois tipos de comentários (trechos que são ignorados pelo programa): 
+\begin{itemize}
+\item O comentário que inicia com ponto e vírgula ( \textbf{;} ) e vai até o
+  final da linha e pode ser utilizado em qualquer parte do programa e
+\item o comentário com mais de uma linha que inicia com \textbf{comment \{} e
+  termina com um fecha chave ( \textbf{\}} ) pode ser utilizado em qualquer
+  parte do programa menos no meio de uma expressão.
+\end{itemize}
+
+\section{REPL}
+Em vez de criar um script em um editor, executar e/ou compilar, acredito que o 
+mais interessante no início seja digitar e ver o resultado. Para tal, basta usar
+o REPL (read-eval-print-loop). Como o nome já diz, ele lê uma entrada efetuada
+pelo usuário, efetua uma avaliação, mostra o resultado e fica esperando uma nova
+entrada. Para iniciar, basta executar \textbf{red} sem nenhum argumento e deverá
+aparecer algo como:
+
+\incss{repl}
+
+Para sair digite \textbf{q} ou \textbf{quit} e pressione enter. Digitando help e
+enter, serão apresentadas algumas opções para auxílio. Lembre-se que o 
+
+Apesar de não necessitar a digitação de \textbf{Red [ ]} que aparecem nas
+listagens para efeitos de salientar a sintaxe do script, se entrar no REPL não
+terá problema nenhum. O REPL entende que a entrada de uma nova linha seja a
+indicação para que ele avalie a entrada. Faz-se necessário que o comando seja
+digitado em uma linha a menos que ele termine com a abertura de um bloco
+\textbf{[}. Neste caso, ele mudara o prompt de
+\textbf{red $>>$} para uma abertura de colchetes  \textbf{[}
+indicando que está esperando o fechamento para avaliar a expressão.
+
+\incss{repl-input}
+
+Utilizando as setas para cima e para baixo é possível navegar no histórico para a
+execução de expressões informadas anteriormente. Se você digitar algo e
+pressionar tab, o REPL irá mostrar uma relação das possíveis funções que podem
+ser entradas, inclusive as definidas pelo usuário. Se for digitado a e tab,
+teremos algo como:
+
+\incss{repl-tab}
+
+Se você digita \textbf{help} ou \textbf{?} seguido de uma função, será mostrado
+um resumo da função informando como ela é utilizada, uma breve descrição da
+função, os argumentos e alguns refinamentos. Para insert, temos:
+
+\incss{repl-help}
+
+
+\section{Variáveis}
+
+Toda a linguagem possui alguma forma de armazenar um determinado valor em algum
+lugar No caso de \Red variáveis (ou palavras) podem armazenar (ao associar)
+dados ou código. 
+
+\subsection{Nomenclatura}
+
+\subsection{Operação}
+
+A associação ou atribuição é feita seguindo a variável com dois pontos (
+\textbf{:} ). Por exemplo, \codigo{nome: "Fulano de Tal"} irá atribuir
+\codigo{"Fulano de Tal"} a variável \codigo{nome}. Para avaliar a variável e
+retornar o seu valor, basta informar o nome da variável. No caso de termos 
+\codigo{cliente: nome}, indica que iremos atribuir o conteúdo da variável
+\codigo{nome} para a variável \codigo{cliente}. Existem casos onde não é
+possível a construção acima como no caso onde o conteúdo da variável é uma
+função. Para tal, precede-se o nome da variável com dois pontos e será retornado
+o conteúdo mas não será avaliado. Finalmente podemos tratar a variável como
+símbolo e retornará o nome da variável. Por exemplo: 
+
+\incss{repl-var}
+
+Podemos ver que \Red não é uma linguagem tipada, isto é, as variáveis podem
+conter qualquer valor mas, depois de assumirem um valor, possuirão um tipo
+correspondente que será utilizado para validar a avaliação das expressões. No
+caso de funções, é possível especificar o tipo de parâmetro que será aceito.
+Nada impede que a função trate os diversos tipos para retornar resultados
+válidos. No exemplo, \codigo{sum a + b} retornou um erro pois não foi possível
+adicionar um inteiro em um bloco (no caso pode ser considerado como uma lista).
+Bastiria que a função, por exemplo, adicionasse o número em cada um dos
+elementos. Da mesma forma, para atribuir a função \codigo{sum} para a variável
+\codigo{x} foi necessário utilizar o formato \codigo{x: :sum} para que a função
+não fosse avaliada. A construção \codigo{x: sum 2 3} seria validada e retornaria
+o valor \codigo{5}. Portanto:
+
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Formato} & \textbf{Significado} \\
+\hline
+\hline
+\codigo{var} & Avalia a variável e retorna o resultado. \\
+\hline
+\codigo{var:} & Atribui um valor a uma variável. \\
+\hline
+\codigo{:var} & Retorna o valor de uma variável sem avaliá-lo.\\
+\hline
+\codigo{'var} & Trata a variável como um simbolo e retorna o valor sem avaliá-lo.\\
+\hline
+\end{tabular}
+\end{center}
+
+\section{Tipos de dados}
+
+Este é um tópico onde REBOL é muito rico e, por consequencia, \Red também. A
+variedade de tipos é interessante para evitar a necessidade de criar código para
+trabalhar com os diversos dados requeridos pelo programa. Por exemplo, se voce
+deseja trabalhar com percentuais em determinada tarefa qual a melhor forma?
+Informar o decimal correspondente (e.g. 0,1 para 10\%) e efetuar diretamente o
+cáculo ou informar o percentual e efetuar o cálculo no estilo \codigo{$valor \times 
+  percentual \div 100$} ? Ficaria algo assim:
+
+\incss{repl-percent}
+
+No momento, estão disponíveis os seguintes tipos (alguns não serão utilizados em
+condições normais e, mais importante, alguns ainda não foram definidos
+como \codigo{data} e \codigo{hora}. Por enquanto temos:\\
+\codigo{action!, binary!, bitset!, block!, char!, datatype!, error!, file!,\\
+float!, function!, get-path!, get-word!, hash!, integer!, issue!, \\
+lit-path!, lit-word!, logic!, map!, native!, none!, object!, op!, \\
+pair!, paren!, path!, percent!, point!, refinement!, routine!, \\
+set-path!, set-word!, string!, tuple!, typeset!, unset!, url!, \\
+vector!, word!}. Alguns não importam para a programação normal, sendo mais
+relevantes internamente.
+
+Para você descobrir o tipo de uma variável basta entrar com \codigo{type?} e uma
+variável ou um valor e será retornado o tipo atual. Para comparar com um tipo
+específico, basta utilizar o tipo trocando a exclamação por uma interrogação.
+Por exemplo, se quiser verificar se uma variável possui um valor inteiro, basta
+digitar \codigo{integer?} variável ou valor e retornara um verdadeiro ou falso.
+
+Para converter um tipo de dado em outro, utilizamos \codigo{to}, o tipo de dado
+que desejamos e o valor a ser convertido.
+
+\incss{repl-to}
+
+Internamente, algumas conversões são executadas automaticamente para que um
+determinado cálculo seja efetuado. Converter um valor inteiro para ponto
+flutuante, por exemplo.
+
+\subsection{binary!}
+
+Contém um conteúdo binário. É informada digitando-se \codigo{base\#\{valores\}}.
+Se a base não for informada, é assumido que os valores estão no formato
+hexadecimal. Para entrar com valores binários digitamos 2 e podemos utilizar a
+base 64. Os valores informados devem ser compatíveis com a base informada para
+não ocorrer um erro.
+
+\incss{repl-binary}
+
+\subsection{bitset!}
+
+TBD
+
+\subsection{block!}
+
+Blocos são grupos de código e/ou dados e/ou outros blocos e/ou qualquer coisa.
+São delimitados por colchetes \codigo{[ ]}. Imagine, em outras linguagens, uma
+matriz que pode conter qualquer coisa. Podemos efetuar operações em um bloco ou
+mesmo entre blocos.
+
+\incss{repl-block}
+
+\subsection{char!}
+
+Representa um caractere qualquer. O caractere é escrito entre aspas precedido de
+\codigo{\#}. Para representarmos o caractere \codigo{A} usamos
+\codigo{\#"A"}. Se você esquecer o \codigo{\#}, será tratado como uma
+string. Para representar caracteres com valores menor que 32 (espaço),
+prefixamos com um sinal circunflexo. Para o caractere 27 (escape) temos
+\codigo{\#"\^{}["}. O ambiente já define alguns caracteres para
+facilitar a utilização em algumas ocasiões. Também é possível informar um valor
+hexadecimal entre parenteses. Por exemplo, \codigo{\#"(20)"} corresponde ao
+espaço.
+
+
+\incss{repl-char}
+
+\subsection{datatype!}
+
+Uso interno. Tipo de dado.
+
+\codigo{type? error! = datatype!}
+
+\subsection{error!}
+
+TBD.
+
+\subsection{file!}
+
+Contém o nome ou caminho de um arquivo ou diretório. É precedido por um
+percentual. Por exemplo: \codigo{\%arquivo.txt} e
+\codigo{\%/home/root/arquivo.txt} (veja também path! \ref{ssec:path}).
+
+\subsection{float!}
+
+Valores numéricos não inteiros. Você pode usar o ponto ou a virgula para separar
+a parte decimal. Os valores \codigo{123.45} e \codigo{123,45} são iguais. Também
+é possível utilizar \codigo{e} (maiúsculo ou minúsculo) para informar um
+expoente. Por exemplo \codigo{1.2345e3 = 1234.5}. Para facilitar a visualização,
+é possível utilizar o apóstrofo para separar grupos de números. Por exemplo,
+\codigo{1'234'567.89} é um número válido.
+
+\subsection{function!}
+
+Indicam que a variável contém uma função. Você poderá utilizar \codigo{help
+  função} para verificar a utilização da mesma e/ou digitar \codigo{source
+  função} para ver o código fonte da função. Outras informações na seção sobre
+funções (\ref{sec:func})
+
+\incss{repl-function}
+
+\subsection{get-path!}
+
+TBD
+
+\subsection{get-word!}
+
+TBD
+
+\subsection{hash!}
+
+TBD
+
+\subsection{integer!}
+
+Representam valores inteiros. Podem ser precedidos pelos sinais + ou - e ainda
+conterem apostrofo para facilitar a vizualização. Como exemplos válidos temos:
+\codigo{123 +456 -485 123'456'788} 
+
+\subsection{issue!}
+
+Usado para identificar sequencias diversas como telefone, cep, etc.. Inicia com
+\codigo{\#} e segue até o próximo delimitador. Facilita a vizualização de
+determinados valores. Para trabalharmos com um cep, por exemplo, fica mais
+legível entrarmos com \codigo{\#25477-122} do que um valor inteiros como
+\codigo{25477122} ou ponto flutuante do tipo \codigo{25477.122}.
+
+\subsection{lit-path!}
+
+TBD
+
+\subsection{lit-word!}
+
+TBD
+
+\subsection{logic!}
+
+São variáveis cujo conteúdo se restringe a falso e verdadeiro. Diferente de
+algumas linguagens que consideram 0 como falso e qualquer outro valor como
+verdadeiro, em \Red isto não é possível. De qualquer forma, para melhorar o
+entendimento do programa, outros valores também são definidos como falso e
+verdadeiro (nada que não possa ser feito na maioria das linguagens). Por
+exemplo: 
+
+\incss{repl-logic}
+
+\subsection{map!}
+
+Uma associação do tipo \codigo{nome $\leftrightarrow{}$ valor}. Basicamente, uma
+matriz onde os elementos são referenciados por um nome em vez de um indice
+numérico. Para definirmos no código usamos a notação \codigo{\#(nome valor ...)}
+Por exemplo: 
+
+\incss{repl-map}
+
+\subsection{native!}
+
+TBD
+
+\subsection{none}
+
+Basicamente, informa que uma variável não contém nenhum valor. Não é equivalente
+a \codigo{zero} ou \codigo{false} ou \codigo{""} e só pode ser conparada com
+\codigo{none}. 
+
+\subsection{object!}
+
+Servem para agrupar valores relacionado em um contexto comum, podendo incluir
+variáveis, funções e outros objetos. Seus elementos são acessados como os
+caminhos (path) e utiliza-se a barra para tal. Por exemplo:
+
+\incss{repl-object}
+
+\subsection{op!}
+
+Você poderia perguntar: Tipo de variável operador? Não seria função? Bem,
+podemos ver um operador do tipo soma como uma função. Por exemplo, \codigo{a +
+  b} poderia ser visto como algo do  tipo \codigo{add a b} (Se você conheçe
+Lisp, a expressão \codigo{(+ a b)} faz todo o sentido). Uma lista dos operadores
+atualmente definidos: 
+
+\incss{repl-op}
+
+Por exemplo, podemos ter um programa onde precisamos utilizar frequentemente se
+um valor pertence (∈) a um determinado 
+conjunto. Podemos facilmente criar uma
+função para a tarefa. Mas para a leitura poderia ficar mais fácil termos um
+operador e escrever \codigo{v ∈ l} do que uma função do tipo \codigo{pertence v
+  l}. Você pode trocar o ∈ por um símbolo de acesso mais fácil pelo teclado como
+o Euro (Alt gr + e). Ficaria algo como:
+
+\incss{repl-makeop}
+
+Definimos uma função \codigo{pertence} e criamos o operador \textbf{∈}. 
+
+\subsection{pair!}
+
+
+É uma estrutura para armazenar pares ordenados. Atualmente apenas inteiros. Para
+criar um par com os valores 4 para x e 5 para y entramos com: \codigo{pt: 4x5}.
+Para acessar o x podemos digitar \codigo{pt/x} ou \codigo{pt/1}. Para o y
+podemos digitar \codigo{pt/y} ou \codigo{pt/1}. Assim poderemos alterar os
+valores individualmente. Para colocar 6 no x basta entrar \codigo{pt/x:6}.
+
+Também são permitidas operações sobre os pares. Um número afetar ambos os
+valores \codigo{2x5 + 2 $\rightarrow$ 4x7}. Se o operedor for um par,
+irá afetar os valores individualmente \codigo{2x5 + 2x1 $\rightarrow$ 4x6}.
+
+\subsection{paren!}
+
+Basicamente é um bloco delimitado por parenteses e deve ser avaliado antes. 
+
+\incss{repl-paren}
+
+\subsection{path!}\label{ssec:path}
+
+Informa o caminho para algum lugar. Pode ser um subdiretório, um componenete de
+um objeto, um caractere de uma string, etc.. É definido separando os elementos por
+uma barra. Por exemplo. 
+
+\incss{repl-path}
+
+\subsection{percent!}
+
+Uma forma fácil de trabalhar com percentuais. Para que um valor seja entendido
+como percentual, basta colocar o percentual como sufixo. O valor é dividido por
+100 interna e automaticamente. Assim, para calcular o percentual de um
+determinado valor, basta multiplicá-lo pelo percentual \codigo{120 * 10\%
+ $\rightarrow$ 12} ou se desejamos saber de qual valor é um percentual, basta
+dividí-lo \codigo{12 / 10\% $\rightarrow$ 120}.
+
+Imediatamente pensamos que, para adicionar um percentual a um valor basta entrar
+com \codigo{120 + 10\% $\rightarrow$ 132}. Sinto informar que, pelo menos no
+atual estágio de desenvolvimento, \textbf{não}. Mas calma, nem tudo está
+perdido. Colocando o tico e o teco para funcionar chegamos a uma solução, no
+mínimo, elegante. Podemos redefinir o operador \codigo{+} da seguinte forma:
+
+\incss{repl-addpercent}
+
+Pronto. É uma das formas de tratar com o problema. Da mesma forma, poderiamos
+dar um desconto (diminuir um percentual do valor) redefinindo o operador
+\codigo{-}. 
+
+\subsection{point!}
+
+TBD
+
+\subsection{refinment!}
+
+São variáveis utilizadas para refinar determinado procedimento. Se você
+verificar a função \codigo{trim} (inicialmente remove espaços no final de uma
+string), verá que possui a seguinte estrutura: 
+
+\incss{repl-refinment}
+
+Então \codigo{/head  /tail  /auto  /lines  /all  /with} são \textit{refinments}.
+Se você chamar \codigo{trim/head string}, apenas os espaços no início serão
+removidos. Se for chamada como \codigo{trim/all string}, todos os espaços serão
+removidos, inclusive os internos.
+
+\subsection{routine!}
+
+TBD
+
+\subsection{set-path!}
+
+TBD
+
+\subsection{set-word!}
+
+TBD
+
+\subsection{string!}
+
+São sequencias de caracteres delimitadas por aspas ( \codigo{"string"} ) para
+strings que não possuam quebra de linha no interior ou chaves (\codigo{ \{string
+  até\\ aqui\}} ) caso a string tenha mais de uma linha.
+
+\subsection{tuple!}
+
+Um grupo de três ou quatro valores entre 0 e 255 separados por ponto. Podem
+designar cores no formato \codigo{r.g.b} ou endereços de IP, por exemplo. Se
+voce entrar no REPL com \codigo{? tuple!} terá o retorno das variáveis do tipo
+(inicialmente algumas cores definidas para facilitar).
+
+\incss{repl-tuple}
+
+\subsection{typeset!}
+
+TBD
+
+\subsection{unset!}
+
+TBD
+
+\subsection{url!}
+
+TBD
+
+\subsection{vector!}
+
+TBD
+
+\subsection{word!}
+
+TBD
+
+
+\section{Expressões}
+\section{Funções}\label{sec:func}
+\section{Escopo}
+\section{Operadores}
+\section{Controle de fluxo}
+\section{Exceções}
+\section{Pilha}
+\section{Depuração}
+\section{Estrutura do sistema}
+\section{Palavras reservadas}
+\section{VID}
+
+
+\end{document}
+

@@ -1,0 +1,319 @@
+#(
+    lang-name: "English"
+    region-name: "United Kingdom"
+    currency: GBP
+    numbers: #(
+        system: latn
+        latn: #(
+            digits: "0123456789"
+            fin-digits: "0123456789"
+            symbols: #(
+                nan: "NaN"
+                infinity: "∞"
+                permille: "‰"
+                superscripting-exponent: "×"
+                exponential: "E"
+                approximately: "~"
+                minus: "-"
+                plus: "+"
+                percent: "%"
+                list: ";"
+                group: ","
+                decimal: "."
+            )
+            masks: #(
+                number: #(
+                    dec: "# ##0.###"
+                    sci: "0.##############E0"
+                    pct: "# ##0.%"
+                    eng: "0.##############E3"
+                )
+                money: #(
+                    std: "$$# ##0.00"
+                    acct: "($$# ##0.00)"
+                )
+            )
+        )
+        ordinal-suffixes: #(
+            few: "rd"
+            one: "st"
+            other: "th"
+            two: "nd"
+        )
+    )
+    calendar: #(
+        day1: mon
+        standalone: #(
+            months: #(
+                abbr: ["Jan" "Feb" "Mar" "Apr" "May" "Jun" "Jul" "Aug" "Sept" "Oct" "Nov" "Dec"]
+                full: ["January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December"]
+                char: ["J" "F" "M" "A" "M" "J" "J" "A" "S" "O" "N" "D"]
+            )
+            days: #(
+                abbr: #(
+                    sun: "Sun"
+                    mon: "Mon"
+                    tue: "Tue"
+                    wed: "Wed"
+                    thu: "Thu"
+                    fri: "Fri"
+                    sat: "Sat"
+                )
+                short: #(
+                    sun: "Su"
+                    mon: "Mo"
+                    tue: "Tu"
+                    wed: "We"
+                    thu: "Th"
+                    fri: "Fr"
+                    sat: "Sa"
+                )
+                full: #(
+                    sun: "Sunday"
+                    mon: "Monday"
+                    tue: "Tuesday"
+                    wed: "Wednesday"
+                    thu: "Thursday"
+                    fri: "Friday"
+                    sat: "Saturday"
+                )
+                char: #(
+                    sun: "S"
+                    mon: "M"
+                    tue: "T"
+                    wed: "W"
+                    thu: "T"
+                    fri: "F"
+                    sat: "S"
+                )
+            )
+            quarters: #(
+                abbr: ["Q1" "Q2" "Q3" "Q4"]
+                full: ["1st quarter" "2nd quarter" "3rd quarter" "4th quarter"]
+                char: ["1" "2" "3" "4"]
+            )
+            periods: #(
+                char: #(
+                    am: "a"
+                    pm: "p"
+                )
+                abbr: #(
+                    am: "AM"
+                    pm: "PM"
+                )
+                full: #(
+                    am: "AM"
+                    pm: "PM"
+                )
+            )
+        )
+        format: #(
+            months: #(
+                char: ["J" "F" "M" "A" "M" "J" "J" "A" "S" "O" "N" "D"]
+                abbr: ["Jan" "Feb" "Mar" "Apr" "May" "Jun" "Jul" "Aug" "Sept" "Oct" "Nov" "Dec"]
+                full: ["January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December"]
+            )
+            days: #(
+                char: #(
+                    sun: "S"
+                    mon: "M"
+                    tue: "T"
+                    wed: "W"
+                    thu: "T"
+                    fri: "F"
+                    sat: "S"
+                )
+                abbr: #(
+                    sun: "Sun"
+                    mon: "Mon"
+                    tue: "Tue"
+                    wed: "Wed"
+                    thu: "Thu"
+                    fri: "Fri"
+                    sat: "Sat"
+                )
+                short: #(
+                    sun: "Su"
+                    mon: "Mo"
+                    tue: "Tu"
+                    wed: "We"
+                    thu: "Th"
+                    fri: "Fr"
+                    sat: "Sa"
+                )
+                full: #(
+                    sun: "Sunday"
+                    mon: "Monday"
+                    tue: "Tuesday"
+                    wed: "Wednesday"
+                    thu: "Thursday"
+                    fri: "Friday"
+                    sat: "Saturday"
+                )
+            )
+            quarters: #(
+                char: ["1" "2" "3" "4"]
+                abbr: ["Q1" "Q2" "Q3" "Q4"]
+                full: ["1st quarter" "2nd quarter" "3rd quarter" "4th quarter"]
+            )
+            periods: #(
+                char: #(
+                    am: "a"
+                    pm: "p"
+                )
+                abbr: #(
+                    am: "AM"
+                    pm: "PM"
+                )
+                full: #(
+                    am: "AM"
+                    pm: "PM"
+                )
+            )
+            eras: #(
+                full: #(
+                    BC: "Before Christ"
+                    AD: "Anno Domini"
+                    BCE: "Before Common Era"
+                    CE: "Common Era"
+                )
+                abbr: #(
+                    BC: "BC"
+                    AD: "AD"
+                    BCE: "BCE"
+                    CE: "CE"
+                )
+                char: #(
+                    BC: "B"
+                    AD: "A"
+                )
+            )
+        )
+        masks: #(
+            date: #(
+                full: "Sunday, 31 December 1999"
+                long: "31 December 1999"
+                medium: "31 Dec 1999"
+                short: "031/012/1999"
+            )
+            time: #(
+                full: "023:59:59 'GMT'+00:00"
+                long: "023:59:59 'GMT'+0"
+                medium: "023:59:59"
+                short: "023:59"
+            )
+            datetime: #(
+                full: {Sunday, 31 December 1999 'at' 023:59:59 'GMT'+00:00}
+                long: "31 December 1999 'at' 023:59:59 'GMT'+0"
+                medium: "31 Dec 1999, 023:59:59"
+                short: "031/012/1999, 023:59"
+            )
+        )
+    )
+    currency-names: #(
+        AFN: [char: "؋"]
+        AMD: [char: "֏"]
+        AOA: [char: "Kz"]
+        ARS: [char: "$"]
+        AUD: [char: "$" std: "A$"]
+        AZN: [char: "₼"]
+        BAM: [char: "KM"]
+        BBD: [char: "$"]
+        BDT: [char: "৳"]
+        BMD: [char: "$"]
+        BND: [char: "$"]
+        BOB: [char: "Bs"]
+        BRL: [std: "R$"]
+        BSD: [char: "$"]
+        BWP: [char: "P"]
+        BZD: [char: "$"]
+        CAD: [char: "$" std: "CA$"]
+        CLP: [char: "$"]
+        CNY: [char: "¥" std: "CN¥"]
+        COP: [char: "$"]
+        CRC: [char: "₡"]
+        CUC: [char: "$"]
+        CUP: [char: "$"]
+        CZK: [char: "Kč"]
+        DKK: [char: "kr"]
+        DOP: [char: "$"]
+        EGP: [char: "E£"]
+        ESP: [char: "₧"]
+        EUR: [std: "€"]
+        FJD: [char: "$"]
+        FKP: [char: "£"]
+        GBP: [std: "£"]
+        GEL: [char: "₾"]
+        GHS: [char: "GH₵"]
+        GIP: [char: "£"]
+        GNF: [char: "FG"]
+        GTQ: [char: "Q"]
+        GYD: [char: "$"]
+        HKD: [char: "$" std: "HK$"]
+        HNL: [char: "L"]
+        HRK: [char: "kn"]
+        HUF: [char: "Ft"]
+        IDR: [char: "Rp"]
+        ILS: [std: "₪"]
+        INR: [std: "₹"]
+        ISK: [char: "kr"]
+        JMD: [char: "$"]
+        JPY: [std: "¥"]
+        KHR: [char: "៛"]
+        KMF: [char: "CF"]
+        KPW: [char: "₩"]
+        KRW: [std: "₩"]
+        KYD: [char: "$"]
+        KZT: [char: "₸"]
+        LAK: [char: "₭"]
+        LBP: [char: "L£"]
+        LKR: [char: "Rs"]
+        LRD: [char: "$"]
+        LTL: [char: "Lt"]
+        LVL: [char: "Ls"]
+        MGA: [char: "Ar"]
+        MMK: [char: "K"]
+        MNT: [char: "₮"]
+        MUR: [char: "Rs"]
+        MXN: [char: "$" std: "MX$"]
+        MYR: [char: "RM"]
+        NAD: [char: "$"]
+        NGN: [char: "₦"]
+        NIO: [char: "C$"]
+        NOK: [char: "kr"]
+        NPR: [char: "Rs"]
+        NZD: [char: "$" std: "NZ$"]
+        PHP: [std: "₱"]
+        PKR: [char: "Rs"]
+        PLN: [char: "zł"]
+        PYG: [char: "₲"]
+        RON: [char: "lei"]
+        RUB: [char: "₽"]
+        RWF: [char: "RF"]
+        SBD: [char: "$"]
+        SEK: [char: "kr"]
+        SGD: [char: "$"]
+        SHP: [char: "£"]
+        SRD: [char: "$"]
+        SSP: [char: "£"]
+        STN: [char: "Db"]
+        SYP: [char: "£"]
+        THB: [char: "฿"]
+        TOP: [char: "T$"]
+        TRY: [char: "₺"]
+        TTD: [char: "$"]
+        TWD: [char: "$" std: "NT$"]
+        UAH: [char: "₴"]
+        USD: [std: "$"]
+        UYU: [char: "$"]
+        VEF: [char: "Bs"]
+        VND: [std: "₫"]
+        XAF: [std: "FCFA"]
+        XCD: [char: "$" std: "EC$"]
+        XOF: [std: "F CFA"]
+        XPF: [std: "CFPF"]
+        XXX: [std: "¤"]
+        ZAR: [char: "R"]
+        ZMW: [char: "ZK"]
+    )
+)

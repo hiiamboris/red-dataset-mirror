@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>demo.r</title>
+<link rel="stylesheet" type="text/css" href="highlight.css">
+</head>
+<body class="hl">
+<pre class="hl">REBOL <span class="hl opt">[</span>
+	Title<span class="hl opt">:</span> <span class="hl str">&quot;R3 GUI - Development Test Script&quot;</span>
+	Version<span class="hl opt">:</span> <span class="hl num">0.1.2</span>
+<span class="hl opt">]</span>
+
+errout<span class="hl opt">:</span> func <span class="hl opt">[</span>msg<span class="hl opt">] [</span><span class="hl kwa">if</span> msg <span class="hl opt">[</span>print msg print <span class="hl str">&quot;The demo cannot be shown.&quot;</span> halt<span class="hl opt">]]</span>
+
+<span class="hl opt">;</span>do <span class="hl opt">%</span>load<span class="hl opt">-</span>gui<span class="hl opt">.</span>r
+
+load<span class="hl opt">-</span>gui
+
+errout case <span class="hl opt">[</span>
+	not value? <span class="hl str">'size-text [&quot;This R3 release does not provide a graphics system.&quot;]</span>
+<span class="hl str">	load-gui &lt;&gt; 0.2.1 [&quot;Wrong GUI version for this test script.&quot;]</span>
+<span class="hl str">	true [none]</span>
+<span class="hl str">]</span>
+<span class="hl str"></span>
+<span class="hl str">quick-start: none ; For specific section on start, eg. &quot;Forms&quot;</span>
+<span class="hl str"></span>
+<span class="hl str">view [</span>
+<span class="hl str">	title &quot;R3 Demo is pending...&quot;</span>
+<span class="hl str">	doc {</span>
+<span class="hl str">		A demo is not currently available.</span>
+<span class="hl str"></span>
+<span class="hl str">		However, you can run the GUI test script which shows</span>
+<span class="hl str">		various examples, and you can easily examine the source</span>
+<span class="hl str">		code to get a quick idea of how it works.</span>
+<span class="hl str"></span>
+<span class="hl str">		Note that we are using the development theme GUI,</span>
+<span class="hl str">		not the default skin.</span>
+<span class="hl str">	}</span>
+<span class="hl str">	group [</span>
+<span class="hl str">		button &quot;Run Test&quot; close</span>
+<span class="hl str">		button &quot;Quit&quot; quit</span>
+<span class="hl str">	]</span>
+<span class="hl str">]</span>
+<span class="hl str"></span>
+<span class="hl str">instructions: {</span>
+<span class="hl str">	===GUI Prototype</span>
+<span class="hl str"></span>
+<span class="hl str">	This is a &lt;b&gt;development test version&lt;/b&gt; of the GUI. It has not</span>
+<span class="hl str">	been finalized because we have a bit more to do.</span>
+<span class="hl str">	</span>
+<span class="hl str">	Note that the skin you are seeing is the development them,</span>
+<span class="hl str">	&lt;i&gt;not the final skin&lt;/i&gt;.</span>
+<span class="hl str"></span>
+<span class="hl str">	===Try This Test</span>
+<span class="hl str"></span>
+<span class="hl str">	Click on test categories on the left to view them in this</span>
+<span class="hl str">	panel. Click or drag the various test objects to see what</span>
+<span class="hl str">	happens. Resize the window.</span>
+<span class="hl str"></span>
+<span class="hl str">	To see the source code for any of these test panels, click</span>
+<span class="hl str">	on the source button below.</span>
+<span class="hl str"></span>
+<span class="hl str">	===Bugs and Optimizations</span>
+<span class="hl str"></span>
+<span class="hl str">	There are still bugs in the GUI, and we need a few more</span>
+<span class="hl str">	features too. But, the GUI code works fairly well, although</span>
+<span class="hl str">	it &lt;b&gt;has yet to be optimized.&lt;/b&gt;</span>
+<span class="hl str"></span>
+<span class="hl str">}</span>
+<span class="hl str"></span>
+<span class="hl str">view-code: func [text][</span>
+<span class="hl str">	view [code-area 600x400 (text)]</span>
+<span class="hl str">]</span>
+<span class="hl str"></span>
+<span class="hl str">calc-radius: func [p] [square-root add p/x ** 2 p/y ** 2]</span>
+<span class="hl str"></span>
+<span class="hl str">polar-to-rect: func [</span>
+<span class="hl str">	&quot;Convert radius and angle to x and y.&quot;</span>
+<span class="hl str">	radius angle</span>
+<span class="hl str">][</span>
+<span class="hl str">	as-pair radius * sine angle radius * negate cosine angle</span>
+<span class="hl str">]</span>
+<span class="hl str"></span>
+<span class="hl str">clock-obj: context [</span>
+<span class="hl str"></span>
+<span class="hl str">	radius: 800</span>
+<span class="hl str">	center: 1000x1000</span>
+<span class="hl str"></span>
+<span class="hl str">	blk:</span>
+<span class="hl str">	hour-hand:</span>
+<span class="hl str">	min-hand:</span>
+<span class="hl str">	sec-hand: none</span>
+<span class="hl str"></span>
+<span class="hl str">	make-clock: has [xy1 xy2 r][</span>
+<span class="hl str"></span>
+<span class="hl str">		blk: make block! 220</span>
+<span class="hl str">		area-fill: span-colors white [.3 1.2]</span>
+<span class="hl str"></span>
+<span class="hl str">		; Draw background circle:</span>
+<span class="hl str">		append blk compose [</span>
+<span class="hl str">			scale 1 1</span>
+<span class="hl str">			pen black</span>
+<span class="hl str">			line-width 30</span>
+<span class="hl str">			fill-pen white</span>
+<span class="hl str">			circle center (radius + 100)</span>
+<span class="hl str">			line-width 20</span>
+<span class="hl str">		]</span>
+<span class="hl str"></span>
+<span class="hl str">		; Draw minute tick marks:</span>
+<span class="hl str">		for angle 0 359 6 [</span>
+<span class="hl str">			xy1: center + polar-to-rect radius + 8 angle</span>
+<span class="hl str">			r: radius + pick [100 60] zero? mod angle 30</span>
+<span class="hl str">			xy2: center + polar-to-rect r angle</span>
+<span class="hl str">			repend blk ['</span>line xy1 xy2<span class="hl opt">]</span>
+		<span class="hl opt">]</span>
+
+		<span class="hl opt">;</span> Setup hour hand<span class="hl opt">:</span>
+		append blk <span class="hl opt">[</span>
+			pen black
+			line<span class="hl opt">-</span>cap rounded
+			line<span class="hl opt">-</span>width <span class="hl num">60</span>
+		<span class="hl opt">]</span>
+		hour<span class="hl opt">-</span>hand<span class="hl opt">:</span> tail blk
+		draw<span class="hl opt">-</span>hand hour<span class="hl opt">-</span>hand <span class="hl num">0</span>
+
+		<span class="hl opt">;</span> Setup minute hand<span class="hl opt">:</span>
+		append blk <span class="hl opt">[</span>line<span class="hl opt">-</span>width <span class="hl num">40</span><span class="hl opt">]</span>
+		min<span class="hl opt">-</span>hand<span class="hl opt">:</span> tail blk
+		draw<span class="hl opt">-</span>hand min<span class="hl opt">-</span>hand <span class="hl num">0</span>
+
+		<span class="hl opt">;</span> Setup second hand<span class="hl opt">:</span>
+		append blk <span class="hl opt">[</span>
+			line<span class="hl opt">-</span>width <span class="hl num">25</span>
+			pen maroon
+			fill<span class="hl opt">-</span>pen maroon
+			circle center <span class="hl num">30</span>
+			arrow <span class="hl num">10</span>x0
+		<span class="hl opt">]</span> 
+		sec<span class="hl opt">-</span>hand<span class="hl opt">:</span> tail blk
+		draw<span class="hl opt">-</span>hand sec<span class="hl opt">-</span>hand <span class="hl num">0</span>
+
+		<span class="hl opt">;</span> Lame surface reflection<span class="hl opt">:</span>
+		append blk <span class="hl opt">[</span>
+			grad<span class="hl opt">-</span>pen radial <span class="hl num">1000</span>x400 <span class="hl num">800 1100 0 1.2</span> <span class="hl opt">[</span><span class="hl num">255.255.255.240 100.100.100.200</span><span class="hl opt">]</span>
+			pen off
+			circle <span class="hl kwd">center</span> <span class="hl opt">(</span>radius <span class="hl opt">+</span> <span class="hl num">100</span><span class="hl opt">)</span>
+		<span class="hl opt">]</span>
+
+		blk
+	<span class="hl opt">]</span>
+
+	draw<span class="hl opt">-</span>hand<span class="hl opt">:</span> funct <span class="hl opt">[</span>hand angle <span class="hl opt">/</span>short <span class="hl opt">/</span>local r<span class="hl opt">][</span>
+		r<span class="hl opt">:</span> either short <span class="hl opt">[</span>radius <span class="hl opt">*</span> <span class="hl num">.75</span><span class="hl opt">] [</span>radius<span class="hl opt">]</span>
+		change hand reduce <span class="hl opt">[</span><span class="hl str">'line center center + polar-to-rect r angle * 6]</span>
+<span class="hl str">	]</span>
+<span class="hl str"></span>
+<span class="hl str">	set-clock: funct [time] [</span>
+<span class="hl str">		draw-hand/short hour-hand to-integer 5 * ((mod time/1 12) + (time/2 / 60))</span>
+<span class="hl str">		draw-hand min-hand time/2</span>
+<span class="hl str">		draw-hand sec-hand time/3</span>
+<span class="hl str">	]</span>
+<span class="hl str">]</span>
+<span class="hl str"></span>
+<span class="hl str">stylize [ ;-- special styles for testing</span>
+<span class="hl str"></span>
+<span class="hl str">clock: [</span>
+<span class="hl str"></span>
+<span class="hl str">	about: &quot;Analog clock with second hand. Resizable.&quot;</span>
+<span class="hl str"></span>
+<span class="hl str">	facets: [</span>
+<span class="hl str">		size: 200x200</span>
+<span class="hl str">		max-size: 2000x2000</span>
+<span class="hl str">	]</span>
+<span class="hl str"></span>
+<span class="hl str">	options: [</span>
+<span class="hl str">		size: [pair!]</span>
+<span class="hl str">	]</span>
+<span class="hl str"></span>
+<span class="hl str">	faced: [</span>
+<span class="hl str">		clock: none</span>
+<span class="hl str">	]</span>
+<span class="hl str"></span>
+<span class="hl str">	actors: [</span>
+<span class="hl str">		on-make: [</span>
+<span class="hl str">			face/facets/clock: clk: copy clock-obj</span>
+<span class="hl str">			face/gob/draw: clk/make-clock</span>
+<span class="hl str">			face/state/value: 0:00</span>
+<span class="hl str">		]</span>
+<span class="hl str"></span>
+<span class="hl str">		on-resize: [</span>
+<span class="hl str">			face/gob/size: face/facets/area-size: arg</span>
+<span class="hl str">			b: find/tail face/gob/draw '</span>scale
+			b<span class="hl opt">/</span><span class="hl num">1</span><span class="hl opt">:</span> arg<span class="hl opt">/</span>x <span class="hl opt">/</span> <span class="hl num">2000</span>
+			b<span class="hl opt">/</span><span class="hl num">2</span><span class="hl opt">:</span> arg<span class="hl opt">/</span>y <span class="hl opt">/</span> <span class="hl num">2000</span>
+			show<span class="hl opt">-</span>later face
+		<span class="hl opt">]</span>
+
+		on<span class="hl opt">-</span>set<span class="hl opt">: [</span>
+			<span class="hl kwa">if</span> arg<span class="hl opt">/</span><span class="hl num">1</span> <span class="hl opt">=</span> <span class="hl str">'value [</span>
+<span class="hl str">				if date? time: arg/2 [time: time/time]</span>
+<span class="hl str">				face/state/value: time</span>
+<span class="hl str">				face/facets/clock/set-clock time</span>
+<span class="hl str">				show-later face</span>
+<span class="hl str">			]</span>
+<span class="hl str">		]</span>
+<span class="hl str"></span>
+<span class="hl str">		on-get: [face/state/value]</span>
+<span class="hl str"></span>
+<span class="hl str">		on-reset: [</span>
+<span class="hl str">			set-face face 0:00</span>
+<span class="hl str">		]</span>
+<span class="hl str">	]</span>
+<span class="hl str">]</span>
+<span class="hl str"></span>
+<span class="hl str">draw-box: [</span>
+<span class="hl str"></span>
+<span class="hl str">	about: &quot;Box for drawing shapes.&quot;</span>
+<span class="hl str"></span>
+<span class="hl str">	facets: [</span>
+<span class="hl str">		size: 200x200</span>
+<span class="hl str">		max-size: 2000x2000</span>
+<span class="hl str">	]</span>
+<span class="hl str"></span>
+<span class="hl str">	faced: [</span>
+<span class="hl str">		drawing: copy [</span>
+<span class="hl str">			pen coal</span>
+<span class="hl str">			line-width 2</span>
+<span class="hl str">			fill-pen snow</span>
+<span class="hl str">			box 3</span>
+<span class="hl str">		]</span>
+<span class="hl str">		undo: copy []</span>
+<span class="hl str">		marker: none</span>
+<span class="hl str">		line-color: black</span>
+<span class="hl str">		area-color: leaf</span>
+<span class="hl str">		line-size: 2</span>
+<span class="hl str">		corner: 3</span>
+<span class="hl str">		mode: '</span>box
+	<span class="hl opt">]</span>
+
+	actors<span class="hl opt">: [</span>
+		on<span class="hl opt">-</span>draw<span class="hl opt">: [</span>face<span class="hl opt">/</span>facets<span class="hl opt">/</span>drawing<span class="hl opt">]</span>
+
+		on<span class="hl opt">-</span>click<span class="hl opt">: [ ;</span> arg<span class="hl opt">:</span> event
+			<span class="hl kwa">switch</span> arg<span class="hl opt">/</span>type <span class="hl opt">[</span>
+				down <span class="hl opt">[</span>
+					<span class="hl kwa">if</span> m<span class="hl opt">:</span> face<span class="hl opt">/</span>facets<span class="hl opt">/</span>marker <span class="hl opt">[</span>
+						<span class="hl opt">;</span> See note at top<span class="hl opt">:</span>
+						append<span class="hl opt">/</span>only face<span class="hl opt">/</span>facets<span class="hl opt">/</span>undo m
+						delect<span class="hl opt">/</span>all system<span class="hl opt">/</span>dialects<span class="hl opt">/</span>draw m b<span class="hl opt">: []</span>
+						append clear m b
+					<span class="hl opt">]</span>
+					face<span class="hl opt">/</span>facets<span class="hl opt">/</span>marker<span class="hl opt">:</span> tail face<span class="hl opt">/</span>facets<span class="hl opt">/</span>drawing
+					return init<span class="hl opt">-</span>drag face arg<span class="hl opt">/</span>offset
+				<span class="hl opt">]</span>
+			<span class="hl opt">]</span>
+			none
+		<span class="hl opt">]</span>
+
+		on<span class="hl opt">-</span>drag<span class="hl opt">: [</span>
+			append clear d<span class="hl opt">:</span> face<span class="hl opt">/</span>facets<span class="hl opt">/</span>marker <span class="hl opt">[</span>
+				pen line<span class="hl opt">-</span>color
+				line<span class="hl opt">-</span>width line<span class="hl opt">-</span>size
+				fill<span class="hl opt">-</span>pen area<span class="hl opt">-</span>color
+			<span class="hl opt">]</span>
+			append d mode<span class="hl opt">:</span> face<span class="hl opt">/</span>facets<span class="hl opt">/</span>mode
+			repend d select <span class="hl opt">[</span>
+				line <span class="hl opt">[</span>arg<span class="hl opt">/</span>base arg<span class="hl opt">/</span>base <span class="hl opt">+</span> arg<span class="hl opt">/</span>delta<span class="hl opt">]</span>
+				box <span class="hl opt">[</span>arg<span class="hl opt">/</span>base arg<span class="hl opt">/</span>base <span class="hl opt">+</span> arg<span class="hl opt">/</span>delta <span class="hl str">'corner]</span>
+<span class="hl str">				circle [arg/base calc-radius arg/delta]</span>
+<span class="hl str">			] mode</span>
+<span class="hl str">			draw-face face</span>
+<span class="hl str">		]</span>
+<span class="hl str"></span>
+<span class="hl str">		on-undo: [</span>
+<span class="hl str">			clear face/facets/marker</span>
+<span class="hl str">			face/facets/marker: take/last face/facets/undo</span>
+<span class="hl str">			draw-face face</span>
+<span class="hl str">		]</span>
+<span class="hl str">	]</span>
+<span class="hl str">]</span>
+<span class="hl str"></span>
+<span class="hl str">color-chip: clicker [</span>
+<span class="hl str"></span>
+<span class="hl str">	about: &quot;Shows a color. Clicking on it will bring up color requestor.&quot;</span>
+<span class="hl str"></span>
+<span class="hl str">	facets: [</span>
+<span class="hl str">		size: 18x18</span>
+<span class="hl str">	]</span>
+<span class="hl str">]</span>
+<span class="hl str"></span>
+<span class="hl str">free-drag: clicker [</span>
+<span class="hl str"></span>
+<span class="hl str">	about: &quot;Box that can be dragged in a panel and past its borders.&quot;</span>
+<span class="hl str"></span>
+<span class="hl str">	facets: [size: 50x50]</span>
+<span class="hl str"></span>
+<span class="hl str">	actors: [</span>
+<span class="hl str">		on-click: [ ; arg: event</span>
+<span class="hl str">			if arg/type = '</span>down <span class="hl opt">[</span>return init<span class="hl opt">-</span>drag face none<span class="hl opt">]</span>
+			none
+		<span class="hl opt">]</span>
+
+		on<span class="hl opt">-</span>drag<span class="hl opt">: [</span>
+			<span class="hl opt">;</span> arg<span class="hl opt">:</span> drag
+			face<span class="hl opt">/</span>gob<span class="hl opt">/</span>offset<span class="hl opt">:</span> arg<span class="hl opt">/</span>delta <span class="hl opt">+</span> arg<span class="hl opt">/</span>base
+			draw<span class="hl opt">-</span>face face
+		<span class="hl opt">]</span>
+	<span class="hl opt">]</span>
+<span class="hl opt">]</span>
+
+lock<span class="hl opt">-</span>drag<span class="hl opt">:</span> free<span class="hl opt">-</span>drag <span class="hl opt">[</span>
+
+	about<span class="hl opt">:</span> <span class="hl str">&quot;Box that can be dragged within a panel, but stops at borders.&quot;</span>
+
+	actors<span class="hl opt">: [</span>
+		on<span class="hl opt">-</span>drag<span class="hl opt">: [ ;</span> arg<span class="hl opt">:</span> drag
+			do<span class="hl opt">-</span>style parent<span class="hl opt">-</span>face? face <span class="hl str">'on-offset face/gob/offset:</span>
+<span class="hl str">				min face/gob/parent/size - face/gob/size max 0x0 arg/delta + arg/base</span>
+<span class="hl str">			draw-face face</span>
+<span class="hl str">			do-face parent-face? face</span>
+<span class="hl str">		]</span>
+<span class="hl str">	]</span>
+<span class="hl str">]</span>
+<span class="hl str"></span>
+<span class="hl str">box-cross: box [</span>
+<span class="hl str"></span>
+<span class="hl str">	about: &quot;Test box for horizontal and vertical scrollers.&quot;</span>
+<span class="hl str"></span>
+<span class="hl str">	facets: [</span>
+<span class="hl str">		size: 280x140</span>
+<span class="hl str">		max-size: 1000x1000</span>
+<span class="hl str">	]</span>
+<span class="hl str"></span>
+<span class="hl str">	state: [</span>
+<span class="hl str">		valx: 0</span>
+<span class="hl str">		valy: 0</span>
+<span class="hl str">	]</span>
+<span class="hl str"></span>
+<span class="hl str">	faced: [</span>
+<span class="hl str">		cross-xy: 5x5</span>
+<span class="hl str">	]</span>
+<span class="hl str"></span>
+<span class="hl str">	draw: [</span>
+<span class="hl str">		pen 30.30.30</span>
+<span class="hl str">		line-width 1.5</span>
+<span class="hl str">		fill-pen snow</span>
+<span class="hl str">		box 1x1 area-size 3</span>
+<span class="hl str">		fill-pen yellow</span>
+<span class="hl str">		circle cross-xy 5</span>
+<span class="hl str">		line (cross-xy - 8x0) (cross-xy + 8x0)</span>
+<span class="hl str">		line (cross-xy - 0x8) (cross-xy + 0x8)</span>
+<span class="hl str">	]</span>
+<span class="hl str"></span>
+<span class="hl str">	actors: [</span>
+<span class="hl str">		on-set: [ ; arg: [word value]</span>
+<span class="hl str">			word: value: none</span>
+<span class="hl str">			set [word value] arg ; change SET !!</span>
+<span class="hl str">			unless find [valx valy] word [exit]</span>
+<span class="hl str">			face/state/:word: value</span>
+<span class="hl str">			set-facet face '</span>cross<span class="hl opt">-</span>xy <span class="hl num">5</span>x5 <span class="hl opt">+</span> as<span class="hl opt">-</span>pair
+				face<span class="hl opt">/</span>facets<span class="hl opt">/</span>area<span class="hl opt">-</span>size<span class="hl opt">/</span>x <span class="hl opt">-</span> <span class="hl num">10</span> <span class="hl opt">*</span> face<span class="hl opt">/</span>state<span class="hl opt">/</span>valx
+				face<span class="hl opt">/</span>facets<span class="hl opt">/</span>area<span class="hl opt">-</span>size<span class="hl opt">/</span>y <span class="hl opt">-</span> <span class="hl num">10</span> <span class="hl opt">*</span> face<span class="hl opt">/</span>state<span class="hl opt">/</span>valy
+		<span class="hl opt">]</span>
+
+		on<span class="hl opt">-</span>reset<span class="hl opt">: [</span>
+			set<span class="hl opt">-</span>facet face <span class="hl str">'cross-xy 5x5</span>
+<span class="hl str">			draw-face face</span>
+<span class="hl str">		]</span>
+<span class="hl str">	]</span>
+<span class="hl str">]</span>
+<span class="hl str"></span>
+<span class="hl str">]</span>
+<span class="hl str"></span>
+<span class="hl str">tests: [</span>
+<span class="hl str"></span>
+<span class="hl str">	&quot;Buttons&quot;</span>
+<span class="hl str">	&quot;Single-state buttons and dual-state toggle buttons. Layout in a simple panel that has no groups or panels.&quot;</span>
+<span class="hl str">	[</span>
+<span class="hl str">		when [load] do [print &quot;Load trigger!&quot;]</span>
+<span class="hl str">		clicker</span>
+<span class="hl str">		button &quot;Do&quot; alert &quot;Button pressed!&quot;</span>
+<span class="hl str">		button &quot;Big Quit Button&quot; maroon options [max-size: 2000x50] quit</span>
+<span class="hl str">		bar</span>
+<span class="hl str">		text [bold &quot;Toggle button...&quot;]</span>
+<span class="hl str">		t1: toggle &quot;Toggle&quot; of '</span>tog
+		button <span class="hl str">&quot;Set False&quot;</span> set <span class="hl str">'t1 false</span>
+<span class="hl str">		button &quot;Set True&quot;  set '</span>t1 true
+		toggle <span class="hl str">&quot;Mirror&quot;</span> attach <span class="hl str">'t1</span>
+<span class="hl str">		toggle &quot;Mutex&quot; of '</span>tog
+		bar
+		text <span class="hl opt">[</span>bold <span class="hl str">&quot;Radios and check boxes&quot;</span><span class="hl opt">]</span>
+		radio <span class="hl str">&quot;Set above toggle on&quot;</span>  set <span class="hl str">'t1 true</span>
+<span class="hl str">		radio &quot;Set above toggle off&quot; set '</span>t1 false
+		bar
+		check <span class="hl str">&quot;Checkbox attached to above toggle&quot;</span> attach <span class="hl str">'t1</span>
+<span class="hl str">	]</span>
+<span class="hl str"></span>
+<span class="hl str">	&quot;Groups&quot;</span>
+<span class="hl str">	&quot;Group and panel layouts with simple contents (buttons) and tests for auto-sizing. Includes sub-panels.&quot;</span>
+<span class="hl str">	[</span>
+<span class="hl str">		group [</span>
+<span class="hl str">			button &quot;Button&quot;</span>
+<span class="hl str">		]</span>
+<span class="hl str">		bar</span>
+<span class="hl str">		group [</span>
+<span class="hl str">			button &quot;Button&quot;</span>
+<span class="hl str">			button &quot;50x50&quot; 50x50 180.0.0</span>
+<span class="hl str">		]</span>
+<span class="hl str">		bar</span>
+<span class="hl str">		group [</span>
+<span class="hl str">			button &quot;50x50&quot; 50x50 180.0.0</span>
+<span class="hl str">			button &quot;maxsize 200x200&quot; options [max-size: 200x200]</span>
+<span class="hl str">		]</span>
+<span class="hl str">		bar</span>
+<span class="hl str">		group 2 [</span>
+<span class="hl str">			button &quot;A A&quot;</span>
+<span class="hl str">			button &quot;A B&quot;</span>
+<span class="hl str">			button &quot;B A&quot;</span>
+<span class="hl str">			button &quot;B B&quot;</span>
+<span class="hl str">		]</span>
+<span class="hl str">		bar</span>
+<span class="hl str">		panel [</span>
+<span class="hl str">			text &quot;Panel example&quot;</span>
+<span class="hl str">			button &quot;Button&quot;</span>
+<span class="hl str">		]</span>
+<span class="hl str">		panel gray 0 [</span>
+<span class="hl str">			text &quot;Gray panel example&quot;</span>
+<span class="hl str">			button &quot;Button&quot;</span>
+<span class="hl str">			button &quot;Button&quot;</span>
+<span class="hl str">		]</span>
+<span class="hl str">	]</span>
+<span class="hl str"></span>
+<span class="hl str">	&quot;Progress&quot;</span>
+<span class="hl str">	&quot;Progress bar with various value set tests.&quot;</span>
+<span class="hl str">	[</span>
+<span class="hl str">		p1: progress</span>
+<span class="hl str">		group 4 [</span>
+<span class="hl str">			button &quot;Set 0%&quot;   set '</span>p1 <span class="hl num">0</span><span class="hl opt">%</span>
+			button <span class="hl str">&quot;Set 10%&quot;</span>  set <span class="hl str">'p1 10%</span>
+<span class="hl str">			button &quot;Set 50%&quot;  set '</span>p1 <span class="hl num">50</span><span class="hl opt">%</span>
+			button <span class="hl str">&quot;Set 100%&quot;</span> set <span class="hl str">'p1 100%</span>
+<span class="hl str"></span>
+<span class="hl str">			toggle &quot;Color&quot; do [</span>
+<span class="hl str">				set-facet p1 '</span>bar<span class="hl opt">-</span>fill span<span class="hl opt">-</span>colors pick1 value red green <span class="hl opt">[</span><span class="hl num">1.0 1.5 .6</span><span class="hl opt">]</span>
+				draw<span class="hl opt">-</span>face p1
+			<span class="hl opt">]</span>
+			button <span class="hl str">&quot;Simulate&quot;</span> do <span class="hl opt">[</span>
+				<span class="hl kwa">repeat</span> n <span class="hl num">100</span> <span class="hl opt">[</span>
+					set<span class="hl opt">-</span>face p1 to percent<span class="hl opt">!</span> n <span class="hl opt">/</span> <span class="hl num">100</span>
+					show p1<span class="hl opt">/</span>gob <span class="hl opt">;</span> optimized
+					wait <span class="hl num">.01</span> <span class="hl opt">;</span> Temporary <span class="hl opt">-</span> REMOVE <span class="hl opt">!!</span>
+				<span class="hl opt">]</span>
+			<span class="hl opt">]</span>
+			button <span class="hl str">&quot;Lo limit&quot;</span> set <span class="hl str">'p1 -10%</span>
+<span class="hl str">			button &quot;Hi limit&quot; set '</span>p1 <span class="hl num">150</span><span class="hl opt">%</span>
+		<span class="hl opt">]</span>
+		text <span class="hl str">&quot;Bar of different color:&quot;</span>
+		p2<span class="hl opt">:</span> progress gold
+		button <span class="hl str">&quot;Check color&quot;</span> set <span class="hl str">'p2 50%</span>
+<span class="hl str">	]</span>
+<span class="hl str"></span>
+<span class="hl str">	&quot;Slider&quot;</span>
+<span class="hl str">	&quot;Numeric slider with attached progress to show actual value.&quot;</span>
+<span class="hl str">	[</span>
+<span class="hl str">		text &quot;Drag this slider to see progress bar change:&quot;</span>
+<span class="hl str">		var: slider attach '</span>prog
+		prog<span class="hl opt">:</span> progress
+		group <span class="hl opt">[</span>
+			button <span class="hl str">&quot;Set 0%&quot;</span>   set <span class="hl str">'var 0%</span>
+<span class="hl str">			button &quot;Set 10%&quot;  set '</span>var <span class="hl num">10</span><span class="hl opt">%</span>
+			button <span class="hl str">&quot;Set 50%&quot;</span>  set <span class="hl str">'var 50%</span>
+<span class="hl str">			button &quot;Set 100%&quot; set '</span>var <span class="hl num">100</span><span class="hl opt">%</span>
+		<span class="hl opt">]</span>
+		panel <span class="hl num">2</span> <span class="hl opt">[</span>
+			text <span class="hl str">&quot;Within another offset...&quot;</span>
+			slider green attach <span class="hl str">'prog</span>
+<span class="hl str">		] options [max-size: 1000x50]</span>
+<span class="hl str">	]</span>
+<span class="hl str"></span>
+<span class="hl str">	&quot;Dragger&quot;</span>
+<span class="hl str">	&quot;Drag test of two kinds of boxes, one bounded the other unbounded.&quot;</span>
+<span class="hl str">	[</span>
+<span class="hl str">		doc {</span>
+<span class="hl str">			===Drag the boxes</span>
+<span class="hl str"></span>
+<span class="hl str">			Blue boxes are unbounded.</span>
+<span class="hl str"></span>
+<span class="hl str">			Red boxes are parent panel bounded.</span>
+<span class="hl str">		}</span>
+<span class="hl str">		d1: free-drag</span>
+<span class="hl str">		d4: lock-drag red</span>
+<span class="hl str">		panel 0 80.200.80.80 [</span>
+<span class="hl str">			d2: free-drag</span>
+<span class="hl str">			d3: lock-drag red</span>
+<span class="hl str">		]</span>
+<span class="hl str">	]</span>
+<span class="hl str"></span>
+<span class="hl str">	&quot;Scroller&quot;</span>
+<span class="hl str">	&quot;Scrollbar with readout of value, settings for delta and value. Example panel with controls.&quot;</span>
+<span class="hl str">	[</span>
+<span class="hl str">		group 1 [</span>
+<span class="hl str">			; Use a group here to avoid scroller changing all ON-SCROLL related faces</span>
+<span class="hl str">			sbar: scroller attach '</span>prog
+			prog<span class="hl opt">:</span> progress
+		<span class="hl opt">]</span>
+		panel <span class="hl num">80.200.180.80</span> <span class="hl opt">[</span>
+			text <span class="hl str">&quot;These attached faces SET the above scroller:&quot;</span>
+			slider attach <span class="hl str">'sbar</span>
+<span class="hl str">			scroller attach '</span>sbar
+		<span class="hl opt">]</span>
+		group <span class="hl num">3</span> <span class="hl opt">[</span>
+			radio <span class="hl str">&quot;Delta 10%&quot;</span> on set <span class="hl str">'sbar '</span>delta <span class="hl num">10</span><span class="hl opt">%</span>
+			radio <span class="hl str">&quot;Delta 50%&quot;</span>  set <span class="hl str">'sbar '</span>delta <span class="hl num">50</span><span class="hl opt">%</span>
+			radio <span class="hl str">&quot;Delta 100%&quot;</span> set <span class="hl str">'sbar '</span>delta <span class="hl num">100</span><span class="hl opt">%</span>
+			button <span class="hl str">&quot;Set 0%&quot;</span>    set <span class="hl str">'sbar 0%</span>
+<span class="hl str">			button &quot;Set 10%&quot;   set '</span>sbar <span class="hl num">10</span><span class="hl opt">%</span>
+			button <span class="hl str">&quot;Set 50%&quot;</span>   set <span class="hl str">'sbar 50%</span>
+<span class="hl str">			button &quot;Set 90%&quot;   set '</span>sbar <span class="hl num">90</span><span class="hl opt">%</span>
+			button <span class="hl str">&quot;Set 100%&quot;</span>  set <span class="hl str">'sbar 100%</span>
+<span class="hl str">			button &quot;Set 150%&quot;  set '</span>sbar <span class="hl num">150</span><span class="hl opt">%</span>
+		<span class="hl opt">]</span>
+		tight <span class="hl num">2</span> <span class="hl opt">[</span>
+			bc<span class="hl opt">:</span> box<span class="hl opt">-</span>cross
+			scroller attach <span class="hl str">'bc '</span>valy
+			scroller attach <span class="hl str">'bc '</span>valx
+		<span class="hl opt">]</span>
+	<span class="hl opt">]</span>
+
+	<span class="hl str">&quot;Text View&quot;</span>
+	<span class="hl str">&quot;Variety of text outputs, including richtext and scrolling text within panels.&quot;</span>
+	<span class="hl opt">[</span>
+		text <span class="hl str">&quot;This is plain text - from a string&quot;</span>
+		text <span class="hl opt">[</span><span class="hl str">&quot;This is &quot;</span> bold <span class="hl str">&quot;bold rich-text&quot;</span> drop italic <span class="hl str">&quot; - from a block&quot;</span><span class="hl opt">]</span>
+		text <span class="hl opt">[</span>red <span class="hl str">&quot;This is red &quot;</span> bold <span class="hl str">&quot;bold rich-text&quot;</span> drop drop black italic <span class="hl str">&quot; - from a block&quot;</span><span class="hl opt">]</span>
+		tight <span class="hl opt">[</span>
+			ts<span class="hl opt">:</span> text<span class="hl opt">-</span><span class="hl kwd">box</span> <span class="hl opt">(</span>form now<span class="hl opt">)</span>
+			scroller
+		<span class="hl opt">]</span>
+		group <span class="hl num">4</span> <span class="hl opt">[</span>
+			button <span class="hl str">&quot;Small&quot;</span>  set <span class="hl str">'ts [&quot;version is&quot; system/version &quot;on&quot; now]</span>
+<span class="hl str">			button &quot;Medium&quot; set '</span><span class="hl kwd">ts</span> <span class="hl opt">(</span>form system<span class="hl opt">/</span>standard<span class="hl opt">)</span>
+			button <span class="hl str">&quot;Huge&quot;</span>   set <span class="hl str">'ts (form system)</span>
+<span class="hl str">			button &quot;reset&quot;  reset '</span>ts
+			button <span class="hl str">&quot;Goto 0&quot;</span> do <span class="hl opt">[</span>set<span class="hl opt">-</span>face<span class="hl opt">/</span>field ts <span class="hl num">0</span> <span class="hl str">'locate]</span>
+<span class="hl str">			button &quot;Goto 500&quot; do [set-face/field ts 500 '</span>locate<span class="hl opt">]</span>
+			button <span class="hl str">&quot;Goto 5000&quot;</span> do <span class="hl opt">[</span>set<span class="hl opt">-</span>face<span class="hl opt">/</span>field ts <span class="hl num">5000</span> <span class="hl str">'locate]</span>
+<span class="hl str">			button &quot;Goto tail&quot; do [set-face/field ts tail get-face ts '</span>locate<span class="hl opt">]</span>
+		<span class="hl opt">]</span>
+		info <span class="hl str">&quot;Info text field.&quot;</span>
+	<span class="hl opt">]</span>
+
+	<span class="hl str">&quot;Text Edit&quot;</span>
+	<span class="hl str">&quot;Text edit fields and areas. Allows keyboard input and control.&quot;</span>
+	<span class="hl opt">[</span>
+		field <span class="hl str">&quot;text field&quot;</span>
+		field <span class="hl str">&quot;second field - reset on enter&quot;</span> reset
+		<span class="hl kwd">area</span> <span class="hl opt">(</span>form system<span class="hl opt">/</span>options<span class="hl opt">)</span>
+		<span class="hl kwd">area</span> <span class="hl opt">(</span>form system<span class="hl opt">/</span>standard<span class="hl opt">)</span>
+		button <span class="hl str">&quot;Get&quot;</span> do <span class="hl opt">[</span>probe get<span class="hl opt">-</span>face parent<span class="hl opt">-</span>face? face<span class="hl opt">]</span>
+	<span class="hl opt">]</span>
+
+	<span class="hl str">&quot;Drawing&quot;</span>
+	<span class="hl str">&quot;Scalar vector drawings and pixel-based images.&quot;</span>
+	<span class="hl opt">[</span>
+		drawing <span class="hl num">200</span>x200 <span class="hl opt">[</span>
+			pen silver
+			line<span class="hl opt">-</span>width <span class="hl num">4</span>
+			grad<span class="hl opt">-</span>pen radial <span class="hl num">0 200</span> <span class="hl opt">[</span><span class="hl num">0.0.100 100.0.0</span><span class="hl opt">]</span>
+			box <span class="hl num">3</span>x3 <span class="hl num">190</span>x190 <span class="hl num">5</span>
+			scale <span class="hl num">.5 .5</span>
+			pen snow
+			line<span class="hl opt">-</span>width <span class="hl num">4</span>
+			fill<span class="hl opt">-</span>pen red
+			arc <span class="hl num">204</span>x204 <span class="hl num">150</span>x150   <span class="hl num">0  90</span> closed
+			fill<span class="hl opt">-</span>pen green
+			arc <span class="hl num">196</span>x204 <span class="hl num">150</span>x150  <span class="hl num">90  30</span> closed
+			fill<span class="hl opt">-</span>pen blue
+			arc <span class="hl num">180</span>x190 <span class="hl num">150</span>x150 <span class="hl num">120 150</span> closed
+			fill<span class="hl opt">-</span>pen yellow
+			arc <span class="hl num">204</span>x196 <span class="hl num">150</span>x150 <span class="hl num">270  90</span> closed
+		<span class="hl opt">]</span>
+		group <span class="hl opt">[</span>
+			drawing <span class="hl opt">[</span>
+				pen black
+				line<span class="hl opt">-</span>width <span class="hl num">2.7</span>
+				fill<span class="hl opt">-</span>pen red
+				circle <span class="hl num">50</span>x50 <span class="hl num">40</span>
+			<span class="hl opt">]</span> print <span class="hl str">&quot;clicked!&quot;</span>
+			drawing <span class="hl num">200</span>x100 <span class="hl opt">[</span>
+				pen black
+				<span class="hl opt">;</span>box
+				line<span class="hl opt">-</span>width <span class="hl num">2.7</span>
+				fill<span class="hl opt">-</span>pen lime
+				circle <span class="hl num">50</span>x50 <span class="hl num">40</span>
+				fill<span class="hl opt">-</span>pen red
+				grad<span class="hl opt">-</span>pen radial <span class="hl num">150</span>x50 <span class="hl num">0 50</span> <span class="hl opt">[</span><span class="hl num">255.0.0 0.255.0</span><span class="hl opt">]</span>
+				circle <span class="hl num">150</span>x50 <span class="hl num">40</span>
+				pen snow
+				line<span class="hl opt">-</span>width <span class="hl num">4</span>
+				arrow <span class="hl num">1</span>x2 snow
+				fill<span class="hl opt">-</span>pen off
+				curve <span class="hl num">60</span>x40 <span class="hl num">100</span>x0 <span class="hl num">150</span>x50
+			<span class="hl opt">]</span>
+		<span class="hl opt">]</span>
+		text <span class="hl str">&quot;Note: below requires image loaders&quot;</span>
+		group <span class="hl num">2</span><span class="hl opt">[</span>
+			image print <span class="hl str">'image1</span>
+<span class="hl str">			image print '</span>image2
+		<span class="hl opt">]</span>
+	<span class="hl opt">]</span>
+
+	<span class="hl str">&quot;Draw It&quot;</span>
+	<span class="hl str">&quot;Tests interactive drawing. Click and drag to draw new shapes.&quot;</span>
+	<span class="hl opt">[</span>
+		group <span class="hl opt">[</span>
+			group <span class="hl num">1</span> <span class="hl opt">[</span>
+				radio <span class="hl str">&quot;Box&quot;</span> on do <span class="hl opt">[</span>set<span class="hl opt">-</span>facet pb <span class="hl str">'mode '</span>box<span class="hl opt">]</span>
+				radio <span class="hl str">&quot;Circle&quot;</span> do <span class="hl opt">[</span>set<span class="hl opt">-</span>facet pb <span class="hl str">'mode '</span>circle<span class="hl opt">]</span>
+				radio <span class="hl str">&quot;Line&quot;</span> do <span class="hl opt">[</span>set<span class="hl opt">-</span>facet pb <span class="hl str">'mode '</span>line<span class="hl opt">]</span>
+				bar
+				group <span class="hl num">2</span> <span class="hl opt">[</span>
+					<span class="hl opt">;&lt;-</span>need color<span class="hl opt">-</span>chip style
+					color<span class="hl opt">-</span>chip black alert <span class="hl str">&quot;Need color requestor&quot;</span>
+					text <span class="hl str">&quot;Line color&quot;</span>
+					color<span class="hl opt">-</span>chip leaf alert <span class="hl str">&quot;Need color requestor&quot;</span>
+					text <span class="hl str">&quot;Fill color&quot;</span>
+				<span class="hl opt">]</span>
+				text <span class="hl str">&quot;Line width:&quot;</span> <span class="hl num">100</span>x16
+				slider <span class="hl num">100</span>x20 do <span class="hl opt">[</span>set<span class="hl opt">-</span>facet pb <span class="hl str">'line-size 30 * value draw-face pb]</span>
+<span class="hl str">				text &quot;Box rounding:&quot; 100x16</span>
+<span class="hl str">				slider 100x20 do [set-facet pb '</span>corner <span class="hl num">30</span> <span class="hl opt">*</span> value draw<span class="hl opt">-</span>face pb<span class="hl opt">]</span>
+				pad
+				button <span class="hl str">&quot;Undo&quot;</span> do <span class="hl opt">[</span>do<span class="hl opt">-</span>style pb <span class="hl str">'on-undo none]</span>
+<span class="hl str">				button &quot;Help&quot; browse http://www.rebol.net/wiki/R3_GUI</span>
+<span class="hl str">			] options [max-size: 100x1000]</span>
+<span class="hl str">			pb: draw-box</span>
+<span class="hl str">		]</span>
+<span class="hl str">	]</span>
+<span class="hl str"></span>
+<span class="hl str">	&quot;Text-List&quot;</span>
+<span class="hl str">	&quot;A mini system browser using text lists.&quot;</span>
+<span class="hl str">	[</span>
+<span class="hl str">		group [ </span>
+<span class="hl str">			t1: text-list (words-of system) do [</span>
+<span class="hl str">				if integer? value [</span>
+<span class="hl str">					section: select system face/facets/contents/:value</span>
+<span class="hl str">					either object? section [</span>
+<span class="hl str">						set-face/field t2 words-of section '</span>list
+						set<span class="hl opt">-</span>face tb <span class="hl str">&quot;(object)&quot;</span>
+					<span class="hl opt">][</span>
+						set<span class="hl opt">-</span>face tb mold section
+					<span class="hl opt">]</span>
+				<span class="hl opt">]</span>
+			<span class="hl opt">]</span>
+			t2<span class="hl opt">:</span> text<span class="hl opt">-</span>list do <span class="hl opt">[</span>
+				all <span class="hl opt">[</span>
+					integer? value
+					integer? v<span class="hl opt">:</span> get<span class="hl opt">-</span>face t1
+					object? s<span class="hl opt">:</span> select system pick words<span class="hl opt">-</span>of system v <span class="hl opt">;</span>bogus<span class="hl opt">!</span>
+					set<span class="hl opt">-</span>face tb mold select s pick words<span class="hl opt">-</span>of s value
+				<span class="hl opt">]</span>
+			<span class="hl opt">]</span>
+			tb<span class="hl opt">:</span> text<span class="hl opt">-</span>box <span class="hl str">&quot;(value)&quot;</span>
+		<span class="hl opt">]</span>
+	<span class="hl opt">]</span>
+
+	<span class="hl str">&quot;Sub-Panel&quot;</span>
+	<span class="hl str">&quot;Scrolling subpanel of fixed size. Can be scrolled vertically and horizontally.&quot;</span>
+	<span class="hl opt">[</span>
+		group <span class="hl num">2</span> <span class="hl opt">[</span>
+			sub<span class="hl opt">-</span>pan<span class="hl opt">:</span> plane
+			scroller
+			scroller
+		<span class="hl opt">]</span>
+		when <span class="hl opt">[</span>enter<span class="hl opt">]</span> do <span class="hl opt">[</span>
+			blk<span class="hl opt">:</span> make block<span class="hl opt">!</span> <span class="hl num">10</span>
+			fields<span class="hl opt">:</span> system<span class="hl opt">/</span>catalog<span class="hl opt">/</span>datatypes
+			<span class="hl kwa">repeat</span> n <span class="hl num">60</span> <span class="hl opt">[</span>
+				append2 blk <span class="hl str">'label ajoin [&quot;Field &quot; n]</span>
+<span class="hl str">				append2 blk '</span>field form first<span class="hl opt">+</span> fields
+				append2 blk <span class="hl str">'button &quot;Change&quot;</span>
+<span class="hl str">			]</span>
+<span class="hl str">			test-sub-pan: make-panel '</span>group blk <span class="hl opt">[</span>
+				size<span class="hl opt">:</span> <span class="hl num">800</span>x2000
+				margin<span class="hl opt">:</span> <span class="hl num">10</span>x10
+				columns<span class="hl opt">:</span> <span class="hl num">3</span>
+			<span class="hl opt">]</span>
+			view<span class="hl opt">-</span>panel sub<span class="hl opt">-</span>pan test<span class="hl opt">-</span>sub<span class="hl opt">-</span>pan
+			<span class="hl opt">;</span> Bug<span class="hl opt">:</span> something causes view to update before it<span class="hl str">'s ready !!</span>
+<span class="hl str">			; (note that you see the panel, then the switch effect)</span>
+<span class="hl str">		]</span>
+<span class="hl str">	]</span>
+<span class="hl str"></span>
+<span class="hl str">	&quot;Forms&quot;</span>
+<span class="hl str">	&quot;Test of simple form, getting and setting fields too.&quot;</span>
+<span class="hl str">	[</span>
+<span class="hl str">		pan: group 2 [</span>
+<span class="hl str">			label &quot;First name:&quot;</span>
+<span class="hl str">			f1: field</span>
+<span class="hl str">			label &quot;Last name:&quot;</span>
+<span class="hl str">			field</span>
+<span class="hl str">			label &quot;City:&quot;</span>
+<span class="hl str">			field</span>
+<span class="hl str">			label &quot;Email address:&quot;</span>
+<span class="hl str">			field</span>
+<span class="hl str">			label &quot;Platform:&quot;</span>
+<span class="hl str">			group [</span>
+<span class="hl str">				radio &quot;Windows&quot; on</span>
+<span class="hl str">				radio &quot;OS X&quot;</span>
+<span class="hl str">				radio &quot;Linux&quot;</span>
+<span class="hl str">				radio &quot;Amiga&quot;</span>
+<span class="hl str">			]</span>
+<span class="hl str">			label &quot;Status&quot;</span>
+<span class="hl str">			check &quot;First class reboler.&quot;</span>
+<span class="hl str">			label &quot;Time stamp:&quot;</span>
+<span class="hl str">			time: field silver</span>
+<span class="hl str">			label &quot;&quot;</span>
+<span class="hl str">			group 2 [</span>
+<span class="hl str">				button &quot;Set All&quot;</span>
+<span class="hl str">					set '</span>pan <span class="hl opt">[</span><span class="hl str">&quot;Roy&quot;</span> <span class="hl str">&quot;Rebol&quot;</span> <span class="hl str">&quot;Ukiah&quot;</span> <span class="hl str">&quot;reb&#64;example&quot;</span><span class="hl opt">]</span>
+					do <span class="hl opt">[</span>set<span class="hl opt">-</span>face time now<span class="hl opt">]</span>
+				button <span class="hl str">&quot;Clear All&quot;</span> clear <span class="hl str">'pan</span>
+<span class="hl str">				button &quot;Submit&quot; submit '</span>pan
+				button <span class="hl str">&quot;Reset&quot;</span>  alert <span class="hl str">&quot;Reset not yet defined.&quot;</span>
+				button <span class="hl str">&quot;Set Time&quot;</span> do <span class="hl opt">[</span>set<span class="hl opt">-</span>face time now<span class="hl opt">]</span>
+				button <span class="hl str">&quot;Get Time&quot;</span> submit <span class="hl str">'time</span>
+<span class="hl str">			]</span>
+<span class="hl str">			when [enter]</span>
+<span class="hl str">				clear '</span>pan
+				do <span class="hl opt">[</span>set<span class="hl opt">-</span>face time now<span class="hl opt">]</span>
+				focus <span class="hl str">'f1</span>
+<span class="hl str">		]</span>
+<span class="hl str">	]</span>
+<span class="hl str"></span>
+<span class="hl str">	&quot;Document&quot;</span>
+<span class="hl str">	&quot;Simple document markup method that uses MakeDoc format.&quot;</span>
+<span class="hl str">	[</span>
+<span class="hl str">		group [</span>
+<span class="hl str">			doc {</span>
+<span class="hl str">				===About the DOC style:</span>
+<span class="hl str"></span>
+<span class="hl str">				This is an example of the DOC style. It is a &lt;b&gt;simple</span>
+<span class="hl str">				rich-text document markup method&lt;/b&gt; to easily format</span>
+<span class="hl str">				and display notes, instructions, and comments within</span>
+<span class="hl str">				your GUIs.</span>
+<span class="hl str"></span>
+<span class="hl str">				===Basic usage:</span>
+<span class="hl str"></span>
+<span class="hl str">				The DOC style uses the same basic rules as &lt;b&gt;MakeDoc&lt;/b&gt;.</span>
+<span class="hl str"></span>
+<span class="hl str">				This is a line of paragraph text.</span>
+<span class="hl str">				Its source lines are automatically combined and wrapped.</span>
+<span class="hl str"></span>
+<span class="hl str">				A blank line starts a new paragraph.</span>
+<span class="hl str">				(This is good method, because it allows paragraphs to</span>
+<span class="hl str">				be independent of line length and wrapping. It also</span>
+<span class="hl str">				makes the source text more clear.)</span>
+<span class="hl str"></span>
+<span class="hl str">				===Other features:</span>
+<span class="hl str"></span>
+<span class="hl str">				You can use &lt;b&gt;bold&lt;/b&gt; and &lt;i&gt;italic&lt;/i&gt; markup just</span>
+<span class="hl str">				like in HTML (with tags).</span>
+<span class="hl str"></span>
+<span class="hl str">				A line that begins with === is a title:</span>
+<span class="hl str"></span>
+<span class="hl str">					===New Heading</span>
+<span class="hl str"></span>
+<span class="hl str">				To show code, just indent it.</span>
+<span class="hl str"></span>
+<span class="hl str">					Code is not wrapped.</span>
+<span class="hl str">					It is shown in a fixed-width font [</span>
+<span class="hl str">						so that</span>
+<span class="hl str">						its indentation</span>
+<span class="hl str">						is preserved</span>
+<span class="hl str">					]</span>
+<span class="hl str"></span>
+<span class="hl str">				The DOC style will be expanded in the future.</span>
+<span class="hl str">				But, not to the extreme.</span>
+<span class="hl str"></span>
+<span class="hl str">				&lt;em&gt;Click the source button below to see the source</span>
+<span class="hl str">				for this test.&lt;/em&gt;</span>
+<span class="hl str">			}</span>
+<span class="hl str">			scroller</span>
+<span class="hl str">		]</span>
+<span class="hl str">	]</span>
+<span class="hl str"></span>
+<span class="hl str">	&quot;Clock&quot;</span>
+<span class="hl str">	&quot;Here is an example of a custom style that draws an analog clock face.&quot;</span>
+<span class="hl str">	[</span>
+<span class="hl str">		panel coal 240x320 [</span>
+<span class="hl str">			clk: clock</span>
+<span class="hl str">			group 2 [</span>
+<span class="hl str">				button &quot;10:20:30&quot; do [set-face clk 10:20:30]</span>
+<span class="hl str">				button &quot;Random&quot; do [set-face clk random 12:00]</span>
+<span class="hl str">				button &quot;Now&quot;   do [set-face clk now]</span>
+<span class="hl str">				button &quot;Spin&quot; do [</span>
+<span class="hl str">					loop 60 [</span>
+<span class="hl str">						set-face clk 1:02:04 + get-face clk</span>
+<span class="hl str">						show-now</span>
+<span class="hl str">						wait 1 / 60</span>
+<span class="hl str">					]</span>
+<span class="hl str">				]</span>
+<span class="hl str">				button &quot;Reset&quot; reset '</span>clk
+			<span class="hl opt">]</span>
+		<span class="hl opt">]</span>
+	<span class="hl opt">]</span>
+
+<span class="hl opt">;</span>	<span class="hl str">&quot;Charts&quot;</span>
+<span class="hl opt">;</span>	<span class="hl str">&quot;Bar charts and pie charts.&quot;</span>
+<span class="hl opt">;	[</span>
+<span class="hl opt">;</span>		text <span class="hl str">&quot;Pending&quot;</span>
+<span class="hl opt">;		;</span> graph <span class="hl opt">[],</span> chart<span class="hl opt">,</span> diagram <span class="hl opt">[]</span>
+<span class="hl opt">;	]</span>
+
+	<span class="hl str">&quot;Triggers&quot;</span>
+	<span class="hl str">&quot;Tests various triggers. Special testing required.&quot;</span>
+	<span class="hl opt">[</span>
+		text <span class="hl str">&quot;Triggers (When events):&quot;</span>
+		trig1<span class="hl opt">:</span> check <span class="hl str">&quot;Triggered on load&quot;</span>
+		when <span class="hl opt">[</span>load<span class="hl opt">]</span> set <span class="hl str">'trig1 true</span>
+<span class="hl str"></span>
+<span class="hl str">		trig2: check &quot;Triggered on view&quot;</span>
+<span class="hl str">		when [enter] set '</span>trig2 true
+
+		trig3<span class="hl opt">:</span> check <span class="hl str">&quot;Triggered on exit&quot;</span>
+		when <span class="hl opt">[</span>exit<span class="hl opt">]</span> set <span class="hl str">'trig3 true</span>
+<span class="hl str">	]</span>
+<span class="hl str"></span>
+<span class="hl str">	&quot;Reactors&quot;</span>
+<span class="hl str">	&quot;Tests that reactors do what they are supposed to.&quot;</span>
+<span class="hl str">	[</span>
+<span class="hl str">		panel 2 [</span>
+<span class="hl str">			button &quot;Do&quot; do [request &quot;Got it!&quot; &quot;It worked.&quot;]</span>
+<span class="hl str">			button &quot;Browse&quot; browse http://www.rebol.com</span>
+<span class="hl str">			button &quot;Run&quot; run %explorer</span>
+<span class="hl str">			button &quot;Alert&quot; alert &quot;This is an alert.&quot;</span>
+<span class="hl str">		]</span>
+<span class="hl str">		panel 2 [</span>
+<span class="hl str">			f1: field &quot;Field 1&quot;</span>
+<span class="hl str">			f2: field &quot;Field 2&quot;</span>
+<span class="hl str">			button &quot;Focus on 1&quot; focus '</span>f1
+			button <span class="hl str">&quot;Focus on 2&quot;</span> focus <span class="hl str">'f2</span>
+<span class="hl str">		]</span>
+<span class="hl str">		panel 2 [</span>
+<span class="hl str">			button &quot;Close&quot; close</span>
+<span class="hl str">			button &quot;Halt&quot; halt</span>
+<span class="hl str">			button &quot;Quit&quot; quit</span>
+<span class="hl str">			button &quot;?&quot;</span>
+<span class="hl str">			button &quot;Print&quot; print &quot;print this message&quot;</span>
+<span class="hl str">			button &quot;Dump&quot; dump</span>
+<span class="hl str">		]</span>
+<span class="hl str">	]</span>
+<span class="hl str"></span>
+<span class="hl str">	&quot;Windows&quot;</span>
+<span class="hl str">	&quot;Test basic window options and actions. Note differences in event handling.&quot;</span>
+<span class="hl str">	[</span>
+<span class="hl str">		group 2 [</span>
+<span class="hl str">			button &quot;simple view&quot; do [</span>
+<span class="hl str">				view [title &quot;Simple window with title&quot; button &quot;Close&quot; close]</span>
+<span class="hl str">			]</span>
+<span class="hl str">			text &quot;Really simple window&quot;</span>
+<span class="hl str">			button &quot;view/across&quot; do [</span>
+<span class="hl str">				view/across [title &quot;Layout across&quot; button &quot;Close&quot; close]</span>
+<span class="hl str">			]</span>
+<span class="hl str">			text &quot;Layout horizontally&quot;</span>
+<span class="hl str">			button &quot;view/options&quot; do [</span>
+<span class="hl str">				view/options [</span>
+<span class="hl str">					title &quot;View with options&quot;</span>
+<span class="hl str">					text &quot;Options: size, color, margin, offset&quot;</span>
+<span class="hl str">					button &quot;Close&quot; close</span>
+<span class="hl str">				][</span>
+<span class="hl str">					size: 300x300</span>
+<span class="hl str">					area-color: silver</span>
+<span class="hl str">					margin: 10x50</span>
+<span class="hl str">					offset: '</span>top<span class="hl opt">-</span>left
+				<span class="hl opt">]</span>
+			<span class="hl opt">]</span>
+			text <span class="hl str">&quot;Tries special options&quot;</span>
+			button <span class="hl str">&quot;view/modal&quot;</span> do <span class="hl opt">[</span>
+				view<span class="hl opt">/</span>modal <span class="hl opt">[</span>title <span class="hl str">&quot;Modal popup&quot;</span> button <span class="hl str">&quot;Close&quot;</span> close<span class="hl opt">]</span>
+			<span class="hl opt">]</span>
+			text <span class="hl str">&quot;Block events to other windows&quot;</span>
+		<span class="hl opt">]</span>
+		bar
+		group <span class="hl num">2</span> <span class="hl opt">[</span>
+			button <span class="hl str">&quot;simple gob&quot;</span> do <span class="hl opt">[</span>
+				view make gob<span class="hl opt">! [</span>
+					size<span class="hl opt">:</span> <span class="hl num">300</span>x300
+					draw<span class="hl opt">: [</span>
+						pen white
+						fill<span class="hl opt">-</span>pen red
+						circle <span class="hl num">150</span>x150 <span class="hl num">100</span>
+						text <span class="hl opt">[</span><span class="hl str">&quot;Simple GOB - no background&quot;</span><span class="hl opt">]</span>
+					<span class="hl opt">]</span>
+				<span class="hl opt">]</span>
+			<span class="hl opt">]</span>
+			text <span class="hl str">&quot;A raw GOB with DRAW block&quot;</span>
+			button <span class="hl str">&quot;options gob&quot;</span> do <span class="hl opt">[</span>
+				view<span class="hl opt">/</span>options make gob<span class="hl opt">! [</span>
+					size<span class="hl opt">:</span> <span class="hl num">300</span>x300
+					draw<span class="hl opt">: [</span>
+						pen white
+						fill<span class="hl opt">-</span>pen red
+						circle <span class="hl num">150</span>x150 <span class="hl num">100</span>
+						text <span class="hl opt">[</span>white <span class="hl str">&quot;Simple GOB w/background&quot;</span><span class="hl opt">]</span>
+					<span class="hl opt">]</span>
+				<span class="hl opt">][</span>
+					offset<span class="hl opt">:</span> <span class="hl str">'top-right</span>
+<span class="hl str">					color: navy</span>
+<span class="hl str">				]</span>
+<span class="hl str">			]</span>
+<span class="hl str">			text &quot;Raw gob with a few options&quot;</span>
+<span class="hl str">		]</span>
+<span class="hl str">	]</span>
+<span class="hl str"></span>
+<span class="hl str">	&quot;Requestors&quot;</span>
+<span class="hl str">	&quot;Requestor functions and results.&quot;</span>
+<span class="hl str">	[</span>
+<span class="hl str">		group 2 [</span>
+<span class="hl str">			button &quot;Ok&quot; do [</span>
+<span class="hl str">				set-face r0 request &quot;Command:&quot; &quot;Click OK to set checkmark.&quot;</span>
+<span class="hl str">			]</span>
+<span class="hl str">			r0: check &quot;OK was clicked&quot;</span>
+<span class="hl str">			button &quot;Ask&quot; do [</span>
+<span class="hl str">				set-face r1 request/ask &quot;Question:&quot; &quot;Click yes to set the checkmark.&quot;</span>
+<span class="hl str">			]</span>
+<span class="hl str">			r1: check &quot;YES was clicked&quot;</span>
+<span class="hl str">		]</span>
+<span class="hl str">	]</span>
+<span class="hl str"></span>
+<span class="hl str">	&quot;Read HTTP&quot;</span>
+<span class="hl str">	&quot;Read via HTTP from a website and display HTTP source here.&quot;</span>
+<span class="hl str">	[</span>
+<span class="hl str">		when [load] do [</span>
+<span class="hl str">			read-site: funct [site] [</span>
+<span class="hl str">				set-face i1 dt [set-face t1 to-string read site] ; as UTF-8 !</span>
+<span class="hl str">			]</span>
+<span class="hl str">		]</span>
+<span class="hl str">		group [</span>
+<span class="hl str">			toggle &quot;REBOL.com&quot; of '</span>site do <span class="hl opt">[</span>read<span class="hl opt">-</span>site http<span class="hl opt">://</span>www<span class="hl opt">.</span>rebol<span class="hl opt">.</span>com<span class="hl opt">]</span>
+			toggle <span class="hl str">&quot;REBOL.net&quot;</span> of <span class="hl str">'site do [read-site http://www.rebol.net]</span>
+<span class="hl str">			toggle &quot;REBOL.org&quot; of '</span>site do <span class="hl opt">[</span>read<span class="hl opt">-</span>site http<span class="hl opt">://</span>www<span class="hl opt">.</span>rebol<span class="hl opt">.</span>org<span class="hl opt">]</span>
+		<span class="hl opt">]</span>
+		t1<span class="hl opt">:</span> code<span class="hl opt">-</span>area <span class="hl opt">;!!</span>BUG <span class="hl opt">-</span> size does not expand<span class="hl opt">!!</span>
+		group <span class="hl opt">[</span>
+			<span class="hl opt">;!!</span>NEED <span class="hl opt">-</span> auto<span class="hl opt">-</span>width <span class="hl kwd">text</span> <span class="hl opt">(</span>expands to necessary size<span class="hl opt">)</span>
+			text <span class="hl str">&quot;Elapsed time:&quot;</span> <span class="hl num">90</span>x20
+			i1<span class="hl opt">:</span> info
+		<span class="hl opt">]</span>
+		bar
+		button <span class="hl str">&quot;Run script from net&quot;</span> do <span class="hl opt">[</span>
+			file<span class="hl opt">: %</span>web3works<span class="hl opt">.</span>r
+			write file read join http<span class="hl opt">://</span>www<span class="hl opt">.</span>rebol<span class="hl opt">.</span>com<span class="hl opt">/</span>r3<span class="hl opt">/</span> file
+			launch file
+		<span class="hl opt">]</span>
+		text <span class="hl opt">[</span>italic <span class="hl str">&quot;Requires a direct Internet connection.&quot;</span><span class="hl opt">]</span>
+	<span class="hl opt">]</span>
+<span class="hl opt">]</span>
+
+
+<span class="hl opt">;</span> Use above TEST block to generate the GUI and buttons<span class="hl opt">:</span>
+
+test<span class="hl opt">-</span>sections<span class="hl opt">: []</span>
+test<span class="hl opt">-</span>notes<span class="hl opt">: []</span>
+test<span class="hl opt">-</span>blocks<span class="hl opt">: []</span>
+
+foreach <span class="hl opt">[</span>title notes content<span class="hl opt">]</span> tests <span class="hl opt">[</span>
+	<span class="hl kwa">if</span> title <span class="hl opt">=</span> <span class="hl str">'end [break]</span>
+<span class="hl str">	append/only test-blocks content</span>
+<span class="hl str">	append test-notes notes</span>
+<span class="hl str">	append test-sections title</span>
+<span class="hl str">]</span>
+<span class="hl str">test-panels: array length? test-blocks</span>
+<span class="hl str"></span>
+<span class="hl str">current-panel: none</span>
+<span class="hl str"></span>
+<span class="hl str">view-sub-panel: funct [</span>
+<span class="hl str">	index</span>
+<span class="hl str">	main-pan</span>
+<span class="hl str">	desc</span>
+<span class="hl str">][</span>
+<span class="hl str">	set '</span>current<span class="hl opt">-</span>panel index
+	set<span class="hl opt">-</span>face desc form pick test<span class="hl opt">-</span>notes index
+	pan<span class="hl opt">:</span> pick test<span class="hl opt">-</span>panels index
+	unless pan <span class="hl opt">[</span>
+		pan<span class="hl opt">:</span> make<span class="hl opt">-</span>panel <span class="hl str">'group pick test-blocks index [columns: 1]</span>
+<span class="hl str">		poke test-panels index pan</span>
+<span class="hl str">	]</span>
+<span class="hl str">	switch-panel main-pan pan '</span>fly<span class="hl opt">-</span>right
+<span class="hl opt">]</span>
+
+view <span class="hl opt">[</span>
+	title <span class="hl str">&quot;R3 GUI Tests&quot;</span>
+	<span class="hl kwd">text</span> <span class="hl opt">(</span>reform <span class="hl opt">[</span><span class="hl str">&quot;R3 V&quot;</span> system<span class="hl opt">/</span>version <span class="hl str">&quot;of&quot;</span> system<span class="hl opt">/</span>build<span class="hl opt">])</span>
+	bar
+	group <span class="hl num">3</span> <span class="hl opt">[</span>
+
+		<span class="hl opt">;</span> List of test sections<span class="hl opt">:</span>
+		text<span class="hl opt">-</span>list test<span class="hl opt">-</span>sections do <span class="hl opt">[</span>view<span class="hl opt">-</span>sub<span class="hl opt">-</span>panel value main<span class="hl opt">-</span>pan desc<span class="hl opt">]</span>
+
+		<span class="hl opt">;</span> Panel <span class="hl kwa">for</span> showing test results<span class="hl opt">:</span>
+		group <span class="hl num">1</span> <span class="hl opt">[</span>
+			desc<span class="hl opt">:</span> text<span class="hl opt">-</span>area <span class="hl str">&quot;Please read the instructions below.&quot;</span>
+			options <span class="hl opt">[</span>
+				max<span class="hl opt">-</span>size<span class="hl opt">:</span> <span class="hl num">2000</span>x40
+				text<span class="hl opt">-</span>style<span class="hl opt">:</span> <span class="hl str">'bold</span>
+<span class="hl str">			]</span>
+<span class="hl str"></span>
+<span class="hl str">			main-pan: panel [</span>
+<span class="hl str">				doc instructions</span>
+<span class="hl str">			] options [min-size: 300x500 max-size: 1000x1000]</span>
+<span class="hl str"></span>
+<span class="hl str">			group [</span>
+<span class="hl str">				button &quot;Source&quot; do [</span>
+<span class="hl str">					either current-panel [</span>
+<span class="hl str">						view-code trim/head mold/only pick test-blocks current-panel</span>
+<span class="hl str">					][</span>
+<span class="hl str">						request &quot;Note:&quot; &quot;Pick a test first.&quot;</span>
+<span class="hl str">					]</span>
+<span class="hl str">				]</span>
+<span class="hl str">				button &quot;Halt&quot; leaf close halt</span>
+<span class="hl str">				button &quot;Quit&quot; maroon quit</span>
+<span class="hl str">				check &quot;Debug&quot;  do [guie/debug: if value [[all]]]</span>
+<span class="hl str">				check &quot;Remind&quot; guie/remind do [guie/remind: value]</span>
+<span class="hl str">			]</span>
+<span class="hl str">		]</span>
+<span class="hl str">	]</span>
+<span class="hl str">	when [enter] do [</span>
+<span class="hl str">		if quick-start [</span>
+<span class="hl str">			if spot: find test-sections quick-start [</span>
+<span class="hl str">				view-sub-panel index? spot main-pan desc  ; for faster testing</span>
+<span class="hl str">			]</span>
+<span class="hl str">		]</span>
+<span class="hl str">		;[request &quot;Alert&quot; instructions]</span>
+<span class="hl str">	]</span>
+<span class="hl str">]</span>
+<span class="hl str">;[reactors: [[moved [save %win-xy.r face/gob/offset]]]]</span>
+<span class="hl str"></span>
+</pre>
+</body>
+</html>
+<!--HTML generated by highlight 3.23, http://www.andre-simon.de/-->

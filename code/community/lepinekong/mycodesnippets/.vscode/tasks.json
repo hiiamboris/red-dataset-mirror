@@ -1,0 +1,18 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "mycodesnippets",
+            "type": "shell",
+            "command": "C:\\rebol\\.system.user\\.data\\.activities\\myCodeSnippets\\.github\\.templates\\run.bat"
+        },
+        {
+            "label": "index",
+            "type": "shell",
+            "command": "C:\\rebol\\.system.user\\.data\\.activities\\myCodeSnippets\\.github\\.templates\\index.bat"
+        }        
+    ]
+
+    

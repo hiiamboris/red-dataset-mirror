@@ -1,0 +1,14 @@
+code, samp, section, nav{
+    display: block;    
+    font-size: 24;
+}
+code {
+    background-color: silver;
+}
+samp {
+    background-color: yellow;
+    white-space: pre;
+}
+section {
+    border-style: double;    
+}

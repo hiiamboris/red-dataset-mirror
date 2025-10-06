@@ -1,0 +1,25 @@
+# REBOL/Core Users Guide 中文版
+
+项目地址：[Github](https://github.com/xtyxtyx/rebol-core-user-guide-23-cn) [Coding镜像](https://coding.net/u/mrkari/p/rebol-core-user-guide-23-cn/git)
+
+### 译者名单
+- 01-Introduction: ( [__](#) )                                                                                                                                    
+- 02-Operation: ( [__](#) )                                                                                                                                       
+- 03-Quick Tour: ( [__](#) )                                                                                                                                      
+- 04-Expressions: ( [__](#) )                                                                                                                                     
+- 05-Scripts: ( [__](#) )                                                                                                                                         
+- 06-Series: ( [__](#) )                                                                                                                                          
+- 07-Block Series: ( [__](#) )                                                                                                                                    
+- 08-String Series: ( [__](#) )                                                                                                                                   
+- 09-Functions: ( [__](#) )                                                                                                                                       
+- 10-Objects: ( [Xuty](#) )                                                                                                                                         
+- 11-Math: ( [__](#) )                                                                                                                                            
+- 12-Files: ( [__](#) )                                                                                                                                           
+- 13-Network Protocols: ( [__](#) )                                                                                                                               
+- 14-Ports: ( [__](#) )                                                                                                                                           
+- 15-Parsing: ( [__](#) )                                                                                                                                         
+- A1-Values: ( [__](#) )                                                                                                                                          
+- A2-Errors: ( [__](#) )                                                                                                                                          
+- A3-Console: ( [__](#) )                                                                                                                                         
+- C1-Changes: ( [__](#) )                                                                                                                                         
+- C2-Updates: ( [__](#) )

@@ -1,0 +1,64 @@
+<html>
+<head>
+    <title>pad</title>
+    
+    <meta charset="utf-8">
+    <meta name='language' content='pl'>
+    
+    <link rel="stylesheet" href="../../../styles/main.css">
+    
+</head>
+<body>
+    <nav>
+      Nawigacja: <br>
+      <a href="#pad">pad</a> <br>
+      <a href="#pad/left">pad/left</a> <br>
+      <a href="#pad/with">pad/with</a> <br>
+      <a href="#pad/left/with">pad/left/with</a> <br>
+    </nav>
+    
+    <section id="pad">
+        <a href="#pad">pad</a> <br>
+        <div class="description">Dodaje spacje po prawej do zFORMowanej wartości. </div>
+        <code>
+            pad "abc" 10
+        </code>
+        <samp>
+            "abc       "
+        </samp>
+    </section>
+    <section id="pad/left">
+        <a href="#pad/left">pad/left</a> <br>
+        <div class="description">Dodaje spacje po lewej stronie.</div>
+        <code>
+            pad/left "abc" 10
+        </code>
+        <samp>
+            "       abc"
+        </samp>
+    </section>
+    <section id="pad/with">
+        <a href="#pad/with">pad/with</a> <br>
+        <div class="description">Używa innego znaku zamiast spacji.</div>
+        <code>
+            pad/with "abc" 10 #"*"
+        </code>
+        <samp>
+            "abc*******"
+        </samp>
+    </section>
+    <section id="pad/left/with">
+        <a href="#pad/left/with">pad/left/with</a> <br>
+        <div class="description">Używa innego znaku i dodaje go po lewej stronie.</div>
+        <code>
+            pad/left/with "abc" 10 #"*"
+        </code>
+        <samp>
+            "*******abc"
+        </samp>
+    </section>
+    
+    <script src="../../../js/clean_tag.js"></script>
+    <script>clean_tag("samp")</script>
+</body>
+</html>

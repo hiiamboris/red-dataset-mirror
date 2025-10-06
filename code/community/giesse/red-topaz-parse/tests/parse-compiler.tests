@@ -1,0 +1,16 @@
+Red [
+    Tests: [%parse-compiler.red]
+]
+
+[mold select compile-parse-rules [integer!] 'rules]
+[mold select compile-parse-rules [collect some [keep integer!]] 'rules]
+[mold select compile-parse-rules [word! into [some word!] word!] 'rules]
+[mold select compile-parse-rules [keep 'something] 'rules]
+[mold select compile-parse-rules [] 'rules]
+[mold select compile-parse-rules [get block!] 'rules]
+[
+    foo: rule [a b] [a ("A matched") | b ("B matched") | ("Neither matched")]
+    mold foo
+]
+[mold compile-parse-rules [foo word! integer!]]
+[mold compile-parse-rules [absolute negate integer!]]

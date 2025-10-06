@@ -1,0 +1,3 @@
+- free to use, modify, build upon
+- no warranties
+- give me some credits (e.g. link to the github)

@@ -1,0 +1,39 @@
+pre
+{
+    background: #000000;
+    overflow-x: auto;
+}
+code
+{
+    font-family: "Consolas", "Courier New", "monospace";
+    tab-size: 4;
+}
+.Red,.native,.op
+{
+    color: #f92672;
+}
+.comment
+{
+    color: #757150;
+}
+.action,.function,.refinement,.datatype
+{
+    font-style: italic;
+    color: #66d9ef;
+}
+.routine
+{
+    color: #66d9ef;
+}
+.char,.pair,.numbers,.logic,.get-word,.lit-word
+{
+    color: #ae81ff
+}
+.string,.issue,.file,.email,.percent,.date,.time
+{
+    color: #e6db74;
+}
+.setters,.others
+{
+    color: #FFFFFF;
+}
