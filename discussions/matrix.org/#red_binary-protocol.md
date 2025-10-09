@@ -3,7 +3,7 @@
 ## 2-Dec-2020
 
 [16:47:57](#SKDfp2GXUQDb13-sOX-HDKGXGu09n-CN905kvac71g0) <hiiamboris (NOT THIS ONE)>:
-@gitter-badger í ½í±€ 
+@gitter-badger ðŸ‘€ 
 
 [17:00:23](#lgsA79o_Wrp38wRXjyG07s-FFky700FLm8Z56TYBY_Q) <greggirwin (Gregg Irwin)>:
 >  protocol buffers supports a lot of types that we don't, like int64 (in general the longer ones)

@@ -17,7 +17,7 @@ What does "freestanding compile target" mean? You can compile EXEs with no depen
 I mean flat binaries and bare-metal target
 
 [19:12:20](#SfnkBuHgGXcCujvp2oXqkjCwuaXCnDksyw9eDD1SFp8) <vazub_gitlab (VaZub)>:
-Assuming I want to go really low-level and do some arcane OS or even BIOS-level development (don't ask why Ì†ΩÌ∏É)
+Assuming I want to go really low-level and do some arcane OS or even BIOS-level development (don't ask why üòÉ)
 
 [19:27:49](#HW3PgJLQc8zPV6xvIQ9tV9GrvvbsVmAgJxbemm2HBHA) <greggirwin (Gregg Irwin)>:
 @BeardPower has already done some of that. Until someone goes down that road a bit, we won't know what features are missing, or most helpful.
@@ -93,7 +93,7 @@ Try `red -c -v 3`
 * Try `red -c -v 3 script.red >output.reds`
 
 [22:21:06](#MG6kpQnBfnqLpyw_FvilQHhw_NanQFRfQ9VaObLPbJc) <hiiamboris (NOT THIS ONE)>:
-that's just looking under the sheets though, won't help optimize anything Ì†ΩÌ∏â
+that's just looking under the sheets though, won't help optimize anything üòâ
 
 [22:46:15](#1bwSveZZra-ewem8OGcLsOIpFeH0LLLoIL2djYrTuRY) <DVL333 (DVL333)>:
 @hiiamboris Thanks!
@@ -131,12 +131,6 @@ I am getting error:
 try moving return to before /local
 
 [19:13:45](#CWPf0JqrpYTwtyo6Eo50j6raeANC1MbbRmqhGat4Eto) <hiiamboris (NOT THIS ONE)>:
-* try moving `return:` to before /local
-
-[19:14:45](#qVwFFTPL39AMDlEvoUDEFLQZjW4JxVVTaWza4jYYPus) <bubnenkoff (Dmitry Bubnenkov)>:
-* try moving `return:` to before /local
-
-[19:17:00](#Ni524HrZpunVacpieST6GKcnM-qXtP1Hj5dYD14eNMU) <bubnenkoff (Dmitry Bubnenkov)>:
 * try moving `return:` to before /local
 
 [19:19:23](#V-chsvZiP7vabshq8WWsqA7vXOS1DuteigrWKx7zbGI) <bubnenkoff (Dmitry Bubnenkov)>:
@@ -695,7 +689,7 @@ to compile: ```red -c --no-runtime rot13.reds```
 
 
 [14:13:02](#RUDIfunHoiXAHDi7038F3GbHL16emFLarcBAhb3fEfs) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ±è
+üëè
 
 [17:31:00](#Dk8IqZiWEYrZ7jZ7EXFdGmitTMi3REcXPj36_OoVYBU) <greggirwin (Gregg Irwin)>:
 Nice!
@@ -784,9 +778,6 @@ I should have thought to mention your CLI @hiiamboris. :^\
 Lol, why not, it's fun. That's what I thought 22 years ago. http://www.rebol.org/view-script.r?script=rot-13.r
 
 [1:48:33](#OpOp8doA1_r1CFFl3Nx6zEzVpsmynnhiHNm-oXTullM) <Rebolforces (Allen Kamp)>:
-* Lol, why not, it's fun. That's what I thought 22 years ago. (I can't believe it was that long ago.) http://www.rebol.org/view-script.r?script=rot-13.r
-
-[8:33:27](#lS9WlUS9D17O2dfHY-KZkHj-wobPTJbu3ssmvaQ0tuk) <ldci (Fran√ßois Jouen)>:
 * Lol, why not, it's fun. That's what I thought 22 years ago. (I can't believe it was that long ago.) http://www.rebol.org/view-script.r?script=rot-13.r
 
 [8:35:32](#pM-cUBcEtVfzyWkokXEhQoF_n4jBeZukiDhCu3YjES8) <ldci (Fran√ßois Jouen)>:
@@ -931,21 +922,6 @@ either blk? [
 ]
 ```
 
-[21:19:13](#JwELljnDdhDRdyIu9YKvXTQHTPCTUp62xeXD6ziTY4o) <ALANVF (theangryepicbanana)>:
-so I'm looking at fixing #5108, and I see this at https://github.com/red/red/blob/master/runtime/datatypes/map.reds#L237
-```red
-blk: block/make-at as red-block! stack/push* size
-if blk? [block/copy as red-block! spec blk null no null]
-```
-if I'm understanding this correctly, would a better solution be this?
-```red
-either blk? [
-	blk: block/clone as red-block! spec no no
-][
-	blk: block/make-at as red-block! stack/push* size
-]
-```
-
 [21:21:18](#ibFZTk89ofw_mzwTqbBedS8tbP18Bywxz_W6rJEL0pk) <ALANVF (theangryepicbanana)>:
 * (though the `as red-block! stack/push* size` seems like it should be `as red-block! spec stack/push* size`, but that's just me since I don't fully understand how the stack works in R/S)
 
@@ -984,9 +960,6 @@ truthy
 blk? that is
 
 ## 12-Jun-2022
-
-[15:25:37](#UfAiEHn3JZ8l-7BjqN6A43byOgWmlbPDDbxbqfzUL5E) <gurzgri>:
-blk? that is
 
 [15:26:18](#8cR3jcnBfwrs6Ot3NxTyEQV0fZsa6tn6km_my2W-X7s) <gurzgri>:
 * As some of you might have seen, I'm working on an implementation of an ODBC port scheme. Which for datasources like PostgreSQL, Intersystems Cach√©, SQL Server, MS Text Driver and MariaDB already works quite nicely.
@@ -1031,7 +1004,7 @@ Sadly, the [minimal example reproducing the issue](https://gist.github.com/gurzg
 
 Funny thing is, that stuff like INSERT, UPDATE and DELETE statements *do work fine* even with SQLite, so it's just the result set returning SELECT statement (and catalog functions) which involves `SQLDescribeColW`/`SQLBindCol` to retrieve results which causes problems. SELECT works fine with other databases/database drivers. But I can't just assume that it's the driver causing the problem - as it works just fine in e.g. WinSQL and DBeaver. I must do something wrong in the most esoteric ways here.
 
-Any ideas, anyone? I've already been spending days researching this ... to no avail Ì†ΩÌ∏ü
+Any ideas, anyone? I've already been spending days researching this ... to no avail üòü
 
 [16:10:19](#VocuVoRzyaK8w-JW3qjzrYvIkVXP2_kQOnWUPelVkhU) <gurzgri>:
 * As some of you might have seen, I'm working on an implemation of an ODBC port scheme. Which for datasources like PostgreSQL, Intersystems Cach√©, SQL Server, MS Text Driver and MariaDB already works quite nicely.
@@ -1216,7 +1189,7 @@ with GetLastError
 Good idea! And what should I say? Using `kernel32.dll`'s `GetProcessHeap` and `HeapAlloc` instead of `malloc` (thru `allocate`) it ... just works.  Crazy.
 
 [14:49:05](#KW38NT338AEE_4KodJTv4a1QaJqR7AqLQTrL7VDs5Fc) <hiiamboris (NOT THIS ONE)>:
-Totally Ì†ΩÌ∏â
+Totally üòâ
 
 ## 30-Jun-2022
 
@@ -1245,21 +1218,6 @@ An update at  https://github.com/ldci/Red-System/tree/main/BitTools with some to
 Reminds me my old https://github.com/red/code/tree/master/Library/Stream-IO
 
 ## 18-Jul-2022
-
-[17:04:24](#Od23XIeaYlrW0KtTUovsypoXm38K_uPPm9iC3Q2yjeE) <ldci (Fran√ßois Jouen)>:
-Reminds me my old https://github.com/red/code/tree/master/Library/Stream-IO
-
-[17:05:06](#sRuMFeMdPRwUpagqIX-0bOnFxlV2YzgCw1dQMMtal88) <ldci (Fran√ßois Jouen)>:
-Reminds me my old https://github.com/red/code/tree/master/Library/Stream-IO
-
-[17:08:16](#zOPUW_590fwGuz2129qPsesjYQjoN-Nx737gtggBjqw) <ldci (Fran√ßois Jouen)>:
-Reminds me my old https://github.com/red/code/tree/master/Library/Stream-IO
-
-[17:09:20](#5IapgTxZ8KtvPsiJnHb967sxMGkNYFYfgeZSsXe4wxo) <ldci (Fran√ßois Jouen)>:
-Reminds me my old https://github.com/red/code/tree/master/Library/Stream-IO
-
-[17:09:42](#fGa5YsEH_YMTuhb45GBerwwEc7-2yCdtYvoCuft0oCQ) <ldci (Fran√ßois Jouen)>:
-Reminds me my old https://github.com/red/code/tree/master/Library/Stream-IO
 
 [17:11:28](#cLh13IiXGyvtbLZTZeK9F1rFSXo7EZiCfXSk7NFWY4A) <ldci (Fran√ßois Jouen)>:
 @Oldes We have to coordinate :)
@@ -1310,7 +1268,7 @@ codes: LZWCompress string
 @greggirwin. Thanks. Next step: decompress :) 
 
 [18:07:43](#mN6PNOZQnEK9UMew9yk75u6XChr-x69UjNt74Njzkl8) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-black magic Ì†ΩÌ±Ä 
+black magic üëÄ 
 
 ## 19-Jul-2022
 
@@ -2617,12 +2575,12 @@ context [
 ```
 >> lzw-ctx/limit: 1000000
 == 1000000
->> str: {plate: "tropical stuff: Ì†ºÌΩåÌ†ºÌΩç and other healthy food: Ì†æÌµíÌ†ºÌΩÖÌ†æÌµï"}
-== {plate: "tropical stuff: Ì†ºÌΩåÌ†ºÌΩç and other healthy food: Ì†æÌµíÌ†ºÌΩÖÌ†æÌµï"}
+>> str: {plate: "tropical stuff: üçåüçç and other healthy food: ü•íüçÖü•ï"}
+== {plate: "tropical stuff: üçåüçç and other healthy food: ü•íüçÖü•ï"}
 >> cod: lzw-compress str
 == [112 108 97 116 101 58 32 34 116 114 111 112 105 99 97 108 32 115 116 117 102 102 1000005 127820 127821 32 97 110 100 32 111 116 104 101 114 32 1000032 100001...
 >> lzw-decompress cod
-== {plate: "tropical stuff: Ì†ºÌΩåÌ†ºÌΩç and other healthy food: Ì†æÌµíÌ†ºÌΩÖÌ†æÌµï"}
+== {plate: "tropical stuff: üçåüçç and other healthy food: ü•íüçÖü•ï"}
 ```
 
 [7:41:51](#MCO5lTAYiU-9zjlrloFocwgIHJXnjEqK6jIPqwDZBZg) <toomasv>:
@@ -2630,19 +2588,19 @@ context [
 ```
 >> lzw-ctx/limit: 1000000
 == 1000000
->> str: {plate: "tropical stuff: Ì†ºÌΩåÌ†ºÌΩç and other healthy food: Ì†æÌµíÌ†ºÌΩÖÌ†æÌµï"}
-== {plate: "tropical stuff: Ì†ºÌΩåÌ†ºÌΩç and other healthy food: Ì†æÌµíÌ†ºÌΩÖÌ†æÌµï"}
+>> str: {plate: "tropical stuff: üçåüçç and other healthy food: ü•íüçÖü•ï"}
+== {plate: "tropical stuff: üçåüçç and other healthy food: ü•íüçÖü•ï"}
 >> cod: lzw-compress str
 == [112 108 97 116 101 58 32 34 116 114 111 112 105 99 97 108 32 115 116 117 102 102 1000005 127820 127821 32 97 110 100 32 111 116 104 101 114 32 1000032 100001...
 >> lzw-decompress cod
-== {plate: "tropical stuff: Ì†ºÌΩåÌ†ºÌΩç and other healthy food: Ì†æÌµíÌ†ºÌΩÖÌ†æÌµï"}
+== {plate: "tropical stuff: üçåüçç and other healthy food: ü•íüçÖü•ï"}
 ```
 
 [7:47:53](#dVEwoUOwYwxGmozvd4WNLo3O9gp1jRuT5Oxm9_pLVhQ) <ldci (Fran√ßois Jouen)>:
 @toomasv You‚Äôre the best :)
 
 [8:00:22](#vg1af9XZw3kIajyRffXvvrQJTBbM36Au2Vl_M7mjvqw) <toomasv>:
-Ì†ΩÌ∏Ñ 
+üòÑ 
 
 [8:01:23](#sXlbOFuTMGaLSXpoEftex_Wogrlmq0jNkO2Nf-2yAw8) <greggirwin (Gregg Irwin)>:
 :+1:
@@ -2931,7 +2889,7 @@ compiler is throwaway
 * compiler is throwaway, will be replaced by 64 bit one
 
 [6:49:18](#H13lh7XsB_DE9LhKHifjA7LV9IXKkK7lRor0wqU2OhI) <fix (Fran√ßois-Xavier Thoorens)>:
-yes, but in the between i need to deal with 32 Ì†ΩÌ∏â
+yes, but in the between i need to deal with 32 üòâ
 
 [6:49:37](#ZMbnw7p2VvLwBKm18DCzAAipYAN2FA5nOSvUvvZC0hc) <fix (Fran√ßois-Xavier Thoorens)>:
 bbtw is there some cheat sheet to match C types with red types ?
@@ -2945,9 +2903,6 @@ only R/S specs afaik
 @fix Have a look here: https://github.com/ldci/OpenCV3-red for matching C and Red/S types
 
 ## 9-Sep-2022
-
-[7:52:30](#s5ojqOXOP1xNA5uwRv7CPq-NGgMtxk5ecVPJoOjTssQ) <Rebol2Red (Rebol2Red)>:
-@fix Have a look here: https://github.com/ldci/OpenCV3-red for matching C and Red/S types
 
 [7:57:04](#MdzgRfhTkC1VZTkMtZGT3HM61knLJJQrJQQsUUds5JE) <Rebol2Red (Rebol2Red)>:
 @toomasv ```
@@ -3008,7 +2963,7 @@ lz: context [
 ]
 ```
 ```
-str: {plate: "tropical stuff: Ì†ºÌΩåÌ†ºÌΩç and other healthy food: Ì†æÌµíÌ†ºÌΩÖÌ†æÌµï"}
+str: {plate: "tropical stuff: üçåüçç and other healthy food: ü•íüçÖü•ï"}
 cod: lzwcompress2 str
 probe cod
 print lzwdecompress2 cod
@@ -3078,7 +3033,7 @@ lz: context [
 ]
 ```
 ```
-str: {plate: "tropical stuff: Ì†ºÌΩåÌ†ºÌΩç and other healthy food: Ì†æÌµíÌ†ºÌΩÖÌ†æÌµï"}
+str: {plate: "tropical stuff: üçåüçç and other healthy food: ü•íüçÖü•ï"}
 cod: lzwcompress2 str
 probe cod
 print lzwdecompress2 cod
@@ -3148,7 +3103,7 @@ lz: context [
 ]
 ```
 ```
-str: {plate: "tropical stuff: Ì†ºÌΩåÌ†ºÌΩç and other healthy food: Ì†æÌµíÌ†ºÌΩÖÌ†æÌµï"}
+str: {plate: "tropical stuff: üçåüçç and other healthy food: ü•íüçÖü•ï"}
 cod: lzwcompress2 str
 print lzwdecompress2 cod
 ```
@@ -3217,7 +3172,7 @@ LZW: context [
 ]
 ```
 ```
-str: {plate: "tropical stuff: Ì†ºÌΩåÌ†ºÌΩç and other healthy food: Ì†æÌµíÌ†ºÌΩÖÌ†æÌµï"}
+str: {plate: "tropical stuff: üçåüçç and other healthy food: ü•íüçÖü•ï"}
 cod: lzwcompress2 str
 print lzwdecompress2 cod
 ```
@@ -3286,7 +3241,7 @@ LZW: context [
 ]
 ```
 ```
-str: {plate: "tropical stuff: Ì†ºÌΩåÌ†ºÌΩç and other healthy food: Ì†æÌµíÌ†ºÌΩÖÌ†æÌµï"}
+str: {plate: "tropical stuff: üçåüçç and other healthy food: ü•íüçÖü•ï"}
 cod: lzwcompress2 str
 print lzwdecompress2 cod
 ```
@@ -3300,10 +3255,10 @@ plate: "tropical stuff: : :none: and other healthy food: : :none:nonen"
 ```
 do https://raw.githubusercontent.com/toomasv/LZW/main/LZW.red
 lzw-ctx/limit: 1000000
-str: {plate: "tropical stuff: Ì†ºÌΩåÌ†ºÌΩç and other healthy food: Ì†æÌµíÌ†ºÌΩÖÌ†æÌµï"}
+str: {plate: "tropical stuff: üçåüçç and other healthy food: ü•íüçÖü•ï"}
 cod: lzw-compress str
 lzw-decompress cod
-== {plate: "tropical stuff: Ì†ºÌΩåÌ†ºÌΩç and other healthy food: Ì†æÌµíÌ†ºÌΩÖÌ†æÌµï"}
+== {plate: "tropical stuff: üçåüçç and other healthy food: ü•íüçÖü•ï"}
 ```
 
 [13:41:22](#Hg3qmhyuFGdQB9RwhEfgfQwuV5dhpxZAgz82v4Ulrnw) <Rebol2Red (Rebol2Red)>:
@@ -3386,33 +3341,6 @@ And for that specific example:
 Literal arrays uses `pointer! [integer!]` in a mixed content scenario. As the first value above is 64-bit, accessing the 2nd slot needs `/3`.  `as-c-string` is needed as `e` type is `pointer! [integer!]`.
 
 ## 7-Oct-2022
-
-[10:29:53](#Liq0eeMX6qiVGowgHxFZOBf3TAC0u4adno3X3TnU2AM) <ldci (Fran√ßois Jouen)>:
-* @isqwy Quoting the documentation:
-> Mixing the different allowed types in the same array is permitted (enumerations can also be used). In such case, the size of each array's slot is either 32-bit, or 64-bit if a float64! value is present.
-
-And for that specific example:
-> In the last example, pay attention to the different pointer indexes used, depending on the size (32-bit or 64-bit) of referenced value.
-
-Literal arrays uses `pointer! [integer!]` in a mixed content scenario. As the first value above is 64-bit, accessing the 2nd slot needs `/3`.  `as-c-string` is needed as `e` type is `pointer! [integer!]`.
-
-[10:30:44](#AUZvEbu41_5q6gLFq7Jvljp4UruljGuaymldKN418Xo) <ldci (Fran√ßois Jouen)>:
-* @isqwy Quoting the documentation:
-> Mixing the different allowed types in the same array is permitted (enumerations can also be used). In such case, the size of each array's slot is either 32-bit, or 64-bit if a float64! value is present.
-
-And for that specific example:
-> In the last example, pay attention to the different pointer indexes used, depending on the size (32-bit or 64-bit) of referenced value.
-
-Literal arrays uses `pointer! [integer!]` in a mixed content scenario. As the first value above is 64-bit, accessing the 2nd slot needs `/3`.  `as-c-string` is needed as `e` type is `pointer! [integer!]`.
-
-[10:33:16](#Jvv2N_nIvJAxhTCiGwG_zfM0WeeTd4V14oOsouNXmTw) <ldci (Fran√ßois Jouen)>:
-* @isqwy Quoting the documentation:
-> Mixing the different allowed types in the same array is permitted (enumerations can also be used). In such case, the size of each array's slot is either 32-bit, or 64-bit if a float64! value is present.
-
-And for that specific example:
-> In the last example, pay attention to the different pointer indexes used, depending on the size (32-bit or 64-bit) of referenced value.
-
-Literal arrays uses `pointer! [integer!]` in a mixed content scenario. As the first value above is 64-bit, accessing the 2nd slot needs `/3`.  `as-c-string` is needed as `e` type is `pointer! [integer!]`.
 
 ## 2-Nov-2022
 
@@ -3559,7 +3487,7 @@ ways to improve and correct my misunderstanding ?
   and good evening to everyone
 
 [7:29:07](#GPDcVjFCrZGxVUYbP5blDh9r3zbhXc2sx4i1gpSOVWU) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-good morning! Ì†ΩÌ∏É Just one thing, parens do not define a function call. In Red (and R/S), you don't use `f(a,b)` but `f a b`.
+good morning! üòÉ Just one thing, parens do not define a function call. In Red (and R/S), you don't use `f(a,b)` but `f a b`.
 
 [18:53:34](#CA3AGbsOkFoq6Q4GEkknBQd0Q1coJWaUD_qBU4fc8DU) <luce80>:
 @hiiamboris:tchncs.de I call FFI what you see in the video: a way to open and call library functions at _runtime_ from _Red_ instead of linking at _compile time_ form _R/S_
@@ -3580,7 +3508,7 @@ If it is easy please make a PR; even a simple implementation with only a few dat
 I don't see the point. If you're interesting, you can start [here](https://learn.microsoft.com/en-us/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibraryexw) and [here](https://learn.microsoft.com/en-us/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress)
 
 [19:48:31](#4SeRacLd72LDwkMsLUbunRQEFpc3qR0r7jlxZ_h11d4) <luce80>:
-The point is that it is not easy for me Ì†ΩÌ∏â .
+The point is that it is not easy for me üòâ .
 
 [20:10:02](#mtX2s2928MW5_9ePYAQ6aVfoYoNUjtogbj1kAy9Tn-0) <hiiamboris (NOT THIS ONE)>:
 (:
@@ -4145,9 +4073,6 @@ I like this statement so much ... I really would not like Red to rely on LLVM an
 [18:54:46](#x0KSfFLOGFI4etYzvHejqPrtpLWzBVObyHWpckdfWik) <greggirwin (Gregg Irwin)>:
 We agree. It's just hard to keep up with a small team, and only a few who can do this deep work. 
 
-[18:58:43](#zhYzfcz0c9m78B3KjSznOsijYHT1f5fj1_cII5AX1gE) <Isoux>:
-We agree. It's just hard to keep up with a small team, and only a few who can do this deep work. 
-
 [19:09:30](#BDdzhA-zf5xRm3sVMF0n236V7jbVbqhvTi-Zp1DOoQY) <Isoux>:
 
 > Our plan is to rewrite the whole toolchain in Red code (and drop the Rebol dependency entirely). We want the new compiler to be much faster than the current one. Just using faster algorithm will not be enough, so we considered writing some portions in R/S. Though, that's not great for speed of development, nor robustness, nor maintainability. Fortunately, I think I have figured out an alternative way to solve that and developing it on a private branch for now until alpha level is reached.
@@ -4162,11 +4087,6 @@ I personally can't wait for that day. I would like to help with that, but I am n
 My opinioni Is that you simply must concentrate and deliver few things that could be used.  Then solutions will be delivered and the developers will come once they will see the greatness of Red all around. 
 
 ## 12-Oct-2023
-
-[10:31:47](#vYpA11lLoYyN4uZcwr7LQGDrmfV5alliKlZN-W9l20E) <bubnenkoff (Dmitry Bubnenkov)>:
-> <@greggirwin-55659ddb15522ed4b3e1006f:gitter.im> We agree. It's just hard to keep up with a small team, and only a few who can do this deep work. 
-
-My opinioni Is that you simply must concentrate and deliver few things that could be used.  Then solutions will be delivered and the developers will come once they will see the greatness of Red all around. 
 
 [22:43:47](#Qp08TCPmMjyusNFsZENa9f0rmddUU31pwdlyvp7OjEQ) <ALANVF (theangryepicbanana)>:
 Hey I'm implementing the `move` action for Red.js, and I've come across this line https://github.com/red/red/blob/master/runtime/datatypes/series.reds#L440
@@ -4204,15 +4124,9 @@ even how it treats the offsets is a total mess
 * even the most basic thing - how it treats the offsets - is a total mess
 
 [10:09:40](#4R0zi1JNkbWn4u76Uf1zD3YutMmZprJASFqjxDWmWKc) <pekr (Petr Krenzelok) (@pekr:matrix.org)>:
-Haven't you proposed to unify inner workings with series parts, so that it is more consistent? Ì†ΩÌπÇ
+Haven't you proposed to unify inner workings with series parts, so that it is more consistent? üôÇ
 
 ## 17-Oct-2023
-
-[1:41:16](#f1Lm6tFFjOwGIK06kAPnkyiLKOyzCFswYW4P8elqmbs) <ALANVF (theangryepicbanana)>:
-Haven't you proposed to unify inner workings with series parts, so that it is more consistent? Ì†ΩÌπÇ
-
-[1:41:56](#OIqRNxCJ5hDdrz0cIpWP626XcSyvjxE3LHN20uJpKeU) <ALANVF (theangryepicbanana)>:
-Haven't you proposed to unify inner workings with series parts, so that it is more consistent? Ì†ΩÌπÇ
 
 [2:27:11](#L38Ajy-NztnT5kjvZhkEJDihuKCC5hKCVLgZn9pO3N0) <ALANVF (theangryepicbanana)>:
 I feel like the sort impls here are really poorly written https://github.com/red/red/blob/master/runtime/sort.reds
@@ -4457,9 +4371,6 @@ opens fine for me
 [15:58:18](#cY2813xZJY7xfvquLZqwjQQQEeYPGzgpLMVLyRu3JOg) <hiiamboris>:
 * opens fine for me as is
 
-[16:01:08](#lg_DP187Iqj2p2tXkavuwTUHu-ck7iKAbrfqQOIx8MQ) <hiiamboris>:
-* opens fine for me as is
-
 [16:03:16](#pTP8AjjPFMbeS04PQ1hn0gyIxbjtrtZOeRs885wfCpI) <GiuseppeChillemi (GiuseppeChillemi)>:
 > <@hiiamboris:tchncs.de> opens fine for me as is
 
@@ -4536,11 +4447,6 @@ system-global is system/words namespace.
 Red contexts have nothing to do with RS namespaces.
 
 [8:01:15](#ewEvB1iJd5N_8fuAYtR8Kjlfd3zowmo0lF8hQRiaiYI) <GiuseppeChillemi (GiuseppeChillemi)>:
-> <@hiiamboris:tchncs.de> Red contexts have nothing to do with RS namespaces.
-
-So I have not understood the difference between #system and #system-global
-
-[8:05:15](#jyNi3wFTS_4Enz00cX5_ruNZj-gGIWnhDqdK-fdUID4) <hiiamboris>:
 > <@hiiamboris:tchncs.de> Red contexts have nothing to do with RS namespaces.
 
 So I have not understood the difference between #system and #system-global
@@ -4730,7 +4636,7 @@ Why?
 ## 9-Jun-2024
 
 [6:30:34](#x3jwy6XARvG3F0NRw6NXRnN56G6PgcuPYIAPCjX4SjU) <qtxie>:
-isqwy (Â∞òÂ¢®): dockimbel: Ì†ΩÌ±ÜÔ∏è It's a regression.
+isqwy (Â∞òÂ¢®): dockimbel: üëÜÔ∏è It's a regression.
 
 [6:32:46](#ZhoeBuF7AmKuYs5gotHSfdGFwPncRdYh3oFuaBJFn70) <qtxie>:
  * isqwy (Â∞òÂ¢®): dockimbel: system/env-vars is set to null on Windows.
@@ -5129,37 +5035,12 @@ Try `-r` or `-u`. Also note that `handle/box` is binary in recent builds.
 [16:36:35](#Cey5CY7yz7FcagtGdf2lu6VSkhlitfxXNNbJjpdN7bs) <ldci (Fran√ßois Jouen)>:
 Why this routine does not work under Windows?
 
-[16:36:57](#ODb75Quy2HlyWen57TuA0ner1gH_ya4jNFQ0hDS02-Y) <ldci (Fran√ßois Jouen)>:
-Why this routine does not work under Windows?
-
 [16:41:11](#RQHXF1fjWgt4KZ2Jk3l8vxUU-icXfSiSgiuLLVYbOJE) <ldci (Fran√ßois Jouen)>:
 * `
 rcvDTWDistance: routine [ x		[block!] 
 y		[block!] dmat	[object!] op		[integer!] /local vec						[red-vector!] xHead yHead	idxx idxy 	[red-value!] headD idxD				[byte-ptr!] p						[float-ptr!] vxi vyi 				[red-integer!] vxf vyf 				[red-float!] dist fvx fvy			[float!] xLength yLength 		[integer!] i j 					[integer!] ][ fvx: 0.0 fvy: 0.0 dist: 0.0 xHead: block/rs-head x yHead: block/rs-head y xLength:  block/rs-length? x yLength:  block/rs-length? y vec: mat/get-data dmat headD: vector/rs-head vec i: 0 while [i < yLength] [ j: 0 while [j < xLength][ idxx: xHead + j idxy: yHead + i idxD: headD + ((i * xLength + j) * 8) switch op [ 0 [ vxi: as red-integer! idxx vyi: as red-integer! idxy fvx: as float! vxi/value fvy: as float! vyi/value	 ] 1 [ vxf: as red-float! idxx vyf: as red-float! idxy fvx: as float! vxf/value fvy: as float! vyf/value] ] dist: (sqrt ((fvx - fvy) * (fvx - fvy))) p: as float-ptr! idxD p/value: dist j: j + 1 ] i: i + 1 ] ]`
 
 [16:45:47](#1aQzYRxNTs7SUD5ppaRH2lgRkLEqJKfSk4aGGTIG4VY) <ldci (Fran√ßois Jouen)>:
-* ` rcvDTWDistance: routine [ 
-x		[block!]  
-y		[block!] 
-dmat	[object!] 
-op		[integer!] 
-/local vec [red-vector!] 
-xHead yHead	idxx idxy 	[red-value!] headD idxD				[byte-ptr!] p						[float-ptr!] vxi vyi 				[red-integer!] vxf vyf 				[red-float!] dist fvx fvy			[float!] xLength yLength 		[integer!] i j 					[integer!] 
-][ fvx: 0.0 fvy: 0.0 dist: 0.0 
-xHead: block/rs-head x yHead: block/rs-head y 
-xLength:  block/rs-length? x yLength:  block/rs-length? y 
-vec: mat/get-data dmat 
-headD: vector/rs-head vec 
-i: 0 
-while [i < yLength] 
-[ j: 0 while [j < xLength]
-[ idxx: xHead + j idxy: yHead + i idxD: headD + ((i * xLength + j) * 8) 
-switch op [ 
-0 [ vxi: as red-integer! idxx vyi: as red-integer! idxy fvx: as float! vxi/value fvy: as float! vyi/value	 ] 
-1 [ vxf: as red-float! idxx vyf: as red-float! idxy fvx: as float! vxf/value fvy: as float! vyf/value] ] 
-dist: (sqrt ((fvx - fvy) * (fvx - fvy))) p: as float-ptr! idxD p/value: dist j: j + 1 ] i: i + 1 ] ]`
-
-[16:50:20](#G_axFpBa9nmEKRVqFzcuJrH1b47IeypXJoyTU9ErMi4) <ldci (Fran√ßois Jouen)>:
 * ` rcvDTWDistance: routine [ 
 x		[block!]  
 y		[block!] 
@@ -5191,4 +5072,1500 @@ use `probe` until you find the point of divergence :)
 
 [18:31:50](#rn4V62EkmwLt4Rptadh747WlyDvw9kH0mSpCTSFqJds) <ldci (Fran√ßois Jouen)>:
 hiiamboris: Found . Problem was here `idxD: headD + ((i * xLength + j) * 8)`. In fact we must use a series and `GET_UNIT` to get the correct value and then replace 8 with unit value :)
+
+## 22-Sep-2025
+
+[12:22:15](#jC4p9I4wEdOyH5cQ9Z3kOwFIl0fLzKSxSDJoFJ1jaLg) <JiaChen-Zeng (JiaChen ZENG)>:
+Is there a way to write Red code inside Red/System? I tried this with no luck
+
+```red
+Red/System []
+
+; #include %libRedRT-include.red
+
+print-line "Now in r/s"
+
+#call [
+    print ["im" "red"]
+]
+
+```
+
+[15:25:19](#GS9GAL8YKZXdZWSspzeJ1-5Dw3Pcw__0SQXcSoze7X4) <hiiamboris>:
+Red system executables don't compile in the Red runtime by default.
+
+[15:25:49](#JD2n33Caiu0ErG28iVg5UqtW90_4BvVge-AvS3ix1fQ) <hiiamboris>:
+Better you go down to R/S from a Red script.
+
+[15:28:01](#Hc0NMYgQpMKPUnp9yzsAdojvDm14SLjSUSMuYYHNZrg) <hiiamboris>:
+If that doesn't work for you, try the search: https://search.lang.red/yacysearch.html?query=Call+red+code+from+Red+system&Enter=&verify=ifexist&contentdom=text&nav=filetype%2Ccollections%2Ctopics%2Chosts%2Clanguage%2Cauthors&startRecord=0&indexof=off&meanCount=5&resource=global&prefermaskfilter=&maximumRecords=30&timezoneOffset=-480
+
+[15:28:50](#P2QMPHxPurx22Hy4Rdru902e6f_8SlVbbPxM_8-pwk8) <hiiamboris>:
+* Better you go down to R/S from a Red script. #system [...]
+
+[16:12:26](#cFhDhL6f51qTqW3tsPoMSHH633pZfi3xlBmmDrBmRT8) <ldci (Fran√ßois Jouen)>:
+Have a look here: https://github.com/ldci/Red-System/blob/main/doc/Programming_with_Red_System.pdf
+
+## 23-Sep-2025
+
+[3:32:35](#SYwTvoSDW0YHSWGd3QbCjkkmx_LXwsILKqB2irR59PE) <JiaChen-Zeng (JiaChen ZENG)>:
+Thanks I think I'll stick to calling r/s from red
+
+[3:45:53](#7NK0Ip_m8zOvV_L5hdOgpyZ6en_Ie2hMEH2IM9WIYQE) <JiaChen-Zeng (JiaChen ZENG)>:
+How to declare a struct pointer without value? For example if I want `def` to be only a pointer
+
+```red
+abc: declare struct! [
+    not-value [integer!]
+    value [integer!]
+]
+
+abc/not-value: 345
+abc/value: 456
+
+print-line abc
+print-line abc/not-value
+print-line abc/value
+
+def: declare struct! [
+    not-value [integer!]
+    value [integer!]
+]
+
+print-line def
+def: abc
+print-line def
+```
+
+```
+0040309C
+345
+456
+004030A8
+0040309C
+```
+
+[3:52:10](#dQbA9hK3t_jlE7nyXri2PwGj1dDx9Nk5VZzR1gBBHcs) <hiiamboris>:
+It's `alias struct! ...`
+
+[3:53:27](#wclUZiPrnMxOHtXUtzirhR8sNCV0VGkdnEuxp_VTH80) <hiiamboris>:
+Then every variable you declare as type [def] will be a pointer to a struct.
+
+[3:54:48](#841UgyHtcZzx38fa-q57grsQKL5BjYYK51M3RbpgSCc) <JiaChen-Zeng (JiaChen ZENG)>:
+Do you mean like this? This seems to behave the same as my previous code
+
+```red
+def!: alias struct! [
+    not-value [integer!]
+    value [integer!]
+]
+
+def: declare def!
+
+print-line def
+def: abc
+print-line def
+```
+
+[4:00:56](#C_4mU-qN__eoQ5jgp-wgEknpN_4Ra1AVQspOgIeJMds) <JiaChen-Zeng (JiaChen ZENG)>:
+I'm confused because I couldn't find how to allocate memory in the doc
+
+[4:18:31](#vZrC35d01NcV8Zt_1X1w47oH_tLHEfMGR5p0-OYE0jA) <JiaChen-Zeng (JiaChen ZENG)>:
+it seems you can only declare only pointer to struct as function parameters or local variables. In the global context you can't
+
+[4:26:49](#M__DDJTKyri2GfVuYCxCZ2XweZR21n56r8taIMpPk74) <JiaChen-Zeng (JiaChen ZENG)>:
+Is my understanding correct
+
+[5:42:28](#SR97-2hskHyDn1j2eImJx-9UCB6PaLoSWZS_mTMRUwA) <hiiamboris>:
+```
+Red/System []
+
+def!: alias struct! [a [integer!] b [integer!]]
+buf:  [42 24]
+ptr:  as def! buf
+ptr2: ptr
+print-wide [ptr2/a ptr2/b lf]        ;) prints 42 24
+```
+
+[5:42:58](#7pFhi_h4qY-rnAuwfE0iPofUyDCjsx9bW6dw0bNWlZo) <hiiamboris>:
+`ptr` and `ptr2` are pointers to the same `buf` data here
+
+[5:45:23](#U9eQV0hADRuCAA_N26FMuD29Le1m99JcB9nTa3KDbTA) <hiiamboris>:
+your `def` is also the same pointer, just as you noticed it already has data it points to
+
+[5:48:33](#cfo8cTl1l6fq_rgRMJVbYao1lhl8TfA_cKXw5I9jL1Q) <hiiamboris>:
+to copy the full struct you may use `copy-memory` (memcpy):
+```
+Red/System []
+
+def!: alias struct! [a [integer!] b [integer!]]
+buf:  [42 24]
+buf2: [0 0]
+ptr:  as def! buf
+ptr2: as def! buf2
+print-wide [ptr2/a ptr2/b lf]
+copy-memory as byte-ptr! ptr2 as byte-ptr! ptr size? def!
+print-wide [ptr2/a ptr2/b lf]
+```
+
+[6:15:31](#4zTrXKgfHOmngeq7c_19QkPLKoUMvjOHXxQOyYONy74) <JiaChen-Zeng (JiaChen ZENG)>:
+Thank you now I understand
+
+[8:02:12](#_op21rJLp3L_LNflk44G6K3RzWbxuPGk460ae93nrTo) <ldci (Fran√ßois Jouen)>:
+JiaChen-Zeng (JiaChen ZENG): hiiamboris's code is perfect. You can also find some examples in my GitHub (see testPtr.reds)
+
+[8:08:17](#j9bCK0mImUxiiY3RNkEphlW7iCieOK6-3yvaFvZNL3c) <JiaChen-Zeng (JiaChen ZENG)>:
+Hi yes I've read your pdf. It's helpful and contains something the doc doesn't mention
+
+[8:11:27](#u7aQ-efhzkoudqxJgFwwLUFLPymrnwWGY3wBB02OWRo) <JiaChen-Zeng (JiaChen ZENG)>:
+I haven't seen other languages that provide API with language stack operation like r/s' `push` `stack/top`. Are these stuff in r/s temporary because the language isn't complete yet? Or are they meant to be included in the feature set?
+
+[8:15:16](#Ro97ng-ZOfz0BQX8V0oavMnJsYIO0sEykRVJEYPGfvQ) <JiaChen-Zeng (JiaChen ZENG)>:
+BTW testPtr.reds was pretty confusing to me. For example `p-struct!`'s name is like a type. And I don't understand what the memory is allocated for
+```
+p-struct!: declare struct! [ptr [union]] ;--memory allocation 
+```
+
+[8:22:00](#GuEmtwhZ_VBYM1wy1OzZ4LP0nhEJKlR00ZPTv_VL1qc) <JiaChen-Zeng (JiaChen ZENG)>:
+This seems to declare a null pointer, while `null` doesn't work
+```
+ptr:  as def! 0
+; ptr:  as def! null
+```
+
+[8:23:31](#T4EHc7HLwSK2EWIIB2_zDmNohCq00oKVeJmzUeRpb_c) <JiaChen-Zeng (JiaChen ZENG)>:
+* This seems to declare a null pointer, while `null` doesn't work
+
+```
+ptr:  as def! 0
+; ptr:  as def! null
+```
+
+[8:23:44](#pwjEnY0tSnrIaPVpcrZcjUBOizhh54ffxWP8e8e0Lrk) <JiaChen-Zeng (JiaChen ZENG)>:
+* This seems to declare a null pointer, while `null` doesn't work
+
+```
+ptr: as def! 0
+; ptr: as def! null
+; ptr: null
+```
+
+[9:20:03](#uNbDaOw6aDiQ9PZ8GUtFOg-hh1wwfnA56NHxyEhVKoQ) <hiiamboris>:
+[@dockimbel-556597ad15522ed4b3e10020:gitter.im](https://matrix.to/#/@dockimbel-556597ad15522ed4b3e10020:gitter.im) will have to say, but I believe it's part of the feature set. R/S is a bit lower level than C.
+
+[9:23:07](#qCZNhcxdooUWrvM6L7PP-aUoUs5lKgfpbcy4GSKWU8s) <JiaChen-Zeng (JiaChen ZENG)>:
+Can you return a `red-string!` from a `routine`? I know I can pass into it by parameter and modify
+
+```red
+Red []
+
+#system [
+    c-str: "asd"
+    str: string/load c-str length? c-str UTF-8
+    string/concatenate-literal str " qwe"
+]
+
+get-str: routine [return: [string!]] [str] ; doesn't work
+print get-str
+```
+
+[10:08:31](#BLscVmauqfq5mAt2nCjFx8eBYlGwBE4wb9uyto4Sndg) <ldci (Fran√ßois Jouen)>:
+getString: routine [return: [string!]][
+	as red-string! #get 's
+]
+
+[10:11:43](#7SfCw6KgsUn4RQMMS_jmZSRyHMO3jeQXdHLWK7p-WQk) <JiaChen-Zeng (JiaChen ZENG)>:
+Let me rephrase a bit. Can you return a `red-string!` that's resides in r/s? `#get` is in red
+
+[12:02:29](#YufhdHu7VCGnh6UyR1gmaFrtycF7Uz0An21Hz__7R0c) <JiaChen-Zeng (JiaChen ZENG)>:
+I tried this with no luck. Copied from [here](https://github.com/red/red/wiki/%5BDOC%5D-Red-System;-Fran%C3%A7ois-Jouens-'How-to-use-pointers,-strings,-vectors,-call'#red-variables)
+
+```red
+get-str: routine [] [as c-string! string/rs-head str] ; doesn't work
+print get-str
+```
+
+[12:08:49](#i9J7Iv7NfYtqf68LsczQKlBNMywyIjZvN6tKf5RVh00) <JiaChen-Zeng (JiaChen ZENG)>:
+Seems it's better to define variables in red not r/s
+
+[12:12:36](#2xET7XWwKCGdCHh7rIj2nMGDTM5kXon-z32LHqdTq7w) <JiaChen-Zeng (JiaChen ZENG)>:
+another try
+```red
+get-str: routine [return: [string!]] [as red-string! stack/set-last as cell! str] ; doesn't work
+```
+
+[12:26:28](#VJK58htLky2BqBRDTIcgPb7FgJi03UXlLvPHULliME8) <hiiamboris>:
+```
+Red []
+
+r: routine [return: [string!] /local s] [
+	s: "Hello from R/S"
+	string/load s length? s UTF-8
+]
+
+probe r 
+```
+
+[12:30:43](#pnhTwAv7eR8nzK7SDy1ahWDxHExZ4XiPG1t0kyEkeyQ) <JiaChen-Zeng (JiaChen ZENG)>:
+That does work
+
+[12:30:56](#JzCkGRKdACzlxAemeNZ2dF7tgpUCtxCQBPm18EAkkUU) <JiaChen-Zeng (JiaChen ZENG)>:
+Don't know what's the difference
+
+[12:33:30](#x7UPr0fDLT6efPw4b5Am-tm56-dS3PWrsN3TCwepVw8) <hiiamboris>:
+The key thing to understand is that `c-string!` is an array of bytes. While `red-string!` is a derivation of `cell!` structure (shared by all the other Red values). It needs it's own set of functions to work with (encode/decode, resize, etc) - those in `%runtime/datatypes/string.reds`.
+
+[12:34:20](#D4_59cPtIYz3L8rcRAu8CugF-LUbW7rjsDZxnb6_wF8) <JiaChen-Zeng (JiaChen ZENG)>:
+Our difference is that mine is in `#system`
+
+[12:35:51](#1Ytz_cUVM4zC5e2i5AZ2tYl9OvN8ZNX7qT3H6DS0xMk) <hiiamboris>:
+`rs-head` returns the pointer to the internal buffer of the `string!` to work with it inside R/S. Not what the `head` native is doing.
+
+[12:37:42](#Ie93QRQYWb6YL1Z6cdkfjz2pL139vXScg9tZl6tVBvo) <JiaChen-Zeng (JiaChen ZENG)>:
+I know the difference between `c-string!` and `red-string!`, but it seems not able to detect the identifier is a true variable in `#system`
+
+[12:38:04](#0xOj0rVr519gW-CVq84E5gF0mpXXQ9g8G9gM0eEhSeA) <hiiamboris>:
+Tried `#system-global` ?
+
+[12:39:15](#n9lWSeOQFG2iVKjNXfcqsR4xFzRUmBCWvGVq_tkPtXs) <JiaChen-Zeng (JiaChen ZENG)>:
+Can I use `string/load` in `#system-global`
+
+[12:39:32](#-kSW0r-L1T4coix0tUTZ8vG2iFPExFJsj8h1LTEZKiQ) <JiaChen-Zeng (JiaChen ZENG)>:
+It shows error
+
+[12:39:37](#hGQjNHYXn6ZS-R7-Z8q81kMO2Sjnlu7rPEydhRiCdlw) <hiiamboris>:
+If not, try `red/string/load`
+
+[12:40:40](#SKXVDUhLrC__Q80Q6hiY3zrUJLiCAxdYd4xQGfc5bB4) <JiaChen-Zeng (JiaChen ZENG)>:
+Still error
+```
+*** Compilation Error: invalid path value: red/string/load 
+*** in file: %***sys-global.reds
+*** at line: 1
+*** near: ["asd"
+    str: red/string/load c-str length? c-str UTF-8
+    red/string/concatenate-literal
+]
+```
+
+[12:41:23](#Mv5Sn6JbOKuQ_zDrKPCXf1-qnwlaVKdnM1rka62sayw) <hiiamboris>:
+Let me try it...
+
+[12:41:27](#VX03HwGLyb4PGmsTtYXvvs8DDWt4ZO7Fs6KkEPzqSlo) <JiaChen-Zeng (JiaChen ZENG)>:
+I haven't looked into how to use system-global
+
+[12:42:10](#kJl_2bispbf9lQJPO8NoVu-mPs_HjmnOUyI29Q1MwA0) <hiiamboris>:
+I don't know, for me this just works:
+```
+Red []
+
+#system [
+	s: "Hello from R/S"
+]
+r: routine [return: [string!]] [
+	string/load s length? s UTF-8
+]
+
+probe r
+```
+
+[12:43:02](#orLO1tDZ-exxyxZ1TncwMRi1Yc10WXjJqxqkRlg3DcE) <JiaChen-Zeng (JiaChen ZENG)>:
+is it a bug? It feels like a bug
+
+[12:43:25](#krydRxR-H0T0s3xJiqjLi8VCzfGkxkvgS6CRFuPomFM) <hiiamboris>:
+Show me the code
+
+[12:44:49](#4JRmjS727sucikuHlLX0FqJWLk2EJRHJ57LmctONvXs) <JiaChen-Zeng (JiaChen ZENG)>:
+This one
+
+[12:51:37](#SHqf7KZSEKNzTYYUchkGv7idcm6ETC4oL0boaH3N7So) <JiaChen-Zeng (JiaChen ZENG)>:
+The function behaves like a function that has no return value
+
+[12:53:07](#QBBmHluG4eIX3zoLueeOkehSu2P-G63elD323d5T3Pc) <hiiamboris>:
+It is weird indeed
+
+[12:54:59](#1xrucZURTD73FmkIcfMobOieVpQD2i48wYAbb-Gl_Ds) <JiaChen-Zeng (JiaChen ZENG)>:
+The same thing but with `logic!` type this works
+```
+#system [
+    debug?: false
+]
+
+get-debug?: routine [return: [logic!]] [debug?]
+debug?: get-debug?
+```
+
+[12:58:38](#eN3vdue-dJOWZLD0tg_uldOqUNC8vfvxbjv7TMI4jxE) <hiiamboris>:
+It is being collected by the GC
+
+[13:07:08](#RxEiNxkoW9QDLhrhODKltaK3PbzakRRgLSwcUPUDOcg) <JiaChen-Zeng (JiaChen ZENG)>:
+I see. Maybe putting in red is better
+
+[13:07:24](#WkqkHeVJjT17AagVbrQAZe1ijWjIKnzvAz76ghY0qyQ) <hiiamboris>:
+Surely
+
+[13:09:25](#e8o7RumnNjuehGdqR50I9eLnYQXDqUiUbQHWCZ5Qx8I) <JiaChen-Zeng (JiaChen ZENG)>:
+`#get` isn't documented so I think it's not recommended? Any better method than `#call` red functions?
+
+[13:11:07](#-yUnVLfz7ewlmh8Edtzd46mhvGV7hVLDzpvcbnzRtOc) <hiiamboris>:
+`#get` should be fine
+
+[13:11:58](#KQruRxke2f7JtK1f94dZHx9FOyuD8cTXLoTCx4Tplrc) <hiiamboris>:
+Also there's a method to let GC know to avoid collecting your global pointer, but I don't know it.
+
+[13:16:09](#Oq-6rJ19J7UfwCdIvs14gpgM2Q9IRNaLvR2FXV1ENmc) <JiaChen-Zeng (JiaChen ZENG)>:
+`#call` seems to have the same problem. prints `?routine?`
+
+```
+Red []
+
+str: "from red"
+
+get-str: has [] [str]
+
+#system [
+    #call [get-str]
+    red-str: as red-string! stack/arguments
+]
+
+get-rs-str: routine [] [red-str]
+
+print get-rs-str
+```
+
+[13:20:08](#hqrRSGl_LuKW_Dbe6RpY83Z4T5HZuhnFOLMVEmcywrw) <hiiamboris>:
+```
+Red []
+
+str: "from red"
+get-str: has [] [str]
+get-rs-str: routine [] [#get str]
+
+print get-rs-str
+```
+
+[13:20:15](#NLoO-dZXLFttIolW-sSulG0Ym2SlVCYspeZ-ZgSZ_Eo) <hiiamboris>:
+* ```
+Red []
+
+str: "from red"
+get-str: does [str]
+get-rs-str: routine [] [#get str]
+
+print get-rs-str
+```
+
+[13:20:33](#FeZ_WIErHrO_mSp4S_WbHg-QnWo0ZbTbgSvt8qTAL3E) <hiiamboris>:
+* ```
+Red []
+
+str: "from red"
+get-rs-str: routine [] [#get str]
+
+print get-rs-str
+```
+
+[13:21:18](#Amo21nbhGDDvlujkd-ZS0XkDfsc4WyfrZ9TJdSV5CVU) <hiiamboris>:
+Or
+```
+Red []
+
+str: "from red"
+get-str: has [] [str]
+get-rs-str: routine [] [#call [get-str]]
+
+print get-rs-str
+```
+
+[13:21:25](#L1W6Ivu2hZfmgSLNMmvgcEIXlwXgfx9C1-Ls7dgNb1M) <hiiamboris>:
+* Or
+```
+Red []
+
+str: "from red"
+get-str: does [str]
+get-rs-str: routine [] [#call [get-str]]
+
+print get-rs-str
+```
+
+[13:21:28](#JTQhlXUEeMMxMOyMhevWGKcyCjMVhOU87OJFaZAT7VE) <JiaChen-Zeng (JiaChen ZENG)>:
+It's weird to me that the low-level language depends on the higher one
+
+[13:22:01](#r9hgfdJqfc7gHMPuKzLUanKKsXfSxBI4AUz7-jaC8nE) <hiiamboris>:
+Not really. But you want to use the runtime of a higher level language.
+
+[13:25:03](#jUTuAZKhlT8j5CwG5AwgXpz935TfBixzgfwdTqcWAS8) <JiaChen-Zeng (JiaChen ZENG)>:
+`#call`ing in `routine` also looks good.
+
+## 26-Sep-2025
+
+[14:54:16](#u8ObxLDt7kfdyPqG66iSlZTEPe5WEQQy3PfA6x8FbnE) <JiaChen-Zeng (JiaChen ZENG)>:
+Hi, how to make variable size array in r/s?
+
+[14:55:05](#Dj2t-u3tX4N2X929xidsN-mdrHIBuLHZB9Sr7d_gkqU) <JiaChen-Zeng (JiaChen ZENG)>:
+I don't know how to use `vector/make-at`
+
+[14:56:13](#q0UE1kgNbrwbLi4x_id8t-r8V2l0O4088rqEVrVDsTI) <hiiamboris>:
+As in C, there's no such thing :) `reallocate` it manually if you need a low level array. If you can use one of the Red datatypes, that's an option too.
+
+[14:56:25](#SUmyZ4NvS4i7fOSzw11LjeCw9T4Pkem2Szqwxc5y01g) <JiaChen-Zeng (JiaChen ZENG)>:
+Specifically don't know how to pass a `proto!`
+
+[14:57:03](#LBcSBeNca50Ke-Ip5jiA2rv47fIeJho04sKmMFrvndk) <hiiamboris>:
+what's a `proto!`?
+
+[14:57:16](#C6Z2Y3oHtWrV1kNrnmDgc3TCPQJUOnRQr5M9KRDay3Y) <hiiamboris>:
+ah, it's from `vector/make`
+
+[14:57:53](#oGehDBFTX-nIY9gJwfnV0Q3wOqeDZAZt-JCwDj4U20U) <JiaChen-Zeng (JiaChen ZENG)>:
+it's for every red datatype red level API's parameter
+
+[14:58:23](#-zRiFUwNfUOoTGeUtCi4IH9eHWLunw0qq31uFRaQLs0) <JiaChen-Zeng (JiaChen ZENG)>:
+Is `reallocate` the equivalent of `malloc`?
+
+[14:59:40](#hT96i-mPzlr_xNDQiI24HR4UUgyIq8jRXSwqGdJru00) <JiaChen-Zeng (JiaChen ZENG)>:
+I see every Action! needs a `proto!`
+
+[14:59:55](#l8Jv2e258jv74kSOSjNKVMDfqwaZhugPhlQtwk7mFgI) <hiiamboris>:
+> <@jiachen-zeng-5689faec16b6c7089cc1076e:gitter.im> it's for every red datatype red level API's parameter
+
+Yeah I don't know that too :) Better to use `make-at`: `vector/make-at push* 100 TYPE_INTEGER 4` may work
+
+[15:01:05](#eI0uQvaVclfGJOFjscuadlUJHyDe75oqDYovs5YsGKM) <hiiamboris>:
+R/S `make` funcs are the equivalent of `make` action in Red, which requires a prototype as first argument. `make proto spec`
+
+[15:01:33](#v7IU2luWfihIzd4dNFlQVEn3TPb5-l4byUqjKNxskQY) <hiiamboris>:
+So for R/S calls that's a bit too much trouble to use it.
+
+[15:01:53](#MTPpJB5MetRpzutCUPYGmrhBxH1YEVbKOiefCNYrduQ) <JiaChen-Zeng (JiaChen ZENG)>:
+I see I would try
+
+[15:02:08](#E2OrcC9p4Fo2_cBR2vWxPzvgVGMJhHbNvA3chq23LSE) <hiiamboris>:
+> <@jiachen-zeng-5689faec16b6c7089cc1076e:gitter.im> Is `reallocate` the equivalent of `malloc`?
+
+of `realloc`
+
+[15:02:34](#pGW3_fMawx6up2U53hA2GqUC0ODZjQlYanqbvMjaW3o) <hiiamboris>:
+* of `realloc` https://cplusplus.com/reference/cstdlib/realloc/?kw=realloc
+
+[15:02:57](#Y1J1zYrPu2zvtn02_5bjQZDR_4tXF8s6A03d-VHHWPI) <JiaChen-Zeng (JiaChen ZENG)>:
+Ok, not familiar with `realloc` too
+
+[15:03:37](#d8lh808IHcGMmvF1hgFlcnS0S1YeI9immevvnGhBAKk) <hiiamboris>:
+What are you trying to do with this array?
+
+[15:04:50](#TO4CWt1ruoVja2uDjYNW4JskJVju0Yxf28Oyv3XTx34) <JiaChen-Zeng (JiaChen ZENG)>:
+To create a dictionary whose index could be a 1 byte range integer. Writing literal array would be too long
+
+[15:06:13](#8ankLDr0y31FuyLwkeHDylc9DwYDMe2BoE6LgHghCqc) <JiaChen-Zeng (JiaChen ZENG)>:
+in r/s currently there isn't a syntax to create an empty array of specified length
+
+[15:06:29](#g74eMyYpj5UeocsoKldd6EMkpc13VqdbviUPBDBoeEU) <hiiamboris>:
+For such short index range, isn't it easier to just have a preallocated 256 pointers?
+
+[15:06:38](#eT0MYp8CIOuH_Y5vgoCdJJHKeZuoHGnbwE-A49uZAG0) <hiiamboris>:
+* For such short index range, isn't it easier to just have a preallocated array of 256 pointers?
+
+[15:06:56](#q8Gksbv3WW5Rss_vSb_4Jz9rQD_BVdcqpfy_FsU3Tas) <JiaChen-Zeng (JiaChen ZENG)>:
+Yes but the syntax doesn't support
+
+[15:07:14](#6X85qzBUMo804Iy-mPgn4kMXnba-BRzhBMTu4zKwbB4) <JiaChen-Zeng (JiaChen ZENG)>:
+I only know I could write `[ null null ... ]`
+
+[15:08:09](#efa06Lf1LSPN8STk6A5edSfLLOKnfHhwfuUaixlE8-k) <hiiamboris>:
+> <@jiachen-zeng-5689faec16b6c7089cc1076e:gitter.im> in r/s currently there isn't a syntax to create an empty array of specified length
+
+`array: allocate 256 * size? integer!`
+
+[15:08:30](#GSwKPsdmXnHfmZEPraluWCOVWWpriSbbVAoPa_aY1Lw) <hiiamboris>:
+* `array: as int-ptr! allocate 256 * size? integer!`
+
+[15:09:04](#yWF1pc68bkezFG8jFk5RuvNEsXM3XD_UUs5E-n9C2wc) <hiiamboris>:
+or `ptr-ptr!` (array of pointers)
+
+[15:10:22](#-wsBW8ZkyUd_DBaizZrKhyXTYW3BX0PSKVRLNg5bWzM) <JiaChen-Zeng (JiaChen ZENG)>:
+OK then I don't need to write that long
+
+[15:11:33](#Fipa0GCozZ0DwMs10P8kO7YLqAnUduUgwNlKNYpC96k) <hiiamboris>:
+Just note that it's not "empty", it is just memory of given length 256x4. If you need to track it's length, track it separately. `malloc` doesn't initialize the memory, so it'll contain random data.
+
+[15:11:45](#EC6xOf9ftOiyn-bl0yNrhOkZdPUddIwXdwfUSKjtS3U) <JiaChen-Zeng (JiaChen ZENG)>:
+I think with rsc2 coming r/s would become more complete? Still seems to have a long way to go though
+
+[15:11:49](#qd4z9u6fqPerj6c1fZFfz-fMpV2MzLFvHwMn54qKegk) <hiiamboris>:
+* Just note that it's not "empty", it is just memory of given length 256x4. If you need to track it's length, track it separately. `malloc` doesn't initialize the memory, so it'll contain random data (or I'm not sure, maybe newer libc zeroes it).
+
+[15:12:06](#mv9icSVFmN428_lsWP0vGzizGAauBT4geWjKYr5HFWk) <hiiamboris>:
+Don't wait, it's too far away ;)
+
+[15:12:20](#L8mVPuApn5WMuV-iZqNb9JijWGZmZIxOd_6XumVbhYo) <JiaChen-Zeng (JiaChen ZENG)>:
+I see. Is there a neat way to init to 0?
+
+[15:12:38](#T_t4zJp8CE2a584CMIOjLkCvdZe8jSd7ooesw4-OkT8) <hiiamboris>:
+We had something in the runtime, let me see.
+
+[15:14:45](#SD1zANATZiJRqAnAoQSzJtLm8HZ-_4f0uh1aCWSpor0) <hiiamboris>:
+Ah, right. `memset` equivalent: `set-memory as byte-ptr! array  as byte! 0  256 * size? integer!`
+
+[15:15:51](#-EVYNVyIOuWyO7Ywy5hH2bpxTyOlq9J1yUbDPxPSYKE) <JiaChen-Zeng (JiaChen ZENG)>:
+It's just the name suggests
+
+[15:16:16](#fQzLJf5Aty9iweFkuWhcxQiSuuHrVTLNk_dVuCQQ3mY) <JiaChen-Zeng (JiaChen ZENG)>:
+* It's just what the name suggests
+
+[15:26:17](#r0HrtRRHJDfmEB2NXK3Cki0YbTsCKrFaeIXWf40zX4c) <JiaChen-Zeng (JiaChen ZENG)>:
+I feel now r/s is pretty only for "internal development" while red seems to be pretty usable. It's lacking more important features documented or say stablized than I thought. No wonder in the blog they said the current toolchain stayed for too long
+
+[15:27:16](#8wMcyjfaps2UA4MefMCEN9ZO8ZIcYtX8H5IVbaGwAsg) <JiaChen-Zeng (JiaChen ZENG)>:
+* I feel now r/s is pretty only for "internal development" while red seems to be pretty usable. It's lacking more important features documented or say stablized than I thought. Now I can understand in the blog why they said the current toolchain stayed for too long
+
+[15:29:32](#-TkC1JQZ3kXEZQKJOQ9teHgJbGGkDedZ7zuq8rb0FqQ) <hiiamboris>:
+You only feel so because you're not a C developer :) Current docs are aimed at C devs because it's just not feasible to re-explain all the low level stuff to a newcomer.
+
+[15:30:42](#U-GZ-2z1br78GbNqqAzcEo7uyhj1QSJ7Y2VO8NLOKjg) <hiiamboris>:
+I agree, for an introductory reading we only have Francois' pdf, which is way too brief to cover much.
+
+[15:31:57](#dU_eCTzces48sk4qx_x0xSNLg_FE1chy1qqxK7aaGGA) <JiaChen-Zeng (JiaChen ZENG)>:
+I do C++ at application level but don't know C
+
+[15:33:52](#Gpz1Op1q-NrfqxEEdsS9hPONnVsnI_q8GFSbFlknT5M) <hiiamboris>:
+We'll improve as time permits ;)
+
+[15:34:29](#767sr_umv9PAiE1ksJtUL-0rrQ5hn2poIJpmHDu6heQ) <hiiamboris>:
+In the meantime, me and others are here to help
+
+[15:36:31](#VWmtEiyvWuo-8p2G7O9E4zzIOkPZJTx3ZZWg1Tc2fgY) <JiaChen-Zeng (JiaChen ZENG)>:
+You are very helpful and I'm able to move forward with enough confidence
+
+[17:06:52](#abq4hi59FNQIO15BoIgYzsRKb5JeyfakgouneQaaatM) <ldci (Fran√ßois Jouen)>:
+JiaChen-Zeng (JiaChen ZENG): I'm sorry, but the PDF I wrote five years ago is probably not up to date with the new versions of Red. Please specify what you want to do with Red/S so that I can help you.
+
+## 27-Sep-2025
+
+[0:47:46](#objOAEKPZgmVY1jbRMhj5lieSGFdwDr8pwCdwhyWvCw) <JiaChen-Zeng (JiaChen ZENG)>:
+Hi don't worry. I'm doing a programming course with r/s, also with the goal to play a bit with red. Currently doing machine code decode. I would ask when I encounter issues with the language
+
+[2:49:58](#8c-Ofg_6UR2iclMGVn_BiHpCPFnX8r9qpFkv2VqpT_k) <ldci (Fran√ßois Jouen)>:
+JiaChen-Zeng (JiaChen ZENG): You should have a look ro Rebol-r3: https://github.com/Oldes/Rebol3
+
+[2:51:04](#d1rP4B_4qoZJyF62HmVmP8tOxO1L7bxgmYormYDJVmY) <JiaChen-Zeng (JiaChen ZENG)>:
+Thanks I have downloaded it
+
+[9:15:58](#Zk7yczVGaOaD_j93zEi32_ckuVHyQVbveFb3FU1cR9M) <ldci (Fran√ßois Jouen)>:
+JiaChen-Zeng (JiaChen ZENG): You need also Siskin (https://github.com/Siskin-framework/Builder)
+
+[10:11:01](#Z22ARk2bDlyoCnc8v6Up7OrA2-MlazOcYovAPzguKFA) <JiaChen-Zeng (JiaChen ZENG)>:
+What is this?
+
+[10:22:15](#Vxb5jlt6nU3XbfS1tPj6foKu-1CiM_urQb6IpMJAs9I) <ldci (Fran√ßois Jouen)>:
+JiaChen-Zeng (JiaChen ZENG): with siskin you can compile R3 on different OS (macOs, Windows, Linux, Haiku ...)
+
+## 28-Sep-2025
+
+[17:49:56](#34ftKsaM-QEadL_6jT4FGvtaj-LXDhDTecaqSLnTd5A) <ldci (Fran√ßois Jouen)>:
+I'm going to stop developing for Red and Rebol 3. I spent quite a few years writing code for these languages with great pleasure. But they are not evolving: Red is still 32-bit and Rebol 3 does not have a GUI worthy of the name. My blog (https://redlcv.blogspot.com/2017/04/blog-post.html) is hardly ever visited.  My RedCV library (https://github.com/ldci/redCV) doesn't even appear on the Red website. 
+It's time for me to stop. I will continue to follow the development of Red and Rebol 3, but I will no longer maintain my code.
+
+
+[18:56:55](#pklXblDXYkkguBESloU421qSJiy3OWMiIkYvKbsgruY) <GiuseppeChillemi (GiuseppeChillemi)>:
+I have written in Rebol3 chat. Here we must have input from Redd developers. I don't know at which point they are with 64Bit and networking
+
+[18:57:06](#asvERSaEvW-VyforajKZ0yN8fSKYsesZ7SD-MOb5zNc) <GiuseppeChillemi (GiuseppeChillemi)>:
+* I have written in Rebol3 chat. Here we must have input from Red developers. I don't know at which point they are with 64Bit and networking
+
+[18:57:50](#ponl-Pty1T_dMpFAL8edyooYzgN64mBFkhTvQt2LhuA) <GiuseppeChillemi (GiuseppeChillemi)>:
+And yes, this prolonged stop does a bad effect on the willingness to continue
+
+## 29-Sep-2025
+
+[13:21:24](#42Su7ToIe9H0xshmTTz3BXXXR7E_gWS86_fen9ggwqg) <JiaChen-Zeng (JiaChen ZENG)>:
+Hi. How to modify a c-string (not returning) passing to my function correctly? 
+
+```red
+Red/System []
+
+change-str: func [/local str [c-string!]] [str: "123"]
+my-str: "asd"
+change-str my-str
+print-line my-str
+
+```
+
+[13:27:43](#0GJIrf_9wT3A3hpUbMcCiuGrS6JmRGgIJBGXDE1v5II) <JiaChen-Zeng (JiaChen ZENG)>:
+And if I just return a c-string, does it behave like Red in the same way fundamentally? So the string's address doesn't change and it only has one instance, unless in red call `copy`
+
+[13:29:28](#tu5oNQUKUFFz73XmtYb7rItqWexd1k2Cw3lNR_Cc5pg) <hiiamboris>:
+you didn't mean to make it `/local` did you? :)
+
+[13:30:45](#mrkrSW1vcufRVo1taPkLiLuVPuHa6ebI8Uw6evvAtxo) <hiiamboris>:
+and to change it, you can't just reassign it, you have to copy the memory (`copy-memory dst src len`)
+
+[13:31:13](#BsHfDNiWUONWpsjZ5-5UH0UKjvUc7oJe28qRXVS3INQ) <JiaChen-Zeng (JiaChen ZENG)>:
+ah it's not supposed to be local
+
+[13:32:54](#dGR85o_bVv_D26fIyngDKUfRhOP79NDj_9NDgHQ3HZc) <JiaChen-Zeng (JiaChen ZENG)>:
+Then the variable as the argument needs to have `len` right?
+
+[13:33:05](#xoaYia2ZoC9RmVCaxO2thEfIat26h6QUm23PsuYL8xk) <JiaChen-Zeng (JiaChen ZENG)>:
+* Then the variable as the argument needs to have enough `len` right?
+
+[13:33:25](#wKIsGejnK_w3hNfz8G5EnFW8WSXjO6fdjLWn-25gPaA) <hiiamboris>:
+certainly
+
+[13:34:47](#lXilUivvIvk5A8Fr6iq9WkUz_4UZVgD4LvQLZ3lKdxA) <JiaChen-Zeng (JiaChen ZENG)>:
+Then I would need to allocate memory manually since string literal can't specify `len`?
+
+[13:35:06](#Tzqk3zHZHGBMFYTWhgtODGZLqOfwQtIuZ4iF3OndWEE) <hiiamboris>:
+c-strings are null terminated, so you can check their length using `length? str` (but it has to iterate over all the chars)
+
+[13:35:27](#AYVUbrPxj3GfK_WakcSwHYE5jWjQSobkXKOsGkO4qds) <hiiamboris>:
+* c-strings are null-byte-terminated, so you can check their length using `length? str` (but it has to iterate over all the chars)
+
+[13:36:39](#UIZQEkacbOayKWgwg39EjB2zUfUVU53eah9lg117UEo) <hiiamboris>:
+when you write `"abc"` in R/S, what's actually stored is `"abc^@"` (last is the null byte)
+
+[13:37:25](#zSoOOLnZkBhQZHkg1ANJrWQurKqni9JKUISPZ9XIggA) <JiaChen-Zeng (JiaChen ZENG)>:
+i see. same as c
+
+[13:38:09](#5Zg8kLhBDxestheG7gnoFYUiuOuJKP61zH-RvLB2_R8) <hiiamboris>:
+> <@jiachen-zeng-5689faec16b6c7089cc1076e:gitter.im> And if I just return a c-string, does it behave like Red in the same way fundamentally? So the string's address doesn't change and it only has one instance, unless in red call `copy`
+
+yes the address doesn't change and you need to copy it manually, same as like any array
+
+[14:07:54](#lGee8yqMPJMemO9QsGhDW8t3coNcRcL62UzQznKiMW0) <JiaChen-Zeng (JiaChen ZENG)>:
+Hi, I'm not sure what syntax is wrong here. It seems r/s compiler converts `byte!` to `red-byte!` automatically but I can't find `red-byte!` anywhere.
+```red
+extract-bits: routine [
+    byte [byte!]
+    pos-start [integer!] ; Count from the lower bits. 0 based index.
+    len [integer!]
+    return: [byte!]
+] [
+    return byte and (#"^(FF)" >>> (8 - len) << pos-start)
+]
+```
+
+```
+*** Compilation Error: invalid definition for function exec/extract-bits: [
+    byte [red-byte!]
+    pos-start [integer!]
+    len [integer!]
+    return: [red-byte!]
+]
+*** in file: %/D/Projects/Computer%20Enhance/Homeworks/listing_0041_add_sub_cmp_jnz.red
+*** at line: 386
+*** near: [func [
+        byte [red-byte!]
+        pos-start [integer!]
+        len [integer!]
+        return: [red-byte!]
+    ] [
+        return byte and (#"Ô£≥" >>> (8 - len) << pos-start)
+    ]
+    stack/mark-native ~set
+    word/push ~extract-bits
+    routine/push
+]
+```
+
+[14:09:04](#aFWQYa-Jp4yF6UxYt-LkpcUDhDtqUVp0Ln4iti2URhs) <hiiamboris>:
+it just prepends `red-` to everything except a few special cases
+
+[14:09:18](#sEHCBNNSFxTuTQD-hsJxAMJCQXZP1Tg6yHwoMjbJAHo) <hiiamboris>:
+there's no `red-byte!` or `byte!` datatype
+
+[14:09:26](#XFPosZBP-wtTBehySXjhnSQWg_TtWuEgsxE4tdMmKO8) <JiaChen-Zeng (JiaChen ZENG)>:
+How to accept a byte!?
+
+[14:09:35](#ETB9xBWtTNX6s1OyfLVRxbNKT4pvTaEHmiE9ilppqno) <hiiamboris>:
+`integer!`?
+
+[14:09:47](#APz8yJYp15JCU_i4xrz1mAAPk_QViBediwhQ67RXVO8) <JiaChen-Zeng (JiaChen ZENG)>:
+I would need a byte
+
+[14:09:59](#bJRBWOPNwEnE0AJ4fUWj1dbtW7h0uHNJBaUPQtpB3qs) <hiiamboris>:
+a byte is an integer within 0-255 range
+
+[14:10:28](#ibWOaNDQiPLi9kivAzJauCkXZU3-_g6lWOSWLOCmwvA) <hiiamboris>:
+if you need a Unicode codepoint, then thats a bigger range and it has a `char!` datatype
+
+[14:10:45](#U54Hg-5BdKszrBimGce0GdlRWbkwaKP_KtKF7LjOOag) <JiaChen-Zeng (JiaChen ZENG)>:
+I know. So currently it doesn't allow to pass a byte!
+
+[14:11:11](#OC-WqrcZ4GmcNkIkZTq7fALGm86mizkukjwri3gDR6I) <hiiamboris>:
+a routine interfaces with Red, so no, because there's no such datatype in Red
+
+[14:11:59](#q1s07sbnITV4dCnTmAQKX-mVLUdV29XF8YzqFt-83EM) <JiaChen-Zeng (JiaChen ZENG)>:
+I'm writing routine for my routine to call
+
+[14:12:44](#6zSAzJ4A-ckbBZ1nh6ZxeVv7piJjQwAKNM61Eb5uWw0) <JiaChen-Zeng (JiaChen ZENG)>:
+Then it has to be put into `#system`
+
+[14:12:50](#Tc1D728nkpM6n-kC3k-8f9xutiX5Wdzed85YOP6ZDcc) <hiiamboris>:
+that sounds like a R/S function ;)
+
+## 30-Sep-2025
+
+[14:24:06](#-x--F0WqUykXWTpGz27iOv77LauBWjmQTL3cajKltdk) <JiaChen-Zeng (JiaChen ZENG)>:
+```
+#if debug? = yes [
+	copy-memory: func [ 
+```
+
+this was a debug function?
+
+[14:42:10](#OQaaLkW32UQ1voKCZcVWLdUktTN5-5wyoGoa0-yVJtQ) <hiiamboris>:
+Maybe an alternative definition?
+
+[14:45:44](#FaldckWlYmuw14ioVuop-3OnUGgT0sr2uXczUrpo_Hk) <JiaChen-Zeng (JiaChen ZENG)>:
+Should be 
+
+[14:46:31](#9e8K0IJ5Jr5g9qM2QwVPhXVD4XRDOeyQEj55kjkmny8) <JiaChen-Zeng (JiaChen ZENG)>:
+`[pointer! [byte-ptr!]]` this seems to be invalid?
+
+```
+    decode-r_m: func [
+        byte [byte!]
+        pos-start [integer!] ; Count from the lower bits. 0 based index.
+        disp [byte-ptr!] ; Pointer at the 1st byte address of displacement
+        in-out-cur [pointer! [byte-ptr!]]
+        out-r_m [c-string!] ; Need enough size pre-allocated
+        /local r_m-len [integer!]
+    ] [
+        r_m-len: 0
+        ; TODO
+
+        r_m-len: r_m-len + 1
+        out-r_m/r_m-len: #"^(00)"
+    ]
+```
+
+```
+*** Compilation Error: invalid definition for function exec/decode-r_m: [
+    in-out-cur [pointer! [pointer! [byte!]]]
+    out-r_m [c-string!]
+    /local r_m-len [integer!]
+]
+```
+
+[15:50:45](#7CTt8MXEPNZ3WDMlrep3VowPa0i2qtHnd4GIIfdwtsU) <hiiamboris>:
+it only can be `ptr-ptr!` = `pointer! [pointer!]`
+
+[15:51:10](#bcsuFhL1GWzsWphyUhgoBeZqFhB7Wce8ib4RLh3WKn0) <hiiamboris>:
+R/S doesn't nest types as far as C does
+
+## 1-Oct-2025
+
+[12:54:42](#9ZogKvXE_Vsi9iFiDgcS1P9IGx82xGVCCAzaVAATGTg) <JiaChen-Zeng (JiaChen ZENG)>:
+Can r/s do this? So modify where a pointer is pointing to
+
+```red
+Red/System []
+
+str: "abcdefg"
+p: as byte-ptr! str
+print-line p/3
+
+pp: ; address of p
+; move pointer p forward 1 unit
+```
+
+[12:56:43](#oVZwJSxj0Tl0-qBM_iqZuaW0KlcrMXVbcQ1rOFucN8s) <hiiamboris>:
+```
+pp: :p
+p: p + 1
+```
+
+[12:57:17](#mHnjfzxorigh6V2p57Lcy3b6lKjtn9h2rb4pwl8g9A8) <hiiamboris>:
+or whatever you want `pp` to be, I'm not sure
+
+[12:58:30](#mX31y9QIXtIT37z2zzxNBIdpGORTqKc4PQXKxk9NTy0) <hiiamboris>:
+if it's the address of `p` pointer itself then it's `:p`
+
+[12:58:45](#21zBagyPUegq3Yr4Mvm2PPcgHf0IA_EzQk5CX64rc64) <JiaChen-Zeng (JiaChen ZENG)>:
+Shouldn't it be like this
+```
+pp: :p ; address of p
+pp: pp/1 + 1 ; move pointer p forward 1 unit
+```
+
+[12:59:16](#U1JFhcKWqWK4fWG7F8sC7mzbCQf9E8Xp4hWy4R0mNJM) <JiaChen-Zeng (JiaChen ZENG)>:
+* Shouldn't it be like this
+
+```
+pp: :p ; address of p
+pp/1: pp/1 + 1 ; move pointer p forward 1 unit
+```
+
+[12:59:39](#o6F3zYNu8afaDCFGNsYSVc8qa7brQK6BJiUXM5zFCzU) <hiiamboris>:
+same, right
+
+[12:59:56](#TT0g-7MnGxp8BuuF13Zd70cugejsAjanVmShB2UoQeE) <JiaChen-Zeng (JiaChen ZENG)>:
+Doesn't compile
+
+[13:00:08](#D4RBIuTEQ2-SVav-PTCoJJ30YLQN9_8icri1vMg_D5A) <JiaChen-Zeng (JiaChen ZENG)>:
+![](https://gitter.ems.host/_matrix/media/v3/download/gitter.im/642511d72b48d2bf56b43c6974079cb7c3397d321973372354679537664)
+
+[13:00:20](#2o5SWXnkeFI2u84Xnb0cxXeYe5RghX64pIJze8S4US4) <hiiamboris>:
+hmm
+
+[13:01:36](#LbWgKnbR4d-viELJ1K5hxXmHVAEpv5VpFHUGwE5_Cls) <JiaChen-Zeng (JiaChen ZENG)>:
+the `none!` may come from void* because it's a pointer to pointer
+
+[13:04:38](#6EpEDriVvpmk7AlxRZuKLYgRbJbjtItk2XTujom2b2I) <hiiamboris>:
+only this seems to work:
+```
+pp: as ptr-ptr! :p 
+pp/value: as int-ptr! (as byte-ptr! pp/value) + 1
+```
+
+[13:04:54](#uphpEWNAYWoftmjg0JO6jzP7qvAHr3SHptitOkkfTZ8) <hiiamboris>:
+those look like both design and implementation bugs to me
+
+[13:06:34](#-Ng-q2-og2bF2b3Dw1HZaruYcJxyB1k2QOmC69GP_YY) <JiaChen-Zeng (JiaChen ZENG)>:
+That is a lot
+
+[13:06:45](#1-kzgryLOWrT39y-fR-VBZxd5UDcE0ghJkHOulPiN7Y) <JiaChen-Zeng (JiaChen ZENG)>:
+Not sure what is the type for each value
+
+[13:06:56](#k5XhmEaE7IeS4N7BM9aLW2SF2RJqSGBobsTomzXYxx4) <hiiamboris>:
+* those look like both design and implementation bugs to me (`pp/1` not working, `pp/value` being `int-ptr!`, internal error when `pp` type is not enforced)
+
+[13:11:36](#VOiy-bAdH7ZSc3kBX1ryAxD2O0cOFUlD_yg1Iq9qIN8) <hiiamboris>:
+a struct workaround:
+```
+sptr!: alias struct! [value [c-string!]]
+pp: as sptr! :p
+pp/value: pp/value + 1
+```
+
+[13:11:51](#voSiYy_UI39nYZeF2P2D37INwwbnUzqQuOP_hAK-qjk) <hiiamboris>:
+* a struct-based workaround:
+```
+sptr!: alias struct! [value [c-string!]]
+pp: as sptr! :p
+pp/value: pp/value + 1
+```
+
+[13:15:07](#iZYklvEXGluyI7eyS0tZl6TdKsN68__KanE-HsjbHgQ) <JiaChen-Zeng (JiaChen ZENG)>:
+That's much simpler
+
+## 2-Oct-2025
+
+[14:46:45](#jldtssM39NavfH2N0PESBUHApxCBBBeeOqEnctkghyQ) <JiaChen-Zeng (JiaChen ZENG)>:
+any sus in syntax?
+```
+    decode-r_m-t_f-register: func [
+        out-asm [string!] op [byte!] p [byte-ptr!]
+        return: [logic!]
+        /local direction [logic!] width [logic!] mode [byte!]
+        byte [byte!] str [c-string!] inc [integer!]
+    ] [
+```
+
+```
+*** Compilation Error: invalid definition for function exec/decode-r_m-t_f-register: [
+    out-asm [string!] op [byte!] p [pointer! [byte!]]
+    return: [logic!]
+    /local direction [logic!] width [logic!] mode [byte!]
+    byte [byte!] str [c-string!] inc [integer!]
+]
+```
+
+[15:03:51](#Xdx6rhYK9-H8PqrVSerNYcz_Gb5CtWY5a7q2-ZgeLag) <JiaChen-Zeng (JiaChen ZENG)>:
+ok i found it. `out-asm [string!]` should be `out-asm [red-string!]`
+
+## 4-Oct-2025
+
+[7:13:41](#aZ3S61xirUGZ-yWFKP0-gtGMZCUsAd-e2Hefgo5FADE) <JiaChen-Zeng (JiaChen ZENG)>:
+Is this a known bug?
+
+```
+Red/System []
+
+castb: func [pos [integer!] return: [logic!]] [return as-logic (#"^(01)" << pos)]
+; b: as-integer (as-logic (#"^(01)" << 3)) ; Compiler internal error
+
+b2: castb 3
+print-line as-integer b2 ; 4206600 - Wrong
+
+b3: as-logic (#"^(01)" << 3)
+print-line as-integer b3 ; 1 - Correct
+
+```
+
+[7:36:50](#QtOABSxbxuLfitZDOfG5FBOcsWm_JFJ-l3wN2Tglxkk) <JiaChen-Zeng (JiaChen ZENG)>:
+Removing the `return` fixes the issue. What is `return` for?
+
+[7:45:59](#GzSi2DcgCsXJoqd_0VgsNfEY-UjeQxozTT8nGlbIu6o) <hiiamboris>:
+I don't believe I've seen this reported
+
+[7:46:38](#iJqOiBdDrwFFfXC7cuGf8vGiTBQp-Wmx613vI1k6Duo) <hiiamboris>:
+Anyway, report any internal compiler errors. It will form a set suite for whenever a new compiler gets rolled out
+
+[7:48:00](#KR6p4TFzuWlMOegy1eG-hwig6BZWYxKWEDfqcSzQ7CQ) <JiaChen-Zeng (JiaChen ZENG)>:
+Do think better to also report that pointer of pointer issue?
+
+[7:48:56](#Exvl1gajZFmSPBg4MZOswTDlem1fmuW-rnvu2F4oFOw) <hiiamboris>:
+Definitely
+
+[15:00:11](#MuF0ZihsFH9nF6ACi8-IV9RxirzoruyL46ffwOz8ibY) <JiaChen-Zeng (JiaChen ZENG)>:
+Is it not possible to change function pointer?
+
+```
+Red/System []
+
+funcn!: alias function! []
+
+func1: func [] [print-line "1"]
+func2: func [] [print-line "2"]
+func3: func [] [print-line "3"]
+
+pfunc: as funcn! :func1
+pfunc
+
+funcs: [:func1 :func2 :func2]
+
+; pfunc: as funcn! funcs/2 ; Compilation Error: attempt to redefine existing function name: pfunc 
+; pfunc
+
+pfunc2: as funcn! funcs/2
+pfunc2
+
+```
+
+[15:14:25](#8qGnkuyw4gL1rk9_qUoT8KZrYHLm6MdWAveddJRv8fU) <JiaChen-Zeng (JiaChen ZENG)>:
+* Is it not possible to change function pointer? Also how to set a function array?
+
+```
+Red/System []
+
+funcn!: alias function! []
+
+func1: func [] [print-line "1"]
+func2: func [] [print-line "2"]
+func3: func [] [print-line "3"]
+
+pfunc: as funcn! :func1
+pfunc
+
+funcs: [:func1 :func2 :func3]
+
+; Compilation Error: attempt to redefine existing function name: pfunc 
+; pfunc: as funcn! funcs/2 
+; pfunc
+
+pfunc2: as funcn! funcs/2
+pfunc2
+
+; Compilation Error: type mismatch on setting path: funcs2/1 
+; *** expected: [integer!]
+; ***    found: [function! []]
+funcs2: [null null null]
+funcs2/1: as funcn! :func1
+
+```
+
+[15:14:57](#HprDkLWC-kghq-xP7r6RvW5JmUVooaLEnDuOowJ7TUI) <JiaChen-Zeng (JiaChen ZENG)>:
+* Is it not possible to change function pointer? Also more importantly how to set a function array?
+
+```
+Red/System []
+
+funcn!: alias function! []
+
+func1: func [] [print-line "1"]
+func2: func [] [print-line "2"]
+func3: func [] [print-line "3"]
+
+pfunc: as funcn! :func1
+pfunc
+
+funcs: [:func1 :func2 :func3]
+
+; Compilation Error: attempt to redefine existing function name: pfunc 
+; pfunc: as funcn! funcs/2 
+; pfunc
+
+pfunc2: as funcn! funcs/2
+pfunc2
+
+; Compilation Error: type mismatch on setting path: funcs2/1 
+; *** expected: [integer!]
+; ***    found: [function! []]
+funcs2: [null null null]
+funcs2/1: as funcn! :func1
+
+```
+
+[15:54:30](#J2CUKlPtdDbeaIlZBgGuUQC8OX8JSOhRuF93BPO6uEc) <hiiamboris>:
+tried different name than `pfunc`?
+
+[16:13:28](#g7Fq0gOW114hy8Qk90aTgYvNSDF7xk3HXX7EJuZBo3g) <hiiamboris>:
+```
+funcs: [:func1 :func2 :func3]
+f: as funcn! funcs/2
+f
+```
+
+[16:13:49](#NEFEjs7zWToxcItsUB3U32JiUWUSrSskyGxC3mB7QrE) <hiiamboris>:
+this works for me
+
+## 5-Oct-2025
+
+[0:05:08](#fBsGX28dwzvnrP-3vN0rJx1A7uWYusM-PJ7XVVp0-Vg) <JiaChen-Zeng (JiaChen ZENG)>:
+The problem is I want to change the pointer, not setting the pointer
+```
+*** Compilation Error: attempt to redefine existing function name: f 
+*** in file: %/D/Projects/Computer%20Enhance/Experiments/020_function-ptr.reds
+*** at line: 18
+*** near: [
+    f: as funcn! funcs/2
+    f
+]
+```
+
+[0:11:22](#q0bh920YastCCoo9PO3QAScgGvtb_MR4TheTVGfuB1o) <JiaChen-Zeng (JiaChen ZENG)>:
+Any possibility to set a function array? Need to do something like huffman coding
+
+[2:00:41](#KGetJda2Zkab-uIVDijMCmbfD904x0uHxdf83T6K2sM) <qtxie>:
+JiaChen-Zeng (JiaChen ZENG): You can do it inside a function.
+```
+Red/System []
+
+funcn!: alias function! []
+
+func1: func [] [print-line "1"]
+func2: func [] [print-line "2"]
+func3: func [] [print-line "3"]
+func4: func [] [print-line "4"]
+
+funcs: [:func1 :func2 :func3]
+
+test: func [
+	/local
+		f
+][
+	f: as funcn! funcs/2
+	f
+	f: as funcn! funcs/1
+	f
+
+	funcs/1: as integer! :func4
+	f: as funcn! funcs/1
+	f
+]
+
+test
+```
+
+[2:00:42](#_Oho4gAEZWTXGeFog69UtNcM4XsJoBBNneHsMY-7JPE) <qtxie>:
+* JiaChen-Zeng (JiaChen ZENG): You can do it inside a function.
+
+```
+Red/System []
+
+funcn!: alias function! []
+
+func1: func [] [print-line "1"]
+func2: func [] [print-line "2"]
+func3: func [] [print-line "3"]
+func4: func [] [print-line "4"]
+
+funcs: [:func1 :func2 :func3]
+
+test: func [/local f][
+	f: as funcn! funcs/2
+	f
+	f: as funcn! funcs/1
+	f
+
+	funcs/1: as integer! :func4
+	f: as funcn! funcs/1
+	f
+]
+
+test
+```
+
+[2:22:54](#1bEqA6u6Fl7WCJi5heG1Npxr_HrSIcwFFDn__e9yyG0) <qtxie>:
+`pp/1` get the first element of the pointer, in this case it's a byte. For moving pointer forward 1, you need to write `pp: pp + 1`.
+
+[2:31:29](#cxUM_mY4X5HEwjQuuzmSM-7DJo1Ef8GZ2p1ntdVrydY) <qtxie>:
+Yes. It's a bug. I created a ticket for it: https://github.com/red/red/issues/5650
+
+[2:32:34](#9SPpIeOdujfPs-CXnrW182YqUI2xyn2ZIAE2EXXaN1s) <JiaChen-Zeng (JiaChen ZENG)>:
+Thank you I got it
+
+[2:35:55](#6xDwWQu8BObtg3-SnD2LgUMlG36eNhElpDCQr81Bmgo) <JiaChen-Zeng (JiaChen ZENG)>:
+I wanted to modify the pointer of the pointer, not move the pointer forward
+
+[2:37:02](#nmM7p0Q50kawmmcVtW7o6R_rx7JsvAQFAnhJhqM4Dks) <JiaChen-Zeng (JiaChen ZENG)>:
+* I wanted to modify the pointer address of another pointer, not modify this pointer
+
+[2:57:49](#Kp-7A3ZHE6P85sUiYMbWFRLV8Fc0C9oS83H59rZGev0) <JiaChen-Zeng (JiaChen ZENG)>:
+So in main function I have a byte-ptr! and I passed it into another function. Inside that function I want to change the pointer and reflect back to the main function
+
+[3:02:33](#Xhvr4c8Txg5tKNdl1hwzHskcMtR3KUcQycUjXdNUL3E) <qtxie>:
+Ok. Then use a struct! as hiiamboris mentioned above.
+
+[3:07:08](#BnoZRv21RsHKJdf1Lsv2JbNnn3AyqXJRXbyoLH-fhqs) <JiaChen-Zeng (JiaChen ZENG)>:
+Is it because r/s currently still doesn't have like pointer operations fully implemented? Or the syntax is designed like this?
+
+[3:12:46](#xaHqs1DeuCqcghR6nxOmHYtO_fXUAIZ3Jo28jY6d3vI) <qtxie>:
+I think it's not fully implemented as it does support pointer operations for some datatypes, e.g. get pointer of an integer!.
+
+[3:14:07](#ao0VkxePrqOmzClebSrvGs5JqbByMEEf_fkX5bFuq2g) <JiaChen-Zeng (JiaChen ZENG)>:
+I see
+
+[3:15:47](#qjZBqga73Tv7dHJ2EabHbUFjQEm3G33fzOGTagHqetM) <qtxie>:
+There is a `ptr-ptr!` defined in the runtime, it's a pointer to an int-ptr!. You can define a pointer to a byte-ptr! as well.
+https://github.com/red/red/blob/master/system/runtime/common.reds#L53
+
+[3:16:29](#6rAqYCfaQQSqkP4AeSEGRldUdXYTYMsdZKvjNDlogu8) <qtxie>:
+* There is a `ptr-ptr!` defined in the runtime, it's a pointer to an int-ptr!. You can define a pointer to a byte-ptr! as well in your own code.
+https://github.com/red/red/blob/master/system/runtime/common.reds#L53
+
+[3:28:57](#wfvM6JJn7Dlv24u7anbcXpQ9xN_TVUXBpwOTVpUSTK8) <JiaChen-Zeng (JiaChen ZENG)>:
+How to declare a block with length specified? For function pointers
+```
+funcs2: [null null null ...]
+```
+
+[3:30:01](#eS-Va1-EPajugIHufaXKf15HNi_CclUR7VEvWFsIruc) <JiaChen-Zeng (JiaChen ZENG)>:
+* How to declare a block with length specified like 256 long? For function pointers
+
+```
+funcs2: [null null null ...]
+```
+
+[4:02:33](#RhIUznG5HZduEE9hkL9iR2acTGR31CGcTGvYNy0rwrE) <qtxie>:
+No simple way. You can use allocate. 
+func-table: as ptr-ptr! allocate 256 * size? int-ptr!
+
+[4:04:43](#KqDs4K1NH4nIgqLX5j-V8kU_s32uJyyrNhHUj-CBAg0) <JiaChen-Zeng (JiaChen ZENG)>:
+With this, is func-table/1 an `integer!` type or `byte!` type?
+
+[5:11:52](#dumi5cic8Ys1bVrq7Qh_AKKoqwmA5x2JULUYziljPGQ) <qtxie>:
+`func-table/1` is invalid as it's not a real pointer! datatype, it's a struct!. You need to use `func-table/value`.
+
+[5:11:56](#KXRR0Y6Riw_LEpw1V04bWaIAcZDHyIJmm-mEDuJ4wTg) <qtxie>:
+```
+Red/System []
+
+funcn!: alias function! []
+func1: func [] [print-line "1"]
+func2: func [] [print-line "2"]
+func3: func [] [print-line "3"]
+func4: func [] [print-line "4"]
+
+func-table: as ptr-ptr! allocate 256 * size? int-ptr!
+
+set-func-ptr: func [idx [integer!] ptr [int-ptr!] /local p [ptr-ptr!]][
+	p: func-table + idx
+	p/value: ptr
+]
+
+set-func-ptr 0 as int-ptr! :func1
+
+get-func-ptr: func [idx [integer!] return: [int-ptr!] /local p [ptr-ptr!]][
+	p: func-table + idx
+	p/value
+]
+
+f: as funcn! get-func-ptr 0
+f
+```
+
+[5:12:30](#3ryqmbRIeU2QihErmAc_MMsC85_GOgvQoUem3D4QaCQ) <qtxie>:
+* ```
+Red/System []
+
+funcn!: alias function! []
+func1: func [] [print-line "1"]
+
+func-table: as ptr-ptr! allocate 256 * size? int-ptr!
+
+set-func-ptr: func [idx [integer!] ptr [int-ptr!] /local p [ptr-ptr!]][
+	p: func-table + idx
+	p/value: ptr
+]
+
+set-func-ptr 0 as int-ptr! :func1
+
+get-func-ptr: func [idx [integer!] return: [int-ptr!] /local p [ptr-ptr!]][
+	p: func-table + idx
+	p/value
+]
+
+f: as funcn! get-func-ptr 0
+f
+```
+
+[5:14:16](#Tr_xXFVfykSrPALv4wvylp2R1iy9v9BRMlAEIMEOnR8) <qtxie>:
+Note that those get/set functions are 0-based instead of 1-based.
+
+[5:27:00](#7jFMy7n2VdYt4V_C9gp_b1A-m84QJhhzbWIPuy8R3BU) <JiaChen-Zeng (JiaChen ZENG)>:
+I see it was ptr-ptr! so move in int size
+
+[5:29:40](#HexeitQAWq1O_Mc0n3nVXx-HiCg1s8tLQHzQUJngfvU) <JiaChen-Zeng (JiaChen ZENG)>:
+But I thought pointer arithmetic was in byte size? Shouldn't it be like this?
+
+```
+;p: func-table + idx
+p: func-table + (idx * 4)
+```
+
+[5:29:57](#G7rPqeNvyQSbbO3Is97S-xUIp9QxUWCWrKypxUPsHYc) <qtxie>:
+Move in `int-ptr!` size, not int size. In 32 bits backend, they are the same, both 4-bytes. Once we have 64 bits backend, `int-ptr!` will be 8-bytes.
+
+[5:30:22](#e7lMPZJ_LcH5L7Sy1ynpvLrHz3Rg7b41ETFcanwwM5w) <qtxie>:
+* Move in `int-ptr!` size, not int size. In 32 bits backend, they are the same, both 4-bytes. Once we have 64 bits backend,  size of `int-ptr!` will be 8-bytes.
+
+[5:30:28](#D74dgUpG_nWsgjiA5eidwxdcH2xBjiaf5oJ9MgwR2RU) <JiaChen-Zeng (JiaChen ZENG)>:
+Maybe I'm mixing up things
+
+[5:32:07](#3iD6FfYo_09Z7-mhpvVdJtrAsbLljnKEucCmNqTcJcg) <JiaChen-Zeng (JiaChen ZENG)>:
+Ok distance between 2 pointers it's in byte. Otherwise it's in the pointer's value size
+
+[5:35:38](#qxHTgujZfpnum-b5eYK6ejOxu_YgJH3nORnaIB84qIA) <qtxie>:
+Yep. Not the same as C which always in pointer's value size.
+
+[12:44:09](#H0vTVHKziQ571awzIaFOnOzWdPCeDK26tgWWAsnfAJM) <JiaChen-Zeng (JiaChen ZENG)>:
+This [causes compiler internal error ](https://github.com/red/red/issues/5651) currently. Any workaround?
+
+```
+receive-n: func [[typed] count [integer!] list [typed-value!]] []
+receive-n [[1]]
+```
+
+[12:47:15](#1vwoLOwKoUHbYkWu0JDYbumta-KJKTwtns3t4ttv88o) <hiiamboris>:
+there's no array of arrays
+
+[12:47:20](#FDvm-K2PhA74HBJFumkA0c81M3BDVp99qdFsQE_s8xI) <JiaChen-Zeng (JiaChen ZENG)>:
+Was going to do something like this
+```
+register-decode-func [
+        :decode-mem-to-acc #"^(FF)"
+        :decode-r_m-t_f-register [#"^(01)" #"^(02)" #"^(03)"]
+    ]
+```
+
+[12:47:37](#hTOv5hplcWA9iGz4oP6fFJpZjn7qf9tbPuDQUVzZ07U) <JiaChen-Zeng (JiaChen ZENG)>:
+* Was going to do something like this
+
+```
+register-decode-func [
+    :decode-mem-to-acc #"^(FF)"
+    :decode-r_m-t_f-register [#"^(01)" #"^(02)" #"^(03)"]
+]
+```
+
+[12:47:39](#LJmQBwPky_MS8DXRW4ZpqC8O81PWDbV0-fptg6xuvSA) <hiiamboris>:
+ah, it's variadic
+
+[12:48:03](#CNsAZU0zuCl8Um1d_P_8ngZrP52W9GfrLv7s30K2fzs) <hiiamboris>:
+```
+a: [1]
+receive-n [a]
+```
+this works
+
+[12:50:12](#xb3JAehC0neX8nI4tItnMEzdPyKxVPHCdq-RadHLG9M) <JiaChen-Zeng (JiaChen ZENG)>:
+```
+    conf: [
+        :decode-mem-to-acc #"^(FF)"
+        :decode-r_m-t_f-register [#"^(01)" #"^(02)" #"^(03)"]
+    ]
+    register-decode-func conf
+```
+
+another kind of internal error
+
+```
+Compiling to native code...
+*** Red/System Compiler Internal Error: Script Error : get-function-spec expected name argument of type: word 
+*** Where: get-type
+*** Near:  [case [
+find [set-word! set-path!] type?/word value/1 [none-type]
+value/1 = 'not [get-type value/2]
+all [subroutines type: select subroutines value/1] [type/2]
+'op = second get-function-spec value/1 [
+either base-type? type: get-return-type/check value/1 [
+type
+] [
+get-type value/2
+]
+]
+'else [get-return-type/check value/1]
+]]
+```
+
+[12:52:20](#GdaDtvyaYnKqjhJ3fVOQhmPwS8QzKvCVU9gPv-Y91A0) <hiiamboris>:
+this is enough to trigger it: `a: [1 [1]]`
+
+[12:52:38](#uNXi-oaHDEv-KYRrnj7rpTxl3H8X9fe5ZkSFizeWno4) <hiiamboris>:
+report it please
+
+[12:53:17](#d9sKSh4pAdv5r1yJcKFgR2WyktVeDtdvwHBhirqVId0) <JiaChen-Zeng (JiaChen ZENG)>:
+```
+aaa: [#"^(01)" #"^(02)" #"^(03)"]
+    conf: [
+        :decode-mem-to-acc #"^(FF)"
+        :decode-r_m-t_f-register :aaa
+    ]
+    register-decode-func conf
+```
+
+another kind
+
+```
+*** Red/System Compiler Internal Error: Script Error : append expected series argument of type: series port 
+*** Where: store-global
+*** Near:  [append spec/4 index? tail data-buf]
+```
+
+[12:54:00](#XRqp5-hTLSwhUfzAbO0Jv5S_id5ZugAzb7E3SLgfvPM) <JiaChen-Zeng (JiaChen ZENG)>:
+maybe we only have a pretty basic implementation for passing block currently
+
+[12:54:42](#b5qBjaX48EMHcqNHchGpu6laI9ZSn6gG7mwL_NiWvXs) <hiiamboris>:
+better to group them then, since it's all related to unsupported array types
+
+## 6-Oct-2025
+
+[11:50:07](#2JKczzAehAu4ZBE36q7_Ku4qj0eDOSHzg9gUmmrqhjE) <JiaChen-Zeng (JiaChen ZENG)>:
+Hi. Is this expected?
+
+```
+Red/System []
+
+decode-funcs: as ptr-ptr! allocate 100
+
+b: #"^(00)"
+t: decode-funcs + 1
+t/value: null ; ok
+
+t: decode-funcs + as-integer b
+t/value: null ; Runtime Error 1: access violation
+```
+
+[11:53:59](#YQcecDZpozcmcjLpyOaM7Ph6tP0fVvVHBLq3mMymiiI) <JiaChen-Zeng (JiaChen ZENG)>:
+* Hi. Is this expected? Any way to fix it?
+
+```
+Red/System []
+
+decode-funcs: as ptr-ptr! allocate 100
+
+t: decode-funcs + 0
+t/value: null ; ok
+
+b: #"^(00)"
+t: decode-funcs + as-integer b
+t/value: null ; Runtime Error 1: access violation
+```
+
+[11:55:45](#0YhP_HOmRaI8vYInxrv44yt8kBRDJdpQDBjLm3Xqvvc) <JiaChen-Zeng (JiaChen ZENG)>:
+* Hi. Is this expected? Any way to fix it?
+
+```
+Red/System []
+
+decode-funcs: as ptr-ptr! allocate 100
+
+t: decode-funcs + 0
+t/value: null ; ok
+
+b: #"^(00)"
+t: decode-funcs + (as-integer b)
+t/value: null ; Runtime Error 1: access violation
+```
+
+[11:58:09](#aXhi2OR8kEwtoy0iHVVX5iwrTuFXD2bAN7uKxZDthOg) <JiaChen-Zeng (JiaChen ZENG)>:
+* Hi. Does this look like a bug
+
+```
+Red/System []
+
+decode-funcs: as ptr-ptr! allocate 100
+
+t: decode-funcs + 0
+t/value: null ; ok
+
+b: #"^(00)"
+i: as-integer b
+t: decode-funcs + i
+t/value: null ; ok
+
+t: decode-funcs + (as-integer b)
+t/value: null ; Runtime Error 1: access violation
+```
+
+[12:01:51](#GJnwtZXN9_XwfWucLBV_sa4UQ7K_TOJQGBnQ13lWRJc) <JiaChen-Zeng (JiaChen ZENG)>:
+* Hi. Does this look like a bug
+
+```
+Red/System []
+
+decode-funcs: as ptr-ptr! allocate 100
+
+t: decode-funcs + 0
+t/value: null ; ok
+
+b: #"^(00)"
+i: as-integer b
+t: decode-funcs + i
+t/value: null ; ok
+
+t: decode-funcs + (as-integer #"^(00)") ; ok
+t/value: null
+
+t: decode-funcs + (as-integer b)
+t/value: null ; Runtime Error 1: access violation
+```
+
+[12:51:23](#AwCxtgcaBJu2bCjQ2nwvZxeMij4IXxibDXD1tn6d4XE) <hiiamboris>:
+definitely
+
+[12:51:59](#n0vM2ixPiOSwDkXfmy7QOKNXscmuCKZA0JdWRiIInVw) <hiiamboris>:
+```
+Red/System []
+
+decode-funcs: as ptr-ptr! allocate 100
+?? decode-funcs
+
+t: decode-funcs + (as-integer #"^(00)") ; ok
+?? t
+t/value: null
+
+b: #"^(00)"
+t: decode-funcs + (as-integer b)
+?? t
+t/value: null 
+```
+```
+decode-funcs: 03011588
+t: 03011588
+t: 0F056988    ;) ?????
+
+*** Runtime Error 1: access violation
+*** in file: /D/devel/red/red-src/red/1.reds
+*** at line: 13
+***
+***   --Frame-- --Code--  --Call--
+***   00C1FF74h 0040114Ah <external>
+***   00C1FF84h 75EC7BA9h <external>
+***   00C1FFDCh 7766C3ABh <external>
+***   00C1FFECh 7766C32Fh <external>
+```
+
+[12:54:22](#2xPhx5tztaO3leooiUTLqys728rNkUU6xoEPuG6g_d4) <JiaChen-Zeng (JiaChen ZENG)>:
+How to see the frame and so on?
+
+[12:54:51](#p3rNBbZQzSypXT33iP3_Uk7IUyKoWhgiSqKZc-ysujM) <hiiamboris>:
+`-d` flag
+
+[12:55:03](#nYz-1ll29lxxly76UgS6-Sf559DNBQMqEI-IK6saQsg) <JiaChen-Zeng (JiaChen ZENG)>:
+ok
 

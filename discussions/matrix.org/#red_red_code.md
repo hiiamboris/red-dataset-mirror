@@ -52,7 +52,7 @@ ok thanks I didn't realize the text-list contents allowed formatting.  ill look 
 * @henrikmk the deepest work on a grid is probably in @hiiamboris' red-spaces project on gitlab.
 
 [18:55:29](#UUxk6YNurf3Jf02zix4FKG2-XWKJ4thqtzGsxbtxR64) <hiiamboris (NOT THIS ONE)>:
-Red regressed so much while I wasn't looking that Spaces won't run anymore Ì†ΩÌ∏É
+Red regressed so much while I wasn't looking that Spaces won't run anymore üòÉ
 
 [18:58:52](#NpmCKiCox89ZH9X5ocgTIu4iE-w6h8MhATPC8WxmJLw) <hiiamboris (NOT THIS ONE)>:
 I'll take a look tomorrow. This task should be dead simple.
@@ -104,7 +104,7 @@ view [
 But you have to use Red builds of September 2 or prior, before `forall` started crashing. You can build Red console at any commit by download downloading a zip snapshot and following instructions on [the main page](https://github.com/red/red/)
 
 [19:35:36](#XS2X2wVGo8hc6OyNHQ2mm14-e4VVxoFGCBsBraofOp4) <greggirwin (Gregg Irwin)>:
-Ì†ΩÌ±è @hiiamboris 
+üëè @hiiamboris 
 
 ## 21-Nov-2021
 
@@ -513,7 +513,7 @@ I have not read the thread
 But I am in favour of order in MAPS and also in objects. So you can work with indices.
 
 [17:55:26](#csmt-a8JJFdPkbJEi-c66WSRS04dfGC-XvExviSDLu8) <hiiamboris (NOT THIS ONE)>:
-we did not advocate indexes Ì†ΩÌ∏â
+we did not advocate indexes üòâ
 I like indexes in maps as they are
 
 [17:55:39](#zZ11XTzZthA_23QJo2zYqg1JNsq7T7Nb_0l0GS03BLI) <hiiamboris (NOT THIS ONE)>:
@@ -793,34 +793,6 @@ How do you backlink to
 
 
 [18:42:42](#TqGxL9HfN2NlrOQ-TwIrf04CpDP-Cik6CRgdVFl5-pc) <GiuseppeChillemi (GiuseppeChillemi)>:
-* > Your block can be the key. And how can a query change the order changes?
-
-Try this one:
-```
-customers: [
-  1 [morlok 3'000 alabama]
-  2 [ujo 35 texas]
-]
-```
-
-Create an order view from an action on customers like: 
-
-"Select name, age where age < 2000"
-And the result is:
-
-```
-orders-view: [
-   [ujo 35]
-]
-```
-
-How do you backlink to `customers` without a key?
-How do you backlink to 
-
-
-
-
-[18:42:42](#ljZ89vIDxhp-asg8tGNQ3dKYJ0D6YeiqK3zfJRY6XK0) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 * > Your block can be the key. And how can a query change the order changes?
 
 Try this one:
@@ -1128,7 +1100,7 @@ keep in mind `get 'fc/1` is broken though
 On Red or Rebol?
 
 [14:39:08](#ShnOS4kb-s21hypqpPeZc0WBVGmD8W1kYIM3Mg-nRd4) <hiiamboris (NOT THIS ONE)>:
-nobody break Rebol anymore Ì†ΩÌ∏â
+nobody break Rebol anymore üòâ
 
 [14:39:11](#tNMmHh0Mmz6K0buV9LAOCezBa7AKGyZPhqm_3IyxtRU) <hiiamboris (NOT THIS ONE)>:
 * nobody breaks Rebol anymore ;)
@@ -1137,7 +1109,7 @@ nobody break Rebol anymore Ì†ΩÌ∏â
 I break it!
 
 [14:39:48](#Q4Sl8RJWOJMRcxjShuRPLKaCazFYNwG4Epw6587nYL4) <hiiamboris (NOT THIS ONE)>:
-haha okay do that Ì†ΩÌ∏â
+haha okay do that üòâ
 
 [14:40:25](#-muFh8hmOn7cmJIXuIFj3Dijdsx6sz0qHuZrhoCSvPE) <hiiamboris (NOT THIS ONE)>:
 no, it was broken in Red 
@@ -1216,9 +1188,6 @@ Yep, path! is an active type
 Path should not be active if you precede it using `'`
 
 ## 10-Dec-2021
-
-[9:52:19](#qQogHa4-eLVx-dsaKaviYUfbsF5YAlFVXFv_WOtyljE) <Devon0175 (Devon Thomson)>:
-Path should not be active if you precede it using `'`
 
 [9:59:19](#b8BWp3mPut9YmU1fRPyXh-WjPJiEjuFNtKtMQ35VhMM) <pekr (Petr Krenzelok)>:
 Spam?

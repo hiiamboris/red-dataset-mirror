@@ -254,9 +254,6 @@ I can see the context near "where"
 [22:17:53](#YdLcey_FS3kT6khuB_hDwileCAM7E8SoNcFpVbHuadI) <GiuseppeChillemi (GiuseppeChillemi)>:
 I can try to compile it with debug on.
 
-[22:33:57](#IA3uEZ1hCMH1l5aEmPV88OA2sPkFCX5U4zMoCEzK9Ng) <gurzgri>:
-I can try to compile it with debug on.
-
 [22:38:48](#DO4CAHfLPWeCsZP0YTD-2TWFTzvPWIq62iHVPgs41h8) <gurzgri>:
 These two error message look like totally legit connections errors due to some misconfiguration re: the user auth method. See e.g. https://dba.stackexchange.com/questions/29992/odbc-data-source-sql-server-connection-login-failed-for-user , that seems to be an recurring ODBC issue with SQL Server, but not so much odbc:// scheme related.  
 
@@ -503,7 +500,7 @@ It seems the connection has been established. Now I will compile the console wit
 Already did it
 
 [16:43:46](#xALYOikVuXWl273rKBVulg63lRfwYTlaPIDUFf91AnE) <gurzgri>:
-clever Ì†ΩÌ∏â
+clever üòâ
 
 [16:44:44](#Ake21SoaZGco90nHRW7iaY9fqrSEahDZhnU3AygaR4Q) <gurzgri>:
 "typewriter mode" I haven't addressed yet, but I might have an idea what's causing it.
@@ -524,10 +521,10 @@ I have the first result
 * I have the first results
 
 [16:58:54](#ZoC4Gg0RMhESqHz2rF3XuiT1_N7dS0-ouAlx4uaOU8E) <gurzgri>:
-Ì†ºÌæâ Congratulations!
+üéâ Congratulations!
 
 [16:59:06](#CiVi-zfQ5Q7U_FYMKF55co_gK9-sVAggnF0iZG8-vYI) <GiuseppeChillemi (GiuseppeChillemi)>:
-Please add to the following part of the documentation that "inserting a statement" you receive the column names as result and to get rows you have to use copy Ì†ΩÌ∏â
+Please add to the following part of the documentation that "inserting a statement" you receive the column names as result and to get rows you have to use copy üòâ
 
 ```
 ## Inserting Statements, Retrieving Results
@@ -560,7 +557,7 @@ When you insert a query you expect to receive the query results!
 
 > Yes but later. Sometimes reading comes first. 
 
-Ì†ΩÌ∏â
+üòâ
 
 [17:01:40](#wX-zB0vFBGvD1qJ5V1L6CkiyGJo8x3_PjwEtg6Bu4dk) <GiuseppeChillemi (GiuseppeChillemi)>:
 Ok, let's start with a massive task: "select * from table" (100K rows)
@@ -714,9 +711,6 @@ Here is the result of the query:
 So you run Red debug console in powershell? If yes, how can I do this?
 
 [19:22:39](#kS1w7_iQ7F6kpDbcEK1dS1N8EMpu6ydJU3e19ckOLcs) <gurzgri>:
-[![image.png](https://files.gitter.im/6234feab6da037398492a62a/379B/thumb/image.png)](https://files.gitter.im/6234feab6da037398492a62a/379B/image.png)
-
-[19:23:10](#Th-Dz2GZdezkI5YTZ8Vl7Gl6R49SFOZz0Eeki_jdHh4) <gurzgri>:
 [![image.png](https://files.gitter.im/6234feab6da037398492a62a/379B/thumb/image.png)](https://files.gitter.im/6234feab6da037398492a62a/379B/image.png)
 
 [19:24:19](#3RTNDcUqOg-3Qqj7JgwTgExA7GX1epFH4ujVLcoLIjE) <gurzgri>:
@@ -1075,7 +1069,7 @@ Do not work!
 Great Work!
 
 [21:44:41](#31xlW2u8jsPiVUclWzJzuQcNsnJcXXKP49FfyhmuC1o) <gurzgri>:
-Thanks Ì†ΩÌ∏â
+Thanks üòâ
 
 [22:04:14](#RKOjppqNxC2a3LUC1SLvObgCzpzJxJHLVOkzgKr2uTU) <greggirwin (Gregg Irwin)>:
 Indeed!
@@ -1119,7 +1113,7 @@ Results are equal
 @GiuseppeChillemi That tells me nothing. `probe st/state/columns` might give some clues on the SQL types involved.
 
 [22:06:19](#YFPlP0no2nu1BqiVtNlnAc2zvoAWa5FpHMlh0Cp7_fg) <gurzgri>:
-@greggirwin Thanks Ì†ΩÌ∏â
+@greggirwin Thanks üòâ
 
 [22:07:44](#Hw7yluaSd2OcNCcnqYV5wYwRgrJD-W5HnPGxpkHg_ro) <GiuseppeChillemi (GiuseppeChillemi)>:
 ```
@@ -1218,9 +1212,6 @@ Good night!
 @gurzgri  What about `NULL`? Should I pass it's as (reduce) `none` ?
 
 [8:50:21](#oaj2Q17eM9G3WvYuriSF9HM4AetwuLh7eyKBzxkDP9U) <bubnenkoff (Dmitry Bubnenkov)>:
-*  What about `NULL`? Should I pass it's as (reduce) `none` ?
-
-[8:53:23](#PLy4vJsLfpMxdsZ10_vUXxtsWLzkR1uWRaggew_6jdk) <bubnenkoff (Dmitry Bubnenkov)>:
 *  What about `NULL`? Should I pass it's as (reduce) `none` ?
 
 [11:31:30](#VgWQ34vOXaCrH0tJMho7gewpiZFElT5X3PJcMM2Kn3c) <bubnenkoff (Dmitry Bubnenkov)>:
@@ -1344,7 +1335,7 @@ st: open cn
 st/state/window: 1500000
 
 insert st  rejoin ["select top 100000" sql-cols " from dotes"]  data: copy st
-Ì†ΩÌ∏úrobe data
+üòúrobe data
 
 ```
 
@@ -1389,10 +1380,10 @@ insert st  rejoin ["select top 100000" sql-cols " from dotes"]  data: copy st
 
 
 [18:40:55](#5pJ4cu3NGKGdlR_D50_ek0UlPFoHtUkGjl2npfAdfh4) <gurzgri>:
-You get what you deserve then Ì†ΩÌ∏á Seriously, you're not even closing the connection. No wonder uncleared low level buffers cannot be freed, eating all your precious memory. You need to learn to well-behave Ì†ΩÌ∏ú
+You get what you deserve then üòá Seriously, you're not even closing the connection. No wonder uncleared low level buffers cannot be freed, eating all your precious memory. You need to learn to well-behave üòú
 
 [18:54:04](#HLuzGm6_5BOQG9y8I3xaBT5zHMXCKXnz9vkSy3OhpLc) <GiuseppeChillemi (GiuseppeChillemi)>:
-I did it on purpose. When I betatest  I work dirty so that developers have their code under the worst possible scenery Ì†ΩÌ∏â. 
+I did it on purpose. When I betatest  I work dirty so that developers have their code under the worst possible scenery üòâ. 
 
 [18:54:20](#9OnKImDV3hgnVz7b8x3liuqsrFn0JRwHuwgQT2mF0wo) <GiuseppeChillemi (GiuseppeChillemi)>:
 * I did it on purpose. When I betatest  I work dirty so that developers have their code tested under the worst possible scenery ;-). 
@@ -1411,7 +1402,7 @@ But you probably happen to know a way how to advise the GC (via callback or othe
 
 [20:16:35](#HPuNREgRckZrZ2j36vKHkRh1o9tDEHD8CQidbXxnqiM) <gurzgri>:
 @GiuseppeChillemi Yay! Obviously you hit a nerve recently and got me thinking ... And when I woke up on sunday morning, suddenly everything has fallen into place and I instantly knew how to implement BLOBs retrieval. So obvious! And it feels totally natural within the current API. Just got it working, first BLOB retrieved from PostgresSQL.
-Not quite ready to hand it over yet, least of all to someone testing as mean as you Ì†ΩÌ∏ù
+Not quite ready to hand it over yet, least of all to someone testing as mean as you üòù
 
 [20:23:48](#0SinVM2heR6t3PADHc5MWJIkS3aXbQ93vTKDI5xBOqs) <gurzgri>:
 For now, it will be "all or nothing", fetch the whole BLOB, but with IO branch merged in, a "streaming" approach will be well within reach, too. Such that can a stream a BLOB directly into a file without having it in-memory as a whole in a intermediate step.
@@ -1454,7 +1445,7 @@ I have another only question: database Column names are mapped to `WORD`. Why do
 * I have only another question: database column names are mapped to `WORD`. Why don't you map it to string as there are some DB engines which accept column names like `2WORK` which not legal in Red?
 
 [21:38:08](#OS0aXdZ8j0kpyQd9gp-w4i0qAvdNrLgKv1GneSAfcDA) <gurzgri>:
-Because words are nicer in Red to handle things with Ì†ΩÌ∏â You can get easily retrieve the original column name with
+Because words are nicer in Red to handle things with üòâ You can get easily retrieve the original column name with
 ```
 >> column-of: func [statement word] [copy select statement/state/columns] ()
 >> column-of statement 'user-id
@@ -1581,10 +1572,6 @@ I am not sure, but possible it's a bug. I did a lot of experiments with reduce/c
 [![–∏–∑–æ–±—Ä–∞–∂–µ–Ω–∏–µ.png](https://files.gitter.im/6234feab6da037398492a62a/37H3/thumb/izobrazhenie.png)](https://files.gitter.im/6234feab6da037398492a62a/37H3/izobrazhenie.png)
 
 [16:49:39](#Nl08R_djazqkUEtKGUyIgz8ZxdR_Kkz6nJKaLWU7rHE) <bubnenkoff (Dmitry Bubnenkov)>:
-* I am not sure, but possible it's a bug. I did a lot of experiments with reduce/compose `none`  and it's inserting as 1, not as `null`
-Also I tried `#[none]`
-
-[18:12:56](#93i0jkIZ8IeYpNGEfeWV74--1--3OJHCuyOKc6MkMZg) <bubnenkoff (Dmitry Bubnenkov)>:
 * I am not sure, but possible it's a bug. I did a lot of experiments with reduce/compose `none`  and it's inserting as 1, not as `null`
 Also I tried `#[none]`
 
@@ -1773,7 +1760,7 @@ I am getting error:
 @bubnenkoff The correct form was `insert stmt ["some sql" [...] [...] [...] ...]` yesterday, it's the same today. You again have a block too much around your param values. 
 
 [18:29:42](#hrrqYVUL2Of4TUCuAKnITfQDBzoyq2uAG92KuRUA_Ck) <gurzgri>:
-Answered anyways Ì†ΩÌ∏â
+Answered anyways üòâ
 
 [18:29:50](#lWUhkfz4zRQdOJjk6FHXdv3tbrOdZlTg1v65x4Rixvg) <bubnenkoff (Dmitry Bubnenkov)>:
 yeah) thanks)
@@ -1845,7 +1832,7 @@ oh, so it's error about wrong evaluation of `none`. Understand
 * oh, so it's error about wrong evaluation of `none` to `1`. Understand
 
 [22:55:20](#u_mO2eHdJZk-7RieVZOYxP_0NHObkBaW259uQEvcMHg) <gurzgri>:
-@GiuseppeChillemi I have a Ì†ºÌæÅ for you:
+@GiuseppeChillemi I have a üéÅ for you:
 
 * commit dada87f: "FEAT: Deferred fetching of TEXT/BLOB columns (longvarchar/longvarbinary)"
 * commit 33adbcb: "DOCS: documentation for PICK on TEXT/BLOB columns"
@@ -1960,7 +1947,7 @@ columns: select rw  "select top 10000 * from cf where attributi is not null "
 
 
 [18:29:09](#DnZGPPx72LgL3HM9VEgng179XkWaFYeYdrepLl-HShc) <gurzgri>:
-No, `insert` is correct, obviously it was too late yesterday for me Ì†ΩÌ∏ü 
+No, `insert` is correct, obviously it was too late yesterday for me üòü 
 
 [18:31:13](#MJ0yKopjVv9Gs3ZxmQ_KHuNA5jjCa79desduFXT49sg) <gurzgri>:
 You do the same thing as always, insert a statement, fetch results (here with `next`) and for TEXTs and BLOBs you get `deferred` word instead of the value. Then you `pick` the deferred columns' values.
@@ -2147,7 +2134,7 @@ Pardon, you are right, the connection block  already contains an `open make port
 Right!
 
 [19:04:30](#C7fivsjDJ8xnNLRNK5smlnDJ0VEhcAIyuXaN04ToDhg) <gurzgri>:
-Ì†ΩÌ∏â
+üòâ
 
 [19:09:15](#xLvaq7qSNq6PVODN6LUsXcNWtBQGcY0WPJLA-Wgm3ZQ) <GiuseppeChillemi (GiuseppeChillemi)>:
 So is this correct?
@@ -2216,7 +2203,7 @@ I have seen it!
 I was first!
 
 [19:13:23](#WIanBc2nr52n-ydDE_fcTkRgSj2HuXk0RPOwN64AUeM) <GiuseppeChillemi (GiuseppeChillemi)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [19:14:26](#bbOPdW8DDhnSZw82caeLPsh00pZ3G22kYbZbN6zLFpM) <GiuseppeChillemi (GiuseppeChillemi)>:
 I get `Right truncation of the string` or something similar
@@ -2307,7 +2294,7 @@ But I noticed some (Improper column name translations)[https://github.com/gurzgr
 * But I noticed some improper column name translations in your columns, opened https://github.com/gurzgri/red/issues/5 for that. I'll address that too (but that's cosmetics only).
 
 [22:05:54](#1YWk_Kv7E37y0H3fiaIKpJBzAbjKjN1nDchhbMC3o84) <GiuseppeChillemi (GiuseppeChillemi)>:
-If `SIZE` is expressed as bytes there us something strange. That colum contains attributes. which are composed of a group name, the group members and their flag. Actually max 50 members * 20 characters. Eve if they are stored as XML, I don't thing they could take 1 gigabytes.  XML is big, but not do big Ì†ΩÌ∏Å
+If `SIZE` is expressed as bytes there us something strange. That colum contains attributes. which are composed of a group name, the group members and their flag. Actually max 50 members * 20 characters. Eve if they are stored as XML, I don't thing they could take 1 gigabytes.  XML is big, but not do big üòÅ
 
 [22:20:48](#AFOO6NXK8aEQ9vOpt5To_9O6msXWesaoO4z-xuX5H1o) <GiuseppeChillemi (GiuseppeChillemi)>:
 @gurzgri https://gist.github.com/GiuseppeChillemi/b945ca418dff41a77812a0c8c47d4461
@@ -2507,7 +2494,7 @@ insert/part st "SELECT TOP 10 CodiceIPA, Attributi FROM cf WHERE Attributi IS NO
 st/state/debug?: on
 probe records: next st
 probe records: next st
-probe pick st 2 ;<<<<< Now it is ok Ì†ΩÌ∏â
+probe pick st 2 ;<<<<< Now it is ok üòâ
 ```
 
 This is what I get:
@@ -2680,7 +2667,7 @@ Well, ODBC gets really complex fast if won't support only the most basic stuff. 
 Yes! http://nl.aminet.net/biz/dbase/Fiasco_eng_doc.readme
 
 [11:31:03](#EnDC8v8EPFUhMpPldky9_tCLRbP0iV0v6M5CW5uMYGU) <gurzgri>:
-Cool, so you only need to implement a Fiasco ODBC driver and soon you'll be able to access you records from 25 years ago with Red ... Ì†ΩÌ∏É
+Cool, so you only need to implement a Fiasco ODBC driver and soon you'll be able to access you records from 25 years ago with Red ... üòÉ
 
 [11:31:16](#Bo8vSWKe3M6FN9-SPBGZBXY0PGlELp5H3F_8z9lfUPE) <gurzgri>:
 * Cool, so you only need to implement a Fiasco ODBC driver and soon you'll be able to access your records from 25 years ago with Red ... :D
@@ -2735,7 +2722,7 @@ Surely I won't, it's debugging output only, I have no need to reinvent the wheel
 Sorry, the last fix was only one line and yet I managed to commit a typo. Pushed "FIX: typo in insert/part shorthand window setting" just now.
 
 [22:30:14](#PxGurxshdEtPFAsJExsWfEOE-zFeONX3rPJ5K5piUdA) <GiuseppeChillemi (GiuseppeChillemi)>:
-Because I didn't know all those things can be done. Ì†ΩÌ∏â
+Because I didn't know all those things can be done. üòâ
 
 [23:17:03](#002dOi8KAxDG70xSB72-xgtxWrgWDFHwn1i5oGhJ988) <gurzgri>:
 That‚Äòs something every ‚Äûmodern‚Äú OS can do. Amiga too was able to do it from day one.
@@ -3087,10 +3074,10 @@ I do not blame `pick`. I am just telling that under Red logic it returns `none!`
 * I do not blame `pick`. I am just telling that under Red logic it returns `none!` of type `none!` at tail, which differs from  `none!` inside a block which is of type `word!` if you `pick` it. So you can distinguish `end of rows` from column content, just using `type?`!
 
 [21:51:38](#Qt4n4g_L_pqKZZICebB4neHCIqaZlUusCaemx9phZ08) <gurzgri>:
-Like it or not, it will stay the `none? none ;== true` way Ì†ΩÌ∏â
+Like it or not, it will stay the `none? none ;== true` way üòâ
 
 [21:52:41](#cs5kmivZZlnuYa2b4hikhFxO8K-1j390_JHuUpesvUI) <GiuseppeChillemi (GiuseppeChillemi)>:
-It's you code and your freedom Ì†ΩÌ∏â 
+It's you code and your freedom üòâ 
 
 
 [21:54:50](#F2Tw4tcNvZPNL2EfkkU_6VD7giB1EDUBZXZK0WsYn74) <GiuseppeChillemi (GiuseppeChillemi)>:
@@ -3132,7 +3119,7 @@ Yes, I am NONE! type!
 ```
 
 [22:14:20](#trBoWRE4BL_nbmalL7XmQniQA6D2jLSKrqs3ofoy7lA) <GiuseppeChillemi (GiuseppeChillemi)>:
-(Ok, it is not perfect, I have to better review it Ì†ΩÌ∏â   )
+(Ok, it is not perfect, I have to better review it üòâ   )
 
 [22:18:07](#GQr9OyAkTgWmG7bUAQ017Rt8FgR57vRZQ0Ij2TvzWE0) <GiuseppeChillemi (GiuseppeChillemi)>:
 Ok, it is the correct way of testing it:
@@ -3158,7 +3145,7 @@ You're kidding, are you? :) `'none = pick y 1`
 [22:21:46](#aGzBcUQaffmSo5I_mhVpl32nBkf_idL7wkk1-64eEvE) <GiuseppeChillemi (GiuseppeChillemi)>:
 I have written elsewhere, I just didn't know about `'none = pick y 1` but if you know this,, why you keep writing: 
 >> If a word none of type word! would be returned, you wouldn't be able to test a column result for none?
-Ì†ΩÌ∏â
+üòâ
 
 [22:21:55](#4ED8P0bskVre6RTaAtG-36lapu5B2JHUOa8MKi5KnOw) <GiuseppeChillemi (GiuseppeChillemi)>:
 * I have written elsewhere, I just didn't know about `'none = pick y 1` but if you know this,, why you keep writing: 
@@ -3268,13 +3255,13 @@ Small inserts works. I tried to run big parameterized insert requests and it's f
 Ok. I will try to add more `probe`
 
 [14:02:47](#HkrkrkxF_06ccA4USpj0i8UwV7jlK3v-OZ_98sU7g7E) <gurzgri>:
-But the error message is right there, have you considered reading it? Ì†ΩÌ∏â
+But the error message is right there, have you considered reading it? üòâ
 
 [14:42:55](#ooXq9jxkvdaBaQ-U_mBMipmWrpVr00hCRWrEi0qwvSg) <gurzgri>:
 Joking aside: Tell me what you think is going wrong and how you try to debug it. I do not think it's directly odbc:// scheme related. The error message  is giving away two reasons why the statement fails and I do expect content over size being the reason for failure. Hopefully that's cryptic enough? :J
 
 [16:45:25](#FGscHYM3TJ4M3adP6EY0IjCSouz0xlLsNHl5LPl_kk8) <bubnenkoff (Dmitry Bubnenkov)>:
-> But the error message is right there, have you considered reading it? Ì†ΩÌ∏â
+> But the error message is right there, have you considered reading it? üòâ
 
 "before or while processing the request" I did dump of prepared and insert SQL part before crush, and tried to run them in tiny project. Work fine, but crush during processing in real app...
 
@@ -3290,9 +3277,6 @@ I remember that when I installed PG I did some settings tuning. I will check it.
 Strange. The settings is ok. I revert all of them to defaults few month ago
 
 [10:35:53](#kfv7ZgbpphII5SCh6TemxsKGfEx8CUi-Pem68AWEnYk) <gurzgri>:
-That it‚Äôs the server who closed the connection is no news, that right there in your screenshot already
-
-[10:37:50](#O5voQUSN8eyJUNGpYpT_zz48OPDISQ-sHr-njkdNXKg) <gurzgri>:
 That it‚Äôs the server who closed the connection is no news, that right there in your screenshot already
 
 [10:40:47](#CuSeUUrkxPX9K31DlhNHhUa0xcGFeO3cedTGQnghWGs) <gurzgri>:
@@ -3314,43 +3298,7 @@ insert statement ["INSTERT INTO ..." [...] [...] [...] [...] ...  [...]]
 
 ## 14-Apr-2022
 
-[7:20:45](#OsVIhn4Zh1C_0FxlfEpnL2-B5gq62MYYsE85FvS8Wbs) <bubnenkoff (Dmitry Bubnenkov)>:
-Don't know. Either try to narrow it down to a problematic param-set/param or pull again and try with statement without a query timeout or query timeout long enough (not sure if it will make a difference):
-```Red
-open statement: open connection odbc://my-dsn
-change statement [timeout: 2:00]           ;-- timeout after 2 hours
-insert statement ["INSTERT INTO ..." [...] [...] [...] [...] ...  [...]]
-```
-
-[7:26:58](#VmvGfgjLdRbmyqH9mfehX9-2gT8_0KcOP3tEBJgySRU) <bubnenkoff (Dmitry Bubnenkov)>:
-Don't know. Either try to narrow it down to a problematic param-set/param or pull again and try with statement without a query timeout or query timeout long enough (not sure if it will make a difference):
-```Red
-open statement: open connection odbc://my-dsn
-change statement [timeout: 2:00]           ;-- timeout after 2 hours
-insert statement ["INSTERT INTO ..." [...] [...] [...] [...] ...  [...]]
-```
-
-[9:01:52](#wJgxJnkMdFYT7hPF7Z-SJJWfl3nY8Ir7U-tmVH_BKU4) <bubnenkoff (Dmitry Bubnenkov)>:
-Don't know. Either try to narrow it down to a problematic param-set/param or pull again and try with statement without a query timeout or query timeout long enough (not sure if it will make a difference):
-```Red
-open statement: open connection odbc://my-dsn
-change statement [timeout: 2:00]           ;-- timeout after 2 hours
-insert statement ["INSTERT INTO ..." [...] [...] [...] [...] ...  [...]]
-```
-
 [9:01:59](#IBX-zptEXNqIB3uwb4L7SCwgJQOUENvabvrO7yVIhXI) <bubnenkoff (Dmitry Bubnenkov)>:
-* Hm... I have add wait for 70 minutes in simple project, that do single insert. Before `wait` it worked fine, now it crushed with same error.
-I will try add some timeouts (I tested it without them)
-
-[9:42:41](#LxX8siQpZsYRFp4NLJsSXHtYvH9uE5xNoHnsIcBgwhQ) <bubnenkoff (Dmitry Bubnenkov)>:
-* Hm... I have add wait for 70 minutes in simple project, that do single insert. Before `wait` it worked fine, now it crushed with same error.
-I will try add some timeouts (I tested it without them)
-
-[9:44:20](#AoSDZggG5WK4fhbyFq0nVBVG5cr160H4PlIcR_qSWvI) <bubnenkoff (Dmitry Bubnenkov)>:
-* Hm... I have add wait for 70 minutes in simple project, that do single insert. Before `wait` it worked fine, now it crushed with same error.
-I will try add some timeouts (I tested it without them)
-
-[10:22:45](#o-plUqMg8yBOag2S-Cj8tI4k0MZ9dAV2I5E0EfaPv1A) <bubnenkoff (Dmitry Bubnenkov)>:
 * Hm... I have add wait for 70 minutes in simple project, that do single insert. Before `wait` it worked fine, now it crushed with same error.
 I will try add some timeouts (I tested it without them)
 
@@ -3642,7 +3590,7 @@ Expected. Parameters of type `word!` aren't supported as per documentation. Admi
 So you `none` in my params is not `none!` but is a word?! 
 
 [10:04:48](#wUcmSBYPaY9pcetWnPtZQHTUnHMwj02N3HybN5n-yZE) <gurzgri>:
-Literally Ì†ΩÌ∏â
+Literally üòâ
 
 [10:06:13](#VHmiMS97HmE4gtXoiifSpYKzngEyLefG-a6gEMlHBfw) <gurzgri>:
 The param blocks need to be reduced. The scheme only reduces the `value` argument of `insert`, not inner param blocks.
@@ -3892,9 +3840,6 @@ Just a note about column name like `2data`: I have seen that in Rebol they can b
 [13:48:48](#XlPvO3YjXFg3z0rUbR0GECaW2a0MZ3NHasFURpmOmYQ) <GiuseppeChillemi (GiuseppeChillemi)>:
 * Just a note about column names like `2data`: I have seen that in Rebol they can be created with `to word` but in Red give error. It would be nice addition on Red 
 
-[19:09:32](#x5KBPspj96zgxVvJjTSAdJT_U6waeFADgfOMGEIlRyE) <gurzgri>:
-* Just a note about column names like `2data`: I have seen that in Rebol they can be created with `to word` but in Red give error. It would be nice addition on Red 
-
 [19:10:14](#UojvvuzJ1-qTltXHyhJ3LnIckp60Y7l6K8hKyNUNURs) <gurzgri>:
 * What happens when you insert each set of params one after another? Does each one fail? Do some succeed?
 ```Red
@@ -3957,9 +3902,6 @@ It works already 5 minutes, no crush, but it seems that it do not insert nothing
 [12:19:07](#tBboLedosXK_XH0HfaEdoY7UimRCj_N2nVqETBXSVcU) <gurzgri>:
 At which commit is this? Please update the branch with latest commits and rerun. Same errors?
 
-[12:40:34](#Z2cvUGmsn-I1fLFrt1CjIDzIgr4nKX2mkowP8-MADyg) <bubnenkoff (Dmitry Bubnenkov)>:
-At which commit is this? Please update the branch with latest commits and rerun. Same errors?
-
 [12:48:30](#6OqiMH4xHYcgQAxp2D1TxYwlhMfC8-x3bn0QWybWt5I) <bubnenkoff (Dmitry Bubnenkov)>:
 @gurzgri on the last commit it seems that your code above works. at least it work already 2 minutes and I see result in DB
 
@@ -4009,7 +3951,7 @@ After few minutes of work I got ^
 *  I got next error ^ 
 
 [19:23:24](#o6nSJLI_Ptic06qvXyv47QqJ3aX3TG-RmQwOo1WbhP8) <gurzgri>:
-So we're getting closer Ì†ΩÌ∏â Two things come to mind: 1) it may fail with multiple rowsets in general (rather unlikely) or 2) it may fail for specific param types (a bit more likely, I have a little suspicion about floats). 
+So we're getting closer üòâ Two things come to mind: 1) it may fail with multiple rowsets in general (rather unlikely) or 2) it may fail for specific param types (a bit more likely, I have a little suspicion about floats). 
 
 Please run my last code suggestion again in a `--debug` enabled console and redirect the full output of your script with Windows cmd stdout and stderr redirection as in `.\console.exe --do path\to\your\script.red > path\to\your\script.log 2>&1`. Please provide to log and your script as private gist, these screenshots are really sub-optimal for debugging. 
 
@@ -4108,7 +4050,7 @@ Never experienced this myself. I recommend using `change statement [debug?: yes]
 * @gurzgri Christian, the answer is simpler: the last days have been very stressful and at night I have had just the force to make some simple coding and messaging.  I will be back on the topic tomorrow.
 
 [18:41:40](#cWTvWz-KWlazTavpojhgOfXMKxoq0nVQwr5uGzt6lYc) <gurzgri>:
-Okay Ì†ΩÌ∏â So let me know if I can help. Probably not before next week, this weekend is busy for me.
+Okay üòâ So let me know if I can help. Probably not before next week, this weekend is busy for me.
 
 ## 16-May-2022
 
@@ -4318,30 +4260,6 @@ And to I avoid any confusion: *this is not an output of the console* but a query
 ```
 
 
-[6:45:58](#515jy62JbGRwE_pmSYAeUzjI5bYIwAm-bVQJlykMeMA) <GiuseppeChillemi (GiuseppeChillemi)>:
-* And to I avoid any confusion: *this is not an output of the console* but a query result obtained with the following code:
-
-```
-	the-query:  "SELECT top 10000 * from dotes"
-	st: open cn: switch 'b-ok con
-	insert st the-query
-	x: copy st
-	save %direct-query.txt x
-```
-
-
-[6:46:43](#DobIl7q2KGifXmcuCjQiy5HVpRH8Y4ho24f9wlxJjdw) <GiuseppeChillemi (GiuseppeChillemi)>:
-* And to I avoid any confusion: *this is not an output of the console* but a query result obtained with the following code:
-
-```
-	the-query:  "SELECT top 10000 * from dotes"
-	st: open cn: switch 'b-ok con
-	insert st the-query
-	x: copy st
-	save %direct-query.txt x
-```
-
-
 [6:47:01](#itg0-uN5Z53zBmAnyL6ndWYXLUy1J-ipZGT8qFKivi8) <GiuseppeChillemi (GiuseppeChillemi)>:
 * And you get a perfect save even if you cause a `stack overflow` before running it in the GUI Console.
 
@@ -4358,9 +4276,6 @@ Also, you get a perfect save if you cause a `stack overflow` before running this
 * If you open in an editor `%direct-query.txt` obtained running this code on the GUI console, you get the result with LF in the middle. If you run this code on the debug console, you get a perfect save!
 
 ## 18-May-2022
-
-[10:00:43](#l3j9S07_82Ur4_IpyqXEJJLPqvCYKyEUC9et3wV94NY) <GiuseppeChillemi (GiuseppeChillemi)>:
-* If you open in an editor `%direct-query.txt` obtained running this code on the GUI console, you get the result with LF in the middle. If you run this code on the debug console, you get a perfect save!
 
 [10:05:24](#SjFJCGLmZVyDub2b6UXG6ZcFlIzbWaChGd4NIu_s4m8) <GiuseppeChillemi (GiuseppeChillemi)>:
 > Let's make a wiki page for data sources.
@@ -4463,7 +4378,7 @@ at cursor 444 pdf444: pick cursor 'invoice-pdf
 
 with arbitrary window sizes.
 
-@GiuseppeChillemi : Yet another `open` level to grasp Ì†ΩÌ∏â Connections, statements, cursors ... all are ports. Have fun! 
+@GiuseppeChillemi : Yet another `open` level to grasp üòâ Connections, statements, cursors ... all are ports. Have fun! 
 
 
 [18:06:17](#ABvPWKcGq-k28pltSKMj6UFbQAsWsCYrDRI9fkH1j04) <gurzgri>:
@@ -4582,27 +4497,27 @@ Documentation is at https://github.com/gurzgri/red/blob/master/environment/schem
 @gurzgri If you create some documentation on debugging, Toomas and other developers could help.
 
 [19:02:25](#QDTFYCjcrRxbCS9-nqDCSiCanhUiXIxxl_pU-uWHQ-k) <gurzgri>:
-It doesn't take more than a console compiled in `--debug` mode to see what's going on, additionally or alternatively a statement with `statement/state/debug?: on` to inspect binary buffers transferred and the usual discipline and systematic approach which Toomas undoubtedly has in abundance Ì†ΩÌ∏â
+It doesn't take more than a console compiled in `--debug` mode to see what's going on, additionally or alternatively a statement with `statement/state/debug?: on` to inspect binary buffers transferred and the usual discipline and systematic approach which Toomas undoubtedly has in abundance üòâ
 
 [19:21:40](#KU-fwihx9bC4cN5np4bKXzGSkIyeFQTNaSJ1AVwsTVw) <GiuseppeChillemi (GiuseppeChillemi)>:
 Toomas is a newbie in Red, I think you should help him in every step. Maybe with some patience, we will bring him to do great things! 
 
 [19:27:07](#8HrhyQ7KVumOHfvw-j0w7pw_h_jDY62QLesx0261jSQ) <toomasv>:
-Ì†ΩÌ±∂ 
+üë∂ 
 
 [19:27:49](#pzzIolKziYjEEDYgT11wPtPX9Fhasfvm3zu5neTqk7w) <toomasv>:
 Thanks, discovered it already! :)
 
 [19:28:04](#K2HGmzQesKnux6B2XpGzUQTiaiIuPnNgW2UPp8hUM-I) <gurzgri>:
-An *outperforming* newbie Ì†ΩÌ±∂, if any. 
+An *outperforming* newbie üë∂, if any. 
 
 [19:28:16](#i5zUb2H1ONu-rscoM-XNiU0PJPaQhJxgZMHmj-NuZY8) <gurzgri>:
 * An *outperforming* newbie :baby:, if any. ;)
 
 [21:02:29](#YPuieEQUlzstXTsRbZms5tf0vrmdNokhlgmWwldRCWg) <gurzgri>:
-Silly me Ì†ΩÌ∏Æ
+Silly me üòÆ
 > Actually RED ODBC is capable of reading but not writing them.
-Have you ever tried writing them, @GiuseppeChillemi ? Ì†ΩÌ∏è I for sure never tried. I better should have tried ...
+Have you ever tried writing them, @GiuseppeChillemi ? üòè I for sure never tried. I better should have tried ...
 > Writing BLOB/TEXT isn't possible yet
 is obviously just plain wrong and no `poke statement` is needed (at least as long we aren't talking *really large* blobs and texts). Just now I could easily insert BLOB/TEXT of moderate sizes (the source of https://www.red-lang.org and a 150Kb PDF) into a ostgreSQL table in columns of dataype `text` and `bytea` without further ado ... 
 
@@ -4637,10 +4552,10 @@ is obviously just plain wrong and no `poke statement` is needed (at least as lon
 ??? Is it ALREADY working?
 
 [21:05:09](#2BPEocnv24rn-ACAfevT5ROsrlcAvVOqr4ttaVqUDvQ) <gurzgri>:
-That is what I just ... well ... discovered ... Ì†ΩÌ∏Å
+That is what I just ... well ... discovered ... üòÅ
 
 [21:05:36](#w7X2K6QYWiGvICTZtCc4DvPgax-fPN9zytfARO2JMGI) <GiuseppeChillemi (GiuseppeChillemi)>:
-But you are the author!!! OMG!!! Ì†ΩÌ∏ÉDDD
+But you are the author!!! OMG!!! üòÉDDD
 
 [21:05:40](#BpwkwoIPpTyP9xVHqKjkbflD1k6aHGSytAbo9RAUbyw) <gurzgri>:
 * That is what I just ... well ... discovered ... :grinning:
@@ -4655,7 +4570,7 @@ Do you think it could work in SQL Server BLOB column?
 You're probably better off checking on your own, as I'm obviously not an authority regarding the capabilities of my own code ...
 
 [21:08:33](#xna4ElhOCvbDbF8ZWXO_L7au4SinhjJNtU7dOrbLOs8) <GiuseppeChillemi (GiuseppeChillemi)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [21:08:44](#rkF7VvyHi4UXbNsO0Ykz7wmXNXRKT_crg2AAv7ncd8o) <GiuseppeChillemi (GiuseppeChillemi)>:
 Tomorrow I will check.
@@ -4820,7 +4735,7 @@ which coincidentally seems to resemble your scanning time.
 * @GiuseppeChillemi And there's the chance for you to try to come up with something reproducible for your LF problem! Does is happen width the WDI sample data @toomasv used for his table-template, too, in gui-console that way with the Text Driver? Then provide the minimal reproducible example code and I'm more than happy to have another go on debugging.
 
 [17:07:18](#oUxNm14nRgudvdruu3XblKBOqqxaLMTpNwt-yTwIg7c) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-@gurzgri time is similar but that‚Äôs where the similarity ends Ì†ΩÌ∏É I can just get offsets of each relevant newline in that time Ì†ΩÌ∏É
+@gurzgri time is similar but that‚Äôs where the similarity ends üòÉ I can just get offsets of each relevant newline in that time üòÉ
 
 [17:08:11](#aNeOvf2I3My8Y6SWuL1il_qIOXdtcU8c7jHAWOtQmO8) <GiuseppeChillemi (GiuseppeChillemi)>:
 @gurzgri  I will try to anonymize  the data of my company in respect to my customer's privacy and if the problem will be reproduced using your text loader, I will send you the archive.
@@ -4992,7 +4907,7 @@ I therefore compiled a `%console.red` with `Needs: [View JSON CSV ODBC]` header 
 
 Then I tried again ... and I tried and tried and ... switched tables like mad (screenshot above). 
 
-Somehow debugging on seems to make this bug disappear Ì†ΩÌ∏û
+Somehow debugging on seems to make this bug disappear üòû
 
 [21:07:04](#G1MQy2kaiiUHGWmUEscCgwiAD2JCBQ5w4N1_nH81hm8) <gurzgri>:
 * @toomasv Over in https://gitter.im/red/red/gui-branch you wrote that odbc access with your %try-odbc.red
@@ -5031,7 +4946,7 @@ If, however, you do not want the load it from Red but access it via ODBC Text Dr
 * If, however, you do not want to load it from Red but access it via ODBC Text Driver, you'll probably need a `schema.ini` file in folder where the csv is placed. More info here: https://docs.microsoft.com/en-us/sql/odbc/microsoft/schema-ini-file-text-file-driver?view=sql-server-ver16 
 
 [22:41:56](#Qj0_Qu5vwFebQk9y7W0ElY5e5cDW_Kl7xXbrZ7mYAt4) <gurzgri>:
-Hm, @toomasv, now I finally sometimes manage to reproduce the crash. Fun thing is, that my EXECUTED-STATEMENT routine executes the API function SQLExecute, the API under circumstances returns an error, the error *is* properly detected and only then when I try to R/S‚Äì`fire` an error, firing that error crashes ... :thinking: Ì†ΩÌ≤´ :zany_face:
+Hm, @toomasv, now I finally sometimes manage to reproduce the crash. Fun thing is, that my EXECUTED-STATEMENT routine executes the API function SQLExecute, the API under circumstances returns an error, the error *is* properly detected and only then when I try to R/S‚Äì`fire` an error, firing that error crashes ... :thinking: üí´ :zany_face:
 ```Red
 vvv EXECUTE-STATEMENT FAILED vvv
 
@@ -5246,7 +5161,7 @@ db: "sample" insert stmt compose [tables (db)] copy stmt
 ## 27-May-2022
 
 [2:58:14](#ZPRxlMY1InTOyhiq8iEldpCC80oFjCXrH6ybJHn6dHY) <toomasv>:
-@gurzgri Thanks! A lot to learn Ì†ºÌΩº Ì†ΩÌ±∂ 
+@gurzgri Thanks! A lot to learn üçº üë∂ 
 
 [8:47:58](#OKKvy50IgjuiWBMh3S0x57he2LZVPCRnGzP7EsV57o4) <toomasv>:
 @gurzgri Your docment says 
@@ -5259,7 +5174,7 @@ But it seems not to `compose` it. Not a problem, it can be explicity composed, j
 Thanks for noticing that, pushed fix for docs, dropped that sometime ago.
 
 [11:01:34](#eGx8H743kxAPwIEHq1ktFd2YPpxLazEBTH6AWE2wYDE) <gurzgri>:
-*Misleading* docs are worse than *no docs* Ì†ΩÌ∏â
+*Misleading* docs are worse than *no docs* üòâ
 
 [11:50:00](#95pL_4tP_IrpzQkm5dANJIUrdamet1ORF_ETUygl2Ec) <gurzgri>:
 I haven't really put too much effort in catalog functions for now, so they pretty much just follow the signature of the corresponding ODBC catalog functions like SQLTables, SQLColumns etc.
@@ -5290,7 +5205,7 @@ Better stay away from `strict` mode for now. It's *very* picky if not buggy and 
 * @gurzgri I rewrote it using [odbc-only](https://github.com/toomasv/table-template/blob/main/try-odbc-only.red) with minimal hardcoded values. Still, could not avoid these entirely, because (1) there are more odbc drivers I care to use (some different versions etc.), and (2) I couldn't make `mariadb` behave without explicitly pointing out which database I want to see. Radio box at right changes view from data to columns, but again `mariadb` crashes on this transfer (occasionally `sqlite` too). Others seem to be stable.
 
 [19:16:20](#kY5u2XYTct21AhbDyTjgdICld_HOlCH7l0PpTUBK6mw) <gurzgri>:
-So @toomasv has just recreated 75% of HeidiSQL / WinSQL in 75 LOC, how cool is that? Ì†ΩÌ∏é  I will have a deeper look into the issues, but likely not before Pentecost, I'm on vacation for a week. 
+So @toomasv has just recreated 75% of HeidiSQL / WinSQL in 75 LOC, how cool is that? üòé  I will have a deeper look into the issues, but likely not before Pentecost, I'm on vacation for a week. 
 
 [19:33:08](#WWXmkmK0J24MN_OxJYtUIyNaAC9MBa6jpy5kAcf6jw4) <toomasv>:
 Well, yeah, + few K of your and my code in odbc and table :). But yes, when these get in place, it is piece of cake.
@@ -5301,9 +5216,6 @@ Well, yeah, + few K of your and my code in odbc and table :). But yes, when thes
 Exciting stuff!
 
 ## 6-Jun-2022
-
-[16:37:10](#7QX32BYdTvq2LoaIveCqlHsl1VbHQ3zQ_zUTLKZ8Lh4) <bubnenkoff (Dmitry Bubnenkov)>:
-Exciting stuff!
 
 [17:00:18](#OdH99h8j5JlTHw6lYhkQazDqQSnU0ig1fjluYG1rlnk) <bubnenkoff (Dmitry Bubnenkov)>:
 What of current status of this branch? I do not see branch named `-odbc` does it mean that it it now have another name?
@@ -5368,10 +5280,7 @@ I'm using MariaDB ODBC 3.1 Driver version 3.01.15.00 from 2021-11-15 here.
 Ok, I fetched your updates and now it works. Thanks again!
 
 [7:37:02](#dTFfvL4vT59hX3KqLsGB0uApnQrV95P6hFUJiJOSwdI) <gurzgri>:
-Ì†ΩÌ∏å
-
-[7:41:10](#kjGM1-Uhue9_zDe7S9jhMLcZHq4os60QvqehXxnrKpE) <toomasv>:
-Ì†ΩÌ∏å
+üòå
 
 [9:14:06](#WNt_WmRuvmqNs3A2oWU5YmuEprUTyGtsfXWPlWrDLfg) <gurzgri>:
 [![image.png](https://files.gitter.im/6234feab6da037398492a62a/pkI3/thumb/image.png)](https://files.gitter.im/6234feab6da037398492a62a/pkI3/image.png)
@@ -5650,11 +5559,6 @@ Yes, odbc:// not only supports `SELECT` but `INSERT`, `UPDATE` and `DELETE` stat
 Big thanks! It seems that now it's working!
 
 ## 21-Jun-2022
-
-[10:02:30](#7l5gWENUCnP5WjtAkVV5RFY6wRGZRWhdmElhwEhEZ88) <bubnenkoff (Dmitry Bubnenkov)>:
-> @bubnenkoff `SQLExecute 100` means executing the statement returns `SQL_NO_DATA`. I've by myself stumpled upon that recently and had fixed it already, but hadn't yet pushed the fix. Made up for just now, please pull again.
-
-Big thanks! It seems that now it's working!
 
 [11:25:48](#kobFuTtTt2ecjANV118rJrRGFMoTdCdFY9ZgalSJYnM) <bubnenkoff (Dmitry Bubnenkov)>:
 I am getting some strange crush. 
@@ -5937,7 +5841,7 @@ interesting moment. If text is long (200-300 symbols) it's crush 10 times from 1
 [18:50:13](#q2CcU4Fu_JIal4xFEZbuJEZ4L-DlpfxLW1BGNf3gHp8) <gurzgri>:
 @toomasv Finally! By casting some pagan magic spells from the Ancient Book of Kernel the 32th instead of calling upon Malloc from the Depth of Red/System I finally unleashed the ODBC Powers of SQLite thru the Aethers of the SQLite ODBC Driver.
 
-In other words: Now even SQLite / [SQLite ODBC Driver](http://www.ch-werner.de/sqliteodbc/) works Ì†ºÌæâ 
+In other words: Now even SQLite / [SQLite ODBC Driver](http://www.ch-werner.de/sqliteodbc/) works üéâ 
 
 
 
@@ -5999,14 +5903,11 @@ Would it ok?
 [19:36:52](#RBOsrnBVV7dwGlSGqbQeslH2WMRZIxpF6Q-zl3hPLGA) <gurzgri>:
 Well, probably just about everywhere *before* line 421 in the above screenshot would be okay. 
 
-[19:38:46](#ICrKtlVQlQwFGp1QyXxJ_iQlNOHsBThd8VFAEo-0P84) <bubnenkoff (Dmitry Bubnenkov)>:
-Well, probably just about everywhere *before* line 421 in the above screenshot would be okay. 
-
 [19:40:53](#hQDDkpfuO6B6cSd7SlCytGZHqQtSdT1IzbjKiG18Fxw) <bubnenkoff (Dmitry Bubnenkov)>:
 https://gist.github.com/bubnenkoff/e4003a75a2f328740ceffcf6bf51db7e
 
 [19:40:58](#LN-Ot9Lx8OL_2ieBcQnY-ldmZRvirazuA3qoBr8kXAU) <greggirwin (Gregg Irwin)>:
-@gurzgri Ì†ΩÌ±è
+@gurzgri üëè
 
 [19:53:16](#Ozs8XqHUu8F9TEmoG3YVibSeyjnVKRRXiqPTT6XYzvQ) <gurzgri>:
 Thanks, Gregg.
@@ -6582,9 +6483,6 @@ Nice, I needed it too.
 
 ## 15-Aug-2022
 
-[11:59:35](#y1LO9O-vxajuQw3CzmEGeyEjOh97yRNJzX3ZtN6xFBE) <bubnenkoff (Dmitry Bubnenkov)>:
-Nice, I needed it too.
-
 [11:59:50](#Xh1R04Kldy64zSCHPnpY3223jKPKJj5_olyPQdm7phE) <bubnenkoff (Dmitry Bubnenkov)>:
 * @gurzgri I got very strange error message:
 ```
@@ -6609,60 +6507,7 @@ The scheme however for now supports such bookmarks with SELECT statements only, 
 
 ## 22-Sep-2022
 
-[15:25:29](#sbHO3auvmJcFm-AwowbcFPoBo4fZrtAnRZBhSSPaBgw) <bubnenkoff (Dmitry Bubnenkov)>:
-* That's `change statement [bookmarks?: on]`. It retrieves the rows with an additional first column being a bookmark column by which the db server can track/identify rows without them being part of the table themself. 
-
-The scheme however for now supports such bookmarks with SELECT statements only, not with INSERT, UPDATE, DELETE statements. That's because ODBC (the API, not the scheme) uses bookmarks in a totally different way than normal statement execution.
-
 [15:25:37](#BW2zBdAfk94vmjkrSyqX0opJzfJoL_fWRjZ4UfHXOMM) <bubnenkoff (Dmitry Bubnenkov)>:
-* @gurzgri hi! I am getting an error:
-```
-#(
-    org_reg_num: [keys: [reg_number cons_registry_number org_full_name org_short_name org_inn] values: [["03203000178" "05320547" none "Some text" none] ["03482000044" none {Some text} none none] ["03112000217" "922–≠2430" {Some other text} "And another Text" none]]]
-)
--------------
-Generation INSERT STATEMENT
-make error! [
-    code: 317
-    type: 'script
-    id: 'not-same-type
-    arg1: none
-    arg2: none
-    arg3: none
-    near: [args]
-    where: 'do
-    stack: 87287212
-]
-Process stopped with an error: Can't complete insert request. App quit! Error:none
-```
-
-What can be reason of it? 
-
-[15:31:23](#rlEjVdANT_NlCiFlY8_8CwsIHbZVgbw5vOaYAcBvXCU) <bubnenkoff (Dmitry Bubnenkov)>:
-* @gurzgri hi! I am getting an error:
-```
-#(
-    org_reg_num: [keys: [reg_number cons_registry_number org_full_name org_short_name org_inn] values: [["03203000178" "05320547" none "Some text" none] ["03482000044" none {Some text} none none] ["03112000217" "922–≠2430" {Some other text} "And another Text" none]]]
-)
--------------
-Generation INSERT STATEMENT
-make error! [
-    code: 317
-    type: 'script
-    id: 'not-same-type
-    arg1: none
-    arg2: none
-    arg3: none
-    near: [args]
-    where: 'do
-    stack: 87287212
-]
-Process stopped with an error: Can't complete insert request. App quit! Error:none
-```
-
-What can be reason of it? 
-
-[15:35:02](#EQbs251Pqujn1VpxWAdYnRcuvWQoWH457uZK0qOL4lk) <bubnenkoff (Dmitry Bubnenkov)>:
 * @gurzgri hi! I am getting an error:
 ```
 #(
@@ -6696,108 +6541,9 @@ oh please wait before regression reported in main chat will be fixed
 
 ## 10-Oct-2022
 
-[13:18:17](#syggJhY5NcyYnhh_of2ErnECFeY3eWSQipd_XH4EJTI) <bubnenkoff (Dmitry Bubnenkov)>:
-oh please wait before regression reported in main chat will be fixed
-
-[13:27:39](#k483epcrJ1bn3WJRywTQy-pQ7U_P40R49Jxmf0TwFeM) <bubnenkoff (Dmitry Bubnenkov)>:
-oh please wait before regression reported in main chat will be fixed
-
-[13:30:52](#atX2-mW96fZ2TWqpQBF8vF8OolSvNEOIqgRKf_i2FA4) <bubnenkoff (Dmitry Bubnenkov)>:
-oh please wait before regression reported in main chat will be fixed
-
-[13:32:11](#i9UBfJkxUVxU9fUErthCV_3ohbpV-fS0zhXGuHJaVIg) <bubnenkoff (Dmitry Bubnenkov)>:
-oh please wait before regression reported in main chat will be fixed
-
-[14:34:14](#I__oczvRLWxSCAfWM8-cq9uCAU4TAWCw0fcapaqjwtk) <bubnenkoff (Dmitry Bubnenkov)>:
-oh please wait before regression reported in main chat will be fixed
-
 ## 11-Oct-2022
 
 [7:42:42](#VbrgAr7vZifJQGc_X86wHu27SQMVt1tWQCnUxutb9SA) <bubnenkoff (Dmitry Bubnenkov)>:
-Can't build the latest version from git.
-After cloning repo:
-```
-do/args %red.r "-r %environment/console/CLI/console.red"
-```
-then:
-```
->> do/args %red.r "-c -e %/d/code/zakupki/XMLParser/XMLParser.red"
-Script: "Red command-line front-end" (none)
-Script: "Encap virtual filesystem" (21-Sep-2009)
-Script: "Get git version data" (none)
-
--=== Red Compiler 0.6.4 ===-
-
-Compiling d:\code\zakupki\XMLParser\XMLParser.red ...
-Compiling libRedRT...
-...compilation time : 1429 ms
-
-Compiling to native code...
-Script: "Red/System PE/COFF format emitter" (none)
-...compilation time : 47453 ms
-...global words     : 22935 (69.72%)
-...linking time     : 545 ms
-...output file size : 1769472 bytes
-...output file      : C:\odbc-new\libRedRT.dll
-
-...compilation time : 1248 ms
-
-Target: MSDOS
-
-Compiling to native code...
-*** Compilation Error: undefined symbol: red/string/load-in
-*** in file: %/C/odbc-new/environment/schemes/odbc.reds
-*** in function: exec/odbc/diagnose-error
-*** at line: 2969
-*** near: [
-    string/load-in as c-string! state 5 errors UTF-16LE
-    integer/make-in
-]
-```
-
-[7:51:50](#tSte1Sahn3Ahj1qzLi1eDrHoGuYvrlK2CmQUtqNSQos) <bubnenkoff (Dmitry Bubnenkov)>:
-Can't build the latest version from git.
-After cloning repo:
-```
-do/args %red.r "-r %environment/console/CLI/console.red"
-```
-then:
-```
->> do/args %red.r "-c -e %/d/code/zakupki/XMLParser/XMLParser.red"
-Script: "Red command-line front-end" (none)
-Script: "Encap virtual filesystem" (21-Sep-2009)
-Script: "Get git version data" (none)
-
--=== Red Compiler 0.6.4 ===-
-
-Compiling d:\code\zakupki\XMLParser\XMLParser.red ...
-Compiling libRedRT...
-...compilation time : 1429 ms
-
-Compiling to native code...
-Script: "Red/System PE/COFF format emitter" (none)
-...compilation time : 47453 ms
-...global words     : 22935 (69.72%)
-...linking time     : 545 ms
-...output file size : 1769472 bytes
-...output file      : C:\odbc-new\libRedRT.dll
-
-...compilation time : 1248 ms
-
-Target: MSDOS
-
-Compiling to native code...
-*** Compilation Error: undefined symbol: red/string/load-in
-*** in file: %/C/odbc-new/environment/schemes/odbc.reds
-*** in function: exec/odbc/diagnose-error
-*** at line: 2969
-*** near: [
-    string/load-in as c-string! state 5 errors UTF-16LE
-    integer/make-in
-]
-```
-
-[8:06:27](#ulkUIRDUvDVHTogwNi0uk3SLW_fJau1loA-SS9Wip-s) <bubnenkoff (Dmitry Bubnenkov)>:
 Can't build the latest version from git.
 After cloning repo:
 ```
@@ -7192,7 +6938,7 @@ can not read table from sqlite database
 @gurzgri 
 > @toomasv Finally! By casting some pagan magic spells from the Ancient Book of Kernel the 32th instead of calling upon Malloc from the Depth of Red/System I finally unleashed the ODBC Powers of SQLite thru the Aethers of the SQLite ODBC Driver.
 > 
-> In other words: Now even SQLite / [SQLite ODBC Driver](http://www.ch-werner.de/sqliteodbc/) works Ì†ºÌæâ 
+> In other words: Now even SQLite / [SQLite ODBC Driver](http://www.ch-werner.de/sqliteodbc/) works üéâ 
 > 
 > 
 
@@ -7223,11 +6969,6 @@ do i have to import %odbc.red?
 Once you've made it thru that step, using the scheme should feel pretty familier if you're used to REBOLs ODBC scheme. Make sure to study https://github.com/gurzgri/red/blob/master/environment/schemes/odbc.md though, there are some differences.
 
 ## 17-Feb-2023
-
-[10:53:59](#8kziSmA9fzsqY48HGE-pXrvYUOAjrqJJBNb5HNFwr0Y) <bubnenkoff (Dmitry Bubnenkov)>:
-@ProDimSum As Red user/custom modules aren't a thing yet and because of the ODBC scheme being dependent on Red/System code, it requires compiling. For now, you'll have the clone the repo https://github.com/gurzgri/red to your machine and compile yourself a ODBC enabled Red console or Red GUI console.
-
-Once you've made it thru that step, using the scheme should feel pretty familier if you're used to REBOLs ODBC scheme. Make sure to study https://github.com/gurzgri/red/blob/master/environment/schemes/odbc.md though, there are some differences.
 
 ## 20-Feb-2023
 
@@ -7341,7 +7082,7 @@ No error, no access violation. But surprisingly
     [2 "Betelgeus"]
 ]
 ```
-Ì†æÌ¥î The last letter of the names are missing! So something is still fishy here, I thought that had long since been fixed. 
+ü§î The last letter of the names are missing! So something is still fishy here, I thought that had long since been fixed. 
 
 [21:43:00](#Z_C_BayZvRQbcysr9UXeBMF1ApcD4P_PcUra7wuuxOc) <gurzgri>:
 And then, there is a typo in your statement, have you noticed? There's an `'` missing for `'Company name` in 
@@ -7679,7 +7420,7 @@ it seems that merge `57245e0` bring something new... I will write when I will fi
 gurzgri: big thanks! Now code works! 
 
 [18:24:17](#c8qw5KXK1dHIMlMPPVdVckAthiRG432ISqYSoD3ZiRs) <gurzgri>:
-Ì†ΩÌ±çÔ∏è
+üëçÔ∏è
 
 ## 4-Mar-2023
 
@@ -7702,9 +7443,6 @@ You‚Äôre welcome, good to see it is of use to some people. Re: Linux?Well, sadly
 Ok, maybe someday somebody will make binding at least for postgresql...
 
 ## 23-Sep-2023
-
-[7:29:26](#GkcPcukSGPVNTkr5qBrO4UeQUfH_569NOXtANQWr1uE) <bubnenkoff (Dmitry Bubnenkov)>:
-Ok, maybe someday somebody will make binding at least for postgresql...
 
 ## 15-Oct-2023
 
@@ -7910,14 +7648,14 @@ Compilation string: `do/args %red.r "-c -e %/d/code/test/app.red"`
 bubnenkoff (Dmitry Bubnenkov) Can confirm, thank you for noticing that regression! Pushed fix and sync'ed master to latest Red development.
 
 [13:03:10](#EAlCeE7BXDn7Mu2v5beGkH4zF-eUge2_asRAq1k-m9M) <gurzgri>:
-BTW, I really appreciate the effort you invested in providing a small example showcasing the problem instead of just throwing the whole app source code in here. Ì†ΩÌ±çÔ∏è Yet a _really minimal_ example would have been:
+BTW, I really appreciate the effort you invested in providing a small example showcasing the problem instead of just throwing the whole app source code in here. üëçÔ∏è Yet a _really minimal_ example would have been:
 
 ```Red
 Red [Needs: 'ODBC]
 open make port! [scheme: 'odbc target: "driver={SQLite3 ODBC Driver};database=D:/code/test/database.db;"]
 ```
 
-Ì†ΩÌ∏â(no offense)
+üòâ(no offense)
 
 [13:07:35](#-8DpgfFxZzJtNdGl-n0_l2P1QyOw6OfW-LrXo3b_220) <bubnenkoff (Dmitry Bubnenkov)>:
 Thanks for fix!
@@ -8020,7 +7758,7 @@ That's probably a starting point for you, I cannot give more advise with that.
 thanks! I often see ANSI/UNICODE mention in drivers. What does it mean and when I should select one and when another?
 
 [6:47:30](#HixHI9gltHu3SBN7XbMqLiqq3fkShlpL7UUl2USqEqA) <gurzgri>:
-Oh, come on, man Ì†æÌµ±: https://stackoverflow.com/questions/25889046/difference-between-ansi-and-unicode-drivers-of-mysql
+Oh, come on, man ü•±: https://stackoverflow.com/questions/25889046/difference-between-ansi-and-unicode-drivers-of-mysql
 
 [7:44:24](#IBczuhnd19VlAHBB2VmGWSop4bh8EVqTr8CvVTTNeZ0) <bubnenkoff (Dmitry Bubnenkov)>:
 But I thought Unicode is standard now. What the reason? Legacy? 
@@ -8085,9 +7823,6 @@ tested on Majiaro
 bubnenkoff (Dmitry Bubnenkov): I can confirm it works, thanks!
 
 ## 1-Dec-2023
-
-[12:39:44](#heyDRxFwLerjwgt_gQoWnBre_hyMV_ySkso0gcBvTwE) <bubnenkoff (Dmitry Bubnenkov)>:
-bubnenkoff (Dmitry Bubnenkov): I can confirm it works, thanks!
 
 [12:40:03](#D5Kvv2MO89tqcrEQN4Mbb0SuMzlpu7XPHz2a-gdYtSI) <bubnenkoff (Dmitry Bubnenkov)>:
  * Can't get it work on Ubuntu:
@@ -8657,7 +8392,7 @@ Then it appeared to me that double assignment must be coming from one of the mac
 [17:12:54](#_QxdWOsS3XqAlDfxNZTDBHP7qGCKCeB4sQTVO7k6Arw) <gurzgri>:
 > other set-word must come from skewed expression bounds
 
-Ì†ΩÌ≤Ø If only you wouldn‚Äôt make it sound so obvious ‚Ä¶ Ì†ΩÌ∏âÌ†ΩÌ∏Ç
+üíØ If only you wouldn‚Äôt make it sound so obvious ‚Ä¶ üòâüòÇ
 
 [19:07:56](#j4UW5fU7NIlBYb4K2UQy_7M9sRKzW5faZg-ZWIotat4) <gurzgri>:
 bubnenkoff (Dmitry Bubnenkov)  Pushed the fix.
@@ -8678,12 +8413,6 @@ gurzgri: hi! Could you do new merge? There is quite few new changes
 bubnenkoff (Dmitry Bubnenkov) Done.
 
 ## 1-Mar-2025
-
-[9:22:39](#4c0wrSW0WF0W8CdDE7aXNyjlb9kPEFLYxbRU3m5bsAo) <bubnenkoff (Dmitry Bubnenkov)>:
-bubnenkoff (Dmitry Bubnenkov) Done.
-
-[9:33:53](#5-ZoR5vRzuzBU23JNdyHX6yXtebVBjhGIjE9AgZYp9k) <bubnenkoff (Dmitry Bubnenkov)>:
-bubnenkoff (Dmitry Bubnenkov) Done.
 
 ## 2-Mar-2025
 

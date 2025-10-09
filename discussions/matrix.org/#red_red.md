@@ -41,7 +41,7 @@ It's an incredible collection of ideas to make programming easier to learn
 So BEAUTIFUL!
 
 [15:42:16](#bTVbCAU7sJ-83PATDnj4rXlzIForI7XXqvrjQkh4EBU) <hiiamboris (NOT THIS ONE)>:
-Great site, thanks Ì†ΩÌ∏â
+Great site, thanks üòâ
 I especially loved how seamlessly they turned a table into a plot.
 
 [17:02:47](#zZ71mfWz5_s_s4Qe_gBGFRdHcdBu3T7PaFzhDUP_Q_0) <toomasv>:
@@ -192,10 +192,10 @@ I could be misreading it too. Chat is a limited medium
 * I could be misreading the intent too. Chat is a limited medium
 
 [19:12:45](#-0vWna_i3hdvNfiLp7Hd7Qnmxt0iPVIYmLyG5zZ6kQc) <rgchris (Christopher Ross-Gill)>:
-* I could be misreading the intent too. Chat is a limited medium Ì†æÌ¥∑‚Äç‚ôÇÔ∏è
+* I could be misreading the intent too. Chat is a limited medium ü§∑‚Äç‚ôÇÔ∏è
 
 [19:13:26](#Ja8gW0dKHqioI8r6cnHmlLwdl8bDDekDs7kLSAmnoRY) <rgchris (Christopher Ross-Gill)>:
-* I could still be misreading the intent too. Chat is a limited medium Ì†æÌ¥∑‚Äç‚ôÇÔ∏è
+* I could still be misreading the intent too. Chat is a limited medium ü§∑‚Äç‚ôÇÔ∏è
 
 [20:13:45](#gXourB-EgYiTDdOBMv2CZlvY-jJy1y0XTbT3Qa7D6PM) <GiuseppeChillemi (GiuseppeChillemi)>:
 @greggirwin Why don't we port the PostgreSQL driver of this obscure developer https://www.softinnov.org/rebol/pgsql.shtml ? It seems a nice start to add everything needed!
@@ -293,7 +293,7 @@ Please, take a look at the development news update scheme of [this project](http
 It's actually quite a bit of work, though it may not look like it.
 
 [20:35:02](#83SbmKPTR3k9HhQq6jbPK9-EGXK3OeP3j50myHRmKZA) <GiuseppeChillemi (GiuseppeChillemi)>:
-@greggirwin I guessed from the recent unusual silence that you were more working than chatting and something big was involved. So I have kept the silence. I prefer more having a new Android Version than reading every day something a bulletin Ì†ΩÌ∏â but Also I think that such a simple monthly bulletin is a single task and would help to keep the faith.  
+@greggirwin I guessed from the recent unusual silence that you were more working than chatting and something big was involved. So I have kept the silence. I prefer more having a new Android Version than reading every day something a bulletin üòâ but Also I think that such a simple monthly bulletin is a single task and would help to keep the faith.  
 
 [20:35:14](#wG7RQaejlvxx7E4yi4q-T4dy29_BoH3vXq_j0X3cRNY) <GiuseppeChillemi (GiuseppeChillemi)>:
 * @greggirwin I guessed from the recent unusual silence that you were more working than chatting and something big was involved. So I have kept the silence. I prefer more having a new Android Version than reading every day a bulletin ;-) but Also I think that such a simple monthly bulletin is a single task and would help to keep the faith.  
@@ -381,7 +381,7 @@ I did it a couple times, but also not this year.
 If anyone want to try the Direct2D Draw backend, here you go : https://github.com/red/red/discussions/4764
 
 [8:59:39](#8HGYMY0Sa62dnTbGFUoejI9h86q7zE4l2uh5Y4TiV80) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
-Awesome, thanks Ì†ΩÌπÇ
+Awesome, thanks üôÇ
 
 ## 16-Dec-2020
 
@@ -702,7 +702,7 @@ Thank you, I'll take a look
 * @bferris413 Thanks for your kind words! Console stuff is available [here](https://github.com/toomasv/console-tools). I haven't touched it for some time now. But I use it locally, especially "history" and "notes". It was just a fun hack (unfinished) into console code, most probably not to be incorporated.
 
 [18:24:14](#GwQ_fsJ9ENwyCEN84n0nbs0BNCjCZ_tR52obHbHHo78) <toomasv>:
-I see it doesn't play well anymore Ì†ΩÌ∏ü, sorry.
+I see it doesn't play well anymore üòü, sorry.
 
 [18:29:37](#XvUGCpqU1n6_N2dFHnWLx_eRc5FrVsEuDJlKBNsC8s4) <mbennette68 (MB)>:
 @qtxie 
@@ -768,7 +768,7 @@ It's linked from Electron's Wikipedia article: https://en.wikipedia.org/wiki/Ele
 Our families will hate you.
 
 [14:43:15](#xb_SrfRNf0PY1yFyvB7HC0GL65hvOxNGsAi_K98qDI8) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [14:43:31](#sBqN-eG8228aZ8bAb-gMGdaqIjBqfTmkjH0QliDkxqY) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
 * :-)
@@ -787,7 +787,7 @@ I'm trying to understand - what are the limitations and portability of LibRed? A
 Being that I see it (the libred header) exposes a way to read files, I would have assumed it depends on the platform
 
 [21:31:26](#GofBA15g2-2kCKfyAxTsd7oRSnbisl5IKSDd2kFPNVM) <XANOZOID (X.A.N.O.Z.O.I.D.)>:
-hahahahaha I don't know why but that's hilarious Ì†ΩÌ∏ÇÌ†ΩÌ∏Ç
+hahahahaha I don't know why but that's hilarious üòÇüòÇ
 
 ## 19-Dec-2020
 
@@ -874,10 +874,10 @@ it's `1` for everyone
 Noooooooooooooooooooooooooooooo!
 
 [11:15:58](#lfLitGLWN0w61RiyOlPL581HpC9ytgw6oXFnAo0RJCA) <GiuseppeChillemi (GiuseppeChillemi)>:
-Ì†ΩÌ∏ü
+üòü
 
 [11:16:01](#OrwqiW5ZpUsiHN62mGHHL7f8zf1sf7YtSTeCH4AQj84) <GiuseppeChillemi (GiuseppeChillemi)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [11:26:05](#YQzANa9JL5imComFWd9o2dmumXBbJEWsnUC1CavVCow) <GiuseppeChillemi (GiuseppeChillemi)>:
 The difference between relative and absolute is hard to learn and accept.
@@ -886,7 +886,7 @@ The difference between relative and absolute is hard to learn and accept.
 * The difference between relative and absolute is always hard to learn and accept.
 
 [12:28:01](#LiRC8LKRTyR_AI3nxolZ81cTyFJFoBz9TC4F_2iy_EA) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [16:41:05](#iXuoLMGDwkCkvVgywNVZrBMFunn15f8SRyrjai6ZSFw) <greggirwin (Gregg Irwin)>:
 @pekr we will get a full blog post out on red-lang.org before too long, and include the DiaGrammar announcement there. It's fine to make it public, but also fine to wait for that.
@@ -987,10 +987,10 @@ redCV under progress: we can use infra-red thermal images: https://twitter.com/f
 Cool! (.. or rather Hot!) 
 
 [16:42:12](#1wfyINWbjz_oqSPOUPV0PEu1X5s0bi8xuVNnBoPS9NA) <planetsizecpu (Jose Luis)>:
-Ì†ΩÌ±çFran√ßois,  now we all know you are building skynet 
+üëçFran√ßois,  now we all know you are building skynet 
 
 [16:42:39](#2DQ4kEaS-Knm1hsvU00SgI7v_zFQ_Inxtn2lNAjRGjs) <planetsizecpu (Jose Luis)>:
-* Ì†ΩÌ±çFran√ßois,  now we all know you are building skynet Ì†ΩÌ∏ú
+* üëçFran√ßois,  now we all know you are building skynet üòú
 
 [18:49:24](#IP5ByuCtJk3XG5yYrw56Q5MloJanNC_IaEYZlCguk-E) <GiuseppeChillemi (GiuseppeChillemi)>:
 @ldci Some time ago I have had an idea about an AI looking at User Interfaces an interacting with a program in place of humans. I have thought that this project  would bring RPA (robotic process automation) of programs to another level. Well, today I have made some research and discovered this technology exists. Sikuli http://sikulix.com is based on OpenCV, which is able to fully automate a GUI. I think it would be great to have RedCV recognize GUI elements, then only the interaction layer would be needed . This would bring RedCV and Red great power; also it could create lot of opportunities for us and acknowledgement for this project. I think that RedCV could have this capability but only its author could confirm this and make it possible. This is the reason I want to share this idea with you and all the other Red coders.
@@ -1155,7 +1155,7 @@ Sounds good. I thought that OpenCV binding is not going to be further maintained
 @hiiamboris Why do you think R/S should do it in 1 sec? If the alghoritm is already optimised, then it is about the efficiency of R/S compiler, no? :-)
 
 [18:47:01](#Y86YxL7XfGZbx8Stk_UEkrT5htRIPEHmwMdF7lz-DOc) <hiiamboris (NOT THIS ONE)>:
-I may be wrong, just a hunch. It's just 1 MB of data after all Ì†ΩÌ∏â
+I may be wrong, just a hunch. It's just 1 MB of data after all üòâ
 
 ## 5-Jan-2021
 
@@ -1163,7 +1163,7 @@ I may be wrong, just a hunch. It's just 1 MB of data after all Ì†ΩÌ∏â
 @pekr OpenCV 4 is now a mainly C++ code. Red binding allows to call about 600 basic functions from the C code core of OpenCV. This is sufficient for a lot of  classical applications. I stopped the support of OpenCV after the 3.3 version. I have to look if C functions are still supported in 4.0 version and newer. The second problem is that under macOS, I can't generate 32-bit libs since Xcode imposes 64-bit compilation. So I'm waiting for a 64-bit Red compiler :)
 
 [8:35:33](#ymc_OL1dBVxGgMuWmVpKYMmtMnKtLEBVDmVkXC714u0) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
-So RedCV is the way to go for the time being Ì†ΩÌπÇ
+So RedCV is the way to go for the time being üôÇ
 
 [18:04:54](#f-1IQlX0EcNTKsw8ChhpgXuUVsYE0OCbhXXtfggXVko) <GiuseppeChillemi (GiuseppeChillemi)>:
 @ldci I dind't know there was an OpenCV binding for Red.
@@ -1494,7 +1494,7 @@ add-actors: [
 @pixel40 please next time use http://gist.github.com/ for big snippets to keep the chat cleaner
 
 [13:35:13](#1B3b9i7lAQ3p0PEuTPYHUhiHxFtThDT6R4O-TP73cr4) <hiiamboris (NOT THIS ONE)>:
-Good job on making your own UI anyway Ì†ΩÌ∏â
+Good job on making your own UI anyway üòâ
 
 [14:18:07](#blqpMZTEw5tvpS5VmclfyXIzEMg4rRpwEKCSyrxAqcA) <pixel40 (pixel40)>:
 @hiiamboris Thank you, will do.
@@ -1856,7 +1856,7 @@ So, why not {load/next 'a} ?
 * So, why not `{load/next 'a}`? (Where Red gets the value `a` once `next` is true, and then `set word new-position`}
 
 [17:03:36](#MmE9GNobZdgNppY0IVfRudvUEFhda6h-i-fhS8RhbSw) <hiiamboris (NOT THIS ONE)>:
-no idea Ì†ΩÌ∏â
+no idea üòâ
 
 [17:04:07](#FaeWvmesPjTjOWzgmlJJqYlPkg5IOvWKb1lJF6q-AHI) <hiiamboris (NOT THIS ONE)>:
 but guess for compatibility with normal `load` 
@@ -1909,7 +1909,7 @@ This is the correct version
 It's @hiiamboris fault which has not corrected me! :-)
 
 [17:15:28](#CMA1dHZ0RV0JVHe_QpsZnKa0wTkxQ8qf7B5dfNknpWs) <hiiamboris (NOT THIS ONE)>:
-bad because I have hard time even imagining how the docstrings would be spelled Ì†ΩÌ∏â
+bad because I have hard time even imagining how the docstrings would be spelled üòâ
 
 [17:24:11](#1kH1A22Gf6saYqMOlT-caJiL5_NwtT1Nao7EHiPhyXY) <GiuseppeChillemi (GiuseppeChillemi)>:
 Now I have understood and no, I do not map different meaning but the working of the element in the meaning which the arg is representing (as `copy/part`)
@@ -1969,7 +1969,7 @@ I know a lot about a little. :^)
 A specialist is someone who knows almost everything about almost nothing.
 A journalist is someone who knows almost nothing about almost everything.
 
-So you are a specialist, the right person to ask. Ì†ΩÌ∏ä
+So you are a specialist, the right person to ask. üòä
 
 
 [7:39:19](#t8f4D3GrqGgD-99spXv7uwC2PVyfx-MnMNdyu6x8W5k) <planetsizecpu (Jose Luis)>:
@@ -1979,7 +1979,7 @@ So you are a specialist, the right person to ask. Ì†ΩÌ∏ä
 A specialist is someone who knows almost everything about almost nothing.
 A journalist is someone who knows almost nothing about almost everything.
 
-So you are a specialist, the right person to ask. Ì†ΩÌ∏ä
+So you are a specialist, the right person to ask. üòä
 
 
 [8:15:21](#2HanPp1Hh_ql85KtwZTmmwtS2rZknslpJVjLp-Iq0vQ) <greggirwin (Gregg Irwin)>:
@@ -2136,7 +2136,7 @@ beginning of my data month un-throttled there are no issues.
 many people using a phone or hotspot with marginal connection can have problems . the timeouts built into servers have gotten shorter for anything  under 100kbps
 
 [11:17:24](#wjR9hfQZmMDtgTqmU5es6b74LoNuUKGbzzxe7TCXzQA) <FLuX>:
-@ne1uno Humm.. if you can't change provider and their DPI is messing things, have you tried using a VPN? WireGuard is pretty solid on slow connections. Good luck! We're getting OoT here.. Ì†ΩÌ∏É 
+@ne1uno Humm.. if you can't change provider and their DPI is messing things, have you tried using a VPN? WireGuard is pretty solid on slow connections. Good luck! We're getting OoT here.. üòÉ 
 
 [11:19:42](#wdSXfAXVSjyzPIAupTR9sIo42bG-9mfVrBSN6VPOzVw) <ne1uno (ne1uno)>:
 it affects video too. instead of increasing buffers a few seconds, the players are stuck refilling every few seconds. unwatchable. the digital divide
@@ -2165,7 +2165,7 @@ Yes, we just got confirmation that more are on their way last night - this time 
 Yes, we just got confirmation that more are on their way last night - this time it will be preloaded with the Mobian Convergence Package (Debian Mobile) and USB-C Dock on the 3GB model (10/100 Ethernet, 2x USB type A ports, HDMI digital video output and power-in via USB-C). We don't have an estimated landing date at our warehouse yet, though. You can preorder it here: https://ameridroid.com/products/pinephone?variant=33012150796322
 
 [16:48:54](#JXkMybjGauT2F6qyQM1VQNHi3ygv3dUbYtbfa2ul_yY) <Respectech (Respectech)>:
-Even if you don't use this as a phone, it makes a great mobile hardware platform for Red applications. Ì†ΩÌ∏ú
+Even if you don't use this as a phone, it makes a great mobile hardware platform for Red applications. üòú
 
 [16:49:39](#1K8XbKl0usOWnoG5PIJGSXSkyuvyFFBOar8WHtBvI3k) <greggirwin (Gregg Irwin)>:
 Veyr cool @Respectech. Thanks!
@@ -2243,7 +2243,7 @@ Even if it did work with a block of multiple keys, a loop would have to be there
 I don't know why the `key` arg supports `block!`. Anybody else know what I'm missing?
 
 [3:21:42](#W5n1-DK0Epz_yZ1iD-se7RkTCrZOW1qRi2R-R5jMEkw) <gltewalt (The other Greg)>:
-Well, obviously not me Ì†ΩÌ∏Å
+Well, obviously not me üòÅ
 
 [3:29:39](#voj2gZUih5l2QUZOycctvd_mg385H0zLocvrDDR-Dhs) <gltewalt (The other Greg)>:
 Does `remove` predate `remove-each`?
@@ -2363,7 +2363,7 @@ If others agree, the simple option is to open a ticket for using `/only` interna
 Blocks can be used as compound keys, which is powerful, but I think the best practice there is do define an API for when you know you're doing that, because nobody wants to forget `/only` just once in their code. :^)
 
 [18:53:06](#i2CoAwqd-eNdi6Z2b59TtP2q95JDbxV5aHsTFzbvtcI) <toomasv>:
-@greggirwin Sorry, it seems I misunderstood the purpose of this snippet and reesponded hastily Ì†ΩÌ∏≥ 
+@greggirwin Sorry, it seems I misunderstood the purpose of this snippet and reesponded hastily üò≥ 
 
 [18:53:15](#-UIvif8p-lW5OJCNY_qNuAijNsLhygqdoA19FnymZrg) <toomasv>:
 * @greggirwin Sorry, it seems I misunderstood the purpose of this snippet and responded hastily :flushed: 
@@ -2441,7 +2441,7 @@ Again, `at` (or `find`, whatever) support does not have to involve anything else
 
 
 [19:30:54](#NHW1UZXYXuFSXHV5vbx7hpjIKw1FAOr2nPxwLAxNLeE) <hiiamboris (NOT THIS ONE)>:
-I propose we write a wiki entry with all series actions and everyone could write a meaning for every action. And we'll have an overview, see if it's sane or not Ì†ΩÌ∏â
+I propose we write a wiki entry with all series actions and everyone could write a meaning for every action. And we'll have an overview, see if it's sane or not üòâ
 
 [19:37:47](#hbZC4ZFwJ5ogLi4GZPiDusgBNK8QyK3S737cu_48YzY) <greggirwin (Gregg Irwin)>:
 This is the hard part of design. I don't like rippling changes in general, which is like your comment about designing blindly (with which I agree). It's also about how *useful* a feature is. We can't be 100% consistent, or include every feature, so we weigh cost/benefit in multiple axes. I'm all for a wiki, of course. :^)
@@ -2567,7 +2567,7 @@ He's been in the cave, recovering from Gitter poisoning. Every week or so I thro
 ## 22-Jan-2021
 
 [11:29:04](#tyKL4OLPCM2rw4vHU4G6jYdWyWkCj-aQ2-ckTAU0i4w) <planetsizecpu (Jose Luis)>:
-He has a special character, which we respect, but without this character he would not be our appreciated Nenad, so go throwing onions,  we are anxious for hear him Ì†ΩÌ∏â
+He has a special character, which we respect, but without this character he would not be our appreciated Nenad, so go throwing onions,  we are anxious for hear him üòâ
 
 
 [13:13:11](#WEtLCn3EYRC-KQ50uP8ZJfOduTCciZxLyColDtkJkI4) <loziniak (Maciej ≈Åozi≈Ñski)>:
@@ -2718,7 +2718,7 @@ Waiting for it with the light of love coming out from my eyes.
 ## 27-Jan-2021
 
 [20:08:04](#wsm3lLB02E6Qk9mcTiZTNqWS5bYP7dYxxnSHUDgyVks) <greggirwin (Gregg Irwin)>:
-Coming from Ì†ΩÌ±â [chit chat](https://gitter.im/red/chit-chat?at=60105aaad8bdab47395f3a1a)
+Coming from üëâ [chit chat](https://gitter.im/red/chit-chat?at=60105aaad8bdab47395f3a1a)
 
 It's important that people have choices, and there are a lot of big picture thoughts here related to the x-net, a Red browser, and more. I like and support the idea of UPXing (because it is an extra step, but can be automated) for a few reasons:
 
@@ -2751,7 +2751,7 @@ Seems Direct2D backend just got merged to Master? :-)
 Yep. Hooray! 
 
 [15:52:02](#JdbTK4QBxi12SWdcolS_tmBn8ugp89R4FzLtrQse7jQ) <planetsizecpu (Jose Luis)>:
-I tested my game and run as normal Ì†ºÌæâ
+I tested my game and run as normal üéâ
 
 [16:56:27](#i-eyhSXoL3znJ1KbvuzZTeTqmoD_hTvW2aPHr0qiiQY) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 @rebred that would be wonderful but rPi pico has 264kB RAM and just running Red on my machine takes more than 1,5MB. What could be run there is Red/System compiled programs. R/S supports ARM, I'm not sure what exactly are the differences between ARMv6 and ARMv6M used by Cortex-M0+, I expect something is missing but I'm no expert. I'm going to get 
@@ -2797,7 +2797,7 @@ Ah, some AVs incorrectly flag us, but some others does not. This is a recurrent 
 You may send a request to your AV provider to avoid flagging Red, sometimes they react.
 
 [8:51:01](#nxCIRzcrI9wY4BC_rGZh6R0r2fskRmIYuKmXneGkusY) <YKProg (Yaroni Makaroni)>:
-yeah, i will send a request and will see what they will do, but for the general problem, i understand there is no "trick" for that Ì†ΩÌ∏ü  . thanks!
+yeah, i will send a request and will see what they will do, but for the general problem, i understand there is no "trick" for that üòü  . thanks!
 
 [8:52:30](#fy0avraUF8f_xHDAytf_rrXqS30ohI3XI7pEmWaYPk0) <ne1uno (ne1uno)>:
 try `pkzip` maybe
@@ -2830,7 +2830,7 @@ You just need the latest nightly build.
 https://upx.github.io/
 
 [9:11:42](#Ceh4ab-hzoc0MaGVOJM9jtjWrDaUvRjfTCA13omLPic) <YKProg (Yaroni Makaroni)>:
-oh, i have UPX, its not solved it sadly Ì†ΩÌ∏ü
+oh, i have UPX, its not solved it sadly üòü
 
 [9:11:58](#0dT-aTEf9wd9pCIlbFVJdZeeAUq67GYSpaXvZPWCkkY) <ne1uno (ne1uno)>:
 https://www.virustotal.com/   will check against many AV
@@ -2854,7 +2854,7 @@ not executables
 You're welcome!
 
 [9:25:06](#v9g45XkESxE6ah2uPgwKh5Z5kScNbxpF4mBuXkqy-d4) <YKProg (Yaroni Makaroni)>:
-@ne1uno btw, UPX dont work for me on the PE form the latest red compiler, it says "internal error, should not happen", but i dont need it anyway Ì†ΩÌ∏â
+@ne1uno btw, UPX dont work for me on the PE form the latest red compiler, it says "internal error, should not happen", but i dont need it anyway üòâ
 
 [9:26:32](#XCxcYTODwHuFFIKqct5dmxFmBTjal7i9mFHgqfJohXE) <ne1uno (ne1uno)>:
 thanks, I haven't tried lately myself.
@@ -2880,7 +2880,7 @@ Thanks for the report @YKProg.
 Has anyone tried https://www.framer.com/, or their https://www.framer.com/motion/ animation DSL? We need to think about this in Red's GUI context. Some of you are more into this area and can evaluate it knowledgably, like @rgchris and @henrikmk.
 
 [23:04:20](#exsZhWQ5UDnUM8FeGpz4ScnpM0ofEk0SSJvQVNx9Phg) <rgchris (Christopher Ross-Gill)>:
-@greggirwin Would have to look it over‚Äîobviously not being in a familiar language (Ì†ΩÌπÇ) it's not immediately clear how you go about getting started. In [latter View experiments](https://gist.github.com/rgchris/b6fdf694df53ea82af424c48abeeefac), I was moving towards a more free-form state-based approach to managing appearance and the behaviours when transitioning and some elemental functions to put the transitions into effect (e.g. **move face 100x10**)‚Äîvery much with the CSS model in mind. I don't think this looks altogether different at a glance
+@greggirwin Would have to look it over‚Äîobviously not being in a familiar language (üôÇ) it's not immediately clear how you go about getting started. In [latter View experiments](https://gist.github.com/rgchris/b6fdf694df53ea82af424c48abeeefac), I was moving towards a more free-form state-based approach to managing appearance and the behaviours when transitioning and some elemental functions to put the transitions into effect (e.g. **move face 100x10**)‚Äîvery much with the CSS model in mind. I don't think this looks altogether different at a glance
 
 [23:07:41](#o_qsCRKHL7yAFRlI3Cx95XrTHLUAkwDj4at9gs7g_HI) <rgchris (Christopher Ross-Gill)>:
 I'd be inclined to say that specific functions (such as the above **move** or, say **fade** or **rotate**) are more important at an internal level, at a higher level it's more useful to specify how a thing should look in a given state and what parameters are needed when in transition.
@@ -2906,7 +2906,7 @@ I hadn't finished that thought in code, but that's the direction I was headed.
 @greggirwin do you remember, that Carl's revision of R3 VID had an UI annimation built in? I do remember UI elements to fly-in/out ....
 
 [6:00:19](#qy_SFcrvb3xTt5WHWxA6jOEheXcxm536GthDvYSj6Cw) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
-Also - in old days, Jeff Kreis did an animation dialect, it was like using a Scala on Amiga Ì†ΩÌ∏â
+Also - in old days, Jeff Kreis did an animation dialect, it was like using a Scala on Amiga üòâ
 
 [6:58:27](#xLJgdr1txppHYOwYETNIrgkElV2lnhhYDMM6I2wXogI) <GiuseppeChillemi (GiuseppeChillemi)>:
 @pekr di you have a link for this dialect?
@@ -3008,7 +3008,7 @@ There's a little bit of discussion about Prez here too, fyi: http://www.rebol.or
 @pekr, yes! I should have thought of Maxim.
 
 [7:10:40](#vmSxXq8wwzGyS0JO3_stSaZdAI_XmB38XQpxzwEV0vw) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
-I have digged my old hard disks. I remember having each R3 alpha release since 0.6.something. Also archive of old Ally mailing lists, etc., but one of my harddisks went thru failures, so we will see. I am curious what you guys have in mind in terms of animations Ì†ΩÌ∏â
+I have digged my old hard disks. I remember having each R3 alpha release since 0.6.something. Also archive of old Ally mailing lists, etc., but one of my harddisks went thru failures, so we will see. I am curious what you guys have in mind in terms of animations üòâ
 
 [7:11:27](#QmTNLIGx3y7DQQ8Vzy7XeibPXufYEP2duuRuFjjASsI) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
 I do remember Carl's VID had some function to anim fly-in/out of UI elements. If I have corresponding R3 release, I will create a small package to download .... will get back to you later.
@@ -3071,7 +3071,7 @@ Yes, you can mix and match to suit your needs.
 @pekr I am searching everywhere on the web from 3 hours with no result. The presentation dialect seems gone. We should  contact Jeff directly.
 
 [12:48:22](#6j3lZfdryMhGEUWEDXw-T0zsQfTI_xrxf0Pvj-kRH9A) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
-Maybe you would fe faster writing your own one Ì†ΩÌπÇ
+Maybe you would fe faster writing your own one üôÇ
 
 [12:59:05](#Fu6HgBjm-7hV56EBTfmzjGamDvVi-bfNuQqasbcT3vA) <rgchris (Christopher Ross-Gill)>:
 I had hacked Jeff's dialect into style form so that it could be used for a reusable slide-based presentation. Possibly still have that version.
@@ -3089,7 +3089,7 @@ Managed to get this working in View 2.7.8: [Presentation Style](https://gist.git
 Timeless tech 
 
 [13:36:59](#NjmCnCmMXfig1J935bTeAr-f76sgyTkUtdHaHwMQXDE) <rgchris (Christopher Ross-Gill)>:
-Ì†ΩÌπÇ
+üôÇ
 
 [13:37:40](#Qwnj-YCqlT9dPZ-HYFfIZaqJE-z5GBfrcdjykenhRQY) <GiuseppeChillemi (GiuseppeChillemi)>:
 When we will have timers it would be to have a presentation system on Red.
@@ -3104,7 +3104,7 @@ We shoudl port it on Red when possible.
 I'd suppose it may be possible to do the above now, but couldn't say for sure.
 
 [14:18:20](#pFeb9YofUZFrS1X_x1_Jvzowt4h0q7Z5WDUY2m1_pFs) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
-I feel stupid, and devastated. I have found only a pre 2008 archive. That's the time I switched the jobs. I did so again 4 years ago and asked my colleagues, to back-up my files. Did not check, so they exported only the profile folders. But I had !Rebol in the root. All is gone, including the whole IOS history, etc. That hurts Ì†ΩÌ∏ü
+I feel stupid, and devastated. I have found only a pre 2008 archive. That's the time I switched the jobs. I did so again 4 years ago and asked my colleagues, to back-up my files. Did not check, so they exported only the profile folders. But I had !Rebol in the root. All is gone, including the whole IOS history, etc. That hurts üòü
 
 [14:29:51](#_lVib5NyPAVF2r969uvuLamSYnMyGZSp4FOpQJDm6Ow) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
 I have found slightly different version to what Chris posted. Where it differs is it shows more of a dialect. It's from 2001, 20 years old :-)
@@ -3119,7 +3119,7 @@ http://2zone.cz/pekr/presentation.zip - you can download the archive and run it 
 http://2zone.cz/pekr/presentation.r
 
 [14:30:24](#Vu5Eu6utGmh0PD5u0AsWHxU1P60uJNddM7BEmmAiRtM) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-that's sad Ì†ΩÌ∏ü
+that's sad üòü
 
 [14:32:54](#8uSZudWVRRLgfpOrJ74--_ohhsSAdT_7YB1AoQZPRVQ) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
 The animation dialect looks like that: 
@@ -3148,7 +3148,7 @@ Listing thru all the past efforts, demos, I have to admit there was lots of a ta
 It is really Sad.
 
 [16:40:42](#sOy8r0GabL_D8fBDgvdloeP6H1CkVo3VpI7GJIF41xo) <rgchris (Christopher Ross-Gill)>:
-@pekr That's too bad Ì†ΩÌ∏•. I do have some historical stuff‚Äîmaybe even IOS instances I can get working even if they've nothing to connect to any more.
+@pekr That's too bad üò•. I do have some historical stuff‚Äîmaybe even IOS instances I can get working even if they've nothing to connect to any more.
 
 [17:10:20](#VX6f4UwaRa_l_RYtZBRRESMzqHHhPBRDTimi3D929HY) <GiuseppeChillemi (GiuseppeChillemi)>:
 @rgchris why? Is IOS dependent from Rebol tech? 
@@ -3366,7 +3366,7 @@ Again, no guarantee that this will actually affect `wait` or just the precision 
 Hey y'all.. good to see some old familiar faces.
 
 [16:37:38](#E5ofMytHw1T1I5LjP2OpRVFuludohoFrkbUZzfsRB8w) <rgchris (Christopher Ross-Gill)>:
-@townbully Ì†ΩÌ±ã
+@townbully üëã
 
 [16:41:22](#lluU6H-1bXPoQE1jyMEkTACuYIZxa-75evUXvO-sv1Y) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
 Oh no, is that even possible? :-)
@@ -3432,13 +3432,13 @@ I would identify the problem as a compromise between lexical flexibility and abs
 Too much lexical flexibility would make your Red runtime and data less compatible around the world, but we want Red to be able to express abstract concept well, thus making abstract stuff less complex.
 
 [21:05:22](#mIeOKxaNO1AxxO-5PYmjNB5gGXWrBIMO24Vo6gHTb-g) <hiiamboris (NOT THIS ONE)>:
-what discussions? Ì†ΩÌ∏â
+what discussions? üòâ
 
 [22:11:53](#gKpRpVo_otuJZFVBNoZNvGWIlch2-xZc1VrxD_oNtRY) <Numeross__twitter (Lop)>:
 Mainly [this](https://www.red-lang.org/2019/11/editorial-brief-essay-on-lexical.html) and its comments
 
 [22:47:57](#fa_lTCh5a76PQSq-dLImdg_rzlhCHSfx2PD08SKr7w0) <hiiamboris (NOT THIS ONE)>:
-That essay I understand. But what does it mean to express an abstract concept in Red - I do not Ì†ΩÌ∏â
+That essay I understand. But what does it mean to express an abstract concept in Red - I do not üòâ
 
 [22:51:32](#NnCLV8sIn8Yf-fTkiqPdtPvDmoEMWYBY4vbjz32a6VQ) <hiiamboris (NOT THIS ONE)>:
 IMO the cues of that essay:
@@ -3555,7 +3555,7 @@ You say "obsessed" like it's a bad thing. ;^)
 We can certainly experiment with return type specs for funcs. The func spec dialect supports it, but I don't think there's any use of it internally today. They aren't used today because it hasn't been a pressing need, and has open design questions because of Red's dynamic nature. There may be cases where the compiler can't do the check, so there would have to be an interpreted fallback mechanism. But it's like @rebolek's dependent type experiments or  DbC stuff  some of us have played with, easy to do at the mezz level and explore ideas. 
 
 [21:50:06](#2C-YTGpZ8K45YbPWWoeDzYBjkAWZa7TU6gxZfTIfQbg) <Numeross__twitter (Lop)>:
-Haha yeah It's definitely not a bad thing, but sometimes it gets out of hands and become very time consuming Ì†ΩÌ∏õ
+Haha yeah It's definitely not a bad thing, but sometimes it gets out of hands and become very time consuming üòõ
 Thanks for the answers !
 
 [21:57:36](#vSZpHGZyjwavMTqRDX_CzYwiCQX7SRyINMxOZda8YzI) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
@@ -3763,7 +3763,7 @@ btw, XML codec will be moved to the CASTR repo soon
 1) It should *unquestionably* be LIFO.
 2) Special function is not the right place. Instead, you should be able to use that on *every* scope level. And this is a problem on mezz level, as you have to `bind` that scope (block) every time.
 3) It should transparently handle exceptions, returns, loop control flow (mostly impossible on mezz level).
-4) The moment you used `attempt` you made your program a debugging hell Ì†ΩÌ∏É
+4) The moment you used `attempt` you made your program a debugging hell üòÉ
 5) And this is the hardest thing, I haven't solved it yet - when an error occurs in the code, it should not blame your `attempt code` or `try/all code`, it should blame the original code *at the position where that error comes from*.
 6) Error in any of `on-exit []` (or `leaving []` as I call them) finalizers should be treated as an *error in code* from the POV of all outer (previously deferred) finalizers, be reported as `on-exit [..erroneous code..]` and should not prevent all other finalizers from firing. Same for control flow, e.g. `return` from any finalizer should call outer finalizers and pass the returned value transparently. Unless another finalizer replaces it by a new `return` or other control flow diversion, and this is actually one of tricky points.
 7) This outlined functionality I consider a *must have* for any mature modern high level language, as it makes the code much more readable and lifts some implementation details off the coder.
@@ -3778,7 +3778,7 @@ I've just pushed another improvement, XML codec (I should rename it to HTML code
 @rebolek Nice!
 
 [15:45:34](#cBQEIl83knharr9BrrhR1_0uNaXAIIU27tlVSmneHs8) <toomasv>:
-@rebolek Ì†ΩÌ±è 
+@rebolek üëè 
 
 [19:49:30](#d_8NLIoi5MIq5vv4QDYzCC3zjCr2pPslg46SAFntqlI) <planetsizecpu (Jose Luis)>:
 Well done @rebolek 
@@ -3881,7 +3881,7 @@ Why in your example you *have* to close streams in that specific order?
 Maybe because if input is consumed it has to be processed. So if you consume it, but don't have anywhere to write it, that input is effectively lost. Or because closing the output first creates backpressure because the munging step has nowhere to send results. I chose the word "flowing" intentionally for that example.
 
 [23:12:41](#fH6njg_yaqgHyuZJVy3jGf1uBqIl3Xdx6lPX88g45sg) <hiiamboris (NOT THIS ONE)>:
-I get the intention, but not sure you can read from a stream you just closed Ì†ΩÌ∏â
+I get the intention, but not sure you can read from a stream you just closed üòâ
 
 [23:16:03](#bPxxT3wgSK5-YbVUNONdFX5QlzS8j2HWk9gEWEg_Xoc) <greggirwin (Gregg Irwin)>:
 Sure you can, it's called buffering.
@@ -4481,7 +4481,7 @@ Me too!
 [12:56:31](#Gbxk5NghytSrYzYub9aw_yoApQtq0_so_uKhIc9gXxs) <sleepnova_twitter (sleepnova)>:
 > @ScotSutherland not a Mac user, but IIRC Catalina is 64 bit, which is not supported by Red yet ....
 
-Ì†ΩÌ∏≠
+üò≠
 
 ## 22-Feb-2021
 
@@ -4999,7 +4999,7 @@ Interesting... but:
 [21:02:45](#leaTGxc7OJB0islrsIxL6x2kpa9h7dIulnEemAcTcXw) <hiiamboris (NOT THIS ONE)>:
 > Bloat might work by the same principles, in which case, zip source file embedding could be a more *socially conscious way of wasting resources in order to gain appeal with the non-classical software consumer. *
 
-Ì†ΩÌ∏É
+üòÉ
 
 ## 1-Mar-2021
 
@@ -5154,7 +5154,7 @@ And I also mean it should be a `native`.
 * And I also mean it should be a `native!` or `routine!`.
 
 [22:13:00](#cfY1xCnHqMSCpxgMJol5qk4utQRTwxovTJAcoCTQjac) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-`longest-common-match?` is not the best name.. I would start trying to find a better one Ì†ΩÌ∏â
+`longest-common-match?` is not the best name.. I would start trying to find a better one üòâ
 
 [22:13:23](#7Xd1E24WZqdmvhmTQSwQc2Iss1E_ASB3d-ZK846pBOE) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 I think that there could be split between `find` and `match`
@@ -5625,7 +5625,7 @@ Oo alright, thank you for answering. So let's say I were to create a simple butt
 Yes if you want to define it's look.
 
 [19:15:08](#HUqd35OXgtPE-Kkw88YIzWOLD-OthCTns6PFqUod0s8) <hiiamboris (NOT THIS ONE)>:
-We have a dedicated https://gitter.im/red/help room btw, for beginners questions Ì†ΩÌ∏â
+We have a dedicated https://gitter.im/red/help room btw, for beginners questions üòâ
 
 [19:17:50](#YTpiXbkJ5gwLg6n7BTWC1JG3EqmOYd7tWP4aXYc0rac) <greggirwin (Gregg Irwin)>:
 @qonn Red's current GUI system is based on native widgets, so you don't have to start from square one. It just doesn't run in the browser.
@@ -5694,7 +5694,7 @@ I guess that the winner is Epic... I think that they are using the WebView2 and 
 @greggirwin it could work how others are using it.. you start an app, which starts a local server and UI is made like classic web pages.
 
 [20:34:09](#45r940Wwph9uz-NRrxjx9rhJhr3NXxos5YwFxxsVLZA) <hiiamboris (NOT THIS ONE)>:
-let's just write a `bloat` module that will spawn 1GB of randomly named files with random data inside upon compilation, so we could include that into the app bundle Ì†ΩÌ∏â
+let's just write a `bloat` module that will spawn 1GB of randomly named files with random data inside upon compilation, so we could include that into the app bundle üòâ
 
 [20:34:56](#bJ9pySumUmwp1pvhyYEr-CuaMOVTE2go4RdqH2X2Dls) <hiiamboris (NOT THIS ONE)>:
 * Let's just write a `bloat` module that will spawn 1GB of randomly named files with random data inside upon compilation, so we could include that into the app bundle ;)
@@ -5799,7 +5799,7 @@ No idea about iOS, but since Apple would never let their users configure anythin
 Good thing we won't need it for creating rich interfaces in the future. :^) 
 
 [21:34:01](#sMGdAITf9IMebQ_Lutmkw5NyTqkM6ZjB2cbi8rWufHA) <hiiamboris (NOT THIS ONE)>:
-Indeed Ì†ΩÌ∏â
+Indeed üòâ
 
 [21:39:42](#Sks-cwItg74gNvMJNi6oCiOdDgSF1v6p9WaICOpxksY) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 @hiiamboris current browsers compatibility is much more better than 5 or 10 years ago. And not all pages need fancy cutting edge technology. Anyway.. I've not started this discussion... I just used it for a temporary procrastination. We should ask @qonn why he want to use WebView :-)
@@ -5825,7 +5825,7 @@ But true also is, that before getting port support, the web view does not make s
 [21:59:39](#mGf4HzfWIASzv4op7P0iUhzzCb6RXoDnmvrSJ_Brd-8) <hiiamboris (NOT THIS ONE)>:
 > current browsers compatibility is much more better than 5 or 10 years ago.
 
-My web surfing experience tells the opposite Ì†ΩÌ∏â
+My web surfing experience tells the opposite üòâ
 
 [22:06:11](#qM9k2Mngw26-Oyr9zitlvrKLXngD7mNlrxQZZlIBxHU) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 If you are using IE, than it would not surprise me. The compatibility is much better now when IE is supposed to be dead (although it's still present in Windows core).
@@ -5847,7 +5847,7 @@ According [this chat](https://stackoverflow.com/questions/8222571/how-to-have-th
 I must wonder how many Chrome versions I have on my notebook. It's like a cancer.
 
 [22:42:15](#awxSci0mbLVlSXjDL7u4-9LaHJNTkzQvcmfmYmkjW9A) <hiiamboris (NOT THIS ONE)>:
-Indeed.. Why no AV toolkit cleanses the PC from this most harmful software piece? Ì†ΩÌ∏â
+Indeed.. Why no AV toolkit cleanses the PC from this most harmful software piece? üòâ
 
 [22:45:03](#SFs9zu8E1OUEseo-cUlKmMa13TZk7iHBquG6mqLiHV8) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 Nice... I made a scan and found, that I have 27 `libcef.dll` files (2.3GB total) - and that is just one of [embedded chromium](https://en.wikipedia.org/wiki/Chromium_Embedded_Framework) files.
@@ -5932,7 +5932,7 @@ But Red really is interesting, that single executable everything, together with 
 You will have that in a few months.
 
 [8:41:10](#kW5ymOEyNAF75ngNbTFR0Z9boJCRR4FqYDASNgPJq0E) <hiiamboris (NOT THIS ONE)>:
-Few meaning 1-2 Ì†ΩÌ∏â
+Few meaning 1-2 üòâ
 
 [8:56:06](#NZQTQag1cUM2GPdqZbBotyRnKt0jWFhDZWG82q-r1s8) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
 What does "that" mean in your above remark? :-)
@@ -6209,7 +6209,7 @@ Wow Beads looks really aweswome. timetravel and renaissaince proportions build i
 Any of those videos blows my mind lol https://www.youtube.com/channel/UCiBO5hr2IVsYK8wiLznImTQ/videos
 
 [2:17:09](#gPJ02py5OUWnxlyIe84e5ev1zZcy9S0qqhwM9l_VnNo) <Nuc1eoN (@nuc1eon_gitlab-5ecc6367d73408ce4fe4dfce:gitter.im)>:
-Red and beads should team up Ì†ΩÌ∏É
+Red and beads should team up üòÉ
 
 [2:17:35](#s7OB-9TS1Y7yLyCP_KSTQJ89JCOkMqOHtZcllcjuijg) <wallysilva (Wally)>:
 `[mission > fundamentals >  trends]` 
@@ -6460,7 +6460,7 @@ To be really honest.. the web looks terrible and not ready for year 2021.
 There shoud be colorized code samples and screenshots and not some sort of wonder woman with shanghai behind.
 
 [9:45:59](#wGaJHehOhLGB26l5tFiBwvOJzouIpk0wlZPuzqO_aUg) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
-@Oldes I think the same, but as I was called being a troll, I don't want to be unnecessarily negative Ì†ΩÌ∏ü
+@Oldes I think the same, but as I was called being a troll, I don't want to be unnecessarily negative üòü
 
 [9:46:33](#Vw6MOpH1UzClr8LTQtfyqXVtdBFrlRs45G5f8zkGgM8) <snotbubble (Craig Brown)>:
 also: fighting software complexity, in heels & cape
@@ -6571,14 +6571,14 @@ Hm.. it looks that Gabrielle was not writing a Rebol code directly for his Power
 (I would personally avoiding this way.. and instead was using regular comments in normally executable code)
 
 [11:49:04](#WGlYO4SARfh7WgB9bU0eMvdonw4ouzBHkubmSTMh5xs) <hiiamboris (NOT THIS ONE)>:
-Most of Gabriele's documentation is just code formatted as a web page Ì†ΩÌ∏É
+Most of Gabriele's documentation is just code formatted as a web page üòÉ
 
 [14:19:43](#uIwLCmS7t7XYOrxxiw7jKxMZjHWVLJ2pQBRQIz9qPDA) <dsunanda (dsunanda)>:
 Gabriele was inspired by Literate Programming - an approach in which you write a human-readable narrative that explains what the program does. And ALL the code is in the narrative....but in the logical place for the narrative, not in the lexical order of the code (eg all necessary start-up initialization might be in a technical appendix as it is not the first thing most people need to read to understand the core of the program).
 http://www.literateprogramming.com/
 
 [14:31:52](#BNM4EG0HWu9bjCXo2oabSCxGQggt0PMHdXN5gVCCalE) <hiiamboris (NOT THIS ONE)>:
-Thought so Ì†ΩÌ∏â
+Thought so üòâ
 
 [18:47:11](#-04fNetXiMjA5-HHGEzpy8V2hi8HIN2zxNrkMUYMee0) <greggirwin (Gregg Irwin)>:
 Thanks for the input all. I won't respond to specific messages because it may come off as defensive, or offensive.
@@ -6647,7 +6647,7 @@ Thanks @mikeparr. I approved the design, and hope it's somewhere between pulp an
 Thanks for the info @Boum69, and for your support!
 
 [21:23:45](#m1DXEWFAhWsJCrimQUs3ST-2qRJ-Kjlnaj-qygz1PVk) <Boum69 (Boum69)>:
-Your welcome @greggirwin  Ì†ΩÌ±ç.I know that you made a huge amount of work for the community, it's really impressive!  Very glad to read about you. I m proud to be one of you and hope all the best for all of you.  
+Your welcome @greggirwin  üëç.I know that you made a huge amount of work for the community, it's really impressive!  Very glad to read about you. I m proud to be one of you and hope all the best for all of you.  
 
 [21:24:02](#I6zxAoThEyMqHLqUtA4hHaZ9bH4kovIaaiuEe7FEfHM) <greggirwin (Gregg Irwin)>:
 We're all in this together. :^)
@@ -6851,7 +6851,7 @@ it's official docs, so thru PRs only
 [17:39:46](#JqJcakf79cVM4aKMhPASuWOB6Dk3k81gIIC09s4H4as) <hiiamboris (NOT THIS ONE)>:
 > words like "EXE" which only exists on Windows
 
-yeah.. I also noticed the word "DOS" there in place of command prompt Ì†ΩÌ∏â
+yeah.. I also noticed the word "DOS" there in place of command prompt üòâ
 
 [17:39:56](#F8yxhcUPRQuPKr5BX9Dnxhpdi7FANqnmiNXCcCvvqUw) <hiiamboris (NOT THIS ONE)>:
 * > words like "EXE" which only exists on Windows
@@ -6951,7 +6951,7 @@ I do recall your scroller flickered a lot on W7/GDI+. But on W10/D2D it's perfec
 * @nuc1eon:matrix.org Show me a smooth, not jittering, scrolling text, done easily. Amiga could do that with 25MHz CPU :-)
 
 [8:58:00](#k9tOyGF4he5fc2cA0WLu9j0a2H79kI-FbFri1QQEvqQ) <hiiamboris (NOT THIS ONE)>:
-obviously we're still capped by the timer which is 65 fps roughly but skips a frame every now and then, and timer is not in sync with the screen's refresh rate, so although there's no tearing, the keen eye may always detect a bit of stuttering Ì†ΩÌ∏â
+obviously we're still capped by the timer which is 65 fps roughly but skips a frame every now and then, and timer is not in sync with the screen's refresh rate, so although there's no tearing, the keen eye may always detect a bit of stuttering üòâ
 
 [8:58:49](#LD6U-cZ9B0oOYOk7qIhWWSrU1BtGnoUAX3dxEJ8VLM0) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
 * @nuc1eon:matrix.org Show me a smooth, not jittering, scrolling text, done easily. Amiga could do that with 25MHz CPU :-)
@@ -6972,7 +6972,7 @@ I can't get it any faster. The problem is the timer imo. If I comment-out my `wa
 maybe you're forgetting to save the changes after you modify speed?
 
 [9:06:27](#-BwoPOEPTa5YaJugJn5xaDIygZ7ea42kScOtK63hyCM) <hiiamboris (NOT THIS ONE)>:
-I've no other explanation Ì†ΩÌ∏É
+I've no other explanation üòÉ
 
 [9:06:27](#GeqhCVKrCCjbw5zvtxwkHz8vg1YOwBfGoNML8DhOq8g) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
 * @nuc1eon:matrix.org Show me a smooth, not jittering, scrolling text, done easily. Amiga could do that with 25MHz CPU :-)
@@ -6990,7 +6990,7 @@ speed: 5000 is unreadable for me
 speed: 500 shows a bit of stutter
 
 [9:08:56](#SxFqlqJ0ELZCO1pwQRgCQHszXuBeZGHGzWsouTaEleQ) <hiiamboris (NOT THIS ONE)>:
-we can make it smoother at the expense of 100% CPU load Ì†ΩÌ∏â
+we can make it smoother at the expense of 100% CPU load üòâ
 
 [9:08:56](#TThiR3LdBQ4mZki9NFoQBdSE-OB-sIkZ9Vygmp-dZJU) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
 * @nuc1eon:matrix.org Show me a smooth, not jittering, scrolling text, done easily. Amiga could do that with 25MHz CPU :-)
@@ -7050,7 +7050,7 @@ OK, maybe animations are not our target, for business apps it does not matter at
 * @nuc1eon:matrix.org Show me a smooth, not jittering, scrolling text, done easily. Amiga could do that with 25MHz CPU :-)
 
 [9:22:41](#1buChi84YBIpq87DypdHmupkBi3QWFCCACdSUp2YrvE) <hiiamboris (NOT THIS ONE)>:
-put simply, everything has a cost Ì†ΩÌ∏â
+put simply, everything has a cost üòâ
 
 [9:23:17](#Pc80uaA42dplOvy1CXxGv_-Bgf5UGGI1F-bTZCj5ouY) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
 * @nuc1eon:matrix.org Show me a smooth, not jittering, scrolling text, done easily. Amiga could do that with 25MHz CPU :-)
@@ -7077,7 +7077,7 @@ I just hope your remark about high costs is not noticed by the dame developers, 
 * @nuc1eon:matrix.org Show me a smooth, not jittering, scrolling text, done easily. Amiga could do that with 25MHz CPU :-)
 
 [9:36:05](#7qal20KGFQZlblrVZ7ndqgy7wfL-_9ovSuSAQal427k) <hiiamboris (NOT THIS ONE)>:
-I could try feeding them some R/S spells to make their OS more battery hungry Ì†ΩÌ∏â
+I could try feeding them some R/S spells to make their OS more battery hungry üòâ
 
 [12:31:13](#nvj0akOpHD0juEyAcQUedBQVH9Kb-a-c41I4tH6ucIA) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
 * @nuc1eon:matrix.org Show me a smooth, not jittering, scrolling text, done easily. Amiga could do that with 25MHz CPU :-)
@@ -7561,7 +7561,7 @@ ith-perm: function [a i] [
 I have not used `also`nor `take`in my code yet. I need to adapt somehow :-)
 
 [10:12:01](#i-55J9ELJa2gooYl5l4xXt5t8A5eYZqR5p4tkCtXaIQ) <hiiamboris (NOT THIS ONE)>:
-@GalenIvanov That moment when I wish we had `repeat/reverse` Ì†ΩÌ∏â
+@GalenIvanov That moment when I wish we had `repeat/reverse` üòâ
 
 [10:13:02](#AnfqAB3xcFFXvL11eLWLgj4MemVLTAqob9LDt4vncbU) <hiiamboris (NOT THIS ONE)>:
 * @GalenIvanov That moment when I wish we had `repeat/reverse` ;)
@@ -7580,7 +7580,7 @@ I have never used "also" too
 Don't do that, now Gregg will write down his elaborate on that stuff and it is going to be long. Like real long :-)
 
 [10:16:00](#DWeFlcmuJtRcdcJO6Q3becw6gqNtIMwKNv27CuCKJuc) <hiiamboris (NOT THIS ONE)>:
-LOL. Now that you mention it, he has no choice Ì†ΩÌ∏É
+LOL. Now that you mention it, he has no choice üòÉ
 
 [10:19:27](#mL5EHT1-P_jwI7Una-AQBG79xcnamnCBNobwRcEORCU) <dsunanda (dsunanda)>:
 @hiiamboris That is amazing! So compact.
@@ -7682,7 +7682,7 @@ Yep. When it's just a few lines.
 OK, thanks!
 
 [11:32:15](#c7sKF5qrqpRQvWEvDrAQ7aIp0oTKs3L99TxhD73B1hY) <hiiamboris (NOT THIS ONE)>:
-Look at the source code of `also`. It's brilliant Ì†ΩÌ∏â
+Look at the source code of `also`. It's brilliant üòâ
 
 [11:33:27](#LOWlrdqbeAZpZ6vFkcLEjKVxziAl2n7kTNLu3y_GbQg) <GalenIvanov (Galen Ivanov)>:
 I will
@@ -7782,7 +7782,7 @@ As a funny side note, @hiiamboris saves a few bytes here `also r: make [] n: fac
 
 
 [18:43:42](#6mcDHHgCN5avYm8WZ82sKj07B5yDnKAvDTmZku5fjPE) <hiiamboris (NOT THIS ONE)>:
-I'm using `make []`, `to []`, `to 1`, `to ""` all the time Ì†ΩÌ∏â
+I'm using `make []`, `to []`, `to 1`, `to ""` all the time üòâ
 
 [18:45:39](#nSzu0I_D4rfctqs8b0zd6msbJgSltdldcrsIPBfa5DY) <hiiamboris (NOT THIS ONE)>:
 It's more readable to my eye in many cases, as instead of the name of the thing, I see the thing itself.
@@ -7842,7 +7842,7 @@ No, it would conflict with datatypes. I like this idea actually, since I first s
 And because we don't view mutability as dangerous, if we use a warning sigil it should be for other things, like "Boris wrote this func, so you can trust it to work but you may not understand the code." :^)
 
 [18:52:43](#FF8P9P2X5NB4JoARQfIYu0zdYkyxo7YfLcBquSD6rHM) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [18:54:07](#YqIE8ySDMlssLsakbPJBNnQqkzfrDSBq0-hxSRsVgas) <hiiamboris (NOT THIS ONE)>:
 On `make [a: 1] [b: 2]`, what's stopping you from using `make object [a: 1] [b: 2]`?
@@ -7883,7 +7883,7 @@ It's not just in the learning. It's also about the remembering. Neither are nece
 `borisize*`
 
 [19:08:48](#xQ4tHshYlvTq0ca00Hatugnl_YFDRu6r7V8XW0l0Mqc) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ∏â I would have supported the initiative if not for Rebol roots.
+üòâ I would have supported the initiative if not for Rebol roots.
 
 [19:13:14](#liiYtZ4-TftXL2lqx3nALavJ7dwFrxJZ52pibuYxH6I) <greggirwin (Gregg Irwin)>:
 `make proto-map partial-map`, where `partial-map` is a record in a file. `proto-map` has more fields that the app uses, like a schema. We can look at this a lot of ways. e.g. maps will add new keys as needed, so why use a prototype? Sometimes you want flexibility, but a fully spec'd structure is its own documentation. Partials in files "leaks" less info, where users don't need to care about it. So it comes down to context as well. If maps copied strings, I might never have brought it up. :^)
@@ -8114,16 +8114,16 @@ in Red it'll be slower than memoized, as it's not a compiled lang
 (fact is a function : reduce by multiplication the range 1 to the argument) 
 
 [8:48:42](#nTL1zKUXnKftxbmNi1G1lEbytfb51dC0tonC4O5Y414) <GalenIvanov (Galen Ivanov)>:
-@hiiamboris ok, thank you for the clarification! I just wanted to show some "write-only" APL code to @greggirwin Ì†ΩÌ∏Ñ 
+@hiiamboris ok, thank you for the clarification! I just wanted to show some "write-only" APL code to @greggirwin üòÑ 
 
 [8:55:57](#ntpk0gsNsBTVUsakrZu70xaDNLWAIXfbbICbkdsWaQQ) <GalenIvanov (Galen Ivanov)>:
 Joking asids, @greggirwin is right about difficulties in reading APLs - I have some minor experience in J/K/APL and I love them, but I'm not experienced enough to read them freely. That's probably true for most people. Maybe this explains the existence of Q language.
 
 [9:05:46](#gStw3kNxrxW0iSC-TfV6y8cAtWuLZ_BxFaNCprTx4F8) <hiiamboris (NOT THIS ONE)>:
-I agree, but I'd also love to see the opinion of someone from China or Japan on this, as their minds are well trained for short pattern recognition. And when I read the code I kind of expect the amount of work be proportional somewhat to the amount of code, and don't like it when one hardly noticeable symbol changes everything. It reminds me of product labels - what you really wanna read is always written in tiniest font possible Ì†ΩÌ∏É
+I agree, but I'd also love to see the opinion of someone from China or Japan on this, as their minds are well trained for short pattern recognition. And when I read the code I kind of expect the amount of work be proportional somewhat to the amount of code, and don't like it when one hardly noticeable symbol changes everything. It reminds me of product labels - what you really wanna read is always written in tiniest font possible üòÉ
 
 [9:07:46](#lxzgL5KI7T4Yh4KFjXZr6rU52kuFFoOi7cR_xwSEtmg) <GalenIvanov (Galen Ivanov)>:
-Ì†ΩÌ∏É 
+üòÉ 
 
 [14:15:03](#_R1vZwCP970zd5-3TS2iCI2LBy2ke4xi1C9pJxmM1sQ) <Wezl>:
 **advertisement** there's discussion about array languages on matrix (search for array languages) **/advertisement** ;)
@@ -8392,7 +8392,7 @@ Seems rather like a personal motivation to me.
 Seems like a personal motivation to me.
 
 [9:55:47](#iMxgvbRnNSDTreytZ-ETN4ghycEQyJ6y4RkiuSBetuY) <Nuc1eoN (@nuc1eon:matrix.org)>:
-I mean, is there a market for an OS? Ì†ΩÌ∏Ç
+I mean, is there a market for an OS? üòÇ
 
 [10:01:15](#CtVRizkg0hrvD_njzOEB-oGNBwjuoj8t9T97SXG-ffE) <GiuseppeChillemi (GiuseppeChillemi)>:
 I see te personal motivation too, he has written it is a personal project.
@@ -8405,7 +8405,7 @@ I think I just realized that a Dockerfile is also basically a homoiconic specifi
 Because you write code to create data?
 
 [10:08:24](#Ms2kFfh_RXoqogMlIaUIfxrn7e3cjBrRMooMZNhYxSg) <Nuc1eoN (@nuc1eon:matrix.org)>:
-So exiting Ì†ΩÌ∏Ñ
+So exiting üòÑ
 
 [10:15:14](#-TrRMH4tnkQvwC5FZRoPrbDhdeGNNGgWyfDml-55Onw) <GiuseppeChillemi (GiuseppeChillemi)>:
 Also the `1..20` indexes datatype is something Red could add.
@@ -8435,7 +8435,7 @@ I don't know when it will be ready but it is not important. We need real and usa
 @GiuseppeChillemi `can achieve the same results`
 
 [12:21:46](#tFJZew0u8CKJx4pj14UvwhkxoYZLg8QSYAAFGf0JcRM) <GalenIvanov (Galen Ivanov)>:
-Ì†ΩÌ∏Ñ 
+üòÑ 
 
 [12:23:48](#1cyD2SSA4f135BQBTRkgck1DJzSAyx-0hM4oVjAoUhI) <GiuseppeChillemi (GiuseppeChillemi)>:
 @GalenIvanov   I have not understood if you agree or not agree with my phrase.
@@ -8447,7 +8447,7 @@ I don't know when it will be ready but it is not important. We need real and usa
 Yes, I agree - just wanted to show you a small typo 
 
 [12:25:38](#Ckz-21XVYDWsI1mD0G31rOTtEGos6bjpDLGie15dySs) <GiuseppeChillemi (GiuseppeChillemi)>:
-The problem is that I don't see the typo! Ì†ΩÌ∏É
+The problem is that I don't see the typo! üòÉ
 
 [12:26:01](#pDg6wylm6GVgZaUa-k9ojlRdKpnd51YNeRETld6ST-8) <GiuseppeChillemi (GiuseppeChillemi)>:
 * I don't know when it will be ready but it is not important. We need real and usable solutions.  Red is a concrete project which gives us the stability and support needed. When AltScript and ASON will be ready, we will consider them but we can achive the same results on Red with just a little overhead. Those projects are a thing of the future but Red is a  thing of now. 
@@ -8459,10 +8459,10 @@ Ok, I have seen it!
 :+1:
 
 [12:27:06](#jpbpCSzdRvhdcZDCU0zUvBJZB2BbMdu050JMvdoJwyI) <GiuseppeChillemi (GiuseppeChillemi)>:
-Ì†ΩÌ∏É Ì†ΩÌ∏É  Ì†ΩÌ∏É , ok let's archive this error, I have edited the phrase, thank you!
+üòÉ üòÉ  üòÉ , ok let's archive this error, I have edited the phrase, thank you!
 
 [12:27:53](#-RXaU-6LNZH7X0PxfzjmQY5kVDrhwRKaRzs9kkELpw0) <GalenIvanov (Galen Ivanov)>:
-It's already archived Ì†ΩÌ∏Ñ 
+It's already archived üòÑ 
 
 [13:04:09](#SUBU8elmSDwbmOx-7xCR-BksXij9hViAYg1mD-wUG38) <GiuseppeChillemi (GiuseppeChillemi)>:
 @pekr  
@@ -8538,7 +8538,7 @@ We need to add `ref!` to https://github.com/red/red/wiki/%5BDOC%5D-Table-for-to-
 
 [20:47:18](#3CaaNwAt9o1UhCz_qV4adbZIf3cZy73A2kzwrxg_HWM) <GiuseppeChillemi (GiuseppeChillemi)>:
 Here is the continuation of AltScript and ASON on [chit-chat](
-Ì†ΩÌ±â : [22 marzo 2021 21:26](https://gitter.im/red/chit-chat?at=6058fd5d2beb1e1da3c39f0e)) 
+üëâ : [22 marzo 2021 21:26](https://gitter.im/red/chit-chat?at=6058fd5d2beb1e1da3c39f0e)) 
 
 [20:47:30](#abnw2aQU4elmvFKS_kCnzIpN-bGENyOra0Hrnbu9E3E) <GiuseppeChillemi (GiuseppeChillemi)>:
 * Here is the continuation of AltScript and ASON on [chit-chat](
@@ -8619,7 +8619,7 @@ So you'd rather write `form/render <value> sigil` than `mold <value>`?
 `/render` argument is a kind of `options` block , so the coder could choose how the rendering style when you convert code into user-readable strings. You could even have options for RTF like `[sigils [bold italic]]`
 
 [21:37:38](#A5KmDAZEJfB-EEVnx3LBgzDNsmj-hza-RV_5_Sn2jcA) <GiuseppeChillemi (GiuseppeChillemi)>:
-(My imagination core is running Ì†ΩÌ∏â )
+(My imagination core is running üòâ )
 
 [21:39:15](#p1OGdGX6Stvia7Rs9_MY2leOufzG5fNgEvWACAMqqFU) <GiuseppeChillemi (GiuseppeChillemi)>:
 * `/render` argument is a kind of `options` block , so the coder could choose the rendering style when you convert code into user-readable strings. You could even have options for RTF like `[sigils [bold italic]]`
@@ -8726,7 +8726,7 @@ Model is if no sizes are customized, it's division (optimization). Otherwise I'l
 So it's not that you really care if there's just one, but if there's an entry for a key or not. If not, use the default. And you want to avoid `find` for performance reasons.
 
 [18:27:37](#M5wU9_2rpJfsKkRYuodvFhLLuKpLKqBv6-uGeTPa-lI) <hiiamboris (NOT THIS ONE)>:
-No. I do care Ì†ΩÌ∏â
+No. I do care üòâ
 
 [18:28:08](#4M8GpD3mWZPfHgEpnZ1xLRt4QEOwXYQaB67Pjw78fEM) <hiiamboris (NOT THIS ONE)>:
 ```
@@ -8853,7 +8853,7 @@ gen-sym: func [/with 'word /reset /no-count /local count] [
 	; Editing alignment goes wonky for the insertion point.
 	to word! rejoin [
 		#"^(2989)"				; #"‚¶â"  left binding bracket
-		any [word #"^(1F70)"]	; #"Ì†ΩÌºÄ" aether :^)
+		any [word #"^(1F70)"]	; #"üúÄ" aether :^)
 		either no-count [][count/1]
 		#"^(298A)"				; #"‚¶ä"  right binding bracket
 	]
@@ -8895,7 +8895,7 @@ It looks that the biggest obstacle when porting Red compiler from Rebol2 to Rebo
 @dockimbel would have to say. I think he noted things in the past but don't remember where now.
 
 [18:01:10](#x01re1MMKarVNoZF3_bdvrAWEtNZGYLDHUdTk6i3wnk) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-I can say it.. because I've spend already a few hours trying to port the compiler from R2 to R3 Ì†ΩÌ∏â It's not unsolvable... it's just a obstacle, because in R3 one must use `ref!` instead of `issue!` (as it would be needed when porting to Red one day)
+I can say it.. because I've spend already a few hours trying to port the compiler from R2 to R3 üòâ It's not unsolvable... it's just a obstacle, because in R3 one must use `ref!` instead of `issue!` (as it would be needed when porting to Red one day)
 
 [18:01:31](#gAfzwj9Qv96qFaKp3GKaCzxtHLoBPWoJVxH0VISS5sM) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 * I can say it.. because I've spend already a few hours trying to port the compiler from R2 to R3 ;-) It's not unsolvable... it's just one of many obstacles, because in R3 one must use `ref!` instead of `issue!` (as it would be needed when porting to Red one day)
@@ -9023,7 +9023,7 @@ I still can't imagine how Doc managed all the state's combinations in the new le
 * I still can't imagine how Doc managed all the states combinations in the new lexer. My admiration goes to his skill.
 
 [13:21:32](#SPcUZpRyueIc2Vk_6NHmHomuZmZNHiB_GVmGHoY3upo) <hiiamboris (NOT THIS ONE)>:
-Now you have a glimpse of what language design is Ì†ΩÌ∏â
+Now you have a glimpse of what language design is üòâ
 
 [14:21:52](#1IyybAOHnoRNfTtXFFXpMSssUYM_8-y6MJu555UnZqw) <GiuseppeChillemi (GiuseppeChillemi)>:
 It's not easy, every time I read your discussions on GitHub, I realize how difficult is to make a decision. A choice needs a problem to be observed under different lights and scenarios. Every brain there enriches the discussion and gives his experience.
@@ -9112,7 +9112,7 @@ https://www.redlake-tech.com/blog/2021/04/diagrammar-1.2.2/
 * @hiiamboris I obviously know about the project (now) :). The funny thing is... when I started out, my main sketches where about something like https://sdlang.org/ - only, a "real" language.
 
 [17:38:13](#KyZZ42rc3HCafTTERE4Mbsbmsxl_hdwZDXujc9hp4lo) <hiiamboris (NOT THIS ONE)>:
-looks C-inspired Ì†ΩÌ∏â
+looks C-inspired üòâ
 
 [17:43:03](#QOprpTLP4KshPRdaQ_eeycn31y5ttZf2rNikbtADGUc) <hiiamboris (NOT THIS ONE)>:
 @drkameleon How much OS API are you using? Would it be possible to wrap your interpreter with [APE](https://justine.lol/ape.html) format so that single binary would work on a few platforms at once?
@@ -9146,7 +9146,7 @@ Well done @drkameleon push hard.
 [7:37:01](#DaAhHtVfybOXnj7WRD9XjFDAcQkzu423zgL1Ym0vpXI) <drkameleon (Yanis Zafir√≥pulos)>:
 > @drkameleon How much OS API are you using? Would it be possible to wrap your interpreter with [APE](https://justine.lol/ape.html) format so that single binary would work on a few platforms?
 
-This looks interesting. I'll certainly have a look into it. Ì†ΩÌ∏â
+This looks interesting. I'll certainly have a look into it. üòâ
 
 [7:41:11](#ADSBkalcx5XWUrAqDPpKQndKV9N8kBf1fVQ6KVlR5Yo) <drkameleon (Yanis Zafir√≥pulos)>:
 > I noticed your `version` type says "SemVer compliant". SemVer 2 adds quite a bit beyond numbers (build and prerelease info), so you may want to note that.
@@ -9320,7 +9320,7 @@ Thanks for the hints, gentlemen.  I'll keep trying some things.
 [8:06:50](#IFFWd1SCuhN2QoScmzVjvUFFqydxY7EEVekBwcuzBxU) <drkameleon (Yanis Zafir√≥pulos)>:
 @greggirwin @GiuseppeChillemi @pekr First of all, thanks a lot for all the kinds words.
 
-Trying to avoid to over-pollute the Red community with something not-so-relevant, I believe I owe an answer. I think the answer - or at least mine - to the rather common question "why another language?" is that none of what already exists seems to cover what you are looking for, so... you set off to build it yourself. (usually failing, rarely succeeding). And for me, that's how things in general improve: the more ideas around, the better (think of it: it's impressive how, even projects that didn't have much success themselves, may have in turn influenced immensely other projects - and I'm not even talking just about software - that turned out to be far more popular or significant). So... I'd stick to that. The more ideas moving around freely, the better. I don't see it as competition. I never did. It's just (slightly or not-so-slightly) different approaches to the same problems. And everyone benefits in the end. Ì†ΩÌ∏â
+Trying to avoid to over-pollute the Red community with something not-so-relevant, I believe I owe an answer. I think the answer - or at least mine - to the rather common question "why another language?" is that none of what already exists seems to cover what you are looking for, so... you set off to build it yourself. (usually failing, rarely succeeding). And for me, that's how things in general improve: the more ideas around, the better (think of it: it's impressive how, even projects that didn't have much success themselves, may have in turn influenced immensely other projects - and I'm not even talking just about software - that turned out to be far more popular or significant). So... I'd stick to that. The more ideas moving around freely, the better. I don't see it as competition. I never did. It's just (slightly or not-so-slightly) different approaches to the same problems. And everyone benefits in the end. üòâ
 
 [8:06:58](#TxKPIC-kEAS7avjzQEIW7Hqmx1UqO1BfD9lSq18ZLho) <drkameleon (Yanis Zafir√≥pulos)>:
 * @greggirwin @GiuseppeChillemi @pekr First of all, thanks a lot for all the kind words.
@@ -9352,7 +9352,7 @@ For me, that's how things in general improve: the more ideas around, the better 
 True. Diversity covers more ground (in both senses: more followers and more application domains), in the end getting a part of global audience away from mainstream languages and their complexity. Good job!
 
 [8:19:51](#0-TNtCcGpi3QorW_yuQvEG2PiRZoOQs1XpjHHJg1iLk) <drkameleon (Yanis Zafir√≥pulos)>:
-@hiiamboris Couldn't agree more. I could name an endless list of less-than-optimal but ultra-mainstream languages that I would definitely not mind at all, if they got less attention. And if the reason for that is Red, or Arturo, or both, it's not an issue. Ì†ΩÌ∏â
+@hiiamboris Couldn't agree more. I could name an endless list of less-than-optimal but ultra-mainstream languages that I would definitely not mind at all, if they got less attention. And if the reason for that is Red, or Arturo, or both, it's not an issue. üòâ
 
 [8:20:05](#wn6xHZRW292hIY13OFz9jnr7zFBXOpEadu29s0KBu18) <drkameleon (Yanis Zafir√≥pulos)>:
 * @hiiamboris Couldn't agree more. I could name an endless list of less-than-optimal but ultra-mainstream languages that I would definitely not mind at all if they got less attention. And if the reason for that is Red, or Arturo, or both, it's not an issue. ;)
@@ -9404,7 +9404,7 @@ so must be some permission thing
 apparently unpacking stage failed
 
 [20:10:57](#RwZH7s4QgQzz2AaEC4er2fjZX2phIIMBr-1jq3EngYo) <hiiamboris (NOT THIS ONE)>:
-when you figure out why it didn't work for you out of the box, please tell us Ì†ΩÌ∏â
+when you figure out why it didn't work for you out of the box, please tell us üòâ
 
 [20:11:11](#5kI-4-Un0uenysrwszEsjlR0FhMtGY4Qst6rjXUtj-c) <pontaoski (jan Pontaoski)>:
 does red require an X server to run
@@ -9696,7 +9696,7 @@ ah I see where that comes from..
 https://github.com/red/red/blob/6efcbb5e92127c319e748c41291b26b40f9b3aec/environment/functions.red#L602
 
 [21:06:56](#KLPIJTZyD1umwOvxgBquk294EnTTmy86e84M0XjN2HI) <hiiamboris (NOT THIS ONE)>:
-wanna PR a change? Ì†ΩÌ∏â
+wanna PR a change? üòâ
 
 [21:08:11](#NJuU_4w5HRi4I-0Arh8ZYAOTgo9LArAi4zAuADvEh6Y) <hiiamboris (NOT THIS ONE)>:
 if you do, remove the 1st line from all versions - it's useless
@@ -9763,13 +9763,13 @@ This is a thread in reponse to you. Threads don't seem to be used that often in 
 @btiffin This is an ordinary reply in reponse to you - works fine except when there are several concurrent conversations all being interleaved. 
 
 [13:25:22](#Z_qAlcMk9gMgBm1lIv9XYA6RbxK22jz7ziOC2nNwktM) <planetsizecpu (Jose Luis)>:
-@btiffin I tend to welcome newcomers, but that is the case that I have seen your name writen in the board of maintainers of GnuCOBOL some time ago, as I used COBOL in the mid 80s, it is a pleasure and a privilege to greet you here Ì†ΩÌ∏Ä 
+@btiffin I tend to welcome newcomers, but that is the case that I have seen your name writen in the board of maintainers of GnuCOBOL some time ago, as I used COBOL in the mid 80s, it is a pleasure and a privilege to greet you here üòÄ 
 
 [13:42:37](#Ci0SOS6SQpcolKpET9-GI2ETj3iDzcGe5YnoKpZZ578) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 @ulysses-io you should probably better define, what you would like to do? But the answer probably will be, that Red is not ready yet .. at least before [IO branch](https://github.com/red/red/tree/IO) merging into the master.
 
 [17:18:41](#9FRI-xBiFqEEdrPc2IKxDzKdDMmWx-mG1adGoLjAuRg) <btiffin (Brian Tiffin)>:
-@planetsizecpu Then more thankees.  Before GnuCOBOL I was a REBOL/2 guy.  Started the REBOL or the Year Awards, then faded from the scene.  Now I'm a babe lost in the woods of too many Red things to learn while wanted to learn it all at once.  Ì†ΩÌ∏â
+@planetsizecpu Then more thankees.  Before GnuCOBOL I was a REBOL/2 guy.  Started the REBOL or the Year Awards, then faded from the scene.  Now I'm a babe lost in the woods of too many Red things to learn while wanted to learn it all at once.  üòâ
 
 [17:19:39](#jYytmx-Tl75JXAjRCwAlP96dDdOjiyuk1GpriD8ksw8) <btiffin (Brian Tiffin)>:
 @dsunanda How did you get the 1 reply thingy?  *Excuse the channel noise*
@@ -10000,7 +10000,7 @@ Yes, there's no 64bit Red yet. To run on macOS, I use Docker.
 ## 3-May-2021
 
 [0:42:25](#7dI78CMPeqcOomGQOcf4nBcamXCQDOK89fc0Uo9boUE) <btiffin (Brian Tiffin)>:
-Ok, close(r). TM.  Ì†ΩÌ∏â  Orders of magnitude slower than what real Red will be, but yeah.
+Ok, close(r). TM.  üòâ  Orders of magnitude slower than what real Red will be, but yeah.
 
 Opinions.  A humanities loader:  Take start pos, to (not thru) error pos, make it text! (or a blockable/testable junk form), add error character as the text!/junk trigger, as a character or testable/blockable value. Continue loading, however borked a cascade error may cause.
 
@@ -10043,10 +10043,10 @@ No, of course maps won't replace a database, nor they are meant to. But it equal
 Thank You, I just once had a dream that I was using REDPress instead of WordPress. :-)
 
 [11:06:17](#L4SurD0_LdIIILLaQzJXw583gluoEF3jdTyzgL3zp5M) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [15:59:17](#ruMDxbxx1HdbxJ0klRUdL34t_Q25izajHjKDlr-sVDY) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-@pixel40 that‚Äôs actually not that far away, unless you want also to have all the WordPress bugs, that will take some time Ì†ΩÌ∏É
+@pixel40 that‚Äôs actually not that far away, unless you want also to have all the WordPress bugs, that will take some time üòÉ
 
 [17:02:59](#z8MCqFe6FZMkqwAilB-8bRAVGWO5zp3GOMLJZsT7ucU) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 I have a question. I have an anonymous context that works like a closure, keeping values and functions together with one function exposed using `set ...`. But I now need hat function to be reentrant. The main function takes care of all maintenance, it clears values on calling however, when reentering it, it would clear values for the original context also. So I need to clone the context. But the context is anonymous, there‚Äôs no need to expose it. So can I clone it from inside and then move to the new context to process with the call? Or is there some simple way that I missed? Do I need to wait for modules and real closures? Or am I damned?
@@ -10141,7 +10141,7 @@ I thought that we have already got more flexibility in loading? Wasn't it even e
 Yep, @pekr, but it's broken in current 0.64 versions.  LOAD/TRAP errors out instead of actually trapping.
 
 [16:46:09](#XaJ1pigfwHtEIi7HXjRaZwopXJxD740XhDlchjlGQwU) <btiffin (Brian Tiffin)>:
-Willing to wait for the next cut.  Always willing to wait for the next cut.  Ì†ΩÌ∏â  Red only gets better and stronger as it builds to a 1.0.
+Willing to wait for the next cut.  Always willing to wait for the next cut.  üòâ  Red only gets better and stronger as it builds to a 1.0.
 
 [16:46:23](#rJX3T1y_QlMi6B0Qs-TzDLULNAENIKXx2il22xshmb0) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 @btiffin I'm no expert in LOAD/TRAP but if that's the case have you reported the error?
@@ -10153,7 +10153,7 @@ It's a known problem, as far as my limited current Redness is aware of.  I've al
 I keep falling back to the combat effectiveness term.  A stray comma should not stop a tank in it's tracks.  It should blare an alarm and keep moving and shooting.  Small applications can lean to all or nothing.  Larger multi-feature applications should still work, even if one of the features is dangerously bugged, but the 980 other features are still usable.  I think.
 
 [17:09:58](#860dN63Ovsf54hM7PkdU4-soCS28Lb-4kttJY0CXgl0) <hiiamboris (NOT THIS ONE)>:
-Use `transcode/trace`. When it becomes too slow for you (unlikely event), let us know, we'll advice on possible optimizations Ì†ΩÌ∏â
+Use `transcode/trace`. When it becomes too slow for you (unlikely event), let us know, we'll advice on possible optimizations üòâ
 
 [17:11:44](#Eg2sDUZcUIFKKByRJM6biXblYClboZB8rHhLMKf2nes) <hiiamboris (NOT THIS ONE)>:
 But do you actually have a real need in that or just sharing thoughts?
@@ -10162,7 +10162,7 @@ But do you actually have a real need in that or just sharing thoughts?
 Kinda.  It started when I wanted to analyse the GnuCOBOL FAQ text as REBOL blocks.  That didn't work.  Let's say I want to analyse some programming language sources, like COBOL and count how many SECTIONs there are.  Or in the same analysis session, load some Pascal and look for integers in the source.  Or load a weather report scrape, which happens to include some preamble text for copyrights or what not.  These are not final result experiments, but the exploration phase.  Currently, it's 100% or 0%.  What if the task at hand only needs about 95% accuracy to glean relevant factoids from and some slop is not a show stopper.  Currently the show stops.  This post is not LOADable, because I use commas.  But the 20 tokens of junk don't need to stop the load of the other 200 tokens.  If this is making any sense.  Given a `page: read url`.  Who cares if said the url data has a comma or two, or a long string of garbage equal signs,  I still want to LOAD it, and experiment with UNIQUE, as a set.   :-)
 
 [17:43:54](#tuLg0-lfm1Wv46ngnuFoSTjfq8i9Zecg9G1kq1pixvM) <hiiamboris (NOT THIS ONE)>:
-Good. Then you'll succeed Ì†ΩÌ∏â
+Good. Then you'll succeed üòâ
 
 [17:46:51](#-OWfkYYLdgR9mX3K26nKnjZKXkKt2OB2Y6b1J3KXhPg) <btiffin (Brian Tiffin)>:
 * Kinda.  It started when I wanted to analyse the GnuCOBOL FAQ text as REBOL blocks.  That didn't work.  Let's say I want to analyse some programming language sources, like COBOL and count how many SECTIONs there are.  Or in the same analysis session, load some Pascal and look for integers in the source.  Or load a weather report scrape, which happens to include some preamble text for copyrights or what not.  These are not final result experiments, but the exploration phase.  Currently, it's 100% or 0%.  What if the task at hand only needs about 95% accuracy to glean relevant factoids from and some slop is not a show stopper.  Currently the show stops.  This post is not LOADable, because I use commas.  But the 20 tokens of junk don't need to stop the load of the other 200 tokens.  If this is making any sense.  Given a `page: read url`.  Who cares if the url data has a comma or two, or a long string of garbage equal signs,  I still want to LOAD it, and experiment with UNIQUE, as a set.   :-)
@@ -10317,7 +10317,7 @@ https://gitlab.com/hiiamboris/red-spaces
 @hiiamboris and I was just about to go to bed...
 
 [13:54:31](#UMoLrcxospNYlc2LAndVi-PC4mhiwUazr_rbxehP2xQ) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ∏É 
+üòÉ 
 
 [14:57:37](#qtiC_vHY5O7fHF9u7F58_nm-bfFFTfe8qt_65l320qA) <Respectech (Respectech)>:
 That is really cool!
@@ -10346,7 +10346,7 @@ I think that our GUI could be called Blocks, as blocks are the basic building el
 Thanks for reminding me of splitters and for the link. I'll see if anything useful can be picked from there when I have time.
 
 [17:47:47](#kIUan9vhmBboH98wZ4rYEk_Mi2p10F5a_ik7O9Y8K9w) <planetsizecpu (Jose Luis)>:
-Great job @hiiamboris I will try to make time for test on weekend Ì†ΩÌ∏ç
+Great job @hiiamboris I will try to make time for test on weekend üòç
 
 [17:49:58](#wOxGkeyN65a1KloDbLJ1keK0jFDVr5sjhT4N19CqpWs) <planetsizecpu (Jose Luis)>:
 That grid widget feels superb!
@@ -10367,7 +10367,7 @@ Woohoo! @x8x, can we add @hiiamboris' gitlab projects manually to the progress p
 @hiiamboris Just a question, which is the overclock frequency of your mind? Do you use drugs? Are the same drugs of Toomas or other Red team members? You are doing a lot of incredible work on debugging Red and bringing us new technology!
 
 [18:21:53](#MoMoqWYnP4JVLfb0GEhE1QhrXiheu-WgMLaGENTIOj0) <GalenIvanov (Galen Ivanov)>:
-Looking once again at the amazing @hiiamboris 's Spiral Editable Field - can we have raster operations on top of `Draw`? I mean blending modes for, as well as displacement maps (either software lookup tables, or realtime shaders) - this way the spiral effect could be acheived relatively easy. I'm starting imagining a hyperbolic GUI Ì†ΩÌ∏Ñ 
+Looking once again at the amazing @hiiamboris 's Spiral Editable Field - can we have raster operations on top of `Draw`? I mean blending modes for, as well as displacement maps (either software lookup tables, or realtime shaders) - this way the spiral effect could be acheived relatively easy. I'm starting imagining a hyperbolic GUI üòÑ 
 
 [18:24:26](#tsZHvdM9BNckYfkRvwJzCmTDG3fqKM1PpPWw1-6vCAs) <greggirwin (Gregg Irwin)>:
 @GalenIvanov I think you mean hyper-Bolek. :^)
@@ -10376,7 +10376,7 @@ Looking once again at the amazing @hiiamboris 's Spiral Editable Field - can we 
 * Looking once again at the amazing @hiiamboris 's Spiral Editable Field - can we have raster operations on top of `Draw`? I mean blending modes, as well as displacement maps (either software lookup tables, or realtime shaders) - this way the spiral effect could be achieved relatively easy. I'm starting imagining a hyperbolic GUI :smile: 
 
 [18:27:33](#hYTEqs2P-ANLwFReGFkujxIwa72hgsuuuYYAxPwMY38) <GalenIvanov (Galen Ivanov)>:
-@greggirwin Of course! Ì†ΩÌ∏è 
+@greggirwin Of course! üòè 
 
 [18:34:41](#hB54NlLEasDPmMeLzx_nfTVlbqmxcgIzo5ER6zX92bs) <greggirwin (Gregg Irwin)>:
 There goes my Friday. Thanks for the quickstart doc @hiiamboris. :+1:
@@ -10542,7 +10542,7 @@ this is known https://github.com/red/red/pull/4902
 Or just wait a bit. Async I/O is coming. You can even play with it today. https://github.com/red/red/tree/IO is the most current, and @rebolek can give you the best advice if you're feeling daring.
 
 [17:10:44](#lsg0srqq9vkesXiN4ewvzEYniAKbwlMJ1EreaU0_4Hw) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-@m_a_j_ch_rz_a_k_twitter going with the IO branch is the way to go. It wil be merged into master eventually so it's certainly a better solution than writing custom binding. Less of work also Ì†ΩÌ∏É
+@m_a_j_ch_rz_a_k_twitter going with the IO branch is the way to go. It wil be merged into master eventually so it's certainly a better solution than writing custom binding. Less of work also üòÉ
 
 [17:14:05](#WU8e7-8odVnR8Gp_jtVChZ7saGq5XzzEFBCujso6LN8) <m_a_j_ch_rz_a_k_twitter (Micha≈Ç Majchrzak)>:
 oh I see. https://github.com/red/red/blob/IO/tests/IO/tcp-client-2.red it looks like a something which I need. I have only a question abut "wait" in repeat. Is there anything like a "wait for all" ? I would like to run my X requests in "the same time" and then later get the amount of time necessary for each of them. 
@@ -11242,7 +11242,7 @@ While it may be of no importance, on [Code Golf Stack Exchange](https://codegolf
 Great!
 
 [15:54:46](#fUZarmXR-YtG3f_tiVvjZiFSRQaKi-jTcczx0qGXPCo) <hiiamboris (NOT THIS ONE)>:
-Once we finish HOFs there'll be no competition Ì†ΩÌ∏â
+Once we finish HOFs there'll be no competition üòâ
 
 [16:13:33](#p_3BITPW6HfPfdK3i-S84_8T0dTMTKO0ulZ8qGXZob4) <greggirwin (Gregg Irwin)>:
 Thanks for letting us know @wezl:privacytools.io !
@@ -11366,7 +11366,7 @@ Hello, ive been away for some time...does red have the necessary pieces to use a
 We are near, I suppose we will see something before the end of the year.
 
 [20:16:11](#Iwf2o9z8dn22lSXtNpRdXpOjugNvRgZU1qCjPju4C14) <cloutiy (yc)>:
-Ok thxÌ†ΩÌ±ç
+Ok thxüëç
 
 [21:51:40](#4uz2HpTKdRKTUsmq0As-fVG_94KmPM6_xjqDNxB3t9U) <GiuseppeChillemi (GiuseppeChillemi)>:
 Is it normal Automated build are stopped at 26th of may?
@@ -11389,7 +11389,7 @@ maybe fail test on mac build prevents update?
 @cloutiy this web runs on Red webserver https://rblk.eu/
 
 [8:38:23](#crsosCInb93OB7B0gV-dKUPwJtjGCz8xFM7yRMIIk5I) <GiuseppeChillemi (GiuseppeChillemi)>:
-@rebolek Ì†ΩÌ±èÌ†ºÌøªÌ†ΩÌ±èÌ†ºÌøªÌ†ΩÌ±èÌ†ºÌøª
+@rebolek üëèüèªüëèüèªüëèüèª
 
 [8:42:35](#uza0WJ3GxLA9HaEz_6yrMkYBdHNk-L0W7cyp_vNrfro) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
 @rebolek I expect your web server uses an IO branch?
@@ -11398,7 +11398,7 @@ maybe fail test on mac build prevents update?
 @pekr yes
 
 [20:02:01](#upHtPAsz5Xj3tDsSbJe10qkypRC_HPnyTl7a4Zg6X3k) <kidd (Raimon Grau)>:
-there hasn't been a release since it was merged, so to get it now I think you have to compile it on your own Ì†ΩÌ∏ï
+there hasn't been a release since it was merged, so to get it now I think you have to compile it on your own üòï
 
 ## 7-Jun-2021
 
@@ -11697,7 +11697,7 @@ thanks
 My old mezz versions use `forskip` to support `/skip`, so aren't applicable to Red at this time.
 
 [18:34:27](#DWMyNd4nCwwWm3hPFDHhgvlE70szgR9Gaiq6FwgynBE) <GalenIvanov (Galen Ivanov)>:
-@greggirwin I (correctly) guessed that @razetime needs `maximum-of` as value and not series offset, for code-golf Ì†ΩÌ∏Ñ 
+@greggirwin I (correctly) guessed that @razetime needs `maximum-of` as value and not series offset, for code-golf üòÑ 
 I agree with your comments. Linear search is easy to alias as `reduce series :max` (or `fold`, or `scan`) once we have HOF.
 
 [18:38:07](#l8eVlZfHVFVPIrEsOPLZrorHS3ke9Ny0nDVEeieyuxM) <greggirwin (Gregg Irwin)>:
@@ -11770,13 +11770,13 @@ What is happening with Red? No update on the homepage for almost a year. Is ther
 hello everyone!
 
 [12:06:20](#sK6k5NdwopepJSHWKtIQhUJZCz2qk_NkJM59vTLiDKc) <kskarthik>:
-I just created a docker image for red 0.6.4 https://hub.docker.com/r/kskarthik/redlang Just wanted to share it with you Ì†ΩÌ∏Ä
+I just created a docker image for red 0.6.4 https://hub.docker.com/r/kskarthik/redlang Just wanted to share it with you üòÄ
 
 [12:06:23](#7t_VhhW-oAH6-nMu9z_O7xYvkzGrX4gsp4X19V9g1tM) <hiiamboris (NOT THIS ONE)>:
 hi, and welcome, @kskarthik:poddery.com ‚ò∫
 
 [12:07:03](#fQveEsbJkLhkco-wyUAxf0laGtaBLfOefbUgbFVfxmY) <hiiamboris (NOT THIS ONE)>:
-we probably need to start a list of Red docker images already Ì†ΩÌ∏â
+we probably need to start a list of Red docker images already üòâ
 
 [12:07:30](#aAdibVAxMQA3BGbld9UBWdgynUQvQ-epYaJxN27Q9e4) <kskarthik>:
 yes, I found none. So, i thought of making one
@@ -11797,20 +11797,20 @@ yes
 thanks for sharing!
 
 [12:15:06](#81odZYDy9D74Ut5XbU64i_2qxLRm_nFl7pIKbq21Udo) <kskarthik>:
-hiiamboris (hiiamboris) Ì†ΩÌ±çÔ∏è
+hiiamboris (hiiamboris) üëçÔ∏è
 
 [12:18:45](#nsgHeRCPK5zt6aTvSMW7vuHswYJbssVjTUUXX5c7DiY) <kskarthik>:
 hiiamboris (hiiamboris): so any plans of dropping those 32bit library dependencies ?
 
 [12:22:32](#yMZrxtvvq5zJUQqN1AW6Uw2dSy90BHmzH7onT8YXs_c) <hiiamboris (NOT THIS ONE)>:
-Of course, just not the top priority. See https://gitter.im/red/red?at=5e09152cd5a7f357e6a1af83 for team's official stance (on Mac it's a more pressing matter Ì†ΩÌ∏â
+Of course, just not the top priority. See https://gitter.im/red/red?at=5e09152cd5a7f357e6a1af83 for team's official stance (on Mac it's a more pressing matter üòâ
 
 [12:24:47](#a7qgKR0yuVGDrp0XFWV4pIFMJSt5-w73Yr4mABzRUOA) <kskarthik>:
 Got it. Mac needs more priority. I assume that solution works for Linux as well 
 
 [12:26:02](#TZMZXbJUEOFIkEdwVPUzE4BoLbgI5snlJ2MG_iv5fQU) <hiiamboris (NOT THIS ONE)>:
 OK I conjured up a list https://github.com/red/red/wiki/%5BLINKS%5D-Unofficial-Red-images
-@rebolek if you would add your image there as well Ì†ΩÌ∏â
+@rebolek if you would add your image there as well üòâ
 
 [12:26:21](#GR27Urd0X_wzs_HRhfn_7YZK_ks_98kV8IBJ6rI-uy4) <hiiamboris (NOT THIS ONE)>:
 * OK I conjured up a list https://github.com/red/red/wiki/%5BLINKS%5D-Unofficial-Red-images
@@ -11847,7 +11847,7 @@ I can try that if the team is willing to move
 Just in case if you aren't aware, Hugo is a static site generator
 
 [12:36:12](#gsv6K7LEHFjvyG6GaLLXkxBZCntiuztOkKdvIXnftug) <hiiamboris (NOT THIS ONE)>:
-There's already a new website (Hugo-based in fact), but I forgot the link Ì†ΩÌ∏â
+There's already a new website (Hugo-based in fact), but I forgot the link üòâ
 
 [12:38:27](#lP2thUJ7Cqu-vTAizSRrdOwpC48H1rE1e6bHtEKo9ss) <kskarthik>:
 hiiamboris (hiiamboris): i got it https://github.com/red/web-red
@@ -11995,7 +11995,7 @@ thanks a lot
 `none <>` is the shortest approach, which I'll use
 
 [10:40:46](#k3B4wcgDYfzwm0eMOn4Vo-l1R29B7RveRJwOPSyH9zw) <hiiamboris (NOT THIS ONE)>:
-yeah there's also `to logic! find ...` but again a bit longer Ì†ΩÌ∏â
+yeah there's also `to logic! find ...` but again a bit longer üòâ
 
 [10:41:20](#SR9axwHoijW_sGk0Td1Hrzl4QRJfzn6HC8wPus8pzpc) <hiiamboris (NOT THIS ONE)>:
 `not not find ..` - not recommended, too cryptic
@@ -12004,7 +12004,7 @@ yeah there's also `to logic! find ...` but again a bit longer Ì†ΩÌ∏â
 I'll note those down
 
 [10:42:03](#DwMcqi3bmRgPQUC_mijwafYYFCmh6U4md9zDoXV4Bh0) <razetime-54eb336315522ed4b3dc5bda>:
-I did try `not not` before you showed `none <>` Ì†ΩÌ∏õ
+I did try `not not` before you showed `none <>` üòõ
 
 [10:42:28](#lix7x_Hp4VW4Dyt75WRz6Msj3-8VNVV5jjREMRoz_Jw) <razetime-54eb336315522ed4b3dc5bda>:
 after all, unreadability is one of the more fun parts in golf
@@ -12060,7 +12060,7 @@ I think you use `to []`, don't you?
 * @razetime `to logic! find ...` can be shortened to `to on find...` (or any one of `true false on off yes no` instead `no`) 
 
 [14:21:36](#yzKA7-vlRT2aVaJX27M2r9a_DxQpJ2Glnsdmw5s4HIs) <hiiamboris (NOT THIS ONE)>:
-Yeah, and `to 1` (rarely), but this is level up still Ì†ΩÌ∏â
+Yeah, and `to 1` (rarely), but this is level up still üòâ
 
 [15:50:49](#GntRDEYPEw3UUljfBnlHsLzuQS_JgVDQpIQxJFG37ps) <GalenIvanov (Galen Ivanov)>:
 * @razetime `to logic! find ...` can be shortened to `to on find...` (or any one of `true false on off yes no` instead `no`) 
@@ -12072,7 +12072,7 @@ Yeah, and `to 1` (rarely), but this is level up still Ì†ΩÌ∏â
 * @razetime `to logic! find ...` can be shortened to `to on find...` (or any one of `true false on off yes no` instead `no`) 
 
 [15:51:56](#uxTomDQZAYMihNwXpD8uz7TzlxrsZz46piRo-E9S5e0) <hiiamboris (NOT THIS ONE)>:
-For golfing it'll do fine Ì†ΩÌ∏â
+For golfing it'll do fine üòâ
 
 [15:52:10](#R730dHa2GkT5p7XrGIEYmONMOlB4AJDGStz78rLmM4s) <greggirwin (Gregg Irwin)>:
 Here's what I posted about it:
@@ -12140,7 +12140,7 @@ I'm here to help too. I am fluent in Spanish as well.
 Thank you hiiamboris
 
 [14:30:37](#e9xC-jCCzQriqOm5oCx1vpUUE54fx0ObzcRW2cwDCtQ) <hiiamboris (NOT THIS ONE)>:
-In the topic of https://gitter.im/red/red/welcome room you'll find learning resources we're usually advising. There's a huge lot of work ahead in Red, so I'm sure everyone willing to help will find a way that he likes best Ì†ΩÌ∏â
+In the topic of https://gitter.im/red/red/welcome room you'll find learning resources we're usually advising. There's a huge lot of work ahead in Red, so I'm sure everyone willing to help will find a way that he likes best üòâ
 
 [14:42:01](#CkhV32tJm9msjOWfml-xul2HiVZ7jhXAW_iJMRwxEdQ) <hardkorebob (hardkorebob)>:
 I was about to ask. :)
@@ -12225,7 +12225,7 @@ And would vote for macro
 [21:30:02](#X18sbqQiCySiUPAoWAcXi_1pGSp_YWlT8g1_blUe674) <hiiamboris (NOT THIS ONE)>:
 > Is there something against the rebol choice of `<%..%>` ?
 
-So unreadable IMO as if it was not designed at all Ì†ΩÌ∏â
+So unreadable IMO as if it was not designed at all üòâ
 
 
 [21:58:28](#7r6D_gyi2althFhbAIhEK_tgUf-QAwt9IQBw7p_8_n0) <hardkorebob (hardkorebob)>:
@@ -13187,7 +13187,7 @@ I still like aspects of the backtick, but #\` is pretty subtle. #\`\` less so.
 The number of bracketed string types in Red makes the other options quite ugly. As a more traditional macro it could also work for composing blocks at compile time. More thought required.
 
 [19:44:49](#SeUTT1vd8R2VPc7niuCPInqIkgJA7pxOVRgV1O2JtDg) <hiiamboris (NOT THIS ONE)>:
-That disables usage of `` #` `` as an `issue!`. And as you can see we swap one lexer issue for another Ì†ΩÌ∏â
+That disables usage of `` #` `` as an `issue!`. And as you can see we swap one lexer issue for another üòâ
 
 [19:45:08](#WCZJHcp4oekhJVMb-M7PAUUccjpGDSeBMKsQJVws7B4) <hiiamboris (NOT THIS ONE)>:
 * That (no trailing backtick) disables usage of `` #` `` as an `issue!`. And as you can see we swap one lexer issue for another ;)
@@ -13361,7 +13361,7 @@ try/except [ 1 / 0 ][ print system/state/last-error ]
 or
 ```rebol
 on-error: func[e][ print e ]
-try/except [ 1 / 0 ] Ì†ΩÌ∏Æn-error
+try/except [ 1 / 0 ] üòÆn-error
 ```
 
 [15:46:51](#3XFdpegysUX_wAF4nIW5ZW-L-QFSmWnWeRtx8rQC96w) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
@@ -13395,7 +13395,7 @@ Or
 3
 
 [17:12:29](#2sFgfdgZRSXQFq9bzdznseIJQviEHmZID_Nl0uj1SP4) <hardkorebob (hardkorebob)>:
-Havent tried it yet Ì†ΩÌ∏ü
+Havent tried it yet üòü
 
 [17:36:26](#eS9R5l2FOzFymPrakB7Pj7nAaYfbyYEQQgUN0EceLZg) <ldci (Fran√ßois Jouen)>:
 Generally 1
@@ -13711,7 +13711,7 @@ parse options [
 This would make elements setting in objects really fluent.
 
 [22:34:06](#vkpe3Di54Ufg9ZQTYtjlETEtxv2Ipz4Tou-sy7mwpQc) <GiuseppeChillemi (GiuseppeChillemi)>:
-Oh my God, I have deleted everything instead of editing it! Ì†ΩÌ∏ü
+Oh my God, I have deleted everything instead of editing it! üòü
 
 [22:42:17](#BbGECJu6pkmBmtMo-E9p70bYp2KZk_7OnNZco780kEE) <GiuseppeChillemi (GiuseppeChillemi)>:
 Here I am again:
@@ -14124,7 +14124,7 @@ Anyway, paths are cleaner but are not gonna be there anytime soon.
 
 [13:58:21](#dx97mD2NTOZoldg-6KlCGMh3m3xLpF5FMM_7k2VC0kA) <GiuseppeChillemi (GiuseppeChillemi)>:
 @hiiamboris 
-> Anyway, paths are cleaner but are not gonna be there anytime soon (unless you PR it and defend Ì†ΩÌ∏â
+> Anyway, paths are cleaner but are not gonna be there anytime soon (unless you PR it and defend üòâ
 
 The ultimate defense is simplicity. As "stacking compose" I mean the code practice where you nest multiple compose calls, which can be generalized as "the code practice where you have to transform the block of code multiple times under compose/reshape like functions".  This forces you to keep in mind the reshaping/transformation mechanism of the functions you are using for this purpose; multiple meta states of the code block; the relevant elements; the final version of the code and where it will interact. *Paths are simply, visible, straightforward with no layer of complications: what you see is what you manage.*
 The second side defense is @greggirwin one: if you have heavy overhead only when using them, well it's your choice as no one will have penalties for these features.
@@ -14299,7 +14299,7 @@ About opening a wish ticket: my feelings tells me that anything requested by me,
 I don't think it's anything personal @GiuseppeChillemi, just that your wish tickets often push boundaries, where we tend to be quite conservative about what the core does versus what users do in their own code. This is perhaps the most difficult part of design: a lack of evidence and information. Putting things in the language is forever (nearly always), so if there isn't general consensus (given our small community), we play the waiting game. 
 
 [22:42:39](#B5ikhokHgPojkbXYkYpfGsX-_zV8pvv1MiTBF6fo43M) <GiuseppeChillemi (GiuseppeChillemi)>:
-@greggirwin I don't think all of my ideas have been rejected because my exchanges with Doc and Vladimir: some were good, some were wrong, some were already possible without changing the language (I was inexperienced). But I feel this one is more important than the others, so if there is a chance my name could harm it being adopted, it's the time I should step back. I will write the next but not this one. Ì†ΩÌ∏â
+@greggirwin I don't think all of my ideas have been rejected because my exchanges with Doc and Vladimir: some were good, some were wrong, some were already possible without changing the language (I was inexperienced). But I feel this one is more important than the others, so if there is a chance my name could harm it being adopted, it's the time I should step back. I will write the next but not this one. üòâ
 
 ## 3-Jul-2021
 
@@ -14437,7 +14437,7 @@ We don't provide source download anymore so I removed the links from the downloa
 > 
 > Also I see sometimes that a lot of bigger stuff is taking place in separate branches not quite ready to reveal yet.  At least I hope that is true.
 
-Yeah, I‚Äôve seen it. I also tried to look into commit messages, but it doesn‚Äôt show anything to me Ì†ΩÌ∏Ö
+Yeah, I‚Äôve seen it. I also tried to look into commit messages, but it doesn‚Äôt show anything to me üòÖ
 
 for example, is 64bit support a priority right now, is there any approx ETA when new IO lands, when I will be able to write simple web server, etc
 
@@ -14726,7 +14726,7 @@ Lock the system down
 We'll get a `secure` dialected func for word protection. Ownership wouldn't work for that today, as it doesn't trigger on binding, only series values.
 
 [4:05:33](#vq5qSnUFG4Dpxr5rAm1iI91KAtfAUisuLIwaWpQZ7nA) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
-@hiiamboris I like that JIT without actually JIT loop speedup potential Ì†ΩÌπÇ
+@hiiamboris I like that JIT without actually JIT loop speedup potential üôÇ
 
 [6:02:13](#1z-RFoUGiXJ15he_ZLykfFeJeCWSkA0AFm0d-VibfVI) <hiiamboris (NOT THIS ONE)>:
 > Trade of for that efficiency would be lots of memory wouldn't it?
@@ -14924,7 +14924,7 @@ Welcome @MikeRobbieNZ! No MSSQL yet. You can see some bindings [here](https://gi
 ## 31-Jul-2021
 
 [3:32:34](#oEiB3A1onFk1nk5K7HHRqrkRBh7UIdhmjspVdt7Q7yQ) <btiffin (Brian Tiffin)>:
-The red-lang.org home blog page needs an update.  Ì†ΩÌ∏â
+The red-lang.org home blog page needs an update.  üòâ
 
 [16:48:09](#3mOE_mez8GfqiV3ATplyTznzcCfedY4OXIDxORRG9tY) <greggirwin (Gregg Irwin)>:
 In the works, as is the new web site. We're going to make it happen. 
@@ -15078,13 +15078,13 @@ Hi Gregg. Thanks for the Blog article, it was about a time :-) Not because of us
 One thing - you nicely mentioned various efforts, including Red Spaces. I would add another one - not sure how much reactivity is used by end users, but I can see a PR, which is supposed to make it generally faster too. I hope that PR of @hiiamboris is going to be accepted ....
 
 [6:52:40](#hMpd_CyEq4bWuolrc0p3-9bU9Pc6MvQwleQqV3z-UWw) <planetsizecpu (Jose Luis)>:
-Ah, new blog post is great news, much encouragement @TheRedTeam keep going Ì†ΩÌ∏Ä
+Ah, new blog post is great news, much encouragement @TheRedTeam keep going üòÄ
 
 [6:54:00](#75vdG6XcFlM0gL6f1ISyIwDJBfhUlYuYQtE6qmP8tSc) <lnxw37d4>:
 Likewise, I‚Äôm glad to see the blog post ‚Ä¶ occasional public activity helps the project‚Äôs image immensely, IMO.
 
 [6:54:33](#1pmrtcHCTUKMEufTjFe6gDLfopTn7TGVtNuE58Bly74) <planetsizecpu (Jose Luis)>:
-* Ah, new blog post is great news, much encouragement @GreggIrwin keep going Ì†ΩÌ∏Ä
+* Ah, new blog post is great news, much encouragement @GreggIrwin keep going üòÄ
 
 [7:02:39](#wh8sPlX9LiNDOpeG_9ukKIbtqi7AclVd_I7Aq7_AVuk) <toomasv>:
 Great overview, thanks @greggirwin !
@@ -15214,7 +15214,7 @@ But GH should be synced automagically.
 * But GH should be synced automagically after every commit.
 
 [10:05:51](#sUsbVnutHIegc1UMk1nqyW1ijErj7fs8S7yVXrbVgbk) <GalenIvanov (Galen Ivanov)>:
-Thanks! Apparently I didn't press "View All" - now I see it Ì†ΩÌ∏Ñ 
+Thanks! Apparently I didn't press "View All" - now I see it üòÑ 
 
 [10:06:08](#cIkfHU7VZ9ooqJPCB_UsZAFPyDpf8na1P4ZeV3V8ow4) <hiiamboris (NOT THIS ONE)>:
 
@@ -15224,11 +15224,11 @@ Thanks! Apparently I didn't press "View All" - now I see it Ì†ΩÌ∏Ñ
 [18:41:38](#zMxsDnjJoMtOSaatrU9Kt2euBm0-jQSUM-7of5Trj9g) <btiffin (Brian Tiffin)>:
 Nice weblog update, Gregg.
 
-But, that's not going to stop me opining.  Ì†ΩÌ∏â
+But, that's not going to stop me opining.  üòâ
 
 > And while code is expected to change, once people depend on a function or library it causes them pain if we break compatibility. We don't want to do that, though sometimes we will for the greater good and the long view. 
 
-This is meant as a friendly warning, team.  A COBOL perspective biased opinion.  The *long view* is always back and fore compatibility.  Even if the codebase gets versioning branches.  I.e. There is no *greater good* when old source won't load, or old binaries won't run.  Long view is, once stuck with a decision, remain stuck to the decision.  That can't be a hard rule, but if it eats at your soul with every breaking change decision, you are keeping the long view and greater good in mind, ever expanding with no cutoffs.   Ì†ΩÌ∏â
+This is meant as a friendly warning, team.  A COBOL perspective biased opinion.  The *long view* is always back and fore compatibility.  Even if the codebase gets versioning branches.  I.e. There is no *greater good* when old source won't load, or old binaries won't run.  Long view is, once stuck with a decision, remain stuck to the decision.  That can't be a hard rule, but if it eats at your soul with every breaking change decision, you are keeping the long view and greater good in mind, ever expanding with no cutoffs.   üòâ
 
 Updated protocols should support old, even when it's more work in system code and support.  Pollute a namespace if needs be with the new things.  In the long term, think about keeping a system that runs code from 5, 10, 50 years ago.  Red could easily make 50, or 500.
 
@@ -15451,7 +15451,7 @@ much thanks
 Hi Red community. RedCV is now 2.0 : https://github.com/ldci/redCV
 
 [19:55:24](#3C_frJyDcEtvpyElWCp6Q_iQeaD6I2m1QIzx3r9nT2E) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ±è
+üëè
 
 [19:56:00](#4b1SdAIV-s3_O7L-XnWtTm1W8nObj0ITxaFKvf5sqhM) <hiiamboris (NOT THIS ONE)>:
 Regarding RGB compression using zlib. Have you tried PNG compression instead?
@@ -15557,7 +15557,7 @@ Or is it the source.zip that is behind?
 @meijeru Thank you for reporting! Should be fixed, a library dependency issue that is not yet fixed upstream on the server distro.
 
 [16:24:28](#EnpxLbCs4xCra-luxDWGDwgqdS6EfGBPXc58cwN6UcU) <meijeru (Rudolf Meijer)>:
-I have succeded in downloading the latest source + exe, but the exe was quarantined by Norton Ì†ΩÌ∏è 
+I have succeded in downloading the latest source + exe, but the exe was quarantined by Norton üòè 
 
 [16:25:00](#YPP3GvTDj0B-nhDkn7KvJFVh21sISsheKM4MmPqwB80) <meijeru (Rudolf Meijer)>:
 succeeded
@@ -15580,7 +15580,7 @@ Re 64bit.  Windows 11 might put more pressure on this issue.  Seems there won't 
 Installer is only needed for 32-bit-only platforms. Those support 3GBs of RAM tops, so won't be able to run W11 in any case. So no pressure ‚ò∫
 
 [14:33:19](#9ynFoFJbuS8BwVeAqdLrU16DJFyylJAtpFqOMH0AmMs) <btiffin (Brian Tiffin)>:
-On breaking change.  Yes, sometimes these are a necessity, but in the grand scheme of things; **any** breaking change in a language effectively limits the growth potential, lopping off the tail of the codebase that has built up.  But, for Red, being sub 1.0 there is wiggle room.  Just don't wiggle too much or you deny Red an infinitely growing codebase, and end up putting in life expectancy limits.  Not always a bad thing, but it can be a sad thing.  Ì†ΩÌ∏â
+On breaking change.  Yes, sometimes these are a necessity, but in the grand scheme of things; **any** breaking change in a language effectively limits the growth potential, lopping off the tail of the codebase that has built up.  But, for Red, being sub 1.0 there is wiggle room.  Just don't wiggle too much or you deny Red an infinitely growing codebase, and end up putting in life expectancy limits.  Not always a bad thing, but it can be a sad thing.  üòâ
 
 [14:34:27](#uTsPZhKfQfAFqICZfayNgAROzp8MT-RxWMuxCyS03cw) <hiiamboris (NOT THIS ONE)>:
 * Installer is only needed for 32-bit-only platforms. Those support 3GBs of RAM tops (well, could reach 4GB), so won't be able to run W11 in any case. So no pressure ‚ò∫
@@ -15594,7 +15594,7 @@ On breaking change.  Yes, sometimes these are a necessity, but in the grand sche
 @Oldes I was hoping I could talk to numerous small bluetooth enabled devices mainly for data gathering. Very simple app(s): Connect to device-gather data-display it-store it.  I have a Weigh Scale that gathers 17 different measurements. When investigating the manufacturer supplied app, I found it gathers your info from the scale then sends all of it to the manufacturer!! It also sends info from your phone's address book, etc, etc.   I think I can do better.
 
 [8:29:00](#_i7jIDdHf1Y9JSGWhSsU5IANj9ueqbnz4Fa23s_u40g) <hiiamboris (NOT THIS ONE)>:
-Familiar picture Ì†ΩÌ∏â You can block internet access to individual apps though, using smth like NetGuard (android).
+Familiar picture üòâ You can block internet access to individual apps though, using smth like NetGuard (android).
 
 [9:45:36](#0EVLmGyFb-iC5bSQH0SNoF7OjQmWn367XJ4HizLiFT4) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 @BuilderGuy1 I may be wrong.. but I would not expect there will be anything bluetooth related in the Red's IO update.. I think that you should write an request and collect as much useful info in it as possible.. like https://stackoverflow.com/questions/35389894/bluetooth-low-energy-on-linux-api but also for windows and macos.
@@ -15631,7 +15631,7 @@ I want to create/update Arch Linux package on AUR.
 @loziniak it's down and will get back online only when my Red webserver is mature enough for it.
 
 [10:45:09](#wFR-CPjlaJizI8nOBcbGBGFlm9Ftiqb7yAiiioOTGVM) <loziniak (Maciej ≈Åozi≈Ñski)>:
-soon‚Ñ¢ Ì†ΩÌ∏â
+soon‚Ñ¢ üòâ
 
 [10:57:44](#onIwid0oysy1Vk16n--_btERfrGrzaSdaxTYc9f_PE4) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 Actually it may be mature enough already, so I just need some time to update it :-)
@@ -15702,7 +15702,7 @@ Wow @ldci  great work!
 
 
 [7:32:37](#Lty-x1aPWXGP1tKSXWCKL8emsmWwk74bmCnjkEHFHDs) <planetsizecpu (Jose Luis)>:
-Oh, I want a IR camera for noel, but bracelet as the Predator's wear Ì†ΩÌ∏Ä
+Oh, I want a IR camera for noel, but bracelet as the Predator's wear üòÄ
 
 [7:34:08](#pjtvz_FO17K5LkQ3rBp2QZfWfm28QIh-V54Fk4eBJYo) <ldci (Fran√ßois Jouen)>:
 @planetsizecpu : You can add a Flir sensor to your phone:)
@@ -15724,7 +15724,7 @@ New website addition:
 https://beta.red-lang.org/showcase/
 
 [6:15:41](#Gn5obpLMC9N-8jw02X0SWDoJvT92KK7drXhdBt-0tzo) <planetsizecpu (Jose Luis)>:
-Great stuff @gltewalt  and thanks for showing my game on the front page Ì†ΩÌ∏Ä
+Great stuff @gltewalt  and thanks for showing my game on the front page üòÄ
 
 
 [6:28:10](#ld2S0RxP3wU7zdR5svMW_aRENcY8hT8QUjt3bvXd-14) <GalenIvanov (Galen Ivanov)>:
@@ -15740,7 +15740,7 @@ Noted
 @PeterWAWood any idea on devices and analysis of their data for breath?
 
 [16:18:40](#-6_sfg00T0vY8KFq8gzbuOwYur6i2e6kmmHyCa2Vliw) <YKProg (Yaroni Makaroni)>:
-Hey guys, long time I didnt talk Ì†ΩÌ∏â I had about +200 messages lol, does Red gained new abilities from before the covid? I see we have a new website Ì†ΩÌ∏Æ
+Hey guys, long time I didnt talk üòâ I had about +200 messages lol, does Red gained new abilities from before the covid? I see we have a new website üòÆ
 
 [16:20:49](#980UoNRE2zvF2kS3AhQd1E7U8Ya072HUkRAhqOo2u-w) <greggirwin (Gregg Irwin)>:
 The [latest blog](https://www.red-lang.org/2021/08/long-time-no-blog.html) talks about what's been going on.
@@ -15793,13 +15793,13 @@ Do you want to start with functional programming or just get started with progra
 I want to start with functional programming. I dabbled with Haskell a little, but there isn't as much interest in Haskell for graphical progression. From what I've read, the Red language looks to cover a lot of bases that interest me, from low level to higher, all under one roof. 
 
 [14:51:55](#2c1dsJTtRcyeq9XgODh2GbyteC9NUV2tCjmRzEwAjb8) <hiiamboris (NOT THIS ONE)>:
-Red is not functional though Ì†ΩÌ∏â
+Red is not functional though üòâ
 
 [15:02:33](#hXXTLQcJ_ZwczKkZtZeTCSx7SLV9vkF8D-DieeMCK30) <hitesman>:
 Can't say I know enough to be swayed either way, but everything I've read checks off a lot of boxes for me. Pouring over what language to learn, dabbling and researching, I think this will do for what I need.
 
 [15:05:28](#QhyyxToqylt7UTjUbM0v5GuOTYwaRvwBtxbCuFldrxo) <hiiamboris (NOT THIS ONE)>:
-Red will be way easier to start with than Haskell, even in absence of official documentation on a lot of topics Ì†ΩÌ∏â
+Red will be way easier to start with than Haskell, even in absence of official documentation on a lot of topics üòâ
 
 [15:06:15](#nbwOtX-ixPg0JCznBRB35otjUO0tPnoX_vzFEKhX0HE) <hiiamboris (NOT THIS ONE)>:
 Use the https://gitter.im/red/help room, it's dedicated to help learning.
@@ -15907,7 +15907,7 @@ here is a blog about writing a language in it... https://www.endoflineblog.com/g
 Ah, I misread your post. You said "truffle Red".
 
 [20:20:00](#geHoWeRSZtxpYdPz4MbOQ1bCpvtjYEqp4ViOC2mamPk) <planetsizecpu (Jose Luis)>:
-The Tall Man agent is a bit scary @greggirwin but his data object name `Yagent` is terrifying when you see it on the console debug messages, I don't know why. I keep an eye reading to see if he is chasing in vicinity Ì†ΩÌ∏Ü
+The Tall Man agent is a bit scary @greggirwin but his data object name `Yagent` is terrifying when you see it on the console debug messages, I don't know why. I keep an eye reading to see if he is chasing in vicinity üòÜ
 
 [21:01:11](#LGHt_9yU6Vw93yO_e1HsnbZjzUhU9zd1prc8Q0anabg) <greggirwin (Gregg Irwin)>:
 Where is `agent-smith`? :^)
@@ -15915,7 +15915,7 @@ Where is `agent-smith`? :^)
 ## 2-Sep-2021
 
 [7:19:19](#uZFbntT5qLuKxAzOFGvefwTjldKygOFsIWeB6RUaDfU) <planetsizecpu (Jose Luis)>:
-Oh he!,  it's really stubborn, maybe we can enlist him in a new Matrix level, but for now it's nothing in development, the new course begins and we have to be prepared, there is little time for fun Ì†ΩÌ∏ë
+Oh he!,  it's really stubborn, maybe we can enlist him in a new Matrix level, but for now it's nothing in development, the new course begins and we have to be prepared, there is little time for fun üòë
 
 
 [8:18:49](#Zzeg14jlmIwPzKsjClyyUwIZbCnI1S4SNV1g4_i9i1A) <ldci (Fran√ßois Jouen)>:
@@ -16652,7 +16652,7 @@ There are ways to hack around platform issues, but security is perhaps the most 
 To @hiiamboris' point, sometimes you won't even have access to a module's source, but I don't have a unified design for modules vs shared libraries.
 
 [20:15:56](#PE9HqEaQcQq7Y-T3Nz2nUY77i1UI2c0suyMpeQ7xpd0) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-@henrikmk that must be pretty heavy solution Ì†ΩÌ∏ï
+@henrikmk that must be pretty heavy solution üòï
 
 ## 23-Sep-2021
 
@@ -16717,7 +16717,7 @@ Ok, seems it's not intended for compilation. I've managed to run it with CudaTex
 We have a wiki page for editors. Maybe note that there. I haven't tried it, or CudeText. 
 
 [17:03:08](#KsmCgrOwE4-_A6zuZ2M22lIpX3PbeZv2Yd6OP0gGgw4) <hiiamboris (NOT THIS ONE)>:
-It's an open source attempt to replicate SublimeText3, though I haven't figured out how to plug Red syntax to it. I think it doesn't support ST3 syntax files out of the box, and I'm not converting it to it's own format. But otherwise it felt pretty responsive, much more than UltraEdit. @loziniak I would appreciate if you write a howto on pairing it with Red Ì†ΩÌ∏â
+It's an open source attempt to replicate SublimeText3, though I haven't figured out how to plug Red syntax to it. I think it doesn't support ST3 syntax files out of the box, and I'm not converting it to it's own format. But otherwise it felt pretty responsive, much more than UltraEdit. @loziniak I would appreciate if you write a howto on pairing it with Red üòâ
 
 [20:32:11](#8ax3RHZ2lzrqeBaGULGKc_X8F2FeCvf91xj15uwkwcQ) <loziniak (Maciej ≈Åozi≈Ñski)>:
 I'll try to find that wiki page.
@@ -16741,7 +16741,7 @@ IIRC when I added this thing to ST3, another 'Red' syntax highlighting mode appe
 I know VSCode plugin [contains syntax coloring](https://github.com/red/VScode-extension/tree/master/syntaxes). And language server is a part of this plugin, so maybe that's the case?
 
 [21:09:06](#gY-pzH16ckprKNdaQIcwm7VXVYHLEyGyEE3p4hQ0n9E) <hiiamboris (NOT THIS ONE)>:
-Maybe Ì†ΩÌ∏â
+Maybe üòâ
 
 [22:18:10](#sU9bF9W2FIQtav1y4DcgPkslegMSHcwlG1axl9Fobwg) <greggirwin (Gregg Irwin)>:
 It would sure be nice if the Red LSP code had some comments. :^\
@@ -16770,7 +16770,7 @@ Hmm LSP doesn't seem to do anything for me. Your syntax highlighting works thoug
 @hiiamboris looks like an issue between *LSP_Client* plugin and *redlangserver*.
 
 [13:16:45](#lLnZlIgIKYM6MXVHkznbw_yEXZbbD5l9MZlSjxGR5kI) <hiiamboris (NOT THIS ONE)>:
-both updated to latest Ì†ΩÌ∏ï
+both updated to latest üòï
 
 [13:16:45](#EXDX4SGmasp5vhKZKUGyBfSfywlpkffNx05vNYDHZH8) <loziniak (Maciej ≈Åozi≈Ñski)>:
 maybe try to turn on logging in `redlangserver.sh` by uncommenting line 4 instead of line 3 (`debug-on` parameter) and look what's getting logged to `redlangserver/logger.txt`.
@@ -16868,7 +16868,7 @@ If it works on Linux, then it's a platform related issue.
 Could be an issue on CudaText also. VSCode works well.
 
 [14:02:35](#qQGvjfgBrBH_M2zJ00-LNe_lbYcsxJa93B8MxDPhkd4) <hiiamboris (NOT THIS ONE)>:
-Well anyway, stupid idea this language server IMO. Instead of agreeing on the same *config format* between editors, we run a server and *interact* with using the *only API format* is supports. Just increases the complexity one level up Ì†ΩÌ∏â
+Well anyway, stupid idea this language server IMO. Instead of agreeing on the same *config format* between editors, we run a server and *interact* with using the *only API format* is supports. Just increases the complexity one level up üòâ
 
 [14:02:48](#Qhd7H9Y7Ls5IVmRiO6axnOsPBfepTRChI6uDRNGN2Xg) <hiiamboris (NOT THIS ONE)>:
 * Well anyway, stupid idea this language server IMO. Instead of agreeing on the same *syntax format* between editors, we run a server and *interact* with using the *only API format* is supports. Just increases the complexity one level up ;)
@@ -16947,7 +16947,7 @@ If anyone else would like to weigh in on https://github.com/red/REP/issues/101, 
 ## 3-Oct-2021
 
 [15:47:17](#5tDJdOEqyYRM5nm3OMQAII0Z6lDPrZB4n0iLtsQ7NMU) <planetsizecpu (Jose Luis)>:
-Done Ì†ΩÌ±ç
+Done üëç
 
 [18:29:16](#-2raJ-Mvmv5ncwF59_7nJL3B97kuw70YgTiP17KzCLI) <greggirwin (Gregg Irwin)>:
 Thanks!
@@ -17026,7 +17026,7 @@ Also, I‚Äôve rewritten the `mime-decoder` to use Red codecs, so now it can for e
 ```
 
 [12:05:26](#IDZ4Iu9yS9WCbIg2dKl3FBHmr0I0ZNmEf_k2ijlEC8M) <toomasv>:
-Ì†ΩÌ±è :+1: 
+üëè :+1: 
 
 [16:05:55](#H9rN-bOqDY_HiZp2pK9ZF1_jVnu-ooze82Qd2D66zG4) <greggirwin (Gregg Irwin)>:
 That's great @rebolek!
@@ -17904,7 +17904,7 @@ Block comprehensions?
 Yes. When automatic changes propagation gets implemented you will still have to define separate mappings if you wish your changes to go in both directions. That is because only a tiny subset of transformations can be deterministically reversed, and I don't want to limit the tool to just those cases.
 
 [9:15:52](#pDXrgxVPcgsSOfRf0uBOT90oHd5WvqzhDX1HvoE4GS0) <hiiamboris (NOT THIS ONE)>:
-@gltewalt:matrix.org if you would like to write a simple CSV codec using list comprehensions only (without using `split`/`join`/`readcsv`/`writecsv` functions), it would be a nice comparison Ì†ΩÌ∏â
+@gltewalt:matrix.org if you would like to write a simple CSV codec using list comprehensions only (without using `split`/`join`/`readcsv`/`writecsv` functions), it would be a nice comparison üòâ
 
 [13:06:26](#jjfywuCK0_m7h9eN3VoozNMBZVKQ9qd1C5f43iRcdVE) <GiuseppeChillemi (GiuseppeChillemi)>:
 @hiiamboris Do you see any circular reference problem?  I mean the target wich triggers modifications in the source and source which modifies the target.
@@ -17931,10 +17931,10 @@ So I hope :)
 @hiiamboris could be possible to pass the data collected from a Morph rule to a fuction before emission? 
 
 [18:55:07](#iCDl1AC2F6lUtinP5c_5B-KmgMrCnrrzmxobxcf2_UY) <GiuseppeChillemi (GiuseppeChillemi)>:
-Also, the scan seems linear, could we backtrack as using `pos: Ì†ΩÌ∏õos` in Parse? 
+Also, the scan seems linear, could we backtrack as using `pos: üòõos` in Parse? 
 
 [18:58:29](#4w4OFSRubYBGVsAw24qbQQkzrHMARx5thu9OkJ8IIMI) <hiiamboris (NOT THIS ONE)>:
-No, you can't go back like `pos: Ì†ΩÌ∏õos`. That would create mapping ambiguity Ì†ΩÌ∏â
+No, you can't go back like `pos: üòõos`. That would create mapping ambiguity üòâ
 You can backtrack just by failing the rule though.
 
 [18:59:34](#sZPQm_6JkaKB2RW__4bVqyHv3YS0ZCwye4l7yWYaROE) <GiuseppeChillemi (GiuseppeChillemi)>:
@@ -18030,7 +18030,7 @@ I will work with Morph on this task.
 * Reshaping an object/data and its keys was one of the original goals of my idea.
 
 [19:24:30](#VRSsLIP09iqhFhmJyXcmSgc1_I2eH-zGDTnlubdWsOU) <hiiamboris (NOT THIS ONE)>:
-To match set-words, you can add a `datatype!` type dispatcher to `morph-ctx/scanner/type-rules`. I forgot about it Ì†ΩÌ∏â
+To match set-words, you can add a `datatype!` type dispatcher to `morph-ctx/scanner/type-rules`. I forgot about it üòâ
 Or just use smth like `'x ? set-word? x`
 To emit set-words you may add a `quote` rule to `emit-rules`. E.g. `quote x:`. Or if your set-word comes from outside e.g. as `name`, use `:name` to emit it.
 
@@ -18042,13 +18042,13 @@ Emitting object should be possible with `to object!` rule.
 I can add these features tomorrow and cook up a few examples. No big deal.
 
 [19:28:18](#P0YXZTzT5gl9gErEswxpld2xxQpC0Wnm4OlE92lS0k0) <hiiamboris (NOT THIS ONE)>:
-But I'm working blindly then, and it would be better if you found an optimal ruleset for you and told me Ì†ΩÌ∏â
+But I'm working blindly then, and it would be better if you found an optimal ruleset for you and told me üòâ
 
 [19:28:42](#dIui72NO2LY25MBtXsjzR3KcuWKF0RfVj3stOO09Sn0) <GiuseppeChillemi (GiuseppeChillemi)>:
 To `object!/map!`. It would be nice to append rows to a block of objects or rows to a map.
 
 [19:29:10](#LDYDWbEA3EphSKnYYiXjw4wP_cUil56PzH-2wgZSGCQ) <GiuseppeChillemi (GiuseppeChillemi)>:
-> But I'm working blindly then, and it would be better if you found an optimal ruleset for you and told me Ì†ΩÌ∏â
+> But I'm working blindly then, and it would be better if you found an optimal ruleset for you and told me üòâ
 
 
 [19:29:23](#h85UKm9LfM_XHz_quJ_BVKXwWDcj_YtC7sjJJKn7cLk) <GiuseppeChillemi (GiuseppeChillemi)>:
@@ -18061,7 +18061,7 @@ Good ideas anyway, thanks!
 You are welcome, I am always happy to share ideas with you, as it is not important who implements them but that they are implemented. I am happy to see that what I think is appreciated and created by someone else.
 
 [20:15:51](#NyXpAqoeKOcL9ZTbsN_AMs71V-o3ikD-CAKSHgv3B1k) <hiiamboris (NOT THIS ONE)>:
-Piece of cake Ì†ΩÌ∏â
+Piece of cake üòâ
 Quoting in the emitter:
 ```
 >> morph [] [] with emit-rules [quote x: lit [y: z:]]
@@ -18315,7 +18315,7 @@ morph/auto [1 2 3 4] ['x ? (x < 3 or odd? x) | skip ...] ['x ...]
 [9:18:15](#Is_G-uP4vse0KQzu46TQyNTkhlj5WvszX8o0t7YEG3U) <hiiamboris (NOT THIS ONE)>:
 it just calls do/next:
 ```
->> ? Ì†ΩÌ∏ñcan-rules/?
+>> ? üòñcan-rules/?
 func [
     {Evaluate next expression, succeed if it's not none or false} 
     input args /local r end
@@ -18336,7 +18336,7 @@ morph/auto [1 2 3 4] ['x ? any [odd? x x < 3] | skip ...] ['x ...]
 let me see...
 
 [9:32:26](#g1z5Sqpx7vLmNhp4x9boa0uKsuuz_dYyT-0KDMW6Kp0) <hiiamboris (NOT THIS ONE)>:
-yeah it calls the `any` rule instead of `any` function, because it was bound as such Ì†ΩÌ∏É
+yeah it calls the `any` rule instead of `any` function, because it was bound as such üòÉ
 
 [9:43:18](#gFu0gM36PtJviLBfqnHFdy3v160bXIZJQwkHKhcTVX8) <hiiamboris (NOT THIS ONE)>:
 ```
@@ -18345,7 +18345,7 @@ yeah it calls the `any` rule instead of `any` function, because it was bound as 
 >> morph [1 2 3 4] context [filter: [any [odd? x x < 3]] return with scan-rules ['x ? do filter | skip ...]] ['x ...]
 == [1 2 3]
 ```
-I don't have an easy answer Ì†ΩÌ∏ü
+I don't have an easy answer üòü
 `bind` is a double edged sword. We want it to help us fetch named rules, but somehow want to preserve parts of the rule as code. Catch-22 by the looks of it.
 
 [9:46:14](#1VSaLbp5YhP9sS1gvtCXvZgXrjYe9I9so-_WuH6qANg) <hiiamboris (NOT THIS ONE)>:
@@ -18371,7 +18371,7 @@ Yeah :) or like this for the general case:
 
 
 [9:56:11](#VD9E1L3-K97_tjx0a_AuphSYJw2j6TtuYEQ_OXBB_P8) <toomasv>:
-Ì†ΩÌ∏Ü Yes
+üòÜ Yes
 
 [10:05:35](#vUFm9t1mQX5rYeqhvIGdkALliDBYH3FWBqZoQX1K6tQ) <hiiamboris (NOT THIS ONE)>:
 Perhaps this will be reason enough to actually go with the maps. And when it gets R/S implementation, we could just optimize map access. Considering it's a tiny map, it doesn't have to be slow.
@@ -18386,7 +18386,7 @@ But there will be another issue: you won't be able to compose rules from differe
 * But there will be another issue: you won't be able to compose rules from different contexts. Like currently there's `scan-rules` and your own ruleset(s). But if it's a map it has to be prepared upfront. Likely as `extend copy scan-rules user-scan-rules`. That is, composability is limited this way, plus extra startup overhead.
 
 [10:11:40](#Y_-1bNI7zHL1OTbEM9h2EIKvildFZQFtYVHrw4rkZpE) <hiiamboris (NOT THIS ONE)>:
-On the bright side, no rules with the same name but different meaning will be possible Ì†ΩÌ∏É
+On the bright side, no rules with the same name but different meaning will be possible üòÉ
 
 [11:03:38](#3Ll3qUcXnboqNiqKHv1rP4bh0vcCMxyyCE9BIcJjTe0) <toomasv>:
 @hiiamboris Another question: Why the difference?
@@ -18480,19 +18480,19 @@ Also, could Morph code be seen as a loop somewhere? Something which has a clear 
 Absolutely. https://gitlab.com/hiiamboris/red-mezz-warehouse/-/blob/master/morph.red#L225
 
 [11:37:59](#OV9sytbD7K8OFVhRukpVuRtyUM-fsZ6_fDPHkSWwMUs) <hiiamboris (NOT THIS ONE)>:
-See `eval-ruleset` and `eval-next-rule` (they're a bit messy, sorry Ì†ΩÌ∏â
+See `eval-ruleset` and `eval-next-rule` (they're a bit messy, sorry üòâ
 
 [12:03:31](#ol1aKvhaOudA7kAKvFPNTP_IuZNH_SU8wl_hgox2NFo) <GiuseppeChillemi (GiuseppeChillemi)>:
 @hiiamboris when you will add Foward sync I will make you a surprise :-)
 
 [12:06:08](#8wXPC4RjK4SdbhrUzFDgtnn2XxniaTcWf-851WWCb5E) <hiiamboris (NOT THIS ONE)>:
-Great Ì†ΩÌ∏â
+Great üòâ
 
 [13:36:21](#giQBIhl4Gm9hE4YjRhzjHOnfiG3rOxmA4DA_qSIn33Y) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
 Morph sounds good, but looks complicated to me ... But most probably I am not a target anyway :-)
 
 [13:42:31](#zr5oag4z9CM1O_-KGTHmqKrFI0_gv1hvF_ZDEbRKawM) <hiiamboris (NOT THIS ONE)>:
-Ideas how to simplify it are welcome, @pekr Ì†ΩÌ∏â
+Ideas how to simplify it are welcome, @pekr üòâ
 
 [13:45:23](#ajSIGFE9Rlb3DQJMo8kMvR7qpSVFrzTm8XXjCIcZ6I0) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
 It might be easier accept the fact, that it might not be done for me. But I worry then, that part of Red code is going to be unreadable for me then.
@@ -18573,7 +18573,7 @@ Fun note on Haiku. Thanks @ldci.
 @pekr, I lean in the same direction you do. But I haven't had time to read the docs Boris wrote to understand it fully. Just reading examples, they do look like magical incantations from the land of array languages. :^)
 
 [21:50:34](#TAqNsQbNSsKcNmHzVAOCL5_GnoADZeMqxMHrN46noX8) <hiiamboris (NOT THIS ONE)>:
-Now you know how outsiders look at parse Ì†ΩÌ∏â
+Now you know how outsiders look at parse üòâ
 
 [21:55:54](#f6RmAKjNmgFkv2GljPxDQ-wv-IJJxdq5w-ZPZ8R-1QM) <greggirwin (Gregg Irwin)>:
 Well, every feature will be natural or foreign to individuals.  But here I'll note a key difference in `parse` vs regex or even other grammar notations. Parse uses words to describe e.g., `[opt any some to thru]`. But I'm not being critical of `morph` (yet ;^) because I'm still in a position of ignorance. Need time to play, then I may become a `convert`. :^)
@@ -18599,7 +18599,7 @@ But then, not sure I would really mind more parse like semantics `morph/auto ["x
 But then, not sure I would really mind more parse like semantics `morph/auto ["x" "y"] [any 'name] [any to word! 'name]`
 
 [7:41:05](#rbX9KN1F3ac-iPfISXs85syudF5ZrB627a53fSXjABs) <hiiamboris (NOT THIS ONE)>:
-@gltewalt yes, but not using list comprehensions Ì†ΩÌ∏â
+@gltewalt yes, but not using list comprehensions üòâ
 
 [7:48:12](#Lqp0sFWm4Rd2AQ2py3CrVBgpvQwk7XhS0ldBcmOXkyQ) <hiiamboris (NOT THIS ONE)>:
 @pekr I don't find `any` more readable than `...`. `any` spells out verbally, but visually it is not distinctive from the other rules.
@@ -18736,7 +18736,7 @@ ASSERTION FAILED! ...
 @hiiamboris Really fun :)
 
 [15:50:30](#n1eyjmlhv4sK47SuZURg4TxOpX2bJePn7x4tCB3nJRE) <hiiamboris (NOT THIS ONE)>:
-@toomasv looks like a bug Ì†ΩÌ∏â
+@toomasv looks like a bug üòâ
 
 [15:53:09](#nalREWJQvjRNjwRfFwfuLBnZjaDvRj60USqNDD-FuRw) <hiiamboris (NOT THIS ONE)>:
 @toomasv fixed
@@ -18759,7 +18759,7 @@ I works ok, thanks!
 * Ah, sorry, wrong try
 
 [15:57:37](#iWjxKwP5EQ45NNJj9NDI9Av_1MgOzbU6LhM_CAahNtA) <hiiamboris (NOT THIS ONE)>:
-need to use `[]` Ì†ΩÌ∏â
+need to use `[]` üòâ
 
 [15:57:52](#5UriD3FKs2maUGurv58ofqpAZzkQMvghhWOBIEq0IBI) <toomasv>:
 * It works ok, thanks!
@@ -18786,16 +18786,16 @@ only this is how it should work
 Ah, ok, thanks!
 
 [16:01:03](#s3NKglZg3kpw5qWn-tcAvffS3H-ks9A7t0IHb7e2RqU) <hiiamboris (NOT THIS ONE)>:
-thanks for testing Ì†ΩÌ∏â
+thanks for testing üòâ
 
 [16:05:34](#Fl70ihcSZB1z4QLAPwfyPhiF79Ku2gLf6ldHN-udRIU) <toomasv>:
 It opens very interesting possibilities! I read in md that history of parsing is recorded (haven't looked at code so far). I wonder, if I have input like e.g. "title1 para1 para2 title2 para3 ...", i.e. any number of paras after title, how can I  guarantee same order in output after transforming each title and para?
 
 [16:13:53](#tWIusCwSLBjE7J29Z3oIuM-0B5BQ3Hiq71O48_zmOEM) <hiiamboris (NOT THIS ONE)>:
-found some more bugs Ì†ΩÌ∏É
+found some more bugs üòÉ
 
 [16:16:36](#SDn6nXPHofvMUNGFqpDOdNGWB1uLxFgN0xQ48-5JgW8) <hiiamboris (NOT THIS ONE)>:
-ah crap, I never implemented emit/set-word Ì†ΩÌ∏â
+ah crap, I never implemented emit/set-word üòâ
 
 [16:17:51](#gnxrWRVM5_dJgTf69AMJOhsvyDlJeGWCZOsUXreJPEA) <toomasv>:
 Is it tied to my question or just... :)
@@ -18956,7 +18956,7 @@ https://wikimedia.org/api/rest_v1/media/math/render/svg/0de8741a7d26ae98689c7b33
 [![Schroddinger.svg](https://files.gitter.im/5565a1d415522ed4b3e10094/MitF/thumb/Schroddinger.jpg)](https://files.gitter.im/5565a1d415522ed4b3e10094/MitF/Schroddinger.svg)
 
 [9:07:39](#0ai6WzOafCkhfoRcL4KVLOqborsz6FvkXgumhdZoQOE) <hiiamboris (NOT THIS ONE)>:
-schroedinger's equation is waaaaaaay more readable than APL code Ì†ΩÌ∏â
+schroedinger's equation is waaaaaaay more readable than APL code üòâ
 you need a better example
 
 [9:08:33](#17dB0iSREXCmA42vaXgOA1RAYvRZjglgwa_dhy79xSA) <GalenIvanov (Galen Ivanov)>:
@@ -18973,7 +18973,7 @@ You may find many Redbolers are a lost cause when it comes to maximum concision 
 @dsunanda I agree
 
 [13:24:01](#2v2lI1_cE2mpv48A6MaO-QvbEwf0E3kqVtqX7m5I19U) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
-@hiiamboris sorry, did not want to eventually upset you. I don't know answers to your questions. My understanding is, that ... is something like any, repeat, goto 10 Ì†ΩÌπÇ
+@hiiamboris sorry, did not want to eventually upset you. I don't know answers to your questions. My understanding is, that ... is something like any, repeat, goto 10 üôÇ
 
 [13:26:36](#boEOyIXLq__4RiT3YosU89FDee0PzBMwoGFSKDeyk7k) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
 I don't know, if Delect allowed to write some simple parsers, nor how effective Morph would be for codec imolementations. I also know, that for a long time, there was a plan to write some higher level parse builder. Not sure, maybe Gabriele did it eith his Topaz. An example will follow.
@@ -18998,7 +18998,7 @@ Those 3 questions, and especially the 3rd, is simply the key to knowing *the "wh
 Having said that, I'm pretty sure there will be no consensus on rules or style of a userspace parser. Instead everyone should eventually specialize it to own tastes.
 
 [14:19:06](#oyILz1bhcobkxyGW11YueWM8-YTe2XTgLX-7vtuRdr4) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
-I can imagine there being multiple subsystems, parse generators, so that one can choose from what fits best. And if not, parse is good enough to write such thing myself, with some advices from the community Ì†ΩÌπÇ
+I can imagine there being multiple subsystems, parse generators, so that one can choose from what fits best. And if not, parse is good enough to write such thing myself, with some advices from the community üôÇ
 
 [18:43:42](#-fu02Hm57bgd5G5PGnt3kDMmALKCXw3GWa-QRNqgApQ) <greggirwin (Gregg Irwin)>:
 Does anyone else have an issue with Gitter not showing thread messages? The thread sidebar is always empty for me these days.
@@ -19142,7 +19142,7 @@ Ok thanks gregg
 
 [7:55:58](#7U3fd3ka-uCrj7X4dRQjwNZxOsfRmEZ3cjMR-YrA7QI) <GalenIvanov (Galen Ivanov)>:
 I also think that the symbols in APL are much less scary than most people think. What is incomprehensible about ‚åΩ (rotate), ‚äñ (rotate first) and ‚çâ (transpose)? 
-There are control structures in APL, but there are rarely used, because the loops are integrated into the operators; the function composition and tacit programming make APL look beautiful to its admirers. Ì†ΩÌ∏Ñ
+There are control structures in APL, but there are rarely used, because the loops are integrated into the operators; the function composition and tacit programming make APL look beautiful to its admirers. üòÑ
 
 [7:56:23](#GKwbavRMqtB5u82PPBc7ivCWH7fKbPwsT7Jemg_PXPE) <GalenIvanov (Galen Ivanov)>:
 * I also think that the symbols in APL are much less scary than most people think. What is incomprehensible about ‚åΩ (rotate), ‚äñ (rotate first) and ‚çâ (transpose)? 
@@ -19156,7 +19156,7 @@ Why is the room showing me a ton of APL chat with 'go to thread'? It looks as th
 
 
 [17:31:17](#jKq1t1HZ8W6AnO3ELIOiXFqzDelg_qZNfSSYzHXRutA) <hiiamboris (NOT THIS ONE)>:
-that's mobile client for you Ì†ΩÌ∏â
+that's mobile client for you üòâ
 
 [19:01:55](#OOaC1YWVD_6pKzpaP0ACSelP83d8AGGV_B-38HUHzV0) <giesse (Gabriele Santilli)>:
 Chinese characters aren't scary or ugly even.
@@ -19945,13 +19945,13 @@ collect [parse to #{} "hello, world; nice no#$)$%%)#meet you" [any [p: (? p) cop
 ```
 
 [17:52:30](#mT0NO-KkmscBAaO1icz_5fvd2XC0a7xg9ALV7_sjJG4) <cloutiy (yc)>:
-Ì†ΩÌ∏≥
+üò≥
 
 [17:53:36](#M86vQJMYgBZSRF--UVFDNC7MZLmrsl3c6gBt2n8XZ08) <hiiamboris (NOT THIS ONE)>:
-hocus pocus Ì†ΩÌ∏â
+hocus pocus üòâ
 
 [17:55:55](#h06CnpagGzzywLt9tEo5lYSmJfrsVrtNErKc4faxHRU) <cloutiy (yc)>:
-Haha.  Looking at this from my phone. Will get a better look when i get back home. ThanksÌ†ΩÌ±ç
+Haha.  Looking at this from my phone. Will get a better look when i get back home. Thanksüëç
 
 [19:17:52](#5B2C0Yrb6dJwKGtVxIE5Tld22EV740ViUAkfqUjt-cw) <greggirwin (Gregg Irwin)>:
 @cloutiy here's an experiment I did for [load-trap](https://gist.github.com/greggirwin/91dc025b1c25b9efc24996af0207bde2
@@ -20113,7 +20113,7 @@ The main problem I see with this is that there is no thought beyond `Colors!`. L
 [20:33:26](#kChZKPr329N4zX6u7sObF2GbsiqnmYxrpr5Wzcu5Eow) <hiiamboris (NOT THIS ONE)>:
 > If you really just want to mark certain things with color, use another format
 
-I second that Ì†ΩÌ∏â Use AsciiDoc.
+I second that üòâ Use AsciiDoc.
 
 [20:33:44](#kzoOd_6esqo6Vb6K3forGXXi2YF1fy94ryda3ORJm00) <hiiamboris (NOT THIS ONE)>:
 * > If you really just want to mark certain things with color, use another format
@@ -20139,7 +20139,7 @@ Except that my vote would be -1. Should I still vote?
 Nooo, keep away from that issue, please! World needs colors!
 
 [21:28:02](#Vw57hZGWQO_mYvXNOPvhjLSayFlDfZQFmO3fCNK6aYU) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ∏É
+üòÉ
 
 ## 9-Nov-2021
 
@@ -20260,7 +20260,7 @@ Thanks. The filename issue brings up leaking `file!` syntax on CLIs, and general
 :+1: I'm happy to have planted the seed of doubt. :^)
 
 [20:05:36](#iachnaE41jRwTlCJMQ0LiWkROHujXpRZwleaTBFasmk) <hiiamboris (NOT THIS ONE)>:
-oh that seed was growing for long time Ì†ΩÌ∏â
+oh that seed was growing for long time üòâ
 
 [20:05:53](#qhP2bBNu1SujqMfnfQugZo8pRBv8JoAGQwV1enrp4uU) <hiiamboris (NOT THIS ONE)>:
 I mean, you can catch the error from `process-into ctx-name` and `process-into func-name`, sure, when you know exactly what you want to achieve
@@ -20272,13 +20272,13 @@ but I just don't see much use in it
 Well then, I've watered the seed.
 
 [20:06:53](#J968FpRK8DO94a9rcuM-jeX0fUDEtXvhIwCo66psRK8) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ∏â
+üòâ
 
 [20:09:10](#P-rrQbikMQ73rCtYRJ_yl_dCXUelFW5MLGIYV4-Mv_o) <hiiamboris (NOT THIS ONE)>:
 my solution so far was to rely on `--help` acting as a *shortcut* (i.e. not require any operands), to display general help screen
 
 [20:10:28](#dh3BA62CNUxe8YPtLa3eiRatCqmd_6Vmti97rU7WSjc) <hiiamboris (NOT THIS ONE)>:
-Red is a different model than CLI with it's own rules, am just adapting it as graceful as possible Ì†ΩÌ∏â
+Red is a different model than CLI with it's own rules, am just adapting it as graceful as possible üòâ
 
 [20:32:17](#mk_Bemv30tU9C5b_xxdKIg-c6Zdx1ZlLNy_IhUqa70U) <greggirwin (Gregg Irwin)>:
 The `--help` approach is great, and what made me think of it. Certainly, for v1, we can say that a primary command versus sub-commands are mutually exclusive, and you have to handle it yourself, with an example of how to do so.
@@ -20287,7 +20287,7 @@ The `--help` approach is great, and what made me think of it. Certainly, for v1,
 `fsUtil` is my canonical example on windows, and also a great example of something else I want us all to think about: interrogative interfaces.
 
 [20:38:15](#bXXwsYYHRuGgH2XggkrHb_JHiPHEh1V0_K8bKYb7Rak) <hiiamboris (NOT THIS ONE)>:
-`wmic /?` Ì†ΩÌ∏â
+`wmic /?` üòâ
 
 [20:39:32](#BUwkXLRMlQgChoESHwlHRnOzaUatrGhrbPR6FIgzBdI) <hiiamboris (NOT THIS ONE)>:
 if someone makes so much effort as to write such complex program though, tinkering with CLI a bit is the least of this problems
@@ -20300,7 +20300,7 @@ It's not about the author, but about the users. e.g. do sub-commands show their 
 [20:59:14](#X992v7-Hzo619Kk30tvS3BYrnjiYg_fIiQxj1mMNjp8) <hiiamboris (NOT THIS ONE)>:
 > do sub-commands show their doc strings, making help more sectional? 
 
-but of course they do Ì†ΩÌ∏â
+but of course they do üòâ
 
 [21:00:51](#8xYvsl96Ksvw2f3evXZ71yMUm_enpcw7kbqCUHibPus) <hiiamboris (NOT THIS ONE)>:
 > Can you make requests in a REST fashion, where the results you get can be used to make the next set of calls, until you reach the bottom of the chain
@@ -20343,7 +20343,7 @@ program: context [
 `prog math` could show help for `basic trig` and `prog math trig` shows help for `sine cos`.
 
 [21:15:23](#4PRMydcTFy3m6dwaqAPTFWyMTSwKkXLKZAP46MSqM6M) <hiiamboris (NOT THIS ONE)>:
-but it does, *and* the output is below the code on that wiki Ì†ΩÌ∏â
+but it does, *and* the output is below the code on that wiki üòâ
 
 [21:16:12](#XJl2eKTI1_QWmE2h2JkdKtxMKlgCVO5ql7tSaYy-awE) <hiiamboris (NOT THIS ONE)>:
 to get help without ... `help` or `--help` you have to make your operand optional by adding `block!` to it's typeset
@@ -20352,7 +20352,7 @@ to get help without ... `help` or `--help` you have to make your operand optiona
 * to get help without ... `help` or `--help` you have to make your operand optional by adding `block!` to it's typeset, then print the help yourself
 
 [21:17:44](#IYe46rsT5z8GjsONs8V8qsdaKMrjmyJQCjrjl1OKxMM) <hiiamboris (NOT THIS ONE)>:
-cli doesn't read your mind so far, unfortunately Ì†ΩÌ∏â
+cli doesn't read your mind so far, unfortunately üòâ
 
 [22:38:40](#NPWWatJxiBplQ1xdZv5oYFwqf9EmOdWPbAEr06bs1q4) <greggirwin (Gregg Irwin)>:
 I see it now on sub commands. Must have had a glitch here. But the doc strings for sub-command funcs don't render, unless I have another glitch.
@@ -20400,10 +20400,10 @@ works on my side so idk
 [6:45:32](#fSOJ_yWi6TXx46z8yoTGuiljU9C6PvB5Vl_sXgY-REA) <hiiamboris (NOT THIS ONE)>:
 > That puts magic numbers in a few spots in the code
 
-you can't imagine how may times I wanted to refactor that crappy code Ì†ΩÌ∏â
+you can't imagine how may times I wanted to refactor that crappy code üòâ
 
 [6:45:45](#4R1a-aEr4294XuB4f7B5Jzhz9FtHYTYqYeBfxIHuQgA) <hiiamboris (NOT THIS ONE)>:
-but no! not without HOFs! Ì†ΩÌ∏É
+but no! not without HOFs! üòÉ
 
 [7:18:36](#6457uqsPDNNGalKD-MzcX0lQidokgJCvt4ZeiDu3Mh0) <greggirwin (Gregg Irwin)>:
 A few of us have experiments to do things that way. It's not likely to become a blessed approach, but is another area where we may find that it's more usable and adopt it.
@@ -20504,7 +20504,7 @@ I can recall many pathological examples, like `mplayer`. All of them were a resu
 
 This means reserving some word for context description. I'd rather solve this in Red. Why we can't have docstrings for contexts? Nenad told previously it's possible we'll have a commend field attachable to any Red value down the road. This will solve the issue without kludges.
 
-Right now you have a `/post-scriptum` option (I'm not fully happy with and it's probably not working with contexts right now anyway Ì†ΩÌ∏â, or you can just use `print` to display additional help.
+Right now you have a `/post-scriptum` option (I'm not fully happy with and it's probably not working with contexts right now anyway üòâ, or you can just use `print` to display additional help.
 
 [19:03:31](#aN1SecaZiMjDcN3pA9JKM9XOKM0lvYJ2mOvnTv14AAw) <greggirwin (Gregg Irwin)>:
 I don't like unfilterable output dumps either, which is why I suggest this approach. Again `fsutil` is my reference standard for how to interrogate and drill down in a CLI context. But we can do more, as noted in the RAPIDE group.
@@ -20971,7 +20971,7 @@ I had `debase` but it's not better
 or add `h`, `transcode` into integer and convert to char
 
 [19:24:59](#8_cI6Ejg_Afut_2zWFg5RjK9WrUIpf6lsnRGayLdZ-k) <hiiamboris (NOT THIS ONE)>:
-for partial application I don't have suggestions, didn't play with it in Red Ì†ΩÌ∏â
+for partial application I don't have suggestions, didn't play with it in Red üòâ
 
 [19:25:16](#tKYTGzK6965ytWD241Un5TOlmabYJs8Gi6Tj3J-QueE) <hiiamboris (NOT THIS ONE)>:
 played with tail-call optimization only a bit
@@ -20980,16 +20980,16 @@ played with tail-call optimization only a bit
 problem is, interpreter won't allow to apply that parially applied function right away
 
 [19:30:36](#E-4wFnMdB3iNkSGe2cskUaqjuBXahZAS7r29KzwNqTw) <hiiamboris (NOT THIS ONE)>:
-so you need your own DSL that after getting a function from `do/next` tries `do/next` again, with that function Ì†ΩÌ∏â
+so you need your own DSL that after getting a function from `do/next` tries `do/next` again, with that function üòâ
 
 [19:39:54](#WwkB6um1b_yy3EBCL3jGH4RkLk74b8zKHRcvWCRIgbQ) <hiiamboris (NOT THIS ONE)>:
 ```
 p-app: func ['f a][func [x] reduce [get f :a 'x]]
 fp: function [c [block!] /local x] [
 	until [
-		set/any 'x do/next c 'c					Ì†ΩÌ∏â eval next expr
-		if p [remove p  c: back c  p: none]		Ì†ΩÌ∏â remove previously inserted func 
-		if any-function? :x [insert p: c :x]	Ì†ΩÌ∏â insert func
+		set/any 'x do/next c 'c					üòâ eval next expr
+		if p [remove p  c: back c  p: none]		üòâ remove previously inserted func 
+		if any-function? :x [insert p: c :x]	üòâ insert func
 		tail? c
 	]
 	:x
@@ -21111,7 +21111,7 @@ when github comes back
 ^some services still work  ok
 
 [22:18:55](#tgv8Yo-iUKqBgMgM9Z7Ixjhf_kmAmzVYi5QOTNO-OsY) <loziniak (Maciej ≈Åozi≈Ñski)>:
-too bad, whole opensource is now dead Ì†ΩÌ∏õ
+too bad, whole opensource is now dead üòõ
 
 ## 29-Nov-2021
 
@@ -21518,7 +21518,7 @@ Anyway.. I'm not satisfied with these functions as they do just half of its job.
 `escape-filename to-loca-file my-file` is too long for me.
 
 [12:02:39](#N70HXd1hgRgk3v7cOZzoqU_fWqrgHZChlwdYncMFBlE) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-On the other side, changing these functions now would be breaking change, because if someone depends on quoting now, with escaped chars it would not work anymoreÌ†ΩÌ∏ï
+On the other side, changing these functions now would be breaking change, because if someone depends on quoting now, with escaped chars it would not work anymoreüòï
 
 [12:08:47](#OsfGpMB9SDFWmrsYb4BBOUxlZTEkvfOx7d_FqHrlzpw) <hiiamboris (NOT THIS ONE)>:
 I don't even think a general purpose language should provide filename escaping rules for a particular program.
@@ -22080,7 +22080,7 @@ It's all something doable today and useful today. Not one of the big conquer the
 
 
 [11:56:33](#asoJ6ID7OWxJVaTsF6MGHzWMVGGGlxeedNBP2vPdnUI) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-Hm... maybe I should just take a rest and play some long lasting RPG Ì†ΩÌ∏ï
+Hm... maybe I should just take a rest and play some long lasting RPG üòï
 
 [11:57:14](#mXs_xXS4_m0r6JWVaNdcmOIT8dp7LByUJ5PrzxiblnY) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 * Hm... maybe I should just take a rest and play some long lasting RPG :-/ But Thanks for the list. I hope @greggirwin will add it into his already long notes.
@@ -22174,7 +22174,7 @@ well done Fran√ßois!
 @planetsizecpu : Yes of course,  and especially in Mallorca :)
 
 [7:42:12](#q-9QaGZtD7qyq-X2YvMt-IokMYLAd6oNiRU8tNRiCL4) <planetsizecpu (Jose Luis)>:
-Or in Paris @ldci but I thing both have another more appetizing meal, say steak parisienne or paella Ì†ΩÌ∏Ñ
+Or in Paris @ldci but I thing both have another more appetizing meal, say steak parisienne or paella üòÑ
 
 [7:43:19](#mpglH4T1ztX370OjwPglj30j-EVHbKX_m-iRZA_VSe4) <planetsizecpu (Jose Luis)>:
 Now look at the nex nightmare I'm working this days:
@@ -22267,7 +22267,7 @@ Great writeup @greggirwin . Also wanted to note about so much tools becoming saa
 Yes, I also hope we see new models and options for users. e.g. DiaGrammar has a per-version license (old school), but will likely add SaaS options for collaborative features and such.
 
 [21:58:20](#LG61oMJbua1YzUCtdzgX4MQQWZELmNm_FvumbBLpvis) <hiiamboris (NOT THIS ONE)>:
-@greggirwin Ì†ΩÌ±è Nice article!
+@greggirwin üëè Nice article!
 
 [22:00:45](#L7JmyYP4HyYbKQ3u90NJsSQKHPN8Iu9NwGZTwwmFchM) <hiiamboris (NOT THIS ONE)>:
 And I appreciate the complexity rant. Crisis is what builds awareness. And awareness is what ends crisis. Rants like this speed up the process :)
@@ -22276,7 +22276,7 @@ And I appreciate the complexity rant. Crisis is what builds awareness. And aware
 Thanks @hiiamboris. I tried standing on street corners with a sandwich board, to raise awareness, but everybody who walked by was looking at their phones.
 
 [22:10:36](#2jkPzgePwRsdFGKn-Usgs3BG3HLPI9bZ8ugfB5GriyQ) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [23:38:32](#u3ZjyndKxkwDl06CzIXEWO7s2tOqYiLdb7UVHu4nQVI) <greggirwin (Gregg Irwin)>:
 Happy New Year! To our team, and our community, thank you for your presence, good nature, contributions, time, and energy. Here's wishing you all a wonderful 2022.
@@ -22341,7 +22341,7 @@ Nice article! I'm excited to see hiiamboris (hiiamboris) 's CLI module getting i
 * Hm... maybe I should just take a rest and play some long lasting RPG :-/ But Thanks for the list. I hope @greggirwin will add it into his already long notes.
 
 [8:04:30](#jAqefcyKKoufO49xby_k1HsFh7NdBDEgT-MtV_N1cfo) <GalenIvanov (Galen Ivanov)>:
-I'm not into RPG's (except if The Lost Vikings counts as one) and I'm totally immersed into Ori and the Blind Forest - beautiful game with some hard arcade sections. The battles are much less than in Hollow Knight (which I haven't halved yet after 80+ hours). Apparently I'm starting to love Metroidvania games Ì†ΩÌ∏Ñ
+I'm not into RPG's (except if The Lost Vikings counts as one) and I'm totally immersed into Ori and the Blind Forest - beautiful game with some hard arcade sections. The battles are much less than in Hollow Knight (which I haven't halved yet after 80+ hours). Apparently I'm starting to love Metroidvania games üòÑ
 
 [10:42:01](#Wd4V_q_lNAKd2vt7Nph911lyeUVN1hkqLSnUoJNjfG8) <ldci (Fran√ßois Jouen)>:
 Hi, for testing purpose I compiled the gui-console app under macOS. Menu doesn't work. Is it specific to macOS?
@@ -22475,7 +22475,7 @@ sure, welcome to reducing btw :)
 for View module you'll need to put `needs: view` into the header (also 064 doesn't have GTK support, so only automated builds)
 
 [15:11:15](#hoS5t4tJaLomgHVr4qG5XKcmraVV6yhqtz04vN6_oOw) <hiiamboris (NOT THIS ONE)>:
-any more questions you have, there's a https://gitter.im/red/help room for that Ì†ΩÌ∏â
+any more questions you have, there's a https://gitter.im/red/help room for that üòâ
 
 [15:11:32](#ZdgkFXFvrqc05m40EwbF6cK-W80RQC0Emq3U7swqbDQ) <Chase@SUSE>:
 now that's helpful - thanks :)
@@ -22543,7 +22543,7 @@ Nope. @ldci Did you try to create a symbol link to the older version with this n
 Rebol3 is running under Ubuntu Touch 
 
 [15:21:39](#ZxhqBZQvz8hpjEwCcVZihY2-SQrizTIvE_Qstu-4Qm8) <planetsizecpu (Jose Luis)>:
-Good job @ldci   Ì†ΩÌ∏É
+Good job @ldci   üòÉ
 
 [15:23:00](#eaBrio9ms7JtPQMBuJrviN5qkZWpGNnxJSxPH3blvVQ) <toomasv>:
 :+1: 
@@ -22585,7 +22585,7 @@ I have mobian on a card that @Respectech  helped me out with, so I've set up pin
 I haven't gotten red running on it, but then again I haven't tried with mobian yet
 
 [22:57:38](#ZXX3MDnp-KYyF_BOWdBUU2nb14WdsYzyG8L7mHMrTyk) <Nuc1eoN (@nuc1eon_gitlab-5ecc6367d73408ce4fe4dfce:gitter.im)>:
-@greggirwin hey Gregg I just now read the new article on red-lang.org :) Congrats it is a very well written article and was well worth reading whole! Ì†ΩÌ∏É
+@greggirwin hey Gregg I just now read the new article on red-lang.org :) Congrats it is a very well written article and was well worth reading whole! üòÉ
 
 [22:58:33](#Jb8ztV_fDojghsBuCw1y3rielDKjA29IeCSOk0EtUQY) <Nuc1eoN (@nuc1eon_gitlab-5ecc6367d73408ce4fe4dfce:gitter.im)>:
 And it seems red is on a good course.
@@ -22716,7 +22716,7 @@ I have opensuse and SLES servers here if there's something I can help you test
 Incidentally, R2 also runs on the Pinephone (Mobian). But none of the icons or menu options worked on the Viewtop.
 
 [20:30:48](#iaZoUfUwCEogTkGOhBYyHgzlRHVjSxzhjdOI5dwx0KU) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [20:30:58](#Q3yE9uFto0sZn7mP5rdkVLR6ym6S9XYqehAT8emYMA0) <Respectech (Respectech)>:
 ![](https://cdn.shopify.com/s/files/1/1884/2123/files/20220121_121536.jpg?v=1642796324)
@@ -22802,7 +22802,7 @@ Sorry about that
 have some more sleep :)
 
 [14:17:50](#msxX3Xi3GNNekdpfyQfLr2zGrAeQ1HooH8QFjvKkW14) <gltewalt (The other Greg)>:
-Ì†ΩÌ±ç
+üëç
 
 [15:05:18](#pBVTba6j8cWWqXLy2VwO3PeFIrh-rOB0DDXsMhEpbK8) <cloutiy (yc)>:
 @hiiamboris ok thanks. My reference is the red book by ivo balbaert. I guess its a bit dated now. 
@@ -22957,7 +22957,7 @@ Or ppl stop using Rebol and resort back to R2 or R3-GUI, whatever ....
 One things seems to be clear. Those effort does not seem to be coordinated enough, which popped-up with the xml codec and especially CLI module.
 
 [14:45:00](#VIDj6oIxDWjkijduiq2RVlpLBB-vRGTwjdMQb4dNoRw) <hiiamboris (NOT THIS ONE)>:
-well, cave mode has it's drawbacks Ì†ΩÌ∏É
+well, cave mode has it's drawbacks üòÉ
 
 [16:46:30](#AFP8vrk-3lF6f3im3EqxSgN2oTHT4nvROMOgnGJL-ic) <GiuseppeChillemi (GiuseppeChillemi)>:
 @hiiamboris I think the reason lies in the lack of elements like "Table-Table". People will adopt Red Spaces when it will give them advantages in their day to day work. I am currently stuck  on Rebol2 beacuse List-View in VID let me create the interfaces I need. If red-spaces has it and /r other widgets, I would immediately drop Rebol2 in favor of Red + Red Spaces. If a languages has the instruments you need to realize what you want, it will be adopted. 
@@ -23004,7 +23004,7 @@ If Red Spaces has usable widgets, you should give an aspect which let people thi
 If it is ready to be used, we all have lost about one year, because the tool we need was here but no one knew this.
 
 [17:09:27](#zswcbhF5JKR72OSjeAsyIcZZyUjuUu0eDGK6_-D72s0) <hiiamboris (NOT THIS ONE)>:
-well, it's all within your grasp if you're willing to spend some time adding functions you need Ì†ΩÌ∏â
+well, it's all within your grasp if you're willing to spend some time adding functions you need üòâ
 I'm not yet writing filters or sorting, because bells and whistles are not a priority for me as a designer, and because I'm working on other projects right now, and because I know if someone wants added features they will have no problem writing them
 
 [17:10:38](#_94SllH-PTEGr2t28zMgfUcklzcWZc_W3wSYWwB_e1w) <hiiamboris (NOT THIS ONE)>:
@@ -23284,10 +23284,10 @@ What happens is that every change to the draw block triggers a refresh, so it se
 To trick it, and be a tiny bit wasteful, cache a copy of the existing draw block into `face/draw`, then swap. No flicker.
 
 [18:58:37](#Oun-_wp8l8RZD4OkN_qrNZLgTf-ioVUkDWuIAcj1yXs) <planetsizecpu (Jose Luis)>:
-Just enjoyed reading #103 and seeing @dockimbel  still alive and kicking after long time without reading anything from it, draw discussion has gone to background for me Ì†ΩÌ∏Ä
+Just enjoyed reading #103 and seeing @dockimbel  still alive and kicking after long time without reading anything from it, draw discussion has gone to background for me üòÄ
 
 [18:59:24](#i70zM7kFYYjsJYR9JlOmN2HrTulKtcjnRyynrSZ4MzI) <planetsizecpu (Jose Luis)>:
-* Just enjoyed reading that ticket and seeing @dockimbel  still alive and kicking after long time without reading anything from it, draw discussion has gone to background for me Ì†ΩÌ∏Ä
+* Just enjoyed reading that ticket and seeing @dockimbel  still alive and kicking after long time without reading anything from it, draw discussion has gone to background for me üòÄ
 
 [19:00:07](#9Kmb5uzax-CuxRL00YKkcf3WFlxnlUQkDNhycemPUMk) <greggirwin (Gregg Irwin)>:
 [draw-data-grid.red](https://files.gitter.im/5565a1d415522ed4b3e10094/6dA5/draw-data-grid.red)
@@ -23472,19 +23472,19 @@ Hilarious. So we have started using a crude abbreviations, while being lazy to n
 * Hilarious. So we have started using a crude abbreviations, while being lazy to not decompose them even in a doc string :-) DT = delta time.
 
 [18:05:46](#M9y10XSyO7ynAWNjYNBucdTfQPbJv4upIwzcvDfF6Wg) <hiiamboris (NOT THIS ONE)>:
-indeed Ì†ΩÌ∏â
+indeed üòâ
 
 [18:05:55](#H-R3NeQxtz-Cl8hiDpihCu0CIBNBIT1cJufmdeoiqqo) <hiiamboris (NOT THIS ONE)>:
-since R2 in fact Ì†ΩÌ∏â
+since R2 in fact üòâ
 
 [18:06:54](#063TnHTecWPAznU6hsSJu8je54KCpaPdvXVNp29lZJY) <hiiamboris (NOT THIS ONE)>:
 all is lost now?
 
 [18:08:05](#OGfsljrbJ_-c7-2aIFzaHY4ofAzaC_nFF9xkhhOGzbg) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
-I know. I have just noticed your proposal for incr, and Gregg's for decr too :-)The border is a thin line, once you cross it ... y e u w c g (you end up with code golf) Ì†ΩÌ∏É
+I know. I have just noticed your proposal for incr, and Gregg's for decr too :-)The border is a thin line, once you cross it ... y e u w c g (you end up with code golf) üòÉ
 
 [18:09:52](#vNpKYiwdGKdCL3VkAkYNTA5r47UTAfRJpTphHXAa5xA) <hiiamboris (NOT THIS ONE)>:
-well, we lived with `sin` and `tan` so far so good Ì†ΩÌ∏â
+well, we lived with `sin` and `tan` so far so good üòâ
 
 [18:10:34](#8E524548QTse3KY1Sjp2G2wHzcjY0T3hzPTX4-8eJGw) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
 I have no problem with abbreviations in cases like alrady known command - ls, dir, cd ... or even dt, for a quick prototyping, but we could follow the case of `quit`, which uses `q`. Hence `dt`could still have its `delta-time`counterpart. 
@@ -23493,7 +23493,7 @@ I have no problem with abbreviations in cases like alrady known command - ls, di
 `delta-time` was in fact proposed as well as `time-it`: https://github.com/red/red/commit/fa26eb0340b6eeb88b1c8c8e3801625c4f11362f
 
 [18:13:50](#mq-kshZrgvs1qC0DbCzBCDXJMY8vyjLn4PJDZ8wBXF4) <hiiamboris (NOT THIS ONE)>:
-(and ignored Ì†ΩÌ∏â
+(and ignored üòâ
 
 [18:16:05](#u9qC8tJZKTb4qb8EMzFDiFh491Mty9dwBUD_9hspXy4) <gltewalt (The other Greg)>:
 DESCRIPTION: Destroys time.
@@ -23505,7 +23505,7 @@ You can follow the government behaviour. Put those to silently in some other PR,
 * You can follow the government behaviour. Put those two silently in some other PR, so that we can get them in :-)
 
 [18:23:52](#CEMgoQ0aekp4JYTs3TLWCwI2BndCSymPll6g41vQm4k) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [18:24:19](#txX--LNgNBwhkxUJacinNLIBzveH1CzEEgAoAN0N5eE) <hiiamboris (NOT THIS ONE)>:
 new term: "code smuggling"
@@ -23643,7 +23643,7 @@ Copyright 2008 REBOL Technologies
 
 
 [19:16:38](#CTOH9ItY_sTZw4oxx-4VqEPzwbuADtVr3KzqAXCFywo) <hiiamboris (NOT THIS ONE)>:
-Nenad doesn't want construction syntax at all Ì†ΩÌ∏â
+Nenad doesn't want construction syntax at all üòâ
 
 [19:17:00](#2I7mr_7M62VBo_Hn8tfxJeft14XtceMD5qeNK7f5JZ0) <giesse (Gabriele Santilli)>:
 That's a terrible, terrible idea. *Shrug*.
@@ -23682,7 +23682,7 @@ Why? :-) I still think it is still quite early in the process to switch maps to 
 Against construction syntax :) We couldn't present a single strong enough argument to support it.
 
 [19:22:14](#vn_CrlEr8MD89dhHUjWv-gtCEvYpcbB7v8vE8OD4WqY) <hiiamboris (NOT THIS ONE)>:
-Maybe @giesse has one? Ì†ΩÌ∏â
+Maybe @giesse has one? üòâ
 
 [19:23:15](#MtAC-BhSrL_XfshQ_WrIhQu99-iLtuO3t_kFTmKuGB0) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
 Any example of construction syntax? You mean the thing to serialise a datatype?
@@ -23843,13 +23843,13 @@ Also, negative part starts here:
 ```
 >> p2: skip p1: next "abcde" 3
 == "e"
->> f: func [a b] [copy/part a b] Ì†ΩÌ∏â what comes before a or b?
+>> f: func [a b] [copy/part a b] üòâ what comes before a or b?
 == func [a b][copy/part a b]
 >> f p1 p2
 == "bcd"
 >> f p2 p1
 == "bcd"
->> f2: func [a n] [copy/part a n] Ì†ΩÌ∏â sometimes the only thing we have is offset
+>> f2: func [a n] [copy/part a n] üòâ sometimes the only thing we have is offset
 == func [a n][copy/part a n]
 >> f2 p1 offset? p1 p2
 == "bcd"
@@ -24232,7 +24232,7 @@ Are `/self` and `/eval` not self explanatory names?
 Not to average users. There are more refinements ... /case /reverse /drop /only. OK, maybe average user does not need to use them for simple cases.
 
 [20:42:33](#2jfyEp_kpdIk17klTu1ZJz2nVQEFOBFtnZrHeuNO_Lk) <hiiamboris (NOT THIS ONE)>:
-Average user doesn't have to bother with `map-each` at all. Everything can be done upon `forever` loop Ì†ΩÌ∏â
+Average user doesn't have to bother with `map-each` at all. Everything can be done upon `forever` loop üòâ
 
 [20:44:46](#iem4DWvFFFl31e1tXRNQqdXpMWAtWZqm36-gqcdgrkg) <greggirwin (Gregg Irwin)>:
 @hiiamboris with no object in sight, `/self` is a new concept. What does it apply to? And where most loops that take a body evaluate by default, `/eval` tells me that's not the case for `map-each`. I have to understand (yes, we all have to read docs sometimes) that `/self` is like `/into` and that I have to know a block result is the only thing `/eval` applies to. Our goal is to find a balance between ease of use and power. 
@@ -24244,7 +24244,7 @@ Average user doesn't have to bother with `map-each` at all. Everything can be do
 It's also about identifying the core pieces, general cases, and what is built on top of those and specialized. e.g. in R2 `forall` is a special case of `forskip`, with a skip size of 1. So the entire body of `forall` is `throw-on-error [forskip :word 1 body]`. But there is a cost. Red's `forall` is ~8x faster than R2's *if no work is done in the body*. Do just a small amount of work in the body and that dwarfs the loop overhead.
 
 [21:08:25](#WLyQJBdw1HrT9LzLeB_NCf2yHH_7KYHYKBnCrhxQYRU) <hiiamboris (NOT THIS ONE)>:
-Well, you can see what happens to those who never read the docs in Redbol Ì†ΩÌ∏â
+Well, you can see what happens to those who never read the docs in Redbol üòâ
 They struggle for years or drop it.
 
 [21:23:13](#kuvNl6If41y4IbR7MzQMY1PN3cfwxN_jekiZbqRdIMI) <greggirwin (Gregg Irwin)>:
@@ -24290,7 +24290,7 @@ hey all - experienced SWE here starting to learn about red - reading Ivo's book 
 @chazu just follow the rainbow... https://gitter.im/red/chit-chat
 
 [14:25:36](#MtFFIn9NbO3lgHqTM3d2Qjnw7F6HdaUaFpCXhRnWtn4) <planetsizecpu (Jose Luis)>:
-Welcome btw @chazu  Ì†ΩÌ∏É
+Welcome btw @chazu  üòÉ
 
 [19:36:58](#4dQj4C01Ic8WMltN29KNFpji8l4In2_GrwUIzin3bQQ) <greggirwin (Gregg Irwin)>:
 Thanks for the info @uwbwsvd !
@@ -24530,7 +24530,7 @@ It is also used in replication scenarios in databases to uniquely identify a row
 Yes, Exercism uses UUIDs a lot.
 
 [10:58:04](#n_KH4TwUUgT_HXS-7cxn9QTpRQL-8u0GtEtOSEF_fSM) <hiiamboris (NOT THIS ONE)>:
-are we considering a new datatype here? Ì†ΩÌ∏â
+are we considering a new datatype here? üòâ
 
 [14:49:17](#Wlf4kCCjKPLUQoUfiApnPqeYr36CqrsHrL2uXcgDsVo) <gurzgri>:
 Yes, I have encoutered UUIDs/GUIDs used as filenames for logfiles and in data interchange over FTP.
@@ -24556,10 +24556,10 @@ I have UUID gen code already. v4 is really easy, and most common today.
 4 random/secure calls should do it, yes, but I'm thinking about the interface
 
 [16:36:42](#f6qlhNzPfbQNXYuouwvH2K9nSw_27c4N48xeBocAeqc) <hiiamboris (NOT THIS ONE)>:
-as a scalar it doesn't fit our cell size Ì†ΩÌ∏ü
+as a scalar it doesn't fit our cell size üòü
 
 [16:37:58](#y2SeOTPeTjiWIa8DsCGMaG1VgMSKkAiuBjEnHuz2LRU) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-Another reason to move to 64bit Ì†ΩÌ∏â
+Another reason to move to 64bit üòâ
 
 [16:39:11](#Olp6v3hxLmfTnxDoKc0FRchukH3fqdTqJHEqz5Yh_94) <gltewalt (The other Greg)>:
 Uuid is about exciting as stale bread, though
@@ -24729,7 +24729,7 @@ Any block at any index is already a reference, isn't it enough?
 ```
 
 [14:47:17](#W6i5QHRfJEbh5BO7XqD9PzIqxTjLdnUSUxQN7dgjUKs) <GalenIvanov (Galen Ivanov)>:
-Of course it is Ì†ΩÌ∏Ñ 
+Of course it is üòÑ 
 
 [14:52:23](#4J0xpSS4x7RB0DskZ-97iFCTGZ7KCNMcxEXMZPXz3JA) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
 @GalenIvanov You are 1000x more experienced programmer, than I will ever be, so don't worry - this is not a criticism, I just try to ask about concepts, bigger picture, as I am a long time reboller and remember some historical attempts etc. As for a `draw`, there is some discussion with Henrik about how it could be possibly improved on the low level - dunno where it was - some PR, REP, or so. 
@@ -24877,7 +24877,7 @@ Here's an idea. Write a generic Red app that does what these tools do. It can ju
 Anyone want to tackle that for fun?
 
 [21:20:34](#UKiFShQ1Gr-DZBZ45LTSOec2-RwVyqBNpM_H96gZg4U) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-It's not much fun, when you cannot run Red on the current macOS versions Ì†ΩÌ∏ï
+It's not much fun, when you cannot run Red on the current macOS versions üòï
 
 [22:56:48](#6Yml8_epiLGyRbbHDIx5tScDXkUN5JuNGdhXV_GT6Co) <greggirwin (Gregg Irwin)>:
 Of course. What percentage of all macs in use are on the current version? 
@@ -25018,7 +25018,7 @@ Anyone on W7 having problems starting GUI console in recent builds?
 I tested animation dsl build W7, seemed ok
 
 [18:12:43](#vOwdUnhMjFhlTS8X2P6rOZJU91ixiw09l8aXVVhEsWM) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
-Just don't try running Windows executable under Linux. Will not start Ì†ΩÌπÇ
+Just don't try running Windows executable under Linux. Will not start üôÇ
 
 [18:16:10](#phcwt_0cWUJgfZRIijBhggjHHpAF_3xd9nglW2ABMzA) <ne1uno (ne1uno)>:
 anyone tried win11?
@@ -25488,7 +25488,7 @@ view win
 
 
 [8:36:23](#Xy_-ECBnyWq3BPbmK3IBWvVvS-7FeyXDmOVIv1mwnyI) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-Now just to remove the ugly manual padding and it will be ok Ì†ΩÌ∏â
+Now just to remove the ugly manual padding and it will be ok üòâ
 
 [9:13:59](#cH52MVBQoTybBR60qirTo5I6rl2FWw6nuXddxbWmgsc) <toomasv>:
 ```
@@ -25530,7 +25530,7 @@ win: layout compose [
 ```
 
 [9:19:21](#at50URjvCQBQoFLU48lsa9y5G9A0gT-R5bn9dOIGNRc) <hiiamboris (NOT THIS ONE)>:
-And use react ideally Ì†ΩÌ∏â
+And use react ideally üòâ
 
 [9:21:00](#VyGeTul3XUeO1XBY7g7owY5Mq-So9F7unPvGDFMOgN8) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 If there is any inspiration from the Swift code, that we should consider, if it would not be better to use _refinements_ for the options... like `text "..." /center /size 14`
@@ -25624,7 +25624,7 @@ Indeed :)
 [10:40:24](#n8jU2-uv32fczfbNd0pChYX2Iz2v2CYn2d73vxGqdvk) <hiiamboris (NOT THIS ONE)>:
 > @hiiamboris You mean this?
 
-Yes, thanks Ì†ΩÌ∏â
+Yes, thanks üòâ
 
 
 
@@ -25775,12 +25775,12 @@ hey thanks!
 @planetsizecpu, seems to be a regression from a change yesterday, per @dockimbel.
 
 [18:07:37](#-JifT8IXx2rieRWshzAHU5kAvVEvK3_OdYfNG9sPPGc) <planetsizecpu (Jose Luis)>:
-NP @greggirwin Im used to save some old downloads for these occasions Ì†ΩÌ∏â
+NP @greggirwin Im used to save some old downloads for these occasions üòâ
 
 ## 8-Mar-2022
 
 [7:29:42](#FDsxWJfDd1rgy7c3ZqrFbjptDDUDiHOyPGH0LqP80X8) <planetsizecpu (Jose Luis)>:
-@greggirwin I added comment to#5092 for @dockimbel as he does not show here btw Ì†ΩÌπÑ
+@greggirwin I added comment to#5092 for @dockimbel as he does not show here btw üôÑ
 
 [7:33:45](#8_p3IpNazcWrt0-fiNa6M2m9UKiIpcxs92Hyc3hwlmA) <planetsizecpu (Jose Luis)>:
 Wow @ldci really amazing!
@@ -25838,7 +25838,7 @@ write/info http://example.com [POST [header:  "value"] "data"]
 or use my `send-request` function that takes care of a lot of this stuff.
 
 [13:48:02](#ZSo2_z0zKSitsAAEqR2kqGpNlD8lo8K66sONwTBCU00) <djrondon (Rondon)>:
-thanks @rebolek . I was looking at your http-tools.red Ì†ΩÌ∏â
+thanks @rebolek . I was looking at your http-tools.red üòâ
 
 [13:49:45](#gGVA_ahEvlfNekVlwNyyC-n5zVEGsTPZPQQKlBuxOB8) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 @djrondon here‚Äôs the latest version https://gitlab.com/rebolek/castr/
@@ -25915,7 +25915,7 @@ Not sure, that's the question for the Red Team to answer. If there are any relat
 @greggirwin 64-bit is really important for macOS users:)
 
 [22:48:22](#hoVlHJY1UR9EE0r4-xwfPhGibX-YPjdbptPs3T8M6ew) <m_a_j_ch_rz_a_k_twitter (Micha≈Ç Majchrzak)>:
-true Ì†ΩÌ∏É 
+true üòÉ 
 
 [22:57:07](#iNQ1aU41-NRssFLLtNUYde_5hPxFWLTWtf-DMJvWb0M) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 Absolutely.
@@ -25924,7 +25924,7 @@ Absolutely.
 We do understand that, but Mac users are a small percentage, and we don't have research to support it from a business standpoint. If it were easy, we'd do it as quickly as possible, but it's not. It's a huge task, and is going to be critical for all platforms in the next 2-3 years. We are prioritizing accordingly.
 
 [23:28:56](#lNVzNyvDtzFl9ce8r4x2YZ8q3XMNUsSwjyzu-MxxWuo) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-I guess with 64bit version the number of Mac users would be higher Ì†ΩÌ∏â
+I guess with 64bit version the number of Mac users would be higher üòâ
 
 [23:50:59](#XEqdUhW-cfgE5pm7XFZ2sYFep-qxgdoUufWtAeLvyKc) <greggirwin (Gregg Irwin)>:
 Yes. @dander posted stats that 80% of mac users are on the latest OS.
@@ -25932,7 +25932,7 @@ Yes. @dander posted stats that 80% of mac users are on the latest OS.
 ## 11-Mar-2022
 
 [5:39:57](#Q4ePWZZcsGq7TeH_M69kNH3YIIg4wZlAUA-EkbB7NnM) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
-It's definitely NOT about the number of mac users only. Imagine about the need to release multiplatform apps. In last two years we were in need of a mobile app for e.g. Even if Red Android would be released back then, we could not use it, as we needed iOS too. Hence we went with the Flutter Ì†ΩÌ∏ü
+It's definitely NOT about the number of mac users only. Imagine about the need to release multiplatform apps. In last two years we were in need of a mobile app for e.g. Even if Red Android would be released back then, we could not use it, as we needed iOS too. Hence we went with the Flutter üòü
 
 [5:42:22](#uuIT5FH1Qt9P6sPu7MLvgYGGl3yFeJacctXDvuaiexQ) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
 Nowadays, working as a head of IT for a big corporation, the HW choice is less tight - especially some members of management have Macs. We can't release an app not supporting both platforms. Hence we need to do a web apps. It's not a complaint, just providing a different perspective to those percentages. 
@@ -25975,13 +25975,13 @@ Macs are also cheap; i use a Mac Mini, and it allows you to have your favorite k
 To be honest (I have been an IT consultant in Germany, Switzerland, Denmark, Poland) most of the modern IT teams were 100% mac-based. The speed of M1 is incredible. 9hours on a battery, no fans, speed which you can compare with i7/i9. For the IT managers, it is a safe choice...one standard, one system. So you can develop on mac and then use Dockers to host the software wherever you want. Personally, I hate it...but I can see the Apple impact. They have designed and created a perfect tool for developers.   
 
 [10:03:59](#L4Hx_-WVUJ7wrIQK9ZtucE1SAfcFCv2uTFUcI4mtugE) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
-I don' find anything lacking with the Win 10 or 11. IT guys using Macs are mostly about being a hipster, rebel, different to the mainstream, whatever Ì†ΩÌπÇ
+I don' find anything lacking with the Win 10 or 11. IT guys using Macs are mostly about being a hipster, rebel, different to the mainstream, whatever üôÇ
 
 [10:11:39](#p0bHe3sbWgH6yFJTs00uh83Nvf9fB5ExwVK09aBXkFo) <hiiamboris (NOT THIS ONE)>:
 In some regions Mac *is* mainstream.
 
 [10:31:46](#fDOkDSmzxzv0KK3awOPFaL74fyOe_DPRyKrtmlJNMsA) <m_a_j_ch_rz_a_k_twitter (Micha≈Ç Majchrzak)>:
-@pekr  yes, maybe 10 years ago. Most of the western world is using Macs. I see Linux/Win as the tools of the old generation. But now is the question...how we would like to shape Red? Be modern, on the edge, or be part of the "older" world. If the second one then I would die sooner than it would be finished. To be honest, as someone involved in the "crypto" thing (for the last 4) years I don't know anyone with Windows Ì†ΩÌ∏É But maybe this is my bias. 
+@pekr  yes, maybe 10 years ago. Most of the western world is using Macs. I see Linux/Win as the tools of the old generation. But now is the question...how we would like to shape Red? Be modern, on the edge, or be part of the "older" world. If the second one then I would die sooner than it would be finished. To be honest, as someone involved in the "crypto" thing (for the last 4) years I don't know anyone with Windows üòÉ But maybe this is my bias. 
 
 [10:36:03](#R8frKbcrycvM4yXH32kPuOyeAhujOHJ9269HJJyz2Cc) <m_a_j_ch_rz_a_k_twitter (Micha≈Ç Majchrzak)>:
 We should also define the mainstream. My mom is using Windows...but she is not our persona. She would never use Red. In my opinion, Mac is mainstream in the IT world. 
@@ -26002,7 +26002,7 @@ In my country the main stream is w10/w11, linux later and MacOs is very marginal
 What would bring more ppl to red woukd be more blogs, videos, screencasts...etc...in my opinion. 
 
 [19:30:43](#08hu8x3x75nu3Pj92I713p14IYCNjp2ESDU4iquZLh0) <m_a_j_ch_rz_a_k_twitter (Micha≈Ç Majchrzak)>:
-@cloutiy  sure ...but how I can blog about Red if I can not run it on my 64 bit Macs Ì†ΩÌ∏É 
+@cloutiy  sure ...but how I can blog about Red if I can not run it on my 64 bit Macs üòÉ 
 
 [19:34:15](#Or_5-XYj9vBbFO485133lLeBFw0UxAywemIbeSm8Ca8) <m_a_j_ch_rz_a_k_twitter (Micha≈Ç Majchrzak)>:
 as a typical user If I have to install 32-bit libs on Linux then I would try something else instead of Red 
@@ -26016,7 +26016,7 @@ Here in California, our IT team is (like most IT teams in California) running on
 If wanting a computer that I am free to use however I wish makes me part of the older generation, then so be it. I feel sorry for the younger generation who are making themselves subservient to a corporation that is mostly interested in squeezing as much money out of users as they can.
 
 [21:37:34](#-xQ5g_eEOCfresn2ZmDFCxGIIxxDxdyocCb6G5sWNnk) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ≤Ø 
+üíØ 
 
 [21:37:40](#w4cZ_F7vCHwf9M92O14z5e6GmOAZfOJzoTUkBRV-GtE) <Respectech (Respectech)>:
 By the way, we are only 2 hours away from Silicon Valley, so we are pretty close to the tech hubs. Stating that "most of the Western World uses Macs" is simply not correct.
@@ -26232,7 +26232,7 @@ Great job, @GiuseppeChillemi !
 @Respectech Thank you.
 
 [22:42:54](#d3-CLJUVgNENJSqP9CS-tHJYvuM4KVerNUYqcvOgrZM) <GiuseppeChillemi (GiuseppeChillemi)>:
-The first picture is the printer in my pruduction line. I work in an environment where I am creating what Atronix has already made on very large scale. This is the reason why I have written my message on chit-chat. I see a great future and market disappearing with Atronix leaving our world, as they can enter literally in every company in this world. The core of my work life is represented 100% from their solution and.. they are gone Ì†ΩÌ∏î
+The first picture is the printer in my pruduction line. I work in an environment where I am creating what Atronix has already made on very large scale. This is the reason why I have written my message on chit-chat. I see a great future and market disappearing with Atronix leaving our world, as they can enter literally in every company in this world. The core of my work life is represented 100% from their solution and.. they are gone üòî
 
 [22:58:08](#EGnoeUWaSFCPwaa8SHPVAp30ghj-Ca9EN8DgR51pk4E) <mikeyaunish>:
 @GiuseppeChillemi  That is fabulous. Nice to see production level code in the wilds.
@@ -26321,7 +26321,7 @@ Whenever I compile a program then run the executable a black DOS like window pop
 
 That will be a challenge‚Äîthere are only a handful of different auth flows but even then the options for different services are handled in different ways.
 
-The other part that is helpful for auth flow is a lightweight HTTPD service‚Äîfor me that was a motivation for my HTTPD scheme (for R2/R3) and how I'd suggest anyone handle it now*. Although you can do OOB with some services or use an HTTP/HTML client (Ì†ΩÌ∏¨)
+The other part that is helpful for auth flow is a lightweight HTTPD service‚Äîfor me that was a motivation for my HTTPD scheme (for R2/R3) and how I'd suggest anyone handle it now*. Although you can do OOB with some services or use an HTTP/HTML client (üò¨)
 
 *also a good reason for delineating basic HTTPD from file-based WebServers
 
@@ -26469,7 +26469,7 @@ Hello World!
 However, it is nice to have you here. We have just created a red/databases group and there is also an ODBC red in case it is of your interest.
 
 [8:42:21](#HoK6IkFKKERsqd2XQNc2XZq8JPR6L2jL4cRrVkm6AY4) <hiiamboris (NOT THIS ONE)>:
-@GiuseppeChillemi no idea why it always gets pushed back Ì†ΩÌ∏Ö but you can probably write something supportive in #4854 ticket.
+@GiuseppeChillemi no idea why it always gets pushed back üòÖ but you can probably write something supportive in #4854 ticket.
 
 ## 7-Apr-2022
 
@@ -26550,17 +26550,17 @@ If you want to publish it right now, I suggest using AGPL3.0. It will protect yo
 ## 10-Apr-2022
 
 [21:49:38](#ieZ026pQNQ105DjJSyb8aBbMbYt_WIPFLwcJKGDRC6w) <pimgeek (pimgeek)>:
-Is it possible to Compile red-lang on Apple M1 Computers? Ì†ΩÌ∏ä
+Is it possible to Compile red-lang on Apple M1 Computers? üòä
 
 ## 11-Apr-2022
 
 [5:12:44](#lESfnuDNyeiOswODywgUlYSSgYyrlq3DjutLdnYf_Qc) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-Not yet Ì†ΩÌ∏ü
+Not yet üòü
 
 ## 15-Apr-2022
 
 [17:57:36](#sgwU3SZmnCfRB1Yor5ZG6LZsRf7if8YDgag2ouxDEik) <pimgeek (pimgeek)>:
-Thanks~ Ì†ΩÌ∏É
+Thanks~ üòÉ
 
 ## 21-Apr-2022
 
@@ -26692,7 +26692,7 @@ https://gitter.im/red/IO
 great, thanks!
 
 [6:57:00](#wv2sehlT6TdNsFPkzOGnhsDO_IXaJz9fvKRNk5JQ8Rw) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
-Super Ì†ΩÌπÇ
+Super üôÇ
 
 ## 23-Apr-2022
 
@@ -26812,13 +26812,13 @@ No 64-bit Red for now.
 That's too bad. When will there be a 64-bit version?
 
 [13:23:04](#rvQomfiXXazOevde8zXQGSez69bMZ5AxtPm09QqlQzg) <hiiamboris (NOT THIS ONE)>:
-Ì†æÌ¥∑
+ü§∑
 
 [13:23:09](#nnbtv8fnsVOE1FLWW5_xLhWzFT_npY-0MVpUXqoRQJM) <hiiamboris (NOT THIS ONE)>:
-* ## Ì†æÌ¥∑
+* ## ü§∑
 
 [13:23:51](#lZwSS10trPD7UkRttWDWCC_9CuECkWLPJXUrGS5CemY) <hiiamboris (NOT THIS ONE)>:
-* # Ì†æÌ¥∑
+* # ü§∑
 
 [13:33:15](#4eU4fufx4v2CbA5DzKUBEms3kQi8PED6t2mwim5Jsyw) <ldci (Fran√ßois Jouen)>:
 @flw-cn The last version supporting 32-bit apps is macOS Mojave.
@@ -26907,13 +26907,13 @@ https://en.m.wikipedia.org/wiki/Base64
 See the "variants summary table"
 
 [20:04:22](#nQQr5B9GOLjdrlAL8s_QDCgukxuJ8RNfMfw8LS9yEpc) <rebolek>:
-It's optional, so I don't include it when encoding, but need to add it when decoding (so Red requires it after all, no need to test it Ì†ΩÌ∏Ñ)
+It's optional, so I don't include it when encoding, but need to add it when decoding (so Red requires it after all, no need to test it üòÑ)
 
 [20:07:17](#RGo5Lin7tAyFM3bN2jNzGlmv2nbsVoxROtauAESUM2E) <rebolek>:
-The encoder probably would be fine with leaving the padding there, but when I was looking for example, all of them discarded the padding, so I removed it also. And if saves up to three bytes Ì†ΩÌ∏Ñ.
+The encoder probably would be fine with leaving the padding there, but when I was looking for example, all of them discarded the padding, so I removed it also. And if saves up to three bytes üòÑ.
 
 [20:07:27](#gb4zhXNYSnpNG-bHYvRSOIsjxf-ciqD3Gf7FdOkDRQE) <rebolek>:
-* The encoder probably would be fine with leaving the padding there, but when I was looking for example, all of them discarded the padding, so I removed it also. And it saves up to three bytes Ì†ΩÌ∏Ñ.
+* The encoder probably would be fine with leaving the padding there, but when I was looking for example, all of them discarded the padding, so I removed it also. And it saves up to three bytes üòÑ.
 
 [20:09:38](#KoJjxdVQveG1f9N-ZAyXXCtJGodjqjtpgs-qoJ5aa4U) <greggirwin (Gregg Irwin)>:
 Dang, so base64 is kind of a mess like other things. e.g. IMAP. My gut says it's worth including as standard, as mezz is fine, because having it be both URL and filename safe has benefits. Not perfect though, since you can't encode an entire URL with scheme into a Windows filename.
@@ -27050,13 +27050,13 @@ not to mention it would create the same problems that current ownership system c
 * @hiiamboris you have seen under the clotches not me. So I have to rely on your words.
 
 [16:59:27](#ACs3h0KgZiNhhg9Yx4woG6ctVfyk2gOwTmbKzIY3_NI) <hiiamboris (NOT THIS ONE)>:
-## Ì†ΩÌ±Ä
+## üëÄ
 
 [16:59:50](#kf5VvwKCs6EkYmOMOjhdfLuHGrTo29LDk6ilLt8054w) <GiuseppeChillemi (GiuseppeChillemi)>:
 * @hiiamboris you have seen under the clothes not me. So I have to rely on your words.
 
 [16:59:58](#jcKw7VKr7Pm8bl5T79vLwazxEgkvOXALBIcWZZHmzjk) <GiuseppeChillemi (GiuseppeChillemi)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [17:01:46](#YNhgKU3MNz4aEK-t0WsNXLL90YrILxFDyr21YrIvHnw) <GiuseppeChillemi (GiuseppeChillemi)>:
 @zentrog:matrix.org I mean a context that is scanned until all the words of the blocks have been bound. But I think that the word "all" carries on of the most complication because of the mutability of the block
@@ -27077,25 +27077,25 @@ I do not know if mine is right, I have already changed it on time. If it could b
 * I do not know if mine is right, I have already changed it one time. If it could be better expressed  in another way, I am here to learn!
 
 [17:17:02](#s_CEy6QfJrNE5PH3OhHmVvBJitweKqQuC8MJt475bn8) <hiiamboris (NOT THIS ONE)>:
-initial wording was funnier Ì†ΩÌ∏â
+initial wording was funnier üòâ
 
 [17:18:54](#KnSGKMGUYuBLDzmKAy3K4VJsP2WmlFk0XCe2WNyw__E) <ne1uno (ne1uno)>:
 https://www.macmillandictionary.com/dictionary/american/under-the-hood
 
 [17:21:54](#owoMZn_yHx68yniMv4n2VYlWOIPfFEgIsp2I3v61jq0) <GiuseppeChillemi (GiuseppeChillemi)>:
-@hiiamboris  Yes, everyone like to looks under Red pants and suggest how things should be done!  Ì†ΩÌ∏â
+@hiiamboris  Yes, everyone like to looks under Red pants and suggest how things should be done!  üòâ
 
 [17:22:37](#9cGcEwpoEOs-XEBgxlJ-M_o57ejRGFhAHYwqFkFkV48) <GiuseppeChillemi (GiuseppeChillemi)>:
 @ne1uno Thank you!
 
 [17:23:22](#L59HUCuZZh8dnSCpV8aOLQ9fg_oki18o50OYuYDFtyQ) <zentrog>:
-It might be an expression that doesn't quite translate. It sounded to me like [open kimono](https://idioms.thefreedictionary.com/open+kimono), but [under the hood](https://encyclopedia2.thefreedictionary.com/under+the+hood) is probably more appropriate. I like this definition a bit better than the Macmillan one. But you can tell us whether that was the meaning you intended Ì†ΩÌ∏ä
+It might be an expression that doesn't quite translate. It sounded to me like [open kimono](https://idioms.thefreedictionary.com/open+kimono), but [under the hood](https://encyclopedia2.thefreedictionary.com/under+the+hood) is probably more appropriate. I like this definition a bit better than the Macmillan one. But you can tell us whether that was the meaning you intended üòä
 
 [17:24:10](#Ox51ySA7otmuYfJx5kEyMSRop4ssGIk5XdrosyB1cCc) <ne1uno (ne1uno)>:
 refers to looking at the engine of car, ok. everyone knew what you meant.
 
 [17:25:59](#aGQ3rgfcWo2nowCY8kI9vMza0GqDSvOsC-IyP2yFUeY) <zentrog>:
-The fun thing about language is that everyone can assume they understand what is meant, and still be wrong Ì†ΩÌ∏â
+The fun thing about language is that everyone can assume they understand what is meant, and still be wrong üòâ
 
 [17:30:04](#IYetLZtFWwL5bUKk2WCLHDmQBEnowI3zRApgmNIukww) <GiuseppeChillemi (GiuseppeChillemi)>:
 But the other good think is that our brains are capable of guessing what someone really want to say, even if he uses a word a phrase with partially uncorrect terminology.
@@ -27216,13 +27216,13 @@ pick-multi: function [
 Yes, which is used in R/S for things. Though I hesitated on that, as it leads to "does many require the selection block not to be empty, or is many really any, and the block can be empty." `Multi` is just the old name I used.
 
 [18:56:42](#0HpKeLlV552qepxFZ2jJ3LcUG4ahJsVuA1WdqXQtczY) <GiuseppeChillemi (GiuseppeChillemi)>:
-Thank, I already have it. I will add your to my collection! Ì†ΩÌ∏Ç
+Thank, I already have it. I will add your to my collection! üòÇ
 
 [20:18:40](#os046gxO63Kbip04u29y2tttiY3TkpxLyPyLHaBPUY8) <GiuseppeChillemi (GiuseppeChillemi)>:
-@hiiamboris (you have to know I have redone it many times: accepting words as column names and words inside blocks for tables, and support for custom datatypes... and different versions of each one. @greggirwin you talk about can of worms here but think about me opening can of worms being alone and trying to make choices!Ì†ΩÌ∏±
+@hiiamboris (you have to know I have redone it many times: accepting words as column names and words inside blocks for tables, and support for custom datatypes... and different versions of each one. @greggirwin you talk about can of worms here but think about me opening can of worms being alone and trying to make choices!üò±
 
 [20:21:53](#Q1EguGseRSyEyC2QSdEK2JZ-4IBD5ktJ1KOdoJUAIpc) <GiuseppeChillemi (GiuseppeChillemi)>:
-* @hiiamboris (you have to know I have redone it many times: accepting words as column names and words inside blocks for tables, and support for custom datatypes... and different versions of each one. @greggirwin you talk about can of worms here but think about me opening can of worms being alone and trying to make choices!Ì†ΩÌ∏±)
+* @hiiamboris (you have to know I have redone it many times: accepting words as column names and words inside blocks for tables, and support for custom datatypes... and different versions of each one. @greggirwin you talk about can of worms here but think about me opening can of worms being alone and trying to make choices!üò±)
 
 ## 10-May-2022
 
@@ -27241,7 +27241,7 @@ Hmm. Gitter seems to truncate the gif at random moment. Full gif [here](https://
 Nice!
 
 [17:02:04](#Q0GMUnErlIA2lpDAjU32amHeJpCNBoAbdFlSOTyIvkE) <greggirwin (Gregg Irwin)>:
-@hiiamboris WOW! :+1: :+1: Ì†ΩÌ±è I admit the jittering in the demo gets to me, but the radial menu is very cool. For themes, it makes sense to me to start with Solarized, and a generic light theme. I don't know if there's a standardized dark theme, or if @rgchris or @henrikmk know. And you can include your high color version for yourself. We need a good name for it though, unless it's also standard somewhere.
+@hiiamboris WOW! :+1: :+1: üëè I admit the jittering in the demo gets to me, but the radial menu is very cool. For themes, it makes sense to me to start with Solarized, and a generic light theme. I don't know if there's a standardized dark theme, or if @rgchris or @henrikmk know. And you can include your high color version for yourself. We need a good name for it though, unless it's also standard somewhere.
 
 [17:03:18](#dbjdQEKTJ8xJt2UfWoLwUSepm52kCce49BhcIPBDVVs) <GiuseppeChillemi (GiuseppeChillemi)>:
 @greggirwin  Which the page to post request? I would like to write the `pick` one
@@ -27304,7 +27304,7 @@ Impressive, @hiiamboris !
 thanks :)
 
 [19:10:02](#gkeI19i70grBON0SsVBfH03zyu_kfC3uzCO6493rgn8) <hiiamboris (NOT THIS ONE)>:
-@pekr good news is Red itself is stable enough that it doesn't crash randomly anymore (in like 2 months! Ì†ΩÌ∏â
+@pekr good news is Red itself is stable enough that it doesn't crash randomly anymore (in like 2 months! üòâ
 
 Bad news is https://github.com/red/red/issues/5130 and probably other memory leaks slow it down and even cause random View heisenbugs to pop up, so constantly updating your layout like I do in my demo is not an option. 
 
@@ -27421,7 +27421,7 @@ most likely an implementation artifact
 [8:08:17](#4pMYADSIJy2tbtEUmv5gKUv4fjhOgpOWQt4aiiMSbFo) <GiuseppeChillemi (GiuseppeChillemi)>:
 
 
-Other investigations and Rebol Vs. Red Ì†ΩÌ∏ñameness and Equalness
+Other investigations and Rebol Vs. Red üòñameness and Equalness
 
 ```
 
@@ -27746,7 +27746,7 @@ Yes, a ticket, and we can add a note to https://github.com/red/red/wiki/%5BDOC%5
 I don't know where all the construction/serialized syntax notes are.
 
 [20:05:43](#wQppX9PmyY6EIvs_fmHucwSeUVItnZcutrkiuR3glhY) <GiuseppeChillemi (GiuseppeChillemi)>:
-@greggirwin my talent Ì†ΩÌ∏á
+@greggirwin my talent üòá
 
 [20:07:24](#kJRlcBwUvD0aOW7Uugp6O304zibZ848sAZX36UKvOKk) <GiuseppeChillemi (GiuseppeChillemi)>:
 Why not `to-block`?
@@ -27834,7 +27834,7 @@ I'm a lazy person
 [![WAEkFaNLbjTlhLu0BSrK1u1a7c1EpbUd03znSvyobAI.png](https://files.gitter.im/5565a1d415522ed4b3e10094/RvwH/thumb/WAEkFaNLbjTlhLu0BSrK1u1a7c1EpbUd03znSvyobAI.png)](https://files.gitter.im/5565a1d415522ed4b3e10094/RvwH/WAEkFaNLbjTlhLu0BSrK1u1a7c1EpbUd03znSvyobAI.png)
 
 [7:43:50](#HH51nx7ggoNBRAdYQC5Zi8_7D7cfpLpIIDsDFSLSMVA) <GiuseppeChillemi (GiuseppeChillemi)>:
-Ì†ΩÌ∏Å
+üòÅ
 
 ## 17-May-2022
 
@@ -28034,7 +28034,7 @@ There was quite a bit of chat about this somewhere, just don't know where right 
 And also http://www.rebol.net/r3blogs/0194.html
 
 [17:38:38](#Nr6AToPSIgimWvN5mvD48ZtdD6MUwqbtdBANQ8dsDqc) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-Yes... `/only` is not usable for thisÌ†ΩÌ∏ï
+Yes... `/only` is not usable for thisüòï
 
 [17:39:23](#qhBxk__qC7fBiAfNcZW7rOhHpVVfy7cnWagHS8kvQ3U) <greggirwin (Gregg Irwin)>:
 I recall doing some analysis, and there were not that many cases where `/skip <> 2`.
@@ -28107,10 +28107,10 @@ https://gitter.im/red/bugs?at=6203e89b41e3293d65e40631
 We are old shoes which forgets what we have done!
 
 [20:11:39](#qc1pV952zpowswxIKD16Q1a2Hg1dPz8enrQTd6_u23c) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-At least we know, that Gregg preferred R2 version in year 2009 and Red/R3 version 13 years later Ì†ΩÌ∏â
+At least we know, that Gregg preferred R2 version in year 2009 and Red/R3 version 13 years later üòâ
 
 [20:14:21](#eVdhyDqSAPVDh9duRIvswMKtmt4jj-bbCtLXWAMR2rQ) <GiuseppeChillemi (GiuseppeChillemi)>:
-Ì†æÌ¥£Ì†æÌ¥£Ì†æÌ¥£
+ü§£ü§£ü§£
 
 [20:15:18](#0nBrS3eCSs02-AJi7-i2soCdJkyaARC6Zg63Bzr-1m8) <GiuseppeChillemi (GiuseppeChillemi)>:
 I have the same problem but worse: sometime I change my preference on a design in a couple of weeks.
@@ -28401,7 +28401,7 @@ Use case is e.g. short circuiting some condition block when composing it. E.g. i
 It's often the case that @hiiamboris will note an issue, and I want to tell him he's wrong. But then the SOB has already written a full analysis and shown he's tried to see things the way they are, and I *can't* tell him he's wrong, totally ruining my day. 
 
 [21:43:45](#a27Wz_blG95gG5gBLST-hnXh1eVX0uAsr6a-4Iqzo9A) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ∏É Ì†ΩÌ∏É Ì†ΩÌ∏É
+üòÉ üòÉ üòÉ
 
 [21:44:44](#VIBS1lUoLTJ5xA4ni1QTDy46VMgZSm9U6mKNJmwuAIY) <greggirwin (Gregg Irwin)>:
 :^)
@@ -28410,7 +28410,7 @@ It's often the case that @hiiamboris will note an issue, and I want to tell him 
 I suppose I have a thing for designing things from the user's perspective
 
 [21:45:34](#yE2kYglLwxZYEUG7oywxpA0J7j7RHpYPlQR8ILMrLJw) <hiiamboris (NOT THIS ONE)>:
-Users are different Ì†ΩÌ∏â
+Users are different üòâ
 
 [21:46:14](#NJKynIaG0ggKmWYzexELqupeNTkc61i8_jt2NEptfeA) <ALANVF (theangryepicbanana)>:
 they are, and that's part of it
@@ -28747,7 +28747,7 @@ I bet, the error message is for: `a: make object! [b: 'c] get 'a/c`
 Just add a catch and enter `get` again. Why would it affect other gets?
 
 [9:01:54](#GiUJqw2BK9hPZRXm4mcrP7VEJvE4AqqrXD7WkvQVCw4) <GiuseppeChillemi (GiuseppeChillemi)>:
-I remember you are right, maybe I have made a mistake copying/pasting, as you have noted for Hiiamboris on issue 113. Ì†ΩÌ∏Å
+I remember you are right, maybe I have made a mistake copying/pasting, as you have noted for Hiiamboris on issue 113. üòÅ
 
 [10:49:44](#sFIVCLbdr6wsEUQEgmkqtk9c2jz0M0kX9ruWi8WDczo) <GiuseppeChillemi (GiuseppeChillemi)>:
 Things I didn't know in both Rebol and Red:
@@ -29060,7 +29060,7 @@ he hasn't visited gitter in a year or more
 hmm
 
 [18:28:06](#tf5KsDUycN-aJ3bwks0ZF4h7GinKm2Tzbzno2W5ZsjQ) <hiiamboris (NOT THIS ONE)>:
-thought everything is easy here? Ì†ΩÌ∏â
+thought everything is easy here? üòâ
 
 [18:37:31](#ch-fY4zksOUuYm9Saa5VuSiHTZeud4DKtFXRc8Fh05g) <GiuseppeChillemi (GiuseppeChillemi)>:
 @greggirwin on mezzanine level it would be a lot slower. While on R/S level would go really fast. If you use it tied do a `get` or `pick` function, it will be the turtle attached attached to the Ferrari.
@@ -29381,7 +29381,7 @@ You don't need to write big and great quality content. Just 50 lines announcing 
 It sounds easy. :^)
 
 [17:38:27](#mlOCDghjf54KjJh8Q9qEChMAqGQEI0fWQnkWFPYJOb0) <hiiamboris (NOT THIS ONE)>:
-post screenshots from gitter Ì†ΩÌ∏â
+post screenshots from gitter üòâ
 
 [18:26:07](#gyyxnFxraqP-s91H20ATqrBksYGw50qST9uWqOrtajE) <giesse (Gabriele Santilli)>:
 > I don't know who is the writer, but I have just found a thesis from *Dr. Thomas C. Royko* entitled *The Dynamic Mapping Architecture*. With Red and Rebol being the main actors, together with DSL and Parse, [look at it!](https://etd.ohiolink.edu/apexprod/rws_etd/send_file/send?accession=toledo1639760375713532&disposition=inline)
@@ -30190,7 +30190,7 @@ yep
 (making it hard to add to red.js -_-)
 
 [21:30:13](#Wp0m0PQEYVun8D2i4pINsjL-vtog8gQLb5hWOGK3pNs) <GiuseppeChillemi (GiuseppeChillemi)>:
-You could do it the lazy way: convert, write and reconvert Ì†ΩÌ∏â
+You could do it the lazy way: convert, write and reconvert üòâ
 
 [21:30:47](#DMQpV6-VjEXZ9g_dPVkfm08-IRXA80vxdWBdRgha6ps) <GiuseppeChillemi (GiuseppeChillemi)>:
 Do not do this on gigabyte data in a strict loop.
@@ -30242,7 +30242,7 @@ I see
 not too concerned either way, if you're using this quirk intentionally you deserve to have your code break lol
 
 [21:36:58](#tXBxeLU37NpbLr8Bq5GQaZ4IL6qU286BphB9mYp_LVc) <GiuseppeChillemi (GiuseppeChillemi)>:
-Ì†ΩÌ∏É
+üòÉ
 
 ## 2-Jun-2022
 
@@ -30288,7 +30288,7 @@ it's Red's GUI system
 * it's Red's GUI system/dialect
 
 [15:46:44](#woPPQXSEpfBU1LRZRcswu7z6l6VFhEfyeA-M6xhj0nQ) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [15:47:22](#CKWFt7mPW8fEcphHNVFbpXZt2lbhPrehXTG-ctXKYrU) <gltewalt (Greg T)>:
 You mean using View with linux? Then yes.
@@ -30380,7 +30380,7 @@ Can you share your exe, please?
 @gltewalt nevermind. I recompiled libRed with `-u`, compiled the GUI console again and now it works. What was the problem? I don't know.
 
 [6:23:03](#B3zFZCgydn-NLWIJbeOULhRyit6Ufkv9ud7lCVbuDMA) <gltewalt (The other Greg)>:
-away from computer until tomorrow. Ì†ΩÌ∏û (it's 12:23AM here)
+away from computer until tomorrow. üòû (it's 12:23AM here)
 
 [6:25:45](#0qPJ3KMbWJgdT63RR4rS51ajZRn9BfkSR9p-JLKGZLs) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 Good night! And no problem, I got it working now.
@@ -30700,13 +30700,13 @@ the desync issue is a windows issue
 * the desync issue is a windows issue afaik
 
 [20:20:59](#Zxjzv7a3r9GIHX_INPmnsvl9a091zWWz5GnEHciSqn4) <hiiamboris (NOT THIS ONE)>:
-is this a demo for linux users only? Ì†ΩÌ∏â
+is this a demo for linux users only? üòâ
 
 [20:21:09](#Og6v-4B_YSal4HoZLtAFUsQmDGsAwvLZkXUEvr9UC6Y) <ALANVF (theangryepicbanana)>:
 no I wrote this on windows lol
 
 [20:21:13](#RvzUMTlseUkQBPF6NkXnjQ-Azv1hKam0ujQN66cfwaM) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [20:21:29](#c7WVDDQq5oV84pQRZHFo2QvlqPBx6Yl4eFbSl-JEtig) <ALANVF (theangryepicbanana)>:
 until the desync issue is fixed there isn't a clean solution afaik
@@ -30828,7 +30828,7 @@ GIF demoing it's use on [`example.red` script](https://codeberg.org/hiiamboris/r
 ![](https://s8.gifyu.com/images/111111f26fd6c0330689e.gif)
 
 [22:49:08](#sBf3kzE_kW3ZutsCtHv6GEF7DcoeUn8GbSoiQlnYVcQ) <greggirwin (Gregg Irwin)>:
-Woohoo! Can't wait to check it out. Thanks @hiiamboris ! Ì†ΩÌ±è
+Woohoo! Can't wait to check it out. Thanks @hiiamboris ! üëè
 
 ## 20-Jun-2022
 
@@ -30871,7 +30871,7 @@ I'm trying to run it from sources and I got this error:
 Nice work, @hiiamboris ! Strangely it doesn't work on my Windows 10 Pro machine, but I was able to run it on another WIn 10 machine where it works fine.
 
 [6:52:42](#gSO8I5vHN3SKSeNmMHpPT7W02tQ7Zp79BHBAPo2YlQI) <hiiamboris (NOT THIS ONE)>:
-Now we have windows to windows incompatibility Ì†ΩÌ∏É It just gets better and better.
+Now we have windows to windows incompatibility üòÉ It just gets better and better.
 
 [6:55:40](#gvqHtmW4HwGD2kneC2QrKDnuhazUXY-zx_7qPwQhAH4) <hiiamboris (NOT THIS ONE)>:
 @gltewalt @rebolek Linux consoles were crashing on exit for half a year or so
@@ -30947,7 +30947,7 @@ gods, this web...
 ok I got it
 
 [7:08:48](#cNqpLvC_w0tsyueizEH_xyjf-SdU0dqjXrzciGQrSqs) <hiiamboris (NOT THIS ONE)>:
-I'm pushing to github only Ì†ΩÌ∏É
+I'm pushing to github only üòÉ
 
 [7:09:02](#yDUSiIUtMOGS1ISFHhTIZ3YmcEHCEzmjgD9-kXZPxSI) <hiiamboris (NOT THIS ONE)>:
 I need to delete gitlab repos for less confusion
@@ -31079,7 +31079,7 @@ will fix today
 OK, thanks. You have done an impressive amount of work, in the vein of  Smaltalk's (Pharo's) Inspector and/or System Browser
 
 [9:00:29](#SJWT6f5aQ2LR8Uqr7rRiMVpqIQRjxlLtMsKZ9VpmNKk) <hiiamboris (NOT THIS ONE)>:
-Thanks! Certainly, it's not the easiest design. But that just makes it more interesting to work on! Ì†ΩÌ∏â
+Thanks! Certainly, it's not the easiest design. But that just makes it more interesting to work on! üòâ
 
 [9:03:33](#s7RdWXYtfayd9KT9RPID1UUq443EMNh4zUOoPvD3_YY) <hiiamboris (NOT THIS ONE)>:
 UX feedback is welcome btw. 
@@ -31144,7 +31144,7 @@ I like the BW look of the Spaces more than Red / yellow combination :-)
 I'm planning to write a shiny stylesheet, but time may not permit.
 
 [15:49:40](#fDnxXMLw1sWMN3PoF9ALFze8heqTl0p9CkmRQFI-5LI) <hiiamboris (NOT THIS ONE)>:
-(and GTK will uglify it anyway Ì†ΩÌ∏â
+(and GTK will uglify it anyway üòâ
 
 [16:17:00](#MTQpLhy6qod3JuE2BtC3mnRT3wHltpoSvU-7Ay3QIks) <greggirwin (Gregg Irwin)>:
 @rsheehan I know at least a couple people use the VSCode plugin, though it did have some issues in the past.
@@ -31586,7 +31586,7 @@ Funny thread :)
 @hiiamboris Is there any documentation on "differences" between VID and VID/S?
 
 [20:17:00](#cXrkbd7JUVYO3N9PVrAIAKZsG750PO759Lxn3D9SKJQ) <hiiamboris (NOT THIS ONE)>:
-Have you opened the link? Ì†ΩÌ∏â
+Have you opened the link? üòâ
 
 [20:18:16](#A96Xx9t6mCvpJGTWr8KW1HODx2DR7nJFBTUdo65YBec) <greggirwin (Gregg Irwin)>:
 I've just opened it, and wow! Great stuff @hiiamboris. 
@@ -31604,7 +31604,7 @@ It starts:
 > Quick VID to VID/S and faces to spaces comparison
 
 [20:18:56](#gAn04HC8OKdK_IDIHzSNLZfgm8OuT-Ey4vUGK3lxlcs) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [20:19:16](#KBF3NpFg-8kStH2OEeW5zd_4NVX7QI8ro1ZeUPV6ZLY) <hiiamboris (NOT THIS ONE)>:
 Thanks @greggirwin 
@@ -31651,7 +31651,7 @@ Too hot for me here, I am surely in energy-saving mode.
 Ehm.. "Brain Saving"
 
 [20:33:11](#88WYBGtTzn5cQzc_x2ZcqKF2Y59P5mrgod9QrzyLoSs) <hiiamboris (NOT THIS ONE)>:
-I hope it's not your volcano coming close! Ì†ΩÌ∏â
+I hope it's not your volcano coming close! üòâ
 
 [20:39:48](#elieh3WxzeJmC0P1F1oJfYuwYc5_5cDdMElRl7P2N94) <greggirwin (Gregg Irwin)>:
 Not again!
@@ -31735,16 +31735,16 @@ Spaces profiling example:
 first report is startup, second report is operation
 
 [10:13:37](#m7O4AuE2pUzkme7F5ftxUiLHJRh7JdnM8Xx16npUmcI) <jpaquim>:
-Hey everyone Ì†ΩÌ±ã just getting started on the Red/REBOL ecosystem, coming primarily from a Web background professionally, but doing a lot of systems programming on the side as well. I love LISPs, and I'm getting a lot of the same kind of vibe
+Hey everyone üëã just getting started on the Red/REBOL ecosystem, coming primarily from a Web background professionally, but doing a lot of systems programming on the side as well. I love LISPs, and I'm getting a lot of the same kind of vibe
 A few questions:
 - How is the M1 Mac support for Red and REBOL? I haven't found any M1-specific binaries, and not having much success with Rosetta 2 for some reason, getting an error 86 when trying to run the Intel binaries
 - Has anyone tried to build Red for WebAssembly? Either browser or WASI runtime compatible? I've seen https://github.com/ALANVF/Red.js but not sure if the focus will ever be on Wasm as a target
 
 [10:22:50](#UyT4RqOxKKcdM7dF_Wmz38pM06oty2LMOxO5ocqtt8c) <jpaquim>:
 And a couple of others more tangentially related:
-- Looking through the Red website, my inner webdev is constantly screaming a bit at the "classic" Google blogger/blogspot look Ì†ΩÌ∏õ would there be any interest in migrating the content to something like a simple static generator and some styling, or using one of the various documentation generators out there? In terms of usability, I'm mostly missing highlighting on the source code snippets, I think that would make the examples richer and easier to follow
+- Looking through the Red website, my inner webdev is constantly screaming a bit at the "classic" Google blogger/blogspot look üòõ would there be any interest in migrating the content to something like a simple static generator and some styling, or using one of the various documentation generators out there? In terms of usability, I'm mostly missing highlighting on the source code snippets, I think that would make the examples richer and easier to follow
 - Is it common in the community to "write your own Red/REBOL", like it is within the various LISPs/Schemes? Is there any existing guide/overview to the main implementations?
-Thank you Ì†ΩÌπè
+Thank you üôè
 
 
 [10:38:20](#u87PKF6dInpO5PjkKxBQSiAqsaSoT9IeQTr_gSG0GHM) <rebolek (Boleslav B≈ôezovsk√Ω)>:
@@ -32018,10 +32018,10 @@ Wow, so you can pass values `/local`? Amazing!
 You *can*, but since it's not a documented "by design" behavior, I wouldn't depend on that. :^)
 
 [14:16:25](#f9sbs2whbrGhhSf2jYMtRbyeRjl22jqdQ3P3i7axcz0) <GiuseppeChillemi (GiuseppeChillemi)>:
-You always block my dreams! Ì†ΩÌ∏ü((
+You always block my dreams! üòü((
 
 [14:16:41](#wC1GP0u6KmoKbuhLQYudSxBkSl9sBFwrxAuGVzL8BiY) <jpaquim>:
-Thank you for the link and the detailed answer Ì†ΩÌ∏É
+Thank you for the link and the detailed answer üòÉ
 Concerning WebAssembly, it seems like it might be a good gateway towards supporting other architectures and platforms "for free". If you have a Wasm runtime for a given platform, and Red self-hosted and compiling to Wasm, I guess that could always be a quick way of porting Red to another problem (even if not the most efficient possible)
 
 [14:17:28](#BEf6z5NbMfqNdh8N4f7WyVVCONkRloN7NXu1K71lqnk) <jpaquim>:
@@ -32508,7 +32508,7 @@ About this:
 As far I know, RED does not allow to `load` a block without adding each word to the global context. Because REBOL3 has such possibility using `load/unbound`,  `word-of` task is to return an unbond block.
 
 [16:42:04](#-ER7JfBdkUvpzsTrc_T4z3rGu0vrYVXiD4ulIm1HPD8) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-When I need to pass a context to a child function, I use a regular argument. But I know that you are happy with cryptic solutions Ì†ΩÌ∏â Anyway, as I said... I'm not binding expert and don't want to dive in this abyss with you now.
+When I need to pass a context to a child function, I use a regular argument. But I know that you are happy with cryptic solutions üòâ Anyway, as I said... I'm not binding expert and don't want to dive in this abyss with you now.
 
 [16:45:08](#4w2kFDKviL77c8LxM4cefiQhPPwIDngP8y0CFaRxItc) <GiuseppeChillemi (GiuseppeChillemi)>:
 Yes, but here we are talking about passing the function's context, not a generic context. Without `WORD-OF`, the child function has totally no access to the caller context words. 
@@ -32665,10 +32665,10 @@ Not mentioning, that I still don't understand, why you want to mess with functio
 * Not mentioning, that I still don't understand, why you want to mess with function's specs. In such a non transparent way.
 
 [17:25:20](#J7MbnINqOa59UDvm0HChRjMvLIxp4ShO8zV1FabEG_o) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-Heh.. you even don't need a complex app Ì†ΩÌ∏â ‚òù [June 24, 2022 7:22 PM](https://gitter.im/red/bugs?at=62b5f2bd9f29d42bed9a0e05)
+Heh.. you even don't need a complex app üòâ ‚òù [June 24, 2022 7:22 PM](https://gitter.im/red/bugs?at=62b5f2bd9f29d42bed9a0e05)
 
 [17:26:33](#b5JVRT-IXioSH-5CkLH2ahiCbRb607yPzI2607PIZxg) <GiuseppeChillemi (GiuseppeChillemi)>:
-Red is Alpha Ì†ΩÌ∏â 
+Red is Alpha üòâ 
 
 [17:26:52](#Bh7AhH1ckApJqVpjmP1mSPyEnPBWp_-CV_K9oxdxcJE) <GiuseppeChillemi (GiuseppeChillemi)>:
 But powerful even in this state
@@ -32677,7 +32677,7 @@ But powerful even in this state
 How do Red/Rebol compare to other homoiconic languages they've inspired, like https://arturo-lang.io and http://sprylang.se ?
 
 [17:32:09](#OUh93xYAavpK2L6noUKn9J7F1rA1IgtUZ2j-f3LTBP8) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-What you are doing is a spaghetti code power imho. But you are Italian, so probably ok for you Ì†ΩÌ∏â 
+What you are doing is a spaghetti code power imho. But you are Italian, so probably ok for you üòâ 
 
 [17:33:11](#dWYdN4IpjbmAyyqAZzKKbjKWDwX9Jqg9aCacJnj6I1c) <GiuseppeChillemi (GiuseppeChillemi)>:
 However, the best would be to have full path access in the function's context so you can access it in `F2` using `ctx/data1: "HELLO"`
@@ -32846,7 +32846,7 @@ I guess mostly trying to understand their state of maturity at this point, and i
 [10:14:46](#RrtMZegRW4ZPVCDuXfpfgTbk3-J23ErH7pdS0ODe4lI) <jpaquim>:
 > <@alanvf-5ebb41e5d73408ce4fe38f2e:gitter.im> there's also a chance we can figure out how to run/compile R/S to wasm
 
-Thanks for your answer Ì†ΩÌπÇ I think that would be feasible, and if I understand Red's implementation correctly, it implements its GC in Red/System itself right? So I'm not sure if it's strictly necessary for Wasm to support the GC-related proposals, as those are mostly related to interfacing with the host system's GC types
+Thanks for your answer üôÇ I think that would be feasible, and if I understand Red's implementation correctly, it implements its GC in Red/System itself right? So I'm not sure if it's strictly necessary for Wasm to support the GC-related proposals, as those are mostly related to interfacing with the host system's GC types
 
 [17:30:26](#EWTlcuYB7GwE-5d_EX6PoXf7CC0BAG1jY6H9sKPHxis) <greggirwin (Gregg Irwin)>:
 No overlap that I know of. I think the Arturo author monitors Red.
@@ -32940,7 +32940,7 @@ We are with you.
 I can ask no more than that the team reconfirms its dedication to making Red the complete (full-stack) solution it has the promise to be. I know no other programming language (and I have tried so many...) that I would rather program in.
 
 [13:40:13](#mp2OUWAu4-mHh38DY1hgHLL_tE2CbZbvwCbcAt7O1cw) <dockimbel>:
-@meijeru We are all on the same boat. Ì†ΩÌ∏â
+@meijeru We are all on the same boat. üòâ
 
 [13:43:21](#Zan9HgEGi5a_cSvaX84V6rT_7oTO-eEhmPPbFgU9YOo) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
 I saw a "boat" and thought you are sailing somewhere on the vacation :-) 
@@ -33649,7 +33649,7 @@ react [ok-button/enabled?: my-form/valid?]
 ```
 Focusing procedure could also be built upon general designs:
 ``` 
-attempt [focus-face first locate my-form/pane [.. not /valid?]]		Ì†ΩÌ∏â focus-face gets none on valid form, failing `attempt`
+attempt [focus-face first locate my-form/pane [.. not /valid?]]		üòâ focus-face gets none on valid form, failing `attempt`
 ```
 By the way, VID extension kit is one of the things I dissected for my [HOF work](https://github.com/greggirwin/red-hof/tree/master/code-analysis) so don't dismiss the generality argument as easily.
 
@@ -33660,7 +33660,7 @@ By the way, VID extension kit is one of the things I dissected for my [HOF work]
 Please remember that this stuff was written 13 years ago and is pretty solid, as it has been used in real-world business applications. These topics are old and have already been implemented in code.
 
 [16:49:24](#_8bTiOG79bZE9dXAg3e1t0wtqYwuQNsbU1XXCBS8Rt8) <hiiamboris (NOT THIS ONE)>:
-No doubt about that. But can we not do better? Ì†ΩÌ∏â
+No doubt about that. But can we not do better? üòâ
 
 [16:50:23](#7fC0qZQl99oRNdo0uhs8m59DibEpnVaW5abtV_3j5A0) <henrikmk (Henrik Mikael Kristensen)>:
 It's because you are far too concerned with how things are related than figuring out how to navigate and use the things you already have.
@@ -33742,7 +33742,7 @@ getLZWCodes: function [
 
 	n: length? data i: 1
 	while [i < n] [
-		Ì†ΩÌ∏úrint rejoin ["#" form nextCode " " to-binary data/:i]
+		üòúrint rejoin ["#" form nextCode " " to-binary data/:i]
 		;--Find code Size Limit 
 		if nextCode = maxHBit [
 			bSize: bSize + 1 
@@ -33781,10 +33781,10 @@ probe getLZWCodes data
 There are pros and cons to balance with both Henrik's and Boris' views, but I won't belabor that in this tiny side bar. :^)
 
 [18:48:28](#htHzsEYXxZvug3A40AQREWPVW8EFeBwOpkbLkywnmYc) <hiiamboris (NOT THIS ONE)>:
-@ldci it will help if you isolate the part you need help with Ì†ΩÌ∏â
+@ldci it will help if you isolate the part you need help with üòâ
 
 [21:57:04](#jl7WipCVDr_4dLpAQ8r1AonACCcfGrn0bsbc6YMfP2o) <GiuseppeChillemi (GiuseppeChillemi)>:
-Discussion between top-level masters. I have bookmarked it Ì†ΩÌ∏â
+Discussion between top-level masters. I have bookmarked it üòâ
 
 [22:27:30](#4Qt97tSXcNi59aHbWxYVmIXPd8-nIWSzmcOlndha8wI) <qtxie>:
 @ldci In `getCode`, did you check the byte ordering of `c`? Is it expected?
@@ -33945,7 +33945,7 @@ Still trying to understand https://stackoverflow.com/questions/14203731/parsing-
 https://www.red-lang.org/2022/07/the-road-to-10.html
 
 [16:50:36](#JTDRp57qdKgOGzXAIfVJq_CqqVkO4PYJGGvND69qmnc) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ∫Ä Ì†ΩÌ∫Ä Ì†ΩÌ∫Ä Ì†ΩÌ∫Ä Ì†ΩÌ∫Ä 
+üöÄ üöÄ üöÄ üöÄ üöÄ 
 
 [17:02:14](#mi9-sVCuwcGqEcfwH7CMyoMl9ofmNjb0jVuvxf42UsY) <ldci (Fran√ßois Jouen)>:
 @dockimbel Great news :)
@@ -34029,7 +34029,7 @@ In this scenario, I have connected "kickstarting" to the action of a new funding
 ≈ßhe important word being here is `would`: "That is not satisfying at all and *would* bring us most likely to a dead-end as we exhaust our funding". Read it as: if we would chase too many goals we'll never reach 1.0.
 And `kickstart`in the next sentence doesn't have anything to do with Kickstarter, if it would would, Kickstarter would be specifically mentioned.
 
-BTW, this has nothing to do with Kickstarter either Ì†ΩÌ∏É https://en.wikipedia.org/wiki/Kickstart_(Amiga)
+BTW, this has nothing to do with Kickstarter either üòÉ https://en.wikipedia.org/wiki/Kickstart_(Amiga)
 
 [8:10:39](#CIvO8vSqJL2hlaShaLtGZkAcgv8T42QpKaCvawlNMFY) <qtxie>:
 @ldci Should be no impact on redCV.
@@ -34063,10 +34063,10 @@ and:
 
 
 [11:39:58](#0hsLgTU0Gmn99a6l_xKuS1asUnDEz7kuJQI0dW-eIZc) <hiiamboris (NOT THIS ONE)>:
-Read it as "kick something so it starts moving" Ì†ΩÌ∏â
+Read it as "kick something so it starts moving" üòâ
 
 [11:40:44](#0CNXTNH12Ep0ZqLrAIhbBpths0_nm2LjlvlVUpDdXOc) <hiiamboris (NOT THIS ONE)>:
-Like a rusty car Ì†ΩÌ∏â
+Like a rusty car üòâ
 
 [12:59:26](#JLODdydwJWmDKNvpjOWHQi0WPGeN8XLJdmqZ0J0pUco) <planetsizecpu (Jose Luis)>:
 Good news! much encouragement @TheRedTeam
@@ -34087,7 +34087,7 @@ Though, I think I figured out a way to keep the locally bound routines and local
 @planetsizecpu Thank you for your kind support!
 
 [15:20:25](#0Fh9xhJC_SFDaHY9EcpRGv_bgzePFYZ8o8ljz5W4VTI) <dockimbel>:
-View/64 is scheduled for v1.1. We can eventually reconsider including View into 1.0 once we get to 1.0-beta, but release a 1.0 asap and getting View/64 2-3 months later is not a big deal. It will let newcomers master the core language before getting into GUI building. Also, that gives us a double opportunity for PR. Ì†ΩÌ∏â 
+View/64 is scheduled for v1.1. We can eventually reconsider including View into 1.0 once we get to 1.0-beta, but release a 1.0 asap and getting View/64 2-3 months later is not a big deal. It will let newcomers master the core language before getting into GUI building. Also, that gives us a double opportunity for PR. üòâ 
 
 [15:25:02](#QbDP4fTD-lVC5MrYm23P95kYNwp1Pp7QLudiILnVQJA) <ldci (Fran√ßois Jouen)>:
 Thanks Nenad for precisions
@@ -34378,7 +34378,7 @@ I have used Red as "glue" and data processors of the data sets.
 I'm pretty sure I advised you to add your case to https://github.com/red/red/issues/5123 at that time.
 
 [10:52:00](#43zjFZtynhaa3n20tnOUKgV_rxeprV_PKGjGeQuDBiw) <GiuseppeChillemi (GiuseppeChillemi)>:
-@hiiamboris In Red/Help you only gave the "super badass" suggestion for deep coping objects! Ì†ΩÌ∏â
+@hiiamboris In Red/Help you only gave the "super badass" suggestion for deep coping objects! üòâ
 
 [10:52:09](#PR24ANmm4ah7s8BNM1sfOl_Ewvc78F3JpFhrJREZHMY) <GiuseppeChillemi (GiuseppeChillemi)>:
 * @hiiamboris In Red/Help you only gave me the "super badass" suggestion for deep coping objects! ;-)
@@ -34439,7 +34439,7 @@ I don't see where it could be the problem, apart having them on inside Red, mean
 * I don't see where it could be the problem, apart having them  inside Red, means you have to recompile if you need some modifications.
 
 [9:56:44](#V1VrOgrrc5IT3yxZH8JjE2w_gNM1L0BlKCgwdCUmJOk) <hiiamboris (NOT THIS ONE)>:
-Hmm looks like design abuse to me Ì†ΩÌ∏â Too small things for a codec. And do you expect `save` & `load` to support these too?
+Hmm looks like design abuse to me üòâ Too small things for a codec. And do you expect `save` & `load` to support these too?
 
 [9:57:04](#xdjBQixOFRrtyOQ_a8cZIjW3Lqs7tqs7O2XpJpzKU44) <hiiamboris (NOT THIS ONE)>:
 Date formats are in the formatting PR btw.
@@ -34471,7 +34471,7 @@ Why enbase and debase can't support Base64url? Isn't it a good fit here?
 [10:08:32](#mVI-109S8gmWvUNq9jSyclshe0eTzqyajG_6AWRU5k4) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 And a module/function, which uses the codec extensively may use something like:
 ````
-qp-decode: Ì†ΩÌ∏ñystem/codecs/quoted-printable/decode
+qp-decode: üòñystem/codecs/quoted-printable/decode
 qp-decode some-data
 ```
 
@@ -34487,7 +34487,7 @@ No, scanning is a task for another day.
 @pekr it can and it should, but Red development has lags in accepting pull requests.
 
 [10:17:45](#iy9k11BagylNTWALokXW06ELaw6BVkZFi1qEiiDCRf4) <dockimbel>:
-> Hmm looks like design abuse to me Ì†ΩÌ∏â Too small things for a codec. And do you expect `save` & `load` to support these too?
+> Hmm looks like design abuse to me üòâ Too small things for a codec. And do you expect `save` & `load` to support these too?
 
 I agree. The purpose of codecs is to add a conversion layer for data (de)serialization when doing I/O.
 
@@ -34526,7 +34526,7 @@ I am interested because I have this kind of structure:
 
 ```
 make object!  [
-   Ì†ΩÌ∏úrotected
+   üòúrotected
    clear:  func [] [clear head data]
    append: func [] [....]
    pick: func [] [....]
@@ -34964,7 +34964,7 @@ For the actions to be used, I don't have preference. Just use what provide by po
 * Sarah Connor's quote
 > There's no fate but what we make for ourselves 
 
-Ì†ΩÌ∏Å
+üòÅ
 
 
 
@@ -35014,7 +35014,7 @@ Of course, for the TCP ping-pong, you need IO console and Red repo with the demo
 I don't know what is RBDT:)
 
 [13:44:12](#MJJRtFzMeqnbkBcEFa6SqhnGWWigEtY9_eSyBX6kTp8) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
-It is a Really Big Data Transfer imo Ì†ΩÌ∏É
+It is a Really Big Data Transfer imo üòÉ
 
 [21:44:16](#GUqLDZ5_T51nad4f9RkUV0sfdWPBJOYe13a3UYpYh0k) <XANOZOID (X.A.N.O.Z.O.I.D.)>:
 I saw there's a bson format, per in rebolek's red-tools. . . There should be something like for Red, probably called bred (bread) lol
@@ -35094,7 +35094,7 @@ you seem correct, it's a stale build of master branch
 We plan to have consoles directly downloadable and toolchain auto-downloaded on demand.
 
 [10:22:58](#BcWjJJHxHB6CGZvYCfjVSQ9P54t7HENKIt2q2klmwqo) <hiiamboris (NOT THIS ONE)>:
-No worries Ì†ΩÌ∏â
+No worries üòâ
 
 [10:25:38](#JXdAIGsQGCytuZnau89eNQ1xBc47XqtRs3VAIfd6iuw) <meijeru (Rudolf Meijer)>:
 What about my earlier question about the IO branch console builds? Those are very interesting for me (and others, I suppose) to test.
@@ -35202,7 +35202,7 @@ am i correct in assuming that if i want both the console and the compiler, then 
 EDIT: nvm i downloaded all 3
 
 [14:34:58](#rd09M6BrvFZchkevG6WNvJSB9zLUwGbgK4KI42hQOCY) <nc-x (nc-x)>:
-Ì†ΩÌ±ç
+üëç
 
 ## 1-Aug-2022
 
@@ -35297,7 +35297,7 @@ FYI:
 :+1:
 
 [23:45:31](#TM2GD-RFfC--4X1NiHIWaltnGA5gWIC0FVus7iH5wCw) <cloutiy (yc)>:
-AmazingÌ†ΩÌ¥•
+Amazingüî•
 
 ## 2-Aug-2022
 
@@ -35305,7 +35305,7 @@ AmazingÌ†ΩÌ¥•
 @dockimbel I think most `red` command lines should be replaced with `red-toolchain`
 
 [7:45:49](#rVhXNj76SRb6SHIlhiwM2lt1fCVmy6t85YrCi1VHp2s) <meijeru (Rudolf Meijer)>:
-Impressive! This will give people a much better impression of what is/will be available, and will help to build confidence in the project. Small nag: the links at the bottom of the download page still lead nowhere Ì†ΩÌ∏â.
+Impressive! This will give people a much better impression of what is/will be available, and will help to build confidence in the project. Small nag: the links at the bottom of the download page still lead nowhere üòâ.
 
 [8:03:13](#e9cRFo3jWJ-Xm_75qZxOZHE3VtE0e6LWv0bXqDYZg9I) <hiiamboris (NOT THIS ONE)>:
 ![](https://i.gyazo.com/c07b5e4de53cfecda0b1f5b47aa575d2.png) site's logo has become pixelated
@@ -35552,7 +35552,7 @@ https://dev.to/kobayu/my-red-story-3-converting-legacy-japanese-encoding-to-utf-
 @koba-yu Nice! I have a [codepage convertor](https://gitlab.com/rebolek/castr/-/blob/master/codepage.red) that I use for reading web pages, it supports 10 non-CJK codepages, maybe I can add your conversion table to it to support more languages.
 
 [11:13:29](#cRo1isLx7Hl8bms5avp5FkJltDoQdu6X9spXbgtHtws) <koba-yu (koba-yu)>:
-@rebolek Thank you. I‚Äôll check your repo too. Feel free to use my conversion table! Ì†ΩÌ∏Ñ 
+@rebolek Thank you. I‚Äôll check your repo too. Feel free to use my conversion table! üòÑ 
 
 [11:13:44](#hy-48XoWfeOdY-f8MhCnz9CEAyCEtNTeVPav_lfuEp4) <ldci (Fran√ßois Jouen)>:
 @koba-yu You‚Äôre welcome
@@ -35561,13 +35561,13 @@ https://dev.to/kobayu/my-red-story-3-converting-legacy-japanese-encoding-to-utf-
 @koba-yu That's great, thanks for sharing it! :+1:
 
 [13:05:17](#80P48_vEPYqVyv3c-oTrOAaoQrAzvaxLZDE3q-B0RdY) <koba-yu (koba-yu)>:
-@dockimbel Thank you! I am so glad if you like it. Ì†ΩÌ∏Ñ 
+@dockimbel Thank you! I am so glad if you like it. üòÑ 
 
 [18:13:38](#LVMAW28XytYSn9Sl55gCUuzYW3ADabSA6vXbaUTYtzY) <greggirwin (Gregg Irwin)>:
 Great article @koba-yu. :+1:
 
 [21:46:21](#IoAgFlT4xvS4Pz41aRviRQOJjA6FMPGjKzgJmw6Wo9s) <koba-yu (koba-yu)>:
-@greggirwin Thanks Ì†ΩÌ∏Ñ 
+@greggirwin Thanks üòÑ 
 
 ## 7-Aug-2022
 
@@ -35883,7 +35883,7 @@ I only tested with Rebol2, as that's were our back UX comes from. I think none o
 I don't want to turn off advancement checking.
 
 [22:25:31](#Tr1Y-bKNTcu0Z8MNbTc4mT_iT4VGCHc3z7e9OMeBgEc) <hiiamboris (NOT THIS ONE)>:
-OK later Ì†ΩÌ∏â Ì†ΩÌ≤§ 
+OK later üòâ üí§ 
 
 [22:31:13](#0QTVZoFvhTddDPAAXs3iPgL9_1sD0UoR3apZ5aNlbTE) <dockimbel>:
 > But it will stop anyway without the end check, no?
@@ -35969,7 +35969,7 @@ I'm giving it a try to fix `split` (not written by me).
 got bigger issues... console says not a red program on every file given
 
 [12:27:56](#mXQK8oHu7oAsXJBUsM__h8ERsnWQ9BI6pclgRdpT4Ao) <hiiamboris (NOT THIS ONE)>:
-detection was parse-based IIRC Ì†ΩÌ∏É
+detection was parse-based IIRC üòÉ
 
 [12:28:54](#AHWRaPeEnyHtHdvbMgfAJ0LxMytdQS26zmsX_nJS0rA) <hiiamboris (NOT THIS ONE)>:
 `do-file` is broken as well
@@ -36083,7 +36083,7 @@ found!
 Yeah I figured the issue out. It was entering `some` again and setting `src:` to the tail. And that failed `load`.
 
 [12:30:19](#G44qJZFRkuK6c2oxhQHIxD_iAWVkkyzQY56dVoqmbRk) <hiiamboris (NOT THIS ONE)>:
-Shouldn't ever write such messy rules again Ì†ΩÌ∏É
+Shouldn't ever write such messy rules again üòÉ
 
 [12:32:17](#QEFTaavCmxg83ZHYczB6spB9NAZ_Z0uEQAT4U73BDgU) <hiiamboris (NOT THIS ONE)>:
 There's some unrelated regression, but I nailed it to be in `master`.
@@ -36097,7 +36097,7 @@ I've fixed the CSV rules, will push the fix in a few minutes.
 [12:34:44](#KEshcl1exIuXzM0XhDPpBhfQ3481ApuTtSr9uGGe0Kw) <hiiamboris (NOT THIS ONE)>:
 > AFAICT, it's the worse Parse rule I ever wrote.
 
-It's a collective effort, as I recall bringing those rules to a common denominator across 3 locations Ì†ΩÌ∏â
+It's a collective effort, as I recall bringing those rules to a common denominator across 3 locations üòâ
 
 [12:36:02](#_mIARYLOZDeGaC1USrfgis5HeBAO-Qw5iO4xsdksMF4) <dockimbel>:
 * AFAICT, it's the worst Parse rule I ever wrote.
@@ -36171,10 +36171,10 @@ Does it matter where is it located?
 Not really, but the current arrangement is a bit too arbitrary for my consistency-loving mind: one major module (`View`) as only folder inside `/modules`, two largish codecs as "modules" inside `/environment/codecs` and the other codecs not listed in `%modules.r` (why not?).
 
 [18:03:03](#9RzDQdQDgWyWZT6qoJiHzkDmf5QYVN_644_HMr8ow64) <hiiamboris (NOT THIS ONE)>:
-Evolution is wayward Ì†ΩÌ∏â Until mind interferes, when the time is due.
+Evolution is wayward üòâ Until mind interferes, when the time is due.
 
 [18:55:26](#_PG90xv93_fhmh3l6d_tOmEGbSRiYn2xlzN98GoS7Tg) <meijeru (Rudolf Meijer)>:
-I suppose due time is 1.0 Ì†ΩÌ∏â
+I suppose due time is 1.0 üòâ
 
 [19:04:30](#T29nLOeBfVnG9sPIP6LvvfQEqNSx3ncl8r4_gKOGG4M) <dockimbel>:
 @meijeru Currently those "modules" are only meant for handling optional parts in the Red runtime. Such optional part can be located anywhere in the codebase. For parts that don't fit anywhere else, we put them in that `%modules/` folder. All that is temporary until we get proper "modules" definition and a module/package manager.
@@ -36208,7 +36208,7 @@ Interesting! I have something similar, which was the reason of my recent  post ‚
 It is in a `%init.red` file that is argument to my copy of the executable. So it is executed whenever I start Red. It puts the question: you are xx builds behind, do you want to download the last one? Are you interested in the source?
 
 [18:36:34](#P3NfY7oC-OZe9qgTlVX3Lq6IpzM6GPvNsAN-KNHFK3Y) <hiiamboris (NOT THIS ONE)>:
-I see. Need really fast internet for that kind of check at every run Ì†ΩÌ∏â
+I see. Need really fast internet for that kind of check at every run üòâ
 
 [18:38:29](#dtggnoddmT_cDfM0YpoQsl1ffKSLMXlMdLBn7pl3zuA) <meijeru (Rudolf Meijer)>:
 I have, luckily. The main code is as follows:
@@ -37312,7 +37312,7 @@ I'm against `+=, *=, etc.`  1) They are historical artifacts better served in ot
 They work fine technically, but *look* like `set-word!`s. Like some series-related dialects for ordering operations (`pipe, walk`), I think there may be a better way.
 
 [21:57:08](#Vt7WsMqx44zzbChbHmFjx1ceMPRj5jiJG_mUlmLYpQc) <hiiamboris (NOT THIS ONE)>:
-Of course. Better way is computer should do this for humans. Not the other way around Ì†ΩÌ∏â
+Of course. Better way is computer should do this for humans. Not the other way around üòâ
 
 [21:58:15](#5zpQ6KBsMMphoJthI5t6emvMuQ6T-gW2qxGkYObZw6c) <hiiamboris (NOT THIS ONE)>:
 * Of course. Better way is computer should do this (`x: x + a` -> `x +: a`) for humans. Not the other way around ;)
@@ -37406,7 +37406,7 @@ It's totally not an example of a *simple* or *efficient* stylesheet. Sometimes i
 Here's how it looks on it's test script:
 ![](https://codeberg.org/hiiamboris/media/raw/branch/master/spaces/demo-glossy-test.gif)
 
-Test also [shows](https://codeberg.org/hiiamboris/red-spaces/src/commit/c079d3052bc655153cb12be0b59cb9ec54bbab69/tests/glossy-test.red#L10) how to include it properly Ì†æÌ¥∑. 
+Test also [shows](https://codeberg.org/hiiamboris/red-spaces/src/commit/c079d3052bc655153cb12be0b59cb9ec54bbab69/tests/glossy-test.red#L10) how to include it properly ü§∑. 
 
 And here's Red Inspector with it included (though Inspector declares it's own styles which replace those from the stylesheet so it's not fully styled):
 ![](https://i.ibb.co/0YJTpcw/GIF-20-Aug-22-15-29-52.gif)
@@ -37422,7 +37422,7 @@ It's totally not an example of a *simple* or *efficient* stylesheet. Sometimes i
 Here's how it looks on it's test script:
 ![](https://codeberg.org/hiiamboris/media/raw/branch/master/spaces/demo-glossy-test.gif)
 
-Test also [shows](https://codeberg.org/hiiamboris/red-spaces/src/commit/c079d3052bc655153cb12be0b59cb9ec54bbab69/tests/glossy-test.red#L10) how to include it properly Ì†æÌ¥∑. 
+Test also [shows](https://codeberg.org/hiiamboris/red-spaces/src/commit/c079d3052bc655153cb12be0b59cb9ec54bbab69/tests/glossy-test.red#L10) how to include it properly ü§∑. 
 
 And here's Red Inspector with it included (though Inspector declares it's own styles which replace those from the stylesheet so it's not fully styled, and has a glitch with `hscroll`):
 ![](https://i.ibb.co/0YJTpcw/GIF-20-Aug-22-15-29-52.gif)
@@ -37441,7 +37441,7 @@ It's totally not an example of a *simple* or *efficient* stylesheet. Sometimes i
 Here's how it looks on it's test script:
 ![](https://codeberg.org/hiiamboris/media/raw/branch/master/spaces/demo-glossy-test.gif)
 
-Test also [shows](https://codeberg.org/hiiamboris/red-spaces/src/commit/c079d3052bc655153cb12be0b59cb9ec54bbab69/tests/glossy-test.red#L10) how to include it properly Ì†æÌ¥∑. 
+Test also [shows](https://codeberg.org/hiiamboris/red-spaces/src/commit/c079d3052bc655153cb12be0b59cb9ec54bbab69/tests/glossy-test.red#L10) how to include it properly ü§∑. 
 
 And here's Red Inspector with it included (though Inspector declares it's own styles which replace those from the stylesheet so it's not fully styled, and has a glitch with `hscroll`):
 ![](https://i.ibb.co/0YJTpcw/GIF-20-Aug-22-15-29-52.gif)
@@ -37464,7 +37464,7 @@ Shadows and animations also.
 * @dockimbel Should be easy enough (it's just font and color choices, some offsets maybe too). But MD has a lot of high level widgets not yet implemented by me. Also shadows do not work yet in Draw.
 
 [12:51:58](#3cJXA0HhHuG9sd0K1tsQIQdieJKsbIKwbT0r1kREhCQ) <hiiamboris (NOT THIS ONE)>:
-Animations are TBD for now Ì†ΩÌ∏â
+Animations are TBD for now üòâ
 
 [16:36:24](#LPwBxjBsxlk80027exUpscEvWJcQrD4sV_MpXNRWHjI) <greggirwin (Gregg Irwin)>:
 Great work @hiiamboris. 
@@ -37478,7 +37478,7 @@ Amazing! I could see using Spaces for my slideshow program if I port it to Red.
 re Animations - let's not forget, there is a PR for a complex VID animation system already, where lots of effort was put into ....
 
 [7:22:27](#eF9-aUsbe-5JOghMXqZi6Z4bHvUBDLX9A_-TewNdDvI) <hiiamboris (NOT THIS ONE)>:
-@Respectech if images were garbage collected Ì†ΩÌ∏â
+@Respectech if images were garbage collected üòâ
 
 [15:23:43](#9h2tXILfAImHTlQdD7YPxVwZf955KwLrLT9P3oQyN1A) <GiuseppeChillemi (GiuseppeChillemi)>:
 About the design of `pick` and ordinal and returning `none` or error, I have found this: http://www.rebol.net/r3blogs/0008.html
@@ -37565,7 +37565,7 @@ just short date
 So why we need `format`. :^)
 
 [19:01:20](#qniASr0GkdZZ98O1FdYTDZKbkyR6esWwkOXH0pddWDs) <hiiamboris (NOT THIS ONE)>:
-indeed Ì†ΩÌ∏â
+indeed üòâ
 
 [19:01:51](#O9IGnareOTeat_1L6XMbRZXeQKu1GMnYcauo74Pr_5g) <hiiamboris (NOT THIS ONE)>:
 lol those abbreviations are so for humans... remind of our formats discussions
@@ -37598,7 +37598,7 @@ I'll try doing it outside Tortoise.
 That seems to have fixed it.
 
 [19:38:06](#BCgg0vh5VUyuk_EC-RE2ffC9fcXlN0K4dQuj3JvtWME) <hiiamboris (NOT THIS ONE)>:
-Never believe when they say Reboot, unless it's a driver Ì†ΩÌ∏â
+Never believe when they say Reboot, unless it's a driver üòâ
 
 [19:38:22](#L-hkT5DFK2IRDvFDZaU_Mi3MIJ38EN0Sv6bWxIJPunM) <greggirwin (Gregg Irwin)>:
 Agreed.
@@ -37993,7 +37993,7 @@ Test results are as comment at the end of the [gist](https://gist.github.com/Giu
 Note: I don't know how to write faster loops than those in the gist or if parse has some special r/s optimizations and would be faster.  It's your turn to show if a speed up is possible,  I have reached my actual limits.
 
 [7:43:53](#w9WdrwDR70pG6uQeyckCV3oPaFrsKPifxA5lreLB4Oo) <hiiamboris (NOT THIS ONE)>:
-Giuseppe and his profiling results Ì†ΩÌ∏â
+Giuseppe and his profiling results üòâ
 
 [7:44:37](#JykgKGqyQcrjvP7WuAnqXXzqr8D_G0QL73fHc5yXKps) <hiiamboris (NOT THIS ONE)>:
 Your random string is not copied btw.
@@ -38311,7 +38311,7 @@ MS once contacted me when I reported someone, for more clues.
 Oh but that was when I reported user's page, not the message.
 
 [7:30:44](#0oXSsS3FU1b1dmFsiEoAMjuAXGx0DxddFUBD8ppBJcw) <hiiamboris (NOT THIS ONE)>:
-As gitter is matrix's toy now, I doubt it's "report" button is even connected to anything Ì†ΩÌ∏â 
+As gitter is matrix's toy now, I doubt it's "report" button is even connected to anything üòâ 
 Especially since with OAuth2 most accounts are not on the gitter itself.
 
 [7:31:35](#DU9tnDv02oEWI4bHw7xs6OK6u-vmvTxqL8x2dU7-v1M) <hiiamboris (NOT THIS ONE)>:
@@ -38409,7 +38409,7 @@ Hello, I wanr to contribute to the red project. So I try to compile it but I hav
 * Hello, I want to contribute to the red project. So I try to compile it but I have a 64bit Mac, so rebol does not start on it. Have someone an idea, how to solve this problem ?
 
 [9:52:08](#s4TqulKDOR5bQIfdTpO2one_E80r95avTdThr-UA68Q) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-@bgrossot unfortunatelly, Red doesn't support 64bit Ì†ΩÌ∏ü But you can use docker for example, that's what I'm using.
+@bgrossot unfortunatelly, Red doesn't support 64bit üòü But you can use docker for example, that's what I'm using.
 
 [10:00:35](#En0QOnJ1TTL9EMClxTTb18wkTe-TagZVU4259if9vAY) <bgrossot (bgrossot)>:
 I will use virtualbox and linuxmint, hope it works
@@ -38643,7 +38643,7 @@ or `append copy "hello" " world!"` which is what one wanted
 Reason I'm asking is because even C now in this aspect is higher level than Redbol. Modern compilers put literal arrays into read-only memory (even deduplicate them).
 
 [12:33:08](#TDgbf_eUHy13wmRdWe6-SUW0S5fPSJUVOpGwHCQHdFw) <hiiamboris (NOT THIS ONE)>:
-And if anyone asks "why Redbol's designed like this" I don't have an answer Ì†ΩÌ∏â
+And if anyone asks "why Redbol's designed like this" I don't have an answer üòâ
 
 [12:33:16](#Y5IbymG6qqyKtA5V6JmHxZfp-gWKzUwnwxsv6xwuxKw) <dockimbel>:
 So a C literal array is equivalent to a Redbol series?
@@ -38675,7 +38675,7 @@ Of course, C won't resize it for you.
 Then we are wasting time building Red, we should drop it and use C instead, as that's pretty much the same thing, right?
 
 [12:35:55](#vJzUVswawqGGGUz6BcuR9QApJvXYLZ7ndcihuZhzI9M) <hiiamboris (NOT THIS ONE)>:
-That's not constructive Ì†ΩÌ∏â
+That's not constructive üòâ
 
 [12:36:34](#usjJGLlSFVpkArldovkKDqGjA8ZlTfXvqYjlLjIhrJU) <dockimbel>:
 Nor is your C example as an answer to my question.
@@ -38805,7 +38805,7 @@ I was right... Ren-C from year 2019
 * I was meaning in the immutable literal series scenario by default. See, that would not solve the "need to explain why copy", just shift it to another place.
 
 [13:07:17](#mfqvSzelBZp6NTlzoTD-ARcT74ml5tQYQa0aRxbaCY8) <hiiamboris (NOT THIS ONE)>:
-Great. Now I need to find his design ramblings about that Ì†ΩÌ∏â
+Great. Now I need to find his design ramblings about that üòâ
 
 [13:07:19](#tLkvSZU_-VxUWU5u06HJ2wfannF0GTVoHHECQd32jJc) <dockimbel>:
 * Practical (scenario: all literal series are immutable by default):
@@ -38913,7 +38913,7 @@ Binding is the biggest issue. All context bodies and all function bodies will ha
 
 Load-modify-save cycle is switched to Redbin because otherwise it's too limited. Redbin doesn't have to lock anything. So that is ruled out as well.
 
-And are those few megabytes worth the bugs they cause? I can for example recall a bug when `react` was binding it's paths in place, leading to very hard to debug situations. So don't tell me that pros don't make mistakes Ì†ΩÌ∏â They make more because they write much more code, and often they are caused by refactorings when code was designed for one case but was extended for another.
+And are those few megabytes worth the bugs they cause? I can for example recall a bug when `react` was binding it's paths in place, leading to very hard to debug situations. So don't tell me that pros don't make mistakes üòâ They make more because they write much more code, and often they are caused by refactorings when code was designed for one case but was extended for another.
 
 [15:10:30](#FTgRfaAaxfGIDmT9RS7gKwVjqhClj-Ce4bq-lziKpXE) <hiiamboris (NOT THIS ONE)>:
 `do with [contexts] [code]` will require a `copy` or `unlock`, which is a pity for "blazing fast" code. Can be worked around with compose, but that loses readability. 
@@ -38979,7 +38979,7 @@ My point still stands: the user will be baffled by such error. Why do `"hello"` 
 [16:24:23](#bMJ355iw0Q87ET3Pup4dINHFZ2ImAoLkKFA61BuhfRg) <dockimbel>:
 > Console will be affected, but console could go one step further and unlock everything it loads, so no issue there.
 
-So the console would run a different language than the one used when launching a script directly from the shell? Sounds great! Ì†ΩÌ∏â
+So the console would run a different language than the one used when launching a script directly from the shell? Sounds great! üòâ
 
 [16:24:39](#WJLaDlwU25SENslGyqy0dBCkVpty_fbq0bisDB-2zUQ) <dockimbel>:
 > Load-modify-save cycle is switched to Redbin because otherwise it's too limited. 
@@ -39044,10 +39044,10 @@ a/push "hi"
  would work from the console and error out otherwise. 
 
 [17:02:59](#-yxUg4ibe9sYTBJmR7RSgH68opE56Ad_9Bw8oA2ovk0) <hiiamboris (NOT THIS ONE)>:
-Same as `#include %file` works from the script, but not from the console Ì†ΩÌ∏â
+Same as `#include %file` works from the script, but not from the console üòâ
 
 [17:03:14](#7OswAylINpt3PPXf0Lo8abs9A4j_hBTIenJZcSy2Ro8) <hiiamboris (NOT THIS ONE)>:
-I hope it's an oversight though, yes? Ì†ΩÌ∏â
+I hope it's an oversight though, yes? üòâ
 
 [17:04:59](#qN4_IBWgrkWGZrN3keup2Es3VeNZ-gkg22T5azw3M4I) <dockimbel>:
 Compiler directives have no meaning from the console.
@@ -39086,7 +39086,7 @@ Sure, make a good case for them, so we can review that during the language specs
 :+1:
 
 [18:05:03](#95rK-JOOzVBqe7BVQzUlWkcCysw5zINwG1WYCNUoVIs) <dockimbel>:
-You want to break Red to make literal series immutable for the sake of beginners not having to learn the basics of code/data equivalence, but are happy to promote macros... that's almost contradictory, you know. Ì†ΩÌ∏â
+You want to break Red to make literal series immutable for the sake of beginners not having to learn the basics of code/data equivalence, but are happy to promote macros... that's almost contradictory, you know. üòâ
 
 [18:06:07](#cXnF8nJU-P_6QufDHldhs9EZhW6EXc25B5TZxp8C5F8) <hiiamboris (NOT THIS ONE)>:
 :)
@@ -39192,7 +39192,7 @@ Thanks for the input @Dobeash. :+1:
 I like your notes greggirwin (Gregg Irwin).  I'm a newbie, so not entitled to strong opinions yet, but I think the burden of proof should be on anyone who thinks Red should change (when it comes to fundamental design features) - otherwise all languages will end up the same and we may as well give up on Red.
 
 [7:07:34](#qpU8LpKgKREPTYOHE7t4aOTkXjf6bOqN7TWQsHGxKlo) <hiiamboris (NOT THIS ONE)>:
-@greggirwin relax Ì†ΩÌ∏â nobody questioned general mutability
+@greggirwin relax üòâ nobody questioned general mutability
 
 [8:12:48](#BnGxtU8UIzwIuuCUk4fojf9TDjzgqT_xI7BIkV-7Wn8) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
 For those eventually following this topic - I do remember Carl debating himself, if the outcome of async ports is what ppl really wanted, or it breaks a simplicity. Even with non async stuff, you could still multiplex upon multiple ports.
@@ -39223,7 +39223,7 @@ I need to study the source to find an appropriate name.
 * How do you call the world where objects are created, and so functions. I mean where they are no more in data form but in their "active" (after `make`) one. I have always searched for a definition without success.
 
 [17:15:21](#I1kvbAxndLV_FAhvPiPTcm33w63rV8UwzrHt84epUBs) <greggirwin (Gregg Irwin)>:
-> And if anyone asks "why Redbol's designed like this" I don't have an answer Ì†ΩÌ∏â
+> And if anyone asks "why Redbol's designed like this" I don't have an answer üòâ
 > ...the question of justification (what we gain/lose) stands.
 I'd like to have the answers for myself if nothing else. Right now it seems like it was just a simpler thing to do.
 
@@ -39264,7 +39264,7 @@ But you can't evaluate anything without values, which have to be loaded. I under
 Where does that put construction syntax? 
 
 [17:28:49](#7WeI8jZTd6KngxtPst3Q-ytnOs2YPwDs4LRELH-g3iI) <hiiamboris (NOT THIS ONE)>:
-We don't have construction syntax Ì†ΩÌ∏â
+We don't have construction syntax üòâ
 
 [17:30:15](#BXrGt3HY123Jx-KPHYpFbLSRzNIQpASuJaJTGRYnSSo) <greggirwin (Gregg Irwin)>:
 We do (arguably) for a few values, and I think it's still worth considering in general.
@@ -39401,7 +39401,7 @@ context [
         /local tmp
     ][
         if any [none? data  none? time-mark  time-since-mark > 00:00:30] [
-            if on-change [tmp: copy/deep Ì†ΩÌ∏Éata] ; copy/deep is important here.
+            if on-change [tmp: copy/deep üòÉata] ; copy/deep is important here.
             data: load-all-configs
             set-time-mark
             if all [on-change  not-equal? mold tmp mold data] [do action]
@@ -39592,7 +39592,7 @@ The "easy" question and task is whether we change `map!` syntax from `#()` to `#
 [20:22:30](#iSQSmu_6Rp-L-2N3qkrMKRnJrryEUUf0SrjDLSaEyC0) <hiiamboris (NOT THIS ONE)>:
 > @rebolek did an experimental simple structured editor called "Value" a few years ago.
 
-Except his editor can't possibly edit a live system unless edits can be loaded without breaking it Ì†ΩÌ∏â
+Except his editor can't possibly edit a live system unless edits can be loaded without breaking it üòâ
 
 [20:22:52](#As3C1q-VJ71Z080L0Ny_ZxAhvubF7l1hdTKphgS7uk4) <hiiamboris (NOT THIS ONE)>:
 Which takes us to the beginning again.
@@ -39661,7 +39661,7 @@ Anamonitor was not, IIRC, though I played with that in my old Object Browser in 
 [20:42:50](#3ij0Ckl2SHFtiWMS3xKpkpZB7QTLP6vkbysb3xeZ4-U) <hiiamboris (NOT THIS ONE)>:
 > I don't get what you mean there by "breaking it"
 
-Again I must point you to [the comment](https://github.com/red/red/issues/4126#issuecomment-902281364) Ì†ΩÌ∏â
+Again I must point you to [the comment](https://github.com/red/red/issues/4126#issuecomment-902281364) üòâ
 I can imagine limitless scenarios, from editing a live View face (how do you edit a handle?), to a block with references to live series, to infinitely more complex data structures interlinked with each other and the live system.
 
 [20:43:06](#mBxEwsCdTw4BQVxVQNKjiEIPHAhvj4v72iLzgewqE30) <dockimbel>:
@@ -39711,7 +39711,7 @@ I don't see where's the problem there. You have a block with two values, each va
 Hmm I see your point now too.
 
 [21:03:23](#RW0oTJbJOzFMerjjUA_lyHHCGd4ApJLRoObZmMP-S9I) <dockimbel>:
-The real challenge is the bijective text<=>values mapping. Ì†ΩÌ∏â That can be "easily" solved in a classic static language, but that's a real challenge for Redbol.
+The real challenge is the bijective text<=>values mapping. üòâ That can be "easily" solved in a classic static language, but that's a real challenge for Redbol.
 
 [21:05:44](#vxZPOivXZzWI8dJukodRCLJQnfwcTHTX-Gmk34slMoA) <dockimbel>:
 * The real challenge is the bijective text<=>values mapping. ;-) That can be "easily" solved in a classic static language, but that's a really difficult task for Redbol.
@@ -39726,7 +39726,7 @@ The real challenge is the bijective text<=>values mapping. Ì†ΩÌ∏â That can be "e
 Just stores the address of each loaded token, or there's more to that?
 
 [22:42:36](#dHr0MlPII_NFCkm7nr3WI1inCMqQwgUgLSio2Ylk1kk) <dockimbel>:
-The compiler is written in Rebol, the loaded R/S is Rebol data, no access to any address. Ì†ΩÌ∏â
+The compiler is written in Rebol, the loaded R/S is Rebol data, no access to any address. üòâ
 
 [22:42:43](#-ZKVZlN6P_oJaAbvrhAKfpcK9qLekerV4kK1PrdxH3Y) <dockimbel>:
 * The compiler is written in Rebol, the loaded R/S is Rebol data, no access to any memory address. ;-)
@@ -39781,7 +39781,7 @@ I don't think ASON will materialize from nowhere. I take it that Carl had nice C
 @Oldes I agree with you
 
 [8:40:22](#9g8jFt75KtYf_LaeCwrDSkqyTkXRuirLysHr21ia0FU) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
-I think so too, but creating next gen version of JSON is tempting. And who knows, it might got adopted Ì†ΩÌ∏â IIRC, we had in ming a REN specification, which was supposed to have similar goals, no?
+I think so too, but creating next gen version of JSON is tempting. And who knows, it might got adopted üòâ IIRC, we had in ming a REN specification, which was supposed to have similar goals, no?
 
 [9:31:44](#hBdqFgkHBwqWdZ4WTvKr0ljCi6eVZOQkbLjf5ZT8dlI) <dockimbel>:
 > Carl sure learned his mistake.
@@ -39802,7 +39802,7 @@ I very much doubt that. Such _de facto_ standards like JSON are born out of empi
 true
 
 [10:12:09](#zxsRaLMUxOn2Ac9V_bJMLOimenA_xv1lHGLEquUdYhc) <dockimbel>:
-Carl's ASON website and concepts are...weird. He turned his back on many of his principles (e.g. using WordPress instead of MakeDoc...), which by itself looks very odd. Most of the features and the _ad populum_ justifications seems like he was either drunk as Oldes said, or someone else was holding the pen while he was writing, or it was an attempt at pranking the Rebol-derivated projects to lure them away. Ì†ΩÌ∏â Though, the scope of AltScript, from the few things Carl mentioned when I last met him, was specific to embedded systems and close-to-OS (maybe even in-kernel) usage. He gave up on the series concept and focused on resource optimization. The semantics and syntax are not compatible with Rebol. So, it's even further away from Rebol than what MicroPython is to Python.
+Carl's ASON website and concepts are...weird. He turned his back on many of his principles (e.g. using WordPress instead of MakeDoc...), which by itself looks very odd. Most of the features and the _ad populum_ justifications seems like he was either drunk as Oldes said, or someone else was holding the pen while he was writing, or it was an attempt at pranking the Rebol-derivated projects to lure them away. üòâ Though, the scope of AltScript, from the few things Carl mentioned when I last met him, was specific to embedded systems and close-to-OS (maybe even in-kernel) usage. He gave up on the series concept and focused on resource optimization. The semantics and syntax are not compatible with Rebol. So, it's even further away from Rebol than what MicroPython is to Python.
 
 [10:12:36](#aiyAV4KFIkOEG4gNjWfu3z3J3uuliyYpNnVFUxIMYmY) <dockimbel>:
 * Carl's ASON website and concepts are...weird. He turned his back on many of his principles (e.g. using WordPress instead of MakeDoc...), which by itself looks very odd. Most of the features and the many _ad populum_ justifications seems like he was either drunk as Oldes said, or someone else was holding the pen while he was writing, or it was an attempt at pranking the Rebol-derivated projects to lure them away. ;-) Though, the scope of AltScript, from the few things Carl mentioned when I last met him, was specific to embedded systems and close-to-OS (maybe even in-kernel) usage. He gave up on the series concept and focused on resource optimization. The semantics and syntax are not compatible with Rebol. So, it's even further away from Rebol than what MicroPython is to Python.
@@ -39817,12 +39817,12 @@ Carl's ASON website and concepts are...weird. He turned his back on many of his 
 @hiiamboris 
 > For example ‚Äú+‚Äù can be used to join strings and blocks.
 
-You will surely appreciate the mathematical correctness of that AltScript feature. Commutativity, who cares! Ì†ΩÌ∏â
+You will surely appreciate the mathematical correctness of that AltScript feature. Commutativity, who cares! üòâ
 
 [10:21:28](#wSlDbS7FiL5NQVxowaE5WEBHphudocAuHOAWuFTjULM) <hiiamboris (NOT THIS ONE)>:
 > If design choices must to be decided based on familiarity and popularity
 
-Never said anything like that Ì†ΩÌ∏â Just that he must have had the reason for making it immutable, and I have just an idea what reason was that.
+Never said anything like that üòâ Just that he must have had the reason for making it immutable, and I have just an idea what reason was that.
 
 [10:24:09](#N4PJpYNpCdyISQPGtZJDuG4ntwHDRt7oDw3FWkb5q_A) <hiiamboris (NOT THIS ONE)>:
 :)
@@ -39831,7 +39831,7 @@ Never said anything like that Ì†ΩÌ∏â Just that he must have had the reason for m
 Maybe motivated by constants aggregation to reduce the footprint both on disk and in memory. He might have given up on dynamic binding as well in addition to series.
 
 [10:24:34](#aDh8q6mJJz7YEHTOAMU59HS2KhO5ZcsF4qHF--g3V6Q) <hiiamboris (NOT THIS ONE)>:
-I'll borrow `~` from D Ì†ΩÌ∏â
+I'll borrow `~` from D üòâ
 
 [10:25:25](#oAbu7qjK8REzgvESkOjvLnUotG0HUOUvYCCXzsevTOg) <dockimbel>:
 * @hiiamboris 
@@ -39846,7 +39846,7 @@ You will surely appreciate the mathematical correctness of that AltScript featur
 You will surely appreciate the mathematical correctness of that AltScript feature. Commutativity? Who cares! ;-)
 
 [10:26:15](#GEIyMAUamVD9BYJBl-TTw--CF9T6Vi-aeowwrBtWf3c) <dockimbel>:
-For the visually impaired, that looks like `-` without proper glasses. Ì†ΩÌ∏â
+For the visually impaired, that looks like `-` without proper glasses. üòâ
 
 [10:26:25](#giIgaZpgQ_1xA0m2pWLywE_uTxTqu8Qw9-DRH2LN9ek) <hiiamboris (NOT THIS ONE)>:
 Could be
@@ -39855,7 +39855,7 @@ Could be
 * Much better choice, though for the visually impaired, that looks like `-` without proper glasses. ;-)
 
 [10:27:20](#2aUirrstZE2AlnhzSxxO65O9Gz1GJzQpf40DxGJQXcI) <hiiamboris (NOT THIS ONE)>:
-I'll find them a font with zigzag in place of tilde Ì†ΩÌ∏â 
+I'll find them a font with zigzag in place of tilde üòâ 
 
 [10:28:06](#kVZJHrzrYKFm_LerJDAed7j97FaWI87EsA7zBeDzjkI) <hiiamboris (NOT THIS ONE)>:
 JK though, not much need in this concatenation. I used `|` once but just as an experiment.
@@ -39864,7 +39864,7 @@ JK though, not much need in this concatenation. I used `|` once but just as an e
 He seems to be seeking maximum interpretation performance, as indicated by the dot accessor, to lighten paths interpretation overhead and resolve accessors quickly.
 
 [10:29:40](#_JF9WOqUXbWlGlJVN7BnKlCr__drfbh0Lbj2gpR_O7c) <dockimbel>:
-What about `><` Ì†ΩÌ∏â
+What about `><` üòâ
 
 [10:30:18](#vfAdIVkeiSeN5GPdhs61t95-DYvpVQ21eEdVU69E7us) <hiiamboris (NOT THIS ONE)>:
 Used that for swapping two words' values! :)
@@ -39881,7 +39881,7 @@ Hmm but maybe `>_<` for more anime-like look?
 I think I saw once a toy language created from text-based japan-style emoticons only.
 
 [10:33:16](#1_wKb8_luvSCwh6wzlb3crTRpU3BKVhDAx4j5xY59hc) <hiiamboris (NOT THIS ONE)>:
-Must be real kicker lang Ì†ΩÌ∏â
+Must be real kicker lang üòâ
 
 [10:34:43](#-IYhf_Hhg6ZVK7i9hR0LL10z7jzP69xNYeHD0xGjwng) <dockimbel>:
 > `pointer! [pointer! [pointer! [pointer! [byte!]]]]` possible now?
@@ -39953,7 +39953,7 @@ and
 https://www.emojicode.org/docs/reference/basics.html
 
 [11:06:14](#wAz2tXteLwnY0PB7yIjmdmKr3qlX0_Zn45-oiX4yDg0) <hiiamboris (NOT THIS ONE)>:
-Someone's always ahead of us! Ì†ΩÌ∏õ
+Someone's always ahead of us! üòõ
 
 [18:54:32](#K_Aj-XOfluuE9qy7a4aK8Hg8pbD0V1sBzzoREEw_nBE) <greggirwin (Gregg Irwin)>:
 I still think `~` is a good sigil for floats, though @dockimbel's point about misreading it is valid. `‚âà` would be a pain to type, but people may not type it much. Any middle horz symbol will also make negative floats less readable. All tradeoffs.
@@ -40023,7 +40023,7 @@ s: #rejoin {"x=(x)" "y=(y)"}
 
 s: "a;b c:d"
 replace/all s charset ";:" " "
-Ì†ΩÌ∏â or for more complex patterns:
+üòâ or for more complex patterns:
 s: mapparse [";" | ":"] s [" "]
 ```
 
@@ -40081,13 +40081,13 @@ Extending `rejoin` native to accept `any-string!` is an interesting idea.
 Extending `rejoin` native to accept `any-string!` is an interesting idea. But not, when you want speed imho:)
 
 [7:58:15](#RS1ebPXJbjEQw8smytJrgQ8v5_9yVISfuE4rq3ZZ17Q) <hiiamboris (NOT THIS ONE)>:
-That's why it's a macro Ì†ΩÌ∏â
+That's why it's a macro üòâ
 
 [8:01:20](#jz3TljMOjtk4yMnAB8ffBIoesIizRMOuYsMZ_coK2RE) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 What you will do, once Nenad reduces  the macro support?  ‚òù [September 6, 2022 7:40 PM](https://gitter.im/red/red?at=631785fb11a6a83d04a03f0b)
 
 [8:02:47](#Afnm5MaVl8wE4WX-As7IsvcIH_KwM2VVwrsza2IfcOQ) <hiiamboris (NOT THIS ONE)>:
-Will have to include and invoke preprocessor manually then Ì†ΩÌ∏â
+Will have to include and invoke preprocessor manually then üòâ
 
 [8:12:42](#RFCMo7oZlQf-daZ0z3hWp8nwatGGMwZaYxr3GpfDXUo) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
 @hiiamboris Ren-C take on (im)mutability - https://forum.rebol.info/t/the-beta-one-mutability-manifesto/1062/3
@@ -40909,7 +40909,7 @@ I have committed a few important changes to Spaces. These decisions were not mad
 >> lt: lay-out-vids [vlist [text "1" text "2"]]
 >> render lt/1
 >> ?? lt
-lt: [list:26x62]       Ì†ΩÌ∏â not an url, but abbreviated space object!
+lt: [list:26x62]       üòâ not an url, but abbreviated space object!
 >> ?? lt/1/map
 lt/1/map: [text:6x16 [offset 10x10 size 6x16] text:6x16 [offset 10x36 size 6x16]]
 >> print mold hittest lt/1 15x15
@@ -41389,7 +41389,7 @@ OK, that's not necessarily for ordinary users to care about, but one aspect I re
 ` #macro [#align]    func [s e] [[ ... ]]`
 
 [19:53:20](#BLTk2LqNW7Hb6-LD_hCH129WTlBRBXqwMd4totSqmHc) <hiiamboris (NOT THIS ONE)>:
-I assure code is *immensely* complicated Ì†ΩÌ∏â
+I assure code is *immensely* complicated üòâ
 
 [19:53:55](#8rGEBKCAzlpRDFfIirpSIQ-TaJJ-OvdKvGWMi7RXhGM) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
 Thanks, forgot about macros and did not find it being a preprocessor either :-
@@ -41499,7 +41499,7 @@ I tried also the `inspector`, very cool! Noticed a small glitch on resizing thou
 [![inspector](https://toomasv.red/images/Varia/hiiamboris-inspector.gif)](https://toomasv.red/images/Varia/hiiamboris-inspector.gif)
 
 [7:27:20](#vMBOic6dbT4Ubm-9V0vCtfGBxKS40Yg3rpdzNzYFAiE) <planetsizecpu (Jose Luis)>:
-Good job @hiiamboris  Ì†ΩÌ∏Ä
+Good job @hiiamboris  üòÄ
 
 [8:46:29](#ZyguCbNGS2nLMEvPfRO_on-leCc5a6EWqeJ7CMdymkA) <hiiamboris (NOT THIS ONE)>:
 Thanks! @toomasv will look at it.
@@ -41513,7 +41513,7 @@ Bugs are fixed.
 [17:34:14](#Y0oZoajEMUPb_dYYZDrttODdwgJRYCpDwO2rCkECi9M) <toomasv>:
 I confirm for `red-inspector` :+1: 
 
-But differently from what I saw in morning `redmark` now crashes on `reference.md` Ì†ΩÌ∏ü
+But differently from what I saw in morning `redmark` now crashes on `reference.md` üòü
 Did you do something with it too?
 
 [17:34:26](#BsAcQE5rPyNFiFJltCQcdJFunAqvdkdTXJIAkOJUgvc) <toomasv>:
@@ -41658,7 +41658,7 @@ I'm on windows BTW
 * @Irwin1985 May be a downloading issue leading to a corrupted binary. Try deleting the binary and download it again from the Download page. That error is caused by Rebol's encapper when the binary executable's path cannot be guessed properly or the payload data is somehow corrupted. Also, check that your antivirus is not interfering.
 
 [13:32:37](#Th16a_LeckZ3tp5e3ZvgPdpXSrveDQHclzjfofGKPUw) <Irwin1985 (Irwin Rodr√≠guez)>:
-Same error Ì†ΩÌ∏ü
+Same error üòü
 
 [13:47:53](#1K-5rZRipE1XnnGkrz_XxDQBCmcH070rarYaEbcclrk) <hiiamboris (NOT THIS ONE)>:
 @Irwin1985 https://github.com/red/red/issues/543
@@ -41704,7 +41704,7 @@ So it would shrink and grow based on the minimum number of bits needed? That see
 Would the same behavior apply to bitsets, tuples, and vectors?
 
 [19:50:19](#HTtUudOYDEY5QFJthRnn7S5BTg42XB4vIqteze__sZ8) <hiiamboris (NOT THIS ONE)>:
-Just implement https://github.com/red/REP/issues/97 and `xor` trick will be automatically supported Ì†ΩÌ∏â
+Just implement https://github.com/red/REP/issues/97 and `xor` trick will be automatically supported üòâ
 
 [19:54:58](#kEWmY8zl4xhcbgs6kZIQTdV-c2d6wKpnlAJeWzXSgGM) <greggirwin (Gregg Irwin)>:
 We definitely want to localize that logic, but `part` in your design is not content-sensitive, is it? And the question stands about whether that's the behavior we want in this case.
@@ -41798,7 +41798,7 @@ OK.
 greggirwin (Gregg Irwin): Not trying to bother ya'll. I've been interested in this project for several years. Just exploring. Please forgive.
 
 [18:15:01](#crdhxea20kFXd2GCNvttl-sssYRhdBToqxqjRSoOgEE) <hiiamboris (NOT THIS ONE)>:
-Hi and welcome @maturin2048:matrix.org Ì†ΩÌ∏â
+Hi and welcome @maturin2048:matrix.org üòâ
 Let us know if you need any help.
 
 [18:17:06](#7SfhMHWzKiv7zR4myTc0DNe-dn60G6nJDDE13b7soSk) <maturin2048>:
@@ -41883,7 +41883,7 @@ If you don't have an account there already, you can use a google account. They w
 * If you don't have an account there already, you can use a google account. They wouldn't let me log in using google after getting an account, though.
 
 [15:30:25](#Pn5TRxx06qbkE_5p60xYZiBIKmRhDFVVKwg7TvJXU3I) <hiiamboris (NOT THIS ONE)>:
-Nah, google way also redirects to the phone phisher page Ì†ΩÌ∏ï
+Nah, google way also redirects to the phone phisher page üòï
 
 [15:31:23](#__MOsnRsstq7-s9YycRbEElYfVjr1OsFxEDvjrc-VPs) <henrikmk (Henrik Mikael Kristensen)>:
 OK, I'm logged in. I can pass along a request and post the code here.
@@ -41901,7 +41901,7 @@ Of course.. never give these evil westerners your cell phone number else they wi
 I guess we'll see in 10-20 years.
 
 [15:45:56](#mA_FFXMrW1mg-lPWcN7WXxQAYRIrFJ_Z39zh7Yml9GQ) <hiiamboris (NOT THIS ONE)>:
-Although looking is not seeing Ì†ΩÌ∏â
+Although looking is not seeing üòâ
 
 [15:57:28](#WhkqVtKgE-SsctP0M2LQ0XzzAfGoobVrg6UvDyW8Q3U) <henrikmk (Henrik Mikael Kristensen)>:
 That information has already been sold to evildoers and spammers a long time ago, regardless of if you gave it away or not. It wouldn't be worth much to OpenAI.
@@ -41913,7 +41913,7 @@ Isn't it ironic? Bots trying to abuse other bots, pushing humans out of the web 
 
 I can also imagine twitter 99% populated with such chatbots, just tuned differently, to produce any desired effect on the masses.
 
-Sure, my number is out there, even banksters used to call me a few times a day. But quality and amount of data I think has the most value. You can't make my profile out of my name and number alone, and the more of my online messages you can gather the better you can train the bot. And join that with deep fake tech. IDK if future is gonna be bright but it certainly is gonna be fun Ì†ΩÌ∏â
+Sure, my number is out there, even banksters used to call me a few times a day. But quality and amount of data I think has the most value. You can't make my profile out of my name and number alone, and the more of my online messages you can gather the better you can train the bot. And join that with deep fake tech. IDK if future is gonna be bright but it certainly is gonna be fun üòâ
 
 [16:57:57](#rdPOFhrl_2OA9uVz7LmvoZ-R2E5e73OURVUYCqX5eHc) <hiiamboris (NOT THIS ONE)>:
 * Isn't it ironic? Bots trying to abuse other bots, pushing humans out of the web :) I can imagine eventually the amount of verification that will be fine for a bot becomes over the head for an average human.
@@ -41975,7 +41975,7 @@ I have an old `chop` function, which trims the tail. `chop/head` isn't bad as a 
 What about `crop`?
 
 [9:08:39](#gqkYqfDiZXRI7eDKejWEjMF7i6QtWKdmEDFaA9aSvcI) <hiiamboris (NOT THIS ONE)>:
-:+1: and reminds of some old [poetry](https://en.wikipedia.org/wiki/Oranges_and_Lemons) Ì†ΩÌ∏â
+:+1: and reminds of some old [poetry](https://en.wikipedia.org/wiki/Oranges_and_Lemons) üòâ
 
 [9:10:26](#qB5zZNZhoEGoPITxw4AIjg9XSj71AXYo_kGYouD5ufI) <greggirwin (Gregg Irwin)>:
 That sounds more 2D to me.
@@ -42114,9 +42114,9 @@ A few observations:
 == make bitset! #{55}
 >> pick b 0
 == false
->> pick b 1    Ì†ΩÌ∏â picking is 0-based unlike series
+>> pick b 1    üòâ picking is 0-based unlike series
 == true
->> poke b 0 true b      Ì†ΩÌ∏â poke works on bytes, not bits - huge inconsistency
+>> poke b 0 true b      üòâ poke works on bytes, not bits - huge inconsistency
 == make bitset! #{D5}
 >> enbase/base to #{} b 2
 == "11010101"
@@ -42169,7 +42169,7 @@ But than there is again the issue with the complemented bitset and so the featur
 * Again... what is your real life usage example? @rebolek mentioned _bloom filter_, but to be honest, I don't think that it is something what should be implemented in a higher level.
 
 [15:03:02](#jsczjC5w-ZPHJBqC_WXM_xhf1YTL3N0dh9x53NrdLps) <hiiamboris (NOT THIS ONE)>:
-TBH the idea came up when I considered mapping attributes (like bold) to text. But it would be PITA to work with it, so I then considered vectors. But my benchmarks have shown that find on 1M vector takes ~8ms, so I dropped this idea right there. So no real life usage example Ì†ΩÌ∏â
+TBH the idea came up when I considered mapping attributes (like bold) to text. But it would be PITA to work with it, so I then considered vectors. But my benchmarks have shown that find on 1M vector takes ~8ms, so I dropped this idea right there. So no real life usage example üòâ
 
 [15:03:40](#aRxtqVTkj3vs0rY4LRvDoaUSCaToFAmWuJWxIewmfWE) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 * Again... what is your real life usage example? @rebolek mentioned _bloom filter_, but to be honest, I don't think that it is something what should be implemented in a higher level.
@@ -42178,7 +42178,7 @@ TBH the idea came up when I considered mapping attributes (like bold) to text. B
 But I can imagine a bit stream compression like LZMA where series-like behavior would be *really* helpful.
 
 [15:05:09](#1kpVov-Qz_5ivDTR55SOa85L-0-i7jzGJf6qW1o4EVU) <hiiamboris (NOT THIS ONE)>:
-Although I suppose implementing any kind of compression on Red level is only for small-scale tinkering. So not a solid use case either Ì†ΩÌ∏â
+Although I suppose implementing any kind of compression on Red level is only for small-scale tinkering. So not a solid use case either üòâ
 
 [15:05:10](#UoceFHZe1x4b629C0gVwD6AkY0t2l2O8D6R-ktJ04b8) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 * Again... what is your real life usage example? @rebolek mentioned _bloom filter_, but to be honest, I don't think that it is something what should be implemented in a higher level.
@@ -42346,19 +42346,19 @@ hmm I've never used destructuring, and when I need it. I need it with paths. fro
 * hmm I've never used destructuring, and when I need it, I need it with paths. from my point of view paths are 100% more common than words for destructuring :-)
 
 [17:53:39](#IYjR1PtJ2wx4gRVcgj3Izh7g3Wjzbrd-Q4i5NE4Jt9I) <hiiamboris (NOT THIS ONE)>:
-Maybe you're doing something *non-idiomatically*? Ì†ΩÌ∏â
+Maybe you're doing something *non-idiomatically*? üòâ
 
 [17:53:58](#3bS2zxEaPBAgrujimH8iazmneGfuGLNIh-TusdMTn2c) <loziniak (Maciej ≈Åozi≈Ñski)>:
 hahaha probably!
 
 [17:54:24](#6xVZ1KkQvdE3UNOitVjDS75LGsjr4xi4KjZ9cc6Nn9g) <loziniak (Maciej ≈Åozi≈Ñski)>:
-and *non-magically* Ì†ΩÌ∏â
+and *non-magically* üòâ
 
 [17:54:27](#lESuTkU2YLWRRhuiBnz_N2bhka0Hx9vFWml0g9dHc_E) <hiiamboris (NOT THIS ONE)>:
 :)
 
 [17:55:12](#SA3hC08IAPy0IwG670U89K7zpy2hP7HVk4PBdHYNagg) <hiiamboris (NOT THIS ONE)>:
-Once we make `set-many` native, people will start asking why `foreach` doesn't support it too Ì†ΩÌ∏â
+Once we make `set-many` native, people will start asking why `foreach` doesn't support it too üòâ
 
 [17:55:35](#oyBZF2gGEI7uGLHYDlv4apJwIZFLY0upheHuGIVUg6g) <loziniak (Maciej ≈Åozi≈Ñski)>:
 and perhaps that's a good question?
@@ -42373,7 +42373,7 @@ and where to get data on destructuring into maps? Red code that does not allow i
 Analyze your and other people's code. Find these patterns and how they can be rewritten. Show stats and side by side comparison.
 
 [18:01:50](#3rm40BFcncI1XBjAtsAUUuyu_nMkQDev5ByIi3AB9Mc) <hiiamboris (NOT THIS ONE)>:
-Personally, I remember wanting it to accept paths maybe twice or so. Maybe had a though on the inner block destructuring once, not sure Ì†ΩÌ∏â
+Personally, I remember wanting it to accept paths maybe twice or so. Maybe had a though on the inner block destructuring once, not sure üòâ
 
 [18:01:57](#X8T4k3Ubi_oKhKWCNvMXnlahx4o0CzbgD2RMMO2fqV8) <hiiamboris (NOT THIS ONE)>:
 * Personally, I remember wanting it to accept paths maybe twice or so. Maybe had a thought on the inner block destructuring once, not sure ;)
@@ -42400,7 +42400,7 @@ Hello everyone, I've wanted to code in a real programming language for a while n
 [15:01:15](#DVjRjbKBfmE5zcP_MPhHZW7HBYIyAI0PUjUm37mF6QY) <hiiamboris (NOT THIS ONE)>:
 Hello and welcome @Kazzum 
 On how to learn Red, there's a tip in the topic of the [welcome room](https://gitter.im/red/red/welcome).
-In any case it's best to run Red console and type `help`. You'll figure it out from there Ì†ΩÌ∏â
+In any case it's best to run Red console and type `help`. You'll figure it out from there üòâ
 
 [15:03:32](#2GD7jT_fc0ABzwSA5mUgHAiZjk376m3vOTsp3Y3-Po4) <hiiamboris (NOT THIS ONE)>:
 * Hello and welcome @Kazzum 
@@ -42429,7 +42429,7 @@ got it
 well, thank you! the language looks very interesting even if i'm unable to try it right now
 
 [16:37:18](#3tWdJkkJaxs51w-9VkltXK7zL1DYG_GnMMazu3EAZOc) <hiiamboris (NOT THIS ONE)>:
-You're welcome. Sorry we have not enough hands to catch on with the 64bit-only platforms, yet. You'll have to be patient Ì†ΩÌ∏â
+You're welcome. Sorry we have not enough hands to catch on with the 64bit-only platforms, yet. You'll have to be patient üòâ
 
 ## 22-Dec-2022
 
@@ -42470,7 +42470,7 @@ Clearly I just  copied it from Rebol long ago.
 @greggirwin same for `found?`, very simple, but I like to have it. 
 
 [13:55:25](#MVv4SrxMGm0uWeAlqzTbHJJQz-tA8iyEB_ZU27GqE28) <hiiamboris (NOT THIS ONE)>:
-Problem with `found?` is it can be used apart from `find` where it makes zero sense Ì†ΩÌ∏â
+Problem with `found?` is it can be used apart from `find` where it makes zero sense üòâ
 
 [21:30:20](#DQNja-DM_Mj_SK_xbqCWPDkhMKnndqmynCODSzbXEco) <greggirwin (Gregg Irwin)>:
 @hiiamboris many functions suffer that. What happens if we eliminate all funcs that can be used out of context?
@@ -42633,7 +42633,7 @@ Docs say they can be compared, but I doubt anyone has tried it, except for `same
 == true` types of comparisons if you need it. Do you have a specific use case @meijeru ?
 
 [17:51:44](#vsF2Ygsn30Br_wtfVdxX5Bt3-CyDR5b6ltMEbBWpl4E) <gurzgri>:
-Even `mold :f` comparison wouldn't be a very reliable way to tell equality Ì†ΩÌ∏â
+Even `mold :f` comparison wouldn't be a very reliable way to tell equality üòâ
 ```
 >> equal? mold :f mold :g ;== true
 >> source f  ;== f: func [x][x + x] 
@@ -42658,7 +42658,7 @@ Happy New Year to everyone!
 I have no specific use case, but I was exploring how far one can go in making Red emulate a functional language --in other words use it for functional programming. Red already has functions as first-class values, after all. 
 
 [9:57:46](#QqnfriYvzdPFqWKe7z5fkhZ8JDauD9Bd4P_DQElEk4Q) <Boum69 (Boum69)>:
-Best wishes for the future of the amazing Red langage and for all of you. Ì†ΩÌπÇ
+Best wishes for the future of the amazing Red langage and for all of you. üôÇ
 
 [10:14:03](#eydu9lnyFtce4xhrfVmE4SEljHq-w5mL8xRM5xIUocg) <GalenIvanov (Galen Ivanov)>:
 Happy New Year!
@@ -42682,7 +42682,7 @@ Type HELP for starting information.
 >> collect [keep [[[1]]]]
 == [[[1]]]
 ```
-Is the second one a feature or a bug? Ì†ΩÌ∏Ç
+Is the second one a feature or a bug? üòÇ
 
 
 [1:39:24](#CU8kcngjnM_ciJTEuzUlKNke8RKSDQ_CKzIAApUufsI) <WayneCui (WayneCui)>:
@@ -42696,7 +42696,7 @@ Is the second one a feature or a bug? Ì†ΩÌ∏Ç
 :+1:
 
 [1:44:25](#mpYjlD6i07T-bgsGTV0kHmchOQuRaMDVMOXhuIsLUyY) <WayneCui (WayneCui)>:
-So it a feature Ì†ΩÌ∏â
+So it a feature üòâ
 
 [1:44:56](#N0lnzglKSYvz5fKvIkAWB0ai3U05QGyhOfETIRxipMM) <greggirwin (Gregg Irwin)>:
 Correct, it is by design, like `append` works.
@@ -42843,7 +42843,7 @@ Also, see help on `enbase` and `debase`. Better yet https://github.com/red/docs/
 Great!
 
 [10:03:48](#hrgFEP3vV7rwOMooMrMoHzKZJnDdWLjCnkGb1HrLds0) <WayneCui (WayneCui)>:
-Just working on a Hessian data (java) deserialization client. I love `PARSE` Ì†ΩÌ∏â https://github.com/WayneCui/red-hessian/blob/main/hessian-v1-parser.red
+Just working on a Hessian data (java) deserialization client. I love `PARSE` üòâ https://github.com/WayneCui/red-hessian/blob/main/hessian-v1-parser.red
 
 [10:13:21](#PP3L_DErJo-Xp63k5QQ9_All_8p5qFTyFsOccapT_Us) <hiiamboris (NOT THIS ONE)>:
 you might wanna `parse` the result of `enbase` on this screenshot as well
@@ -42933,7 +42933,7 @@ Listening on http port: 54942, ssl port: 54943
 I know what you mean by **when they finish** , when I killed the java process, I got what I needed 
 
 [2:49:55](#5m13rDBpAS8xT66xJVqvNkTCWLhj1qhOb3ZIbywuXUo) <WayneCui (WayneCui)>:
-Ì†ΩÌ∏Ç
+üòÇ
 
 [2:52:45](#wpwvn2ClBT8jbjk8FZ9LAFwPOfNFW48iXaiYrHPU3no) <WayneCui (WayneCui)>:
 Anyway, this is not a MUST feature
@@ -42942,7 +42942,7 @@ Anyway, this is not a MUST feature
 @WayneCui. May be you can try `call/wait`->Runs command and waits for exit.
 
 [15:03:13](#5A8uTbnChaNKLK8Ra0xhUUBxEGGw5S0LocfswIlRf8w) <WayneCui (WayneCui)>:
-Make it with a temp file as @hiiamboris  suggested Ì†ΩÌ∏â
+Make it with a temp file as @hiiamboris  suggested üòâ
 ```
 tmp-file: %port.tmp
 call/output "java -jar ../support/hessian-test-servlet.jar" tmp-file
@@ -42982,7 +42982,7 @@ hessian-proxy: make hessian-proxy-base [
 Then there is another question: how to kill the server process when test cases all finished? 
 
 [15:19:35](#wDLXj1LxiC_Tr5rR-9hcRS8VGLaRFjySt_X_J1p7kvk) <WayneCui (WayneCui)>:
-Have cover 70 test cases. If you have Java installed on your computer, can play with it. Ì†ΩÌ∏â https://github.com/WayneCui/red-hessian
+Have cover 70 test cases. If you have Java installed on your computer, can play with it. üòâ https://github.com/WayneCui/red-hessian
 
 [15:27:09](#BdjEJ-kt3KDun7NylCstZnxxsalpdjYBTA3MqoSxbPQ) <hiiamboris (NOT THIS ONE)>:
 Killing processes possible only using OS API from R/S
@@ -43001,7 +43001,7 @@ I DIY'd a number of IPC systems for R2, many file based. So the server listens f
 ## 22-Jan-2023
 
 [11:46:30](#bYYdJ5ZMRyHpz1PDGwi8X-5W7qNQe6nMVLE45mPKjaQ) <WayneCui (WayneCui)>:
-Thanks for letting me know  Ì†ΩÌ±å
+Thanks for letting me know  üëå
 
 ## 24-Jan-2023
 
@@ -43312,7 +43312,7 @@ It's one of the most complex templates possible, and Spaces core almost endured 
 `editor` template will be Spaces equivalent for the native `area` widget, just with much bigger capabilities. `document` template that it wraps will be used for hyper text display. They're not yet documented though.
 
 [18:58:35](#197Xq7-9bLlUwxOgr3lcTgtlVruetBhhIXJRT8ga5SQ) <greggirwin (Gregg Irwin)>:
-Ì†ΩÌ±è
+üëè
 
 [18:59:56](#4t775gW9TukqWzBi1bcFRXCtnOjFUHLGaUPw_Ct1Q-0) <greggirwin (Gregg Irwin)>:
 That looks AMAZING!
@@ -43334,7 +43334,7 @@ just a variant on `-to-` that I find more readable and easier to type
 ## 18-Mar-2023
 
 [4:31:41](#uzY9jVYnJBWTqtRsayU5UFw4k4o1fRUHKdWlevvswMY) <mikeyaunish>:
-hiiamboris: This is fabulous. What a great job. Ì†ΩÌ±çÔ∏èÌ†ΩÌ±çÔ∏è
+hiiamboris: This is fabulous. What a great job. üëçÔ∏èüëçÔ∏è
 
 [9:20:07](#bwkAGLUHUXrZg7xkiQC9C3pflVAVeuIDVNIenOsZqfk) <hiiamboris (@hiiamboris:tchncs.de)>:
 Thanks
@@ -45032,13 +45032,13 @@ hiiamboris: I was interested in simple to use GUI development systems and since 
 no one uses it except as a toy these days, but it's chock full of neat ideas. your project reminded me of the sort of things one could do with the morphic interface, like rotate components at will.
 
 [13:37:18](#Qzt11RsJp6toDbwdnEdMQXdfdjcOEgUOlmsm3d__Sck) <planetsizecpu (Jose Luis)>:
-Good job guys, really interesting i'll test it ASAP Ì†ΩÌ∏É. Just a question on using parens on path!, could you leave it as it is while not in 5.0? My game doesn't work without that feature Ì†ΩÌ∏£ 
+Good job guys, really interesting i'll test it ASAP üòÉ. Just a question on using parens on path!, could you leave it as it is while not in 5.0? My game doesn't work without that feature üò£ 
 
 [13:40:02](#os9mjdWEbVjU3AVDErhhvZ-eOOTKHVIwzHPyjqhPZKQ) <bjorkintosh>:
 its biggest feature, besides the composition approach is that everything is live. you can change the whole interface on the fly while it's running if you want to.
 
 [13:40:12](#XyYN2jxGPHozZ8hpQPC2L-UY_7rNAwOFf0nuxSZg74k) <planetsizecpu (Jose Luis)>:
- * Good job guys, really interesting i'll test it ASAP Ì†ΩÌ∏É. Just a question on using parens on path!, could you leave it as it is while not in "5.0"? My game doesn't work without that feature Ì†ΩÌ∏£ at that time I will not be concerned about parens Ì†ΩÌ∏Ñ
+ * Good job guys, really interesting i'll test it ASAP üòÉ. Just a question on using parens on path!, could you leave it as it is while not in "5.0"? My game doesn't work without that feature üò£ at that time I will not be concerned about parens üòÑ
 
 [13:42:07](#xQKY3Wis5PgOdhIaGnFrxOuIGLcUqFerWcdZjMDGECc) <bjorkintosh>:
 here's a video of a js implementation of morphic: https://vimeo.com/51170476 
@@ -45731,7 +45731,7 @@ I also don't like the syntax.
 Once we get console `port`, I'd like to restart `Values` development. `Values` is value-oriented editor that focuses on live coding. 
 
 [8:32:55](#7spT4A_kwKFBgNp40dCtE49TcNSLejloox_Go506L_M) <planetsizecpu (Jose Luis)>:
-Welcome btw @duskhorn Ì†ΩÌπÇ
+Welcome btw @duskhorn üôÇ
 
 ## 11-Jul-2023
 
@@ -46141,7 +46141,7 @@ Any plan to add `block!` parameter support for `sort/compare`?
 [16:06:20](#w5P0XESZbd8JKUbB7E7rgUhKlcFqPTrwAFKaJ6JdARU) <planetsizecpu (Jose Luis)>:
 > FYI, branch `point` was just merged into `master`. I'll publish later today a blog post to present the new features added and changes made.
 
-I have a slight idea what's going on `point` branch as parens are not working anymore on `path!` Ì†ΩÌ∏Å so if I'm not mistaken, I must thank dockimbel in advance for the deference he has had in creating the new branch, so THANKS!
+I have a slight idea what's going on `point` branch as parens are not working anymore on `path!` üòÅ so if I'm not mistaken, I must thank dockimbel in advance for the deference he has had in creating the new branch, so THANKS!
 
 [16:14:11](#RoSuz-HjafrSrMEXERWnmLifbPbGXbZ--QjO8GaN-KY) <hiiamboris (@hiiamboris:tchncs.de)>:
 parens work just fine:
@@ -46162,7 +46162,7 @@ Face sizes are point2D now, so you could be indexing a pixel with a float.
 I'll check asap, thx!
 
 [16:56:39](#Ihu-qr9mn81AtBmMZrLD4pTUsKAV-du7DlR6ynuILPE) <planetsizecpu (Jose Luis)>:
-Yes, it's clearly my mistake. I think paren evaluation on path is to be removed, so I'm anxiously waiting for it in each new build, I don't know why Ì†ΩÌ∏Ç
+Yes, it's clearly my mistake. I think paren evaluation on path is to be removed, so I'm anxiously waiting for it in each new build, I don't know why üòÇ
 
 
 [17:00:04](#qsy61qXBO0ASBNvlccIwjDsciGihFTie7NwLnxavq1g) <hiiamboris (@hiiamboris:tchncs.de)>:
@@ -46183,12 +46183,12 @@ About this message, is now corrected  by `to-integer`, so it work again.
 We appreciate the report. It's important to know what breaks out there.
 
 [19:29:51](#jXT2yTYBvjkZGPlxkKXSUVdOFIgFg4A3880tzDUshh8) <GiuseppeChillemi (GiuseppeChillemi)>:
-> <@planetsizecpu-557c713515522ed4b3e1de1b:gitter.im> Yes, it's clearly my mistake. I think paren evaluation on path is to be removed, so I'm anxiously waiting for it in each new build, I don't know why Ì†ΩÌ∏Ç
+> <@planetsizecpu-557c713515522ed4b3e1de1b:gitter.im> Yes, it's clearly my mistake. I think paren evaluation on path is to be removed, so I'm anxiously waiting for it in each new build, I don't know why üòÇ
 
 I hope it will never happen,  Red would become more convoluted and non coincise.GiuseppeChillemi (GiuseppeChillemi): 
 
 [19:30:09](#-WktA_fXIN69TyLzNrjlZKPX5pWi8X2xRiVVRHMQDg4) <GiuseppeChillemi (GiuseppeChillemi)>:
-> <@planetsizecpu-557c713515522ed4b3e1de1b:gitter.im> Yes, it's clearly my mistake. I think paren evaluation on path is to be removed, so I'm anxiously waiting for it in each new build, I don't know why Ì†ΩÌ∏Ç
+> <@planetsizecpu-557c713515522ed4b3e1de1b:gitter.im> Yes, it's clearly my mistake. I think paren evaluation on path is to be removed, so I'm anxiously waiting for it in each new build, I don't know why üòÇ
 
  * I hope it will never happen,  Red would become more convoluted and non concise.
 
@@ -46432,7 +46432,7 @@ For "overload paren syntax", I tend to agree on first look. Though, after spendi
 Moreover, nothing forces you to use point literals in VID code, you can use just pairs everywhere as usual, they would get converted to points whenever needed in the face objects. All existing VID code will be accepted without changes.
 
 [16:58:13](#hh0zHnGHGkQuQ8YHoPeEzCFR-uBandS7LI79J3eu6xQ) <dockimbel>:
-Thanks for moving it from that page to a REP. Ì†ΩÌ±çÔ∏è
+Thanks for moving it from that page to a REP. üëçÔ∏è
 
 [16:59:42](#zNzQSn6YQN1gPZsTJhePRKujv0ygU8WOLPliWX0tz-E) <dockimbel>:
  * Thanks, good sum-up except for "Problem 7", which is your personal addition and that I don't endorse as being a "problem", nor do I think that your proposed "solution" is any good.
@@ -46582,7 +46582,7 @@ Pipe as (silent) separator is a terrible idea. Not only does it makes seasoned R
 Lately, I tend to use a double-space to separate expressions on same line. So far, this convention is satisfying.
 
 [15:31:18](#MdC2jGtZX-29_tHkx6u6u4QiroMu4e_HBs7cIXksmSk) <pekr (Petr Krenzelok) (@pekr:matrix.org)>:
-Fair enough, thanks. I was aware parse iperator clash, but not pipes, which we use in shell, not in redbol level imo? Anyway, the best visual separator is a newline Ì†ΩÌπÇ
+Fair enough, thanks. I was aware parse iperator clash, but not pipes, which we use in shell, not in redbol level imo? Anyway, the best visual separator is a newline üôÇ
 
 [16:28:17](#gP8XYuNKivYds-DBsvJ133wZJ5Bys--Wt-_RDDjnAHc) <luce80>:
 I think. so.
@@ -46653,7 +46653,7 @@ I was planning to resume the work on the IO branch from 15th of this month on, b
 [16:20:33](#HlBbWrD6nRotmI-6laFP-63GlCuhLTAeqsNtZNYciAw) <GiuseppeChillemi (GiuseppeChillemi)>:
 > <@dockimbel-556597ad15522ed4b3e10020:gitter.im> I was planning to resume the work on the IO branch from 15th of this month on, but some external factors made me postpone it to beginning of September. In the meantime, you should get some cool new features to play with until IO branch gets merged.
 
-I have purchased the Ì†ºÌΩø for the new features.
+I have purchased the üçø for the new features.
 
 [16:21:27](#5LyBEQZp7agOgtxiusDN_KekrYyU4ApJv1LuxEsauyw) <GiuseppeChillemi (GiuseppeChillemi)>:
 I hope to see the I/O branch completed. It Is really important.
@@ -46686,10 +46686,10 @@ Could I do a BBS frontend with this? Is it ANSI?
 [15:59:34](#jH68pezvFhYI9kulmSW9WUPWQhwQJPmtI5uQyvETo7E) <pekr (Petr Krenzelok) (@pekr:matrix.org)>:
 > <@dockimbel-556597ad15522ed4b3e10020:gitter.im> https://twitter.com/red_lang/status/1693245583941632019
 
-Some years ago, you would be able to  sell it to SAP guys, they would just wonder, how their mainframe system could fit one floppy disc Ì†æÌ¥üÌ†ΩÌπÇ
+Some years ago, you would be able to  sell it to SAP guys, they would just wonder, how their mainframe system could fit one floppy disc ü§üüôÇ
 
 [16:00:45](#PXL9gnoiGh_fA6EWRuB567W6tOPQezMwJaYJj3YvETY) <pekr (Petr Krenzelok) (@pekr:matrix.org)>:
-I am just wondering, how hiiamboris @hiiamboris:tchncs.de: manages to port Spaces visual demos to TUI Ì†ΩÌπÇ
+I am just wondering, how hiiamboris @hiiamboris:tchncs.de: manages to port Spaces visual demos to TUI üôÇ
 
 ## 21-Aug-2023
 
@@ -47328,13 +47328,13 @@ looks like Windows desktop :)
 I know, in fact I had to increase the loop count until a number appeared in the lowest test
 
 [18:48:32](#q5xAp34RYYyUKsUvOYNcfBWgzP2TdPL58Ib_TJp7e4k) <GiuseppeChillemi (GiuseppeChillemi)>:
-I think the tests will take the while night as I have increased to count operations from 2millions to 5 billions to see the result if the fastest test... Ì†ΩÌ∏Ö
+I think the tests will take the while night as I have increased to count operations from 2millions to 5 billions to see the result if the fastest test... üòÖ
 
 [18:49:31](#hV86l-1Py4krqTNT3whUXpgOhakpAjTTomN3kKbMVo0) <GiuseppeChillemi (GiuseppeChillemi)>:
 I think I shoud add divider and then multiply the result for some test
 
 [18:57:57](#5qIqdodvtzJu4FmKmv9vGC0-Rtiaqz5rQcdqhku3iNo) <GiuseppeChillemi (GiuseppeChillemi)>:
- * I think the tests will take the while night as I have increased to count operations from 2millions to 5 billions to see the result in the fastest test... Ì†ΩÌ∏Ö
+ * I think the tests will take the while night as I have increased to count operations from 2millions to 5 billions to see the result in the fastest test... üòÖ
 
 [19:12:10](#bNgjcSayn5y0NmVZ-RKNsrgzKFD0QM-jJsoqZlC2B6Q) <hiiamboris (@hiiamboris:tchncs.de)>:
 haha
@@ -47663,7 +47663,7 @@ I can literally see Red shining on this field. Imagine this menu made with TUI
 ![](https://gitter.ems.host/_matrix/media/v3/download/gitter.im/a74b9c4f0698ba679e66b505d2ee27e03482b156)
 
 [10:57:34](#JseHNPzPH9t1ha9eU4OF1RKJLt_PW3jYGnW2j1ym1M0) <pekr (Petr Krenzelok) (@pekr:matrix.org)>:
-Looks like a ZX Spectrum screen loading data Ì†ΩÌπÇ
+Looks like a ZX Spectrum screen loading data üôÇ
 
 [11:20:21](#fHcGccPaQ3nPL_7khG7KBjh3HoIB93PbmqmLbvSQ1g8) <GiuseppeChillemi (GiuseppeChillemi)>:
 If TUI can text intefaces like these via telnet, . Just lets advertise this on this [Reddit group](https://www.reddit.com/r/bbs/) and other sites and the voice will sphread. Just to understand how the passion is reburning, here is a [list with over 2.000 online BBSes](https://www.ipingthereforeiam.com/bbs/?step=location&all=0), here is [another more graphical one](https://www.telnetbbsguide.com/bbs/list/detail/). And at the end an [nice blog](https://bytecellar.com/bbsing/) full of links about the topic!
@@ -47681,7 +47681,7 @@ If TUI can text intefaces like these via telnet, . Just lets advertise this on t
  * If TUI can be used to create text intefaces like these via telnet, just lets advertise this on this [Reddit group](https://www.reddit.com/r/bbs/) and other sites and the voice will sphread. Just to understand how the passion is reburning, here is a [list with over 2.000 online BBSes](https://www.ipingthereforeiam.com/bbs/?step=location&all=0), here is [another more graphical one](https://www.telnetbbsguide.com/bbs/list/detail/). And at the end an [nice blog](https://bytecellar.com/bbsing/) full of links about the topic!
 
 [11:25:15](#EqhW0_KAZQedFRmpr8_o40FDcIlH2b_SQiIuaB4WURo) <GiuseppeChillemi (GiuseppeChillemi)>:
-> <@pekr:matrix.org> Looks like a ZX Spectrum screen loading data Ì†ΩÌπÇ
+> <@pekr:matrix.org> Looks like a ZX Spectrum screen loading data üôÇ
 
 It is an ANSI interface
 
@@ -47773,7 +47773,7 @@ page-0: layout/tight [
 	
 	origin 20x20 space 1x1
 
-	paccat: base transparent 2x1 "Ì†ΩÌ∞±"
+	paccat: base transparent 2x1 "üê±"
 
 
 	
@@ -47813,7 +47813,7 @@ page-0: layout/tight [
 	
 	origin 20x20 space 1x1
 
-	paccat: base transparent 2x1 "Ì†ΩÌ∞±"
+	paccat: base transparent 2x1 "üê±"
 
 
 	
@@ -47861,7 +47861,7 @@ page-0: layout/tight [
 	
 	origin 20x20 space 1x1
 
-	paccat: base transparent 2x1 "Ì†ΩÌ∞±"
+	paccat: base transparent 2x1 "üê±"
 
 
 	
@@ -47892,7 +47892,7 @@ Hi, since I last seen the Roadmap posted in 2022 I have not checked on Red. What
 ## 11-Sep-2023
 
 [7:04:44](#jYU3uTMHIhQlMc59XYaO9vo_cUJMkF7TI1b6nRQFcPw) <planetsizecpu (Jose Luis)>:
-Good job GiuseppeChillemi_gitlab (Giuseppe Chillemi)  Ì†ΩÌ∏Ä now it's time to play
+Good job GiuseppeChillemi_gitlab (Giuseppe Chillemi)  üòÄ now it's time to play
 
 [11:39:47](#lcZge3e0YJCCe5qTtbKzK-jVd1HFepmA1vL7gvGpL-g) <kariem2k (Karim Ahmed)>:
 hello, I am thinking of implementing something like this in my DSL https://github.com/tjenni/lua-physical. And I am looking for recommendations on a good way to represent units (or an example for something similar). Thanks
@@ -48080,7 +48080,7 @@ How do you copy empty part then?
 [9:08:13](#B796JFMyjbBg1DoWoLejxIwaEFYJT8Ud35U4ZzNkKyg) <GiuseppeChillemi (GiuseppeChillemi)>:
 > <@hiiamboris:tchncs.de> How do you copy empty part then?
 
-Copy "empty"? Ì†ΩÌ∏Å
+Copy "empty"? üòÅ
 
 [9:47:40](#0Uuhfx4-YYNO1r4uE53bW_LnxB-9-fBycH6uDRcRsF0) <Oldes (@oldes.h:matrix.org)>:
 ```
@@ -49497,7 +49497,7 @@ https://github.com/red/red/pull/2838
 [18:31:23](#NlFZbjiV5MKpCygf4yhhs5i0knmzFruod2frb5GI7jw) <greggirwin (Gregg Irwin)>:
 > you either get symmetry of indices or offsets. Because you either center at offset or center at an item. You can't have both.
 
-Ì†ΩÌ±çÔ∏è
+üëçÔ∏è
 
 ## 30-Sep-2023
 
@@ -49790,7 +49790,7 @@ to be more precise, they were wrongly nested. stuff was where it shouldn't be
 stuff like `<b><p>text</p></b>`. It works, but it's wrong.
 
 [16:29:44](#_CfiCaAtLM4s09ZuSsS45KmbDg6kV33RG4sxnOVNbIc) <Jan69 (jan6)>:
-Ì†ºÌµ±Ô∏èold of you to respect standards
+üÖ±Ô∏èold of you to respect standards
 
 [19:48:22](#0jVS3GDSXOS7sfg4-lyD2d9-8mUI8kf6rF15LmtSF1Q) <Isoux>:
 > I'm using this batch e.g. (to compile any script using sources version of Red):
@@ -50123,7 +50123,7 @@ In `path/:a` the colon also marks the beginning of a lexical form.
 * In `path/:a` the colon also marks the beginning of a literal form.
 
 [17:26:40](#VK1x73hQ1nIXdqLvXFFIkbdRiG3_uQKmmiVv5NcoU6s) <dockimbel>:
-That one is even more confusing Ì†ΩÌ∏Ö
+That one is even more confusing üòÖ
 ```
 >> type? /:a
 == url!
@@ -50334,13 +50334,13 @@ i.e `-US$124` does not work
 nvm I'm just stupid, I didn't realize that the regional indicator was actually checked by the runtime to see if it's valid
 
 [6:12:02](#eF8GD5bR-p28jmMKWPrFRjkttWG7sOV9AlFNvpzXQCk) <planetsizecpu (Jose Luis)>:
-I'ts a whole week since last automatic build, maybe it's coming a major update, such as 0.7 ? hopeful Ì†ΩÌπÇ
+I'ts a whole week since last automatic build, maybe it's coming a major update, such as 0.7 ? hopeful üôÇ
 
 [6:13:39](#ESPtcKqaTdzEqdw1Tu1Y8H2qENY5F9IWFivaXGSS2_o) <planetsizecpu (Jose Luis)>:
- * It's a whole week since last automatic build, maybe it's coming a major update, such as 0.7 ? hopeful Ì†ΩÌπÇ
+ * It's a whole week since last automatic build, maybe it's coming a major update, such as 0.7 ? hopeful üôÇ
 
 [8:18:48](#1_2AqdZlkDip6HM7t-0KmQqAT7yEePJrZXq0QiAaDvU) <GiuseppeChillemi (GiuseppeChillemi)>:
-> <@planetsizecpu-557c713515522ed4b3e1de1b:gitter.im> It's a whole week since last automatic build, maybe it's coming a major update, such as 0.7 ? hopeful Ì†ΩÌπÇ
+> <@planetsizecpu-557c713515522ed4b3e1de1b:gitter.im> It's a whole week since last automatic build, maybe it's coming a major update, such as 0.7 ? hopeful üôÇ
 
 Hope you have not spotted a malfunction but the prelude of a nice surprise! 
 
@@ -50380,7 +50380,7 @@ Good news, system/build/git is again up-to-date. No need for an issue!
 ## 31-Oct-2023
 
 [1:37:55](#p4cKushz9th2tm0GItoy5rPSEF703gN83gHG0HhxFlk) <greggirwin (Gregg Irwin)>:
-Ì†ΩÌ±çÔ∏è.
+üëçÔ∏è.
 
 [17:53:58](#kh3_MMTsZTS11hEBSmzsJaRohrk6QT42ux47iUtbBgE) <mikeyaunish>:
 > <@jacobgood1-54ac46d2db8155e6700e6acb:gitter.im> I have already mentioned this previously.  At this point, after having used GT extensively, I would think that the red guys would not enjoy using it. I could be wrong, but the culture here is everything is done in red, I have no problem with that, I am just letting you know.
@@ -50806,7 +50806,7 @@ it's not hard to be more consistent than JS ;)
 [11:06:39](#xQshgXQb3dV7ZruuQI-aKAzo70iwMXck5wcsRtJN6g8) <planetsizecpu (Jose Luis)>:
 > <@da8y01_gitlab:gitter.im> sent an image.
 
-Thx DanielB  Ì†ΩÌ∏â
+Thx DanielB  üòâ
 
 [14:47:54](#rtUV-2wIlzBllOeaDlzWo680ySJI04XmlsFodA6cpg4) <JacobGood1 (JacobGood1)>:
 Making my own languages, reading databases, making ides or other languages, etc
@@ -51328,7 +51328,7 @@ I'm copying that URL from the browser and I get:
 `https://duckduckgo.com/?q=%22herg%C3%A9+%26+tintin%22&ia=web`
 
 [14:48:14](#M-zG96NN_KgiusRai_zk-r_MUfdItf9ta_R_1ZtJ3Cs) <hiiamboris (@hiiamboris:tchncs.de)>:
-what a bloody mess Ì†ΩÌ∏Ç
+what a bloody mess üòÇ
 
 [14:48:58](#on5j2KpqAbnpmUHK9EizbWg9HpGZ3hjAjZ1U0EhbXpo) <hiiamboris (@hiiamboris:tchncs.de)>:
 so it encoded `"`, `√©` but not `%`
@@ -51715,7 +51715,7 @@ Does red have a built in way to perfectly handle very large integers? Currently 
 No. There is no large integer type currently.
 
 [7:21:52](#6mxCEM7NddU60etaMKR931e_SrzXvsXvjOyQQHBbM-8) <planetsizecpu (Jose Luis)>:
-Great news guys, TAB on fields is a must have for business apps, good job Ì†æÌ¥©
+Great news guys, TAB on fields is a must have for business apps, good job ü§©
 
 [7:28:41](#-WJQV9zsN8pFqBArRGP0RR4iqbO8IzKQwwTNdi9URpU) <pekr (Petr Krenzelok) (@pekr:matrix.org)>:
 I love those updates, when we don't see things coming, improving the View once again! 
@@ -52097,7 +52097,7 @@ Can you mock up an example of what you want? A big part of having general contai
 [23:50:03](#MDYpABNlt-MlSdOcBqMwVtOI-U-Cxb2JOF4UZIGlKbY) <GiuseppeChillemi (GiuseppeChillemi)>:
 > <@greggirwin-55659ddb15522ed4b3e1006f:gitter.im> Can you mock up an example of what you want? A big part of having general containers is that you can do that kind of thing, if you need to.
 
-Tomorrow I'll do. I am writing from the bed Ì†ΩÌ∏â
+Tomorrow I'll do. I am writing from the bed üòâ
 
 ## 26-Nov-2023
 
@@ -52462,7 +52462,7 @@ The old: `func [a /local b][b: #{} append b a]` idiom
 only when one learns the language
 
 [17:20:35](#GpNe0_xzq9kzycLBtoUixfwbRHDzKM0WtFlMjK5xR2E) <rgchris (Christopher Ross-Gill)>:
-That's why the locking feature is good, it checks that particular assumption Ì†ΩÌπÇ
+That's why the locking feature is good, it checks that particular assumption üôÇ
 
 [17:21:09](#carv1y8__L-42V5dIchb030E7iyElQqQR0S55yoCMOY) <hiiamboris (@hiiamboris:tchncs.de)>:
 why didn't it pick up, in Rebol?
@@ -52486,7 +52486,7 @@ Reb-world is too deferential to the console
 I love the console. It's a playground.
 
 [17:53:38](#3nxr2GmepivEYt06SHRqGhOAU35KRlul7vV1Nn4JvvY) <rgchris (Christopher Ross-Gill)>:
-I think it should exist, I don't think it should be the preeminent interface Ì†ΩÌ∏à
+I think it should exist, I don't think it should be the preeminent interface üòà
 
 [17:54:17](#IUhFvD6qyopeqOkOYRGcFKgEDIpP_EWlc6wIsmglXh8) <greggirwin (Gregg Irwin)>:
 What should be then?
@@ -52504,7 +52504,7 @@ For me, the illusion of a 'normal' programming language takes over when I'm usin
 Console is not a shell scripting. At least not for me. I use graphical console for 20 years. If Rebol would not have one, I would not use it probably at all :-) 
 
 [17:59:28](#g_hSRn6sQgGEPW4KCY2DtYu8B8GSkPl_xruoQBd_rB0) <rgchris (Christopher Ross-Gill)>:
-> I think it should exist, I don't think it should be the preeminent interface Ì†ΩÌ∏à
+> I think it should exist, I don't think it should be the preeminent interface üòà
 
 
 
@@ -52685,10 +52685,10 @@ I could probably make a mockup in Red.js sometime if it's wanted
 Experiments are always welcome.
 
 [6:27:46](#LqeP33EpLD_B706dInruVLOeuoXI7jl2jgJcQFtNRD4) <ALANVF (theangryepicbanana)>:
-alright then, I'll add that (as well as bigints) to me todo list then Ì†ΩÌ±ç
+alright then, I'll add that (as well as bigints) to me todo list then üëç
 
 [6:28:03](#t_6ZByH_sbtHQpQPfYvR1MKwfKZtGxeEo6eJkU80b94) <ALANVF (theangryepicbanana)>:
-* alright then, I'll add that (as well as bigints) to my todo list then Ì†ΩÌ±ç
+* alright then, I'll add that (as well as bigints) to my todo list then üëç
 
 [7:25:57](#94Okw4QvJLc2jlxWPuN8IOpzPuIw6QNQ0ExrX4fYHGA) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 Both mutability and immutability have their merits. I'm fine with using `copy`, but IMO two things must be done:
@@ -53222,13 +53222,13 @@ Finally updated my [Red Online Search Tool](https://gist.github.com/mikeyaunish/
 ## 14-Dec-2023
 
 [8:37:24](#rlPnKYBi7hb1L4owBoTeYY9KkzFVPoFZnHJSz2QevYg) <planetsizecpu (Jose Luis)>:
-It's strange, it's been two weeks since the last automatic build, is anyone aware? Ì†æÌ¥î
+It's strange, it's been two weeks since the last automatic build, is anyone aware? ü§î
 
 [8:46:38](#HeuxOBCrjKfawYNAZ8UOn37CBJHX7SwuO6BUKXyKRk0) <Oldes (@oldes.h:matrix.org)>:
 no commits, no builds
 
 [8:48:46](#MVF5piIbx7LSwanxnodi8LwJyB_YwXp0sofZjxXLwEw) <planetsizecpu (Jose Luis)>:
-Maybe the whole team is on vacation Ì†ΩÌ∏Å
+Maybe the whole team is on vacation üòÅ
 
 [14:11:33](#oomxDB3mlZswb-gnlnpsZpN3HxYDkwihM9ytKM8ARxc) <dockimbel>:
 I thought that Git branches were common knowledge here... seems not.
@@ -53589,7 +53589,7 @@ the c function I'm reffering is the screen_update
 I couldn't crash it on Windows, so trying to install gcc libs now on WSL, but it may take a while at ~100kpbs... :D
 
 [20:44:08](#ELY90ck9i_QhNS4gl-93KDJKzq3NWxWTD2dR2OsN7nM) <Evandro Rathke>:
-Ì†ΩÌ∏Ö
+üòÖ
 
 [20:44:43](#HciNdfa2A5v0qJBMXX-cj183flTp0081RS0kzhE9W4k) <Evandro Rathke>:
  * the c function I'm refering is the screen\_update
@@ -53612,7 +53612,7 @@ dockimbel will have to say if GC is compatible with libRed at all, and if it wor
 hiiamboris: Thank you very much! Stops crashing with your tip :D
 
 [2:19:09](#9H_fYf5cTvtI2s1arHRGk6Me_HEcLFmwOZ8zgfuNPhY) <Evandro Rathke>:
-The colors are working fine here Ì†æÌ¥î
+The colors are working fine here ü§î
 
 [2:57:10](#2JAYqNyTmcz3xAhFt5ry8lYw1b_Q3wm8ZPW1CIuXHRA) <ALANVF (theangryepicbanana)>:
 is there a reason why there's no `to date! <string>`? even though you can generally just load it, being able to specify that you want a date like this would be nice
@@ -53638,7 +53638,7 @@ there are also some problems according to https://github.com/red/red/issues/2926
 ## 19-Dec-2023
 
 [20:32:10](#GlfIYrL0GcC2X7JMdkwIS_3km3Voa1l1DMRj6vwSO_s) <Evandro Rathke>:
-Hi hiiamboris ! How are you? Maybe it's worth to know that I had the same issue (access violation) now running a compiled Red script without using libRed C API. I tried the same application compile to MSDOS (running on Linux with Wine) and the application doesn't crash... Maybe this issue is related to GTK only Ì†ΩÌ∏î
+Hi hiiamboris ! How are you? Maybe it's worth to know that I had the same issue (access violation) now running a compiled Red script without using libRed C API. I tried the same application compile to MSDOS (running on Linux with Wine) and the application doesn't crash... Maybe this issue is related to GTK only üòî
 
 [20:33:53](#w7kO7xqty3H1fy1QBgXJXHBdahxwWsgWqfoXunYXs18) <hiiamboris (@hiiamboris:tchncs.de)>:
 hard to say...
@@ -53766,7 +53766,7 @@ these funcs are the alises of libc malloc/free/memcpy
 https://github.com/red/red/blob/master/system/runtime/libc.reds
 
 [19:05:48](#4YGAzb0DTgA7s-hDY1Fp6DJ35V1mj3cO31tA0JsSmkc) <Evandro Rathke>:
-I was trying the wrong way, looking for examples in red/code Ì†ΩÌ∏Ö
+I was trying the wrong way, looking for examples in red/code üòÖ
 
 [19:05:59](#ocalxkwdRYNYChPHBMwPKzawoGoj0cHVEAJHKRInhug) <Evandro Rathke>:
 Thanks again!
@@ -54230,7 +54230,7 @@ it has fewer options and different assumptions compared to reddl. It does everyt
 > <@hiiamboris:tchncs.de> "shortcuts" in that context meant short names for shell use, e.g. "redc" instead of "red-toolchain-30dec23-f8f255970"
 > if it meant "links" why would I not write "links"?
 
-why didn't you write ‚Äûshort names‚Äù then? Ì†ΩÌ∏É
+why didn't you write ‚Äûshort names‚Äù then? üòÉ
 
 [16:38:32](#2Bc2BJkVWoj6utmJJu-dqzZWEwvdysQMwW3u8O3iwCw) <hiiamboris (@hiiamboris:tchncs.de)>:
 ¬Ø\_(„ÉÑ)_/¬Ø
@@ -54318,7 +54318,7 @@ but it does
 Ah, probably not this time for me, because it crashed.
 
 [18:39:52](#gTdAxhFIgoBjb8tsEg8tpB_FXBkCxsTVDyvkRkTV6-A) <greggirwin (Gregg Irwin)>:
-Confirmed. Normal shutdown does. Ì†ΩÌ±çÔ∏è
+Confirmed. Normal shutdown does. üëçÔ∏è
 
 [18:40:22](#_9jJ61hluqeakFl-DxoB5yH4zY1ElS9cthQ2wFv_--A) <hiiamboris (@hiiamboris:tchncs.de)>:
 even on crash it should remember location - let me know if you can (accidentaly) find a case where it doesn't
@@ -54950,7 +54950,7 @@ You clicked on a word and It and its arguments were underlined if function. Also
 I will for you private massage! 
 
 [22:00:08](#Y4-m5DDu6ZDEe7ugrWZdzJQq-trEeVjUGXNzEDgOLmg) <GiuseppeChillemi (GiuseppeChillemi)>:
-Ì†ΩÌ∏ÅÌ†ΩÌ∏ÅÌ†ΩÌ∏Å
+üòÅüòÅüòÅ
 
 [22:00:41](#rtoxf32Wqu8nSEaeUoAhTov2vfzK6w6HhahAY8k5z2c) <GiuseppeChillemi (GiuseppeChillemi)>:
 * In reply to @hiiamboris:tchncs.de
@@ -55208,7 +55208,7 @@ I did, but some features are not implemented. Markdown looks simple on surface, 
 [12:04:11](#lVozu4j63DSoid3Ka-DovDK1bRCH4ZZpdx_P5go0AyY) <gurzgri>:
 > <@rebolek-5565a4bf15522ed4b3e100bc:gitter.im> I did, but some features are not implemented. Markdown looks simple on surface, but the specs are vague and surprisingly complex.
 
-`markup`, not `markdown` Ì†ΩÌπÉ
+`markup`, not `markdown` üôÉ
 
 [12:08:24](#LinNNh0eGNkU8SSXBtGIhi8j0wjZsuQwMTUgOfvWHt0) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 another trouble is that some features can't even be implemented with the code I have, as what I've got is one-pass parser but some Markdown features require two-pass parser (first translate MD source to AST, then AST to HTML or whatever).
@@ -55542,10 +55542,10 @@ A view
 ## 12-Feb-2024
 
 [4:15:37](#qVz9OM0RTAMbO9X9FVudisT2QOffWAVYvT0DsiYrsJ4) <pekr (Petr Krenzelok) (@pekr:matrix.org)>:
-Wohooo, am I correct that maps just switched its syntax from `#()` to `#[]`? Ì†ΩÌπÇÌ†ΩÌ±çÔ∏è
+Wohooo, am I correct that maps just switched its syntax from `#()` to `#[]`? üôÇüëçÔ∏è
 
 [4:39:49](#Mp0rf3TCRvQo_kjsQtJ79lMdPYUyn4vVbXGGVqOgg9Q) <GiuseppeChillemi (GiuseppeChillemi)>:
-> <@pekr:matrix.org> Wohooo, am I correct that maps just switched its syntax from `#()` to `#[]`? Ì†ΩÌπÇÌ†ΩÌ±çÔ∏è
+> <@pekr:matrix.org> Wohooo, am I correct that maps just switched its syntax from `#()` to `#[]`? üôÇüëçÔ∏è
 
 Yes, there are commits from a couple of days, greggirwin (Gregg Irwin): has made the miracle. Since now on, we will call this period: "The days of the miracle of Saint Gregg".
 
@@ -56063,7 +56063,7 @@ And of course, a nice blog post on how things wark in 0.7.0...... It's been 5 ye
 ## 20-Feb-2024
 
 [7:56:36](#ftkKayuIyLvnATujjlILVq_2kby1gYXlnpcgfP6r8K4) <planetsizecpu (Jose Luis)>:
-New blog entry for Red. Good job guys, stay on the line! Ì†ΩÌ∏â
+New blog entry for Red. Good job guys, stay on the line! üòâ
 
 [16:45:39](#UObAlQ6BKRpLl4EzNC9dTrH3yXaYurjaHvdQ69eOSys) <hiiamboris (@hiiamboris:tchncs.de)>:
 Alexey seems too busy to accept the PR, so you might wanna grab it on your own https://github.com/Alexey-T/CudaText-lexers/pull/7
@@ -56570,7 +56570,7 @@ do-events
 ```
 
 [18:01:42](#YAHpearNbLDEqZtLeFz9Ee-t4JOySdK9o2o6p9fcQzw) <raydeejay>:
-at this point I managed to get everything working, so I guess next step is to accept the challenge xD Ì†ΩÌ±çÔ∏è
+at this point I managed to get everything working, so I guess next step is to accept the challenge xD üëçÔ∏è
 
 [18:09:03](#SwdmKfjZWgKnL6su9nZNJMZbuj3NIDbAR6J3AO9iTas) <raydeejay>:
 I shall smack my code hammer against this piece of code for a couple more hours and come back with something less... bad xD
@@ -56852,7 +56852,7 @@ what am I breaking xD
 it doesn't explode in release mode
 
 [15:34:41](#zLchrS15QN-rHlCJEM5lAglOzKEZdhS0DZ8K4wEjZYw) <raydeejay>:
-but it doesn't quite work either, seems like it's either not loading the tasks, or not loading the data into the gui Ì†æÌ¥î
+but it doesn't quite work either, seems like it's either not loading the tasks, or not loading the data into the gui ü§î
 
 [15:54:37](#kxOL4TVIankLUyCYkYqOca4Lu3YX8XcdJpRWGBuYlAw) <raydeejay>:
 anyway it's a problem for tomorrow, today's problem is how to keep the gui alive while on a loop?
@@ -56861,7 +56861,7 @@ anyway it's a problem for tomorrow, today's problem is how to keep the gui alive
 try deleting libRedRT.dll, maybe it's out of sync
 
 [16:38:45](#tYwpmi1h0oS2pqmJJ6Yhr991ttsgZGBQUPO5WjWA1oQ) <raydeejay>:
-linux, but I never used it anyway, it should be pretty fresh? Ì†æÌ¥î
+linux, but I never used it anyway, it should be pretty fresh? ü§î
 
 [16:39:46](#vQleFMJHFGIjwD9LjFFrok-h7BfyCvxoeL9KT931rGY) <raydeejay>:
 answer: you do some do-events/no-wait here and there
@@ -56923,7 +56923,7 @@ Yes, but not documented that you can access it in the body.
 I think I'm getting the hang of the reactivity stuff :)
 
 [18:55:04](#mL-RK8zBm36_adYmcy5_Y4vsltjFwuFaYH65Kt7AZO0) <greggirwin (Gregg Irwin)>:
-Sounds like you're making great progress. Ì†ΩÌ±çÔ∏è
+Sounds like you're making great progress. üëçÔ∏è
 
 [18:55:54](#EqcC_L4KS7tnb7Rs55MKmY4JdV1hTf8CpyBQSTLWrtw) <greggirwin (Gregg Irwin)>:
 Be warned, Redbol langs are addictive. Once you get used to all the datatypes, block parsing, and so much more, it can be *really* hard to go back to other langs.
@@ -56947,7 +56947,7 @@ gotta add lightsabres to the belt
 ![](https://gitter.ems.host/_matrix/media/v3/download/gitter.im/b82f159ed04ec12fa8dc0e586d86ac988a03bba91773787179072356352)
 
 [19:00:05](#VLY9n-NV-iZJML0DeC8T0qDj2eh-BFkrHEoqOgjfJJo) <raydeejay>:
-I need to improve my layout-fu next Ì†ΩÌ∏Ö
+I need to improve my layout-fu next üòÖ
 
 [19:09:57](#Afl4632-BI1gUD7X-BLb5Zk5HL8JXKi_KFDPeFVJ_pE) <greggirwin (Gregg Irwin)>:
 Play with panels.
@@ -57267,7 +57267,7 @@ Hello, I am new to Red and I explore at the moment the error-handling. Do I see 
 Hi, that's correct.
 
 [19:48:45](#1YSnxu3yvVcMZZ3PQPskGyDA9RaC62wx5zHTAuUtuh4) <Eisenaxt>:
-Ah, OK. Nice to know that I am on the right way.   Ì†ΩÌ∏Ä
+Ah, OK. Nice to know that I am on the right way.   üòÄ
 
 [19:49:27](#CcjGPWapHXCRx-HSa38ovEugeOVmfyyrlu0im6fNYq4) <Eisenaxt>:
 I stumbled at the beginning over throw and catch. But this words seem not directly related to error-handling.
@@ -57346,7 +57346,7 @@ BTW, I'm old school, I'd rather have an active IRC channel over all others.
 I would like It too but there would be too many channels around.
 
 [22:12:38](#zHjtXSUQraeFfRRhxOK65eCP5YqRVesehZrwkaQ_T6w) <GiuseppeChillemi (GiuseppeChillemi)>:
-And here we are at most 10 active members. So, should each of us go to a different channel? Ì†ΩÌ∏Å
+And here we are at most 10 active members. So, should each of us go to a different channel? üòÅ
 
 [22:55:15](#uKs7xM1Ss2WrLKk1Efc5Cj3IOYXwKJNnRloe6-nP25E) <vein777>:
 I suppose not.  I was trying to make a larger community.  But that may not be possible at this time.
@@ -57372,7 +57372,7 @@ There may be as I know there is slack bots.  There could be something that could
 BTW, I have no intention of running the Slack channel. If this is something that Doc wants to do , then I would gladly make his the admin.
 
 [6:04:02](#dVia9oNKcvPeiz3s7VdRwCeLqtbzXt1pnRFDsYp7HQY) <pekr (Petr Krenzelok) (@pekr:matrix.org)>:
-Our dev team was using Slack, the rest of the enterprise lives on MS Teams :-) Visually, I never liked Slack - to many hashtags Ì†ΩÌ∏Ä
+Our dev team was using Slack, the rest of the enterprise lives on MS Teams :-) Visually, I never liked Slack - to many hashtags üòÄ
 
 [6:47:43](#J9Ql4ZYNNac5_nSa8tDoI93deIL0Yo0ElmaBzZ_U2ic) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 Discord and Slack are proprietary platforms. Even if they offer 1000 free users now, that may change at any point in the future. Gitter UI may be a bit confusing but at least it's open.
@@ -57454,7 +57454,7 @@ Undestood. I'll study the source some more. Thanks!
 most bindings you can see in `?? gui-console-ctx/terminal/press-key` but I'm not sure just replacing it will have any effect
 
 [17:45:52](#e6D4DdYGz9wSPFjFus98O75-cztqKzqB3eM1dax15X8) <caugmar>:
-I just found it in source, forgot to try to use the console to look for it. I'll try and see. More oportunities to learn Ì†ΩÌ∏Ä
+I just found it in source, forgot to try to use the console to look for it. I'll try and see. More oportunities to learn üòÄ
 
 ## 12-Apr-2024
 
@@ -57721,7 +57721,7 @@ Red 0.6.5 for Windows built 5-Apr-2024/20:45:40-04:00  commit #36adc61
 like I said, it's not native
 
 [9:26:36](#kl4q6gjp_LCMVaR8SLHugvjfax93KHYFmvVyYjHG0nA) <hiiamboris (@hiiamboris:tchncs.de)>:
-* like I said, it's not native Ì†æÌ¥∑Ì†ºÌøª‚Äç
+* like I said, it's not native ü§∑üèª‚Äç
 
 [9:32:16](#pFuGhZO1sX6g2ZH8qWC6Vn445fX4HBuly6Szmfy58RY) <cosacam1 (cosacam1)>:
 ```
@@ -57919,7 +57919,7 @@ GiuseppeChillemi (GiuseppeChillemi): Tried to compile using Red, but no luck yet
 Me too, they are working on the core.
 
 [8:21:09](#GssjwRyiEnAp5hVJUVW0ydN935pr0KEdSq9uc-KHPkQ) <GiuseppeChillemi (GiuseppeChillemi)>:
-But I have headache thinking about Red used to code R/S that will be used to compile Red. I always think about bugs in the compiler that could effect the Red executable that generate the buggy compiler code Ì†ΩÌ∏µ‚ÄçÌ†ΩÌ≤´
+But I have headache thinking about Red used to code R/S that will be used to compile Red. I always think about bugs in the compiler that could effect the Red executable that generate the buggy compiler code üòµ‚Äçüí´
 
 [8:53:12](#zk1eVHYJQwzLiqLjXAIXMkgXFi9UjuivFf76mkqa3sE) <pekr (Petr Krenzelok) (@pekr:matrix.org)>:
 I never properly understood this chicken egg problem. I think I can somehow understand the risks (to some extent), but really - what is a difference? R2 is ridden with some bugs to, for which, historically, we had to use some workarounds, without ANY ability to properly fix them. Red was bootstrapped for quite some time. I am not sure Red (R/S) are, core-wise, more buggy than R2.
@@ -58051,7 +58051,7 @@ Given the complexities involved in completing the language and bringing an imple
 
 
 Upgrade the current 32-bit Red implementation
-Ì†ΩÌ±â Concurrency
+üëâ Concurrency
 
 We need a proper model for concurrent execution in order to leverage multicore architectures. We will define one and make a prototype implementation in the 32-bit version. 
 
@@ -58067,7 +58067,7 @@ Given the complexities involved in completing the language and bringing an imple
 
 
 Upgrade the current 32-bit Red implementation
-Ì†ΩÌ±â Concurrency
+üëâ Concurrency
 
 We need a proper model for concurrent execution in order to leverage multicore architectures. We will define one and make a prototype implementation in the 32-bit version. 
 
@@ -58452,7 +58452,7 @@ Everyday I see something special. TUI backend has now Rich Text background color
 * Everyday I see something special. TUI backend has now Rich Text and background color. I am looking forward to see everything merged in the Master/Main branch.
 
 [10:27:40](#_u0LVIi3oDuvSRs40GZsIWuWE5SC03pQM6lG3Wr2Ypo) <pekr (Petr Krenzelok) (@pekr:matrix.org)>:
-Rich text in a terminal interface? Should we expect some games too? Minecraft or Roblox clone over a serial interface Ì†ΩÌπÇ
+Rich text in a terminal interface? Should we expect some games too? Minecraft or Roblox clone over a serial interface üôÇ
 
 [13:38:33](#COZ89L-yDUzsXCORVQ5JTWH3o-dcSd5VbVcSljwbAGI) <GiuseppeChillemi (GiuseppeChillemi)>:
 Just think about the whole MSDOS world and BBS interface. That's the kind of Rich Text you will have in Red
@@ -58613,7 +58613,7 @@ form blk
 ```
 
 [9:43:23](#sf8d7OrXqiQT6jircsRBbZXeyA29cm7NU8NevBXnjfU) <pekr (Petr Krenzelok) (@pekr:matrix.org)>:
-Well. Maybe I remeber insert/tail being faster than append in R2. Will do some tests using Red Ì†ΩÌπÇ
+Well. Maybe I remeber insert/tail being faster than append in R2. Will do some tests using Red üôÇ
 
 [9:44:35](#eQ2m9Ja6FdEN9TmqB6XKkNibiyfTXlA421g46oHAFA0) <Oldes (@oldes.h:matrix.org)>:
 `append` was slow on R2, as it was just a mezzanine...
@@ -58945,7 +58945,7 @@ Fantastic work!
 Please I need an answer to this
 
 [5:47:29](#syGITgZzLYyEaczCXpMfX8tn2auPY6D1KyJonffCxEs) </-+>:
-I have Ì†ΩÌ∞ù practicing this language for 2 weeks now but wanted to know it's uses in creating projects
+I have üêù practicing this language for 2 weeks now but wanted to know it's uses in creating projects
 
 [9:34:17](#jdJD0tEyM5uVPw-9wTWOBZGn6qTra2JYY7eXaeraWwU) <GiuseppeChillemi (GiuseppeChillemi)>:
 Desktop applications, small inhouse networking,  IOT
@@ -58966,7 +58966,7 @@ Can it also be use for web development and develop system programming like opera
 I notice the branch called "red" (rewriting the R/S compiler in Red) is stalled.
 
 [14:02:16](#40o1wdZjSAtgjEb4TGbVUMDHVkAKDLH79yTMjoKnnHA) <pekr (Petr Krenzelok) (@pekr:matrix.org)>:
-TUI, Node and Master are seeing some changes though Ì†ΩÌπÇ
+TUI, Node and Master are seeing some changes though üôÇ
 
 [14:49:22](#uKXmm8gGqno_qJm01PiOSuFi5jMSYqTtmAxMEy4qMhM) <mikeyaunish>:
 > <@giuseppechillemi-59045d00d73408ce4f5bcd9d:gitter.im> Fantastic work!
@@ -58974,7 +58974,7 @@ TUI, Node and Master are seeing some changes though Ì†ΩÌπÇ
 Thanks.
 
 [16:32:54](#CqFraDABpRsBXLY7Zge2LZIMe30PV3j7hmP9Z4O-Cmg) <meijeru (Rudolf Meijer)>:
-> <@pekr:matrix.org> TUI, Node and Master are seeing some changes though Ì†ΩÌπÇ
+> <@pekr:matrix.org> TUI, Node and Master are seeing some changes though üôÇ
 
 Acknowledged. It makes me wonder about priorities/scheduling nevertheless...
 
@@ -59254,7 +59254,7 @@ qtxie! While developing I/O and TUI consider this scenario: multiple ANSI telene
 ## 12-Jun-2024
 
 [6:40:44](#1KpE_ufbr_RZpkv6lP3d9d1SRAk9OXNesoI4VZfuBUU) <planetsizecpu (Jose Luis)>:
-This is a must have, works as expected for embedded devices.  Good job guys Ì†ΩÌ∏É
+This is a must have, works as expected for embedded devices.  Good job guys üòÉ
 
 [19:16:16](#96cEP3SPxv4OKlkrDJRV_8YwmSWz9GNWcsbB3n1Kq7Y) <caugmar>:
 Hi! I'm trying to run tui.red with the from the TUI folder with the new console binary, but getting this:
@@ -59308,13 +59308,13 @@ I have great faith in the work of the team. The difficulties they had mean nothi
 * I have great faith in the work of the team. The difficulties they had mean nothing, they are humans and It is part of our path. Everything has just been postponed a little but we are still navigating, slowly but we keep moving! I see a great future for all of us! 
 
 [14:25:47](#jFvhH3ELJ1sCVJ6Wrot2bcLybspC06fx0kZZrFhBMZk) <pekr (Petr Krenzelok) (@pekr:matrix.org)>:
-Now I wonder, what does "new powerful layer to our Red tower of languages" stands for Ì†ΩÌπÇ
+Now I wonder, what does "new powerful layer to our Red tower of languages" stands for üôÇ
 
 [15:00:44](#ehSjfRAqV3C7E7sflJO5stqQl9qmhNvWydmE691Z6i8) <meijeru (Rudolf Meijer)>:
 BTW, should the TUI version not be mentioned in the README on github?
 
 [16:01:55](#n5Kn8U1j-V7_P6c3hrEZ2sY8xAsrfHcnUQy5L-bZRKw) <GiuseppeChillemi (GiuseppeChillemi)>:
-> <@pekr:matrix.org> Now I wonder, what does "new powerful layer to our Red tower of languages" stands for Ì†ΩÌπÇ
+> <@pekr:matrix.org> Now I wonder, what does "new powerful layer to our Red tower of languages" stands for üôÇ
 
 I have the sane curiosity... We are excited looking forward for the announcement
 
@@ -59331,7 +59331,7 @@ Pulled in extra packages as recommended, tried the following >>from rebol>> do/a
 Additionally when trying do/args %red.r "-r %environment/console/CLI/console.red" I get error, "Compilation Error: invalid path valude: exec/gui/back-to-console" . I can post more if needed. 
 
 [23:45:15](#h10ZcxByqLUF7dGZQaKmtXq7yNkRq8nHk4-3K8YQ3Js) <hiiamboris (@hiiamboris:tchncs.de)>:
-https://github.com/red/red/pull/4984 seems to have fixed that, so broken again? Ì†ΩÌ∏Ö
+https://github.com/red/red/pull/4984 seems to have fixed that, so broken again? üòÖ
 
 [23:45:51](#MwXifgu4jX7HvmofeHD-4Rp0W-WtZYEC6u8TbQn0qNU) <hiiamboris (@hiiamboris:tchncs.de)>:
 or maybe you just need to install 32-bit libgdk_pixbuf
@@ -59738,7 +59738,7 @@ going 64 bit should help, though FreeBSD is still not an officially supported pl
 things get broken from time to time, with no one reporting it :)
 
 [22:45:59](#YM8aPG_D9kLDlaDxwOsAKcxHTFc71Y2_zqLhTg76ebc) <3xtraterrestrial>:
-Ì†æÌ¥†
+ü§†
 
 [22:46:13](#1f-i4-TPcEbkEfrwIqmSASySGcSbgE35abdAJcVKiFQ) <3xtraterrestrial>:
 I'll try to do what I can to help
@@ -59844,10 +59844,10 @@ Though in fairness, it and other latest Spaces programs have highlighted a lot o
 * Though in fairness, it and other latest Spaces programs have highlighted a lot of weak points in the current Spaces design, and allowed me to gather enough data for the upcoming design upgrade. So after this I expect I'll start overhauling it all.
 
 [18:11:16](#yj5wLg5Sb_1wKcQG5SUWk1e2OS6WKVa8BEXdmmYxawU) <pekr (Petr Krenzelok) (@pekr:matrix.org)>:
-Reading the features I have stopped at firet point - very slow - I always wish, someone finds out some forgotten optimisation, corrects one line o low level code and things run in real-time Ì†æÌ¥£
+Reading the features I have stopped at firet point - very slow - I always wish, someone finds out some forgotten optimisation, corrects one line o low level code and things run in real-time ü§£
 
 [18:11:33](#o8uI7L6JMxPl3alNI7P-4XIryQwJTp9scNoZpKThPyA) <pekr (Petr Krenzelok) (@pekr:matrix.org)>:
-* Reading the features I have stopped at first point - very slow - I always wish, someone finds out some forgotten optimisation, corrects one line o low level code and things run in real-time Ì†æÌ¥£
+* Reading the features I have stopped at first point - very slow - I always wish, someone finds out some forgotten optimisation, corrects one line o low level code and things run in real-time ü§£
 
 [21:53:00](#TqRg8BPOX1d9vIRVsjy5maNbKSlsVbRkaLAs_egqMTQ) <GiuseppeChillemi (GiuseppeChillemi)>:
 Didn't expect It so soon
@@ -59865,7 +59865,7 @@ It Is already a great set of features, you have gone far with It.
 I had expected a base one before this, with just display capabilities and editing. Wow!
 
 [23:08:37](#12DU0aArVt7Gt7i3drvPjD77NNnONZe28WCV3Kd9NMo) <GiuseppeChillemi (GiuseppeChillemi)>:
-However the color bug still here, I hope It will be fixed in future versions Ì†ΩÌ∏Å
+However the color bug still here, I hope It will be fixed in future versions üòÅ
 
 [23:09:15](#d1nTGSktIwGDJB8HlyxscCgP9rldbx2Ef34XZjz0X54) <Sergei>:
 nice work!
@@ -60080,7 +60080,7 @@ you have another `text-props-ok?`, local to your function
 though my general advice would be to keep global state at a required minimum at all times, otherwise no one will ever be able to unravel it ;)
 
 [10:18:20](#Smud4k4UFSS2KK89gAdNYo5d8wlAb1EzLkpTGu71pSQ) <pekr (Petr Krenzelok) (@pekr:matrix.org)>:
- * Reading the features I have stopped at first point - very slow - I always wish, someone finds out some forgotten optimisation, corrects one line of low level code and things run in real-time Ì†æÌ¥£
+ * Reading the features I have stopped at first point - very slow - I always wish, someone finds out some forgotten optimisation, corrects one line of low level code and things run in real-time ü§£
 
 [10:28:18](#m-O1xQCzuxBdfI2Pik-0t1KVr9YdK3xLSqFgDgFhfyk) <hiiamboris (@hiiamboris:tchncs.de)>:
 thanks, Sergei and welcome
@@ -60271,7 +60271,7 @@ I did not look into the "pick" which this seems to be a short hand notation of "
 Hmm.. I would guess, `print` does not call a full `reduce`, but it's own reinvention of this wheel (there's actually more than that, e.g. `print` can be called from within `print`-expression)
 
 [16:11:44](#j6BNG2lSWRkTx8KsU7EJI_LIFeB70lXEysUSknexjlw) <hiiamboris (@hiiamboris:tchncs.de)>:
-hence it may only reduce a block and nothing else Ì†æÌ¥∑Ì†ºÌøª‚Äç‚ôÇÔ∏è
+hence it may only reduce a block and nothing else ü§∑üèª‚Äç‚ôÇÔ∏è
 
 [16:12:07](#7bBwntduDSZU4FNURTk70AigzOaohxy67KbIuPXGfIQ) <hiiamboris (@hiiamboris:tchncs.de)>:
 * Hmm.. I would guess, `print` does not call a full `reduce`, but it's own reinvention of this wheel (there's actually more than that, e.g. `print` can be called from within a `print`-expression)
@@ -60890,7 +60890,7 @@ yeah nah. if someone has to set up a vpn to use the internet, the problem is on 
 But thanks for the suggestion.
 
 [13:38:12](#nTOzBLoRhho6tAlBE7S4NyWUXjvwdkwGanL7eMAXSc0) <hiiamboris (@hiiamboris:tchncs.de)>:
-well, anyone else can access it just fine so far, so I hate to break it to you but the problem is with your provider Ì†ΩÌ∏Ö
+well, anyone else can access it just fine so far, so I hate to break it to you but the problem is with your provider üòÖ
 
 [13:39:54](#4XmH29XGjrc5uZ6LrzEsUjWjuNr0pE5P75h4oHpDi7s) <hiiamboris (@hiiamboris:tchncs.de)>:
 from my experience: I had an NL server, which was identified as having a US-based IP, and it felt like half of the internet is inaccessible from it, though that was mostly because a lot of services block US-based users
@@ -60899,7 +60899,7 @@ from my experience: I had an NL server, which was identified as having a US-base
 ![https://gitter.ems.host/_matrix/media/v3/download/gitter.im/74031623fec498540389f5a563dd44ee420857721819005978448756736](https://gitter.ems.host/_matrix/media/v3/download/gitter.im/0076b9c259c0be7b102722efd28497c11127cf5f1819005980160032768)
 
 [13:43:47](#tgo1fOg4mBVidZJbQLxTn3mF3itkYybJ3540408R7xk) <TimeSeriesLord (TimeSeriesLord)>:
-yeah nah, again, Ì†ΩÌπÑ. 
+yeah nah, again, üôÑ. 
 
 The site is insecure.  And hence unreliable.  
 
@@ -61284,7 +61284,7 @@ For the record, I'm using a USA based ISP and https://search.lang.red/ is easily
 [16:38:51](#cwpdepH047_pv2sxeKcp-B5K4vhTQHg35knOsfTuFho) <TimeSeriesLord (TimeSeriesLord)>:
 > <@lnxw37d4:matrix.org> For the record, I'm using a USA based ISP and https://search.lang.red/ is easily reachable. Maybe instead of getting angry when someone tells you that your ISP is the problem, you should consider what they tell you.
 
-For the ultimate record, perhaps you should not project so much. Ì†æÌ¥î Yet your white knigting is most amusing. Ì†æÌ¥£ In group dynamics,  always toadies come forth to seize every chance to show off to the group superiors how they have the greatest fidelity to the group. They wish to be seen as pious. Such behavior amuses. 
+For the ultimate record, perhaps you should not project so much. ü§î Yet your white knigting is most amusing. ü§£ In group dynamics,  always toadies come forth to seize every chance to show off to the group superiors how they have the greatest fidelity to the group. They wish to be seen as pious. Such behavior amuses. 
 
 Besides, I am not angry. I don't give two shits about some guy's toy pseudo-search engine. Merely I pointed out that it does not work in at least one case and for a specific reason. 
 
@@ -61756,10 +61756,10 @@ split: func [
 ```
 
 [16:36:42](#U9kOzFZwden4nDurmu_3o1a9n7xeXH5WTobzNWYQu-0) <gurzgri>:
-To be honest, I went for checking the source of `what` to see if there is a slight change that it mistakenly finds "sin" in "... serie[s in]to ...". Before noticing it in "... u[sin]g ..." ... Ì†ΩÌπà
+To be honest, I went for checking the source of `what` to see if there is a slight change that it mistakenly finds "sin" in "... serie[s in]to ...". Before noticing it in "... u[sin]g ..." ... üôà
 
 [16:36:56](#l-OoGlEMD9nzIKWDssDGi2-1yzIigPNi-peXEFbGpzw) <gurzgri>:
- * To be honest, I went for checking the source of `what` to see if there is a slight chance that it mistakenly finds "sin" in "... serie\[s in\]to ...". Before noticing it in "... u\[sin\]g ..." ... Ì†ΩÌπà
+ * To be honest, I went for checking the source of `what` to see if there is a slight chance that it mistakenly finds "sin" in "... serie\[s in\]to ...". Before noticing it in "... u\[sin\]g ..." ... üôà
 
 [20:21:36](#9ZQx9A9oFsl7O8-XV1Qu2PK_I_24sYn4BG3e6baTc8A) <Rebol2Red (Rebol2Red)>:
 I overlooked that one. Thanks for pointing this out to me.
@@ -61860,7 +61860,7 @@ FYI this works fine for me on W10 and Ubuntu
 ## 25-Aug-2024
 
 [12:21:46](#qxNvcs4WyaRMtddGLPy4t4ED2SWhGHTyL6mCwigpJIc) <Nuc1eoN (@nuc1eon:matrix.org)>:
-Hi does anyone have a list of red channels on matrix/gitter, and how do I join them? I had them added on gitter I think but on element they are not available Ì†æÌ¥î
+Hi does anyone have a list of red channels on matrix/gitter, and how do I join them? I had them added on gitter I think but on element they are not available ü§î
 
 [12:23:35](#aoXnbnZRxsndpNSD8Im3EOEXC-1rgu3m0xSedAVSehE) <Nuc1eoN (@nuc1eon:matrix.org)>:
 I search for red/help in the explore menu but it would not find anything
@@ -61930,7 +61930,7 @@ https://github.com/red/red/wiki/[NOTE]-Anti-virus-false-positives
 Trying to repair the above link to [Antivirus False Positives](https://github.com/red/red/wiki/%5BNOTE%5D-Anti-virus-false-positives)
 
 [12:46:53](#K9Q2YdBwvQn_GOZpkA883YVEAJPtYAmn6RiYfBDuaNA) <hiiamboris (@hiiamboris:tchncs.de)>:
-Thanks gurzgri I went to Element web to see if it correctly shows the link, but.. it doesn't even see your whole message Ì†æÌ¥¶‚Äç‚ôÇÔ∏è
+Thanks gurzgri I went to Element web to see if it correctly shows the link, but.. it doesn't even see your whole message ü§¶‚Äç‚ôÇÔ∏è
 
 [12:59:06](#yscMjVgzUJ70wxsus2lN3mYjINksgA_sq2O1dYh-Gus) <gurzgri>:
 Works fine for me on iOS with sweet link o‚Äô mine, but didn‚Äôt work with yours, that‚Äòs why I added it.
@@ -62022,7 +62022,7 @@ are there any guides on how to build the Red toolchain (redc)?
 no, you need a REBOL API key for that, but they are not sold anymore
 
 [12:48:26](#MtTXF82cFEPqzokQuS6A478zIacaBkUse-LPbWnTnO0) <pekr (Petr Krenzelok) (@pekr:matrix.org)>:
-Shouldn't we get, sometimes soon (TM), a rebolless self-hosted toolchain? Ì†ΩÌπÇ
+Shouldn't we get, sometimes soon (TM), a rebolless self-hosted toolchain? üôÇ
 
 [12:48:54](#iqbK6wJg80SJPTCCfb5e9tclfztdC-hdIl6YjMIdtbo) <klymsawur>:
 > <@hiiamboris:tchncs.de> no, you need a REBOL API key for that, but they are not sold anymore
@@ -62326,7 +62326,7 @@ like kernel debugging using red ,
 also any red script for web scrapping for pentesting 
 
 [11:31:11](#91SJ49edUtQJiX-yJgLt1U8UiJp4vMG-H6IQ-d5aum8) <sp1d3r_99>:
-thank you for answer in advance Ì†ΩÌπèÌ†ºÌøªÌ†ΩÌπèÌ†ºÌøªÌ†ΩÌπèÌ†ºÌøªÌ†ΩÌπèÌ†ºÌøªim a newbie just start learning 
+thank you for answer in advance üôèüèªüôèüèªüôèüèªüôèüèªim a newbie just start learning 
 
 [13:25:12](#BdY5yGMUo-0sbFg9vPnClFbEGY_QLpSYX_AVOxP-yxY) <hiiamboris (@hiiamboris:tchncs.de)>:
 maybe this will help you https://github.com/ldci/Red-System/blob/main/doc/Programming_with_Red%3ASystem.pdf
@@ -62361,9 +62361,9 @@ greggirwin (Gregg Irwin): For you!
 > 
 > https://t.me/+dqk4cMEewjAwZTdk
 > 
-> Ì†æÌµáÌ†æÌµáÌ†æÌµáÌ†æÌµáÌ†æÌµáÌ†æÌµáÌ†æÌµáÌ†æÌµáÌ†æÌµáÌ†æÌµáÌ†æÌµáÌ†æÌµáÌ†æÌµáÌ†æÌµá
+> ü•áü•áü•áü•áü•áü•áü•áü•áü•áü•áü•áü•áü•áü•á
 > 
-> Ì†ΩÌ≤∏Ì†ΩÌ≤∏Ì†ΩÌ≤∏Ì†ΩÌ≤∏
+> üí∏üí∏üí∏üí∏
 
 IS THIS TELEGRAM SCAM BOT WRITTEN IN RED PROGRAMMING LANGUAGE?? 
 
@@ -62376,10 +62376,10 @@ ok sir
 [4:32:30](#Mj31_qU78jOm-vomkMWMRJQd10XWq9HrW5p1KE5sHRY) <sp1d3r_99>:
 > <@hiiamboris:tchncs.de> maybe this will help you https://github.com/ldci/Red-System/blob/main/doc/Programming_with_Red%3ASystem.pdf
 
-wow that you very very much sir Ì†ΩÌπèÌ†ºÌøªÌ†æÌµ∞
+wow that you very very much sir üôèüèªü•∞
 
 [4:34:02](#ikeu1L2cC5swU9PFbYToj5f96WFF_EYLb59yU0RiO2U) <sp1d3r_99>:
-* wow thank you very very much sir Ì†ΩÌπèÌ†ºÌøªÌ†æÌµ∞
+* wow thank you very very much sir üôèüèªü•∞
 
 ## 7-Oct-2024
 
@@ -62407,7 +62407,7 @@ Took me while to identify [commit 2c4fa0e](https://github.com/red/red/commit/2c4
  * Took me while to identify [commit 2c4fa0e](https://github.com/red/red/commit/2c4fa0ef7bfd7b30bfc8dc4e4c58bfc07ba72f87) in this comparison, therefore posting the direct link.
 
 [17:53:33](#YJTbmHaMF0vER3LGzGv_KycuCM15mFht5CLQ9r0_1UQ) <hiiamboris (@hiiamboris:tchncs.de)>:
-I suggest a ban Ì†ΩÌ±Ü
+I suggest a ban üëÜ
 
 [17:53:53](#zkgX3jxzG7-MUhzjvje2qL6M8BVj4jDaJ6rXglUkyH8) <GiuseppeChillemi (GiuseppeChillemi)>:
 No, I am interested! I want to be rich!
@@ -62639,7 +62639,7 @@ Another sample of using Red for nice applications: http://redlcv.blogspot.com/20
 ![](https://matrix-client.matrix.org/_matrix/media/v3/download/matrix.org/XRUOZwDILkEzxPEhKNiUXRnQ)
 
 [7:26:57](#rfEzISF8FwqsfGLt0r6imIM0kK7YxjDGqiJSF_Z41EY) <sp1d3r_99>:
-for only few lines i can able to download pdf in the internetÌ†æÌµ∞
+for only few lines i can able to download pdf in the internetü•∞
 
 [12:51:49](#YLI0P3u6YJajJsxC66kKEyLzxPfSmBglkBKyQBKbyrY) <ldci (Fran√ßois Jouen)>:
 sp1d3r_99: You can use a more generic function
@@ -62697,7 +62697,7 @@ url: https://static.red-lang.org/A_BNF_grammar_of_Red_System.pdf
 Correctly works: I can read the downloaded document
 
 [17:26:32](#-132bqtx8Tawfevpkzhr-UeoaxzhL4hUy_qE3_dSFTs) <sp1d3r_99>:
-ldci (Fran√ßois Jouen): thank you very much sir Ì†ΩÌπèÌ†ºÌøª
+ldci (Fran√ßois Jouen): thank you very much sir üôèüèª
 
 [17:27:59](#YtiWSXV8aYRl2NEo058Snusv8CRi9hbCIspKPcr0h0w) <hiiamboris (@hiiamboris:tchncs.de)>:
 because that github link is broken, it won't open even in the browser
@@ -62708,7 +62708,7 @@ As small thing. In your `read-write` (often called `copy-file`) you have the des
 [17:32:54](#_hzjs7LHdRQhO0u_fT5wjOy9wdfJrvStNivJffN4yYI) <sp1d3r_99>:
 > <@greggirwin-55659ddb15522ed4b3e1006f:gitter.im> As small thing. In your `read-write` (often called `copy-file`) you have the dest file first and the URL second. In Red, arg order is up to you, of course, but look at how others consistently order them. Subjectively it's from most important to least, or with source elements first and destinations after that. And since it's called `read-write` in your case, it sounds like it reads first, which it does, so putting the URL param first matches nicely.
 
-thank you sir very much Ì†ΩÌπèÌ†ºÌøª
+thank you sir very much üôèüèª
 
 [17:34:03](#qg7hepIQe2oGBW-MgxU11wObzOeBKmocEhBogj6vSL4) <greggirwin (Gregg Irwin)>:
 You're very welcome. This kind of attention to detail is another small thing that makes Redbol langs feel more natural, and aid in code reading. 
@@ -62736,7 +62736,7 @@ Yep. Github pb not Red
 > ```
 > Enjoy Red :)
 
-wow ,nice , thank you very much again sir , noted Ì†ΩÌ≥ùÌ†ΩÌ≥ùÌ†ΩÌπèÌ†ºÌøªÌ†ΩÌπèÌ†ºÌøªÌ†æÌµ∞Ì†ΩÌ±çÌ†ºÌøª
+wow ,nice , thank you very much again sir , noted üìùüìùüôèüèªüôèüèªü•∞üëçüèª
 
 [23:11:25](#RQYSkVrKiUWYisPolRg5Xx2hfA9sLREaHq5CkzbRhdE) <ldci (Fran√ßois Jouen)>:
 sp1d3r_99: You‚Äôre welcome :)
@@ -62829,7 +62829,7 @@ view win
 > ```
 > 
 
-wow this is complete sir ,thanks alot Ì†ΩÌ∏ç
+wow this is complete sir ,thanks alot üòç
 
 [10:26:23](#qXt_TIpzFvNffwStvGX8dnMlvsWPRbfKfun_QmyUaEw) <ldci (Fran√ßois Jouen)>:
 sp1d3r_99: All you need to do is install error handling if the URL is wrong or the file doesn't exist. 
@@ -62839,10 +62839,10 @@ sp1d3r_99: All you need to do is install error handling if the URL is wrong or t
 [14:35:59](#MteVEIrbd_hpsGS-OSbUQxBnlYdjWd9xWpnmIoZSK-g) <sp1d3r_99>:
 > <@ldci-5673ead416b6c7089cbf2ba5:gitter.im> sp1d3r_99: All you need to do is install error handling if the URL is wrong or the file doesn't exist. 
 
-copy that sirÌ†ΩÌπèÌ†ºÌøª ‚ù§Ô∏è
+copy that sirüôèüèª ‚ù§Ô∏è
 
 [14:36:19](#KuzDAys3K6AY03e5QVobkPYUAqL_UfkkiZZ2u-jkOh8) <sp1d3r_99>:
-thanks again sir Ì†ΩÌπèÌ†ºÌøª
+thanks again sir üôèüèª
 
 ## 30-Oct-2024
 
@@ -62956,7 +62956,7 @@ A Red contribution to [stalin-sort](https://github.com/gustavo-depaula/stalin-so
 I thought I share that here. Deliberatly decided to go with a `parse` based solution.
 
 [14:03:34](#eGB3_8OTC7DMFCjFDB5AxlRiQpGAH0jj7jIJUh5eOCc) <bazub>:
-nice to have the Red implementation, but as an offtopic - the algorithm itself seems to be wrong Ì†ΩÌ∏Ö. I mean, it does not preserve the input array, so it is not exactly the same sorting as we would normally assume
+nice to have the Red implementation, but as an offtopic - the algorithm itself seems to be wrong üòÖ. I mean, it does not preserve the input array, so it is not exactly the same sorting as we would normally assume
 
 [14:05:32](#wr6UXSrp-SwaVY7ojGfElSeNCDNW-lLfH7Gm-yf0Aj0) <bazub>:
 On a practical side, if I were a user with a list of entries, and after a sort some of those entries would be gone - I would be mighty confused
@@ -62974,10 +62974,10 @@ So when the author boasts about O(n) sorting, implying this is something to be c
 Obviously that whole stalin-sort thing is missing a parental advisory `/s` marker just to make sure that people get the tongue-in-cheek-ness of the repo. You do, do you?
 
 [17:46:53](#fDqi2hau5AFHkOjxBYbK5VADy6AI1jbhMTiPYkzBpSI) <bazub>:
-Actually no, I did not - I assumed this was some real thing Ì†æÌ¥¶‚Äç‚ôÇÔ∏è. Silly me, I need some rest.
+Actually no, I did not - I assumed this was some real thing ü§¶‚Äç‚ôÇÔ∏è. Silly me, I need some rest.
 
 [17:56:01](#uvSrgZHxAiD-ISrQBiJPkciJEFKueMDsmDZMFB73-RM) <gurzgri>:
-Nevermind Ì†ΩÌ∏ú But if you want to point out a flaw in my contribution, you‚Äòre welcome: blame me for failing to declare `foo` and `bar` as `/local` Ì†ΩÌπà
+Nevermind üòú But if you want to point out a flaw in my contribution, you‚Äòre welcome: blame me for failing to declare `foo` and `bar` as `/local` üôà
 
 ## 13-Nov-2024
 
@@ -63327,7 +63327,7 @@ Have a look here: https://helpin.red
 greggirwin (Gregg Irwin): Could we plus ban tapin_0002? It is an evident spammer.
 
 [3:00:07](#oxUpWjw3xcAwHBVV_akUN1PZ246tFiVS-V1F9NA-hqQ) <ldci (Fran√ßois Jouen)>:
-Ì†ΩÌ±çÔ∏è
+üëçÔ∏è
 
 [6:48:58](#w-m_SVljphOYRAEjWMNLGsxSKOmrGaUMadCd-MJXZDQ) <GiuseppeChillemi (GiuseppeChillemi)>:
 Don't you want to make money fast? 
@@ -63414,12 +63414,12 @@ guys sharing my code ,, another simple downloader
 thank you 
 
 [9:08:08](#YaD17A79o2C1V94jyYsRV_KRYLx8A23KwurDZMrCtyw) <sp1d3r_99>:
-i learned red coding from your advice , thank you  very muchÌ†ΩÌπèÌ†ºÌøª
+i learned red coding from your advice , thank you  very muchüôèüèª
 
 [9:10:05](#kh1eZV-49kJidLEmbanUFkulQBRzseCLOzuQfUkCohw) <sp1d3r_99>:
 > <@ldci-5673ead416b6c7089cbf2ba5:gitter.im> After many administrative setbacks, we have finally succeeded in creating our website: https://uniter2p2.fr (in French and English versions). Much of the code developed for our projects uses Red language. Here are some real-life applications. 
 
-wow ,amazingÌ†æÌ¥©Ì†æÌ¥©Ì†æÌ¥©Ì†æÌ¥©Ì†æÌ¥©,
+wow ,amazingü§©ü§©ü§©ü§©ü§©,
 is that already tested to sqlimjection/xss  sir ??
 
 [9:30:37](#nc3BUzznXZllKEHoThum-NVGwn_fd-SFnBOE3N9gseA) <GiuseppeChillemi (GiuseppeChillemi)>:
@@ -63801,7 +63801,7 @@ Thank you. The same for you
 Thank you greggirwin (Gregg Irwin) , the next 3 years will be great for Red (but also Rebol3), I am 100% sure many things will change and we will have a lot of new tech and coders.
 
 [1:09:26](#6kYUEyA5kzxFfzSSQ9Fftsi7bq-nj6BO2oKGM-WVmsg) <GiuseppeChillemi (GiuseppeChillemi)>:
-Happy 2025 to everyone! Ì†ºÌΩæ
+Happy 2025 to everyone! üçæ
 
 [6:27:54](#_5z6kG62kfTh3FDtyya1yoBoD4zCgBGq7EVlvimKkYQ) <ldci (Fran√ßois Jouen)>:
 Happy New Year. My blog is just updated : https://redlcv.blogspot.com/2025/01/savitsky-golay-filter.html
@@ -63923,7 +63923,7 @@ Thanks for the explanations :)
 There has been an huge merge.
 
 [13:19:59](#diZzStcMtJBumg_T4cqozNJC17vmiXTrUJvjODIpo6Y) <GiuseppeChillemi (GiuseppeChillemi)>:
-Ì†ºÌæâÌ†ºÌæâÌ†ºÌæâ
+üéâüéâüéâ
 
 [13:42:37](#D-97LjR_kb-xDUwOyqZriKBLrqxLJqIz0vLOzfhH5f8) <bazub>:
 appears to be related to garbage collection
@@ -63965,7 +63965,7 @@ This is the reason why the garbage collector is here now and not in September. T
 Apart joking, I see it as a long and difficult work. Congratulations!
 
 [15:26:06](#wf_H7OkRgRO6wUXAtQVdoNJl3VEWeHTocU30KyP_6Ys) <GiuseppeChillemi (GiuseppeChillemi)>:
-Ì†ºÌΩæÌ†ºÌΩæÌ†ºÌΩæ
+üçæüçæüçæ
 
 [20:31:19](#_yA6Ued3mlhZhC-uEiC5JgcT8i3xkktcoFUT6KvTtfc) <greggirwin (Gregg Irwin)>:
 dockimbel: just pushed a fix for the CLI console. Be sure to sync that.
@@ -64361,7 +64361,7 @@ Very well expressed, that's what I was trying to convey.
 ## 9-Feb-2025
 
 [14:55:07](#6AYNq69k34rA7_UbdPev-b8oG3oZBE_-_VSb9WfCp1U) <bazub>:
-Has anyone been using the Red LSP as part of VSCode extension, in the past 5 years? Ì†ΩÌ∏Ö
+Has anyone been using the Red LSP as part of VSCode extension, in the past 5 years? üòÖ
 
 [14:56:14](#yJFRcTfEgAM3G7zmY_uZ1lqhCEfO6qsJsMA3jkbF8xk) <bazub>:
 Because I just found a bug that supposedly would prevent you from doing so, resulting in a crash on startup.
@@ -64408,7 +64408,7 @@ See https://github.com/red/red/issues/2817 but with a note that Red is a data fo
 is dockimbel = DocKimbel, or do we have a doppelganger here? :D
 
 [20:11:20](#4Y7_FjFGoDQisB2ui095AT15i8XKxewb3iXtekvGHeE) <DocKimbel>:
-Probably both mine, I'm using the Element.io web client, so I'm unsure if I have created a new profile or not...Ì†ΩÌ∏Ö
+Probably both mine, I'm using the Element.io web client, so I'm unsure if I have created a new profile or not...üòÖ
 
 [20:14:40](#yDJM00vQEEG2MGKIX0vtfemTFrdipFNl-OyjzhXIv7Y) <dockimbel>:
 I've signed out from that account, now should be back to the main one.
@@ -64496,7 +64496,7 @@ There are many ways to approach UI design and tooling. In the long-ago days of t
 ## 23-Feb-2025
 
 [4:40:25](#f-N_qtn3qyOTcHGaWw--XvenJGHJIk7Pwug6WGQ4XRY) <kavina computers>:
-I have given Myself small target - user should be able to create. TextBox, Label, Button and table, Part one of data entry, In gui area user will link those to database, User will design database in Gui. and Buttons have actions linked to them to perform database operation also user will be able to select them from GUI. at end User will have fully functional app(exe). For now I will not add anything extra once this is done,I will add more. Right now I am working on database linking to textbox. For Database right now I am using .red files and loading in memory. I have done some work on report design will soon add it in GUI. I am also learning lot of new things before this project I never knew word database-schema now I know.Ì†ΩÌ∏Ö 
+I have given Myself small target - user should be able to create. TextBox, Label, Button and table, Part one of data entry, In gui area user will link those to database, User will design database in Gui. and Buttons have actions linked to them to perform database operation also user will be able to select them from GUI. at end User will have fully functional app(exe). For now I will not add anything extra once this is done,I will add more. Right now I am working on database linking to textbox. For Database right now I am using .red files and loading in memory. I have done some work on report design will soon add it in GUI. I am also learning lot of new things before this project I never knew word database-schema now I know.üòÖ 
 
 [6:37:14](#zBpAkbipgQwI0io5YjKZEhhLVD4GQYmVNYmDdPDjuYY) <kavina computers>:
 how to speedup compilation time To compile the Windows GUI console from source:
@@ -64628,7 +64628,7 @@ Seeing weak table support for R2, a bit better with Rebgui, spondoring one other
 The question is, how can we eventually mix VID native and custom styles. greggirwin (Gregg Irwin):  was thery any discussion to that topic?
 
 [16:54:56](#nwq6Gu0ktifzqRT4r-Dudi9lK_Vrdz_xqmDJajBWiKg) <pekr (Petr Krenzelok) (@pekr:matrix.org)>:
-And then of course, there is completly separate effort like Spaces Ì†ΩÌπÇ
+And then of course, there is completly separate effort like Spaces üôÇ
 
 [18:19:05](#gjsSfey9vjXrMkK3ELehfd4yC_TCItLWydM5JX5iVnA) <greggirwin (Gregg Irwin)>:
 kavina computers: , thanks for all your work on a table style! Great progress.
@@ -64671,7 +64671,7 @@ Here: https://codeberg.org/hiiamboris/red-spaces
 https://github.com/ldci/Red-System/blob/main/doc/Programming_with_Red%3ASystem.pdf
 
 [12:51:58](#t3XKokU9565D0aW1FsCuU2aEhcGw8rxdQd_WD6xmmPc) <planetsizecpu (Jose Luis)>:
-Good job kavina computers check this also: https://github.com/planetsizecpu/forms    Ì†ΩÌπÇ
+Good job kavina computers check this also: https://github.com/planetsizecpu/forms    üôÇ
 
 ## 25-Feb-2025
 
@@ -64685,10 +64685,10 @@ There is the old gitter R/S forum. Oldes has made an web accessible  copy. Also 
 `Word` and `path` with 1 `word` have the same aspect. What about if the latter is changed to `word/`?
 
 [1:18:01](#rFUUdZIXwM-qVHXjjjSLEeXWEcKFS6-Lc7dyb21H80Q) <GiuseppeChillemi (GiuseppeChillemi)>:
-Otherwise you can't visually distringuish them! Ì†æÌ¥∑
+Otherwise you can't visually distringuish them! ü§∑
 
 [1:30:43](#wub31p48hXTZUsEINsm19FTlGA-fEjVKqpdhlUPpnm0) <GiuseppeChillemi (GiuseppeChillemi)>:
-* Otherwise you can't visually distinguish them! Ì†æÌ¥∑
+* Otherwise you can't visually distinguish them! ü§∑
 
 [6:44:08](#l5Dllo0TFHnmaFGnpNr8xSpJzubxwe8h3l0_Kw_9oNc) <hiiamboris (@hiiamboris:tchncs.de)>:
 Cases like that are numerous, e.g., so what you're proposing is an isolated kludge:
@@ -65066,7 +65066,7 @@ I have seen the latest commits to RSC2 and found there is a RSC3. My curiosity h
 Yes, Doc has fixed it and before the post I have completed my work on semi-path
 
 [13:01:31](#ERx3hWFbEC3wXWblRTOpoZVd8xCRr_oM51niIra1xQU) <pekr (Petr Krenzelok) (@pekr:matrix.org)>:
-Blade Runner inspired - I've seen things you people wouldn't believe. Attack ships on fire off the shoulder of Red! Ì†ΩÌ∫Ä
+Blade Runner inspired - I've seen things you people wouldn't believe. Attack ships on fire off the shoulder of Red! üöÄ
 
 [13:20:31](#DKiEU3d9_AlbOrFtT_f48fK_9zUXxbxvMkydeO3b8FQ) <GiuseppeChillemi (GiuseppeChillemi)>:
 "I have seen commits you people wouldn't believe. Bugs on fire of the shoulders of Red"
@@ -65119,7 +65119,7 @@ hiiamboris: your work on spaces is awesome. I really appreciate docs
 Thanks dude :) Can't wait for people to build something with it ‚òª
 
 [17:36:19](#oHubU03tT9ljKDd6yn_DCG7vzgJfEFYUHiBamEKAnwk) <kavina computers>:
-That would be awesome Ì†ΩÌ∏ç see.
+That would be awesome üòç see.
 
 ## 11-Mar-2025
 
@@ -65531,7 +65531,7 @@ oh nvm just looked at the code lol, I did implement them but not path support
 can push a fix for that later today
 
 [22:03:25](#BO-ZVWm7ECGGBZyOs-3v1wEr-9LmeWerIHO-U7iYkyY) <ALANVF (theangryepicbanana)>:
-it's now been fixed/implemented Ì†ΩÌ±çÔ∏è
+it's now been fixed/implemented üëçÔ∏è
 
 ## 16-Mar-2025
 
@@ -65864,7 +65864,7 @@ Fantastic blog entry. And at the end there is an interesting promise! Lets see i
 Welcome 0.6.6! I daresay it came as a surprise to me but it rekindles the hope that other major improvements are yet to come, not only the (already promised) IO! I appreciate that the team working on this does not have the time to keep us posted while they are at it. So we have to be faithful, aka full of faith :-)
 
 [17:36:26](#ZduvAjQNstAL_sE0PyEEgm61jjksOa7Np5Er1YQEFrM) <pekr (Petr Krenzelok) (@pekr:matrix.org)>:
-What's next section is the one I am always looking for Ì†ΩÌ∏Ä This time, my prediction was wrong. I thought, RSC2 goes first, IO later. But - whatever comes first, is going to be great Ì†ΩÌπÇ
+What's next section is the one I am always looking for üòÄ This time, my prediction was wrong. I thought, RSC2 goes first, IO later. But - whatever comes first, is going to be great üôÇ
 
 [20:18:01](#URkfOP0rF829pkVgPb3g6Q-eTZo0KxE5JGav5eUGh3M) <dockimbel>:
 dander (Dave Andersen): The new Red release has stable versions. I logged in Chocolatey to try to update whatever script it uses to make it work again, but I have no clue how to achieve that. If you have time, please update it.
@@ -66037,7 +66037,7 @@ That's plain marvelous, my problem is gone with new version :-)
 [15:59:14](#Fbo60lQAqZrVbJsSOyc3KXnFY9SNZ8e3ZNab48VSsBw) <zentrog>:
 dockimbel I published a new package after updating it to download the 3 red exes. Unfortunately it has been flagged by virus total: https://community.chocolatey.org/packages/red/0.6.6
 I'll see if it would be possible for a moderator to manually approve it. I'm also curious about submitting false positive reports to all the scanners that flagged it.
-I need to finish updating the docs for the package generation. I didn't understand what that stuff was doing either Ì†ΩÌ∏§
+I need to finish updating the docs for the package generation. I didn't understand what that stuff was doing either üò§
 
 [16:04:04](#C-pWs0MZhIT-7n-FQuccfznXJN7BzezclavSyEC-LEM) <hiiamboris (@hiiamboris:tchncs.de)>:
 That's a good argument for staying away from this (or any other) software censorship platform.
@@ -66108,7 +66108,7 @@ Or how to get image assets from raw memory on the Amiga‚Ä¶ yeah, it was interest
 More and more people believe that the only skill you'll need in a few years is knowing how to ask AI.
 
 [8:47:18](#rBbVmIsgxfwGTJZ6cnRqRmMDbUQNxekhvEcdrOv7AIA) <pekr (Petr Krenzelok) (@pekr:matrix.org)>:
-I know,  but I am an old stubborn guy, refusing to believe, it is going to be such easy Ì†ΩÌπÇ
+I know,  but I am an old stubborn guy, refusing to believe, it is going to be such easy üôÇ
 
 [10:14:43](#MjqdmwbvHZpnv1pCz9rxZ8loCBUosaRkg-TZAGyo0Xw) <dockimbel>:
 Sure, it was not C-level access to memory, but it was still very useful, allowing to go very far without resorting to C (e.g. my async CALL [implementation](https://www.softinnov.org/rebol/acall.shtml), my [printer driver](https://github.com/dockimbel/printer-driver),...)
@@ -66345,7 +66345,7 @@ Of course, it wasn't an option back then when you wrote that.
 See [this](https://github.com/Oldes/Rebol3/blob/e41971cce3b7ddb07dcd951f9760cdc3bd3753c2/src/os/win32/dev-stdio.c#L87-L104) and [this](https://github.com/Oldes/Rebol3/blob/e41971cce3b7ddb07dcd951f9760cdc3bd3753c2/src/os/win32/dev-stdio.c#L389-L397) in R3 sources.
 
 [15:42:32](#bHSdlqaP6YsAbcUX4QxGvxc_nIyv-XU1zwmHTdiZJkM) <gurzgri>:
-And here I was just heading over to the R3 sources to have a look on how you are doing it over there. Thanks for pointing to the relevant places Ì†ΩÌπè. So the decision is made at compile time.
+And here I was just heading over to the R3 sources to have a look on how you are doing it over there. Thanks for pointing to the relevant places üôè. So the decision is made at compile time.
 
 ## 20-Apr-2025
 
@@ -66717,16 +66717,16 @@ I have an evolved version. I will look at it tomorrow. I have too much headache,
 * I have an evolved version. I will look at it tomorrow. I have too much headache, everything is turning around me. This topic is horrible as it has too many similar visual symbols and everything seems the other.
 
 [15:57:50](#YJXbuFM-dg-Ug-EBczb-rIy37EQ9xz3EDFGYKn5DjJ0) <GiuseppeChillemi (GiuseppeChillemi)>:
-* I have an evolved version. I will look at it tomorrow. I have too much headache, everything is turning around me. This topic is horrible as it has too many similar visual symbols and everything seems the other. I my mind thougths switch and combine between multiple versions of explanations. Ì†ΩÌ∏µ‚ÄçÌ†ΩÌ≤´Ì†ΩÌ∏µ‚ÄçÌ†ΩÌ≤´Ì†ΩÌ∏µ‚ÄçÌ†ΩÌ≤´
+* I have an evolved version. I will look at it tomorrow. I have too much headache, everything is turning around me. This topic is horrible as it has too many similar visual symbols and everything seems the other. I my mind thougths switch and combine between multiple versions of explanations. üòµ‚Äçüí´üòµ‚Äçüí´üòµ‚Äçüí´
 
 [15:58:09](#9Hb30h4VTA-dIWTZdhJuWKyIkFYYOkbTHeFkdaSqUkk) <GiuseppeChillemi (GiuseppeChillemi)>:
-* I have an evolved version. I will look at it tomorrow. I have too much headache, everything is turning around me. This topic is horrible as it has too many similar visual symbols and everything seems the other. I my mind thougths switch and combine between multiple versions of the explanations I give. Ì†ΩÌ∏µ‚ÄçÌ†ΩÌ≤´Ì†ΩÌ∏µ‚ÄçÌ†ΩÌ≤´Ì†ΩÌ∏µ‚ÄçÌ†ΩÌ≤´
+* I have an evolved version. I will look at it tomorrow. I have too much headache, everything is turning around me. This topic is horrible as it has too many similar visual symbols and everything seems the other. I my mind thougths switch and combine between multiple versions of the explanations I give. üòµ‚Äçüí´üòµ‚Äçüí´üòµ‚Äçüí´
 
 [16:13:43](#v-2_KY2F7muEzwvL_36J0pBtUA_XWsHFE76K6sUChiM) <GiuseppeChillemi (GiuseppeChillemi)>:
-* I have an evolved version. I will look at it tomorrow. I have too much headache, everything is turning around me. This topic is horrible as it has too many similar visual symbols and everything seems the other. In my mind thougths switch and combine between multiple versions of the explanations I give. Ì†ΩÌ∏µ‚ÄçÌ†ΩÌ≤´Ì†ΩÌ∏µ‚ÄçÌ†ΩÌ≤´Ì†ΩÌ∏µ‚ÄçÌ†ΩÌ≤´
+* I have an evolved version. I will look at it tomorrow. I have too much headache, everything is turning around me. This topic is horrible as it has too many similar visual symbols and everything seems the other. In my mind thougths switch and combine between multiple versions of the explanations I give. üòµ‚Äçüí´üòµ‚Äçüí´üòµ‚Äçüí´
 
 [16:14:11](#g6hdC0XhK80NioORktI6VuhEd2Jd67Rw3LF8VtvYJQU) <GiuseppeChillemi (GiuseppeChillemi)>:
-* I have an evolved version. I will look at it tomorrow. I have too much headache, everything is turning around me. This topic is horrible as it has too many similar visual symbols and everything seems the other. In my mind thoughts switch and combine between multiple versions of the explanations I give. Ì†ΩÌ∏µ‚ÄçÌ†ΩÌ≤´Ì†ΩÌ∏µ‚ÄçÌ†ΩÌ≤´Ì†ΩÌ∏µ‚ÄçÌ†ΩÌ≤´
+* I have an evolved version. I will look at it tomorrow. I have too much headache, everything is turning around me. This topic is horrible as it has too many similar visual symbols and everything seems the other. In my mind thoughts switch and combine between multiple versions of the explanations I give. üòµ‚Äçüí´üòµ‚Äçüí´üòµ‚Äçüí´
 
 [17:30:32](#60_iGM4IGAgFC-dVw22ZSY6dOB7mu5RLaGmxdXhd3Qg) <GiuseppeChillemi (GiuseppeChillemi)>:
 Well, Rebol2 shows a bug and some occurrences have a problem in the new version.
@@ -66925,7 +66925,7 @@ My idea to have a (bindable) OPEN-BODY function with a syntax as: `[#run a + b]`
 * My idea to have a (bindable) OPEN-BODY function with a syntax as: `[#run a + b]`, so you can bind the block, cant be solved from the existing combinations of arguments. Either with a `get-arg` or a `lit-arg` if I want to support result coming from a function, there is a problem, with one you can get arguments at arg site, with the other, you can't distinguish if a path is to be GET or it is a RESULT . The only solution is `lit-arg` +`/result` refinement, as far I can see. Because it is the only way to know if `y/1` is a path to `GET` (and run the open-body function it picks) or a result that should remain inactive.
 
 [1:32:07](#MqMlmM6tGUspKZGFS5E4EGVjdSqh_pCJ3_F9iY5l_AQ) <GiuseppeChillemi (GiuseppeChillemi)>:
-Ì†æÌ¥∑
+ü§∑
 
 [1:40:57](#XEzYCd0mKhVdygF_yahLDnVC03D1CuLQG-c7UMjF6dY) <GiuseppeChillemi (GiuseppeChillemi)>:
 * My idea to have a (bindable) OPEN-BODY function with a syntax as: `[#run a + b]`, so you can bind the block, cant be solved from the existing combinations of arguments. Either with a `get-arg` or a `lit-arg` if I want to support result coming from a function, there is a problem. With the former you can't get next elements at arg-site to feed a function contained in the word passed; with the latter, you can't distinguish if a path is to be GET or it is a RESULT . The only solution is `lit-arg` +`/result` refinement, as far I can see. Because it is the only way to know if `y/1` is a path to `GET` (and run the open-body function it picks) or a result that should remain inactive.
@@ -67354,7 +67354,7 @@ Also works here with `-c` in place of `-r`.
 Indeed, it works fine with -c switch.
 
 [17:30:32](#F6-s6mXiWbdVQHqkHchsex4_B7cCqdAB3wQIj-Aqp_A) <greggirwin (Gregg Irwin)>:
-Just confirming that I reproduced your scenario, which is helpful. Ì†ΩÌ±çÔ∏è
+Just confirming that I reproduced your scenario, which is helpful. üëçÔ∏è
 
 [17:32:17](#es5cxneQ9P8YKU_Y0iqUPNLJADgf9o3l9hUMRJXBUzo) <hiiamboris (@hiiamboris:tchncs.de)>:
 I confirm as well
@@ -67500,7 +67500,7 @@ total =  10
 ```
 
 [3:01:53](#2TRPD_edFtYlJWrbNOob30Pq7AW-ICzCsAIMcOjdDaA) <Les Baker>:
-That's exactly what I needed. Much appreciated. Ì†ΩÌ±çÔ∏è
+That's exactly what I needed. Much appreciated. üëçÔ∏è
 
 [5:30:12](#FLB0pNmFKOxjskRimonDPYSUOPVc_pYFyx8MUT4RHyI) <greggirwin (Gregg Irwin)>:
 Thanks for jumping in mikeyaunish . 
@@ -67508,7 +67508,7 @@ Thanks for jumping in mikeyaunish .
 Welcome Robert L. ("Les") Baker !
 
 [5:43:58](#oOyPx9z5MieHrCjlpzx0A2i-_jpZMW2wNIIIvAJ2AFs) <Les Baker>:
-Thanks Ì†ΩÌ∏Ä. I saw Red on HN a little while ago and I decided to check it out. I used to develop professionally for the public sector (healthcare) maintaining Java Web services and a webapp (Tapestry, ugh!). Had to step away to become a full time caretaker. Now I do it for fun and to keep my brain active. I'm trying to develop a modification GUI utility for Super Metroid and started with Flutter, but didn't like Dart (having to litter "async" all over your code just to use the stdlib...). I checked out Kotlin and liked it pretty good and actually have some of the back end done in it. I looked at Red though and was *really* impressed by the integration of the GUI with the language itself and the ability to deploy straight to an exe.
+Thanks üòÄ. I saw Red on HN a little while ago and I decided to check it out. I used to develop professionally for the public sector (healthcare) maintaining Java Web services and a webapp (Tapestry, ugh!). Had to step away to become a full time caretaker. Now I do it for fun and to keep my brain active. I'm trying to develop a modification GUI utility for Super Metroid and started with Flutter, but didn't like Dart (having to litter "async" all over your code just to use the stdlib...). I checked out Kotlin and liked it pretty good and actually have some of the back end done in it. I looked at Red though and was *really* impressed by the integration of the GUI with the language itself and the ability to deploy straight to an exe.
 
 [5:47:56](#L36sPjM61b3XQr_a5OGuQePnpw4oFeXgbqUahUsA3HM) <Les Baker>:
 I got one of the PortAudio samples working so I'm going from there. My goal is to reproduce the minimum working sample I started out with on the Kotlin side, where I decoded the voice sample at the beginning of the game ("last metroid in captivity, the galaxy is at peace").
@@ -67625,7 +67625,7 @@ Thank you. Might be some simple thing I'm doing wrong though.
 * Go on Tom√°s, I will test it too, so we will solve the Red language server problems on Windows once and forever
 
 [14:04:40](#0h1iMrgG86Q84dNPxwOsazNEdONrgNprnC28EQllbsA) <ldci (Fran√ßois Jouen)>:
-I can‚Äôt see or download images Ì†ΩÌ∏¨
+I can‚Äôt see or download images üò¨
 
 [20:45:25](#_fmjcjocVrBWifeXtFwdiI40VYLpP4CvEBbqPJ_rMXY) <gurzgri>:
 It works fine for me under Windows with these settings in `settings.json` :
@@ -67860,13 +67860,13 @@ I mean sorting
 Perfect, great contribution to the community 
 
 [9:04:09](#Ux4pI-wwvey1zrfku_X9DNRy3ojl97wGaxCqijZU7r0) <GiuseppeChillemi (GiuseppeChillemi)>:
-Thanks Ì†ΩÌ≤Ø respect for you too
+Thanks üíØ respect for you too
 
 [9:06:13](#xmHdnjmU7WP5aeKlVQTHwShiT-HqaFd9dUAbYzu9YLk) <kavina computers>:
 dude no problem I just want to speed up time to compile red binary if anyone knows how please let me know do/args %red.r "-r -t Windows %environment/console/GUI/gui-console.red" compiling with this line is just pain.
 
 [9:06:23](#ztjJc5WkC082KTQbKxF2L9QCevIkNCpbIbQrj4Oi7L8) <GiuseppeChillemi (GiuseppeChillemi)>:
-* Thanks Ì†ΩÌ≤Ø% respect for you too
+* Thanks üíØ% respect for you too
 
 [9:07:34](#Pi9zXKKNG-dLqq7hJWAq2RHbsXuq-nmV6FLJwTiv1Vk) <GiuseppeChillemi (GiuseppeChillemi)>:
 Have you tried removing the release mode? 
@@ -68103,7 +68103,7 @@ tried a VPN?
 Tried moving to that room but get this error:  "You are not invited to this room"
 
 [15:20:00](#Y8tFrWlBvjX_0b08smnDU5PXHJ5xvMKlXKeYALOtMfE) <ldci (Fran√ßois Jouen)>:
-Same story for me Ì†ΩÌ∏¨
+Same story for me üò¨
 
 [16:09:18](#KrTxwKgNzEfijvkdFUJfjbWL04D0aEoS5Bir48MmwkM) <greggirwin (Gregg Irwin)>:
 It's an old one, so let's set up a new one.
@@ -68216,10 +68216,10 @@ c!: function ['f [word!] x [any-type!]] [
 ```
 
 [18:30:46](#xHpGIKaIdtd2ee-neOOlUrWy7PAPM3_XJ6X609GyUXg) <hinjolicious>:
-Nice, thanks! Ì†æÌª°
+Nice, thanks! ü´°
 
 [18:32:34](#mdBhXdSqEdpIwolW6bL2YsVUs56kztiXsqCUPspESeQ) <hinjolicious>:
-I'm thinking to extend it to include multiple arguments, but I'm still learning! Ì†ΩÌπÇ
+I'm thinking to extend it to include multiple arguments, but I'm still learning! üôÇ
 
 [18:38:44](#cF3oXmXCRzyI-jQdhk103Q_9LOOpKD9lsnaj5zaz6-U) <hinjolicious>:
 Your version is simpler but failed when parsing :
@@ -68278,7 +68278,7 @@ Where this comes into play is with blocks, lit-args/words and get-args/words. Yo
 As you go deeper, you'll also see that refinements have to be considered, which played heavily into the design of `apply`: https://www.red-lang.org/2023/06/dynamic-refinements-and-function.html
 
 [19:15:34](#Fm8c6GR5CGvagJBjElgHnjdtAjtjPZs0NOoG3N0by7M) <hinjolicious>:
-okay, thanks Greg! Red in interesting indeed!Ì†ΩÌ±çÔ∏è
+okay, thanks Greg! Red in interesting indeed!üëçÔ∏è
 
 [19:20:49](#VDbDJXOuZgGzgUvtBfXZUW1PnxFTVWZiZ1Ap_PvC9PU) <hinjolicious>:
 what I like is, by using that kind of function, we can curry normal function no need for a special constructs!
@@ -68299,7 +68299,7 @@ This is also very important when it comes to scoping, which Red doesn't have. Oo
 What we often do is hold a reference to something, so we can replace it. e.g. `sys-print: :system/words/print`, then you can still call the standard func that way. If you *reuse* a standard word in your own context/object, that's perfectly fine, and it will "shadow" the global word, which you can still reference via `system/words/...`.
 
 [20:02:10](#-OdOqq5KfmP5R5oRFpqEDwDEMzpm5NQoXuOfHVvOc7g) <hinjolicious>:
-yeah, there are too many words in use by Red already! Ì†ΩÌ∏Ü
+yeah, there are too many words in use by Red already! üòÜ
 
 ## 22-Jul-2025
 
@@ -68417,7 +68417,7 @@ You can have lazy evaluation too, but it's better to do it explicitly rather tha
 ```
 
 [9:51:01](#f4p_ii70v4NgcqER7l_ySyABgCR8QBALm6EWlD18zqs) <hinjolicious>:
-Thanks Boris!Ì†æÌª°
+Thanks Boris!ü´°
 
 ## 24-Jul-2025
 
@@ -68706,7 +68706,7 @@ Sure. I think this  kind of code is just for a developer for their own business,
 Then be kind to your future self who uses it. :^)
 
 [18:22:47](#CiE14m5y9cELyPjfvBAkKVE0r6_gVYAbvL1wEwOZUjQ) <hinjolicious>:
-Noted sir! Ì†æÌª°
+Noted sir! ü´°
 
 ## 27-Jul-2025
 
@@ -68893,7 +68893,7 @@ https://rosettacode.org/wiki/Arithmetic/Integer#Red
 [8:15:38](#5TukBqVriU6feBtFB0_YByrvvzXjd1mbA2stsDKN7bM) <hinjolicious>:
 Hi everyone, it's me again.
 I'd like to share my currying function and I'd like to see your opinion on it.
-As a response to Greg, about why args names are not preserved, and about my code as not ideomatic to Red's spirit, I have learned a bit more about Red, and now please share your view, suggestion, critic, etc. Ì†ΩÌ∏ä
+As a response to Greg, about why args names are not preserved, and about my code as not ideomatic to Red's spirit, I have learned a bit more about Red, and now please share your view, suggestion, critic, etc. üòä
 https://gist.github.com/hinjolicious/d5eec8ca96cc1a82f0fdb6e0a249922b
 
 [8:16:59](#ppYb2tTTZ-Euep6W8YaIpcGVSz68Q3qwqpBB0gik1ew) <hinjolicious>:
@@ -68928,12 +68928,12 @@ p>> double 20 ;== 40
 
 [8:24:03](#USMII-CEH8urOd3KPvg2oHC3Pjdh5QP4p8D8yvJ-eeI) <hinjolicious>:
 Function's refinements is not yet supported, I'm still working on it. I find it quite hard to handle refinements.
-Please share your suggestion about handling those refinements. Ì†ΩÌπè
+Please share your suggestion about handling those refinements. üôè
 
 [13:38:58](#eh4KhUcLfQIweL0p6C9x_z6jdWbsr0vVbarc1-VBsgU) <hiiamboris (@hiiamboris:tchncs.de)>:
 > <@hinjolicious:gitter.im> Hi everyone, it's me again.
 > I'd like to share my currying function and I'd like to see your opinion on it.
-> As a response to Greg, about why args names are not preserved, and about my code as not ideomatic to Red's spirit, I have learned a bit more about Red, and now please share your view, suggestion, critic, etc. Ì†ΩÌ∏ä
+> As a response to Greg, about why args names are not preserved, and about my code as not ideomatic to Red's spirit, I have learned a bit more about Red, and now please share your view, suggestion, critic, etc. üòä
 > https://gist.github.com/hinjolicious/d5eec8ca96cc1a82f0fdb6e0a249922b
 
 - We don't let function docstrings exceed a single line. They are reminders, not a replacement for proper documentation when it's needed.
@@ -68943,7 +68943,7 @@ Please share your suggestion about handling those refinements. Ì†ΩÌπè
 
 [13:40:36](#xchwIJOSv3-0OIUWcyERhbQxeVEI3S2N-rFdbkoCxpI) <hiiamboris (@hiiamboris:tchncs.de)>:
 > <@hinjolicious:gitter.im> Function's refinements is not yet supported, I'm still working on it. I find it quite hard to handle refinements.
-> Please share your suggestion about handling those refinements. Ì†ΩÌπè
+> Please share your suggestion about handling those refinements. üôè
 
 This may help but is still limited https://www.red-lang.org/2023/06/dynamic-refinements-and-function.html
 
@@ -69009,7 +69009,7 @@ foo: func [a b c d e f][a + b + c + d + e + f]
 >> d2 3 4
 == 21
 
-I think that would gives us alternative in implementation and a sore-free eyes Ì†ΩÌ∏Å
+I think that would gives us alternative in implementation and a sore-free eyes üòÅ
 
 [17:01:05](#Sv_hj_xeWdSgc3Km3KfFzICqy5So4bb5gPpw6jMGUF4) <greggirwin (Gregg Irwin)>:
 On Modulo, there was quite some chat: https://github.com/red/red/issues/2433
@@ -69018,11 +69018,11 @@ On Modulo, there was quite some chat: https://github.com/red/red/issues/2433
 
 [6:19:32](#b4qiMePP6e7uqx7gYl9oCTD-cnn9guW8UIK7pLfokKI) <hinjolicious>:
 If I can share my view, for truncated/machine math, 'quot  and 'rem can be use, with these  '// and '% symbol as the alternatives.
-For Euclidean, just use 'div and 'mod, no need for separate symbols.Ì†æÌª°
+For Euclidean, just use 'div and 'mod, no need for separate symbols.ü´°
 
 [6:25:43](#K4LcCB8JmBuayxGtatjSLB-A8xZlhJEVoNJ60o-jZmA) <hinjolicious>:
 those 'quot, 'rem 'div and 'mod are infix operators.
-and maybe also the 'quotrem and 'divmod which returns a block or pair. Ì†ΩÌ∏Ä
+and maybe also the 'quotrem and 'divmod which returns a block or pair. üòÄ
 
 [18:14:50](#5vM2WAGukj0uAlhUiHbtbyTSX3hhBz0hK2bhjaqnvhM) <greggirwin (Gregg Irwin)>:
 `quot` is a tricky term, as it is also used in Lisp as `quote`, to suppress evaluation. Red has `quote`, but I would prefer that to be `lit` as "literal" is already part of our terminology with `lit-word`. Red also tries to use full words when possible, though not always of course. e.g. the choice of whether to alias `absolute` as `abs` has settled on not having the alias as standard, but people can create their own or use it in dialects. `div` also has a different meaning, as in layout (HTML). Red doesn't use it for that in VID, but something like it could exist. Also, just the abbreviation doesn't make the difference in behavior clear, which is another goal.
@@ -69032,7 +69032,7 @@ Thus far only `and/or/xor` are op words, which is another design choice. People 
 Using a pair makes less sense, in this context, but it's great to see you thinking about how to leverage datatypes. A block would be the better choice here. Need a strong case for why it's worth including the func, as it's not highly leverageable. It's also a fine example to put in a cookbook of some kind, for those who want it.
 
 [23:05:16](#GdwumSOW5PYSn2fpSD53vXqwsh_vRpF1f_PMUZx-LmA) <hinjolicious>:
-if we want to stick to the basic, then '% for trunc remainter, and for Euclidean modulo we can use '%% . using '// for Euclidean modulo is not "the norm", I think, people usually assumed it as integer divide, but of course nothing can stop us to be unique, according to Red's spirit! Ì†ΩÌ∏Å
+if we want to stick to the basic, then '% for trunc remainter, and for Euclidean modulo we can use '%% . using '// for Euclidean modulo is not "the norm", I think, people usually assumed it as integer divide, but of course nothing can stop us to be unique, according to Red's spirit! üòÅ
 
 [23:18:22](#G6Vumgjl1KZWAPfeOMcg0nIKpAVH2WsArlwROrbNt9g) <hinjolicious>:
 the logic is, we already use '/ for floating point division, so '// could denote an integer one (trunc based), and for remainder, '% could be used, or to have the same double-chars as '//, we could use '%%. 
@@ -69403,7 +69403,7 @@ that is: handle refinements with skipped arguments, etc.
 
 
 [16:10:24](#Mh5Ye5UKYC_QY1CImIonKR2hbH21ESuIWquH6KP6dg8) <hinjolicious>:
-just need someone expert to make it more efficient and bullet-proof, for real applications Ì†ΩÌ∏É
+just need someone expert to make it more efficient and bullet-proof, for real applications üòÉ
 
 [16:33:32](#0zlIDba0-HWYrqSzkIphGZ6NEZVYf8FENfl1h10PXh8) <hiiamboris (@hiiamboris:tchncs.de)>:
 https://www.markdown-cheatsheet.com/
@@ -69424,7 +69424,7 @@ pop:  does [take/last stack]
 (:
 
 [16:50:48](#H8_DX5ZEE7acLaKq_ZgQOQHAQ1SPB7cZf-zU_3jfpHk) <hinjolicious>:
-it's just an example Boris. but, maybe it's called abstraction? Ì†ΩÌ∏ä
+it's just an example Boris. but, maybe it's called abstraction? üòä
 
 [16:56:54](#hJfBtOCfiejGZM5urFpNMQ4NXZbnd1ckeux1QOlDrbY) <hinjolicious>:
 * Hi all, just want to share that my currying (or rather partial application) function are now able to do something like this:
@@ -69642,13 +69642,13 @@ The only answer is to write some code with the result coming from the check bloc
 ## 21-Aug-2025
 
 [16:27:13](#qv744bSjEDVKcKTmqSwzZu6bOC3OaUlUQ9b2nkW-Bek) <hinjolicious>:
-Hi all, please take a look at my new github repository and give feedbacksÌ†ΩÌ∏äÌ†æÌª° https://github.com/hinjolicious/red-curry/tree/main
+Hi all, please take a look at my new github repository and give feedbacksüòäü´° https://github.com/hinjolicious/red-curry/tree/main
 
 [16:36:09](#SEY4OAeJqWf_au6jcccZwqmWV_Jbgrqo9ODpQr_mrCA) <hiiamboris (@hiiamboris:tchncs.de)>:
 Neat :) You may list it in https://github.com/red/red/wiki/%5BLINKS%5D-Scripts-collection if you like
 
 [16:37:03](#8yN-iA5z7Nbq5n8kKwXWIJnZjlTwV9ITEnjbjB85NIM) <hinjolicious>:
-Sure! Ì†ΩÌ±å
+Sure! üëå
 
 ## 22-Aug-2025
 
@@ -69772,7 +69772,7 @@ for i 1 10 1 [prin [i " "]]
 > <@dockimbel-556597ad15522ed4b3e10020:gitter.im> The current object event system should be replaced in a future iteration by a more flexible observation system, so not part of current work on objects. Currently, overloading global context with events could destroy the language general performance if some global words are set by some critical code paths in the runtime (haven't looked, so I'm unsure how much of a minefield it would be). Anyway, a user global counter with a big loop could be enough to have catastrophic effects. Therefore that would be a quite dangerous place for events generation. 
 
 Thank for the answer, I will wait.
-Will you release other nice surprises too? RSC2? Ì†ΩÌ∏á
+Will you release other nice surprises too? RSC2? üòá
 
 ## 24-Aug-2025
 
@@ -69957,7 +69957,7 @@ Sure. Just.. how is it better than just `i: i + 1 print i`? ;)
 of course it matters, because having init, cond, and next process on the same line, or near each other will be easier to manage and check, especially when there're so many lines in the body.
 
 [5:17:18](#xlpAMX7xgGOIDp5ZJYwc6iEO0VQeVLhufdu19S2_EX8) <hinjolicious>:
-but, i think we need to learn how a functional style of looping be done in Red, the higher order style! Someone need to teach us how to do it Ì†ΩÌ∏ä
+but, i think we need to learn how a functional style of looping be done in Red, the higher order style! Someone need to teach us how to do it üòä
 
 [5:21:59](#mA8PqoF1v0mn5L-PjCEm4je2YL_kSIudwN79N5XKQTE) <hinjolicious>:
 i would love to have a pipelining or chaining supports etc. (that kind of stuff) in Red. I see that arturo did that kind of fancy modern things already, but maybe the compiler will having a hard time dealing with it
@@ -70004,7 +70004,7 @@ I am mot sure I want Linux like piping in terms of tje language semantics direct
 From what I see, languages like OCaml, F#, Elm implement it using `|>` , Haskell using `&` . So it isn‚Äòt quite a shell-only thing even if it might has it origins there. If applied wisely it might improve code readability as much as it can degrade readability if overused. But that is true for long chains of "traditional" Redbol like function chaining too, which reads in opposite reading order.
 
 [14:27:31](#3AKvNZOpJ6oRLXA9qATfUu7q40NSD3HbDeNGkrS8BRQ) <gurzgri>:
-But as I said, no strong opionions in either way except for: I wouldn‚Äòt welcome seeing the Red team getting distracted from other goals by working on this Ì†æÌ¥ê
+But as I said, no strong opionions in either way except for: I wouldn‚Äòt welcome seeing the Red team getting distracted from other goals by working on this ü§ê
 
 [16:32:58](#oLcozi_UAYh2QAwKf4Gs20i2kqtYGhlaTDYSZAcV2mg) <hiiamboris (@hiiamboris:tchncs.de)>:
 > If applied wisely it might improve code readability as much as it can degrade readability if overused.
@@ -70073,10 +70073,10 @@ Earth volume: 1081397196743.598 cubic km
 >> 
 
 [18:19:59](#OYiF3ok1525QDr4bvWm7QR34RZxSeSr2Vjd3vkzWftw) <hinjolicious>:
-And it will be powerful tool when matcher with mapping! Ì†ΩÌ∏Å
+And it will be powerful tool when matcher with mapping! üòÅ
 
 [18:21:11](#lB4Sln79qoVK1adtgN8gu5nEvchKqIJbB24IU2W72eI) <hinjolicious>:
-* And it will be powerful tool when matched with mapping! Ì†ΩÌ∏Å
+* And it will be powerful tool when matched with mapping! üòÅ
 
 [18:21:25](#gh1iwRCGFdZ7ydXtEB4LoSxgbfAkneRLoZI7tN7xi3c) <hinjolicious>:
 * I've experimenting pipelining things in native Red, and I come up with something like this:
@@ -70174,7 +70174,7 @@ you gave me an idea that `replace` might have supported a `map!` dictionary...
 I'm not sure how to efficiently do that though :D
 
 [18:57:59](#NPK52BG8KJFalkt-LUtdOaGmroBho8UUGhlH6el4OoQ) <gurzgri>:
-Yes, "compiling‚Äú a parse rule from it which replaces all keys in one pass will be some work Ì†ΩÌ∏Ö
+Yes, "compiling‚Äú a parse rule from it which replaces all keys in one pass will be some work üòÖ
 
 [19:11:52](#rzkR4X5DCKiGGiFB-Xjob-oAzer0ODyW8Jdzs-WM5JY) <hiiamboris (@hiiamboris:tchncs.de)>:
 No, that is not a big issue.. Issue is that `parse` rule scanning is O(n)
@@ -70291,7 +70291,7 @@ print mold my-json
 * "doing something like that is not impossible" it is trivial actually, to a seasoned redite
 
 [14:53:41](#4d97OI-7EF2D1ia0WU_b7-2c4sP-D0XckP2tG9O2UrM) <hinjolicious>:
-I'm saying as a beginner, actually Ì†ΩÌ∏ä
+I'm saying as a beginner, actually üòä
 
 [15:01:28](#mfiE74YzKuaP3sLIt_evuttjYqjfm9z8sj6p_-M58ts) <hinjolicious>:
 * Actually, in Red, doing something like that is not impossible, Red already have all the tools to do it  ;)
@@ -70345,7 +70345,7 @@ esp. in `half length? block` use case
 * esp. in `half length? block` use case (key/value store)
 
 [15:34:26](#6gyHS9ogrV5aF-QLkxtK7X7wQjaKlD_k1QwJJFrIyJI) <hinjolicious>:
-Ì†ΩÌ∏Ä
+üòÄ
 
 [15:40:53](#xiSOeKO1fXOiwilOI2tyYw0otZKDFBbP-nMinbk3_nU) <hinjolicious>:
 why is it in reversed?
@@ -70361,10 +70361,10 @@ it's how Red usually works ;)
 i.e. `cos (sin (pi / 2))`
 
 [15:44:31](#aoGajhC2ZISjUoSSigcxD0uoc1_SHQZG9odfw1ZYJRQ) <hinjolicious>:
-Ì†ΩÌ∏Ö
+üòÖ
 
 [15:46:54](#ubmvEA5FlZpTyK7gpvKt8FadSz7Gwz9q99QpYEaXxMk) <hinjolicious>:
-when having a mapping that chainable, we don't need pipelining anymore! Ì†ΩÌ∏ä
+when having a mapping that chainable, we don't need pipelining anymore! üòä
 
 [17:53:36](#-RkxUwZl6Ug4nn6CtPL-hFDDvBSkVRTtkzyC-LNLKNY) <hinjolicious>:
 Well, I can do pipelining and continue it with maping that chained like this:
@@ -70378,10 +70378,10 @@ x: "Red is rocking hard!"
 ;*** HARD! ***	
 
 [17:54:22](#VCiwn6aScV3gGSC2gMKvRTApeMaDUC7sqxkvrZTD-Gk) <hinjolicious>:
-i think this is so enjoyable to watchÌ†æÌ¥£
+i think this is so enjoyable to watchü§£
 
 [18:06:53](#7YDmGKyd06ttlGlykuXpr0383pioyhBfWcRhd6pdB8g) <hinjolicious>:
-I'll share my codes on github or gist after some more fixes and clean up... Ì†ΩÌ∏ä
+I'll share my codes on github or gist after some more fixes and clean up... üòä
 
 [18:48:17](#OdW_g6wxP6nAiUBIDEeb7ygJ4NfsHqaA6UJbugSB6jQ) <gurzgri>:
 ```
@@ -70389,10 +70389,10 @@ I'll share my codes on github or gist after some more fixes and clean up... Ì†ΩÌ
 >> foreach item split "Doesn't save a char!" space [print ["***" uppercase item "***"]]
 ```
 
-But I see what you are doing there Ì†ΩÌ∏â
+But I see what you are doing there üòâ
 
 [19:16:33](#XgWu0GmyoXCMnYMOShfP28X5SwphXE7wmJaESvkGJWs) <hinjolicious>:
-Ì†ΩÌ∏Ö
+üòÖ
 
 [19:57:44](#EBW4JMvi1rWnMW3JEdwDtOTOQj3yj9O_fWHNEDq1vWQ) <ldci (Fran√ßois Jouen)>:
 hinjolicious: Waiting for your code to understand what you're trying to do :) 
@@ -70416,7 +70416,7 @@ rename pipe-map 2.4.red as pipe-map-2.4.red. Some OSes do not support space in f
 ## 28-Aug-2025
 
 [7:30:29](#CIzmdzybXoZF7mkJLUyv7qbO3lpZscntFWYYLxtHoS8) <hinjolicious>:
-Sorry all, seem the code has some bugs ;)  I've doing too much clean up maybe... I'll fix it and share you again. Ì†ΩÌ∏Å
+Sorry all, seem the code has some bugs ;)  I've doing too much clean up maybe... I'll fix it and share you again. üòÅ
 
 [7:40:33](#txataP0i601Iv_ANoTSzbPNDOGObhHcSFiZCycqLiJE) <hinjolicious>:
 ah, i see, i forgot my search algorithm didn't go deep into parent expression ;)
@@ -70470,7 +70470,7 @@ can i replace x with something else?
 worth a try ;)
 
 [7:54:35](#8XmcnypNvbiJnZGj3U9408snes5mnINSZiqxK4GsSxc) <hinjolicious>:
-Ì†ΩÌ∏ä
+üòä
 
 [8:05:25](#uojq2hd0o4UQpcSkobHIvly6gm1ZT_A4_HJJwePT0Xc) <hinjolicious>:
 actually we can traverse nested block using index instead of recursively
@@ -70485,13 +70485,13 @@ I think red/help is your place ;) https://matrix.to/#/%21wUTlqkqOhNGtfQzIsO%3Ama
 * using path
 
 [8:07:56](#h04JNbB639HkLPDqyjDKKm4cWYtr3BTsQBqRR-xrZFU) <hinjolicious>:
-i'm sorry, i didn't know it exist Ì†ΩÌ∏Å
+i'm sorry, i didn't know it exist üòÅ
 
 [8:11:28](#fLn1EAuobyDZGTXFqQX6Eh6Sv9BbUl3Q6M2RU06BBZ8) <hiiamboris (@hiiamboris:tchncs.de)>:
 we have a handful of rooms https://matrix.to/#/%23red-lang%3Agitter.im?via=gitter.im&via=matrix.org&via=mpg.de
 
 [8:18:14](#TIBkIZNQVjN8wOxdI5cfgLpdxSN8sPvfTlZ5cbaz-pU) <hinjolicious>:
-hiiamboris: thank you boris... btw, i have found the fix Ì†ΩÌπè
+hiiamboris: thank you boris... btw, i have found the fix üôè
 
 [8:18:41](#NG7kB1Aw3mJJXQ7Oq_hu7saVVZ4ssgvIby_JUPX4vCQ) <hiiamboris (@hiiamboris:tchncs.de)>:
 you're welcome ;)

@@ -448,7 +448,7 @@ there's also the issue of haxe's codegen, which is frequently dumb and adds over
 yeeeeeeeee more natives added (`bind`, `in`, `switch`, and `case`) and fixed tons of bugs
 
 [5:24:52](#BNUFKdfu0B6Cfuj9J49zOXeB2pmz7fmX8lHwWrlVOtE) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-Ì†ΩÌ±è 
+üëè 
 
 [5:32:11](#oh9EIolXVsEUTvN1jusH9DBEQScbupRs-FAaFpmQYxA) <greggirwin (Gregg Irwin)>:
 Sounds like you're making great progress.
@@ -1002,7 +1002,7 @@ forgot to post this yesterday, but I've now added many more actions for `float!`
 I've now added more actions for `pair!` and `tuple!` types
 
 [3:00:26](#GLX7pdRi3NpWpaec2cAfdDz144V5znP1w8wj0qQoMeI) <greggirwin (Gregg Irwin)>:
-Ì†ΩÌ±çÔ∏è
+üëçÔ∏è
 
 ## 3-Jun-2023
 
@@ -1053,7 +1053,7 @@ I decided to rewrite the internals of `series!`-based values so now I can use a 
 I've now added the `form`/`mold` actions (although only for a few types at the moment), and `print` now uses `form` on its argument
 
 [18:43:09](#6hWncUcYYlC7V2CMd0gS3s6ttTpKyegZwnfbIK0PI7g) <greggirwin (Gregg Irwin)>:
-Sounds like good progress. Ì†ΩÌ±çÔ∏è
+Sounds like good progress. üëçÔ∏è
 
 ## 14-Jun-2023
 
@@ -1201,7 +1201,7 @@ Do note that Red.js still has some missing features (there are no mezz functions
 :+1:.
 
 [22:53:05](#tW6X2AI29OJetZIwPK0lvqaVE-4cIXza_r2OuHj_b7Y) <greggirwin (Gregg Irwin)>:
- * Ì†ΩÌ±çÔ∏è.
+ * üëçÔ∏è.
 
 ## 9-Oct-2023
 
@@ -1281,7 +1281,7 @@ and I've also added back support for `money!` (though still not implemented) and
 ## 23-Oct-2023
 
 [18:38:41](#nCD0e9IwUShZsSm63wSHghxLO9iLekexP8_cUNv57II) <greggirwin (Gregg Irwin)>:
-Nice to see continued progress ALANVF (theangryepicbanana) . Ì†ΩÌ±çÔ∏è
+Nice to see continued progress ALANVF (theangryepicbanana) . üëçÔ∏è
 
 ## 27-Oct-2023
 
@@ -1307,7 +1307,7 @@ anyways, it's now available to use in the online repl
 The next thing I plan to implement are likely maps, followed by dates and vectors, so look forward to that
 
 [19:36:20](#GUds_rkIfVFrcufeuYIn15g5r7XyDhXXM6vy7MvRrmk) <greggirwin (Gregg Irwin)>:
-Ì†ΩÌ±çÔ∏è.
+üëçÔ∏è.
 
 [19:37:49](#HnMuMwEqwFol2HfuFCW68sIuhxxoNAic7VtJgaVkgP8) <greggirwin (Gregg Irwin)>:
 We were going to try Dec64 for Red's as well, but no 64-bit slot to use, so it would have been limited to Dec-32 range, which wasn't enough. I really hoped we'd be able to just binary include Crockford's ASM version for Dec64 support. Still hopeful for that feature in general.
@@ -1327,7 +1327,7 @@ I've now implemented the `map!` type in Red.js
 it even has all possible actions implemented (because it was pretty easy to do, thankfully)
 
 [18:28:34](#KKLgEy0GJb2lp7vIsXY2TZLWT03uVE7Btc2Wd9RYMLM) <greggirwin (Gregg Irwin)>:
-More good progress. Ì†ΩÌ±çÔ∏è
+More good progress. üëçÔ∏è
 
 [18:51:10](#vVQVqbdYHAxsWJ1zJaWH4lgbgzpCJV7eaHnd-HdCwx8) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 ALANVF (theangryepicbanana): your progress is very fast, I'm really impressed. What features are missing?
@@ -1532,7 +1532,7 @@ I don't want to go into a ton of detail, but I'll be getting some tests done and
 I'll try to finish up adding proper `date!` support, but then that'll be all for a while
 
 [8:44:58](#qK9feR2EO8Q-QDC9RIr2838tiLR2o6BNwBfWQnHurQY) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-That's sad to read. Ì†ΩÌ∏ü I hope you get well soon! And thanks for all your great work!
+That's sad to read. üòü I hope you get well soon! And thanks for all your great work!
 
 [11:29:46](#BpeLjb80zs9CKxYrJQKZBE8wvDFzpCFffbnU0yFDcEE) <GiuseppeChillemi (GiuseppeChillemi)>:
 It's not a terribile news, there are solutions. https://images.app.goo.gl/sNJvtjLEoHLY7rQp7
@@ -1590,13 +1590,13 @@ Hi y'all, due to some new controversial changes by Replit, the Red.js repl is cu
 I'm currently looking for an alternative solution, but for now that's unfortunately the situation 
 
 [9:52:01](#yNQEqGTaBCkWl-W_Ys5DaoZVty9fZmXfGBZ7Sdi9u-I) <ALANVF (theangryepicbanana)>:
-(and for those curious, I'm _still_ waiting to get in contact with a neurologist for my wrist issues Ì†ΩÌ∏≠)
+(and for those curious, I'm _still_ waiting to get in contact with a neurologist for my wrist issues üò≠)
 
 [15:52:09](#QBTSUu7g0F4Lzfe9S9F-huPXmxQG5YtchAAz3UZqb1s) <endo64>:
-I hope you get better soon Ì†ΩÌπè
+I hope you get better soon üôè
 
 [16:14:47](#ZFQ_SJPyQyF40nQeAPz0ZqMq9y4b9vI04zTA1-Ft02M) <GiuseppeChillemi (GiuseppeChillemi)>:
-> <@alanvf-5ebb41e5d73408ce4fe38f2e:gitter.im> (and for those curious, I'm _still_ waiting to get in contact with a neurologist for my wrist issues Ì†ΩÌ∏≠)
+> <@alanvf-5ebb41e5d73408ce4fe38f2e:gitter.im> (and for those curious, I'm _still_ waiting to get in contact with a neurologist for my wrist issues üò≠)
 
 I thought It was resolved. It's a base problem and I pray you will find a solution soon 
 
@@ -1607,7 +1607,7 @@ I thought It was resolved. It's a base problem and I pray you will find a soluti
 Thanks for the update ALANVF (theangryepicbanana).
 
 [22:02:13](#2z0c3SJm4evz1C0ZyyNHmRs4YXf59x_E2clRZ6fEXJ4) <Boum69 (Boum69)>:
-I hope that your wrist will be no more painful very soon. Be brave and patient Ì†ΩÌπè
+I hope that your wrist will be no more painful very soon. Be brave and patient üôè
 
 ## 6-Jan-2024
 
@@ -1861,7 +1861,7 @@ yeah and I had to make it from scratch as xterm.js doesn't have readline support
 hoping to add history functionality soon, but yeah this is a great start I think
 
 [22:01:05](#4lBmmdYGETjzjVbRH-dnj1LD284AkGRHm9u_K3Z0lgk) <ALANVF (theangryepicbanana)>:
-should be fixed now Ì†ΩÌ±çÔ∏è
+should be fixed now üëçÔ∏è
 
 [22:01:13](#PK0QsA4gYyIqRm_wPwdYUdhXadJ-4Wk-iKkxKOb14lU) <ALANVF (theangryepicbanana)>:
 no clue how I never noticed that lol
@@ -1883,7 +1883,7 @@ semi-related, would a mod/admin be able to change the "try it out" link in the c
 Done.
 
 [21:26:58](#FyX5dV4WfcMA3FZhoHMnOIhV4TsTFdy6D-uhfnomkTo) <ALANVF (theangryepicbanana)>:
-awesome, thanks Ì†ΩÌ±ç
+awesome, thanks üëç
 
 ## 24-Apr-2025
 

@@ -82,13 +82,13 @@ table specific rules
 column specific rule
 
 [10:16:16](#Y1TNcWAEvC4aZh_9fUYtZFQ6QAoRxLEiz6cgnSUdNXE) <hiiamboris>:
-I love context menus of depth 4 Ì†ΩÌ∏ç
+I love context menus of depth 4 üòç
 
 [10:16:31](#ji0Q5GzlUyXIo37GFYRlStqchhbQCZdYPIDhDDjXVy4) <hiiamboris>:
-* I love context menus of depth 4 Ì†ΩÌ∏ç Ì†ΩÌ∫ÄÌ†ΩÌ∫Ä
+* I love context menus of depth 4 üòç üöÄüöÄ
 
 [10:18:06](#-ev1_cVftyiEFjtibwf23IUpXgX2JAGimOrF6WPQzJc) <kavina computers>:
-sorry hiiamboris gif chopped Ì†ΩÌ∏Ö it was just resetting column.
+sorry hiiamboris gif chopped üòÖ it was just resetting column.
 
 [10:19:49](#1BmVnYp7pFlpC2xYvFVRx8JxyGtdOM7XW1n2R-ZPBuw) <kavina computers>:
 ![](https://gitter.ems.host/_matrix/media/v3/download/gitter.im/713a21f8434b79b91be735163cd697ce04a62d5a1938180390615252992)
@@ -97,7 +97,7 @@ sorry hiiamboris gif chopped Ì†ΩÌ∏Ö it was just resetting column.
 hiiamboris: no context menu? may be buttons only?
 
 [13:41:48](#iZitCQTleojebWYHO59zc_j0hPIY9kJbhpWwoBRZXns) <mikeyaunish>:
-kavina computers: Ì†ΩÌ±çÔ∏èNice work, The context menu does have some pluses and minuses. Great for demonstrating capabilities but will definitely lead to Menu Bloat. I am thinking some sort of menu mask needs to be implemented to include/exclude desired menu items. 
+kavina computers: üëçÔ∏èNice work, The context menu does have some pluses and minuses. Great for demonstrating capabilities but will definitely lead to Menu Bloat. I am thinking some sort of menu mask needs to be implemented to include/exclude desired menu items. 
 
 [13:46:02](#22hyDCQ4gO1Zm3WDctDqM3beG9RzRA3V_9M3UHu0Lbc) <mikeyaunish>:
 Thanks, I figured there had to be something around already. 
@@ -127,7 +127,7 @@ for "Cell functions bridge to external data" data bridge,adapter and cache. righ
 Asynchronous Operations. bridge will handle it.
 
 [19:10:37](#6jG72HjnMlM3zWhfFRPhNCTjXfp-9lMHnmnxa9j3ceQ) <kavina computers>:
-GiuseppeChillemi (GiuseppeChillemi): I can not figure out to actually do dropdown-list nothing is fantastic that thing was headacheÌ†æÌ¥£ 
+GiuseppeChillemi (GiuseppeChillemi): I can not figure out to actually do dropdown-list nothing is fantastic that thing was headacheü§£ 
 
 ## 27-Jun-2025
 
@@ -172,9 +172,6 @@ I have added you GiuseppeChillemi (GiuseppeChillemi) , It looks like kavina comp
 [14:58:40](#h_YNVXtywB7Q0-uGtTkNONR4qGqnvAOP-5xhBbZi6hM) <kavina computers>:
 sorry dear i think i don't have account let me give you zip,  i will cleanup code and upload here. 
 
-[15:08:17](#Ham4J6v55oWAzuzxuFi7fAbQx_CvyqfKt3ge9zL0UI8) <kavina computers>:
-sorry dear i think i don't have account let me give you zip,  i will cleanup code and upload here. 
-
 [15:10:43](#sMUq8l0sVYFql3npULndJRsb_U-FIyMez-2U_H4kpuE) <kavina computers>:
 I was working on live data poke/pick you will a lot of not utilized code have fun. 
 
@@ -182,7 +179,7 @@ I was working on live data poke/pick you will a lot of not utilized code have fu
 * I was working on live data poke/pick you will find a lot of not utilized code have fun. 
 
 [15:13:17](#0w2yKIk_iEFIdkrfacci7kcUUye4hSLplgoXW4PpcnI) <kavina computers>:
-on each I am working on some issues you might also hit Ì†ΩÌ∏Ö forgive me for land mines.
+on each I am working on some issues you might also hit üòÖ forgive me for land mines.
 
 [16:18:17](#MU3YH0mg6aDaL_HcLmuFIT9Hd2zruDdJnaqIb8DX0kI) <mikeyaunish>:
 Good stuff. I'll go thru this later today. Thanks for all of your excellent work on this. 
@@ -222,7 +219,7 @@ Really exhaustive wishlist! O_O
 I wish the team good luck and godspeed
 
 [17:31:33](#pX1jmSMNcQMjF0641CdC8MUi8Q9gIatyEPPKXxoidSc) <hiiamboris>:
-* I wish the team good luck and godspeed Ì†æÌ¥û
+* I wish the team good luck and godspeed ü§û
 
 [18:18:24](#MlXRLWILVxNfrzQKEYsZwLed8l6fO0JnXSLcpZfsmCQ) <GiuseppeChillemi (GiuseppeChillemi)>:
 it will be a great advancement for Red and anyone
@@ -327,9 +324,6 @@ If you click again on a selected line, it will be unselected
 [8:10:07](#D4teHuiMK_b8NwI782iUaz4Dkp15Boj7hgOn6IgWT3w) <kavina computers>:
 thank you I got it. GiuseppeChillemi (GiuseppeChillemi) 
 
-[15:12:27](#Lo8erTb-Akuf6AI95klfpxZv109B8gISsh_eLE7ESUs) <kavina computers>:
-thank you I got it. GiuseppeChillemi (GiuseppeChillemi) 
-
 [15:16:29](#xbTbMgo8dv-_GDLhrJexkzgP7ht4cKF7CyFm0ss7-eg) <kavina computers>:
 mikeyaunish: test this guard system for event - by protecting actors - self-guards every event handler. 
 
@@ -345,13 +339,13 @@ Which actors do we actually support?
 mikeyaunish: I will highly recommend that you do not push changes please test how and why, can it be improved more? if yes. we will recreate this feature. random mouse click and entry to frame render I checked with rapid mouse clicks on UI also with time delay to see queue - instead of rewriting event flow system - I tried - than more I look into it by default it has sync off/on system so creating guard it will not allow re-entry means it will not have circular update patterns. for more sophisticated system, event-manager,event-handler, dispatcher, guard, throttling, update-guards,keyboard-events,mouse-events,visual-updates. what I mean is default entry point already provide good system adding some guards can eliminate 95% edge case with minimum code added. So take what I give as demo may be we can improve over it or discard and work on new thing.
 
 [9:51:27](#Glex0g_RIR9zezAxvQ6LSGcX1KeouSlY3dbwMoeFuaA) <kavina computers>:
-I do not have much experience over testing but I have google, and udemy yearly subscription. Ì†ΩÌ∏Ö they do provide how to test and what test can be added etc.
+I do not have much experience over testing but I have google, and udemy yearly subscription. üòÖ they do provide how to test and what test can be added etc.
 
 [9:54:18](#KBOXJvRbySmcsRhZoZ8hj9pdd4419obzdsQ98X2G9zk) <kavina computers>:
 hiiamboris: what do you recommend whole event system architecture redesign or just add few thing and improve?  
 
 [9:58:08](#zQvD2WeGRP2p7kAbEz5aFW5mFsHTjr1ZJ4If53bbQz0) <kavina computers>:
-Also let me clarify I am not a developer you can say I am in learning mode. entry level dev. in red/some java, hardly one year experience not in job market. I sell computers for livingÌ†ΩÌ∏Ö . 
+Also let me clarify I am not a developer you can say I am in learning mode. entry level dev. in red/some java, hardly one year experience not in job market. I sell computers for livingüòÖ . 
 
 [14:13:15](#DQhxK6bI-8TskcdeFb5CnY386-mSdjwYHg_lSVBQSkc) <mikeyaunish>:
 The table itself is meant to behave like a spreadsheet, so no independent actors are supported right now.  There are very few other action that could be useful that aren't already consumed. Which actors do you see using while still preserving the integrity of the spreadsheet like interactions?
@@ -728,9 +722,6 @@ scroller-y: 1
 I mean when the table-data could be displayed on multiple rows of course.
 
 [23:09:38](#I3stmbjMY7LdP7KSBfhTgXUtWWlxGEQig8DtCYw-1BY) <Boum69 (Boum69)>:
-Thank you ; )
-
-[23:21:35](#xH6N1sJ1B1zZJVVqVu9iQt8eve1MHEhMcf-gKiUprXQ) <mikeyaunish>:
 Thank you ; )
 
 [23:22:53](#Up583lVLp2s6HO2kKE-cGZSa8v7UZx6xGrVjCheTYXI) <mikeyaunish>:
@@ -1314,5 +1305,56 @@ Yes, for sure.
 ## 27-Aug-2025
 
 [14:19:12](#V4ECApOG46HOpwRGKZB_hXXoiuZkTTUPZ6TQ2OKHVz4) <hiiamboris>:
-This room is somewhat special. It cannot be joined by room id from non-gitter.im accounts, only by its alias Ì†æÌ¥¶
+This room is somewhat special. It cannot be joined by room id from non-gitter.im accounts, only by its alias ü§¶
+
+## 1-Sep-2025
+
+[22:37:32](#RR-kXaQearIwwxLRgmLXVRIPRvCGPDOVCDXlV81CIdY) <GiuseppeChillemi (GiuseppeChillemi)>:
+Which is the correct way to setup an empty table and than fill it with later data?
+
+I have tried something like:
+
+`mytable/data: [[data1 data2][data3 data4]]`
+
+But it has not worked
+
+The same for:
+
+`mytable/table-data: [[data1 data2][data3 data4]]`
+
+
+
+[22:43:25](#uA4mob3ajtuTqyrinIaOOQ0ggborhceNHBSMxanui0M) <GiuseppeChillemi (GiuseppeChillemi)>:
+My need is to open a table on request in the same area
+
+## 2-Sep-2025
+
+[14:48:16](#-XihwGznNj4I7vVMKLPPoHdd5sFaMuvBO2nDNd-6_pU) <mikeyaunish>:
+Try ```
+table1/table-data: [ [ "a" "b" ] [ "c" "d" ] ]
+
+[14:49:07](#rMTToU4GIfv51RS09N2M-n6COZuKMZLhyj9B_5Yuq9o) <mikeyaunish>:
+* Try 
+```
+table1/actors/init table1
+
+
+[14:49:43](#aYLV8TBNuzyHB2-H879p8Mtl8e8IxAv7Y5qSo9YAhSY) <mikeyaunish>:
+* Try
+
+```
+mytable/table-data: [ [ "a" "b" ] [ "c" "d" ] ]
+mytable/actors/init mytable
+```
+
+[14:50:09](#3Y4YdkDEClgE68QFcHa0vrC5P9Zy9oXO3r8fr_T2W4k) <mikeyaunish>:
+* GiuseppeChillemi (GiuseppeChillemi)  Try:
+
+```
+mytable/table-data: [ [ "a" "b" ] [ "c" "d" ] ]
+mytable/actors/init mytable
+```
+
+[18:32:19](#j0H0qxLw0vmqJINN-g9ryvlRQnr-Z7SCMVLrWC5i-5A) <GiuseppeChillemi (GiuseppeChillemi)>:
+Tested, it works. I will test it further
 

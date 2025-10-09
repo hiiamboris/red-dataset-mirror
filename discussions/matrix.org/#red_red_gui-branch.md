@@ -46,10 +46,10 @@ Crushing the spider makes sense. That's what happens in real life. :^)
 @planetsizecpu I'm glad you're still working on your game! I bought a good tablet and started drawing - I hope I'm finally going to start working on my point and click puzzle adventure game.
 
 [8:26:17](#ua1me_UISLuhPC6qcdbz4Kwzu5rXY8LXk8s2_ahn15M) <planetsizecpu (Jose Luis)>:
-@GalenIvanov well I do work on it when find spare time, but "work" means testing as much as I can, and have to be cautious so that my wife does not catch me playing Ì†ΩÌ∏âthus I prefer to do it out of home when I can. But these days I received a new computers shipment and time is out again.
+@GalenIvanov well I do work on it when find spare time, but "work" means testing as much as I can, and have to be cautious so that my wife does not catch me playing üòâthus I prefer to do it out of home when I can. But these days I received a new computers shipment and time is out again.
 
 [8:27:17](#2b-15JBcxfpJllYceJmrwSUVDjtWZ6DioRT0us61e4E) <planetsizecpu (Jose Luis)>:
-* @GalenIvanov well I do work on it when find spare time, but "work" means testing as much as I can, and have to be cautious so that my wife does not catch me playing Ì†ΩÌ∏â,thus I prefer to do it out of home when I can. But these days I received a new computers shipment and time is out again.
+* @GalenIvanov well I do work on it when find spare time, but "work" means testing as much as I can, and have to be cautious so that my wife does not catch me playing üòâ,thus I prefer to do it out of home when I can. But these days I received a new computers shipment and time is out again.
 
 [8:35:46](#0diha6aqPAMEN9FdsM3he5vumAvjVuv3us3WHA8qhFc) <planetsizecpu (Jose Luis)>:
 [![equipmnt.jpg](https://files.gitter.im/55b1d8290fc9f982beaacceb/15G7/thumb/equipmnt.jpg)](https://files.gitter.im/55b1d8290fc9f982beaacceb/15G7/equipmnt.jpg)
@@ -183,7 +183,7 @@ Ah, maybe that's what @hiiamboris described.
 [![d2d.PNG](https://files.gitter.im/55b1d8290fc9f982beaacceb/axSi/thumb/d2d.png)](https://files.gitter.im/55b1d8290fc9f982beaacceb/axSi/d2d.PNG)
 
 [0:26:03](#2K6huc3C4EjXZ_Iw7rcYA7bNzYGFv79mAkBHTLDPQPM) <qtxie>:
-GDI performs better on my system. Ì†ΩÌ∏â
+GDI performs better on my system. üòâ
 
 [0:26:25](#S9GGDzdTDtTyRnaGquUkO0ycVzqnrE5uLPt912jbf6Q) <qtxie>:
 BTW, I changed the resampling algorithm on D2D.
@@ -221,7 +221,7 @@ New interpolation algorithm is ~15-20% slower than GDI for me as well, though st
 * New interpolation algorithm is ~15-20% slower than GDI for me as well, though still less spiky. (I have no dedicated GPU)
 
 [15:37:54](#rCLIXXpNhbP-kTX-WRZhBiYaEmBakTKCVwljbxXzV24) <hiiamboris (NOT THIS ONE)>:
-@qtxie your D2D plot looks strange though. Looks like every 2nd draw returns immediately. Worth investigating Ì†ΩÌ∏â
+@qtxie your D2D plot looks strange though. Looks like every 2nd draw returns immediately. Worth investigating üòâ
 
 ## 16-Dec-2020
 
@@ -333,7 +333,7 @@ https://github.com/red/code/blob/D2D/Scripts/particles.red
 If it's an unsupported anymore syntax it should raise an error. Besides, it works without `pen off` so...
 
 [18:33:00](#sI09w-35LtnFOudcYijBtE3WEQMf8dY3iidCpnxR_rA) <hiiamboris (NOT THIS ONE)>:
-I say we fix bugs instead of hiding them under the carpet Ì†ΩÌ∏â
+I say we fix bugs instead of hiding them under the carpet üòâ
 
 [18:34:43](#tZ21il2XmaOFxdXKCHqFSHkhTEitNwsIIMcTT7JlLbA) <hiiamboris (NOT THIS ONE)>:
 That this syntax is undocumented is another issue though.
@@ -376,13 +376,13 @@ on-alt-down [probe face/selected: 1 + to-integer event/offset/y / 15]]
 Thanks, I will try it later
 
 [15:43:23](#ChXX-EDEGnlzPOmHwS8g51xnThAGLilORHfYG8mSIqs) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [15:43:43](#5VCMrC0kvt6r-_DiHrkQ24RIBsPxF-_3wjCjlJ9G3ik) <hiiamboris (NOT THIS ONE)>:
-funny solution Ì†ΩÌ∏â
+funny solution üòâ
 
 [16:55:03](#irC2HQh6HsvOPRiXN43W3Trzgx3MJFDxkWS5SOb1fkw) <GiuseppeChillemi (GiuseppeChillemi)>:
-@toomasv I have tried, funny! So you are dividing by line length! Interesting but we need an `on-change` which works on `alt-down` and companions Ì†ΩÌ∏â
+@toomasv I have tried, funny! So you are dividing by line length! Interesting but we need an `on-change` which works on `alt-down` and companions üòâ
 
 [16:56:23](#5iiztsadK01IYTgHF1GbWpxrUFkL1-4FwKi8be9BafY) <GiuseppeChillemi (GiuseppeChillemi)>:
 Another question: why `probe event` does not return anything?
@@ -465,7 +465,7 @@ yes that's the best candidate to hold it
 Toomas the Red, it is easy for you!
 
 [19:03:07](#m_g5UF1yBBA05smVt1Xabfsc8cc5OL7JcN0gbkAhwbk) <GiuseppeChillemi (GiuseppeChillemi)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [19:09:23](#JGDGuP8wXdW53FqGbNMz9F5tV5_dIN9TtzthYKY8jX0) <GiuseppeChillemi (GiuseppeChillemi)>:
 * @toomasv 
@@ -740,7 +740,7 @@ funny it didn't crash but quitted silently the 1st time I tried, but crashed all
 @hiiamboris yes, on computers, if you repeat the same actions, you get the same results, until they want to show you they have opinions too.
 
 [19:32:09](#NCigDRo0u0R3qB18jo-SzG8tZNMU3zIzZby7nt1Wjrg) <hiiamboris (NOT THIS ONE)>:
-..Until they evolve into SkyNet and wipe us all Ì†ΩÌ∏É
+..Until they evolve into SkyNet and wipe us all üòÉ
 
 [19:37:53](#IUpA-5l54f2_U7PU0ARlhWZNYpIZpRGfl5RajWD1mfA) <GiuseppeChillemi (GiuseppeChillemi)>:
 Maybe we should change Red license, prohibiting the use of it to build skynet.
@@ -852,7 +852,7 @@ No problem :)
 Works fine on Linux. Nice work!
 
 [9:36:54](#i3I60oanft_PmQ4BEgacTOqoiRGgJSBYHUXIa31Y2f8) <GalenIvanov (Galen Ivanov)>:
-@rebolek Thank you! It's nothing special, It's just me showing signs of life Ì†ΩÌ∏â
+@rebolek Thank you! It's nothing special, It's just me showing signs of life üòâ
 
 [9:53:14](#Acmu-jsMSPpbcaYSkuQ22g_Wl2ouxwMic0lKvqHZPx8) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 :)
@@ -940,7 +940,7 @@ Then I need to upgarde :)
 * Then I need to upgrade :)
 
 [13:52:09](#cXeU9rfgnlXucyuR308qTHdSK3nMsxN5Mls3yPjRydU) <toomasv>:
-Ì†ΩÌ∏Ñ 
+üòÑ 
 
 [17:14:46](#Zi2ZfIOzaVqA5-fWUNLGXxGeGxox9ioSnPWWy3nKLG0) <greggirwin (Gregg Irwin)>:
 Very nice @GalenIvanov ! Thanks for posting.
@@ -949,7 +949,7 @@ Very nice @GalenIvanov ! Thanks for posting.
 I admit I upped the speed to 30, being impatient. :^)
 
 [17:33:26](#A9wCxZKG_o9TcKu1vNHeJ6w7aEdLYmCD9ie77kYAxuI) <GalenIvanov (Galen Ivanov)>:
-@greggirwin Thanks! Same with me Ì†ΩÌ∏Ñ 
+@greggirwin Thanks! Same with me üòÑ 
 
 [17:39:56](#ZIlajyzTomKcghU3FRVTxvQxazOGBL7NsOe0TsRzNbw) <greggirwin (Gregg Irwin)>:
 Faster Ant! Faster! 
@@ -958,7 +958,7 @@ Faster Ant! Faster!
 * Faster Ant! Faster!  <whip crack>
 
 [18:59:40](#JteeIlcniN3Epqp-lOj-HU3QAeD12ZAGbcufhOk7gqI) <GalenIvanov (Galen Ivanov)>:
-Ì†ΩÌ∏É 
+üòÉ 
 
 [21:28:33](#yWnB99zOWT9-wK0HH0ATAMwLiBq-_GThhyllLvxRY7I) <GiuseppeChillemi (GiuseppeChillemi)>:
 Do we have charts styles in Red?
@@ -983,10 +983,10 @@ Hope to get some feedback.
 Nice!
 
 [7:38:32](#hSjEBTPvAUg75UjFB5RDP-lzDMOzkLCDTH_sw8HJqr0) <planetsizecpu (Jose Luis)>:
-It looks so cool @mikeyaunish I like the objects editor and colour selector. Just find the form area a bit small but I guess it is resizeable. Push hard! Ì†ΩÌ±å
+It looks so cool @mikeyaunish I like the objects editor and colour selector. Just find the form area a bit small but I guess it is resizeable. Push hard! üëå
 
 [7:41:21](#n0lGc11IzVFTo8s3gb9JnJw75-S-GJK3b-MhynAyv64) <planetsizecpu (Jose Luis)>:
-* It looks so cool @mikeyaunish I like the objects editor and colour selector. Just find the form area a bit small but I guess it is resizeable. Push hard! Ì†ΩÌ±å. I think @YKprog is also working in its own gui editor.
+* It looks so cool @mikeyaunish I like the objects editor and colour selector. Just find the form area a bit small but I guess it is resizeable. Push hard! üëå. I think @YKprog is also working in its own gui editor.
 
 [8:00:08](#e0KiDWnGLSEksLZpVQfZjvBB5J-UatSS_SrqvRArA24) <GalenIvanov (Galen Ivanov)>:
 @mikeyaunish Very nice!
@@ -1136,7 +1136,7 @@ And a crash when I close it
 ```
 
 [12:43:41](#JDAb9guZASwkmiu_TGciLaIzK9MV2dTqeqSEX0DFlE8) <hiiamboris (NOT THIS ONE)>:
-That alone warrants a ticket Ì†ΩÌ∏â
+That alone warrants a ticket üòâ
 
 [12:46:13](#eFFOoKwqTg7c1Jj6vsRFWPRcX5PxEfQ1_HA0jVuWygU) <hiiamboris (NOT THIS ONE)>:
 Also if I activate "other window" then "main window" a few times, I lose the resizeability. The arrows cursor doesn't show up anymore.
@@ -1231,10 +1231,10 @@ What we *can* do is add higher level compound styles, that wrap multiple native 
 @hiiamboris Wow!  :+1: 
 
 [10:00:20](#8m3KaAGEjopWVr2ns0DV1NQqmQKWmY7vwkq36erhtv4) <hiiamboris (NOT THIS ONE)>:
-based on your discoveries Ì†ΩÌ∏â
+based on your discoveries üòâ
 
 [10:33:35](#kQz7MwTaAbA9L_sCzH7Fhi1M36wJRBQ_LpOkJNdB0sU) <toomasv>:
-Ì†ΩÌ∏Ñ 
+üòÑ 
 
 [15:36:59](#ZHzwH5RIaZDC3YUFqZE5UCDWHMV-TEpGPh_STwxpZSo) <Respectech (Respectech)>:
 Thanks guys!
@@ -1302,13 +1302,13 @@ Keeping the `mezz-warehouse` compileable is not the goal for me, too much effort
 `op` meaning should be obvious from lines 112 and 123
 
 [21:19:20](#7wELsubV4aur88tRwdTHb6rKPIwnUvpfNHvMaIBySZk) <hiiamboris (NOT THIS ONE)>:
-Think `fold` Ì†ΩÌ∏â
+Think `fold` üòâ
 
 [21:21:04](#1qPx_jlXFVTcLIFz8uF3tV0beo8e-RT_xSsUlOV-TTg) <hiiamboris (NOT THIS ONE)>:
 * `op` meaning should be obvious from lines 112 and 123, but `translate` not an exported function, just one used internally.
 
 [21:52:49](#UF4jxRH40F2gJYle6yDVW6p5gMA0fVPvBUh8gaVHMfY) <greggirwin (Gregg Irwin)>:
-> Think `fold` Ì†ΩÌ∏â
+> Think `fold` üòâ
 
 Got it. So not for humans. ;^)
 
@@ -1350,7 +1350,7 @@ Not scary. Python just won one of the scripting langs races. MS first used it fo
 From my experience I can't recall a single software product written in python (even partly) that was not painfully buggy. 
 
 [18:39:15](#2RgmSWcNECYNynpTjA_34ygfJlIeKcSccmTb86k5P4o) <hiiamboris (NOT THIS ONE)>:
-So with the amount of complexity MS deals with nowadays I can imagine what their software will look like in a few years from now. That's what I meant by "scary" Ì†ΩÌ∏É
+So with the amount of complexity MS deals with nowadays I can imagine what their software will look like in a few years from now. That's what I meant by "scary" üòÉ
 
 [19:07:13](#b5jGdGZ2a9LrbD1vwbZb6bFVGZZ-nrs5RsB93qdpZWU) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 to be fair, esptool.py works fine.I haven't tried anything crazy with it though.
@@ -1365,7 +1365,7 @@ https://imgur.com/N16khCO
 * Not really understanding why position of `input` from `on-parse-event` doesn't update until... after
 
 [19:13:11](#rJQCTQ_dHRwNYwObzuKe5jYeBJrcAkpE7SEhn0dN5kI) <planetsizecpu (Jose Luis)>:
-I know a lot ppl using py for research, even my daugther at the university is learning it. They 're coming from Statistica, Matlab & R. I wonder what they will think of Red, I did  personally advised my daughther not to learn Red before the clasic langs or will find these too complex after human oriented langs Ì†ΩÌ∏Ä
+I know a lot ppl using py for research, even my daugther at the university is learning it. They 're coming from Statistica, Matlab & R. I wonder what they will think of Red, I did  personally advised my daughther not to learn Red before the clasic langs or will find these too complex after human oriented langs üòÄ
 
 [19:19:45](#OoTVebRLEDGji17BuBZU4BQMJgCeHWMoLjk1v4lYrHQ) <gltewalt (Greg T)>:
 Missing a push or pop... maybe
@@ -1393,7 +1393,7 @@ I hope this could be the start of a project that leads to proper system-level re
 ```
 
 [12:05:54](#SejePR_yxs9F3vGUCgVLzkBo64D-l3yydHGo8937xyc) <hiiamboris (NOT THIS ONE)>:
-Looks great Ì†ΩÌ∏â
+Looks great üòâ
 See also https://gitlab.com/hiiamboris/red-elastic-ui
 
 [12:06:19](#QKuYj76Nyjrutvvka2cy8bXWM7iocGZaPcMYqVZP0UE) <hiiamboris (NOT THIS ONE)>:
@@ -1471,7 +1471,7 @@ In the past, I do remember Rebol GUI resizing subsystems being done by multiple 
 OK here's a silly scenario: let's say we have a base of size `200x50` initially. Then it's size begins oscillating between `100x50` and `300x50` on timer:
 `inc: 1 view [size 400x100 base cyan 200x50 rate 50 on-time [x: face/size/x: face/size/x + inc if x = 300 [inc: -2] if x = 100 [inc: 2]]]`
 ![](https://i.gyazo.com/fb463c27fa61def42a1d172d6f00bdde.gif)
-And then we say: we want this base to scale with the window. And user starts dragging the window corner and we get a lot of resize events. I don't have to tell you that this ends badly Ì†ΩÌ∏â
+And then we say: we want this base to scale with the window. And user starts dragging the window corner and we get a lot of resize events. I don't have to tell you that this ends badly üòâ
 
 
 [15:14:29](#28DsaqbWjH8I00j8LBejXoCgpJFRB8gw2XvR6-CG42Y) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
@@ -1485,7 +1485,7 @@ And then we say: we want this base to scale with the window. And user starts dra
 
 
 [15:17:53](#q6OcxbYqK_m-d2cEF3mE4TW75PBnSRONAUOhQBtigRA) <hiiamboris (NOT THIS ONE)>:
-I don't get that about eating function Ì†ΩÌ∏ï
+I don't get that about eating function üòï
 
 [15:19:10](#duLvq_29Hz18Loh45PS7VJmMeRrALFSzR2RuMdf321U) <hiiamboris (NOT THIS ONE)>:
 Anyway, the problem here is that both algorithms assume little external intervention, and base may end up having negative size I think.
@@ -1509,7 +1509,7 @@ Precisely. And for the need of clear understanding of what to expect from such a
 * Precisely. And for the need of clear understanding of what to expect from such automatic resizer. (read: it should be dumb enough that you can explain how it works to almost anyone)
 
 [15:38:37](#fuXBY4DnWtSWuC8mdJh8I6CRHE7895UzYaUsxmo5-9o) <hiiamboris (NOT THIS ONE)>:
-Now if we finally had floating point pairs... Ì†ΩÌ∏â
+Now if we finally had floating point pairs... üòâ
 
 [16:37:25](#h52KsWH5eFI3bpdRbdOlXw0bkxR5PcE5SAa4qtkWyuA) <Respectech (Respectech)>:
 A Red browser will probably need to be able to scale fonts. Open any browser and try CTRL + and CTRL - to see that current web browsers do scale fonts.
@@ -1525,7 +1525,7 @@ I think the main difference between your oscillator and my clock is that the STA
 If the oscillator had the same MVC design, then it *probably* (I'm wary of claiming things untested) would resize rationally/ 
 
 [17:08:03](#TNj2TG-94zAXcQb9djOCy9dg2xKtq3qlD30LSXTw6E0) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
-We need double bufferimg to keep scrolling smooth anyway, no? Ì†ΩÌπÇ
+We need double bufferimg to keep scrolling smooth anyway, no? üôÇ
 
 [17:50:40](#D7r9c6HkCKT3W5F8ucqChxkpnV5QEvkjfcjJvHuCFCo) <dsunanda (dsunanda)>:
 @hiiamboris inevitable drift due to accumulated errors. **You are absolutely right** it's an insoluable problem....Sorry for being slow in realizing what you already discovered :)
@@ -1590,7 +1590,7 @@ view compose [x: text "O!" button "Change it" [(change-val x)]
 ```
 
 [18:42:01](#qoVPoLB7tZItzXDhQgcUEXtd9eG5nLNLF934ynfzCGI) <hiiamboris (NOT THIS ONE)>:
-Use `?` and `??` to inspect things Ì†ΩÌ∏â
+Use `?` and `??` to inspect things üòâ
 
 [19:20:50](#fvr4q1DCUWVKU0-amGPLBDtukVfMDF5QVkubRXkoQWc) <luis-rj (Luis)>:
 @dsunanda Is the code of rescale public ?
@@ -1684,7 +1684,7 @@ view compose [
 And if you go the way @rgchris mentions, look into `foreach-face`.
 
 [22:44:07](#u7kUQvy2dBKwSy19y8FL7g6VgX5uWWutJYH6MsrTtsk) <rgchris (Christopher Ross-Gill)>:
-Is a bit neater Ì†ΩÌ±ç
+Is a bit neater üëç
 ```plain
 view compose [
     text "O"
@@ -1699,7 +1699,7 @@ view compose [
 ]
 
 [22:44:26](#y0O9SSzTN83wCMy-exG8y8ZYts3r1CSLO1RWniKtDrM) <rgchris (Christopher Ross-Gill)>:
-* Is a bit neater Ì†ΩÌ±ç
+* Is a bit neater üëç
 ```plain
 view compose [
     text "O"
@@ -1804,7 +1804,7 @@ It's like `to string! [1 2 3]` Each value has to become part of the resulting st
 Oh yeah
 
 [2:37:02](#WLQhcJwewg3nNF22qrwSN_OD_zGjpIUYJHFObXkIrLo) <gltewalt (Greg T)>:
-Ì†ΩÌ∏Ü that was silly
+üòÜ that was silly
 
 [4:59:14](#gw5V2iReBT-f9P4vF4LkcBzXWKSaExax2irUKmXWkJk) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
 Be wise with using `with`.... it is too good to not be general. IIRC, it is/was used in VID too?
@@ -2000,10 +2000,10 @@ Good job @toomasv
 Thanks  @planetsizecpu , @ldci ! 
 
 [11:35:32](#eQHt5UhP0nG3lbXC2JIaomfSO8jr5WTCbOdC-D7yqE0) <planetsizecpu (Jose Luis)>:
-It would be interesting to see him play alone, I mean for demo in a infinite loop @toomasv  I imagine the fuses burning Ì†ΩÌ∏É
+It would be interesting to see him play alone, I mean for demo in a infinite loop @toomasv  I imagine the fuses burning üòÉ
 
 [14:29:39](#BvcpJf_sNF4rLOA-w1LjS7LrFTV6OfB9AUBaPWVT64k) <toomasv>:
- Ì†ΩÌ∏æ #Ô∏è‚É£ Ì†ΩÌ±Ä  ‚ôªÔ∏è 
+ üòæ #Ô∏è‚É£ üëÄ  ‚ôªÔ∏è 
 
 [14:29:55](#__B5bHBz2RpfXjjGzWRK2SuU-msT3A2HlRJESeuSBGs) <toomasv>:
 *  :pouting_cat: :hash: :eyes:   :repeat:
@@ -2132,7 +2132,7 @@ Thanks,  @GalenIvanov !
 @hiiamboris I think I understand what you mean. you don't move multiple faces at the same time. if you were to randomly position A, B and C, you would do so, one at a time. the end result of D's size and position is the result of moving first A, then B and then C.
 
 [13:26:16](#762n8Hu5Bl2Ppw1YePHb1T_uUJrC5JTwaszZWRvOt_g) <hiiamboris (NOT THIS ONE)>:
-I'm just unfamiliar with Web layouts and trying to picture the mechanics in my head Ì†ΩÌ∏â
+I'm just unfamiliar with Web layouts and trying to picture the mechanics in my head üòâ
 
 [14:04:01](#fNRC0yhtpjXKQV7w1HLK-P6SXGKzcwV5OBjbVOizVPg) <henrikmk (Henrik Mikael Kristensen)>:
 @hiiamboris I think this lies far away from weblayouts, IMHO, given that you have no control over the calculation order and weblayouts aren't really self reflective unless you use javascript.
@@ -2141,7 +2141,7 @@ I'm just unfamiliar with Web layouts and trying to picture the mechanics in my h
 * @hiiamboris I think this lies far away from weblayouts, IMHO, given that you have no control over the calculation order in weblayouts and weblayouts aren't really self reflective unless you use javascript.
 
 [14:05:10](#EYuaTlannWL77sVApe_CcDAxFwieE6Eoo-r_AFXwPPo) <hiiamboris (NOT THIS ONE)>:
-I thought this 9-point idea was borrowed from some web solutions. I don't know, so nevermind Ì†ΩÌ∏â
+I thought this 9-point idea was borrowed from some web solutions. I don't know, so nevermind üòâ
 
 [14:07:14](#OZrl0K66aUC4VynB4WgICQZnLSiqfuHN9itf42aVTwI) <hiiamboris (NOT THIS ONE)>:
 So. Let A B and C be just points, to which 3 top points of face D are tied. How does the upper margin of D move if we move A then B then C?
@@ -2191,7 +2191,7 @@ That depends on how much you move each one. If you move them equally much, then 
 I think I'm completely failing to explain this properly. Maybe I'll make a demo some day.
 
 [15:56:50](#LMsuULVQmsg2nGJVEl2Yx_xHlnarOUEX1vpBIt5ZguQ) <hiiamboris (NOT THIS ONE)>:
-OK Ì†ΩÌ∏â Thanks anyway
+OK üòâ Thanks anyway
 
 [21:33:11](#69RUZ16X3_H6YN-ihYhS5JPnWd72NBUBZLqwB3aR-jk) <gltewalt (Greg T)>:
 @toomasv Thanks.
@@ -2335,7 +2335,7 @@ I've never felt this way. Can you recall an example?
 Yes, everything!
 
 [15:49:17](#9_i4ZpNJyk8yE0TWY5qabkRw0sCn473qUMsJmeajth0) <hiiamboris (NOT THIS ONE)>:
-If you explained it, we would have a chance to make it better Ì†ΩÌ∏â
+If you explained it, we would have a chance to make it better üòâ
 
 [15:50:06](#Hr5lK0pxiicn8tkTTHumbf037Wa5foljkNxpAxtI1CI) <rgchris (Christopher Ross-Gill)>:
 I don't think it can be better‚ÄîI think it's a flawed concept whose only virtue is quick construction of a layout
@@ -2371,7 +2371,7 @@ What happens when blur radius becomes >> shape size?
 It disappears, blends into background.
 
 [17:48:04](#KyNC3-Tok99Rq3kr9FHdAQk82B8cEIO7dZ7MZDN3L6g) <hiiamboris (NOT THIS ONE)>:
-If so, tricky work Ì†ΩÌ∏â
+If so, tricky work üòâ
 
 [18:13:27](#fkyz66E0LCswEdgfhVEYq78HpzBDVHOO_p3JjpkzpN4) <toomasv>:
 [Here](https://toomasv.red/images/Misc/shadow2.gif)
@@ -2385,7 +2385,7 @@ If so, tricky work Ì†ΩÌ∏â
 @toomasv Wow! Very cool. Nice work.
 
 [18:16:06](#xlBW1ZJILtqgGSoN84BHJhXhK1b8ZH9L_2ljMBj7P3c) <hiiamboris (NOT THIS ONE)>:
-Big spread + zero blur shows some glitch Ì†ΩÌ∏â But still great.
+Big spread + zero blur shows some glitch üòâ But still great.
 
 [18:27:45](#fXUwAYSAlaQEhdioWmBeEeDJCb2ynfB6Jb8Car3wBls) <planetsizecpu (Jose Luis)>:
 It is a good research @toomasv. Push hard!
@@ -2470,7 +2470,7 @@ Zooming back to a 1:1 view, the most basic apps (which are legion in number) nee
 Under the hood, there may be simple and complex engines used to create the layout. We do need to normalize on what facets faces need, but that extra weight can just be ignore by the simple engine. The complex engine by it's very nature will have a lot more than can go wrong, and a lot more knobs and levers to twiddle. The idea then is to hide as many of them as possible behind templates and specialized layout wrappers. When you need fully custom control of every detail, you can look at what those tools generate to learn and write a lot of tedious code; but that should be 0.05% of apps (not an evidence-based estimate, but 0.01% sounded extreme). The rest of the time you find a close template to what you want, and when there isn't one, somebody builds it. And because of who we are ("we" being Red), those templates can be living, breathing things. 
 
 [19:13:07](#_wKKtqifbUkyQNTABa-Ja0Qatt8H-y1-__T0dhBLOVU) <hiiamboris (NOT THIS ONE)>:
-@toomasv it works only for boxes currently? I'd love to make neon text and shapes with it Ì†ΩÌ∏â
+@toomasv it works only for boxes currently? I'd love to make neon text and shapes with it üòâ
 
 [19:13:15](#lg_OzSAVSWi3YS-LaCprykWja04M2CYSeC9HtVsHALg) <greggirwin (Gregg Irwin)>:
 Holy cow @toomasv! It's `shadow-lab`.  Does anyone know of paint programs that use this direct manipulation model for shadows?
@@ -2479,7 +2479,7 @@ Holy cow @toomasv! It's `shadow-lab`.  Does anyone know of paint programs that u
 You don't ask for much, do you @hiiamboris. ;^)
 
 [19:14:48](#Vgzn6ISFlQhZ-UuKw5KCezZp2vectTjMF9rrnR9rzC4) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [19:16:27](#d-yeLwC_5LfDqiPz-K-WFDsKWRO7UtUKAiWfRt43AzM) <greggirwin (Gregg Irwin)>:
 He gave you the source, the rest is an exercise for the reader.
@@ -2490,7 +2490,7 @@ I'm thinking there's a game here. There's a light source (the sun) and you have 
 [19:22:02](#1XfC-R6gxe9TpRtI0mwikzrXuVfVlIcbuVld08qpWG0) <hiiamboris (NOT THIS ONE)>:
 > He gave you the source, the rest is an exercise for the reader.
 
-Ellipse/circle works, triangle/line doesn't  Ì†ΩÌ∏â
+Ellipse/circle works, triangle/line doesn't  üòâ
 Looks like WIP
 
 
@@ -2648,7 +2648,7 @@ I used the screen face for this btw.
 But the idea of using size-text here is great :+1:
 
 [17:23:53](#a5GPRJ4U_Oxvc8KtIeQCT7P5lhrVkbAQYfCJiSXhw-0) <hiiamboris (NOT THIS ONE)>:
-I still don't see any practical use for changing font size though Ì†ΩÌ∏É
+I still don't see any practical use for changing font size though üòÉ
 
 [17:24:37](#4YHgTBNpWpROEBxI2YfCX6tVH3mOW9TVTpqoZe0jhx8) <hiiamboris (NOT THIS ONE)>:
 When you resize a window, you do that to show more content, not because you're unable to read it.
@@ -2673,10 +2673,10 @@ The freeze.red script in the Rescaler demo is one example where font resizing ma
 @GiuseppeChillemi :) Optimization comes after making things work (at least in my dictionary) - we're still experimenting with data structures (and debating priorities and needs). When they are settled. then we'll paint the go-faster stripes :)
 
 [17:53:07](#gNZa8F2zsl3D_JcUaTtO0mJ0jLf4VhnukfpV1g2ALNQ) <hiiamboris (NOT THIS ONE)>:
-@dsunanda you actually reading EULAs? Ì†ΩÌ∏â
+@dsunanda you actually reading EULAs? üòâ
 
 [17:55:31](#NTh8Cw_N_ZCNFZOak9b_mE0GJACEeevSA1B43tD4Th4) <hiiamboris (NOT THIS ONE)>:
-in any case, if you're the author of the scammy app, and you're deliberately making the font tiny, you're not going to let user increase it, otherwise what's the point Ì†ΩÌ∏â
+in any case, if you're the author of the scammy app, and you're deliberately making the font tiny, you're not going to let user increase it, otherwise what's the point üòâ
 
 [17:56:28](#Tgeto-88vn4INKqeV2fUTPi0dtovGukTXeDWVAUFqXg) <dsunanda (dsunanda)>:
 @hiiamboris I read one once ....
@@ -2844,7 +2844,7 @@ I can feel @toomasv being tempted as well. He can consult in his spare time. :^)
 @ldci Yes, it would be great! You'll see my approach here.
 
 [19:02:58](#s1onKW_TSHclERgWei-iSQHoTYrEFBldD6PiEAYkpZI) <GalenIvanov (Galen Ivanov)>:
-@greggirwin Ì†ΩÌ∏É 
+@greggirwin üòÉ 
 
 [19:04:06](#69eZhLHLJNoNbhvZXkZNTUND1L1iKuWGEuqAOXzrmhA) <ldci (Fran√ßois Jouen)>:
 @GalenIvanov I also appreciate tout code for L-System. Very nice.
@@ -2909,10 +2909,10 @@ Software bugs are the key to the modern art:
 [![Tessel-Square-Tri-buggy.png](https://files.gitter.im/55b1d8290fc9f982beaacceb/1i6U/thumb/Tessel-Square-Tri-buggy.png)](https://files.gitter.im/55b1d8290fc9f982beaacceb/1i6U/Tessel-Square-Tri-buggy.png)
 
 [14:30:43](#AI1-2H_bcAld1dlbZnQyo49-7_Mwkw3AVKVYozHBKPY) <planetsizecpu (Jose Luis)>:
-Ì†ΩÌ∏Ä
+üòÄ
 
 [14:36:03](#MhhtM05DEUihFqiIhxusjUzJUtpWVqBAogRtKy2DIes) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [14:48:12](#TcgCrIRNEYiNtFPg91Ju3G4OCIdEYsFCzz1qTnc7Sq0) <GalenIvanov (Galen Ivanov)>:
 Btw, I made some progress:
@@ -2933,10 +2933,10 @@ Btw, I made some progress:
 Hmm, I think there wasn't a bug in the program, but in the rules I gave it - apparently the symmetry of this particular tiling is more complex that I thought.
 
 [15:13:04](#s-6eOX2QzX2TM_YcQGmTlM7RxsN3G9jKZCqSu0c7-Mc) <hiiamboris (NOT THIS ONE)>:
-Next step: tile rooms of user-provided geometry Ì†ΩÌ∏â
+Next step: tile rooms of user-provided geometry üòâ
 
 [15:13:30](#DbfbePmf20fx8v71u2AfodqvPh0OuUl2x1GRgJNrlrs) <GalenIvanov (Galen Ivanov)>:
-Ì†ΩÌ∏Ñ 
+üòÑ 
 
 [15:14:32](#ZRzGLRjVpZpikYX0WH2PFLMKK2-9Otbd7Y9GsFXCYmQ) <hiiamboris (NOT THIS ONE)>:
 And step 3: let user provide own tile photos :)
@@ -3020,7 +3020,7 @@ Everyone should look at https://github.com/GalenIvanov/Games if you haven't alre
 The Turtle is an interesting idea.
 
 [19:05:07](#PRrbnbMgNxn7zb_f7_GjYaRec5_fZdNkhD4QIPxNJvc) <planetsizecpu (Jose Luis)>:
-Thx @greggirwin being the first is like an honour for me. I did it for learning Red and also learned about making games, but it wasn't too hard at all because I had a lot of fun. As you know, I'm not so much experience in graphics programming, because I did my job in old character mode for unix systems, so the game was a unvaluable experience also for this reason. I wonder that some day would be able to design business apps as I did before Ì†ΩÌ∏Ä
+Thx @greggirwin being the first is like an honour for me. I did it for learning Red and also learned about making games, but it wasn't too hard at all because I had a lot of fun. As you know, I'm not so much experience in graphics programming, because I did my job in old character mode for unix systems, so the game was a unvaluable experience also for this reason. I wonder that some day would be able to design business apps as I did before üòÄ
 
 [19:06:10](#df82tyuQSt-QYzJekAwT6flRhYMKWm6wUqSnC1YAO2U) <GalenIvanov (Galen Ivanov)>:
 A core engine would be great. I also like to try to make a 2D vector animation editor.
@@ -3069,7 +3069,7 @@ A core engine would be great. I also like to try to make a 2D vector animation e
 ## 29-Mar-2021
 
 [8:32:25](#Umx7Pi0gRpCX0ztwZvlFhPqjG4enhSrEYCf9Jy_Ljic) <planetsizecpu (Jose Luis)>:
-I'm used to test as much as Red automatic builds as I can, so today I had a bit of fun while testing on L3 Ì†ΩÌ∏Ñ
+I'm used to test as much as Red automatic builds as I can, so today I had a bit of fun while testing on L3 üòÑ
 
 
 [10:14:32](#KeQXFILIRG3qluqJqwSWAwKNk9JXu4Pq1pntAImNGRk) <GalenIvanov (Galen Ivanov)>:
@@ -3082,13 +3082,13 @@ That's great @planetsizecpu. I don't remember seeing the output console before. 
 Thx guys. Not new @greggirwin I just leave it on background to show debug info. On thing I can't show here, that is fun, is closing the view game window, so you can nanipulate objects as for example lives attibur
 
 [17:10:04](#uWWNY1J1C1S05u3SbUimuut3fEQ7vrFtx-Dqr2MGsDo) <planetsizecpu (Jose Luis)>:
-* Thx guys. Not new @greggirwin I just leave it on background to show debug info. On thing I can't show here, that is fun, is closing the view game window, so you can nanipulate objects as for example lives attibute and restore the window again to play Ì†ΩÌ∏Å
+* Thx guys. Not new @greggirwin I just leave it on background to show debug info. On thing I can't show here, that is fun, is closing the view game window, so you can nanipulate objects as for example lives attibute and restore the window again to play üòÅ
 
 [17:10:37](#4RvOBmkGpQKV3wAuiznNj_fuD_eG_V_v0IMbYyE1_Vg) <planetsizecpu (Jose Luis)>:
-* Thx guys. Not new @greggirwin I just leave it on background to show debug info. One thing I can't show here, that is fun, is closing the view game window, so you can nanipulate objects as for example lives attibute and restore the window again to play Ì†ΩÌ∏Å
+* Thx guys. Not new @greggirwin I just leave it on background to show debug info. One thing I can't show here, that is fun, is closing the view game window, so you can nanipulate objects as for example lives attibute and restore the window again to play üòÅ
 
 [17:11:10](#m0v0mZr7Gzj2UcCJ7DJT1eoZozk70tDo9VWY2K937FE) <planetsizecpu (Jose Luis)>:
-* Thx guys. Not new @greggirwin I just leave it on background to show debug info. One thing I can't show here, that is fun, is closing the view game window, so you can manipulate objects as for example lives attibute and restore the window again to play Ì†ΩÌ∏Å
+* Thx guys. Not new @greggirwin I just leave it on background to show debug info. One thing I can't show here, that is fun, is closing the view game window, so you can manipulate objects as for example lives attibute and restore the window again to play üòÅ
 
 [17:12:37](#FuBBOr0RGOI33NTslFLU-LzcPNK5_65b6kHMwnzHOXk) <planetsizecpu (Jose Luis)>:
 But to show here then the GIF file turns too heavy for upload
@@ -3096,7 +3096,7 @@ But to show here then the GIF file turns too heavy for upload
 ## 2-Apr-2021
 
 [11:08:04](#o1K7o6W-2zlsVHwmVTq-mNkpRaomTMrBfaPhVsm3HJA) <planetsizecpu (Jose Luis)>:
-This is all that is needed to build a new level, this Easter holidays I start the new level 16 Ì†ΩÌ∏É
+This is all that is needed to build a new level, this Easter holidays I start the new level 16 üòÉ
 
 [11:08:21](#lCCA6Hqf-RbL_jELguvagAvtP_NBIKtdxENCeFtdq2E) <planetsizecpu (Jose Luis)>:
 [![cavetest161.gif](https://files.gitter.im/55b1d8290fc9f982beaacceb/xVVu/thumb/cavetest161.gif)](https://files.gitter.im/55b1d8290fc9f982beaacceb/xVVu/cavetest161.gif)
@@ -3122,7 +3122,7 @@ Now testing this scenario with eight agents, somewhat difficult IMO
 [![cavetest162.gif](https://files.gitter.im/55b1d8290fc9f982beaacceb/CGRv/thumb/cavetest162.gif)](https://files.gitter.im/55b1d8290fc9f982beaacceb/CGRv/cavetest162.gif)
 
 [11:31:29](#iaJkZCFTyeuWLE5zC2Dw58jX_1CfyTLJehP3eknCYAk) <planetsizecpu (Jose Luis)>:
-I would have to place some pickaxes Ì†ΩÌ∏å
+I would have to place some pickaxes üòå
 
 
 [18:54:05](#kU7zhDmNTE-sicq1Jk1SbcYTRkIESYG3ZYhev5IPL08) <greggirwin (Gregg Irwin)>:
@@ -3247,7 +3247,7 @@ There is no efficiency in repeatedly reparsing the same block over and over. Sor
 Not true. I would agree that *building OS structures* out of Draw pair list every time is inefficient. But then, holding those resources in case they would be needed again is one level up in complexity and smells of premature optimization. 
 
 [16:37:34](#6JTfXdt--kW6099nnCaXuQh0HDzk5DQmFilKWmqIlO0) <hiiamboris (NOT THIS ONE)>:
-No one would stop you from profiling & enhancing it though Ì†ΩÌ∏â
+No one would stop you from profiling & enhancing it though üòâ
 
 [16:41:15](#YplZZsA_10cRGnSqphBWhPb42uRRQqocN1riFqkAAh0) <henrikmk (Henrik Mikael Kristensen)>:
 "But then, holding those resources in case they would be needed again is one level up in complexity and smells of premature optimization." - or you can use draw queues.
@@ -3256,7 +3256,7 @@ No one would stop you from profiling & enhancing it though Ì†ΩÌ∏â
 -pekr- smells some gfx enhancements possibilities making Draw faster than Chuck Norris, then hiiamboris says Chuck Norris is already involved :-) 
 
 [16:42:20](#7KHCM37JUlYNFSA2FikpqZ0D9fCV_-NP7zicN7SknBY) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [16:47:07](#ny83u3l5AuZykXrMfTw-evJ25ybIwmM496PPhNpiaJY) <hiiamboris (NOT THIS ONE)>:
 @henrikmk it doesn't matter how you call it, it's a memory arrays with coordinates in OS-accepted format, and images in native OS form. Those, if cached, would make it faster. Though with a cost of RAM, and effort to write and test that on all platforms.
@@ -3265,7 +3265,7 @@ No one would stop you from profiling & enhancing it though Ì†ΩÌ∏â
 @hiiamboris the RAM cost would be very negligeble. it very much matters how you call it. testing it should be fairly simple, since it's only a direct interface to the underlying draw engine.
 
 [16:50:00](#fPqpqTq4RmQ7XpTbO402FqIk5k3HfWCn5H5lPIcMuYo) <hiiamboris (NOT THIS ONE)>:
-Depends Ì†ΩÌ∏â Images for example can be huge (and they are the slowest Draw operation so far)
+Depends üòâ Images for example can be huge (and they are the slowest Draw operation so far)
 
 [16:51:00](#yiwvRh7b3Iwsj6x5t7J8EowdgxERdPkv4eBE00x5vmg) <henrikmk (Henrik Mikael Kristensen)>:
 isn't that a limitation of the compositor? how do you point bitmaps to the draw engine?
@@ -3312,18 +3312,18 @@ Maybe we should REP all these ideas..
 I hope that @henrikmk  will translate his experiments from C and REBOL to R/S and Red and then let us (non Red Team members) use those "creatures".
 
 [10:54:55](#6guiSiNmnGgTUQD9jahBIu5D9GXLo5N_bq-IUG19864) <planetsizecpu (Jose Luis)>:
-Today pushed online the new level L16, but maybe it needs some changes as it needs to be full tested. Ì†ΩÌ∏Ñ My home PC need to be updated too, as it can be seen on the slow objects movement, it is related to the high number on the gravity function objects list.
+Today pushed online the new level L16, but maybe it needs some changes as it needs to be full tested. üòÑ My home PC need to be updated too, as it can be seen on the slow objects movement, it is related to the high number on the gravity function objects list.
 
 
 [10:55:21](#Z25PtLe3St5yIIBL-6E4TrVjoAxLe6-t-r8MZHLM2dw) <planetsizecpu (Jose Luis)>:
 [![cavetest165.gif](https://files.gitter.im/55b1d8290fc9f982beaacceb/cQeq/thumb/cavetest165.gif)](https://files.gitter.im/55b1d8290fc9f982beaacceb/cQeq/cavetest165.gif)
 
 [10:56:10](#KPcWj4Sy4R81__fgpQ3GFnjREhnRWpTEr2mA8uDy0tg) <planetsizecpu (Jose Luis)>:
-* Today pushed online the new level L16, but maybe it needs some changes as it must be full tested. Ì†ΩÌ∏Ñ My home PC need to be updated too, as it can be seen on the slow objects movement, it is related to the high number on the gravity function objects list.
+* Today pushed online the new level L16, but maybe it needs some changes as it must be full tested. üòÑ My home PC need to be updated too, as it can be seen on the slow objects movement, it is related to the high number on the gravity function objects list.
 
 
 [10:58:02](#mEj1spl9hK6vA-0rjj5OV5QDuqhsoWc-OddYn9JbR18) <planetsizecpu (Jose Luis)>:
-* Today pushed online the new level L16, but maybe it needs some changes as it must be full tested. Ì†ΩÌ∏Ñ My home PC need to be updated too, as it can be seen on the slow objects movement, it is related to the high number of objects affected by the gravity function.
+* Today pushed online the new level L16, but maybe it needs some changes as it must be full tested. üòÑ My home PC need to be updated too, as it can be seen on the slow objects movement, it is related to the high number of objects affected by the gravity function.
 
 
 [14:04:07](#BdjnqW4xfguPmpjLrX6fdgBOzT8lK51JVm3U5Vbcf5k) <GalenIvanov (Galen Ivanov)>:
@@ -3348,7 +3348,7 @@ After months without touching it, it is difficult to remember some rules to desi
 In the end I have left five guards, so don't stress the CPU.
 
 [8:08:33](#v3FsbkBpjZoBQFJUV-lXllozxo8uns9PH-JtgnDSxVs) <planetsizecpu (Jose Luis)>:
-If you look at the tenth field, a one indicates that the object is affected by the gravity function, that large number of objects slows the main cicle, but I decided to shorten the guards number instead of deleting gold bags. Ì†ΩÌ∏Å
+If you look at the tenth field, a one indicates that the object is affected by the gravity function, that large number of objects slows the main cicle, but I decided to shorten the guards number instead of deleting gold bags. üòÅ
 
 
 [8:26:16](#VMcoeH3RFp5kCvqUGwpnWfVB65tGUOHt0JdW-C7pRxE) <planetsizecpu (Jose Luis)>:
@@ -3361,7 +3361,7 @@ If you look at the tenth field, a one indicates that the object is affected by t
 Oh thx Fran√ßois happy to hear that 
 
 [9:36:22](#DOceXgHtonBYAZ_fgZ5b26YGeM4llEsE1ymNcoLB2VA) <planetsizecpu (Jose Luis)>:
-There is also the gold question. The collected bags are deleted from the face tree, so the gravity loop is shorter and faster along the game, it may seem an issue but is not. That allows the guards to go smarter because they know the gold is vanishing. Ì†ΩÌ∏Ü
+There is also the gold question. The collected bags are deleted from the face tree, so the gravity loop is shorter and faster along the game, it may seem an issue but is not. That allows the guards to go smarter because they know the gold is vanishing. üòÜ
 
 ## 8-May-2021
 
@@ -3386,7 +3386,7 @@ Just to show how the climbing function on the guards stops, here is the ceiling 
 I guess your code is huge :)
 
 [18:21:21](#we3WfaL5nCWBAXf1oODJgEX10iJTXQXwPt8UyLxCBWU) <planetsizecpu (Jose Luis)>:
-It is Ì†ΩÌ∏Ü
+It is üòÜ
 
 
 [18:22:28](#aZ7jwHVtE92PUt-1lad8WMjHICZ-XSzov0Pe-rj1x-8) <planetsizecpu (Jose Luis)>:
@@ -3406,10 +3406,10 @@ See this ``` if any [face/extra/type = "G" face/extra/type = "T" face/extra/type
 
 
 [18:26:36](#ELk6E0Z6_l5wABh9YUnT4W7yOlc6cdFW8ut-bxgzyP8) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [18:26:49](#lAtD5pmw7QbbinqAgMK2hftrcRQuaUZi2b_Lxhlkgoc) <planetsizecpu (Jose Luis)>:
-Ì†ΩÌπÑ
+üôÑ
 
 
 
@@ -3426,7 +3426,7 @@ mmm good catch, but take in mind I'm learning and not so used to ```find```
 I guess that would speed the game
 
 [18:28:33](#u96Gan2t6aPthOFrgqjASvsEQBj0xmZATdpy9Q5jEX8) <hiiamboris (NOT THIS ONE)>:
-you must probably come from some object-oriented lang, like C++ or Objective-C or Java Ì†ΩÌ∏â
+you must probably come from some object-oriented lang, like C++ or Objective-C or Java üòâ
 
 [18:29:07](#FGnX2Uk3mP2n_15ZamAeI7Y7y8Ku_KIJOzHXe5sbqFw) <hiiamboris (NOT THIS ONE)>:
 that's what this coding style reminds me of ‚ò∫
@@ -3612,7 +3612,7 @@ great work nonetheless, @GalenIvanov
 @GalenIvanov Slimy! :) err.. I mean, smooth!
 
 [14:02:51](#H1EzvmSIs98sCVUJ66z-S7buobi0Cbw7EsSwstrXnOg) <GalenIvanov (Galen Ivanov)>:
-I knew I needed to render it green Ì†ΩÌ∏Ñ 
+I knew I needed to render it green üòÑ 
 
 [15:52:40](#kxiAP3piUaTFZ-p1yTMKV0bVsE_NwtjhGTTFcHRRRxo) <planetsizecpu (Jose Luis)>:
 Looks well @GalenIvanov it denotes a lot of work. Good job.
@@ -3665,7 +3665,7 @@ actor is a function and `face` is it's argument
 you're always overcomplicating things
 
 [9:17:59](#BrcEpRhstt8Qs96YJdi69vFjBXDzF3x8mOEwCb3XmCs) <GiuseppeChillemi (GiuseppeChillemi)>:
-(The complication comes before simplification. When you learn something new you create many interconnected hypothesis, then you cut then you start a process which cuts the wrong ones and the right ones emerges, and I like doing this Ì†ΩÌ∏â
+(The complication comes before simplification. When you learn something new you create many interconnected hypothesis, then you cut then you start a process which cuts the wrong ones and the right ones emerges, and I like doing this üòâ
 
 If an actor is function and `face` is its argument, that `face` word will be bound only to that function. So If I bind code at `on-creation` it will bound to the actor context and another actor will be unable to see it! The resulting is that I can't create an object with a `face` word in its code, as it would be bound to an unavailable context. My object's functions body would need continuous rebinding to be shared from all actors. The only solution is to structure the code as a function with `face` as argument and not as function with no arguments and the `face` bound at creation. 
 
@@ -3844,13 +3844,13 @@ Agreed.
 ## 27-May-2021
 
 [7:37:11](#NyzjBzCTQuUFzABY1h3fQ3PYzz8DT7fHPyAqleegu78) <planetsizecpu (Jose Luis)>:
-I was hacking on L5 yesterday. Not fully comfortable with the stage design I made some changes on the ice elevators. The ice stages are the most difficult due to slippery, I realized that it was almost impossible to beat the level with only three lives, so added a wall on the basement  to avoid the guards having full clearance, and a teleporter to allow the boy to travel the wheelbarrow from one side to the other, but be careful, the guards also use them  Ì†ΩÌ∏Ü
+I was hacking on L5 yesterday. Not fully comfortable with the stage design I made some changes on the ice elevators. The ice stages are the most difficult due to slippery, I realized that it was almost impossible to beat the level with only three lives, so added a wall on the basement  to avoid the guards having full clearance, and a teleporter to allow the boy to travel the wheelbarrow from one side to the other, but be careful, the guards also use them  üòÜ
 
 [7:37:59](#zvrfRQsWCJRXG_5Ss9t9-ueYFE_xjq9wpZ3eF2vZSLQ) <planetsizecpu (Jose Luis)>:
 [![Cavetest56.gif](https://files.gitter.im/55b1d8290fc9f982beaacceb/tI3X/thumb/Cavetest56.gif)](https://files.gitter.im/55b1d8290fc9f982beaacceb/tI3X/Cavetest56.gif)
 
 [8:27:45](#z4F9GZHqrJvUbGwuyhu7z2QSe3lXhWtwVLKOZRAugHA) <hiiamboris (NOT THIS ONE)>:
-Fugitive hero, agents everywhere, woman in red dress, Red language (pill)... hmm.. rings some bell.. Ì†ΩÌ∏â
+Fugitive hero, agents everywhere, woman in red dress, Red language (pill)... hmm.. rings some bell.. üòâ
 
 [8:28:25](#FkKJgfBaYW_FP7psTBm70t-O94WtGIS11p9HoQXJMlk) <hiiamboris (NOT THIS ONE)>:
 * Fugitive hero, prison world, agents everywhere, woman in red dress, Red language (pill)... hmm.. rings some bell.. ;)
@@ -4190,7 +4190,7 @@ No, didn't think it could work. I'll try.
 @hiiamboris 
 No, it doesn't work:
 ```
->> view [button "Print world" Ì†ΩÌ∏ñegments/print-world]
+>> view [button "Print world" üòñegments/print-world]
 *** Script Error: VID - invalid syntax at: [:segments/print-world]
 *** Where: do
 *** Stack: view layout cause-error  
@@ -4207,7 +4207,7 @@ view reduce ['button "Print world" segments/print-world]
 Well, I see you have a wish open for that already. So just wait a few years before someone implements it.
 
 [9:46:42](#7s068LB0SHqVTvkFLryG7-jaxipyRoKHuuC0Mskd2o0) <planetsizecpu (Jose Luis)>:
-Today released the new level L17, I called "Devil's Hole", you can imagine why, does anyone dare? Ì†ΩÌ∏Ö
+Today released the new level L17, I called "Devil's Hole", you can imagine why, does anyone dare? üòÖ
 
 [9:47:19](#PkDCaqW3pKJLln_zOX5b4YITuA88COliXL8GD1-8vGI) <planetsizecpu (Jose Luis)>:
 [![Cavetest171.gif](https://files.gitter.im/55b1d8290fc9f982beaacceb/TP00/thumb/Cavetest171.gif)](https://files.gitter.im/55b1d8290fc9f982beaacceb/TP00/Cavetest171.gif)
@@ -4240,7 +4240,7 @@ Looks like there may be registry hacks to do it, but we should find out if Red a
 @GiuseppeChillemi Then while waiting for get-path syntax may be use something like preparator
 ```
 prepare: func [blk] [parse blk [any [s: change word! (to-lit-word s/1) | skip]] reduce blk]
-view prepare [button "Print world" Ì†ΩÌ∏ñegments/print-world]
+view prepare [button "Print world" üòñegments/print-world]
 ```
 
 [6:41:46](#VmQiGzIfFd2lXmpMt_ZZsEQNlM9JPC5SB0tAWydOfqk) <GiuseppeChillemi (GiuseppeChillemi)>:
@@ -4271,11 +4271,11 @@ Sometimes with little effort a laborious job can be carried out. This is the new
 [![Cavetest181.gif](https://files.gitter.im/55b1d8290fc9f982beaacceb/WyFK/thumb/Cavetest181.gif)](https://files.gitter.im/55b1d8290fc9f982beaacceb/WyFK/Cavetest181.gif)
 
 [14:55:48](#vBNHiek8aV32e6ZfwuFMcnFVayajbOwEEpF53_FcpdQ) <planetsizecpu (Jose Luis)>:
-It has been a near copy & paste job Ì†ΩÌ∏è
+It has been a near copy & paste job üòè
 
 
 [16:15:53](#nDPlx5lXHeV97UFsoFwUSMOyPFvplbp4TqHyfu9KfhQ) <GalenIvanov (Galen Ivanov)>:
-@planetsizecpu symmetry Ì†ΩÌ∏Ñ
+@planetsizecpu symmetry üòÑ
 
 ## 11-Jun-2021
 
@@ -4289,7 +4289,7 @@ My FireFox was updated cca 1 week ago to the latest version 89. Amongst many new
 
 [8:13:50](#nZKi5dJrhhOoo43n7VFRNvpBqzLSE87uLYInd5WZ14g) <planetsizecpu (Jose Luis)>:
 This week I'm going to make a major change to the design of the game. With only a handful of LOC now the caves can be double height and we can also scroll the screen vertically. To achieve this, it was necessary to remove the scoring / difficulty control area to a new window. In a few days I will be able to upload the final code. This is a mockup.
-Now, the design of the caves will be much more laborious, but it will provide much more entertainment time Ì†ΩÌ∏Ñ
+Now, the design of the caves will be much more laborious, but it will provide much more entertainment time üòÑ
 
 
 [8:13:59](#U5X0plXO-KKQVG-kdINP92SI6ZCohWFddmUJT2uY9no) <planetsizecpu (Jose Luis)>:
@@ -4297,18 +4297,18 @@ Now, the design of the caves will be much more laborious, but it will provide mu
 
 [8:14:20](#ThvGYT_ZQCkprrDVRMY8WN2WtWlDdpNrEOjj0RbbRRs) <planetsizecpu (Jose Luis)>:
 * This week I'm going to make a major change to the design of the game. With only a handful of LOC now the caves can be double height and we can also scroll the screen vertically. To achieve this, it was necessary to remove the scoring / difficulty control area to a new window. In a few days I will be able to upload the final code. This is a mockup.
-Now, the design of the caves will be more laborious, but it will provide much more entertainment time Ì†ΩÌ∏Ñ
+Now, the design of the caves will be more laborious, but it will provide much more entertainment time üòÑ
 
 
 [8:17:59](#_mBxOqd7XL07wDe_N8ceT1vO96_Q2BSTBI9y9yLUjFw) <GalenIvanov (Galen Ivanov)>:
-@planetsizecpu That's great! I'm curious - do you sketch the levels on sheets of paper, or everything is transferred directly from your head into Red code? I'm a big fan of concept design, sketching and sketchbooks Ì†ΩÌ∏É 
+@planetsizecpu That's great! I'm curious - do you sketch the levels on sheets of paper, or everything is transferred directly from your head into Red code? I'm a big fan of concept design, sketching and sketchbooks üòÉ 
 
 [8:19:06](#_kzYSXXYx1OgfCTsvtMWlsaceb1H2Rga8XVYYKcrkug) <planetsizecpu (Jose Luis)>:
-@GalenIvanov It's my boiling head!  it is direct interface from my brain to paintbrush Ì†æÌ¥£
+@GalenIvanov It's my boiling head!  it is direct interface from my brain to paintbrush ü§£
 
 
 [8:20:56](#81Uroad4MmkFnwTVhvCL7jg_CjaNXlWp0dUqk-K7oj4) <GalenIvanov (Galen Ivanov)>:
-@planetsizecpu  Elon Musk would be happy to have you as a tester for his Neuralink Ì†ΩÌ∏è 
+@planetsizecpu  Elon Musk would be happy to have you as a tester for his Neuralink üòè 
 
 [8:23:21](#6uNUfT1Kgqn-9y1l-k0IHv9diiiVqoiKzuekF_ypBK4) <planetsizecpu (Jose Luis)>:
 Musk wouldn't be disappointed, sure.
@@ -4427,7 +4427,7 @@ foreach-face l [if face/extra = 'blue [probe face/color]]
 ```
 
 [14:40:11](#92WVqRbMDk5HRxYNn1qfTokpMmyXgqLIJy2YHnQkqZE) <planetsizecpu (Jose Luis)>:
-This is the new L20 level. I have introduced new items and more difficulty. It has been laborious to find the timing so as not to kill yourself when falling from elevators, I must check on modern machines if it is some flawn, if they go too fast we may loose synchronism and the ability to jump on the right time. Ì†ΩÌ∏£
+This is the new L20 level. I have introduced new items and more difficulty. It has been laborious to find the timing so as not to kill yourself when falling from elevators, I must check on modern machines if it is some flawn, if they go too fast we may loose synchronism and the ability to jump on the right time. üò£
 
 [14:41:01](#ASdhEoS9PR6rK2s27zgWubqIiziguFsMK_RYg8N0vCs) <planetsizecpu (Jose Luis)>:
 [![Cavetest201.gif](https://files.gitter.im/55b1d8290fc9f982beaacceb/olgJ/thumb/Cavetest201.gif)](https://files.gitter.im/55b1d8290fc9f982beaacceb/olgJ/Cavetest201.gif)
@@ -4442,7 +4442,7 @@ Nice level @planetsizecpu. I remember an old PC game (The Ancient Art of War), w
 @planetsizecpu Nice! :+1: 
 
 [17:09:44](#YWHl3l_ECeOmdGtipzMSzXkiYGhO_bA5VqnTdAnGCjk) <planetsizecpu (Jose Luis)>:
-Thx guys Ì†ΩÌ∏â
+Thx guys üòâ
 
 [23:00:54](#mN7dZNhjMwAjwVJqMV-Sw3jrY90leeQEB_o_Ic9hwaU) <gltewalt (Greg T)>:
 Can you add an executable for Linux?
@@ -4689,10 +4689,10 @@ Ah, I have seen that issue before @gltewalt I must trim the timer values in orde
 GTK timer is faster than Windows' 16ms.
 
 [16:14:29](#JZkCfZX6a0ErwW_Rb8ASs4C3ZKU0cSo7jd1-t16DLys) <hiiamboris (NOT THIS ONE)>:
-Surprisingly, even in WSL2 running on top of that Windows Ì†ΩÌ∏É
+Surprisingly, even in WSL2 running on top of that Windows üòÉ
 
 [16:21:47](#QxQri-k8CDnJ95b1GdTacv8Aft8OXH9pbec828ODXFU) <planetsizecpu (Jose Luis)>:
-Yes, is a known issue, the timers must be slowed on Linux and maybe on MacOS, I know the way and it is some code on the game to do that, but I must be able to test on that OSs before touching anything Ì†ΩÌπÑ
+Yes, is a known issue, the timers must be slowed on Linux and maybe on MacOS, I know the way and it is some code on the game to do that, but I must be able to test on that OSs before touching anything üôÑ
 
 
 [16:23:54](#9peW1I7cSoTub8K2ZrH7ZZ9bssnSm3pJeYl62nC_O4A) <planetsizecpu (Jose Luis)>:
@@ -4763,7 +4763,7 @@ Effectively, bricks don't get cleared.
 * I know. I think I reported that. When you select some region outside of the image and impose it upon region inside the image, in GTK you get different results (should be just white pixels, but IIRC GTK draws them as transparent)
 
 [18:36:00](#y93f2oPH46tcqd5ZLiPLqGAgXGI2Hh7B1x4PHlAv0YI) <gltewalt (Greg T)>:
-Ì†ΩÌ∏ï
+üòï
 
 [18:40:02](#w9WupQegGxqinPS55e9QU5cHc87P1kGgXqzfGTuA3b0) <gltewalt (Greg T)>:
 Fix that.  
@@ -4803,7 +4803,7 @@ Puppy Finder is strangely pleasing
 :+1:
 
 [14:01:47](#ArWJ5IYOjdZDytMhchd1aPXb3NPT9camoTJGh5YDk5w) <planetsizecpu (Jose Luis)>:
-Update done!, if some one else wants to try how it goes on GTK any clue would be welcome. Ì†ΩÌ∏è
+Update done!, if some one else wants to try how it goes on GTK any clue would be welcome. üòè
 
 
 [14:02:58](#jI34teenpfcg8TqapQ49vxVUZPmH1V3ZkdQk_j1NP14) <planetsizecpu (Jose Luis)>:
@@ -4825,16 +4825,16 @@ Thx in advance!
 ## 29-Jun-2021
 
 [6:00:00](#9EqeLwbm-9CikcgincC7WHrhex9nNNQw2Ep4uiDjFBQ) <planetsizecpu (Jose Luis)>:
-Thx for testing @gltewalt  and good investigation job @hiiamboris Ì†ΩÌ∏Ä
+Thx for testing @gltewalt  and good investigation job @hiiamboris üòÄ
 
 [6:09:24](#80fZZd0XPT1CjLLJsb7kwzks9EZIWMd_6f1nR_8aors) <planetsizecpu (Jose Luis)>:
 I still testing for flawns on L20, the design still needs some touch up on walls.
 
 [6:20:18](#ZmaOvNTgQ07VPKG5X6-9CIQgL6HUSMkVxE7EfOgzaCc) <planetsizecpu (Jose Luis)>:
-As my brain does not stop boiling, I am now thinking about a new L21 level. I am "phan" from Don Coscarelli's film series "Phantasm", and I want to do this new level in memory of [The Tall Man](https://www.phantasm.com/the-secrets-of-phantasm) actor, Angus Scrimm, who passed away in 2016, and gave me some bad nights sleep when I was young.  So the new level I want to be a graveyard with catacombs. We'll see what comes out of this, I'm thinking of designing new hardware for the boy Ì†ΩÌ∏Å 
+As my brain does not stop boiling, I am now thinking about a new L21 level. I am "phan" from Don Coscarelli's film series "Phantasm", and I want to do this new level in memory of [The Tall Man](https://www.phantasm.com/the-secrets-of-phantasm) actor, Angus Scrimm, who passed away in 2016, and gave me some bad nights sleep when I was young.  So the new level I want to be a graveyard with catacombs. We'll see what comes out of this, I'm thinking of designing new hardware for the boy üòÅ 
 
 [6:22:29](#pLAtzSjrXnSuhioiERg3Pev-RY8Lm6XDxe6nx7EI60s) <planetsizecpu (Jose Luis)>:
-* As my brain does not stop boiling, I am now thinking about a new L21 level. I am "phan" from Don Coscarelli's horror series "Phantasm", and I want to do this new level in memory of [The Tall Man](https://www.phantasm.com/the-secrets-of-phantasm) actor, Angus Scrimm, who passed away in 2016, and gave me some bad nights sleep when I was young.  So the new level I want to be a graveyard with catacombs. We'll see what comes out of this, I'm thinking of designing new hardware for the boy Ì†ΩÌ∏Å 
+* As my brain does not stop boiling, I am now thinking about a new L21 level. I am "phan" from Don Coscarelli's horror series "Phantasm", and I want to do this new level in memory of [The Tall Man](https://www.phantasm.com/the-secrets-of-phantasm) actor, Angus Scrimm, who passed away in 2016, and gave me some bad nights sleep when I was young.  So the new level I want to be a graveyard with catacombs. We'll see what comes out of this, I'm thinking of designing new hardware for the boy üòÅ 
 
 [17:00:29](#w2mAUXWLAjMwhHKEiXIKApzNfFyOXRWrCHHPlty2tZs) <greggirwin (Gregg Irwin)>:
 The 67 note might be good to put somewhere. I don't know the best place, but that's a non-obvious trick.
@@ -4855,7 +4855,7 @@ For fun: IOS button
 :+1: 
 
 [14:21:13](#eA0FxdVnkclIVW8O1sTqYzkwmXzd6aXCnqkhJkB2oiw) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-let‚Äôs hope we‚Äôll see Red for iOS someday Ì†ΩÌ∏â
+let‚Äôs hope we‚Äôll see Red for iOS someday üòâ
 
 [15:19:47](#r3EHG_c7fFCYQ52v78XKhLF0r8UK6gJ4zXvCpByjYMo) <ldci (Fran√ßois Jouen)>:
 @rebolek Yes ASAP:)
@@ -4890,11 +4890,11 @@ L21 new guards will be a bit creepy, some extra coding has been enough to fit on
 [![Cavetest210.gif](https://files.gitter.im/55b1d8290fc9f982beaacceb/KJEI/thumb/Cavetest210.gif)](https://files.gitter.im/55b1d8290fc9f982beaacceb/KJEI/Cavetest210.gif)
 
 [9:39:40](#DyvyRO94dIMkv3worUQhPZ1y3Sr6QhkvyKD4_uBtW9o) <planetsizecpu (Jose Luis)>:
-Some non-game artifacts have been sneaked in Ì†ΩÌ∏Ü 
+Some non-game artifacts have been sneaked in üòÜ 
 
 
 [9:40:41](#R-DwZlc8IAookiorYZwBX0xBcSVYcqV2RrvTwYvlUW0) <planetsizecpu (Jose Luis)>:
-* Some non-game artifacts have been sneaked in the GIF Ì†ΩÌ∏Ü 
+* Some non-game artifacts have been sneaked in the GIF üòÜ 
 
 
 [10:53:06](#nawzL5A-AESvroeE6_P9Pg5XhfrQmgblIzinTtavdS0) <GalenIvanov (Galen Ivanov)>:
@@ -4972,7 +4972,7 @@ view win: layout [
 
 
 [14:56:47](#jwTy1xeg0nHtcV7-MyAYWtxUG7fQ1y5EN16-Bg6_amc) <planetsizecpu (Jose Luis)>:
-Today I'm testing hard on new L21, a bit scary Ì†ΩÌ∏è
+Today I'm testing hard on new L21, a bit scary üòè
 
 [14:57:20](#cz0IELt9pbdw2h8FS2k5qnQJpiF-Ycg2XK59nfGbOas) <planetsizecpu (Jose Luis)>:
 [![Cavetest212.gif](https://files.gitter.im/55b1d8290fc9f982beaacceb/hUlz/thumb/Cavetest212.gif)](https://files.gitter.im/55b1d8290fc9f982beaacceb/hUlz/Cavetest212.gif)
@@ -4987,7 +4987,7 @@ what's the skull for?
 If you click the skull, it installs Red 2.0 for you! 
 
 [17:48:55](#1nlUzWRlsa7bNXgpA23EQWkmKvOUsCP53hqeF2hItW4) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [19:47:08](#zn0BxxAH14t2SGBa-xAFaIPw9_XPKO-lEewk5E6-Lz4) <greggirwin (Gregg Irwin)>:
 I like the "hidden" skulls. Took me a minute to catch those. No flying sphere yet, so more scares yet to come I'm sure.
@@ -4996,7 +4996,7 @@ I like the "hidden" skulls. Took me a minute to catch those. No flying sphere ye
 
 [6:13:11](#NkkrG5oFIesGhhfLpfsp8n1j7ZUBL7gj3kwsmFP6-eM) <planetsizecpu (Jose Luis)>:
 The skulls are collectable items, I found the earlier face item was not up to the task of The Tall Man and I'm putting a lot of effort on this stage to honor him. 
-The Battle Sphere is not designed yet, as they have horizontal flying pattern I think I will to clone the kart function with the needed code adaptation. But it is The Tall Man who manages spheres, so first I have to design it as a guards master, so that will need a new L22 levelÌ†ΩÌ∏Å
+The Battle Sphere is not designed yet, as they have horizontal flying pattern I think I will to clone the kart function with the needed code adaptation. But it is The Tall Man who manages spheres, so first I have to design it as a guards master, so that will need a new L22 levelüòÅ
 
 [6:16:09](#O2bbMB81rkduFaGDT2_NSjkqmCygmBHlfIMyn1SqRhA) <planetsizecpu (Jose Luis)>:
 But this days I'm thinking on how to save the game so will not lose the gold, and preserve the score. I want to do it before going on L22 and probably will save a txt file with the needed data.
@@ -5005,7 +5005,7 @@ But this days I'm thinking on how to save the game so will not lose the gold, an
 [6:39:59](#NfuYxO-d3BY6OaeBxzSCwNjMqm4R6BcV3UUKZCILj2A) <planetsizecpu (Jose Luis)>:
 > If you click the skull, it installs Red 2.0 for you! 
 
-@pekr This feature is up to the Tall Man Ì†ΩÌ∏Ü
+@pekr This feature is up to the Tall Man üòÜ
 
 [10:56:50](#6OKz93LBH_2Gm9UbPso_1X-BUAMR6t5lwdcCQftg6R4) <planetsizecpu (Jose Luis)>:
 Well, a bit of code has been enough to fit the sphere after clone the kart function, the pull to see it in action as been too much for me!
@@ -5019,11 +5019,11 @@ It has random vertical movement .
 
 
 [10:59:04](#Vg893xRv_hjC02TwuX1cYlgrlrjWMYVFGQ3yeAySYSA) <planetsizecpu (Jose Luis)>:
-* It has random vertical movement , also it is a rolling ball Ì†ΩÌ∏É
+* It has random vertical movement , also it is a rolling ball üòÉ
 
 
 [10:59:34](#K9ofKhPPDDn9sDN3vK4mOfuo7RUsZUVZzz8J0-lKLdM) <planetsizecpu (Jose Luis)>:
-* It has random vertical movement ,  it is also a rolling ball Ì†ΩÌ∏É
+* It has random vertical movement ,  it is also a rolling ball üòÉ
 
 
 [16:43:55](#0y_V0QnqLReuWzILC7WhCucNCW5R6GRyFaiSMaD6rag) <greggirwin (Gregg Irwin)>:
@@ -5038,7 +5038,7 @@ In the films, at end of the sphere travel it describes a round turn, but I found
 ## 9-Jul-2021
 
 [7:23:00](#XkmxpXb597j5HzeUgNeGMPzklz5CFJpA4wZhnDFjzIM) <planetsizecpu (Jose Luis)>:
-This is how it looks finished, also the bottom stage of catacombs Ì†ΩÌ∏ë
+This is how it looks finished, also the bottom stage of catacombs üòë
 
 [7:23:29](#CtFFmaX0LzNM2MRjyfADCKioZE0YcvZRUkGqBlESfcs) <planetsizecpu (Jose Luis)>:
 [![Cavetest214.gif](https://files.gitter.im/55b1d8290fc9f982beaacceb/t69g/thumb/Cavetest214.gif)](https://files.gitter.im/55b1d8290fc9f982beaacceb/t69g/Cavetest214.gif)
@@ -5047,10 +5047,10 @@ This is how it looks finished, also the bottom stage of catacombs Ì†ΩÌ∏ë
 [![Cavetest215.gif](https://files.gitter.im/55b1d8290fc9f982beaacceb/71Cz/thumb/Cavetest215.gif)](https://files.gitter.im/55b1d8290fc9f982beaacceb/71Cz/Cavetest215.gif)
 
 [7:38:22](#ITT3fIMImwawxeTGS6Ja3zBHBsqJPV9MEdShzbJc_eY) <hiiamboris (NOT THIS ONE)>:
-The hero slipped and died of accident? Ì†ΩÌ∏â
+The hero slipped and died of accident? üòâ
 
 [10:14:44](#p34VHiRvfSrC1in-i8TyR87aoQGWDB4Na5wlI7uiuBs) <planetsizecpu (Jose Luis)>:
-Ì†ΩÌ∏Ñ There is another goblin on the right side, he was just coming @hiiamboris 
+üòÑ There is another goblin on the right side, he was just coming @hiiamboris 
 
 
 [10:19:22](#N8RiDBaaByvF0mluaSIelsPyMRuJmOTxUoMvbyeqKq8) <planetsizecpu (Jose Luis)>:
@@ -5058,7 +5058,7 @@ Don't you think the catacombs is suitable to add a spider? mmm  maybe I will put
 
 
 [11:08:12](#t67E1F2mN1s-KIPGFstM_cupNb5CVB0yXWrQ75sbR7Q) <GalenIvanov (Galen Ivanov)>:
-@ldci Yes, of course! Ì†ΩÌ∏Ñ 
+@ldci Yes, of course! üòÑ 
 
 [17:29:25](#qIyRp2u_B5zPgX91e1rOG3orCZHbrOw8F1VeGvBw8oY) <greggirwin (Gregg Irwin)>:
 @planetsizecpu the slope to the floors makes me think you could do a Donkey Kong level, if you haven't already. :^)
@@ -5066,7 +5066,7 @@ Don't you think the catacombs is suitable to add a spider? mmm  maybe I will put
 ## 10-Jul-2021
 
 [8:57:12](#yG-_dvQ0uiqmUOVRcqFFZUQ5OB8HQi98hB9eQGDAAKA) <planetsizecpu (Jose Luis)>:
-mmm yes @greggirwin  the slopes and the fireballs fit well with the game, but the rolling barrels... would need a lot of code, I see it possible so maybe after the Tall Man series will try. Ì†ΩÌ∏â
+mmm yes @greggirwin  the slopes and the fireballs fit well with the game, but the rolling barrels... would need a lot of code, I see it possible so maybe after the Tall Man series will try. üòâ
 
 ## 14-Jul-2021
 
@@ -5080,7 +5080,7 @@ More fun with Truchet-like tiles today:
 The inspiration came from [Normform](https://normform.art/)
 
 [8:19:47](#Pu6qpbJjN0XzbTDUWeV5lHLg1TKrFCWrf7tUYvcAIkQ) <GalenIvanov (Galen Ivanov)>:
-I wonder what does theit software look like Ì†ΩÌ∏Ñ 
+I wonder what does theit software look like üòÑ 
 
 [8:20:02](#ALWxsllOe3Js4g22zAkdoHWdleqNounSoYWXSe82XmM) <GalenIvanov (Galen Ivanov)>:
 Here's my code:
@@ -5152,7 +5152,7 @@ view compose [title "Leaf Truchet" base (as-pair W H) sky draw truchet]
 ```
 
 [8:34:49](#7bcmScPd7pmFg2vcQ2nBvy3exzq4dw5cnGu6HHOiwd8) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ±è
+üëè
 
 [8:35:23](#GYlw0AeVdVRogoJ0B86dKkhttNCwC7V8CgNwALa8i2I) <hiiamboris (NOT THIS ONE)>:
 Here's a trick for you: `as-pair d d` -> `1x1 * d`, `as-pair d 0` -> `1x0 * d`
@@ -5207,7 +5207,7 @@ Thx @hiiamboris useful.
 
 
 [11:14:20](#F_G2DgGM6xVJYoASk189HsY-k6eoM3CC5T9yVlAAr4U) <GalenIvanov (Galen Ivanov)>:
-Sausages anyone? Ì†ΩÌ∏É 
+Sausages anyone? üòÉ 
 
 [11:14:31](#o5a7cdP4VDbCKgyfldNORFPVefA4esaF_-QK5ObbiEs) <GalenIvanov (Galen Ivanov)>:
 [![Leaf-Truchet-A sausage dream.png](https://files.gitter.im/55b1d8290fc9f982beaacceb/RVI4/thumb/Leaf-Truchet-A-sausage-dream.png)](https://files.gitter.im/55b1d8290fc9f982beaacceb/RVI4/Leaf-Truchet-A-sausage-dream.png)
@@ -5219,7 +5219,7 @@ Sausages anyone? Ì†ΩÌ∏É
 A case where it might be OK to learn how the sausage is made.
 
 [12:26:35](#vssVrIm1GUOmia772IpjO4gwAE_2b7GgyJFLosL6Q48) <GalenIvanov (Galen Ivanov)>:
-@henrikmk Yes, indeed Ì†ΩÌ∏Ñ  No animals were harmed during the making of the images above.
+@henrikmk Yes, indeed üòÑ  No animals were harmed during the making of the images above.
 
 [17:31:19](#5sasNV1pXVNLkl1E5ycSP2-Q3a9IEWF6NCb5ozhLkeM) <greggirwin (Gregg Irwin)>:
 So fun! NormForm is a nice find. And I can see puzzle games coming out of this. Generate tiles, keep their order, then randomize and players recreate them. Not a new idea by any means. Very likely someone has already done it with NormForm. This kind of thing will also be great, muted, for backgrounds.
@@ -5275,7 +5275,7 @@ Wow! So cool.
 Fun stuff!
 
 [17:18:19](#7MmbUqZWjoSY5rJOYk9ivuqH_LScu8VffyfAMrKNaY8) <planetsizecpu (Jose Luis)>:
-Ì†ΩÌ±ç
+üëç
 
 [17:28:11](#O9KrPLK2DnUMvz2DYsyLLl_Ph3LmVShRz33U7A8-bO8) <TimeSlip (James_Nak)>:
 @GalenIvanov Sweet!
@@ -5350,13 +5350,13 @@ Sounds interesting! Kind of evolutionary algorithm?
 If applying convolution matrix multiple times can be described as evolutionary alogithm, then yes :)
 
 [12:57:14](#P2MTvemlvOIZCXJp63iRsd4_8_xFcBj1dwGQ22R4kKU) <GalenIvanov (Galen Ivanov)>:
-Ì†ΩÌ∏Ñ 
+üòÑ 
 
 [13:05:09](#GHqD31Z0Qr-p8cEHc6MRCqJHUdZ728MoADbcqTyKxfQ) <GalenIvanov (Galen Ivanov)>:
 The blind watchmaker
 
 [13:05:26](#V9nklvIKe1ak6AGFEhMMF8LuovsU9Ts5KOYeRVW0RDU) <planetsizecpu (Jose Luis)>:
-Bravo! Galen, push hard Ì†ΩÌ∏É
+Bravo! Galen, push hard üòÉ
 
 [13:07:34](#DuYWA7IQtrCdkt4x029Ad_bG6rMrQQUk-NF9y5p-G6E) <GalenIvanov (Galen Ivanov)>:
 Thanks, @planetsizecpu I decided to provide this project with a decent GUI, so that non-programmers can experiment with this tile. It already has a name: "TruTiles" (for Truchet Tiles)
@@ -5390,7 +5390,7 @@ Thank you, @toomasv !
 ## 21-Jul-2021
 
 [11:33:37](#auROiftirzcj-TM4_c_2thqiAahnrMIym_NomXAxW_Y) <planetsizecpu (Jose Luis)>:
-Today released L23 The Tall Man Mausoleum, it has been a lot of work to make the creature and to design a stage suitable for their rank, see is his open coffin in the interlude room Ì†ΩÌ∏Ñ
+Today released L23 The Tall Man Mausoleum, it has been a lot of work to make the creature and to design a stage suitable for their rank, see is his open coffin in the interlude room üòÑ
 
 [11:34:16](#RCNu137Jjg0PwYygm7sIKrHGszymb0R6iXXsoRvz7R0) <planetsizecpu (Jose Luis)>:
 [![Cavetest232.gif](https://files.gitter.im/55b1d8290fc9f982beaacceb/nVby/thumb/Cavetest232.gif)](https://files.gitter.im/55b1d8290fc9f982beaacceb/nVby/Cavetest232.gif)
@@ -5407,13 +5407,13 @@ Well this L23 wasted ~ 8-9h, and I have to test with all the guards for hidden f
 ## 22-Jul-2021
 
 [9:59:35](#QyxCOIT7kas0zeTc59DFqkANxPT9011twqgE-maXxtw) <planetsizecpu (Jose Luis)>:
-Today fine tuned the L23 level, finally I have chosen to put an inter-dimensional door in the interlude room, so the game turns more challenging by permit The Tall Man to quickly travel to the upper screen, also the boy can make fast carry on the wheelbarrow Ì†ΩÌ∏Å 
+Today fine tuned the L23 level, finally I have chosen to put an inter-dimensional door in the interlude room, so the game turns more challenging by permit The Tall Man to quickly travel to the upper screen, also the boy can make fast carry on the wheelbarrow üòÅ 
 
 [10:00:31](#K_LUFMXXArLKQvnEXEcmGHSrVn8LPczci9EGnVBYVDw) <planetsizecpu (Jose Luis)>:
 [![Cavetest233.gif](https://files.gitter.im/55b1d8290fc9f982beaacceb/eBMw/thumb/Cavetest233.gif)](https://files.gitter.im/55b1d8290fc9f982beaacceb/eBMw/Cavetest233.gif)
 
 [10:02:51](#Dzcy9h0-jR1koXN2tajxfJ0JimITe5W1M2B_fNAqjB8) <planetsizecpu (Jose Luis)>:
-* Today fine tuned the L23 level, finally I have chosen to put an inter-dimensional door (a.k.a. teleporter) in the interlude room, so the game turns more challenging by permit The Tall Man to quickly travel to the upper screen, also the boy can make fast carry on the wheelbarrow Ì†ΩÌ∏Å 
+* Today fine tuned the L23 level, finally I have chosen to put an inter-dimensional door (a.k.a. teleporter) in the interlude room, so the game turns more challenging by permit The Tall Man to quickly travel to the upper screen, also the boy can make fast carry on the wheelbarrow üòÅ 
 
 [10:15:39](#AOBsx9HM8DaXTryEN6GIVa6uwmle5BsmlJlwAYbxVvw) <GalenIvanov (Galen Ivanov)>:
 @planetsizecpu Great!
@@ -5462,7 +5462,7 @@ Fun stuff: http://tobyschachman.com/
 ## 28-Jul-2021
 
 [8:04:12](#tL4n6fCEAQnmR_TeN2AHnjIJPju5sKcsIkHZC5p8gWY) <planetsizecpu (Jose Luis)>:
-And this is L24 "Phantasm Lair", a remake of L17 in double heigth with more stuff and more dangers Ì†ΩÌ∏Å
+And this is L24 "Phantasm Lair", a remake of L17 in double heigth with more stuff and more dangers üòÅ
 
 [8:05:25](#XnFY84Nk2OV4YqMteSPtwC6uqKXlOpcn7-TKYJNMrg4) <planetsizecpu (Jose Luis)>:
 [![Cavetest241.gif](https://files.gitter.im/55b1d8290fc9f982beaacceb/mhMk/thumb/Cavetest241.gif)](https://files.gitter.im/55b1d8290fc9f982beaacceb/mhMk/Cavetest241.gif)
@@ -5498,7 +5498,7 @@ care to add it to https://github.com/red/red/wiki/[LINKS]-Projects-showcase-(lin
 
 [12:47:11](#8GYyCa_MuknKpjwvc9EFasUMm2NBgqD2RhjH6W-l7mc) <GalenIvanov (Galen Ivanov)>:
 Please note that the rendering of cells smaller than 20 takes much time. The amount of  "effects" is normalized - you can have only one effect with value 1 and all others - 0, and it's scaled to 100%. 
-There might be problems with code, but I'm happy to share it here. There are no comments at all Ì†ΩÌ∏ü  Please play with it and share your creations Ì†ΩÌ∏Ñ 
+There might be problems with code, but I'm happy to share it here. There are no comments at all üòü  Please play with it and share your creations üòÑ 
 
 [12:47:54](#8BJDiTe2L0eYyhBFibNB15LNVscg_EBiU_59OdUZ41E) <hiiamboris (NOT THIS ONE)>:
 > Please play with it and share your creations
@@ -5523,7 +5523,7 @@ Superb @GalenIvanov
 @GalenIvanov Magnificent! Thanks!
 
 [14:04:17](#haMMbZFxp9y5QD63EioXHA3JWwpMlioq5oR-MDOW5O8) <GalenIvanov (Galen Ivanov)>:
- @toomasv Thanks! Ì†ΩÌ∏Ñ 
+ @toomasv Thanks! üòÑ 
 
 [18:33:44](#0UhI6F1hGsGGpfhoRdk176gk-qKWOTotmBlFiRReTp4) <greggirwin (Gregg Irwin)>:
 @GalenIvanov WOW! WOW! WOW! TilesAsAService will be our next product. :^)
@@ -5577,7 +5577,7 @@ I'm starting a new level today, the L25, and that's how it all starts, with a lo
 [![Cavetest250.gif](https://files.gitter.im/55b1d8290fc9f982beaacceb/vpaS/thumb/Cavetest250.gif)](https://files.gitter.im/55b1d8290fc9f982beaacceb/vpaS/Cavetest250.gif)
 
 [8:14:23](#w_AgCU7svhhAtQf66yzeAax_50KjHmpovPZZOA6aW6c) <planetsizecpu (Jose Luis)>:
-* I'm starting a new level today, the L25, and that's how it all starts, with a lot of love Ì†ΩÌ∏É
+* I'm starting a new level today, the L25, and that's how it all starts, with a lot of love üòÉ
 
 [8:15:46](#UCf9i1iGM-D16ATt65Eah4Vcl1xd9FpmGPhBRQI2RtQ) <planetsizecpu (Jose Luis)>:
 The background will be a @GalenIvanov app a tile sample, if he agree of course.
@@ -5668,7 +5668,7 @@ OK, thanks! Looks reasonable - I'll try it.
 :+1:
 
 [11:32:33](#3uhwkLyJKR0uA13duGG0UYAcEqYXUehUNWiHrsW9DDQ) <planetsizecpu (Jose Luis)>:
-Well, here is the new L25, with the @GalenIvanov Truchet in the background, I did it in soft tones to not disturb the player. I think that with this I end the summer onslaught and I will take a well-deserved vacation Ì†ΩÌ∏Ñ
+Well, here is the new L25, with the @GalenIvanov Truchet in the background, I did it in soft tones to not disturb the player. I think that with this I end the summer onslaught and I will take a well-deserved vacation üòÑ
 
 [11:32:47](#lRDMiWFXdomSXiogicAxeJpPcBe9S3hOB1_tSbdGy1A) <planetsizecpu (Jose Luis)>:
 [![Cavetest251.gif](https://files.gitter.im/55b1d8290fc9f982beaacceb/DJyE/thumb/Cavetest251.gif)](https://files.gitter.im/55b1d8290fc9f982beaacceb/DJyE/Cavetest251.gif)
@@ -5677,7 +5677,7 @@ Well, here is the new L25, with the @GalenIvanov Truchet in the background, I di
 @planetsizecpu Nice!
 
 [11:41:08](#DPRlWw3xc6FXhvHLqLKJnknEMvXyiWnqDG8N3JoQOjE) <planetsizecpu (Jose Luis)>:
-Thx @GalenIvanov this level name is "Vertical Garden", I credited you on the level config file for the background help. Ì†ΩÌ∏â
+Thx @GalenIvanov this level name is "Vertical Garden", I credited you on the level config file for the background help. üòâ
 
 [11:41:51](#oI-K1VMAeSDS7t1OEF_ZGMT9Oy9vxoABd8BcLA2-kt8) <GalenIvanov (Galen Ivanov)>:
 @planetsizecpu Thank you! I appreciate it!
@@ -5695,7 +5695,7 @@ Great to see collaboration and feedback in the community. The new level is great
 Right now, I have no hope of predicting what a pattern will look like, or where changes kick in that break shapes, etc. It's fun, but also makes me want a TruchetTurtle, where I can watch it walk around to generate a pattern, maybe highlighting tiles or rules as they are applied to its current state. I don't know if that's remotely possible, as I haven't looked at the engine, but I think a number of us here like Logo and L-Systems for those reasons; seeing how a pattern emerges, and how we interpret it, like cloud-gazing. 
 
 [19:30:16](#oJrBSRKqZXggMf351pVKWf8GRqXtucPiyk-z6vm6YLk) <GalenIvanov (Galen Ivanov)>:
-@greggirwin Regarding shadow - you are right, the reason I changed the indicator to an integer was that X an Y of the pair were equal. There is no problem at all for the calculations to use different values for X and Y for the shadow pair, I need just one more slider in the interface. Alternatively, I was thinking (before your note Ì†ΩÌ∏Ñ ) about a graphical control,  something like this (a quick test):
+@greggirwin Regarding shadow - you are right, the reason I changed the indicator to an integer was that X an Y of the pair were equal. There is no problem at all for the calculations to use different values for X and Y for the shadow pair, I need just one more slider in the interface. Alternatively, I was thinking (before your note üòÑ ) about a graphical control,  something like this (a quick test):
 
 [19:30:44](#Nb5YjsRouB0UGroT4Ax5EOfwBLa9vPuuGcgff7j6xlw) <GalenIvanov (Galen Ivanov)>:
 [![Shadow-offset.gif](https://files.gitter.im/55b1d8290fc9f982beaacceb/TNuW/thumb/Shadow-offset.gif)](https://files.gitter.im/55b1d8290fc9f982beaacceb/TNuW/Shadow-offset.gif)
@@ -5710,7 +5710,7 @@ That's a *very nice* direct interface for it. Now, .... (@!#$%&* @hiiamboris bea
 I can try
 
 [19:32:19](#c8osUz9dBVxvgWdxyF_cD4Wf6xeT7OzJy4ecQmhg0x0) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [19:33:04](#XvSSipE6Hrk8_pr3wl23vZzMBrFLnwilH_JWZgylIDc) <greggirwin (Gregg Irwin)>:
 I was going to propose doing it in a preview, so your grid in the shadow selector is actually a subset of the full canvas, so it can be fast.
@@ -5722,7 +5722,7 @@ I'll see what I can do.
 About predicting the pattern - well, I'll write an explanation / manual. I can visualize the tiles one after another and not at once.
 
 [19:38:44](#dTsMWzHEkALX7UO4WqujKm0X-D2qzAcdU2vj3jGDJ_4) <GalenIvanov (Galen Ivanov)>:
-The order will follow the order in whic hthe tiles are generated - and it's random Ì†ΩÌ∏Ñ 
+The order will follow the order in whic hthe tiles are generated - and it's random üòÑ 
 
 [19:38:59](#JhRR8DFXmzSGyyUZHNJ8CsAnDnucC9Sk--2weKN6Yg4) <GalenIvanov (Galen Ivanov)>:
 * The order will follow the order in which the tiles are generated - and it's random :smile: 
@@ -5749,7 +5749,7 @@ There's an interesting aspect to the direct selection approach for pairs, aligne
 @GalenIvanov agreed.
 
 [19:53:17](#c_ko6jWWbrk54ujtINmhdKqv_Py974SUNxRP9LzILPE) <planetsizecpu (Jose Luis)>:
-@gltewalt It's in my mind the places of the main code where I want to set sound effects, can' t wait to play with sound and test Ì†ΩÌ∏Ä and It would be fantastic to have a `play` dialect to test on console, it would save a lot of time.
+@gltewalt It's in my mind the places of the main code where I want to set sound effects, can' t wait to play with sound and test üòÄ and It would be fantastic to have a `play` dialect to test on console, it would save a lot of time.
 
 ## 7-Aug-2021
 
@@ -5766,7 +5766,7 @@ http://redprogramming.com/Short%20Red%20Code%20Examples.html
 Then go here:  https://github.com/red/docs/blob/master/en/vid.adoc
 
 [22:36:24](#z6GDDK5ejb1HRtNiP41wAU0e7qCDC_DkuAu4GiW_kOc) <cloutiy (yc)>:
-Thanks gtzipÌ†ΩÌ±ç
+Thanks gtzipüëç
 
 ## 9-Aug-2021
 
@@ -5977,7 +5977,7 @@ I added two more tesselations to [TruTiles](https://github.com/GalenIvanov/Graph
 The interface will be substantially changed, that's why I haven't rearranged it at all. (Load and Save are still only UI elements not connected to actual code)
 
 [11:29:06](#yqKDxJgwZ1zV0e6DuwLZ0sqjziUTNfWVkmlV2rfZecM) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ±è
+üëè
 
 [12:27:54](#vzixvWYwiDLIJZTNSNnBG2JIYbSJZ0zqh2dUpwBPyGU) <toomasv>:
 Very nice, @GalenIvanov !
@@ -6145,7 +6145,7 @@ Ya baby that it is. Now i can click a button to add new buttons that i can drag 
 
 
 [16:50:17](#H9sqeG9L2-Tr6EX3fkkkEY5fqUB55Ti_p4OYWrYGh04) <planetsizecpu (Jose Luis)>:
-IIRC you must add `'loose` after `make face...` but not sure and I'm on phone now Ì†ΩÌ∏ê
+IIRC you must add `'loose` after `make face...` but not sure and I'm on phone now üòê
 
 [18:46:41](#ybtM_qKD_dzwQ5amifBKpdXpttp8jLdthKIUDZmA8EA) <greggirwin (Gregg Irwin)>:
 @cloutiy you figured it out. You can see in %VID.red (line 306) that `loose` maps to that option.
@@ -6153,13 +6153,13 @@ IIRC you must add `'loose` after `make face...` but not sure and I'm on phone no
 ## 29-Oct-2021
 
 [13:33:54](#Cgubkpa2rJpfCCjYhT5YEYtbzP_b5XsXklp8pDBcF4o) <planetsizecpu (Jose Luis)>:
-Just preparing for halloween,  good time to remember L21 Ì†ΩÌπÇ
+Just preparing for halloween,  good time to remember L21 üôÇ
 
 [13:34:44](#o1Qw93QnxcTD1DLi3HDI9bFpbqhMf3BxCONsqhVa8WY) <planetsizecpu (Jose Luis)>:
 [![cavetestHW.gif](https://files.gitter.im/55b1d8290fc9f982beaacceb/BT4L/thumb/cavetestHW.gif)](https://files.gitter.im/55b1d8290fc9f982beaacceb/BT4L/cavetestHW.gif)
 
 [13:38:35](#4vlM0OOL1dCCd6TDGyLprum7m8G5k9pCXPHtnOWLSUs) <planetsizecpu (Jose Luis)>:
-* Just preparing for halloween,  good time to remember L21 Ì†ΩÌπÇ Ì†ºÌæÉ
+* Just preparing for halloween,  good time to remember L21 üôÇ üéÉ
 
 [18:00:31](#LAU90084V1E_UOhnVvi-fae-MjGQbTLHPanmLIgKNNc) <greggirwin (Gregg Irwin)>:
 :^)
@@ -6167,18 +6167,18 @@ Just preparing for halloween,  good time to remember L21 Ì†ΩÌπÇ
 ## 1-Nov-2021
 
 [1:01:35](#WatQGhuv27r2HewnVVzPSYzcnDwjqoJEtE0G07-JGUo) <zentrog>:
-R.I.P. wheelbarrow Ì†ΩÌ∏Ü
+R.I.P. wheelbarrow üòÜ
 
 [18:27:37](#_6AZNFcWLQ02d8AKwmVZuw3LGhWMJP60WGeVVWH-r58) <greggirwin (Gregg Irwin)>:
 It got its revenge via the flying sphere.
 
 [18:40:21](#miY0j2ku3QkJezTKcbBxRq5Jmgz4habVNpF3sqddA44) <planetsizecpu (Jose Luis)>:
-On the bottom screen there are more goblins and another battle sphere Ì†ΩÌ∏Ö
+On the bottom screen there are more goblins and another battle sphere üòÖ
 
 ## 5-Nov-2021
 
 [15:32:24](#uUyBTuH1hTehDG5GxXbiJSpM1e5XsVe5OVbOMJ_2l1E) <planetsizecpu (Jose Luis)>:
-Today realised L8 stage had some room for upgrade, so covered the lava river on the center with a new floor and a kart handle,  of course a few more gold was necessary Ì†ΩÌ∏Å
+Today realised L8 stage had some room for upgrade, so covered the lava river on the center with a new floor and a kart handle,  of course a few more gold was necessary üòÅ
 
 [15:32:34](#F7JDYCN024b89O-99-JZQ9T9aJzqx7hW2WMPnqHZkKA) <planetsizecpu (Jose Luis)>:
 [![cavetest86.gif](https://files.gitter.im/55b1d8290fc9f982beaacceb/gbaP/thumb/cavetest86.gif)](https://files.gitter.im/55b1d8290fc9f982beaacceb/gbaP/cavetest86.gif)
@@ -6219,7 +6219,7 @@ And...
 ## 8-Nov-2021
 
 [7:44:59](#msISDSPhSq-wgmdq0M2ARe4rpYlKM4FxKyY6eD2y31o) <planetsizecpu (Jose Luis)>:
-Ah my mistake,  Thx @gltewalt  I amended the text early this morning Ì†ΩÌ∏â
+Ah my mistake,  Thx @gltewalt  I amended the text early this morning üòâ
 
 ## 12-Nov-2021
 
@@ -6233,7 +6233,7 @@ Surprised that the VID editor isn't in Red. Since a handy little thing.
 Which VID editor @gchiu?
 
 [8:54:53](#6PUhgp6h4bEdDLVnMksB0VqlE6ECZojphkI7ESQKPVc) <gchiu (Graham Chiu)>:
-@greggirwin the one that comes up when you type "editor" Ì†ΩÌ∏â
+@greggirwin the one that comes up when you type "editor" üòâ
 
 [9:06:39](#X11f41YZGf17buAs6PiG28DqjLJDyd9KaH5nrHABRBs) <gchiu (Graham Chiu)>:
 Admittedly it's only a few buttons and an area field
@@ -6248,7 +6248,7 @@ https://gitlab.com/hiiamboris/red-spaces/
 Does not a grid-view in terms of red-spaces require the whole red-spaces infrastructure?
 
 [10:16:58](#EPtVPfwcm_pG-ulOC20RKRDzMfolRku4UOX4hYL1FBQ) <hiiamboris (NOT THIS ONE)>:
-Of course it does Ì†ΩÌ∏â
+Of course it does üòâ
 
 [18:05:59](#I0UsHw-aAs3S1dO4pp9rmVxxw2sm7De9ZqFt8M9XdOU) <greggirwin (Gregg Irwin)>:
 Ah, the text editor built in, yes. I thought you meant an editor *for* VID, like a GUI IDE.
@@ -6470,7 +6470,7 @@ Thought it might be a simple fix, but in Red it is a native.
 In R2, forall calls forskip and even that is not native :-)
 
 [9:11:34](#2G70a6Wv0NiZuGT7tY4zf9t7AGY0eoBfftMO9in35jo) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [9:11:48](#L8kB6HaJHcuXlS9-w714jtNZDglQdJAd6RXfxUB9uUw) <hiiamboris (NOT THIS ONE)>:
 must have been real slow
@@ -6480,14 +6480,14 @@ btw, sorry for being off-topic in the GUI branch. But I watched your reactive fr
 
 [9:15:52](#Obw3cWVzrnzmLVxLomoc0i-J-sPZwHckimshAj6iFuY) <hiiamboris (NOT THIS ONE)>:
 some of my previous thoughts do not apply anymore with latest hash implementations, that's all
-in latest state it's has more improved improvements than before Ì†ΩÌ∏â
+in latest state it's has more improved improvements than before üòâ
 
 [9:15:57](#Ea1fnNF9hfSWBjfW5Xr8IlvfpGYeqN15wCweuDcrYqc) <hiiamboris (NOT THIS ONE)>:
 * some of my previous thoughts do not apply anymore with latest hash implementations, that's all
 in latest state it has more improved improvements than before ;)
 
 [9:16:54](#qH_4008igMP_tC2h2rltxnzryAAdy5Au0a3AJ99-IsU) <hiiamboris (NOT THIS ONE)>:
-not that there's hope of getting it merged Ì†ΩÌ∏â
+not that there's hope of getting it merged üòâ
 
 [9:17:23](#PYK4hlaARvRNfu56meBZYTyZWFVqS_uthV8RhlKXDoE) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
 why it was not accepted then? I can see X there, so maybe not compatible? Those are exactly the improvements we need. Like you did with the JSON coded!
@@ -6613,7 +6613,7 @@ oh
 how do I get the commit?
 
 [17:48:55](#60DNzS-CQo68uy1kUplHTgs3zuOeCKjcrDcb2wjcgMM) <hiiamboris (NOT THIS ONE)>:
-that's why it still works with spaces lol Ì†ΩÌ∏â
+that's why it still works with spaces lol üòâ
 
 [17:49:17](#WX1ile3Smr-5FGduijOrcoKyD59dNyjFkJy6Jnkk4ik) <gchiu (Graham Chiu)>:
 I see.  This is very confusing
@@ -6640,7 +6640,7 @@ only those pre-packaged
 looks like things are in a state of flux!
 
 [17:56:22](#CWdJk1tRkq6SD9hMI_5cGcKoH4Bv0_aUeByjmmDA16E) <hiiamboris (NOT THIS ONE)>:
-aren't they always Ì†ΩÌ∏â
+aren't they always üòâ
 
 [17:56:48](#1rKa4gdFrW_RyNyvle6-Qr2DTezM-NEni-wvfUkCVnc) <gchiu (Graham Chiu)>:
 R2 isn't!
@@ -6672,7 +6672,7 @@ thanks ....
 or `set-style 'cell [style]`
 
 [8:57:46](#E-vQ9NWvdIvzolYsPfqaqmV-NI4x9F6N09SZW4uhZP8) <hiiamboris (NOT THIS ONE)>:
-there's documentation you know Ì†ΩÌ∏â https://gitlab.com/hiiamboris/red-spaces/-/blob/master/quickstart.md#styling
+there's documentation you know üòâ https://gitlab.com/hiiamboris/red-spaces/-/blob/master/quickstart.md#styling
 
 [9:45:13](#TgmD-soOaithmfGrRa1mq0YZar_em35n-vY1fy0AOM4) <gchiu (Graham Chiu)>:
 Well it turns out i don't need io as i can use http read write so I'll try an older red to see if i can use this grid view.
@@ -7040,7 +7040,7 @@ Without paths how would you style a specific widget differently than a generic o
 ---
 > would change following, into ..... 
 
-You can do that: `handlers: Ì†ΩÌ∏Éefine-handlers`. This goes against Redbol function naming rules though. `extends` also adds meaning IMO. I disagree with you here Ì†ΩÌ∏â
+You can do that: `handlers: üòÉefine-handlers`. This goes against Redbol function naming rules though. `extends` also adds meaning IMO. I disagree with you here üòâ
 ---
 > you've made 'with almost redundant. Can Spaces have something like Options in VID
 
@@ -7191,7 +7191,7 @@ Also you must be confusing event handlers with actors. Every space supports almo
 `handlers` are meant for widget builders, to define spaces inner logic that cannot be overridden with an actor. You take it for granted in View because you don't see what the OS and all the huge amount of R/S code in the View module are doing for you. Spaces do not have any low-level backup. They're using handlers for that.
 
 [16:26:02](#p8PEH_ISiV65dUaBu8ZYJ9WkMr-GBZiHZvHxSLdJhX0) <hiiamboris (NOT THIS ONE)>:
-It's all in the docs btw Ì†ΩÌ∏â
+It's all in the docs btw üòâ
 <img src=https://i.gyazo.com/a02bebbeb73f5d70bfa366f8d798bdf0.png width=100></img>
 
 [16:26:07](#V9hAAT_bqmP0pZUc0QHW7XoIXutGFxLYsXWARCxbucg) <hiiamboris (NOT THIS ONE)>:
@@ -7211,7 +7211,7 @@ hmm.. but it **is** addition
 it's not override
 
 [16:38:51](#8hCc-A9FRXQIkBQxp_AdeNmx8bRxEBUTsJgml4EW0eA) <hiiamboris (NOT THIS ONE)>:
-@pekr looks like I haven't gotten to the part of actually triggering any actors or letting one define them Ì†ΩÌ∏â it's still in the todo-list...
+@pekr looks like I haven't gotten to the part of actually triggering any actors or letting one define them üòâ it's still in the todo-list...
 
 [16:39:03](#sJptnNPUahyNJB6TBJ8Sg_T8KZKRPXMexPjZMjKoSdA) <hiiamboris (NOT THIS ONE)>:
 that's why I haven't documented it
@@ -7242,7 +7242,7 @@ Ok, I see the default actor is on-change
 ## 17-Nov-2021
 
 [20:51:46](#gY6-b3vTk14BB917iM5yWPHf64oXobvCHwY89QrQHx8) <planetsizecpu (Jose Luis)>:
-This week some breaks allowed me to push ahead a new L26 level, the stage has volcano theme and I mixed new design with elements from old lava levels. The new caves showed hidden flawns in the gravity func that needed update. Hope to have it ready on friday, so we can play this weekend. Ì†ΩÌ∏É
+This week some breaks allowed me to push ahead a new L26 level, the stage has volcano theme and I mixed new design with elements from old lava levels. The new caves showed hidden flawns in the gravity func that needed update. Hope to have it ready on friday, so we can play this weekend. üòÉ
 
 [21:32:03](#q3cSvLU8QMls_pmRpBjai1NSvXoovzETehhxyVkYlvg) <greggirwin (Gregg Irwin)>:
 :+1:
@@ -7303,10 +7303,10 @@ Thx guys, I had to remove some elevator and lava flux, so the action goes finest
 I love the layout of this one, and the shower by the crane. :+1:.
 
 [18:52:24](#Wp1MkqjHwxGjY8g98f2ociaxh9FUEq3vPHZCns2CNMI) <planetsizecpu (Jose Luis)>:
-Ah yes, there was a lava river in motion on the upper stage, but now there is static water and the lava, not visible here, is at the bottom. I had to cut a bit the gif because the moving flow rised the size to 2Mb Ì†ΩÌ∏¨
+Ah yes, there was a lava river in motion on the upper stage, but now there is static water and the lava, not visible here, is at the bottom. I had to cut a bit the gif because the moving flow rised the size to 2Mb üò¨
 
 [18:53:38](#j4GTabgjlLjDv0KRSs3FFeMvN8AZayLt8pXZR-EgsSk) <planetsizecpu (Jose Luis)>:
-* Ah yes, there was a lava river in motion on the upper stage, but now there is static water and the lava, not visible here, is at the bottom. I had to cut a bit the gif because the moving flow rised the size to 2Mb Ì†ΩÌ∏¨ so the static water seems to fall down.
+* Ah yes, there was a lava river in motion on the upper stage, but now there is static water and the lava, not visible here, is at the bottom. I had to cut a bit the gif because the moving flow rised the size to 2Mb üò¨ so the static water seems to fall down.
 
 ## 24-Nov-2021
 
@@ -7334,7 +7334,7 @@ Where's the link? I can't find it again.  Thanks
 thanks
 
 [9:20:01](#By4oGDzwROXc7FU8hm7wQ_VyzLKW6DPOw6GiBiT67E4) <planetsizecpu (Jose Luis)>:
-@gltewalt Thx for testing! you may be the only one that play my game Ì†ΩÌ∏Å, it is a good idea to check the directory where the user is, in a next release I will include it. Meanwhile, the README file already included a warning to put the desired executable in the main directory. About the case on `%data` I'm looking at github to modify the folder to lowercase but the only option found is for delete file, as there are a lot of files I am a bit lazy to have to upload everything again on a new folder we will see, I don't promise anything Ì†ΩÌ∏â
+@gltewalt Thx for testing! you may be the only one that play my game üòÅ, it is a good idea to check the directory where the user is, in a next release I will include it. Meanwhile, the README file already included a warning to put the desired executable in the main directory. About the case on `%data` I'm looking at github to modify the folder to lowercase but the only option found is for delete file, as there are a lot of files I am a bit lazy to have to upload everything again on a new folder we will see, I don't promise anything üòâ
 
 
 
@@ -7382,7 +7382,7 @@ Thx for help @giesse
 
 
 [15:34:49](#IRuYLA5p_TmJH0GkO63U08V6j1dyQ7sVgyhs8vFUvQ8) <planetsizecpu (Jose Luis)>:
-Just pushed a fix for the kart issue, seems ok now but I'm testing Ì†ΩÌ∏Ä
+Just pushed a fix for the kart issue, seems ok now but I'm testing üòÄ
 
 [19:26:00](#s7P3Uwzn39QeGiB16oVceg2LdiqU_ZHHFWVxYagTMao) <gltewalt (Greg T)>:
  didnt change the linux binary, so youll need to regenerate the binaries in your repo 
@@ -7399,10 +7399,10 @@ I notice in the first level that there's just enough time to get off the lift, b
 ## 27-Nov-2021
 
 [7:38:58](#1Fgh0ore7hzmAFIK8eH7gLW0kL9QBUgGDZRteLnkbmM) <planetsizecpu (Jose Luis)>:
-Yes @gltewalt `%` Select level, `#` Demo mode. I suggest L26 as it has a platform elevator. Thx for testing Ì†ΩÌ∏É
+Yes @gltewalt `%` Select level, `#` Demo mode. I suggest L26 as it has a platform elevator. Thx for testing üòÉ
 
 [7:39:39](#g60-ZYgLr-eLsiPQn5zgnggwu1vOgiE-2XS8fx47vcQ) <planetsizecpu (Jose Luis)>:
-* Yes @gltewalt `%` Select level, `@` Demo mode. I suggest L26 as it has a platform elevator. Thx for testing Ì†ΩÌ∏É
+* Yes @gltewalt `%` Select level, `@` Demo mode. I suggest L26 as it has a platform elevator. Thx for testing üòÉ
 
 [7:40:52](#Nd_-tDg2pHJo--j873QzFCZTnpJpxR0pctuIXkh27wo) <gchiu (Graham Chiu)>:
 https://youtu.be/4d4uhR-hbr8
@@ -7507,13 +7507,13 @@ hmm, not sure with base, AFAIK D2D is used for Draw, but can be wrong. @hiiambor
 yes
 
 [10:12:34](#ZM1uUp_3FOr5WDfxSO958uzWLd-9AQOIsyzYatg_36g) <hiiamboris (NOT THIS ONE)>:
-a game like this though should work on a 8086 Ì†ΩÌ∏â
+a game like this though should work on a 8086 üòâ
 
 [10:15:32](#6LQRBXx1NOV7unMNfgTt0qL8WUrDMkUqJ6I5MI5yDUU) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
-So why it might be slow in Red then? Ì†ΩÌ∏â
+So why it might be slow in Red then? üòâ
 
 [11:50:11](#ZPKqhB71GqhEM9t2TIQi-gajrAOBNC4jR_TNMp1A8nc) <planetsizecpu (Jose Luis)>:
-It is no slow @pekr I just adjust the moving objects number to the limit of playability on my computer, some times have to redesign the stage to save some elvator or kart to avoid overload, so in the hope the users may have better machines than me Ì†ΩÌ∏Ñ note that is a W10 related issue, in GTK the problem is just the inverse, things move too fast for the settings I wrote, so ... we have to adjust.
+It is no slow @pekr I just adjust the moving objects number to the limit of playability on my computer, some times have to redesign the stage to save some elvator or kart to avoid overload, so in the hope the users may have better machines than me üòÑ note that is a W10 related issue, in GTK the problem is just the inverse, things move too fast for the settings I wrote, so ... we have to adjust.
 
 [13:27:44](#07yPpahXQEh1-m2Z6VqvBUSb6v9m7npOG4e0e9TFioU) <ldci (Fran√ßois Jouen)>:
 @gchiu For facial recognition with redCV: http://redlcv.blogspot.com/2020/07/face-detection-with-redcv-and-haar.html
@@ -7625,10 +7625,10 @@ shiny neon ladders :)
 vaporwave-ish
 
 [10:01:12](#sxYA3vu8m3CaSqWfAn_DZ5yHRD8kzDrRoj62SyY23_4) <GalenIvanov (Galen Ivanov)>:
-@planetsizecpu Nice, neon punk Ì†ΩÌ∏Ñ 
+@planetsizecpu Nice, neon punk üòÑ 
 
 [10:32:13](#b2oa-ua8A3Glf2OSYc5AQq_jRDsoU32DRCS2ZXL895Y) <planetsizecpu (Jose Luis)>:
-Thx guys Ì†ΩÌ∏â
+Thx guys üòâ
 
 [22:58:57](#l5OI-2mqHrLC8TVZ47BkfSXfm9En0cL6xwH4__0hQzA) <greggirwin (Gregg Irwin)>:
 @gchiu @rebolek if you can nail it down, @qtxie can probably fix quickly.
@@ -7789,7 +7789,7 @@ view [pad 0x160 text "text"]
 xy
 
 [10:51:18](#wqgWG4sv0vM5SWcPA_fPckgDOCbOJ7NUZbSI8ZeH2wc) <toomasv>:
-Only this adds same space after the text too Ì†ΩÌ∏ü
+Only this adds same space after the text too üòü
 
 ## 17-Dec-2021
 
@@ -7883,7 +7883,7 @@ It is possible to change the whole list defalult colours @lylgithub2021
 ```
 view [text-list red green data ["r" "g" "b"]]
 ```
-About the individual items I don't know Ì†ΩÌ∏ë
+About the individual items I don't know üòë
 
 [7:30:16](#_1D7BeTrdkxl9JcQFBxixQj-mc0rNv0Nco3t0xEYCyw) <greggirwin (Gregg Irwin)>:
 @lylgithub2021 no, not with the native OS widget.
@@ -8069,7 +8069,7 @@ it's not a bug
 basically you write `below a b` instead of `a below b`
 
 [13:06:15](#L13o-pGpNgNJqBHpXaAgX3vJgWrD2gEQ_SRamn4tpK8) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
-I can read Gregg pointed out some consequences, but your suggestion is exactly what I would expect. This late switching, especially when combined with multiple direction switched, is a complete mess Ì†ΩÌ∏É
+I can read Gregg pointed out some consequences, but your suggestion is exactly what I would expect. This late switching, especially when combined with multiple direction switched, is a complete mess üòÉ
 
 [13:06:25](#PUtM5EaekjtiNdwmhcCBqfG4aphe5JagiYNrk5MlL0c) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
 * I can read Gregg pointed out some consequences, but your suggestion is exactly what I would expect. This late switching, especially when combined with multiple direction switched, is a complete mess :-)
@@ -8314,14 +8314,14 @@ https://github.com/planetsizecpu/Cave-In
 Thanks :)
 
 [10:52:31](#bm5n91EQBAMmNf1EnocHc-llgEWGq3LYshuerF0jxDU) <planetsizecpu (Jose Luis)>:
-Have fun Ì†ΩÌ∏É
+Have fun üòÉ
 
 
 [10:57:13](#VbeyvaXQzdTOOqtA6HfGzX8ZXVZlm7CFjA9ZqpmPUAs) <planetsizecpu (Jose Luis)>:
-There is a mistake on the main file, gimme  ten minutes to upload & compile please... Ì†ΩÌ∏¨
+There is a mistake on the main file, gimme  ten minutes to upload & compile please... üò¨
 
 [10:58:00](#ffQJg7I0CYS7riXrRqf6dMrUi79Cbn89G8GwfPanKUU) <planetsizecpu (Jose Luis)>:
-* There is a mistake on the main file, gimme  ten minutes to upload & compile please... Ì†ΩÌ∏¨ it's the demo effect.
+* There is a mistake on the main file, gimme  ten minutes to upload & compile please... üò¨ it's the demo effect.
 
 [11:01:46](#WcOEF4gV6uxhah1bJemUhQCytKNLnZokBAUeSmNr0H4) <ldci (Fran√ßois Jouen)>:
 @planetsizecpu macOS does not work. And compilation returns error `Access Error: cannot open: %data/cave-in.jpg`
@@ -8337,7 +8337,7 @@ Now ready.
 OK: I had to copy your src code into the main directory. Compilation is OK. We'll test in detail tomorrow with my son :)
 
 [11:28:58](#Ig0ngHdSIEOp0sudgdGR2GMJpYE4qAk6Cu604wnhKRs) <planetsizecpu (Jose Luis)>:
-Ì†ºÌΩª
+üçª
 
 [13:48:01](#QyMtRdm3xj_3155t93rVc6NlAWgMs96R8HOyer4wIoQ) <guaracy (Guaracy)>:
 [![wc-red.png](https://files.gitter.im/55b1d8290fc9f982beaacceb/NGj7/thumb/wc-red.png)](https://files.gitter.im/55b1d8290fc9f982beaacceb/NGj7/wc-red.png)
@@ -8564,16 +8564,16 @@ Thanx for the answers
 Interesting article, @greggirwin !
 
 [15:19:20](#kXoQJylY3GFbZ1W4s141wFVjIj6UZ7YxPT3jTAUV9pI) <planetsizecpu (Jose Luis)>:
-Now testing new L29, for those who like space exploration Ì†ΩÌ∏ë
+Now testing new L29, for those who like space exploration üòë
 
 [15:19:46](#bHq-_R4pVldvxK7sfai-Cjav64WUiZZdKKnZgoH_F5Q) <planetsizecpu (Jose Luis)>:
 [![cavetest290.gif](https://files.gitter.im/55b1d8290fc9f982beaacceb/g0ij/thumb/cavetest290.gif)](https://files.gitter.im/55b1d8290fc9f982beaacceb/g0ij/cavetest290.gif)
 
 [15:26:38](#kZ8zxJPx-IWE7b3_fYMbXAsQOWyXEAahHCDHwgpyikQ) <planetsizecpu (Jose Luis)>:
-I think I'm going to stop at L-thirty, it is enough as an example for future reducers to test Ì†ΩÌπÇ
+I think I'm going to stop at L-thirty, it is enough as an example for future reducers to test üôÇ
 
 [15:29:45](#Yu6B_riu8R82Yf_eTAwO8M0BvHJBD-M1k6g_i4V0kI8) <hiiamboris (NOT THIS ONE)>:
-what are you then going to do with your weekends? Ì†ΩÌ∏â
+what are you then going to do with your weekends? üòâ
 
 [15:52:13](#XrnKDvyDUxj2uXVweBmWr26NuLEJrERPsZkYILseBFA) <GalenIvanov (Galen Ivanov)>:
 @planetsizecpu Nice! Maybe you will start thinking of a new game?
@@ -8643,7 +8643,7 @@ view [
 ```
 
 [20:32:49](#jTxLzUPdyp7r8zYumVpYjdWEn3cjf2XUMXqeoJO0MWs) <cloutiy (yc)>:
-Ì†æÌ¥î
+ü§î
 
 ## 10-Jan-2022
 
@@ -8683,7 +8683,7 @@ Hi, is there a way to create a vertical progress object with Red?
 @ne1uno Thanks :)
 
 [12:08:06](#JKyqLDaRkCq2rd6jLeLQ6Msg68b56SxWEWLCEvpFMXc) <planetsizecpu (Jose Luis)>:
-Ladies and gentlemen, the last but not the least is L30, it resembles a lot to L1 but is L1 + L2 on bottom, so double amusement!. Now I'll wait for official sound support to make a bit of noise Ì†ΩÌ∏è
+Ladies and gentlemen, the last but not the least is L30, it resembles a lot to L1 but is L1 + L2 on bottom, so double amusement!. Now I'll wait for official sound support to make a bit of noise üòè
 
 [12:08:58](#tnLz7I_WCHlzrJg0rTQ4_F9kRjYe_RIpOZpBjl_IsAs) <planetsizecpu (Jose Luis)>:
 [![cavetest301.gif](https://files.gitter.im/55b1d8290fc9f982beaacceb/wTCJ/thumb/cavetest301.gif)](https://files.gitter.im/55b1d8290fc9f982beaacceb/wTCJ/cavetest301.gif)
@@ -8707,10 +8707,10 @@ I found a flawn where the crossing kart passes over the elevator in some circums
 @planetsizecpu Congratulations. For sound you can use Sox: http://sox.sourceforge.net. It‚Äôs really easy to use with Red call function and available for macOS, Linux and Windows:)
 
 [18:43:54](#8oHfsDCtQsU5KH3F2yiKYhA-cBVaCXhvrFQHHg7y2QE) <planetsizecpu (Jose Luis)>:
-Thx guys. @cloutiy great idea, I'll try to write a doc explaining how it has been coming to the actual state. @ldci will check sox, it is not the first time I use a language under development and the xperience tell me it is better wait for things well arranged before investing so much effort Ì†ΩÌ∏É
+Thx guys. @cloutiy great idea, I'll try to write a doc explaining how it has been coming to the actual state. @ldci will check sox, it is not the first time I use a language under development and the xperience tell me it is better wait for things well arranged before investing so much effort üòÉ
 
 [18:45:34](#0DyeCsbbqbdN2ITPCb6RxtsOXKMQdOwjyXG_slS7m4o) <planetsizecpu (Jose Luis)>:
-* Thx guys. @cloutiy great idea, I'll try to write a doc explaining how it has been coming to the actual state. @ldci will check sox, but about Red sound it is not the first time I use a language under development and the xperience tell me it is better wait for things well arranged before investing so much effort Ì†ΩÌ∏É
+* Thx guys. @cloutiy great idea, I'll try to write a doc explaining how it has been coming to the actual state. @ldci will check sox, but about Red sound it is not the first time I use a language under development and the xperience tell me it is better wait for things well arranged before investing so much effort üòÉ
 
 [19:13:31](#26DV-vABffIQygLs-aJ-gVcIPSrYbypWpgSiGaRoNCo) <ldci (Fran√ßois Jouen)>:
 @planetsizecpu Have a look here: https://github.com/ldci/Red-System/blob/main/Map/morse.red
@@ -8725,7 +8725,7 @@ Congratulations @planetsizecpu ! It's been really fun watching it progress from 
 I'll look at it tomorrow Fran√ßois thx. @greggirwin thx and not only the game progress but my learning process too, if I have to highlight a Red specific feature that allowed the game to run I'll point to path access to objects and Red / Vid easyness.
 
 [20:50:34](#rSHQaNGYvazkXwUuFFZl1PAnKQeGpd3fyGijWFZpauE) <planetsizecpu (Jose Luis)>:
-I could not imagine the nightmare to do the same game with a pure O.O. lang Ì†ΩÌ∏¨
+I could not imagine the nightmare to do the same game with a pure O.O. lang üò¨
 
 ## 13-Jan-2022
 
@@ -8800,13 +8800,13 @@ is simple, say `melody1: "AEBCDFCDGEACDEBC" melody2: "BCDEAFCGAEBCFED"` so on ea
 I don't know at this moment how will come sound, is just my idea by now, one key question is if sound will be available on console, to test notes, so we can compose any melody much more easy, if not then will have to make some sound mockup script to test sound alone.
 
 [15:02:27](#vQU_Nu8KDSMtIC0zjUWLb6cWsvDKFi8dLpHX76dahgk) <planetsizecpu (Jose Luis)>:
-There are different strategies to finish each level, in this L30 after loading some gold bags, we can throw away the gold down to the elevator hole, and and form a gold heap at the bottom, later we throw   the wheelbarrow and that's all Ì†ΩÌ∏Ñ
+There are different strategies to finish each level, in this L30 after loading some gold bags, we can throw away the gold down to the elevator hole, and and form a gold heap at the bottom, later we throw   the wheelbarrow and that's all üòÑ
 
 [15:02:52](#ejdsugjb6CUxU-_ttjfNtJSPlG2zPL4SDYPOeJVtxJQ) <planetsizecpu (Jose Luis)>:
 [![cavetest302.gif](https://files.gitter.im/55b1d8290fc9f982beaacceb/Thvi/thumb/cavetest302.gif)](https://files.gitter.im/55b1d8290fc9f982beaacceb/Thvi/cavetest302.gif)
 
 [15:05:20](#oDqOyJUKiZs_xWKIH56KmRduv_qovarOOk3cJN-taUg) <planetsizecpu (Jose Luis)>:
-* There are different strategies to finish each level, in this L30 after loading some gold bags, we can throw away the gold down to the elevator hole, and and form a gold heap at the bottom, later we throw   the wheelbarrow and the gold loads by contact, that's all Ì†ΩÌ∏Ñ
+* There are different strategies to finish each level, in this L30 after loading some gold bags, we can throw away the gold down to the elevator hole, and and form a gold heap at the bottom, later we throw   the wheelbarrow and the gold loads by contact, that's all üòÑ
 
 [19:43:39](#X_eV8swFvm5Dc1Ueofv0DF0WA6tHm7gD2O_8EVWIZIM) <greggirwin (Gregg Irwin)>:
 @chunes3 how I often start is by writing the VID code manually first, just a small bit, so I can see what I want the data to look like that I'm going to generate. Then build the pieces to generate one item. e.g. the set-word (name), style, and facets. With that,  you're pretty much done and just have to assemble the parts and drive it from other data.
@@ -8929,13 +8929,13 @@ thanks
 ## 28-Jan-2022
 
 [8:50:43](#_SVkQR-ARq9an3Hwy85RfpyuCXnp-IuYQi3sq9bhQ8E) <planetsizecpu (Jose Luis)>:
-This week I had some free time for a new level of the game. As I already said that there would be no more levels I have decided that from now on the levels will be extra, meaning they will come erratic, that's why I called it LX31 Ì†ΩÌ∏è
+This week I had some free time for a new level of the game. As I already said that there would be no more levels I have decided that from now on the levels will be extra, meaning they will come erratic, that's why I called it LX31 üòè
 
 [8:51:13](#Bwoys3TqX_Ck17Ho_tpGxMIxNJsJJjpSHT3D9qvSmE0) <planetsizecpu (Jose Luis)>:
 [![cavetest310.gif](https://files.gitter.im/55b1d8290fc9f982beaacceb/cnEB/thumb/cavetest310.gif)](https://files.gitter.im/55b1d8290fc9f982beaacceb/cnEB/cavetest310.gif)
 
 [8:51:23](#nugLWNoAqU3GWkhBjmFTYuEiZQ82GwY9eNxH_Vb8Gd4) <planetsizecpu (Jose Luis)>:
-* This week I had some free time for a new level of the game. As I already said that there would be no more levels, I have decided that from now on the levels will be extra, meaning they will come erratic, that's why I called it LX31 Ì†ΩÌ∏è
+* This week I had some free time for a new level of the game. As I already said that there would be no more levels, I have decided that from now on the levels will be extra, meaning they will come erratic, that's why I called it LX31 üòè
 
 [8:52:45](#186jJpPmFGHxkodSoCnX9QTgq7qPyj8bQ57JVn9frPA) <planetsizecpu (Jose Luis)>:
 As in my latitude we are some cold, I preferred to dust off the old ice levels.
@@ -9002,19 +9002,19 @@ Nice to see that you can't let go @planetsizecpu. :^)
 @qtxie @toomasv is this a change we just need to doc, or is it a bug and should work like the old behavior?
 
 [17:41:38](#x6Aj3Cx1Qj9jL5U4GuNcBDgW_dhGb1ZLsVdHGjwsd-c) <planetsizecpu (Jose Luis)>:
-Yes it's difficul to leave when the core hard job is done @greggirwin, and every new level is more and more easy to grow, but as you know making games is not my role,  I'd rather prefer making DB artifacts for management, so just enjoying while learning Red Ì†ΩÌ∏Ä
+Yes it's difficul to leave when the core hard job is done @greggirwin, and every new level is more and more easy to grow, but as you know making games is not my role,  I'd rather prefer making DB artifacts for management, so just enjoying while learning Red üòÄ
 
 [18:09:26](#Wv22MYU-neYFrK-KanHnrunZQFjVV3LNqjtwwMPnSTs) <toomasv>:
 @greggirwin IMO its bug for anyone looking for guidance from [docs](https://github.com/red/docs/blob/master/en/draw.adoc#clip). 
 
 [18:10:14](#yEODjaEhS5Rt54jZm-VZDniissDtp2GYrmVPub6otWM) <hiiamboris (NOT THIS ONE)>:
-@planetsizecpu some say look at what you're doing in your leisure time: this should be your job Ì†ΩÌ∏â
+@planetsizecpu some say look at what you're doing in your leisure time: this should be your job üòâ
 
 [18:59:03](#4f7N7QG-WY55ybCHrYPsCYfODpVdEo2iZ5YCBql08dE) <planetsizecpu (Jose Luis)>:
 Agreed 
 
 [18:59:19](#Ob_1uFxsbfAg4MsSxFT1owKq_RU9iy6LPtySF4nkzCM) <planetsizecpu (Jose Luis)>:
-* Agreed Ì†ΩÌ∏Ä
+* Agreed üòÄ
 
 [19:31:59](#IY0t6mIX-YHb-9_9X64ksJRxCiawk9-R-vYG-GCbsIQ) <greggirwin (Gregg Irwin)>:
 @hiiamboris however, it can also be that turning your passion into your job can change how you feel about it. It's great when it does work out though.
@@ -9034,7 +9034,7 @@ Use rich text DSL.
 
 [12:24:20](#_DFWDgQugbNscLsn3TWcQO8auDJPeToo-pE0Q9dlWCY) <GiuseppeChillemi (GiuseppeChillemi)>:
 @hiiamboris 
-> @planetsizecpu some say look at what you're doing in your leisure time: this should be your job Ì†ΩÌ∏â
+> @planetsizecpu some say look at what you're doing in your leisure time: this should be your job üòâ
 
 So I should code Red/Rebol as a profession?
 
@@ -9051,7 +9051,7 @@ So I should code in Red/Rebol as jon?
 So I should code in Red/Rebol as job?
 
 [12:25:48](#JHJzkQXca9xNkuVGXt-Pas_wW_g1WDWiUyThanZl3tE) <hiiamboris (NOT THIS ONE)>:
-Only you can answer that Ì†ΩÌ∏â
+Only you can answer that üòâ
 
 [18:54:30](#DSG1I1G4VpDmBf5EfdcqUovTcjyMqjj-0I6q29u9Yto) <greggirwin (Gregg Irwin)>:
 @GiuseppeChillemi yes, you should. ;^)
@@ -9135,7 +9135,7 @@ The code above works, but if I use the commented line, nothing is shown.
 Red 0.6.4 for Windows built 27-Jan-2022/14:21:11+02:00  commit #008f815,  I tried it also on older versions with the same result.
 
 [9:07:01](#AV2QNbUX17OPnJ8oUvUkdpKubEfgjSHyopHOV_tY-uo) <hiiamboris (NOT THIS ONE)>:
-@Oldes tried that, but it makes me nauseous like I ate something bad Ì†ΩÌ∏ü
+@Oldes tried that, but it makes me nauseous like I ate something bad üòü
 
 [9:08:01](#IJ1KICzvGjN4O5k6tIUc4Ev0fHoujH-5wHDMCdYEad0) <hiiamboris (NOT THIS ONE)>:
 @GalenIvanov IIRC it's not implemented and even documented somewhere that it's not implemented :)
@@ -9275,13 +9275,13 @@ red-community/games/game.red  uses  `pane: reduce [ base ]`
 ## 25-Feb-2022
 
 [11:40:55](#z01YDLbimwil5xJh7yTlu2xXFVjBNQnCN1MpXLyrJ7Y) <planetsizecpu (Jose Luis)>:
-Just yesterday released LX33 for those who want to play, if any Ì†ΩÌ∏ê
+Just yesterday released LX33 for those who want to play, if any üòê
 
 [11:41:33](#pGi79UFbbjyT4obmgC70e1lh8jaaIKP5YENyNYqQzKg) <planetsizecpu (Jose Luis)>:
 [![cavetest331.gif](https://files.gitter.im/55b1d8290fc9f982beaacceb/pqOI/thumb/cavetest331.gif)](https://files.gitter.im/55b1d8290fc9f982beaacceb/pqOI/cavetest331.gif)
 
 [11:44:11](#ebMOdGhtmshkBL-Tg68bUg11OX9VTlu276f5tOU4EBc) <planetsizecpu (Jose Luis)>:
-As it is too difficult to win, I had to set two wheelbarrows, so I was able to win after playing 40+ games Ì†ΩÌ∏Ñ
+As it is too difficult to win, I had to set two wheelbarrows, so I was able to win after playing 40+ games üòÑ
 
 
 [18:02:08](#B_Sf8LW0NWeMMgDnJwm2vl7CddJzfC06vxhKxQmYyg4) <greggirwin (Gregg Irwin)>:
@@ -9660,7 +9660,7 @@ Hi everybody! I wanna add shadows to transparent images . Do you know how to do 
 it partly works on windows, but crashes on other platforms
 
 [12:29:33](#-SA8xgRsU7rzByqL8md114F1RMseBE7IcoSsMGRy8Do) <Boum69 (Boum69)>:
-Thank you ; )  @toomasv I'll try it this evening.  And @hiiamboris thanks for the information I use  Win10 Ì†ΩÌ±ç
+Thank you ; )  @toomasv I'll try it this evening.  And @hiiamboris thanks for the information I use  Win10 üëç
 
 [14:31:44](#4SvQTBDaM1XRzYtTN1Nnk51qXmoZ6PoKs_8WiAqFdV8) <toomasv>:
 @Boum69 You are welcome!
@@ -10553,7 +10553,7 @@ Mobile phone corrector has always a different opinion and the last word on my ph
 @GiuseppeChillemi Initial [attempt](https://github.com/toomasv/table-template) to save table state and restore it on opening - only if you save table with `.red` suffix. Maybe should change this to `.tbl` or something? Example in `try-table.red`. 
 
 [20:53:19](#5y99TqEX3SP4JkNk8LTZb0UK2qSdUlIh-n-okCxL4mg) <Boum69 (Boum69)>:
-Amazing job !! @toomasv I tried it after work and your style-table is so fast, clean and easy to use . Ì†ΩÌ±çÌ†ΩÌ±èÌ†ΩÌ±èÌ†ΩÌ±è
+Amazing job !! @toomasv I tried it after work and your style-table is so fast, clean and easy to use . üëçüëèüëèüëè
 
 ## 30-Apr-2022
 
@@ -10782,7 +10782,7 @@ What code window?
 Great testing and feedback @GiuseppeChillemi. And thanks again to @gurzgri for his ODBC work. :+1:
 
 [19:14:35](#dOBVmL2pb_3nGsnDQ4ObvQeK-IxNPIv7j_7reBp0JbU) <greggirwin (Gregg Irwin)>:
-Really cool to see @toomasv's table in action. Ì†ΩÌ±è
+Really cool to see @toomasv's table in action. üëè
 
 [20:03:13](#LNQBI_9Jqv1ekFJ-P2V3wSNznyEsgEjG1_PBJ6NsxUQ) <GiuseppeChillemi (GiuseppeChillemi)>:
 @gurzgri what could I do to add RED ODBC scheme to the latest Red version?
@@ -10987,7 +10987,7 @@ Yup! :+1:
 @toomasv Wizard:)
 
 [17:18:08](#FKdHgTey-k2CxUFJSFKZuS4DgNF-AGztNpU2tgV0bRE) <toomasv>:
-Ì†ΩÌ∏∏ 
+üò∏ 
 
 [17:27:20](#A0TttCWoRgircyJVX4kiLu57Ic0sJpJOzsSZ6lTfY8g) <toomasv>:
 Or a bit more pronounced:
@@ -11250,7 +11250,7 @@ Look at this chat for example. It simply shows like 30 messages total, and no pa
 I agree showing too much is a bad idea. I just don't see why page it (at least in the sense paging is done in DBs)
 
 [15:52:37](#yymzJQdwl4Vuj6tG7qEGgMcT9emi06yScRNgEOTJ198) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
-And how would you call a need to scroll? It is just like paging Ì†ΩÌπÇ
+And how would you call a need to scroll? It is just like paging üôÇ
 
 [15:57:04](#wS_n9Y6HrSZ2Kqbrd_OEAmVle8MYmbXuMud8NFXfFkU) <GiuseppeChillemi (GiuseppeChillemi)>:
 DB thinks as query on table. On most ERPs, on the interface you have a "filter on/off" switch. The problem is on the "OFF" phase: without paging, you would load 100.000 rows. 
@@ -11355,7 +11355,7 @@ Pardon I meant "sorted down"
 Yep, something has gone wrong recently, I can reproduce.
 
 [16:52:12](#mkpT-ntwq9dDjo7aZSxtnTrJ6y5_i2MbQf0nlqXrcew) <GiuseppeChillemi (GiuseppeChillemi)>:
-Worksite is still open Ì†ΩÌ∏â
+Worksite is still open üòâ
 
 [16:54:18](#bpvn88AVxkBxo8Fxz3zw0SV5_5jOj2nknjtTuwgT7nM) <GiuseppeChillemi (GiuseppeChillemi)>:
 Also I have the following error on console:
@@ -11501,7 +11501,7 @@ Sorting DOWN takes a lot of time, despite other columns do it in few seconds
 Remove reference to `caption` as you don't have it defined in your view. 
 
 [17:38:13](#3N-rzqmzg03yrSla5cyjN_b17d_bHDN8hTXKZ0RSUuA) <GiuseppeChillemi (GiuseppeChillemi)>:
-I don't even know what is a `caption` Ì†ΩÌ∏â 
+I don't even know what is a `caption` üòâ 
 
 [17:38:39](#jPEtN4Ylb9rhOy0EcPpwRGgJSooMtwp9BiUpuuFYC1Q) <toomasv>:
 Find it in `try-table.red` :)
@@ -11571,16 +11571,16 @@ Thanks @hiiamboris! Unfortunately this workaround implies comparison of numbers 
 https://github.com/red/red/issues/3396#issuecomment-656089412
 
 [18:06:41](#ch8YLoKEE5aqTLTuqPa6aYIxOp_03iFmFHLlrBjPBXw) <hiiamboris (NOT THIS ONE)>:
-I don't recommend that though Ì†ΩÌ∏É
+I don't recommend that though üòÉ
 
 [18:06:46](#b98NduDraRVXBUbqsp1UYGMQYrxv3Zk1V6n_2Oh09Aw) <hiiamboris (NOT THIS ONE)>:
 what a mess
 
 [18:07:57](#rfvIZx_WPc0BEDDwBzR23sZ2EspP-lqhJELxAH5OEYM) <toomasv>:
-Gosh! Ì†ΩÌ∏≥ 
+Gosh! üò≥ 
 
 [18:22:51](#yuv-gQK48diyLFdrOlBJV5n5NjNRfyzo02XK7in052g) <GiuseppeChillemi (GiuseppeChillemi)>:
-@greggirwin what you say about "can of worms" and me? Ì†ΩÌ∏Å
+@greggirwin what you say about "can of worms" and me? üòÅ
 
 [18:29:42](#LXnq1HbGmqKjo2FW1slbukg456VDUPEfq1wAOAqgD98) <greggirwin (Gregg Irwin)>:
 I say @GiuseppeChillemi is the greatest accidental fisherman ever. :^)
@@ -11654,7 +11654,7 @@ It's also very much related to context and what you're trying to do. At the conf
 bugged as everything else
 
 [18:13:28](#Wp9Hta89vITS8CyMkcRu9wTD844X94m03FLy3gMadQ8) <GiuseppeChillemi (GiuseppeChillemi)>:
-@greggirwin  oh, no, it's sphreading! Ì†ΩÌ∏Å
+@greggirwin  oh, no, it's sphreading! üòÅ
 
 [18:16:31](#p0fsx7wzePyTsFLpvoLIGmbdb9AO3dY-FCi0Egn2G3I) <hiiamboris (NOT THIS ONE)>:
 
@@ -11865,7 +11865,7 @@ view [
 Eventually you'll write Giuseppe's program for him :)
 
 [14:34:40](#29dLly2ilQrxiSDbZJSIJ3sHJZ2cGboZEfJWb_3hRYE) <toomasv>:
-No problem, good to have someone pushing Ì†ΩÌ∏â
+No problem, good to have someone pushing üòâ
 
 [17:47:21](#Wds31ftz2EICJDOI5av04XEip78ECwJzM1XSiCvHHHg) <greggirwin (Gregg Irwin)>:
 It's user feedback driving design. 
@@ -12485,7 +12485,7 @@ When you have revealed this project, I have thought that spreadsheet could limit
 @greggirwin When ports and timer will be implemented, one of the GEMS you have made in your career,  will be important for red
 
 [19:12:58](#ES_Fe6lbV6I-BSM9KjZPMJ9YnSHCGgl2p2T8s_VNEPc) <GiuseppeChillemi (GiuseppeChillemi)>:
-You know which one Ì†ΩÌ∏â
+You know which one üòâ
 
 [19:18:22](#-JmhQnWziCqHGfZSkix45TgAG2u786Z_AL7Rjx8ZlXQ) <greggirwin (Gregg Irwin)>:
 I'm not sure I do, but I like the suspense of not knowing. :^)
@@ -12548,7 +12548,7 @@ view [table 617x517 data %data/RV291.csv]
 ```
 
 [13:31:30](#xZW4cA5S947SpUYsqqE-MYJ7jWSvEAwgv0H6ibRIgPs) <Boum69 (Boum69)>:
-Thank you very much, I will try it as soon as possible.  Ì†ΩÌπÇ
+Thank you very much, I will try it as soon as possible.  üôÇ
 
 [13:40:46](#2Y0qVxsNRN0gcJf7n9voCb8G__2mPmaygFVm9QXNwWY) <toomasv>:
 :+1: 
@@ -12879,7 +12879,7 @@ Practice, practice, practice.
 @Boum69 when you compile, you can include CSV codec in the `needs` header.
 
 [7:26:10](#lqhuZTKS9hYM9CspDT87nNSzR7jSSdzo8r4ERNqN4IQ) <Boum69 (Boum69)>:
-Ok thank you @rebolek Ì†ΩÌ±ç and thank you for your codec. Ì†ΩÌ±å
+Ok thank you @rebolek üëç and thank you for your codec. üëå
 
 [8:30:19](#NnlCHfd8-kOkcSIrzRQUTK_dJ4tjCSZj-ZtH8efip6I) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 You‚Äôre welcome. If you have troubles running it or any questions, just let me know.
@@ -12903,7 +12903,7 @@ Thanks, @ldci! :)
 Perfect :-)
 
 [15:07:53](#GztTkuXqn1DY4UNHpooUGK7kFgwpAwh658JCgCRTZ2c) <toomasv>:
-Ì†ΩÌ∏Ñ 
+üòÑ 
 
 [16:03:02](#2kAVV5axuzJD7UUnT2DLT1GSh9cloy7NLBdzoXxgl6I) <Respectech (Respectech)>:
 I really enjoy seeing the anim GIFs of the demos.
@@ -12937,7 +12937,7 @@ But what you can do, is changing sizes of several columns at once, like this (ho
 [![sizes](https://toomasv.red/images/Table/sizes.gif)](https://toomasv.red/images/Table/sizes.gif)
 
 [19:16:46](#w6NXZs3M-0Dblb4hVmWikqioNj0MZNszaA4w3g19yEU) <greggirwin (Gregg Irwin)>:
-Beautiful @toomasv! Ì†ΩÌ±è
+Beautiful @toomasv! üëè
 
 [19:18:28](#meRL1e2ToOcddeyQ7J5MOOf1Gy6ucPvaiaXydx3kpwU) <greggirwin (Gregg Irwin)>:
 Being able to save and restore table layouts is so important. 
@@ -13329,7 +13329,7 @@ view [box 400x120 navy
 @toomasv Nice animation:)
 
 [16:32:44](#o8ZXCZtRwbY1NbRGulQWmTaEprQomCzPQ_bRuyYttU8) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-if the rocket rotated in reverse it could actually land safely Ì†ΩÌ∏â anyway, very nice!
+if the rocket rotated in reverse it could actually land safely üòâ anyway, very nice!
 
 [16:33:40](#mIAOv-ziqrQ6gpeMil6M57sAq5pYEuqjCdU6UrgfvMw) <greggirwin (Gregg Irwin)>:
 Add `on-key` and it's Lunar Lander.
@@ -13346,7 +13346,7 @@ But I don't know yet how to filter/sort/search these as they are loaded in chunk
 Is the issue that the data won't fit in memory, so you have to load it in chunks?
 
 [17:24:18](#9GFCYWSf_zB4C9pz-yqOwvxb1AGQxDpGnCp4OPeIgHk) <toomasv>:
-Yes, the second I opened in gif is 200+ MB and red (or rather table) could not open it  - it struggled for 5 minutes and then gave up Ì†ΩÌ∏ü
+Yes, the second I opened in gif is 200+ MB and red (or rather table) could not open it  - it struggled for 5 minutes and then gave up üòü
 
 [17:28:52](#iGRi5nXx5YPDCSys30ZSblVrS-W7FpeZ4Nmh3Kzuogo) <greggirwin (Gregg Irwin)>:
 So Red can load the data, but then what `table` has to do to map and access it hits limits.
@@ -13376,7 +13376,7 @@ I'll try to measure how much it consumes. And yes I used `read/binary/seek/part`
 Ah, for the days of fixed size records and `GET/PUT` mode in BASIC. :^)
 
 [18:32:01](#oQ1EMzFLPwax4LdP9IlOs-foO_wTAr6kVXDVBhR6jrg) <toomasv>:
-Well, tried to measure  it with `profile`, but console died Ì†ΩÌ∏ü
+Well, tried to measure  it with `profile`, but console died üòü
 
 [18:33:04](#gQjPJgNAVvX8UZQ43FUp8e9fqtci3G1ek5qaY8tr2Qs) <GiuseppeChillemi (GiuseppeChillemi)>:
 The day will come we could handle big data on Red, I have faith!
@@ -13394,7 +13394,7 @@ Reading it takes ~350MB and then settles to 210MB in 1.7 sec.
 [6:16:58](#5of74LS17xpNfM5Hg6BO0T1l9ECG8aVQWVcJEXcFmh8) <planetsizecpu (Jose Luis)>:
 > Ah, for the days of fixed size records and `GET/PUT` mode in BASIC. :^)
 
-The computers gold age! Ì†ΩÌ∏ç
+The computers gold age! üòç
 
 [8:47:46](#k3xzj8gH1wXUpPgdixL52C0-B_6K3tPOm7Kolh6XbDE) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 @toomasv rewriting CSV as a scheme would certainly help with big file access and sorting.
@@ -13482,7 +13482,7 @@ The larger files take about 1s to query here. e.g. the 8K and 12K row results, o
 For any lurkers comparing these results to massive cloud DBs and such, bear in mind that this is all done with brute force here. No indexes, no prebuilt queries, etc. What this means is that it is completely unencumbered and dynamic. Effectively real-time for this type and amount of data.
 
 [21:09:22](#N6atK4kyNwnbcb7iIbP3yrrxrRyHCK4TDxK1nRaaO7Y) <GiuseppeChillemi (GiuseppeChillemi)>:
-@greggirwin Do you know Humble Bundle? I am a strong donator. Well, it hangs for minutes trying to display my purchases. The support has sent me an excuse email after my complain: "It's a know problem for lists over 1000 items". Ì†æÌ¥¶Ì†ºÌøª‚Äç‚ôÇÔ∏è
+@greggirwin Do you know Humble Bundle? I am a strong donator. Well, it hangs for minutes trying to display my purchases. The support has sent me an excuse email after my complain: "It's a know problem for lists over 1000 items". ü§¶üèª‚Äç‚ôÇÔ∏è
 
 [21:10:40](#l2xMIGtk7os_xbnLwt_GDaze69B1-DdPbNkS6PzgURE) <GiuseppeChillemi (GiuseppeChillemi)>:
 Go Red Go! I am strongly waiting for it to use it in the modern world and let everyone see how it is powerful!
@@ -13615,7 +13615,7 @@ Wowza!
 Fantastic, it needs just a visible line view where you are moving.
 
 [19:13:26](#szaPWAzJZhqHEiUsXc9wHGdzeo9fzoV8XhH1AnOROLo) <toomasv>:
-Yes, it needs beautification.. or affordances as Gregg taught me. I didn't even know the word Ì†ΩÌ≤≠ 
+Yes, it needs beautification.. or affordances as Gregg taught me. I didn't even know the word üí≠ 
 
 [19:24:14](#DMF0umENI3QdeV16_54qUlYNOsAjn5FSculkbd6NDZY) <hiiamboris (NOT THIS ONE)>:
 it's either dragging or easy selection though, not both
@@ -13756,7 +13756,7 @@ Thanks @rebolek. I'll take a look.
 @toomasv FANTASTIC! 
 
 [19:26:16](#xxO4uDnjL95_onmiMGRN065JLanpopL45njlyJE4Osk) <toomasv>:
-Ì†ΩÌ∏Ñ 
+üòÑ 
 
 [19:36:55](#1oAHF0Tmuf6aoDXTCiLvuNJQaZndZVAKFLLmX3lggaM) <greggirwin (Gregg Irwin)>:
 I can't tell you how excited I am about the `table` stylem the DB work from @gurzgri, and seeing them put together.
@@ -13967,7 +13967,7 @@ Another important piece. Red foundation is block and it is Hierarchical data.
 ## 18-Jun-2022
 
 [8:52:38](#kh9R4pS6dmmbukwWQ4tX0lEouWxyuYqDX08_kPc-9jQ) <luce80>:
-@henrikmk I tried back in 2017 without success and lost interest. The only thing that worked is this "not-automatic" Ì†ΩÌ∏â version
+@henrikmk I tried back in 2017 without success and lost interest. The only thing that worked is this "not-automatic" üòâ version
 
 ```
 view [
@@ -14598,7 +14598,7 @@ It's not offsets, it 's heat, I repeat
 * It's not offsets, it 's heat, I repeat :)
 
 [17:24:38](#5lvZyp8A5wNjxoIKqBLXJ02tdS90FuLzvsEtfc-Vn88) <hiiamboris (NOT THIS ONE)>:
-heat-induced algebra distortion Ì†ΩÌ∏â
+heat-induced algebra distortion üòâ
 
 [17:33:12](#lbi9WwcjOylq0DF4xFNDw5YduU6Khii1YSTsw0Z-nho) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 @toomasv I feel for you, the heat is unbearable here too.
@@ -14728,7 +14728,7 @@ Added defaults to virtual rows/cols:
 [![default-cols](https://toomasv.red/images/Table/default-col.gif)](https://toomasv.red/images/Table/default-col.gif)
 
 [14:24:23](#AHrHiik-_wqqF1UrLvSe1SpxOkL9GZma8IHXD3Ok6sY) <greggirwin (Gregg Irwin)>:
-Very nice! Ì†ΩÌ±è
+Very nice! üëè
 
 [14:51:50](#Lw5ZDkp21aMzp0Ly8Ek_mWFmiXoDHvrQCd_W1QLKE3w) <GiuseppeChillemi (GiuseppeChillemi)>:
 `probe reverse !gnizamA`
@@ -14770,7 +14770,7 @@ missing `/pane`?
 https://w.red-lang.org/en/view/#the-face-tree
 
 [21:02:46](#m23pFfA5V8EIBIDd0uUhaWrSfU5N3G3RM7uL_TUXfLA) <cloutiy (yc)>:
-Thanks @hiiamboris Ì†ΩÌ±ç
+Thanks @hiiamboris üëç
 
 ## 16-Jul-2022
 
@@ -15054,10 +15054,10 @@ gif/view
 [![laugh](https://toomasv.red/images/Animations/laugh.gif)](https://toomasv.red/images/Animations/laugh.gif)
 
 [12:43:40](#RyTFC-p7dVXm4G2uRV3Rb6wv5epRtU9rNpTxBMil9HU) <gurzgri>:
-Now I can't help but think of Statler and Waldorf commenting on you doing a live-on-stage coding performance and them laughing at the nasty bugs you're making ... Ì†ΩÌ∏Ü You called for that with that GIF Ì†ΩÌ∏â Ì†ΩÌ∏á
+Now I can't help but think of Statler and Waldorf commenting on you doing a live-on-stage coding performance and them laughing at the nasty bugs you're making ... üòÜ You called for that with that GIF üòâ üòá
 
 [12:49:14](#_ZZ_mV18nhDJFyv6yu_N2IdiEpzrUPJITu5S408mbDo) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [13:27:07](#_gz1DnApF-9u36a6gq-Cyp3RaA93GIza1SfsnZGcWgw) <toomasv>:
 :)
@@ -15363,7 +15363,7 @@ Thanks
 ## 27-Aug-2022
 
 [9:55:51](#JL8gVacHSom9TTRoxOUrTG4AGNX0gMljF6W6KnbDaok) <luce80>:
-@hiiamboris Awesome. Not too distant from a multi-column text list and a tree-view for which we are impatiently waiting Ì†ΩÌ∏â 
+@hiiamboris Awesome. Not too distant from a multi-column text list and a tree-view for which we are impatiently waiting üòâ 
 
 [9:56:01](#pfShCB1EmkHevcIYxEcZ8FU8Bs3yvOxBJ4J3xGVFrYY) <luce80>:
 Can someone please provide an example of a not-too-simple-not-too-complicated VID custom style ? I'd like to see the use of `template` , `init` , `options` , `actors`combined with `on-create` and `on-created`
@@ -15458,7 +15458,7 @@ I'd try `init` and if that doesn't work then `on-create` from a global handler.
 Facets are always overridden in `layout`.
 
 [18:07:56](#epAZMOhP3wEO27eGrM0RMaMNvm3DirkHM_g7CV7Noy4) <hiiamboris (NOT THIS ONE)>:
-I tried to save at least `with` here https://github.com/red/REP/issues/74 Ì†ΩÌ∏â
+I tried to save at least `with` here https://github.com/red/REP/issues/74 üòâ
 
 [18:09:00](#Zn1xKMBXHiT05NN8YKxddaE6QfI1HMtH506t-ZOU4J4) <hiiamboris (NOT THIS ONE)>:
 But it makes sense that they're generally not collecting. Maybe you don't want to collect, what then?
@@ -15496,7 +15496,7 @@ I mean e.g. you set `data` by default in your style to some `[a b c]` list. If i
 I mean e.g. you set `data` by default in your style to some `[a b c]` list. If it appended, not overridden, how would user remove that default data? It makes sense to override.
 
 [18:24:22](#YSsdxTS0U8ImOjUY7zyo3A1g1rbeI91kXeG1k6jHeqY) <hiiamboris (NOT THIS ONE)>:
-Then `if event/type = 'on-create [do stuff]` obviously Ì†ΩÌ∏â
+Then `if event/type = 'on-create [do stuff]` obviously üòâ
 
 [18:24:52](#GPsKA25Jc1Q_udTvK5AEr-pkWamk0TMX3DDr-i_uXaU) <hiiamboris (NOT THIS ONE)>:
 `append face/options something`
@@ -15529,10 +15529,10 @@ You can write instead of `options [new stuff]` - `with [append options [new stuf
 'append face/options something' was one of the 1st things I tried... I'll try `event/type` but...
 
 [18:35:11](#SB4mSdU7jgjDF-6iNQZTcKcjFYVaXxSNw_h5rLBaYpE) <luce80>:
-A nuisance ? Will **you** tell my users to write that in the docs Ì†ΩÌ∏â ?
+A nuisance ? Will **you** tell my users to write that in the docs üòâ ?
 
 [18:35:47](#P3om7JrOPfsLQjf00wUbL-CHg3oEdEKrCY2xiYiN1JM) <hiiamboris (NOT THIS ONE)>:
-lol no, I'll pass Ì†ΩÌ∏â
+lol no, I'll pass üòâ
 
 [18:40:41](#49fGIpZuRwoufo4UsboQHW8iG-eKw8o1diJ0YNyFQII) <luce80>:
 Let's see if someone else thinks this is a *strange* behavior.
@@ -15636,7 +15636,7 @@ P.S. I hope this will be https://github.com/red/red/pull/4529 merged.
 * P.S. I hope this https://github.com/red/red/pull/4529 will be merged.
 
 [18:20:02](#T85KB2IG2WazQsu7lpVhShtGuVPxYxqTcNeoZchyB2s) <hiiamboris (NOT THIS ONE)>:
-Amen Ì†ΩÌ∏â
+Amen üòâ
 
 [18:20:33](#4UfFutVnbuAK585dLq8OOG8Fe7jstOTYYmfruS6UrHw) <hiiamboris (NOT THIS ONE)>:
 For your function: use `x: (face/axis)` then all paths are clear, e.g. `face/size/:x`
@@ -15709,7 +15709,7 @@ But why low level backends need these user-defined words?
 * But why low level backends need these user-defined facets?
 
 [15:20:08](#jTR9qNLFSd4KhD-18wzYeOX4gfOrnT8l2PQ8DTga1O0) <hiiamboris (NOT THIS ONE)>:
-I have extended faces myself, reactivity works fine, I had no issues. So what's the catch I'm missing? Ì†ΩÌ∏â
+I have extended faces myself, reactivity works fine, I had no issues. So what's the catch I'm missing? üòâ
 
 [15:20:22](#8PdiBsRX1yAZBz2zi_I49B0j8M6efKW0kgfOSyayYc8) <dockimbel>:
 It does not. It's just that changes in extra words (beyond 32) won't be tracked by the `face!` event handlers. So even face reactivity won't work on them.
@@ -15888,7 +15888,7 @@ It's not implemented IIRC
 The width of the ellipsized `text` of an `alert` is 200 pixels. I think it is a bit too few even for the display of a smartphone , it should be made wrapped and not limited in height and/or wider.
 
 [9:06:53](#xNJeEgEMWmQ3QWPb6LsHwHqW75W1xX_P0G6JHj6aaqI) <hiiamboris (NOT THIS ONE)>:
-submit a PR Ì†ΩÌ∏â
+submit a PR üòâ
 
 [16:56:56](#fRuERHnhp_yciHezVUIzgtpMeZaPGUod0HmyWD1fZH0) <luce80>:
 Is `visible?` implemented for a `scrollable` scroller ? It becomes disabled but it is still visible:
@@ -15965,7 +15965,7 @@ view [
 ```
 
 [17:54:42](#WWJp81MaM532JYnCMzTSTdOeD_a2fnmNYO5ZU6MLGpM) <hiiamboris (NOT THIS ONE)>:
-well, this should work out of the box, but it's definitely buggy Ì†ΩÌ∏É
+well, this should work out of the box, but it's definitely buggy üòÉ
 ```
 view [text 100 wrap "abc def abc def abc def abc def abc def abc def abc def abc def abc def"]
 ```
@@ -16001,7 +16001,7 @@ Uh, but there is `caret-to-offset` ...
 * ¬Ø\\\_(„ÉÑ)\_/¬Ø
 
 [20:00:55](#MSJGuF_fSYBq13YGAJAPE4oWhK8xEMK2Hp9Tbaow6Gw) <GiuseppeChillemi (GiuseppeChillemi)>:
-Ì†ΩÌ∏É
+üòÉ
 
 ## 19-Sep-2022
 
@@ -16041,7 +16041,7 @@ I still want more standard dialogs. e.g. https://gist.github.com/greggirwin/9cd6
 P.S.: @qtxie And what about `visible?` of `scrollable` ? 
 
 [17:06:49](#ABd0Bf_xevOwcuPt8thQ_ytUQagZIZApy5PYdN-Fi_I) <hiiamboris (NOT THIS ONE)>:
-write bug reports as you find bugs, only then they will be fixed Ì†ΩÌ∏â
+write bug reports as you find bugs, only then they will be fixed üòâ
 or ask for reopening of existing bugs
 
 [17:09:22](#RiQyI7JIh9KsMm75muyTpjnFALZE56Cy-Qwc9eDTaXs) <hiiamboris (NOT THIS ONE)>:
@@ -16215,7 +16215,7 @@ view [
 
 
 [4:03:46](#0tP0k7yrzr810e-DJt42w-QCjLyOlKcqEDvj_hO1Q1s) <toomasv>:
-Gosh, I don't know what the `with []` is doing in first example Ì†ΩÌ∏≥  I probably tried first to give offset to the new button with `with [offset: ...]` but it didn't work.
+Gosh, I don't know what the `with []` is doing in first example üò≥  I probably tried first to give offset to the new button with `with [offset: ...]` but it didn't work.
 
 [19:47:14](#MwPjatK_Tb1WtmO3HEygFR10JBlgzrnXX0PhqaaEZwE) <toomasv>:
 @GiuseppeChillemi A [toy](https://gist.github.com/toomasv/5fc2e81d4f0e1a507ac277a151ecd989) to play with :).
@@ -16261,7 +16261,7 @@ Red 0.6.4 for Windows built 24-Sep-2022/9:39:31+02:00  commit #487881e
 ```
 
 [8:29:29](#FgxgQOZ05JB9uLiqbkdb86VyGM-Xbm65FliSAMDtrEU) <hiiamboris (NOT THIS ONE)>:
-/with doesn't work with rich-text IIRC Ì†ΩÌ∏É
+/with doesn't work with rich-text IIRC üòÉ
 
 [8:30:32](#jsXoLCqVtbsmUvaoHMNCLkselcKmJE7vJo_fykfbcMs) <hiiamboris (NOT THIS ONE)>:
 I'm assigning /text then measuring then reverting it
@@ -16318,7 +16318,7 @@ either system/build/date < 24-09-2022 [alert "A more recent version of Red is re
 Note that by simply changing the emoji and adding buttons you can get different requesters.
 But are emoji supported enough ?
 Also I really don'i know if and how to calc min and max text sizes.
-P.S. obviously this is PD and made to replace the official one Ì†ΩÌ∏â
+P.S. obviously this is PD and made to replace the official one üòâ
 
 [9:49:54](#monn3aj-_jGVFJ0EyT2_6wJZ00FplQ9knSk-ApGlkXU) <hiiamboris (NOT THIS ONE)>:
 I guess it's another bug to report: that rich-text doesn't automatically set it's size to that of /text or /data facets.
@@ -16333,7 +16333,7 @@ this is still affecting it too https://github.com/red/red/issues/3861
 without all these bugs fixed I don't see any hope for requesters :)
 
 [10:08:52](#2d7CTqkqdUdXX3Sh1tOPxWgYCoQzvQevVaItnRDDSOs) <luce80>:
-Apparently there is hope since the situation only a few days ago was much worse so now ping @qtxie to fix https://github.com/red/red/issues/3861 Ì†ΩÌ∏â . The same example with `rich-text`gives different results.
+Apparently there is hope since the situation only a few days ago was much worse so now ping @qtxie to fix https://github.com/red/red/issues/3861 üòâ . The same example with `rich-text`gives different results.
 
 ## 25-Sep-2022
 
@@ -16349,7 +16349,7 @@ How is that possible? For example, you have set the /size facet to 200x200, then
 
 [7:33:10](#HWuENuF3AqX3h8SWnrA6lm-GfeoA-m94i9knO7pciY4) <luce80>:
 > What do you expect for the max text sizes? Infinite?
-That is the thing I don't know Ì†ΩÌ∏â . Here I am talking about aesthetics.
+That is the thing I don't know üòâ . Here I am talking about aesthetics.
 > How is that possible?
 Yes, not possible. But there are a number of possibilities, none is the *right* one but some could be better then others. provided the there is choice to change things.
 P.S. about aesthetics: I would modify that function a bit. I would delete `origin 0x0` and probably reduce emoji `font-size` a bit.
@@ -16521,7 +16521,7 @@ Entire frameworks, applications, and companies have been built on that. :^)
 ## 30-Sep-2022
 
 [6:34:01](#a7xVQ0IeqUfSgHC0ZwCOk_n89DPxlWHPoQ3q8OfRkGg) <GiuseppeChillemi (GiuseppeChillemi)>:
-I have not understood the sense of the phrase, is: they have been built to avoid this problem, or "is it just your problem" Ì†ΩÌ∏Å
+I have not understood the sense of the phrase, is: they have been built to avoid this problem, or "is it just your problem" üòÅ
 
 [15:17:59](#OAuGg_rTyya7ZcNy5-gZLXrjwvnJdGV01-SH6Rsoe-Q) <greggirwin (Gregg Irwin)>:
 They have been built to solve this problem, so you don't have to.
@@ -16709,7 +16709,7 @@ view layout [
 
 
 [18:24:57](#ctO199iDgTX9zfsohh94AOIN4KMUz4ePKGoTJ8cMgfQ) <luce80>:
-I hate bindological things Ì†ΩÌ∏â . Is your method faster ? Why did you choose to do that way ?
+I hate bindological things üòâ . Is your method faster ? Why did you choose to do that way ?
 
 [19:53:48](#p0jdqHr91IPRtv_zGxjhknCBOT8L1nlLhubbQCCeJLg) <greggirwin (Gregg Irwin)>:
 What is the goal @luce80 ?
@@ -17098,7 +17098,7 @@ Look for `Examples in this document can be run`...
 Wow! It's look cool! I first example to work
 
 [14:29:19](#QpM5_tBL2IgYHjzXOhNf0pdKVD1ZBD5j5_6q6wLwSSo) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
-@hiiamboris what kind of big changes can we expect? Ì†ΩÌπÇ
+@hiiamboris what kind of big changes can we expect? üôÇ
 
 [14:59:42](#yaGbC6DdQ-pl1ivfIcp1Pvm9IQOrAUERRwk71Xjt7z4) <hiiamboris (NOT THIS ONE)>:
 To be announced when done.
@@ -17138,7 +17138,7 @@ Improved meaning allowing floats there, I assume. Yes, that's possible.
 ## 16-Oct-2022
 
 [7:06:34](#_BQH9XPscF29dDyb1F58mHweTo3yIaFsNa2PyYMjU38) <luce80>:
-The previous mystery deepens...try these in this exact order and the circle will "open" and "close" when you do not expect it Ì†ΩÌ∏â :
+The previous mystery deepens...try these in this exact order and the circle will "open" and "close" when you do not expect it üòâ :
 ```
 >> about
 Red 0.6.4 for Windows built 12-Oct-2022/1:16:27+02:00  commit #0fcd694
@@ -17168,14 +17168,14 @@ not happening for me
 only lines
 
 [8:45:27](#RbgCYS5qSx58-cIZ2eLxrsIICre13ABKmUWmDNFV2oc) <luce80>:
-Well, your situation is more "stable" Ì†ΩÌ∏â
+Well, your situation is more "stable" üòâ
 
 ## 18-Oct-2022
 
 [13:19:29](#8EMps6DqP8njhHxIxLnDZxW1Bxg_BkWBYMZBLlbWtIM) <planetsizecpu (Jose Luis)>:
 > [![cavetest333.gif](https://files.gitter.im/55b1d8290fc9f982beaacceb/jV2D/thumb/cavetest333.gif)](https://files.gitter.im/55b1d8290fc9f982beaacceb/jV2D/cavetest333.gif)
 
-Today's built solved itself the space between the boy and the handles when hanging for the kart, anyway I found a flawn on the barrow handling func, where I wrote `face/visible: true` instead of `face/visible?: true`  this time it was a fun review Ì†ΩÌ∏Ñ Thx to the @RedTeam
+Today's built solved itself the space between the boy and the handles when hanging for the kart, anyway I found a flawn on the barrow handling func, where I wrote `face/visible: true` instead of `face/visible?: true`  this time it was a fun review üòÑ Thx to the @RedTeam
 
 [14:20:41](#W0ySqqjKBTA2bnVzLrD3plyqyOTgn7V1Aagbb9uiV08) <planetsizecpu (Jose Luis)>:
 Unfortunately the compiled exe does not respond as the interpreted one, so it blocks the boy at the starting point and it is not playable. I have to investigate a bit when time permits.
@@ -17398,7 +17398,7 @@ But I'll return to my question, what's even the point? You're about to assign th
 [16:00:31](#ZL8LO2wEt19u1ciZxTlhvmyAZeVFghiMjyalQCVVH_M) <luce80>:
 The fix is a kind of a "documentation" fix. The idea was to "intercept" the click and "dispatch" the action based on the clicked button, and/or something similar to the buttons of a scroller which can have an action block.
 In the example there is only one offset which is enough if the `base` is changed with a `panel`.
-I could ask you what is a D2D surface but I think that would be too much Ì†ΩÌ∏â
+I could ask you what is a D2D surface but I think that would be too much üòâ
 
 [16:04:56](#HqZLZyAa6vtFmlG-XOD8yXktV6gARTf2WDlBrss0UeY) <hiiamboris (NOT THIS ONE)>:
 Direct2D is a hardware-accelerated vector rendering technology, which has nothing to do with the native GUI widgets coming since pre-Windows-95. You can draw native widgets *over* it, but not *inside* (by the means of) D2D surface.
@@ -17430,7 +17430,7 @@ Which leads back to the other solutions we're discussing.
 ## 23-Oct-2022
 
 [7:52:49](#m3IbAIXIJAuq-RelVMsyA42R9mzj6F5gutOJBnjecug) <luce80>:
-IMHO having the possibility to create a compound widget using already implemented native controls could be a way to extend the number of available widgets in a relatively simple way. Otherwise I must recreate even a simple button from scratch also drawing it using `draw` in a non system-GUI compatible way. But I am not as skilled as @hiiamboris  Ì†ΩÌ∏â , should I go to his side anyway and/or wait for him to implement the widgets I need or like ? Perhaps its time to try his VID/S Ì†ΩÌ∏â
+IMHO having the possibility to create a compound widget using already implemented native controls could be a way to extend the number of available widgets in a relatively simple way. Otherwise I must recreate even a simple button from scratch also drawing it using `draw` in a non system-GUI compatible way. But I am not as skilled as @hiiamboris  üòâ , should I go to his side anyway and/or wait for him to implement the widgets I need or like ? Perhaps its time to try his VID/S üòâ
 
 [9:17:24](#qZRIqfPIoPORF2JH6-0GF3wRw6eAeX9DQbZOEyBFWKE) <hiiamboris (NOT THIS ONE)>:
 Just use `single-parent` branch for now if you do.
@@ -17461,7 +17461,7 @@ time event of course doesn't have that info
 [![image.png](https://files.gitter.im/55b1d8290fc9f982beaacceb/TDgE/thumb/image.png)](https://files.gitter.im/55b1d8290fc9f982beaacceb/TDgE/image.png)
 
 [8:49:14](#mPNDBufkJVJYm_9TXTG3IzEEEjW7XPlDa4y0Ro5jICw) <luce80>:
-how many problems can you see here Ì†ΩÌ∏â ?
+how many problems can you see here üòâ ?
 ```
 >> about
 Red 0.6.4 for Windows built 27-Oct-2022/3:05:04+01:00  commit #5f113b7
@@ -17757,7 +17757,7 @@ Sure
 Fine now, save for arrows clipped a bit
 
 [14:51:03](#y-CWDXRdi_bDNL8_rfIR3Q98qHU3n7DjxAl-arh7DVc) <luce80>:
-Thanks again ! It seems perfection is not reachable Ì†ΩÌ∏â.
+Thanks again ! It seems perfection is not reachable üòâ.
 P.S.
 [WISH] : I'd like default text style be defined like this:
 ```
@@ -17806,7 +17806,7 @@ Or `view [style text: text 80x25 text "aaaa" button "aaaa" return text "bbb" but
 I'm sorry I'm accustomed to my solution and I still think my solution is more generic but I admit it is a matter of taste.
 
 [16:38:40](#s3iThfrk4hlXDVKBTbzEIB-3G3Bjp_gSOuAjGZzvX5U) <hiiamboris (NOT THIS ONE)>:
-Not just me Ì†ΩÌ∏â
+Not just me üòâ
 
 [16:39:03](#7gdXBiFFXGQ33UfE7m1mzA8v3T2xqYFhO_MAJRMgBO0) <hiiamboris (NOT THIS ONE)>:
 Lazy people seem to agree defaults are a good thing.
@@ -17815,7 +17815,7 @@ Lazy people seem to agree defaults are a good thing.
 You are trying to work around an implementation (not design) bug, by complicating the design.
 
 [16:40:17](#R-TeoUfULI7Z7213nxY4rjRm9EW3Tgo_3vaXPLmcvCU) <hiiamboris (NOT THIS ONE)>:
-Instead, push a fix for it Ì†ΩÌ∏â
+Instead, push a fix for it üòâ
 
 [16:40:44](#YvR8i4chwf2GCwkLL-HfVDOIJB9CF2a1RU9ul3xEtTs) <hiiamboris (NOT THIS ONE)>:
 https://github.com/red/red/issues/4292
@@ -17825,20 +17825,20 @@ At least add a comment there that it doesn't work with `style` too. I didn't eve
 
 [16:47:59](#WUgd21d2FhWDDLyaJxjComyEcGbh384u184ywRjfAds) <luce80>:
 I am lazy, I agree defaults are a good thing.
-I added a comment, that was easy Ì†ΩÌ∏â
+I added a comment, that was easy üòâ
 Since we are talking about size: R2 VID had also negative "init" values e.g. `-1x20` means 20 pixels height but calculated width. This also could come in handy. And now let's wait for the bug fix.
 
 [16:51:18](#OS-sfsgaEtm5EJB6_WzZsCmp8ojg5PnFzb6hukbUn48) <hiiamboris (NOT THIS ONE)>:
 :+1:
 
 [16:54:14](#OCRg3ktYyvlNZLuz6G8tMo_uJYujehvmuVF9YNGRXGo) <luce80>:
-...ehm...now we could discuss which default value is better and when ad how to set it Ì†ΩÌ∏â
+...ehm...now we could discuss which default value is better and when ad how to set it üòâ
 
 [16:54:26](#nXmO94T9v1sk9AAhqP_InQD43BzDbG5Gd_1tstEZf2E) <luce80>:
 * ...ehm...now we could discuss which default value is better and when and how to set it ;)
 
 [16:56:40](#64BeoqnMW0zSULB7ddt4HmTxHYR23n8mPju6_OHzWDs) <hiiamboris (NOT THIS ONE)>:
-I'm fine with 80x25 Ì†ΩÌ∏â
+I'm fine with 80x25 üòâ
 
 [18:36:04](#03YS1bUyx5Loymv6VqeVCa2q09ZGctVYcLMpBOUjaqI) <greggirwin (Gregg Irwin)>:
 Really nice work @luce80. :+1:
@@ -18036,7 +18036,7 @@ It is few weeks already, since I skimmed across the code and I already mentioned
 - options - block, which defined keywords for the VID level ....
 
 [9:17:04](#Mq4R1EG1si5dsKl7yhOMfalsd9a-UuLIhEDPITAj5QE) <hiiamboris (NOT THIS ONE)>:
-To like or dislike something in the codebase you first have to understand it Ì†ΩÌ∏â So no, I don't accept style complaints there.
+To like or dislike something in the codebase you first have to understand it üòâ So no, I don't accept style complaints there.
 
 [9:18:00](#McR_MAWBaID2Q8MyLgY-55KWL7tk3T-hHYs8pIelwa4) <hiiamboris (NOT THIS ONE)>:
 As for terms, I use 'facet', sometimes at least. Not sure where the other terms are applicable.
@@ -18108,7 +18108,7 @@ Flutter is probably the big name in UI frameworks now.
 [10:36:47](#GChfseA8_5x144MOymHFWoia60gjEZfOv9vpcrK30aU) <hiiamboris (NOT THIS ONE)>:
 > decorations of almost any kind
 
-Still we have things like `and~` or `on-change*`. And `!` in `integer!` is a decoration as well IMO. I can have in one function: `space` object, `space!` charset and `=space=` rule Ì†ΩÌ∏â
+Still we have things like `and~` or `on-change*`. And `!` in `integer!` is a decoration as well IMO. I can have in one function: `space` object, `space!` charset and `=space=` rule üòâ
 
 [10:38:45](#DbuXBap1OBYU0JC_hrPfaLhBrAzIHPkoYDbwforubo8) <hiiamboris (NOT THIS ONE)>:
 Or `new-line` native, `new-line!` charset and `=new-line=` rule :)
@@ -18205,7 +18205,7 @@ I haven't seen `do` used much myself. I'm using `with` mostly (for the window - 
 `do` is a general escape mechanism in VID for evaluating regular Red code (container-related initialization, global init code, dynamic face injection, facets calculations, ...).
 
 [17:57:18](#GJ-kxJWY2_M3rUn7-rz76PqcMB71aXWHYrkeToHFN_o) <luce80>:
-Now that I have shown an area caret usage example I hope that it would be possible to `set` and `get` the caret position so I could simplify my script a lot and add new features Ì†ΩÌ∏â
+Now that I have shown an area caret usage example I hope that it would be possible to `set` and `get` the caret position so I could simplify my script a lot and add new features üòâ
 
 ## 28-Nov-2022
 
@@ -18259,7 +18259,7 @@ view/flags/options [
 https://github.com/red/red/issues/4355
 
 [10:26:39](#Zrcx8G0-__b4WHYL0bGAV-WT8ydV2zV8Qt95hYwTIvI) <luce80>:
-Ì†ΩÌ∏ü . It not only "hurts user experience", it gives wrong results if the algorithm is based on that. Let's hope for a fix.
+üòü . It not only "hurts user experience", it gives wrong results if the algorithm is based on that. Let's hope for a fix.
 
 [17:27:14](#s-qIxGMj_F7s9PEVX_w906f3Sj-pFTpWU0hRzCTT294) <greggirwin (Gregg Irwin)>:
 That's an old and painful bug, to be sure.
@@ -18376,7 +18376,7 @@ Hi! Could you show source code game of sprites? it's gif or it's red code?
 @bubnenkoff https://github.com/red/red/wiki/[LINKS]-Projects-showcase-(links-to-remember) the "Cave-In" one
 
 [15:07:06](#NkyrQ7g1OfYsyANi5VodqkE7g5KWZ96OR76Q_nDNa_s) <hiiamboris (NOT THIS ONE)>:
-@luce80 I believe your undoable area belongs there too Ì†ΩÌ∏â
+@luce80 I believe your undoable area belongs there too üòâ
 
 [15:21:14](#W0jcacrDg9ZLKTk5_V4hQrLCEtJzoJcnCfXOz6YBFhM) <luce80>:
 @hiiamboris is it  ? Isn't it an OS widget limitation ?
@@ -18400,7 +18400,7 @@ view win
 ```
 
 [15:28:02](#DBwxkef1eVcMVMSZioJGDjBH29JpvId6Gyy92dR2twc) <hiiamboris (NOT THIS ONE)>:
-Quite hard to follow code Ì†ΩÌ∏ï
+Quite hard to follow code üòï
 
 [15:29:17](#pTRCQGItIwzgrrl4E-_L7HChmVx5M-ggERmKa4hPk40) <hiiamboris (NOT THIS ONE)>:
 I guess inner panel gets automatically resized to tab-panel size on your 2nd `view`
@@ -18427,7 +18427,7 @@ The code and descriptions are confusing... E.g.: "tab-panel background is red an
 * The code and descriptions are confusing... E.g.: "tab-panel background is red and should be partially covered by a green panel" => the red and green panels are not even on the same tabs...
 
 [15:40:38](#pF4NH9MLt2LzPxcgvbBLKkYzcfYJBEQc_MYpPcTOSn8) <luce80>:
-There are 2 bad things. Tab-panel has red background and has 2 sub-`panel`s. 1st panel is "post"-colored green (since it cannot be colored by `VID), then tab-panel is enlarged and 1st sub-`panel` is enlarged less. The idea was to be able to distinguish among tab-panel, 1st sub-panel and its `base` content. Hoping that I can fill the sub-panel I enlarge the base to have the size of its parent panel but nothing seem to happen but at a second try it and its pane get the size of the tab-panel ! (Which was the final result I wanted Ì†ΩÌ∏â )
+There are 2 bad things. Tab-panel has red background and has 2 sub-`panel`s. 1st panel is "post"-colored green (since it cannot be colored by `VID), then tab-panel is enlarged and 1st sub-`panel` is enlarged less. The idea was to be able to distinguish among tab-panel, 1st sub-panel and its `base` content. Hoping that I can fill the sub-panel I enlarge the base to have the size of its parent panel but nothing seem to happen but at a second try it and its pane get the size of the tab-panel ! (Which was the final result I wanted üòâ )
 
 [15:41:04](#znPFlr55H2SyA3DyyPN1iL0V-3NtRK2B_n9n7JyuXZk) <luce80>:
 * There are 2 bad things. Tab-panel has red background and has 2 sub-`panel`s. 1st panel is "post"-colored green (since it cannot be colored by `VID`), then tab-panel is enlarged and 1st sub-`panel` is enlarged less. The idea was to be able to distinguish among tab-panel, 1st sub-panel and its `base` content. Hoping that I can fill the sub-panel I enlarge the base to have the size of its parent panel but nothing seem to happen but at a second try it and its pane get the size of the tab-panel ! (Which was the final result I wanted ;) )
@@ -18708,7 +18708,7 @@ For those native widgets, IIRC, paddings account for the number of pixel used fo
 Also in `[AxB CxD]` A affects X, but C - affects Y, while B and D are ignored.
 
 [17:27:30](#vS-lMKBeXxq75juavsbbewXJdUjpXrXtkH1omamMC24) <hiiamboris (NOT THIS ONE)>:
-I'm on to smth? Ì†ΩÌ∏â
+I'm on to smth? üòâ
 
 [17:29:09](#bC-9rriDGvUpsAz_za1ATw5wVbNqRyBgW4hsia9er3M) <hiiamboris (NOT THIS ONE)>:
 ```
@@ -18800,7 +18800,7 @@ do/args https://t.ly/_8Xk "test"
 
 
 [9:41:11](#8xGHI-z1rK03g3SdTXgwThC4lhqXB6560A1FJ2YJYUI) <luce80>:
-Better not to try it with `tab-panel`s. Ì†ΩÌ∏â . If you dare to try it with transparency **PLEASE SAVE ALL YOUR WORK FIRST** ;((
+Better not to try it with `tab-panel`s. üòâ . If you dare to try it with transparency **PLEASE SAVE ALL YOUR WORK FIRST** ;((
 
 [10:52:27](#73j9utFvNRU6jekOQ6HNpZRv3BtfwdyTfc6shKwsB5c) <hiiamboris (NOT THIS ONE)>:
 wow really that dangerous?
@@ -18849,13 +18849,13 @@ no crashes with transparency on W10 `Red 0.6.4 for Windows built 9-Dec-2022/10:1
 no that's right, no crashes with transparency on W10 `Red 0.6.4 for Windows built 9-Dec-2022/10:12:47+03:00  commit #ce6e33c`
 
 [11:18:15](#DoQs7ozdHNeer7OqUASVjOfqyK5qtdpfU2bbasK6lsk) <luce80>:
-I was waiting for you noticing buttons undercut Ì†ΩÌ∏â . Even if your 1st button is more undercut then mine (!?). I think it is not my fault and I am not sure if I should make exeptions for these widgets. Can I reliably rely on system/view/metrics/margins ?
+I was waiting for you noticing buttons undercut üòâ . Even if your 1st button is more undercut then mine (!?). I think it is not my fault and I am not sure if I should make exeptions for these widgets. Can I reliably rely on system/view/metrics/margins ?
 
 >width is different from the demo itself
 
 Which demo ?
 
-Can you try transparency after uncommenting `;view-resize` at bottom of script please ? Have you saved your work Ì†ΩÌ∏â ?
+Can you try transparency after uncommenting `;view-resize` at bottom of script please ? Have you saved your work üòâ ?
 
 [11:42:04](#pFY2-tzW73oPg9X8DUggD0RYNEJTgxjteWiNXgfC_3A) <hiiamboris (NOT THIS ONE)>:
 I'm risky :)
@@ -18900,7 +18900,7 @@ Confirmed, last sample added to the bottom of the script froze W10 after 4-5 mov
 [13:48:31](#t94lmrncRjk007v2Bn83jSfAbc2t1CXf1oGowmKUL2s) <hiiamboris (NOT THIS ONE)>:
 > I will try to isolate the problem if I can.
 
-Would be awesome Ì†ΩÌ∏â
+Would be awesome üòâ
 
 [16:56:24](#6KLxUXZgZdz4_F7Hf4ewll8Hljwz7AnV72_aiuWrIXo) <luce80>:
 I hope I have isolated it enough. **SAVE ALL YOUR WORK FIRST** and then drag the red box up and down rapidly:
@@ -19004,7 +19004,7 @@ loop 5000 [
 	loop 5 [do-events/no-wait]
 ]
 ```
-Ì†æÌ∑®Ì†ΩÌ≤•‚ò†
+üß®üí•‚ò†
 
 [17:39:21](#6SFVjzoat2P5hbMtumTujn9759xQzFvOQx7YZpiGJkc) <hiiamboris (NOT THIS ONE)>:
 * OK this explosive is **SELF-DETONATING**:
@@ -19021,7 +19021,7 @@ loop 5000 [
 ]
 ```
 
-# Ì†æÌ∑®Ì†ΩÌ≤•‚ò†
+# üß®üí•‚ò†
 
 [17:49:17](#ealBsBX5XmqKTLsLzRK9marbkepgjFFFYvwjmL22x_g) <hiiamboris (NOT THIS ONE)>:
 https://github.com/red/red/issues/5253
@@ -19322,7 +19322,7 @@ not sure what you are referring to
 in my scrollpanel I just measured the span of all children and then decided if scrollers are to be or not to be :)
 
 [11:06:15](#0kyigCwTXbcLCKCj_RsHpl72Y-TssF_T_G3t4Bsb5CQ) <luce80>:
-Good point. "Single-child-scrolling-panel" is better Ì†ΩÌ∏â ? "Scrollable-base-that-I-had-to-use-a-panel-instead" also Ì†ΩÌ∏â ?
+Good point. "Single-child-scrolling-panel" is better üòâ ? "Scrollable-base-that-I-had-to-use-a-panel-instead" also üòâ ?
 > "auto-visible" focused face
 
 And what about the "scroll-to-face" function ?
@@ -19417,16 +19417,16 @@ Very nice @luce80 ! Yours look nicer than [mine](https://gist.github.com/greggir
 
 [18:46:37](#zF5xHj3DQQfZt4W3oOP9f7rn3KLpC_SyPeTs8sS1Nis) <luce80>:
 Thanks for testing. 
-Button glitch is the way Windows shows a focused button Ì†ΩÌ∏â
-Misalinement is probably due to not beeing able to use float pair!s but should be tested also on other platform (to see even worse misalignement Ì†ΩÌ∏â
-Yes, first dialog has a timeout , that you tested to work Ì†ΩÌ∏â
+Button glitch is the way Windows shows a focused button üòâ
+Misalinement is probably due to not beeing able to use float pair!s but should be tested also on other platform (to see even worse misalignement üòâ
+Yes, first dialog has a timeout , that you tested to work üòâ
 @greggirwin thank you for your version from which I started :)
 
 [18:55:47](#JY1_VJQEbTbh4HhXLRsNJ8HYHmpPTXeZ2ciyoUTMFXk) <greggirwin (Gregg Irwin)>:
 :+1:
 
 [18:58:40](#chx--HnWwwFo7g4ToZd6d24jgz764tvh8AiSgWruyR4) <hiiamboris (NOT THIS ONE)>:
-> Button glitch is the way Windows shows a focused button Ì†ΩÌ∏â
+> Button glitch is the way Windows shows a focused button üòâ
 
 I think it should show "Yes", not "Ok" (besides correct spelling is "OK")
 
@@ -19450,7 +19450,7 @@ do/args https://t.ly/cq6ih "test"
 @hiiamboris If you think I would have not "stolen" your work, please tell me and I will erase it.
 
 [15:22:13](#YiJWYDuTviJylCUKVi9P5qAyrW9_09a0wPYaY4ih6Uo) <hiiamboris (NOT THIS ONE)>:
-Nobody owns ideas, they just use us to conquer the world Ì†ΩÌ∏â 
+Nobody owns ideas, they just use us to conquer the world üòâ 
 So my work is free for anyone to build upon and take inspiration from. 
 
 [15:33:15](#-LoVRCVtXES_vB4zML2hyPA9eHQiFtf6GWDzb6QVjRc) <hiiamboris (NOT THIS ONE)>:
@@ -19463,7 +19463,7 @@ Another way to check for 4 ints: `parse block [4 integer! end]`
 [15:39:24](#OYhx1JfFVZKY7yEfLOW58PaLFyjjx5bAXumn_bZwwiw) <luce80>:
 >totally esoteric
 
-I am waiting for a more idiomatic version Ì†ΩÌ∏â . And while you are at it what about you implementing the system/script/header/Notes TODO part Ì†ΩÌ∏â  ?
+I am waiting for a more idiomatic version üòâ . And while you are at it what about you implementing the system/script/header/Notes TODO part üòâ  ?
 > check 4 ints
 
 Nice! I think I will steal also this.
@@ -19525,7 +19525,7 @@ While you're thinking on how to maintain distance to this or that face, here's a
 ![](https://i.gyazo.com/04a90a99357e9b07e82ec23a6a4f31e7.png)
 
 [16:38:31](#yutW8cK0B8Md06RPGbVRBuiuUuLZXQdUvMbtJcT57Z8) <luce80>:
-:) simple, just use AI Ì†ΩÌ∏â . But I prefer to meditate on resizing normal table-like layouts. Just imagine , for instance, that simply defining the 1st `field` of my example as "resizable" it will push and pull the nearby `button`and same for `text-list` and bottom widgets. Shouldn't that be too hard, but not in my *immadiate* todo list so if you want to take the challenge Ì†ΩÌ∏â ...
+:) simple, just use AI üòâ . But I prefer to meditate on resizing normal table-like layouts. Just imagine , for instance, that simply defining the 1st `field` of my example as "resizable" it will push and pull the nearby `button`and same for `text-list` and bottom widgets. Shouldn't that be too hard, but not in my *immadiate* todo list so if you want to take the challenge üòâ ...
 
 [16:39:36](#1ZUk0nEsR62Swoq_nEgcQz8AM_vPTgS3rkzshNOdtvY) <luce80>:
 * :) simple, just use AI ;) . But I prefer to meditate on resizing normal table-like layouts. Just imagine , for instance, that simply defining the 1st `field` of my example as "resizable" it will push and pull the nearby `button`and same for `text-list` and bottom widgets. Shouldn't that be too hard, but not in my *immediate* todo list so if you want to take the challenge ;) ...
@@ -19686,10 +19686,10 @@ Haven't used the  "crash-the-program"  function yet :)
 You don't have to be so extreme as to crash the program. Triggering a spring-loaded boxing glove next to the computer should be enough.
 
 [18:06:23](#e-NA_Q_R7gPWHz6M4q05w-klTV9RoJRoBxOoiOwLB5g) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [18:08:21](#ryG48iMxpShxFJsSrqf3070O58g0E1fJanzRaNQ6u4c) <hiiamboris (NOT THIS ONE)>:
-now that would be a *responsive UI* Ì†ΩÌ∏â
+now that would be a *responsive UI* üòâ
 
 [18:08:55](#etU8tIb8Mxf3OEVPrGhx8_zRequpRmZNccwLdUqHffk) <greggirwin (Gregg Irwin)>:
 Indeed! :^)
@@ -19850,7 +19850,7 @@ view [
 https://github.com/red/red/issues/1637#issuecomment-1248305098
 
 [19:17:52](#KJhI5fSlf448koDy5kwC_uOVjau2ENoumxzLAOUEGac) <luce80>:
-@toomasv thanks! Back to the roots Ì†ΩÌ∏â . @hiiamboris I made a `loose` implementation in R2 and used `step: 1x0` to move horizontally and `step: 30x0` to move horizontally 30 px at a time.
+@toomasv thanks! Back to the roots üòâ . @hiiamboris I made a `loose` implementation in R2 and used `step: 1x0` to move horizontally and `step: 30x0` to move horizontally 30 px at a time.
 
 [19:19:11](#EbIkdIyo0-LDpSRO2-2z3RojvyhpJG6IQxB3ZZP4ies) <hiiamboris (NOT THIS ONE)>:
 what was the use case for 30x0?
@@ -19876,7 +19876,7 @@ view [
    on-over [if event/down? [face/offset/x: face/offset/x + round/floor/to event/offset/x  5 - x]]
 ]
 ```
-Damn , this is not working correctly but I do not want to debug and fix it and you get the idea Ì†ΩÌ∏â .
+Damn , this is not working correctly but I do not want to debug and fix it and you get the idea üòâ .
 
 [19:39:19](#JHWGVZy3COFW03OluLknXXoN7kFAQe2cJDg7XWJxY78) <hiiamboris (NOT THIS ONE)>:
 yeah thanks
@@ -20004,7 +20004,7 @@ after `bounds:`
 (you have a word where it expects an object)
 
 [19:21:54](#Jg5HMVY2S-NszC2R0jWdaE2Fp5ceJBXEUKIBHHjkspE) <luce80>:
-Ok I 've done it and it works :) but I wouldn't say it is easy nor "as described" Ì†ΩÌ∏ü 
+Ok I 've done it and it works :) but I wouldn't say it is easy nor "as described" üòü 
 ```
 view [
 	button "move x" loose
@@ -20452,7 +20452,7 @@ Yeah, I think then we could boil it down to what exactly should be completed, wh
  * Font! objects can be created/freed any time, not just when an OS window is displayed. Those events are not always directly related.
 
 [17:38:53](#t3TFwBk6K4MID88ohIHRmwp-OMLxjGMmV5UyYi7XoAw) <TimeSlip (James_Nak)>:
-henrikmk (Henrik Mikael Kristensen): And if there's anyone who knows about manipulating a mass number faces it's you my friend. Ì†ΩÌ∏Ä
+henrikmk (Henrik Mikael Kristensen): And if there's anyone who knows about manipulating a mass number faces it's you my friend. üòÄ
 
 ## 19-Mar-2023
 
@@ -22491,7 +22491,7 @@ View seems to be getting some love lately - transparent top window, now a dark m
 ## 20-Jun-2023
 
 [14:27:54](#d4BZleCbx68pbQw4gGSu5i9HbFjIGiSYqMXK7XnxGno) <planetsizecpu (Jose Luis)>:
-FYI, just now uploaded two story new level LX35, enjoy Ì†ΩÌ∏Å  https://github.com/planetsizecpu/Cave-In
+FYI, just now uploaded two story new level LX35, enjoy üòÅ  https://github.com/planetsizecpu/Cave-In
 
 ## 30-Jun-2023
 
@@ -22615,7 +22615,7 @@ Depends on your font. Most likely it's [TrueType](https://en.wikipedia.org/wiki/
 Note that in Elastic UI I do not (by design) scale fonts, since most of the time this is a dumb thing to do.
 
 [13:22:52](#R_mpuRwqCRbktphlp8WKXckMTvyo3BaPJE3s1969Ud4) <nomadics_twitter (Jason Cunliffe)>:
-Very helpful all the above Ì†ΩÌ±çÔ∏èÌ†ΩÌ±çÔ∏è
+Very helpful all the above üëçÔ∏èüëçÔ∏è
 
 [13:24:43](#FkY6x7n32gnejiwH8vBpPnMjU-EWgL-Xvb3J1vm0F4g) <nomadics_twitter (Jason Cunliffe)>:
 Much of my work has been around maps. So vector graphics and typography that can fit well on demand is essential.
@@ -22948,7 +22948,7 @@ I've rolled out a major Spaces update. Apart from internal changes, `list-view` 
 It Is now time to adopt Spaces, despite the horrible color choices of its creator.
 
 [14:08:12](#j1y5ZSUoNDsMmbcdB9xnW1HnG_qzrozKKLpyA7YgA4g) <endo64>:
-Wow! Ì†æÌ¥Ø Does it lazy load 1'000'000'000 item while scrolling? Or it already in a block/map/hash?
+Wow! ü§Ø Does it lazy load 1'000'000'000 item while scrolling? Or it already in a block/map/hash?
 
 [14:11:41](#WrXU7yXHjR6PSWZZvZRaYCcMN_tQlx9bAwTolpC0suE) <hiiamboris>:
 In short it just needs to fill a "window" (10 viewports long) with items. Jump to 1'000'000'000th makes it an anchor, so it fills around it. Items themselves are generated with the data picker function (and cleaned up once they are far):
@@ -23712,7 +23712,7 @@ what will happen if you assign junk to it?
 The whole PC will explode
 
 [22:19:44](#TYKNKsTqqATXMjXrN-s3sPN6g0oy3fdnhnLy01W8iR4) <GiuseppeChillemi (GiuseppeChillemi)>:
-Or I will fill a bug report Ì†ΩÌ∏Å
+Or I will fill a bug report üòÅ
 
 [22:27:04](#pfCYzV0TgP2-qMDFMgsXc4xR89uAP7Dhzp74s0h5dig) <hiiamboris>:
 :)
@@ -24014,7 +24014,7 @@ So, OK, if we are open to new ideas, could we, please, finally change maps from 
 Well, couldn't cell values be enlarget with the transition towards the 64 bit support? Noc necessarily saying, we should waste the memory space, if not necessary :-)
 
 [16:08:52](#bbt235lvnE6wZhdKsZm8bg0DG1HgLm-7DkwRbfwnU6s) <gurzgri>:
-Totally possible for sure (but what do I know), it's all just trade-offs ... /s Ì†ΩÌ∏â Not very likely though I think and most problably not a very wise choice, I am pretty sure that current cell size was reasoned about with 64 bit support in mind.
+Totally possible for sure (but what do I know), it's all just trade-offs ... /s üòâ Not very likely though I think and most problably not a very wise choice, I am pretty sure that current cell size was reasoned about with 64 bit support in mind.
 
 [16:18:05](#pKdNSUEbLkj_A7OsFPWlKvUkswhbCZpirSqnr0H_gRQ) <hiiamboris>:
 64 bit support will most likely require double the cell size, to 256 bits like in R3
@@ -24099,7 +24099,7 @@ Good catch though, I don't know why `area` (which is unset) came through without
 First attempt first catch! Please don't complain when I do not read manuals. It is useful to make weird things that let us discover bugs!
 
 [19:02:55](#BGheJICXabvTKzJIVYCBwQCJ193y5MoAtBP3Ye2qNmk) <GiuseppeChillemi (GiuseppeChillemi)>:
-Ì†ΩÌ∏ÑÌ†ΩÌ∏ÑÌ†ΩÌ∏Ñ
+üòÑüòÑüòÑ
 
 [19:02:56](#kM3CegUJc9C1gb4tbphXJI2X6XPh54JmwanLDO76-C8) <hiiamboris>:
 Of course, thanks in advance for every bug you find ;)
@@ -24677,13 +24677,13 @@ I think it is not a lie. Spaces creates SPACE objects, I think it is true. Those
 I think that "you lied" is a bit harsh comment, should have been "used inaccurate description" or something like that :-)
 
 [17:03:00](#s0ztWSEyVymWMQP-x6hrOGHVTCgyypDTiQBKeWcbL4Q) <GiuseppeChillemi (GiuseppeChillemi)>:
-No, I lied! Ì†ΩÌ∏Å
+No, I lied! üòÅ
 
 [17:03:23](#z3MoSatmS_mlStcF5QQwP0_-0WXq-5F2rqQOqkYX2es) <hiiamboris>:
 pekr (Petr Krenzelok) Really? Damn cultural aspects :) GiuseppeChillemi (GiuseppeChillemi) will forgive me I hope ;)
 
 [17:37:22](#Y0Uwe6raOlgqFD3LaoXwpcUxLQmGuokKcJTJU9jOykI) <GiuseppeChillemi (GiuseppeChillemi)>:
-hiiamboris: OMG, I have read the whole tinkerer's manual. I have heachache. I must stop, too many condensed elements and there is also a new object oriented system to study. Ì†æÌµ¥
+hiiamboris: OMG, I have read the whole tinkerer's manual. I have heachache. I must stop, too many condensed elements and there is also a new object oriented system to study. ü•¥
 
 [18:04:49](#SvZWE3J5zAAxllu-ckgJdqoMShVye-XOJj8BsUE4zHk) <hiiamboris>:
 It's deeper level than you currently need, so best stop asap :)
@@ -24698,7 +24698,7 @@ Although when you get to want to define arrow keys for your table editor you'll 
 In the future remember that I have been the first to have the courage to face Space, despite the flamboyant color choices of the author signalled dangers, like some frogs in the animal kindom.
 
 [18:17:55](#RuMYuv57SuJWX_OgWl-qhICJUpNX5Zpmp32OMRyNkoE) <GiuseppeChillemi (GiuseppeChillemi)>:
-Ì†ΩÌ∏ÅÌ†æÌµ¥Ì†ΩÌ∏â
+üòÅü•¥üòâ
 
 [18:18:29](#kGLJ6oddyAe-B_lar-6mV9HwOxsFLQkW6zomTE8PcP4) <GiuseppeChillemi (GiuseppeChillemi)>:
 * In the future remember that I have been the first to have the courage to face Space, despite the flamboyant color choices of the author signalled danger, like some frogs in the animal kindom.
@@ -26692,7 +26692,7 @@ I have made a mistake: `set-focus ed/content` works but the cursor is fixed and 
  * I have made a mistake: `set-focus ed/content` works but the cursor is fixed and does not blink
 
 [22:49:23](#L0aRYgHW4hgdy97DFwqXkwDGr-5fTkWQHN01sKekvjI) <GiuseppeChillemi (GiuseppeChillemi)>:
-Well, it has never blinked Ì†æÌ¥£
+Well, it has never blinked ü§£
 
 [22:50:10](#Z2CuxjXEoEs9QdUunhbYfok4CrB9qy2vpRUpnAMbFUk) <hiiamboris>:
 :D
@@ -27016,7 +27016,7 @@ https://meyerweb.com/eric/articles/webrev/199908a.html seems more profound descr
 But I need these keywords to become `/size` of the font object eventually for Draw to understand me ;)
 
 [19:05:35](#JaefTI1Gj1MO9yxu2tKopPOEl6Ed69F0TPB_9pMGlWY) <rgchris (Christopher Ross-Gill)>:
-Sure, and you'll have to track if the current font size changes on you Ì†ΩÌ∏¨
+Sure, and you'll have to track if the current font size changes on you üò¨
 
 [19:06:16](#NxgnNUR1wj8phaD0R2EMhdPMOotNyyQO4Kdth2A5T-A) <hiiamboris>:
 Yeah. Bastards :) But `opacity` is the worst kind of feature so far...
@@ -27199,11 +27199,11 @@ No. I don't think the OS API allows that.
 2. `on-enter` event.
 
 [2:33:09](#AMfLqTdgocgOdMv1UULKpBk7GOOGEWH7_vKy6nZOHX8) <qtxie>:
- * 1. It's a bug. Ì†ΩÌ∏Ö
+ * 1. It's a bug. üòÖ
 2. `on-enter` event.
 
 [3:44:50](#TokDN0XhBiMjxacMGDaZKqReUkLh8s78a3N0ZchHth0) <qtxie>:
- * 1. It's a bug. Ì†ΩÌ∏Ö
+ * 1. It's a bug. üòÖ
 2. Check `event/key = CR` on `on-key` event.
 
 [8:31:47](#ZRX579hTNrskEsEOhArlhOrEqq8Enbbih32Mo_W92ow) <GiuseppeChillemi (GiuseppeChillemi)>:
@@ -27356,7 +27356,7 @@ Ok, thank you. I am continuing to play with it.
 [12:13:18](#nCuqk0oR--pt5jTOVFtXYGvgHriD9XXuY3oTktIDDdw) <qtxie>:
 > <@giuseppechillemi-59045d00d73408ce4f5bcd9d:gitter.im> Ok, thank you. I am continuing to play with it.
 
-Thank you for testing it.Ì†ΩÌ±ç
+Thank you for testing it.üëç
 
 [12:13:22](#OxjGu8l99dBehq7FJa4flDIa6O08saFvtdEQskWF1Yg) <pekr (Petr Krenzelok) (@pekr:matrix.org)>:
 Will TUI work across real terminals? I mean - like putty ssh / telnet sessions, serial console, etc?
@@ -27367,7 +27367,7 @@ Will TUI work across real terminals? I mean - like putty ssh / telnet sessions, 
 Without mouse events, yes.
 
 [12:16:31](#qQ-Tn69hwsmgArSJIUUmrsTtfUnZua_HAdApIRvyS7w) <GiuseppeChillemi (GiuseppeChillemi)>:
-> <@qtxie-55659cf315522ed4b3e10064:gitter.im> Thank you for testing it.Ì†ΩÌ±ç
+> <@qtxie-55659cf315522ed4b3e10064:gitter.im> Thank you for testing it.üëç
 
 Testing is a work, playing is a joy, the latter is what I am doing with your gift: having fun!
 
@@ -27490,11 +27490,11 @@ I think I have spent no more than 12 hours of work doing everything from scratch
 
 [17:25:19](#C7BCfpqTsN62Ycb46sStY6oG4y65H782AXcQvfQpBlk) <GiuseppeChillemi (GiuseppeChillemi)>:
  * I think I have spent no more than 12 hours of work doing everything from scratch. Now that I manage the basic structure I think that a similar game with mazes can be made in half the time.
-This is very important for me: [Ì†ΩÌ±ÜÔ∏è](https://matrix.to/#/!ARPBrpwJJYziTJYuJj:gitter.im/$I3VuGfLXzh4o28kucJSjhnCjMLexfoY2YAIQSF1eS00?via=gitter.im&via=matrix.org&via=tchncs.de)
+This is very important for me: [üëÜÔ∏è](https://matrix.to/#/!ARPBrpwJJYziTJYuJj:gitter.im/$I3VuGfLXzh4o28kucJSjhnCjMLexfoY2YAIQSF1eS00?via=gitter.im&via=matrix.org&via=tchncs.de)
 
 [17:25:37](#dXjQtSUybAb4yYf0XhSnKruTGqqrtKuvXs2M1UC_-ag) <GiuseppeChillemi (GiuseppeChillemi)>:
  * I think I have spent no more than 12 hours of work doing everything from scratch. Now that I manage the basic structure I think that a similar game with mazes can be made in half the time.
-This is very important for me: [click me Ì†ΩÌ±ÜÔ∏è](https://matrix.to/#/!ARPBrpwJJYziTJYuJj:gitter.im/$I3VuGfLXzh4o28kucJSjhnCjMLexfoY2YAIQSF1eS00?via=gitter.im&via=matrix.org&via=tchncs.de)
+This is very important for me: [click me üëÜÔ∏è](https://matrix.to/#/!ARPBrpwJJYziTJYuJj:gitter.im/$I3VuGfLXzh4o28kucJSjhnCjMLexfoY2YAIQSF1eS00?via=gitter.im&via=matrix.org&via=tchncs.de)
 
 [17:26:01](#CRwuhJQhQHFFmh7T5QhOn8xGXhdHDQ-Ww0z1GD1ejCc) <GiuseppeChillemi (GiuseppeChillemi)>:
  * The only things I would like to have for this interface are the following:
@@ -27580,8 +27580,8 @@ I mean the TUI engine only provides the basic things. The user can use it to cre
 [23:01:32](#t3m9xDL8nkmIBmXDLxqsGi0JKxYaHUXGEMAXO-vO99w) <qtxie>:
 Emoji is widechar, it takes two cells width while the dot takes one cell. You can use another emoji instead of the ascii dot.
 ```
-Ì†ΩÌ¥∏
-Ì†ΩÌ∞±
+üî∏
+üê±
 ```
 
 ## 14-Sep-2023
@@ -27610,8 +27610,8 @@ Mixed interfaces in the same window needs a rectangular pane to be hosted in but
 [1:06:25](#H2ETMxosi_n3Fhz4d6eE_bt29wPOgV1mKhHAMOlxfcY) <GiuseppeChillemi (GiuseppeChillemi)>:
 > <@qtxie-55659cf315522ed4b3e10064:gitter.im> Emoji is widechar, it takes two cells width while the dot takes one cell. You can use another emoji instead of the ascii dot.
 > ```
-> Ì†ΩÌ¥∏
-> Ì†ΩÌ∞±
+> üî∏
+> üê±
 > ```
 
 If you take a look to the elarged video, the same happen if I use the "O" character, which should take just 1 cell 
@@ -27685,7 +27685,7 @@ A very last question, do we have scrollable text container like text-list?
 [1:27:07](#ZLTvowFaKdQkcgTzEfgAT4DKgY5Mnk88dWJv3GyzyLc) <qtxie>:
 > <@giuseppechillemi-59045d00d73408ce4f5bcd9d:gitter.im> A very last question, do we have scrollable text container like text-list?
 
-Nope.Ì†ΩÌ∏Ö
+Nope.üòÖ
 
 [8:14:20](#btiTL-VaP4PwEXccm_4EtUtNLSoVqZlISIRq6jwqInQ) <qtxie>:
 > <@giuseppechillemi-59045d00d73408ce4f5bcd9d:gitter.im> I have tested with "O". PAC  is now centered but I see a shadow on the right that covers other characters
@@ -27711,7 +27711,7 @@ So this may be the cause.
 
 I have tested it. Changing to `1x1` solved the shadow problem but 2 things have emerged.
 1) If you use `1x1` with the cat emoticon, RED hangs, I mean the console become black and nothing is printed.
-2) If I write `base transparent 1x1  "O" "Ì†ΩÌ∞±"` the error which comes out has strange characters. They seems not correctly managed: `Script Error: VID - invalid syntax at: ["ÔøΩÔøΩ"]`
+2) If I write `base transparent 1x1  "O" "üê±"` the error which comes out has strange characters. They seems not correctly managed: `Script Error: VID - invalid syntax at: ["ÔøΩÔøΩ"]`
 
 [12:23:42](#WTtCPWsLN634SPRh8PyWLCFURoUYEU75oShq_ieslyI) <GiuseppeChillemi (GiuseppeChillemi)>:
 > <@qtxie-55659cf315522ed4b3e10064:gitter.im> There is no real transparent for the background color, the `transparent` color just sets it to the default background color.
@@ -27719,7 +27719,7 @@ I have tested it. Changing to `1x1` solved the shadow problem but 2 things have 
  * I have tested it. Changing to `1x1` solved the shadow problem but 2 things have emerged.
 
 1. If you use `1x1` with the cat emoticon, RED hangs, I mean the console become black and nothing is printed.
-2. If I write this wrong line`base transparent 1x1  "O" "Ì†ΩÌ∞±"` the error which comes out has strange characters. They seems not correctly managed: `Script Error: VID - invalid syntax at: ["ÔøΩÔøΩ"]`
+2. If I write this wrong line`base transparent 1x1  "O" "üê±"` the error which comes out has strange characters. They seems not correctly managed: `Script Error: VID - invalid syntax at: ["ÔøΩÔøΩ"]`
 
 [12:55:25](#qgC6yxsYPGN_qAZ5Rjap0m52mTIBZJreISsAvm2T7p4) <GiuseppeChillemi (GiuseppeChillemi)>:
 A minor typo in ANSI-Parser inside the Terminal backend directory:
@@ -27865,7 +27865,7 @@ qtxie: This is a very preliminary draft of a documentation I have created for TU
  * qtxie: This is a very preliminary draft of a documentation I have created for TUI, you find it [here](https://github.com/GiuseppeChillemi/RedNotes/blob/master/TUINotes.md). It contains the experience of the last week  with it. Needs some work to be completed but it is my contribution to this project.
 
 [1:21:49](#IzD_AY_jasQ2-hp43a7QyjcfTQ4nr0KDfLk4YQCdOJ4) <qtxie>:
-GiuseppeChillemi (GiuseppeChillemi): Great! Ì†ΩÌ±çÔ∏è But the link is 404.
+GiuseppeChillemi (GiuseppeChillemi): Great! üëçÔ∏è But the link is 404.
 
 [1:27:05](#lFTqjK8cwcqONzKeoQDucJRpSMVqsAvWcxS469IO-eo) <GiuseppeChillemi (GiuseppeChillemi)>:
 Palese, try again, maybe I was just publishing a commit.
@@ -27874,7 +27874,7 @@ Palese, try again, maybe I was just publishing a commit.
 Palese, try again, maybe I was just publishing a commit.
 
 [1:29:36](#YH5mG5BalJu7Hg47fNtgHknklcgWA4_a9XaYh69SkqU) <GiuseppeChillemi (GiuseppeChillemi)>:
-> <@qtxie-55659cf315522ed4b3e10064:gitter.im> GiuseppeChillemi (GiuseppeChillemi): Great! Ì†ΩÌ±çÔ∏è But the link is 404.
+> <@qtxie-55659cf315522ed4b3e10064:gitter.im> GiuseppeChillemi (GiuseppeChillemi): Great! üëçÔ∏è But the link is 404.
 
 Please, try It again. Maybe I was just publishing a commit.
 
@@ -28148,7 +28148,7 @@ Frames, shadows to mimic 3D menu and scrollers are very common in dos/shell like
 [0:46:31](#NPHHoK_Mc-dywOk-42UCE1ST8F0sukQ80DAau-MQcpQ) <qtxie>:
 > <@giuseppechillemi-59045d00d73408ce4f5bcd9d:gitter.im> Will you implement something for frames around bases with tittle,  and shadows like the following?
 
-Nope.Ì†ΩÌ∏Ö I have finished all the planned features. Those UIs should be able to build on top of the view.
+Nope.üòÖ I have finished all the planned features. Those UIs should be able to build on top of the view.
 
 [0:49:44](#fMMGVUKSblUwFjLZCwzAgzuatXRviFvrYcNF4upUFj8) <qtxie>:
 Something like hiiamboris's red-space, but a TUI version.
@@ -28508,10 +28508,10 @@ All that said, is there value in Red supporting it? There's a lot of content out
 That's about how it works, yes.
 
 [18:06:46](#uLO9FT8SkaGBXKB3mSsuLVDyv_KsDesLKndWiyuC7bs) <greggirwin (Gregg Irwin)>:
-Ì†ΩÌ±çÔ∏è
+üëçÔ∏è
 
 [18:06:52](#0RxJS_zKK1Eq81iMxVIpv5rQOeqMe0mXBLvtDfA9D_M) <greggirwin (Gregg Irwin)>:
- * Ì†ΩÌ±çÔ∏è.
+ * üëçÔ∏è.
 
 [22:57:17](#Rx_-ECizr4srdvIn5o0dwTfdzPlQxKqjRh1wU-J1oPo) <rgchris (Christopher Ross-Gill)>:
 Ok, I get where you're coming from‚Äîit's the spec that you see as dead. That's all I was trying to clarify and I largely agree
@@ -29682,13 +29682,13 @@ in which case you'll have to ask Christian to rebase it
 ![https://gitter.ems.host/_matrix/media/v3/download/gitter.im/306398b915f78848b499e47dffa438469e4c66c71714638073452560384](https://gitter.ems.host/_matrix/media/v3/download/gitter.im/3ef872e1ad58bc13d0633f9a51eb38f96563f6291714638074702462976)
 
 [13:42:30](#AerbzRjdTXfxUni14qbh7-UHVJU_Bm-jKyfARkwxHpI) <planetsizecpu (Jose Luis)>:
-Remebering level 28. Today while playing I found a faulty elevator cable colour, so the guards don't stopped to wait for jump in and jumped into the hole as in the early stages Ì†ΩÌ∏Ñ. Now it's fixed as you can see.
+Remebering level 28. Today while playing I found a faulty elevator cable colour, so the guards don't stopped to wait for jump in and jumped into the hole as in the early stages üòÑ. Now it's fixed as you can see.
 
 [13:48:48](#QE2NqpGB-gfulmN8-tFBss0rn1EqlZAGfyI8PNUynwE) <planetsizecpu (Jose Luis)>:
- * Remembering level 28. Today while playing I found a faulty elevator cable colour, so the guards don't stopped to wait for jump in and jumped into the hole as in the early stages Ì†ΩÌ∏Ñ. Now it's fixed as you can see.
+ * Remembering level 28. Today while playing I found a faulty elevator cable colour, so the guards don't stopped to wait for jump in and jumped into the hole as in the early stages üòÑ. Now it's fixed as you can see.
 
 [13:49:15](#OMuXzrh5f5dJlNziOE1ok2roXPn58TchAK2nEl0Yodw) <planetsizecpu (Jose Luis)>:
- * Remembering level 28. Today while playing I found a faulty elevator cable colour, so the guards don't stopped to wait for jump in, and jumped into the hole as in the early stages Ì†ΩÌ∏Ñ. Now it's fixed as you can see.
+ * Remembering level 28. Today while playing I found a faulty elevator cable colour, so the guards don't stopped to wait for jump in, and jumped into the hole as in the early stages üòÑ. Now it's fixed as you can see.
 
 [14:56:18](#glyB9Ir1guVoDe3sA0WX2K0PTlrDrwA6eySzM29iNWs) <GiuseppeChillemi (GiuseppeChillemi)>:
 I have found [this tool](https://gist.github.com/toomasv/0085fd7c61e53dc9cedb45ae98f777e9) toomasv has created to set the Caret / Cursor position is a text area. Is there a way to avoid compiling the whole script? 
@@ -29697,7 +29697,7 @@ I have found [this tool](https://gist.github.com/toomasv/0085fd7c61e53dc9cedb45a
 hiiamboris: you are mentioned here
 
 [15:33:29](#L3OQnIrJYoMb-4GHoKV5j-icATrJs5Lt2S9-B5Qix2E) <hiiamboris>:
-I'm flattered Ì†ΩÌ∏ä
+I'm flattered üòä
 
 [16:19:17](#N4cGw5zA3vGSIHexllAc0cQNqGflvzy_0lWM2oT40Jc) <hiiamboris>:
 as for 'avoid compiling' you can answer that yourself by looking at its contents
@@ -32036,7 +32036,7 @@ It is also strange that I don't get a "normal" syntax error or something similar
 Ok, the issue was caused by https://github.com/red/red/blob/master/modules/view/VID.red#L721 . The simple `face: self` trick that I was doing in my others scripts now caused problems so I had to rename `pane` with something else and then do `pane: something-else`
 
 [14:17:49](#QZqoSrNoTPN5ghT78gdqwlWX6qY__0NrO7InQlBJn5s) <luce80>:
-Since I am sharing my new debugging adventures, I 'd like to point out that I cannot place a `draw` command anymore inside the `init` block of a "master" style declaration. Ì†æÌ¥î
+Since I am sharing my new debugging adventures, I 'd like to point out that I cannot place a `draw` command anymore inside the `init` block of a "master" style declaration. ü§î
 
 [14:55:50](#vFtdWuQhuhAthJZA4l9d9yO_o3NXZEEEtVv5mpBpzKg) <hiiamboris>:
 `init` is now bound to the face
@@ -32419,7 +32419,7 @@ no
 Sorry, yes I found it.
 
 [17:50:32](#_pSURv_cmI9lzXkpqU8r1Q4opNxm3wJ_EZ9WAYeQcBI) <luce80>:
-It is called `tabs` (plural) but it seems to work only for one `integer!` , perhaps with a special kind of integers sequnce ? Ì†æÌ¥î
+It is called `tabs` (plural) but it seems to work only for one `integer!` , perhaps with a special kind of integers sequnce ? ü§î
 
 [17:51:20](#3sAi6HS34Lxg9vkm5-MkEE33RRrmldTLId07zcGT-3U) <hiiamboris>:
 right, sorry, it was another issue that crossed my memory
@@ -32504,22 +32504,22 @@ doesn't look by design
 [4:59:53](#FjSkhitWnlOASU7jp5SqRyRperTGw8GkiVfeUrtm9Ps) <Rebol2Red (Rebol2Red)>:
 Is it posible to display this emoji with view while using text-list?
 ```
-Ì†æÌ¥≠ hex = 1F92B decimal = 129325
+ü§≠ hex = 1F92B decimal = 129325
 ```
 Console
 ```
-print "Ì†æÌ¥≠" ; this works
+print "ü§≠" ; this works
 ```
 
 ```
 view [
-	text-list data ["Ì†æÌ¥≠"] ; this does not work
+	text-list data ["ü§≠"] ; this does not work
 ]
 ```
 If using rich-text it is possible but not with a text-list. Why?
 ```
 view [
-	rich-text "Ì†æÌ¥≠" ; this works
+	rich-text "ü§≠" ; this works
 ]
 ```
 
@@ -32527,18 +32527,18 @@ view [
  * Is it posible to display this emoji with view while using text-list?
 
 ```
-Ì†æÌ¥≠ hex = 1F92B decimal = 129325
+ü§≠ hex = 1F92B decimal = 129325
 ```
 
 Console
 
 ```
-print "Ì†æÌ¥≠" ; this works
+print "ü§≠" ; this works
 ```
 View
 ```
 view [
-	text-list data ["Ì†æÌ¥≠"] ; this does not work
+	text-list data ["ü§≠"] ; this does not work
 ]
 ```
 
@@ -32546,7 +32546,7 @@ If using rich-text it is possible but not with a text-list. Why?
 
 ```
 view [
-	rich-text "Ì†æÌ¥≠" ; this works
+	rich-text "ü§≠" ; this works
 ]
 ```
 
@@ -33007,7 +33007,7 @@ this part looks really weird
 maybe qtxie knows how it works
 
 [17:34:30](#IrX7pXCVbnqI6WYnD2mrz4NSXBwvMVtmf-9xse4bMqc) <greggirwin (Gregg Irwin)>:
-I love interactive examples like this. Ì†ΩÌ±çÔ∏è
+I love interactive examples like this. üëçÔ∏è
 
 [18:49:40](#tJgow6WVwcNJ25bNBylUKh2Hyg59la6dvw7MsUfLx84) <luce80>:
 Am I the only one thinking that the "focus" logic is "broken" or at least not well implemented? 
@@ -33364,20 +33364,20 @@ In place of `event` ?
  * In place of `event` ? Perhaps you mean in place of `'stop`. But...no...haven't you read the docs ;((( ?
 
 [19:39:42](#S2lPECgbIHOZv102QprDQOTj0zG6EXghtno6Yz_NHik) <luce80>:
-I have found the secret to avoid resizing flickering Ì†ΩÌ∏à MUAH-AHAHAHAH!!
+I have found the secret to avoid resizing flickering üòà MUAH-AHAHAHAH!!
 
 [19:54:26](#2mgGDkV6Yv_FElAaBb3e3p_rJn8u2fN_vzCi_oi7CS8) <greggirwin (Gregg Irwin)>:
 And it is...?
 
 [22:05:27](#qGNie8zvmEwh08aBagkg-rpeHPJelZv21CApeoP1hEU) <GiuseppeChillemi (GiuseppeChillemi)>:
-> <@luce80-56eeeea485d51f252ab9d69f:gitter.im> I have found the secret to avoid resizing flickering Ì†ΩÌ∏à MUAH-AHAHAHAH!!
+> <@luce80-56eeeea485d51f252ab9d69f:gitter.im> I have found the secret to avoid resizing flickering üòà MUAH-AHAHAHAH!!
 
 You have 24 hours to reveal it, otherwhise we will find you and force to write you code in JavaScript emitting Java.
 
 ## 26-Feb-2024
 
 [19:11:20](#nebgJvAsTnNJMJt7DY_vkBCkanNdN3C0lNnKmkyPzR0) <luce80>:
-Reactions are flickering therefore avoid them for resizing (of complex GUIs). I was using both `on-resize` and `on-resizing` forwarding `on-resize` to `on-resizing` but the secret is simply avoiding `on-resizing` and use only `on-resize` (!?! Ì†æÌ¥î).
+Reactions are flickering therefore avoid them for resizing (of complex GUIs). I was using both `on-resize` and `on-resizing` forwarding `on-resize` to `on-resizing` but the secret is simply avoiding `on-resizing` and use only `on-resize` (!?! ü§î).
 
 ## 29-Feb-2024
 
@@ -33669,7 +33669,7 @@ do https://t.ly/nNNPc
 ```
 
 [17:37:37](#I_LG5JEpVkBF6MBfWmMnxIaGFSuJ8ZFzsaUOH5lvK0o) <greggirwin (Gregg Irwin)>:
-Thanks for checking on the existing ticket. Ì†ΩÌ±çÔ∏è
+Thanks for checking on the existing ticket. üëçÔ∏è
 
 [17:40:22](#oTCze26fMeHEcrAn6U8R9fLfRmC-9M5eD6UMKN_TXIs) <greggirwin (Gregg Irwin)>:
 ![](https://gitter.ems.host/_matrix/media/v3/download/gitter.im/6b935e5cf37b791f51c6db44daf339079fe0ec161771955224861212672)
@@ -34367,15 +34367,15 @@ It is the best way to find it
 Don't really know how to do that. Is there a doc I can look at to run through commits. I usually just use the pre-built binaries.
 
 [17:23:42](#Esn4YWt3VwuJmzHMNKens4gXzUaOUbNhePSPAT1DqRU) <gurzgri>:
-An even better, because more guided approach is `git bisect` . Any random [tutorial](https://www.metaltoad.com/blog/beginners-guide-git-bisect-process-elimination?hs_amp=true) should get you started; however, if you're not at all used to Git, prepare for some Ì†ΩÌ≥àsteep learing curve.
+An even better, because more guided approach is `git bisect` . Any random [tutorial](https://www.metaltoad.com/blog/beginners-guide-git-bisect-process-elimination?hs_amp=true) should get you started; however, if you're not at all used to Git, prepare for some üìàsteep learing curve.
 
 [17:26:52](#1A9hgPtxCZhV7kEuAvhhp6D2S9t4H1mCLyg5EDhD3MQ) <gurzgri>:
-* An even better, because more guided approach is git bisect . Any random tutorial should get you started; however, if you're not at all used to Git, prepare for some Ì†ΩÌ≥àsteep learning curve.
+* An even better, because more guided approach is git bisect . Any random tutorial should get you started; however, if you're not at all used to Git, prepare for some üìàsteep learning curve.
 
 [17:49:38](#5ts_Qa8vkqyvCdjYpeSxVGvKMfudcasKOhuASq9MIjg) <mikeyaunish>:
-> <@gurzgri-56c25b3ae610378809c19713:gitter.im> An even better, because more guided approach is git bisect . Any random tutorial should get you started; however, if you're not at all used to Git, prepare for some Ì†ΩÌ≥àsteep learning curve.
+> <@gurzgri-56c25b3ae610378809c19713:gitter.im> An even better, because more guided approach is git bisect . Any random tutorial should get you started; however, if you're not at all used to Git, prepare for some üìàsteep learning curve.
 
-Even more fun stuff to learn. Ì†ΩÌ±çÔ∏è
+Even more fun stuff to learn. üëçÔ∏è
 
 ## 17-Jun-2024
 
@@ -34723,7 +34723,7 @@ hiiamboris: Thanks a lot. It was a beginner's mistake :)
 ![https://gitter.ems.host/_matrix/media/v3/download/gitter.im/542c80d16b7c9bc3465de3112217d3a2f4e418611811019808733396992](https://gitter.ems.host/_matrix/media/v3/download/gitter.im/141de0fc3ec282af0c7adf279d9f59575b1fb4351811019813728813056)
 
 [12:49:09](#B9Q3OcsiwurybcWjZpH893Ty9qk4pB5xkK4BcsvRzQA) <planetsizecpu (Jose Luis)>:
-Remembering level LX32, what I do is test the game with the latest automatic build available, to see if the game needs any correction. The ice levels are more difficult because the boy slips... Ì†ΩÌ∏Å
+Remembering level LX32, what I do is test the game with the latest automatic build available, to see if the game needs any correction. The ice levels are more difficult because the boy slips... üòÅ
 
 [12:52:50](#_tqJF-brkLyQkXQvw2vzoWU8khIqgNk6sKvIZZWsddE) <planetsizecpu (Jose Luis)>:
 In the early stages the boy also started running like the Flintstones, barely making any progress, but in the end I had to remove him because the game became unplayable on ice.
@@ -34735,7 +34735,7 @@ In the early stages the boy also started running like the Flintstones, barely ma
  * In the early stages the boy also started running very fast, like the Flintstones, barely making any progress, but in the end I had to remove him because the game became unplayable on ice.
 
 [12:58:57](#YbNFc-nCAzp59vuNWzZGigVIdXhmK6RB7kqmEw-j2TE) <planetsizecpu (Jose Luis)>:
- * Remembering level LX32, what I do is test the game with the latest automatic build available, to see if the game needs any update. The ice levels are more difficult because the boy slips... Ì†ΩÌ∏Å
+ * Remembering level LX32, what I do is test the game with the latest automatic build available, to see if the game needs any update. The ice levels are more difficult because the boy slips... üòÅ
 
 [13:04:31](#ZUWXxNMFXYYuRF7131zmv70BrHhvZbw6Ogo4BoNNgjk) <hiiamboris>:
 you can use the cart to fly over the shafts?
@@ -34749,16 +34749,16 @@ And police can merge.
 ## 11-Jul-2024
 
 [5:58:39](#MI_BcNitdxvLhuBmWPyRYtmAR1glYICnxaHzmSrVrp0) <planetsizecpu (Jose Luis)>:
-Yes, you can use the cart in the levels that have it and travel to the side screen, in this case, if there are some guards, they get hit by the cart and knocked out Ì†ΩÌ∏Ç
+Yes, you can use the cart in the levels that have it and travel to the side screen, in this case, if there are some guards, they get hit by the cart and knocked out üòÇ
 
 [6:01:55](#2jrH1rffvJX-UKDr7iRuue4tDvRIecKrg9yXm0ppP7I) <pekr (Petr Krenzelok) (@pekr:matrix.org)>:
-It seems that the game started to live its own life on its own rules. I would be careful, as the next step might be the game deciding to remove its author Ì†ΩÌπÇ
+It seems that the game started to live its own life on its own rules. I would be careful, as the next step might be the game deciding to remove its author üôÇ
 
 [6:10:41](#ryrepJnvR0JigcGkDI4PecMOrpHJSQJUP9VCy06_qrQ) <planetsizecpu (Jose Luis)>:
 ![https://gitter.ems.host/_matrix/media/v3/download/gitter.im/ecc2ab3764e2d9f9fa09b912251135db55332c751811281935578693632](https://gitter.ems.host/_matrix/media/v3/download/gitter.im/e0c12d3abca5509745b25a32a6866b3a502273791811281938799919104)
 
 [6:11:48](#ReCJEmZttmdn0n_wsco7K8w-2wmxMh6LnDuiWQb1SRI) <planetsizecpu (Jose Luis)>:
-Likewise we have the teleporters, at first they worked immediately, Gregg told me that it would be more appropriate with a transition, to make the game more enjoyable, it took some design work, but it is working now. @Pekr the author should take the teleporter too Ì†æÌ¥£
+Likewise we have the teleporters, at first they worked immediately, Gregg told me that it would be more appropriate with a transition, to make the game more enjoyable, it took some design work, but it is working now. @Pekr the author should take the teleporter too ü§£
 
 [10:05:20](#6SVKbmB0-pL9_vs9IGw8UG0gDRy2pOsJTET789SxHoY) <GiuseppeChillemi (GiuseppeChillemi)>:
 Is it possible to have global VID actors like `on-created` and just per face ones when needed? so you don't have to provide it for each face, either directly or composing.
@@ -35208,7 +35208,7 @@ view [
 ```
 
 [15:08:15](#6BCDMoiwD_m-XwFQOble_dngygImo2Tf_ery_wdzGn8) <hiiamboris>:
-and on GTK the button doesn't even resize Ì†ΩÌ∏Ö
+and on GTK the button doesn't even resize üòÖ
 
 [15:41:52](#6GlnulA5DT1XoBpKY3Y5tnYL8qvLaQKDjvjKqBGY5oQ) <hiiamboris>:
 hmm maybe the image is just not DPI-scaled...
@@ -35971,7 +35971,7 @@ With [Elastic UI](http://codeberg.org/hiiamboris/red-elastic-ui) it's just `view
 I can't really appreciate all this low level subtraction and addition :)
 
 [14:41:03](#i36IhpMccLYWn5QjamwdrhM9pHJx-Oh9VKjlU1k8dfo) <gurzgri>:
-Nice solution ... to a different problem Ì†ΩÌ∏Ñ  
+Nice solution ... to a different problem üòÑ  
 That's not functionally equivalent.
 
 [15:12:46](#PJzKsmNHARq3GL47L5xdf0tBiOCVtGuUJhFdLSHVtS0) <gurzgri>:
@@ -36019,7 +36019,7 @@ Thanks for your responses :)
 I lamented about `layout` losing the connection to the original spec as well, yes
 
 [18:04:47](#Flygl2EGfwhe6q9onKOwkZuHiYZmLHH27SYmT6m0q7o) <ldci (Fran√ßois Jouen)>:
-GiuseppeChillemi (GiuseppeChillemi): No problem, my son is a lawyer Ì†ΩÌ±çÔ∏è. Seriously, I've developed several professional applications with Red and often wrote little example scripts that I then used in those applications. I will make these short examples available to the Red community in a GitHub directory in a few days.
+GiuseppeChillemi (GiuseppeChillemi): No problem, my son is a lawyer üëçÔ∏è. Seriously, I've developed several professional applications with Red and often wrote little example scripts that I then used in those applications. I will make these short examples available to the Red community in a GitHub directory in a few days.
 
 [18:13:45](#lHsCJ8xNcPvvdxa-CJ2GDxj9edJ-mRyCXTtTZZkhPo4) <GiuseppeChillemi (GiuseppeChillemi)>:
 I think it is useful too.
@@ -36033,7 +36033,7 @@ Here: https://github.com/ldci/Red_KIS/tree/main
 Thank you, looking at your repository. Many examples there.
 
 [20:57:40](#YcPG3v2F5f5UTq3K4DdlA431SBbewy12CMV1y8uhgBg) <ldci (Fran√ßois Jouen)>:
-GiuseppeChillemi (GiuseppeChillemi): You‚Äôre welcomeÌ†ΩÌ∏Ä 
+GiuseppeChillemi (GiuseppeChillemi): You‚Äôre welcomeüòÄ 
 
 ## 29-Oct-2024
 
@@ -36227,7 +36227,7 @@ view [below demo: sample extra [face/text: "demo"] sample extra [face/color: red
 Not sure if we are talking about the same thing. See: [Accordian Example](https://www.w3.org/WAI/ARIA/apg/patterns/accordion/examples/accordion/)
 
 [19:01:55](#NG_A8njlYJiyHAVREP86gAHrR-nct1uNjXko_gTHUNw) <hiiamboris>:
-Sorry, I was thinking it's about gradients Ì†ΩÌ∏Ö
+Sorry, I was thinking it's about gradients üòÖ
 
 [19:07:35](#sV_gNtAnO8t8BZtl16JIq6ODSvfhadyaYR0QoEzqVq0) <hiiamboris>:
 In spaces making such style is relatively trivial, e.g. their "accordian example" is a `list-view` with 3 items, where each item is a list with variable length (1/2), thus hiding or showing the contents item. But I don't have an out of the box example. I'll add it to my miles long TODO list :)
@@ -36418,7 +36418,7 @@ I think this is worth qtxie looking at. Seems like it should work without a hack
 ## 11-Jan-2025
 
 [7:02:36](#6dG-aeRqcRyNKS_5sMKJWPRO9MIiSG8RErY8nAA0Ycs) <lylgithub2021 (lylgithub2021)>:
-Ì†ΩÌ±çÔ∏è
+üëçÔ∏è
 
 [7:05:43](#K_SjAat2BjB0Y4fTZCokKvfkaXH_4L_ErLePRk7RLGs) <lylgithub2021 (lylgithub2021)>:
 `view [a: area on-change[print "changed"] button "paste" [ a/text: read-clipboard]]` When the button `paste` is push, the console fails to print `changed` though the content of the `area` is changed by the action `a/text: read-clipboard`. Why and how to solve it?
@@ -37006,7 +37006,7 @@ Will try to make time for more playing later.
 Actually if the right cursor navigation arrow is "playing" then there is something wrong. I'll give a better description like: Control Key Button (but only on the right side of the keyboard). Historically this is a throw back to the AS400 where: Right Control Key = Enter Key.  You are right the description for control + (tilde) is incorrect. It should read Control + (back tick). Because Ctrl + Shift + Tilde = Open Editor for style of object. Thanks for the feedback Gregg.
 
 [17:24:09](#L9gWlSrNs8UXW-wL0eCLZlYSM3byTbD0VGEULbo2zCc) <greggirwin (Gregg Irwin)>:
-Just tested again, and right control does play by itself. Ì†ΩÌ±çÔ∏è
+Just tested again, and right control does play by itself. üëçÔ∏è
 
 [18:59:07](#aJcNAeYpeXKt14VQQ9poPYpc00EwBMjFqdLBaDPfQ4M) <mikeyaunish>:
 Thanks Gregg. I know you mentioned a long time ago that the middle mouse button didn't  operate correctly for you either. Does is work now?
@@ -37580,12 +37580,12 @@ view [
 [10:00:25](#Fuq1NT2il-7KKGiT123BieL1ivAAhJYWH6_PfYMh-RI) <planetsizecpu (Jose Luis)>:
 With today's automatic build, Red 0.6.6 for Windows built 28-May-2025/4:36:02+02:00  commit #8905efb my game shows a strange behavior, it seems related to unview that freezes the game on the Splash screen, when click on the start button. I removed unview and forced the user to manually close that window, then the game runs as normal. 
 
-I tested on older versions of Red, unview not only closes the window, but also returns control to the next sentence. That behavior has changed, and causes the game freeze, so I'm not sure if it is the wanted behavior, and better to ask here and wait for a prudent while. Ì†ΩÌ∏Å
+I tested on older versions of Red, unview not only closes the window, but also returns control to the next sentence. That behavior has changed, and causes the game freeze, so I'm not sure if it is the wanted behavior, and better to ask here and wait for a prudent while. üòÅ
 
 [10:01:49](#30B9c8IABuvlFzzuEb9DZRAiqTqLAK2MGpqZnz7XCbs) <planetsizecpu (Jose Luis)>:
 * With today's automatic build, `Red 0.6.6 for Windows built 28-May-2025/4:36:02+02:00  commit #8905efb` my game shows a strange behavior, it seems related to `unview` that freezes the game on the Splash screen, when click on the start button. I removed `unview` and forced the user to manually close that window, then the game runs as normal. 
 
-I tested on older versions of Red, `unview` not only closes the window, but also returns control to the next sentence. That behavior has changed, and causes the game freeze, so I'm not sure if it is the wanted behavior, and better to ask here and wait for a prudent while. Ì†ΩÌ∏Å
+I tested on older versions of Red, `unview` not only closes the window, but also returns control to the next sentence. That behavior has changed, and causes the game freeze, so I'm not sure if it is the wanted behavior, and better to ask here and wait for a prudent while. üòÅ
 
 [11:50:27](#8xFzn_0A-xLJ5GF3LksySjsXxpOKudL5X2-qLkUB9XY) <GiuseppeChillemi (GiuseppeChillemi)>:
 qtxie: 
@@ -37598,7 +37598,7 @@ The fix https://github.com/red/red/issues/5613 has triggered the above problem:
 
 [11:51:13](#aS5wvFDM3GSC1isWevsN7ecLDuNx0VJ0dItlH-ZGa1E) <GiuseppeChillemi (GiuseppeChillemi)>:
 * qtxie:
-The fix https://github.com/red/red/issues/5613 has triggered the above problem Ì†ΩÌ±ÜÔ∏è
+The fix https://github.com/red/red/issues/5613 has triggered the above problem üëÜÔ∏è
 
 [11:51:47](#9lMhpMTQnnCZW7GkIM0FNgt4aeptFVw_zVfbfqWzV9U) <GiuseppeChillemi (GiuseppeChillemi)>:
 planetsizecpu (Jose Luis): Please open a ticket or continue from the above one
@@ -37641,7 +37641,7 @@ I tried with `red-view-30may25-979d8e1bf.exe`, seems to work well.
 * Thx, should be fixed with `red-view-30may25-979d8e1bf.exe`.
 
 [7:14:23](#35-y-WdrM3zdQTlRz6FwFT6p-OeptwpiYWt1mkOw_K0) <planetsizecpu (Jose Luis)>:
-Thx qtxie now all right Ì†ΩÌ±å
+Thx qtxie now all right üëå
 
 [21:09:52](#RsVw4_9GZErBvMcTv1DsnvrcTc4wLkiyzgTYHRng2oY) <Boum69 (Boum69)>:
 Hi dear Reducers or Red users :), I am looking for a scrollable panel but my researchs are unsucessfull. Il found the vertical-scroll-panel from mikeyaunish  and I tried without success to add an horizontal scroller. I need a scrollable panel with a vertical and horizontal scroller in order to load images and navigate horizontally an vertically. My next step is to change the scale of the image . I want to zoom and dezoom with the ctrl mouse for instance. I hope someone could help me, to find a scrollable panel please.
@@ -37855,10 +37855,10 @@ To test it youself, "all you have to do" is clone my [ODBC scheme](https://githu
 * mikeyaunish Great achievement, congrats! <del>Works with odbc-driver, too.</del>
 
 [15:21:47](#tv1Q186qqWC5u1IPLbpiEqUb0H9WIsnrU1N0k57MQJs) <gurzgri>:
-Forget the above, looks the sample scripts aren't the ODBC ones I've build together with Toomas back then but use the `call` interface to Sqlite3, PostgreSQL, MariaDB etc. Ì†ΩÌπà
+Forget the above, looks the sample scripts aren't the ODBC ones I've build together with Toomas back then but use the `call` interface to Sqlite3, PostgreSQL, MariaDB etc. üôà
 
 [15:22:01](#ZpfEGWc26aKv4TqjoxcMoxHsQhddhDcvsq_S7FnUnZw) <gurzgri>:
-* Forget the above, looks like the sample scripts aren't the ODBC ones I've build together with Toomas back then but use the `call` interface to Sqlite3, PostgreSQL, MariaDB etc. Ì†ΩÌπà
+* Forget the above, looks like the sample scripts aren't the ODBC ones I've build together with Toomas back then but use the `call` interface to Sqlite3, PostgreSQL, MariaDB etc. üôà
 
 [18:39:41](#Np8E76G1ZOKCVaUgpT3MAceVTzf7quISvIYChHtAbHY) <mikeyaunish>:
 Thanks for checking that out. Let me know what happens with the ODBC stuff. There may be some internal workings that are not identical anymore.
@@ -38241,7 +38241,7 @@ it looks like Github integrations are broken atm, at least it doesn't get past "
 dudes are working hard, what else can be said...
 
 [14:23:52](#mXHpEAmbSstjuRvlXZV9TG3g90T2DAh2Ek4buKB6qpE) <hiiamboris>:
-* dudes are working hard, what else can be said... Ì†ΩÌ±∑Ì†ºÌøæ‚Äç‚ôÇÔ∏è
+* dudes are working hard, what else can be said... üë∑üèæ‚Äç‚ôÇÔ∏è
 
 ## 15-Aug-2025
 
@@ -38404,4 +38404,116 @@ Maybe related with IO, as you are reading a dir too
 
 [22:47:15](#GILl4RdEfxXY-hJjZm8sJVjdtgjYBxBHMvkMX0nDuHE) <greggirwin (Gregg Irwin)>:
 That's why I changed it to do all the outside the view stuff. But we can make those literals or computed as well.
+
+## 21-Sep-2025
+
+[23:43:15](#rPnuCd6_GiCeycvExlBwp8gm_ofUr-lBGyv0N-tHvXM) <GiuseppeChillemi (GiuseppeChillemi)>:
+I have the following code:
+```
+view [
+		area 600x160 on-alt-down [
+		view [area 400x400 with [text: face/text] button "Close" [unview]] 
+		probe face/text 
+		show face
+	]
+]
+```
+Enter a text in the openedd window. Then press right mouse button on the area, another will open with the entered text. Now modify it and hit close. The previous area text should be updated but it isn't. `probe face/text` proves the string has been updated. There is even a `show face`
+
+
+[23:43:43](#VKbLOVNeIfwL-2Mtg8_Kf-IBeLDOEx92gIdRhwG8hoM) <GiuseppeChillemi (GiuseppeChillemi)>:
+* I have the following code:
+
+```
+view [
+		area 600x160 on-alt-down [
+		    view [area 400x400 with [text: face/text] button "Close" [unview]] 
+		    probe face/text 
+		    show face
+	]
+]
+```
+
+Enter a text in the openedd window. Then press right mouse button on the area, another will open with the entered text. Now modify it and hit close. The previous area text should be updated but it isn't. `probe face/text` proves the string has been updated. There is even a `show face`
+
+## 22-Sep-2025
+
+[0:42:47](#5PFJySnyt2g4wJ9DQ_fYxCpb7qK3TVO1wVyENk0a1Mo) <mikeyaunish>:
+Try this instead. I find it better to be explicit when jumping from one window to another.
+```
+view [
+		a1: area 600x160 on-alt-down [
+		    view [ 
+		    	a2: area 400x400 with [text: face/text] 
+			    	button "Close" [
+			    		a1/text: a2/text
+			    		unview
+			    	]
+		    ] 
+		    probe face/text 
+		    show face
+	]
+]
+```
+
+[0:50:42](#DLj7GKOU5feTZVJ1qevhMG8kMUXxEE_6km8gpFXLQ4I) <GiuseppeChillemi (GiuseppeChillemi)>:
+I have created an helper function but also there is something to inspect to understand why my code is not working. I have 8 areas all with the same code and no face name, so being explicit is not possible.
+
+[5:02:42](#BFeZFQB-ueae5Usk92tlIWALe1ep0nYeNXNw92J7zY4) <hiiamboris>:
+A series can only have one owner. This is the current limitation. Don't share series across faces.
+
+[5:03:43](#04AygAV0gOhFaBQPlN4AVl1wq5S9KqHAFULzrE36_N8) <hiiamboris>:
+* A series can only have one owner. This is the current limitation. Don't share series across faces. If you do, at least reassign them so they will be owned again.
+
+[13:32:05](#aY21zSPp5yrE-Rth5xJixrl-_btBj9jRd7vLLf5rVfE) <GiuseppeChillemi (GiuseppeChillemi)>:
+I think that `show face` should refresh the content based on the new facet values.
+
+[13:54:02](#1kDc2eEnpzY_Ns56OjF_9vrXDI6jGN2renR3kg4peUI) <GiuseppeChillemi (GiuseppeChillemi)>:
+* I think that `show face` should refresh the content based on the new facet values.  It is there but it is not doing what I think is its job.
+
+[15:31:29](#Z91C9kB_BOFi5xckdEErWYhl-ThWOAgm7gsgBgd_O4w) <hiiamboris>:
+No, it doesn't work that way. It only applies pending (deferred) changes that were detected by the ownership system, which you already undermined ;)
+
+[18:36:41](#a9rjrBkN6MlmjSTKGlr8ZcXW66phOMZTRnXCexan2ew) <GiuseppeChillemi (GiuseppeChillemi)>:
+:(
+
+[21:03:18](#HtFz3gugogEv2md84KCN8gLADmqG-M8XLg2WigRyIIU) <GiuseppeChillemi (GiuseppeChillemi)>:
+Do we have a function that can force such update. Maybe `REFRESH-IT-NOW-VID!` function.
+
+[21:03:28](#PyDsD0OetAuc6Vh_KPrNEcJ3cgknNNpKkbxL4-ROjIo) <GiuseppeChillemi (GiuseppeChillemi)>:
+* Do we have a function that can force such update. Maybe `REFRESH-IT-NOW-VID! face` function.
+
+[21:13:54](#zXoZASJ0b18gvhGQm9qwZUclzDdV5NNXiCIMzGewgMI) <greggirwin (Gregg Irwin)>:
+You can trick it through reassignment.
+```
+view [
+		area 600x160 on-alt-down [
+		    view [area 400x400 with [text: face/text] button "Close" [unview]] 
+		    probe face/text 
+		    face/text: face/text
+	]
+]
+```
+
+## 23-Sep-2025
+
+[17:43:16](#ySAbsxL4PP93kmpHYufc3iq7w-hBTTbtn614zOJbXkc) <GiuseppeChillemi (GiuseppeChillemi)>:
+It is so simple I have not been able to think about it! 
+
+[17:43:18](#F02Z3JsnJ0UBuMAYVbWnWldhwrjxcaKyTbHkrtw_134) <GiuseppeChillemi (GiuseppeChillemi)>:
+:D
+
+[17:56:18](#GIjLkNToGIz5BOQHKNkvxmaBktURg7REiM18UaKNlog) <hiiamboris>:
+* A series can only have one owner. This is the current limitation. Don't share series across faces. If you do, at least **reassign** them so they will be owned again.
+
+[17:56:31](#b9dVgTMh3dHYo2ZABRs1USp4t-LAVpUK7Cqc-TXvhVw) <hiiamboris>:
+> <@hiiamboris:tchncs.de> A series can only have one owner. This is the current limitation. Don't share series across faces. If you do, at least **reassign** them so they will be owned again.
+
+üëÜ
+
+[18:41:44](#vWtCqT5wPVPjnWDlRmNd3aRLTXoppYp7aQ_d6vysp9I) <GiuseppeChillemi (GiuseppeChillemi)>:
+Your "reassign" has caused a little confusion in me thinking I should assign a different series but it has been a wrong interpretaion of what you have written
+
+[19:08:30](#wwIIbyEPuIMFySjVe1J9gQucT75nREDqFAL1rEYHtMg) <greggirwin (Gregg Irwin)>:
+Yeah, that's the "trick".
 

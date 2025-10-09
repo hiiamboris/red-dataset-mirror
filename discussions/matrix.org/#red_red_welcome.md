@@ -53,7 +53,7 @@ You can spec the port either as a URL or with a block scheme. Once open, the sta
 @greggirwin  Thank you very much
 
 [0:22:23](#d3v8nhSDN9m8g9lX4an6zSE6m5tP-2nqRxDDbitKhXU) <Sergey_Vladivostok_gitlab (Sergey Vladivostok)>:
-R2 dont see COM4 Ì†ΩÌ∏ü https://ibb.co/Y0HDsG5
+R2 dont see COM4 üòü https://ibb.co/Y0HDsG5
 
 [0:24:14](#xhhrWwWSAi2l-goSursL4zFrlX6cJj7F37FTxvn10sI) <greggirwin (Gregg Irwin)>:
 Is it built in, or via a USB adapter?
@@ -79,9 +79,6 @@ Hi. I have a fairly noob question https://stackoverflow.com/questions/65496326/h
 I think windows ico needs to be below a minimum size too?
 
 [17:45:58](#TNb50JnLbPFO4jLNDxK4ouidD4E06DTAi-OLuqtTgzI) <jakubiszon (Jakub Z)>:
-the file itself is 766 bytes
-
-[17:46:50](#CG5JfwXB3XgV0sxgEXXHUKClSgbo_yQqBN7UqOjwhcg) <jakubiszon (Jakub Z)>:
 the file itself is 766 bytes
 
 [17:48:23](#zsNWgDZUmtS14fE_WFfuqB4YcPIFph9s23hbtNfS5rA) <ne1uno (ne1uno)>:
@@ -114,7 +111,7 @@ Thanks Brock, and Happy New Year to everyone!
 Woohoo! Somehow I knew this was coming. ;^)
 
 [22:09:02](#BoHny1q6luckMhbSwdVzdImfXEU7YvBSdUwa7VZ_Jf0) <toomasv>:
- Ì†ΩÌ∏Æ
+ üòÆ
 
 ## 7-Jan-2021
 
@@ -186,7 +183,7 @@ No issues at all. It should build you a new console and you're all set.
 ## 8-Jan-2021
 
 [8:18:25](#qBEkv86WzbV-z8BTU2lPn-oi4GT7jAjQEpZYNtTR0LI) <planetsizecpu (Jose Luis)>:
-Welcome @JohnBlood_gitlab hope you like programming & Red Ì†ΩÌ∏â
+Welcome @JohnBlood_gitlab hope you like programming & Red üòâ
 
 [18:51:00](#e1d_gYBMnetE3mSrrtVdiCd_NGoOWCSi0NmHMDMcYkc) <JohnBlood_gitlab (John Paul Wohlscheid)>:
 @planetsizecpu Here's hoping
@@ -209,7 +206,7 @@ https://github.com/planetsizecpu/Cave-In
 ## 9-Jan-2021
 
 [13:40:15](#kZ-iE4GDdOfvGQJsXxSE8t7VdqSUmWgpO8v-Ki67LyM) <planetsizecpu (Jose Luis)>:
-@gltewalt Thanks for be hands on! @greggirwin I do chat about the game on [gui-branch](https://gitter.im/red/red/gui-branch) and the code is ready on the link @gltewalt wrote Ì†ΩÌ±å
+@gltewalt Thanks for be hands on! @greggirwin I do chat about the game on [gui-branch](https://gitter.im/red/red/gui-branch) and the code is ready on the link @gltewalt wrote üëå
 
 ## 13-Jan-2021
 
@@ -517,91 +514,7 @@ w/actors: context [
 ]
 view  w  
 ```
-Thanks again if you have some light for me  Ì†ΩÌ∏â
-
-[20:52:04](#xU6c-xk2Sv4x0uzIU_-MZ7n666Upi0hnsdJMXbiCqVs) <tinulac-leinad (Tinulac)>:
-Hi All, 
-3 question on this code that I cant figure the way to resolve...
-questions in the code after  ;<<<<<<<<<<<<<<<<<<<<<<
-Many thanks for help ans answers,
-Daniel
-```
-w: layout [
-  title "Sets Lists Tools"
-  size 1200x850
-  across
-
-  list-of-tunes: text-list 585x400 data [
-                  %test1.png
-                  %test.png
-                ] 
-               on-up [
-                  path: to-file rejoin [D_TMP pick face/data face/selected]
-                  img: to-image load path
-                  ns: reduce [new-size 585x400 img/size]
-                  prin img/size prin " - " prin path prin " - " print ns ; <<<<<<<<<<<<<<<< 1) one mouse Up, printed 2 times ?
-                  the-score: image ns to-file path  ; <<<<<<<<<<<<<<<<<<<<<<<<< 2) dont works. mabe with actor ? But how ?
-                                                                                    ; <<<<<<<<<<<<<<<<<<<<<<<<<      in view [  the-score: image ns to-file path ] that works fine
-                  print "---------------------------------------------------" ; <<<<<<<<<<<<<<<<<<< never printed as long de previous line is is not commented (logical :)
-                ]
-
-  tp: tab-panel bold 585x400 [
-    "partition " [
-      the-score: image 200x200 %music.png react [face]
-
-		]
-	]
-]
-
-w/menu: [
-  "Fichiers" [
-    "Fichiers ABC" [
-      "Create PDF" to-pdf
-      "Create incipit PDF" incipit-pdf
-    ]
-    ---
-    "Quit Ctrl-Q" kwit
-  ]
-  "Aide"[
-    "A propos" about-help
-  ]
-] 
-
-w/actors: context [
-  on-close: func [face event][ save-data]
-  on-key: func [face event][  ;<<<<<<<<<<<<<<<<<<<<<<<<<<< 3 ) All reactors works but  on-key not ?
-    print reduce event/key     ;<<<<<<<<<<<<<<<<<<<<<<<<<<< I have tested few samples that works fine and I don't understand why not here...
-		switch event/key [
-		"^Q"  [
-			      save-data
-                             quit
-		      ]
-		]
-	]
-  on-menu: func [ face event][
-    if event/picked = 'to-pdf [
-      abc-to-pdf request-file/title/file/filter
-      "Select ABC Files "
-      D_SOURCE_ABC_FILES
-      ["ABC Files " "*.abc"]
-    ]
-    if event/picked = 'incipit-pdf [
-      incipit-abc-file request-file/title/file/filter
-        "Select Abc File"
-        rejoin [D_SOURCE_ABC_FILES %*.*]
-        ["ABC Files " "*.abc"]
-    ]
-    if event/picked = 'about-help [
-    ]
-    if event/picked = 'kwit [
-      save-data
-      quit
-    ]
-  ]
-]
-view  w  
-```
-Thanks again if you have some light for me  Ì†ΩÌ∏â
+Thanks again if you have some light for me  üòâ
 
 [21:25:04](#qifqdJNctejh_r-v9xVzUgGt0FGE-GhNTNjhtDd1haE) <tinulac-leinad (Tinulac)>:
 about my previous post 
@@ -686,7 +599,7 @@ Your help and kindness is really  appreciate, it is an encouragement to continue
 Glad you got it working. :+1:
 
 [19:48:16](#l8wbleWuACyR3wPfF3CHAFsp-Jnvou7tjbmLgoKU4pw) <tinulac-leinad (Tinulac)>:
-On-key... curious thing (for me Ì†ΩÌ∏â )
+On-key... curious thing (for me üòâ )
 a simplified code (can run with no extra dependencies)
 The first code works fine, the second none 
 ```
@@ -747,7 +660,7 @@ w/actors: context [
       print "ABC fil selected"
       ;abc-to-pdf request-file/title/file/filter
       ;"Select ABC Files "
-      Ì†ΩÌ∏É_SOURCE_ABC_FILES
+      üòÉ_SOURCE_ABC_FILES
       ;["ABC Files " "*.abc"]
     ]
     if event/picked = 'incipit-pdf [
@@ -802,7 +715,7 @@ w/actors: context [
       print "ABC fil selected"
       ;abc-to-pdf request-file/title/file/filter
       ;"Select ABC Files "
-      Ì†ΩÌ∏É_SOURCE_ABC_FILES
+      üòÉ_SOURCE_ABC_FILES
       ;["ABC Files " "*.abc"]
     ]
     if event/picked = 'incipit-pdf [
@@ -1038,13 +951,10 @@ view w
 [18:21:52](#zZYIMsgnP-VfsUdNE3E_hLubG1NPU_uyDTFbKRm_Ygc) <greggirwin (Gregg Irwin)>:
 Your latest question I'll have to make time for, if nobody else answers.
 
-[19:31:31](#U7kPwEV5bIYeVv_Xj1Y-E3Lgl_voE1rlZTFzTFpwL_8) <toomasv>:
-Your latest question I'll have to make time for, if nobody else answers.
-
 [19:36:12](#OhmYoBnmHg3jX6VVmjUqPxeyzhaBeMEoYS7B7ZWHr1o) <tinulac-leinad (Tinulac)>:
 @greggirwin Thanks for your time Gegg,
 My last post is there because I have solved some problems, and... more precise question. I have rewrite my sample code in a gist  with a lot of comments, to explain around the code.
-So, it's realy a good Idea to isolate the code. Sometime, the errors message produced by the interpreter are actualy not alway very helpful and sometime  there is no message at all Ì†ΩÌ∏â
+So, it's realy a good Idea to isolate the code. Sometime, the errors message produced by the interpreter are actualy not alway very helpful and sometime  there is no message at all üòâ
 
 
 [19:39:24](#Nt8o5lHO6M3_lsMEkEsL5sdGsnmgkk-Sk2FmMaaU6e8) <tinulac-leinad (Tinulac)>:
@@ -1078,7 +988,7 @@ Nice! Thanks to both of you.
 @planetsizecpu interesting code but a lot of problems with macOS
 
 [22:14:39](#xnLxnBsOuwV47ggLJeDNZ88YYRbQynhUJ8qDHvDNB2s) <planetsizecpu (Jose Luis)>:
-@ldci Unfortunately I don't have a Mac machine for testing Ì†ΩÌ∏î
+@ldci Unfortunately I don't have a Mac machine for testing üòî
 
 [22:59:56](#sB_Hc6UjsLjpHKcwNogCDvW9F84_P98gLEIwOyII8hg) <ldci (Fran√ßois Jouen)>:
 @planetsizecpu Don‚Äôt worry.If I had time I‚Äôll check for OSX
@@ -1102,9 +1012,6 @@ This could help ignite some projects we have back burnered as well. Like `[split
 
 ## 8-Feb-2021
 
-[1:57:49](#mj7farwewFm-XF93WDON1jjez32FuDOydu-J7n90n-4) <15926222352 (redsea)>:
-This could help ignite some projects we have back burnered as well. Like `[split HOF aggregators]`.
-
 [9:54:48](#eR-bwGmgp0dwOODuJPiHN6sIdIULi-83ykL1rAL6du8) <Sergey_Vladivostok_gitlab (Sergey Vladivostok)>:
 Guys, is Windows XP no longer supported? Red-19apr19....exe works great, but red-05-Feb-21....exe first required d3d11.dll, and then gives an error in gui-console-2021-2-5-378.exe - "procedure entry point _except_handler4_common not found in library msvcrt.dll (version 7.0.2600.5512)  What are the minimum system requirements for the future Red v 1.0? 
 
@@ -1121,7 +1028,7 @@ Guys, if we concentrate upon supporting 20 years old system, it is going to slow
 I believe if someone really needs it they can maintain their own fork.
 
 [10:31:52](#PWlvUVGXNdO_3W1xG4HuerSAZDqfE7u29DZaIJyyQsA) <Sergey_Vladivostok_gitlab (Sergey Vladivostok)>:
-@rebolek Are there separate "core" and "view" versions of Red? The one that downloading from red-lang.org gives an error. D3d11.dll I shoved (ver 7.0.6002.18107 work in XP), but what to do with msvcrt.dll I don‚Äôt know Ì†ΩÌ∏ü  About fork - not everyone can make their own clothes from wool, their medicines from herbs, their own fork of the programming language from source :) Although the presence of such a possibility is a huge plus. 
+@rebolek Are there separate "core" and "view" versions of Red? The one that downloading from red-lang.org gives an error. D3d11.dll I shoved (ver 7.0.6002.18107 work in XP), but what to do with msvcrt.dll I don‚Äôt know üòü  About fork - not everyone can make their own clothes from wool, their medicines from herbs, their own fork of the programming language from source :) Although the presence of such a possibility is a huge plus. 
 
  @pekr if "closed", then "closed". For now, I'm using the old version. 
 
@@ -1359,8 +1266,8 @@ Ok thank you I will try !
 
 ## 7-Apr-2021
 
-[15:44:30](#gg6e91hlsOK3t5ef-YE9IZxOkBUoAtRb4z2WQf_bgLo) <ElCarvoOficial_twitter (El Carvo Ì†ºÌ∑®Ì†ºÌ∑∫)>:
-Hi Ì†ΩÌπãÌ†ºÌøª‚Äç‚ôÇÔ∏è
+[15:44:30](#gg6e91hlsOK3t5ef-YE9IZxOkBUoAtRb4z2WQf_bgLo) <ElCarvoOficial_twitter (El Carvo üá®üá∫)>:
+Hi üôãüèª‚Äç‚ôÇÔ∏è
 
 [15:45:13](#2lJhBP1sveUZLd5qQWIZsZougN0NTV5JCL9epzUFAXs) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 Hi!
@@ -1643,10 +1550,10 @@ view make face! [type: 'window size: scrn/1/size / 2]
 ```
 
 [20:00:46](#FsuWd5q8kSvyUzujhTImc5Av0lgJLmpKXK37jfZq42U) <hiiamboris (NOT THIS ONE)>:
-where's `do` variant? Ì†ΩÌ∏â
+where's `do` variant? üòâ
 
 [20:19:30](#1UYtYhrUL9X-E9txaN5pZzHDktt5_mNK4zNrE8sqmhg) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌªé
+üõé
 
 [20:41:16](#kuEe8FEFGfgfUZK-rMcPkDd5pDUgeNwBkvePJYzQw7k) <greggirwin (Gregg Irwin)>:
 We really need super-sized emojis.
@@ -1680,7 +1587,7 @@ Use a block argument.
 Except for block argument, no other better way  to achieve my idea?
 
 [6:59:06](#f5HoGKweOY75gb7IJFof3qmrBErS4mdEdxHNPqD_FAg) <hiiamboris (NOT THIS ONE)>:
-Write your own dialect. Or declare 'f' with thousands of literal arguments of type 'unset! integer!' Ì†ΩÌ∏â
+Write your own dialect. Or declare 'f' with thousands of literal arguments of type 'unset! integer!' üòâ
 
 [6:59:34](#tI-y8GKFH0AefYYJAYshx7pAn4Me03NoSg_k0v-ugRg) <hiiamboris (NOT THIS ONE)>:
 But latter is a joke. Don't do that.
@@ -1906,7 +1813,7 @@ do %tmp.red
 ```
 
 [13:28:59](#zQwSubOPLbPvuUTY8AZZjB7sqyxw6iF-CVlpLUZOlVA) <hiiamboris (NOT THIS ONE)>:
-`s/1` wouldn't be more readable? Ì†ΩÌ∏â
+`s/1` wouldn't be more readable? üòâ
 
 [13:29:22](#2MyW_-A-72mrfJ3EHWdL9ndR7moNGWibk1nwp0-08c4) <toomasv>:
 * Thanks @hiiamboris Here is version without global words:
@@ -2018,7 +1925,7 @@ As you noted, this is about exploration and learning.
 Well, 
 > There is nothing macros can do that you can't do with regular code, with the same expressive power. Macro support in interpreted code is just for compatibility with the compiler.
 
-I have already collected a bunch of macro solutions that disprove the above statement Ì†ΩÌ∏â
+I have already collected a bunch of macro solutions that disprove the above statement üòâ
 
 [19:50:57](#OHaTrp7BcFcfnO0ZydkrR7MSZ3jUvTF7Z6vkl4Y_eRw) <greggirwin (Gregg Irwin)>:
 Good thing it's a wiki then. 
@@ -2086,9 +1993,6 @@ ah
 [16:03:07](#5xJfSGUkjFP5nl7knlbIAID9jbDapjbovujrLWHHbAM) <hiiamboris (NOT THIS ONE)>:
 so maybe you're just looking for `dir?`?
 
-[16:04:40](#RJTBAJ6ZgNeRQ8yvS5TBX_mQll49TKfZCosK4WJJ7dM) <lylgithub2021 (lylgithub2021)>:
-so maybe you're just looking for `dir?`?
-
 [16:08:59](#Jn_i5FYJ5KptlTk1MiJN425U4LstWOlWmzbewHJSznY) <lylgithub2021 (lylgithub2021)>:
 Yes, It is. Many thanks! And, is there a way to convert a  reletive path to absolute path?
 
@@ -2111,9 +2015,6 @@ No function such like "red-complete-path" in Red to acquire the real absolute pa
 If you have a relative path, it has to use *something* as a base to make an absolute path out of it, so I'm not sure what you mean by "the *real* absolute path".
 
 ## 22-Apr-2021
-
-[0:45:09](#QgmDmL4lH8mH4wtLpVwrac325Nu_VWhHfGY1y2m5xLY) <lylgithub2021 (lylgithub2021)>:
-If you have a relative path, it has to use *something* as a base to make an absolute path out of it, so I'm not sure what you mean by "the *real* absolute path".
 
 [0:49:40](#jchGWqjlFZ4KeqirU82WtOuunRWD9kiWLqwY29hvA6c) <lylgithub2021 (lylgithub2021)>:
 @greggirwin  I'd like to list all files in a given directory(which contains sub-directories) to a block with this:
@@ -2175,16 +2076,7 @@ I guess the docstring could be more specific about it though.
 
 ## 26-Apr-2021
 
-[4:51:35](#BzG_cT_-zSsVJVeTRlTQlRp-aAzrfdKNMm5ilRmsn-w) <ams02468 (ams02468)>:
-I guess the docstring could be more specific about it though.
-
 [5:00:58](#51K-IBtpa9Ie9Zff1YRjhm6OKXh3GrG40ALXomZ_HKQ) <ldci (Fran√ßois Jouen)>:
-Do you include needs: view in Red header?
-
-[5:10:07](#LYzxbk-OlwUt1a23Y7ePSaVl42wVmqoCkbBBT0b460M) <ams02468 (ams02468)>:
-Do you include needs: view in Red header?
-
-[5:13:48](#FfsFir-Peoec5UGgDwotsoXra_LmyxInMqupJu77mxw) <ams02468 (ams02468)>:
 Do you include needs: view in Red header?
 
 [5:14:19](#QeKSs-CyulC1k8MM8IfRCOX9B12V1Y8gVU8-o0Oz4MY) <ams02468 (ams02468)>:
@@ -2395,7 +2287,7 @@ filter: func [a-func series  /clean ] [
   ]
 ]
 
-probe filter Ì†ΩÌ∏ñtring? [1 2 "a" 3]
+probe filter üòñtring? [1 2 "a" 3]
 ;;["a"] wanted, but get:
 ;;*** Script Error: keep has no value
 ```
@@ -2472,17 +2364,17 @@ filter: func [a-func series  /clean ] [
     ]
 ]
 
-probe filter Ì†ΩÌ∏ñtring? [1 2 "a" 3]
+probe filter üòñtring? [1 2 "a" 3]
 ```
 
 [18:59:44](#ELNWNzJV4BaLQwRPClsSVoLifIflehQeAwCSzojvbdo) <hiiamboris (NOT THIS ONE)>:
-@greggirwin you just made his code very inefficient Ì†ΩÌ∏â
+@greggirwin you just made his code very inefficient üòâ
 
 [19:03:49](#JbBAWTGqicfGTkx0mUpDyyZTm0_FFVNls-_NJtN-rXI) <greggirwin (Gregg Irwin)>:
 As I am wont to do. :^) I just wanted to show that dropping it inside, the "where" part, is important to Red. Besides, if I don't write slow, inefficient code, what are you going to do with all your free time?
 
 [19:04:39](#nECEo6jrmHMSjwyC9B5CKCPdEc-9JL1p7EtHBRFvly8) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ∏É
+üòÉ
 
 ## 7-May-2021
 
@@ -2548,9 +2440,6 @@ yes, I just gave you the link
 i find nothing to help me
 
 [13:20:08](#4j-eJAStO52ld3LYzF1qvUifJDOsurz0vy39YxBtcGM) <hiiamboris (NOT THIS ONE)>:
-those special directories are called "process environment"
-
-[13:39:35](#fJwDz9Ju8WCTHHvGUw1zwpKU0Dc15RXM22YU9bSLOhE) <ams02468 (ams02468)>:
 those special directories are called "process environment"
 
 [14:35:17](#Vs4_iQi0KxY8TC7xXRee6TnHjmnrj2rWXixZcoJrG08) <hiiamboris (NOT THIS ONE)>:
@@ -2626,11 +2515,6 @@ I never liked emacs, so no idea.
 
 Direct link to sources.zip: https://github.com/red/red/archive/refs/heads/master.zip
 
-[15:34:05](#LBleO9ZzNWxjBpeB31oVTzZ5ZQL_gK3kLl9g5PQCJTI) <ams02468 (ams02468)>:
-> Yeah, I think they decided to discontinue it. Just download it from Github directly.
-
-Direct link to sources.zip: https://github.com/red/red/archive/refs/heads/master.zip
-
 [15:36:26](#I-TUG07vlJhAYXE04hUZV1RVBXXzrvZqC738NvGv8WE) <ams02468 (ams02468)>:
 hi guys i have simple code example
 ```
@@ -2649,9 +2533,6 @@ How to print only lines 2 to 4?
 use `split`
 
 [17:27:53](#e3BMoj2TaH1A7-sVPHwTK1GT8d3BWcrKPYA4c3-8ceg) <greggirwin (Gregg Irwin)>:
-And maybe `copy/part` after splitting.
-
-[20:16:54](#Usido9Q_6ZJi1k8_LfoX29mXX2xS6DvkLGn_6OAVHOs) <ams02468 (ams02468)>:
 And maybe `copy/part` after splitting.
 
 [20:21:40](#-M8pwdDY1i0RHE1IWktiX05W1zTvotdhdqNmQtUmbGo) <ams02468 (ams02468)>:
@@ -2785,9 +2666,6 @@ That's just I need. Thank you so much for these very useful  info!  And I tried 
 `view [base focus on-key-down [if all [event/key = #"1" event/shift?] [print "Yesss!"]]]` is a correct way. Why is `if event/key = #"!" [print...]` wrong way?
 
 [13:22:41](#DVEExAMGSvpoSS-l9TguOla4t9KnTGYLgVXk9R0tOKE) <hiiamboris (NOT THIS ONE)>:
-because `key-down` and `key-up` events do not translate keys into characters
-
-[13:37:41](#NM4k3dJ5AxbG9nWBaVZTLWp6i_BTFR_xevJLoVJwih0) <lylgithub2021 (lylgithub2021)>:
 because `key-down` and `key-up` events do not translate keys into characters
 
 [15:29:07](#op_5d1siyOXCuqduUKv2g8URANqVnOAsEmDjzYLnLyk) <greggirwin (Gregg Irwin)>:
@@ -3008,9 +2886,6 @@ Does red support SaveFileDialog?
 [3:11:16](#pfvoIe2jov4a9Gn2DuFOVY_Z-vO6ckMWM6gk97ONhyg) <greggirwin (Gregg Irwin)>:
 @ams02468 yes, see my message above.
 
-[3:36:42](#06utp9mkwstUp-L78CL8FyWUhdnrlIbXCOciNphJzm0) <ams02468 (ams02468)>:
-@ams02468 yes, see my message above.
-
 [3:37:09](#FhLtpjsH9MzWI_trih3IVfwLVIvv8ZTZsPYakeo1CKM) <ams02468 (ams02468)>:
 * Yes I saw the above message and checked but what I wanted was not in red I found these 3 commands `request-font` `request-dir` ` request-dir` but what I need is something like [this](https://www.google.com/search?q=SaveFileDialog&safe=active&client=firefox-b-d&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjjq7mSqdfwAhXaUhUIHasPDlgQ_AUoAXoECAEQAw&biw=1536&bih=768#imgrc=fox8mlb32raPVM)
 
@@ -3044,7 +2919,7 @@ depends on data itself, as strings use different encodings internally
 To think of it, no idea.. Depends on how compiler uses it (:
 
 [17:21:25](#V_iFXdP8GspK0ewRmlItpZn1WPBi4hL_pJWWVQXSOPA) <hiiamboris (NOT THIS ONE)>:
-Let me guess. You wanted to bloat your exe with random junk to make it big and solid looking? Ì†ΩÌ∏É
+Let me guess. You wanted to bloat your exe with random junk to make it big and solid looking? üòÉ
 
 [18:04:24](#qmUD2aXV093QQTeyiXjXj5TTv0ZQDctTX633TpyMHEw) <ams02468 (ams02468)>:
 No I'm trying to make something like sfx
@@ -3068,9 +2943,6 @@ One thing you can do is decode that payload in chunks, e.g. 100M each.
 Next limit will be max file size Red can read or write, which I haven't tested.
 
 ## 22-May-2021
-
-[8:27:17](#EQuSh75aHnCfI_nS2hZW6DEoXGg8XeJXgFPHBb4M268) <lylgithub2021 (lylgithub2021)>:
-Next limit will be max file size Red can read or write, which I haven't tested.
 
 [8:33:18](#aXplOEVdE6RAJkX5KNY_lMTc4a7GM5SnpZPK2PGPaec) <lylgithub2021 (lylgithub2021)>:
 I have two files named "`1.red`", "`2.red`" in the folder `%./0/`.I tried to get them with relevant path like this:
@@ -3197,13 +3069,13 @@ works perfectly! thank you very much!
 
 ## 25-Jun-2021
 
-[0:47:46](#YV5Kxvplrnr65VV94R87saJ006NlEJHiQPe1GwTpC54) <hardkorebob (hardkorebob)>:
+[0:47:46](#YV5Kxvplrnr65VV94R87saJ006NlEJHiQPe1GwTpC54) <hardkorebob (RoberRodri)>:
 Just getting Red compiled! :)
 
-[0:50:20](#mpIUfrkl13pVXWaZr_NCUVkr-IeTv_sX4k1qy_wbpTk) <hardkorebob (hardkorebob)>:
+[0:50:20](#mpIUfrkl13pVXWaZr_NCUVkr-IeTv_sX4k1qy_wbpTk) <hardkorebob (RoberRodri)>:
 Unfortunate the Last update on 20-Dec-2019 for red by example website
 
-[0:50:48](#hOdb17pRENzMKy9WDLoukNkSHR6bfF7Aa7-wNRYE-Z8) <hardkorebob (hardkorebob)>:
+[0:50:48](#hOdb17pRENzMKy9WDLoukNkSHR6bfF7Aa7-wNRYE-Z8) <hardkorebob (RoberRodri)>:
 Yet soo much to learn
 
 [1:05:59](#eE9khAVQCjtmUJ3fDPh4CQmdlzPgPCBxTow7LfKat7Q) <gltewalt (Greg T)>:
@@ -3229,16 +3101,16 @@ https://github.com/red/red/wiki/Examples
 And for good measure... bookmark it and worry about it after you get your feet under you:
 https://github.com/red/docs/blob/master/en/style-guide.adoc
 
-[1:24:35](#ewxJjJwuRI_-xxCqfnqNIVHk_kXMP5xv1kuvhxXAlVI) <hardkorebob (hardkorebob)>:
+[1:24:35](#ewxJjJwuRI_-xxCqfnqNIVHk_kXMP5xv1kuvhxXAlVI) <hardkorebob (RoberRodri)>:
 /hello: error while loading shared libraries: libgdk_pixbuf-2.0.so.0: cannot open shared object file: No such file or directory
 
-[1:24:43](#bLmUtYOsMF0Jvi48mQkZCCqOGslLf9CNsRf-Tj2-BwE) <hardkorebob (hardkorebob)>:
+[1:24:43](#bLmUtYOsMF0Jvi48mQkZCCqOGslLf9CNsRf-Tj2-BwE) <hardkorebob (RoberRodri)>:
 I have that library
 
-[1:24:44](#RU6nOLAh2MoPyHhjRiHAmKKUggcXR8LuXVQD8ndDdW8) <hardkorebob (hardkorebob)>:
+[1:24:44](#RU6nOLAh2MoPyHhjRiHAmKKUggcXR8LuXVQD8ndDdW8) <hardkorebob (RoberRodri)>:
 Ugh
 
-[1:26:03](#RvRpyAMk3Rr3IylQlkPo2N43ZA-p4M0ITz63aDZhS8k) <hardkorebob (hardkorebob)>:
+[1:26:03](#RvRpyAMk3Rr3IylQlkPo2N43ZA-p4M0ITz63aDZhS8k) <hardkorebob (RoberRodri)>:
 Cant run ./console either
 
 [1:29:29](#_XcP4UGjKzvCNm5udIIL32QW_XDLQo6Q_wLbKrrcRxU) <gltewalt (Greg T)>:
@@ -3254,19 +3126,19 @@ https://www.red-lang.org/p/getting-started.html
 [1:34:04](#UvI5WzFGITbcc75wDkoDhZTD642WYqi6FXoMPj_GrGQ) <gltewalt (Greg T)>:
 I usually change the name of the download to `red`, move it into my home directory and `chmod` it. Then `./red` should start the console building process.
 
-[1:57:17](#dCIGNrkV7PDqGCS9ETPS23auVendN6ud0Tu1spJTP5o) <hardkorebob (hardkorebob)>:
+[1:57:17](#dCIGNrkV7PDqGCS9ETPS23auVendN6ud0Tu1spJTP5o) <hardkorebob (RoberRodri)>:
 I followed building from source using Rebol
 
-[1:57:38](#C9ZT3rr_pHGVpUrAJAViICeOSt6986-1It9Jj0FIkmg) <hardkorebob (hardkorebob)>:
+[1:57:38](#C9ZT3rr_pHGVpUrAJAViICeOSt6986-1It9Jj0FIkmg) <hardkorebob (RoberRodri)>:
 Running Red from the sources (for contributors) <<<
 
-[1:58:46](#uE_9T0qSlGLs4bMIPuccNx2skjIAZvxGcNjy9LQLCcw) <hardkorebob (hardkorebob)>:
+[1:58:46](#uE_9T0qSlGLs4bMIPuccNx2skjIAZvxGcNjy9LQLCcw) <hardkorebob (RoberRodri)>:
 chmod it? its already an executable
 
-[1:59:02](#KnPq-q3WbSSuEdGyx0MwhB52PdDTki_pMzTyTbcHYZA) <hardkorebob (hardkorebob)>:
+[1:59:02](#KnPq-q3WbSSuEdGyx0MwhB52PdDTki_pMzTyTbcHYZA) <hardkorebob (RoberRodri)>:
 rwxr--r-- 1.2M hardkorebob 24 Jun 21:19  console
 
-[2:01:03](#3Cw1rseoex4j7d6fK-thabgz_ofOZkAVKBVT3Kgp6dE) <hardkorebob (hardkorebob)>:
+[2:01:03](#3Cw1rseoex4j7d6fK-thabgz_ofOZkAVKBVT3Kgp6dE) <hardkorebob (RoberRodri)>:
 doing $ chmod +x == rwxr-xr-x 1.2M hardkorebob 24 Jun 21:59  console... and even then I get the same error
 
 [2:04:05](#GQry0KZi0-EX5YFF6KeHuE3S-jCNfiBiEALfYSus3VI) <gtzip (gtzip)>:
@@ -3281,10 +3153,10 @@ Yeah.  Like `yum install gtk2.i686`
 [7:26:15](#UvC9DR6BLA3T1TGvxmU4bHMe6VgNc0TU13IyLcWznGA) <hiiamboris (NOT THIS ONE)>:
 Instructions are on the downloads page.
 
-[19:13:27](#hEjEzBv1qHjV54PIX2xGkjv3xIhIUnivWbWR3-on93A) <hardkorebob (hardkorebob)>:
+[19:13:27](#hEjEzBv1qHjV54PIX2xGkjv3xIhIUnivWbWR3-on93A) <hardkorebob (RoberRodri)>:
 Running the autobuild
 
-[19:16:01](#tHwuPG1UKiZagNgQCtM2-2SLZE-N198_U_uB20VpJv0) <hardkorebob (hardkorebob)>:
+[19:16:01](#tHwuPG1UKiZagNgQCtM2-2SLZE-N198_U_uB20VpJv0) <hardkorebob (RoberRodri)>:
  ‚ï∞‚îÄŒª ./red-25jun21-fe27c1d30
 Compiling compression library...
 Compiling Red console...
@@ -3295,7 +3167,7 @@ Compiling Red console...
  ‚ï∞‚îÄŒª find /usr -name libgdk_pixbuf-2.0.so.0
 /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0
 
-[19:16:28](#JK4xicck4ES22aEdcgYUZcAdP07Majgybt9ulU2Pcts) <hardkorebob (hardkorebob)>:
+[19:16:28](#JK4xicck4ES22aEdcgYUZcAdP07Majgybt9ulU2Pcts) <hardkorebob (RoberRodri)>:
 Where is it looking for the library
 
 [19:28:04](#kNfsLS3bfTcgl6D6F9HSfpN4dndkYYYASd_19UrC96s) <Respectech (Respectech)>:
@@ -3310,31 +3182,31 @@ downloads page is this one: https://www.red-lang.org/p/download.html
 [20:00:02](#MaDHv20G29lj1dUV6GlcZzSP98TtofmgyiuofRK1shk) <Respectech (Respectech)>:
 @hardkorebob On Arch (Garuda), I had to perform the following command to get red-latest to run: `sudo pacman -Syu lib32-curl lib32-gtk2 lib32-gtk3` 
 
-[22:22:21](#gBbVGx3wkP1lZ3gw8237jEi9T9s8f9bCHPR-NNCBVDs) <hardkorebob (hardkorebob)>:
+[22:22:21](#gBbVGx3wkP1lZ3gw8237jEi9T9s8f9bCHPR-NNCBVDs) <hardkorebob (RoberRodri)>:
 Oh lord! Im such a dummy
 
-[22:22:33](#nVXWnuzj3rdyhiNhvIklcNUOmkk2PrJ4me-5xuITp8M) <hardkorebob (hardkorebob)>:
+[22:22:33](#nVXWnuzj3rdyhiNhvIklcNUOmkk2PrJ4me-5xuITp8M) <hardkorebob (RoberRodri)>:
 I never saw the instructions on the download page
 
-[22:22:33](#5BXUkujkYYXiOW779Pi7iJHVL2HEbObELq53ZCQjohU) <hardkorebob (hardkorebob)>:
-Ì†ΩÌ∏ü
+[22:22:33](#5BXUkujkYYXiOW779Pi7iJHVL2HEbObELq53ZCQjohU) <hardkorebob (RoberRodri)>:
+üòü
 
-[22:22:44](#Lp4_QkTnz9-K3yw9uLvBzasytqEC_DxqMc5dwM--pFs) <hardkorebob (hardkorebob)>:
+[22:22:44](#Lp4_QkTnz9-K3yw9uLvBzasytqEC_DxqMc5dwM--pFs) <hardkorebob (RoberRodri)>:
 Thank you @Respectech 
 
-[22:30:58](#7hqeMCsYAWyccqKXDBQfXikPU8nui7a2dXCcsjUIFcs) <hardkorebob (hardkorebob)>:
+[22:30:58](#7hqeMCsYAWyccqKXDBQfXikPU8nui7a2dXCcsjUIFcs) <hardkorebob (RoberRodri)>:
 Reporting after installation of 32bit deps. I have the Red prompt from the AutoBuild! :) 
 
-[22:33:36](#jV06q_uCqMVmImS0twKMwQeN0hkOOJjQnrq6s5SAHXQ) <hardkorebob (hardkorebob)>:
+[22:33:36](#jV06q_uCqMVmImS0twKMwQeN0hkOOJjQnrq6s5SAHXQ) <hardkorebob (RoberRodri)>:
 Compiled from latest git clone. Success as well.
 
-[22:37:34](#my_fHZ-p3k-TY1_sqJCFffyDM4ry8Sh92hy6XLkYRIs) <hardkorebob (hardkorebob)>:
+[22:37:34](#my_fHZ-p3k-TY1_sqJCFffyDM4ry8Sh92hy6XLkYRIs) <hardkorebob (RoberRodri)>:
 This normal?
 
-[22:37:37](#yqLA0OaBqZnXNEz8wa3kikK2zKVGb_HLDmwBN5fqprQ) <hardkorebob (hardkorebob)>:
+[22:37:37](#yqLA0OaBqZnXNEz8wa3kikK2zKVGb_HLDmwBN5fqprQ) <hardkorebob (RoberRodri)>:
 https://nopaste.net/gtkWarningsForLatestRedHelloProgram
 
-[22:37:56](#ce75wRBH0TIvivHkEWtI_3iOcacJA8NaIgdQflHqcoA) <hardkorebob (hardkorebob)>:
+[22:37:56](#ce75wRBH0TIvivHkEWtI_3iOcacJA8NaIgdQflHqcoA) <hardkorebob (RoberRodri)>:
 I get the Hellos in the terminal not a seperate window
 
 [22:47:43](#uYSIptgFNGw1JSCfDdGYZbLC-eku4HI_15j8Ae1PIiA) <gtzip (gtzip)>:
@@ -3373,16 +3245,16 @@ We need to consider that in our L10N system. :^)
 
 ## 28-Jun-2021
 
-[0:04:34](#QFH5f3T23xI_G-0oZ6WUiYErz4dsEo8sIAsm6h1stM8) <hardkorebob (hardkorebob)>:
+[0:04:34](#QFH5f3T23xI_G-0oZ6WUiYErz4dsEo8sIAsm6h1stM8) <hardkorebob (RoberRodri)>:
 @greggirwin lol
 
-[1:47:51](#E8vb_iy6VGXVjeiXdUNnsfD6_ONWbQwjqZPTDusWb60) <hardkorebob (hardkorebob)>:
+[1:47:51](#E8vb_iy6VGXVjeiXdUNnsfD6_ONWbQwjqZPTDusWb60) <hardkorebob (RoberRodri)>:
 Live coding yet for Linux?
 
-[1:47:59](#7-MNlBvJz6GAoqZqaHj2Oh6RDSQtpZ9ARAhVkt0npz0) <hardkorebob (hardkorebob)>:
+[1:47:59](#7-MNlBvJz6GAoqZqaHj2Oh6RDSQtpZ9ARAhVkt0npz0) <hardkorebob (RoberRodri)>:
 GUI i meant
 
-[1:49:00](#eq9XOMfoZKwthBYDNncv3BLiPnq8s67RnXo_PLtzTMI) <hardkorebob (hardkorebob)>:
+[1:49:00](#eq9XOMfoZKwthBYDNncv3BLiPnq8s67RnXo_PLtzTMI) <hardkorebob (RoberRodri)>:
 Sorry I may be confusing what Im reading
 
 [1:49:08](#3Q3NUCr-uee82sGeDBQ-T1s4jc0uEx6IgH--C3YGWoc) <greggirwin (Gregg Irwin)>:
@@ -3404,16 +3276,16 @@ A couple are [here](https://github.com/red/community/tree/master/apps)
 Other GUI samples
 https://github.com/red/code/tree/master/Showcase
 
-[13:01:47](#MNcS4vdq00OQWtcC8PufsHjhOxSue71K0V2QsY7nmsg) <hardkorebob (hardkorebob)>:
+[13:01:47](#MNcS4vdq00OQWtcC8PufsHjhOxSue71K0V2QsY7nmsg) <hardkorebob (RoberRodri)>:
 This is an amazing thing, its soo Red and gorgeous as a rose. I must give you guys mad props for doing all this. I will start evangelizing soon on YouTube and other mediums like a web page written with Red to help other newbies like me get into this really cool tech.
 
-[13:34:02](#v37SzNdrbZhrS5NjOSLIgq0GcBOYU9kSFu83V722JKg) <hardkorebob (hardkorebob)>:
+[13:34:02](#v37SzNdrbZhrS5NjOSLIgq0GcBOYU9kSFu83V722JKg) <hardkorebob (RoberRodri)>:
 https://youtu.be/GCxoNCn5PzA
 
-[13:34:12](#Os0NqpA0d-xerKr0DSowgn3jvjD91H5bakuuKBQTav4) <hardkorebob (hardkorebob)>:
+[13:34:12](#Os0NqpA0d-xerKr0DSowgn3jvjD91H5bakuuKBQTav4) <hardkorebob (RoberRodri)>:
 I will get better at presenting things.
 
-[13:35:11](#68qjGX0Auik5f4zNTYpFN5BoQXBY6MawD6RDhV8pnJs) <hardkorebob (hardkorebob)>:
+[13:35:11](#68qjGX0Auik5f4zNTYpFN5BoQXBY6MawD6RDhV8pnJs) <hardkorebob (RoberRodri)>:
 But I have never preached for any tech before. I have used a lot of it. Been running online since I was 12 yo and Im 37 now. So I have a good bit of knowledge. Thirsty for more daily. Thanks for the time. 
 
 [14:51:24](#T_IeSi4IqaX3vXAIfsd-vrPhfwurkPgnUu_99oswSlA) <hiiamboris (NOT THIS ONE)>:
@@ -3421,19 +3293,19 @@ Haha man you're so random in your video :) But I'm sure you will get better at i
 
 On a side note: there are no keywords in Red.
 
-[15:03:20](#tTpCBNkjBf-CTuy1nYlV9MlG28_8yPKDmQfuPKihuyY) <hardkorebob (hardkorebob)>:
+[15:03:20](#tTpCBNkjBf-CTuy1nYlV9MlG28_8yPKDmQfuPKihuyY) <hardkorebob (RoberRodri)>:
 https://www.youtube.com/channel/UC0Z2PaRSV06dRJ62h_S7bPw
 
-[15:03:38](#EZaOOb_x0Kfq9dcSxmx49-IP_G3QVWKZAFUkYf5nQWU) <hardkorebob (hardkorebob)>:
+[15:03:38](#EZaOOb_x0Kfq9dcSxmx49-IP_G3QVWKZAFUkYf5nQWU) <hardkorebob (RoberRodri)>:
 @hiiamboris  :) Im liking the feel of this.
 
-[15:28:06](#7Eaxaj-O_ZPFcXTCOwyCXZ86MgEB3jbuhRJf0Ng56_g) <hardkorebob (hardkorebob)>:
+[15:28:06](#7Eaxaj-O_ZPFcXTCOwyCXZ86MgEB3jbuhRJf0Ng56_g) <hardkorebob (RoberRodri)>:
 https://youtu.be/buTEKR2sKLo
 
 [15:56:22](#WsUGrle2mEMTj2jNy9w6ZXIhTSI_qB_a_3LXPxDPYeA) <cloutiy (yc)>:
 @hardkorebob nice videos. Here are a couple videos on my channel where i go step by step on how to use 'parse' to parse a markup language to generate a document. Not finished yet...having a hard time finding a quiet place to record. https://youtu.be/1riJ1PYYOfQ
 
-[16:16:07](#6v4GXEXLpFwqDeVi995nnf-EVNPT8HnC3kPOiZ2TVMA) <hardkorebob (hardkorebob)>:
+[16:16:07](#6v4GXEXLpFwqDeVi995nnf-EVNPT8HnC3kPOiZ2TVMA) <hardkorebob (RoberRodri)>:
 @cloutiy Yes I love your videos dude! You are responsible for mine. lol You inspired me to get into this. I need to finish your tutorials. 
 
 [16:44:41](#diBAhtvx0ETMy8riqLXkIP0eWMmzHD5Or7a-r4gsFxc) <Respectech (Respectech)>:
@@ -3444,10 +3316,10 @@ https://youtu.be/buTEKR2sKLo
 
 ## 29-Jun-2021
 
-[0:10:01](#8wkgXtAbXCBC80Kt51awiYh3iMdhCIXhAwUXF_w2Aqs) <hardkorebob (hardkorebob)>:
+[0:10:01](#8wkgXtAbXCBC80Kt51awiYh3iMdhCIXhAwUXF_w2Aqs) <hardkorebob (RoberRodri)>:
 @Respectech I tried it but the rolling idea doesnt appeal. Too many breaks and unexplained issues with OBS for recording so I stick to Devuan. I do like the name and eye-candy of Garuda Linux. Garuda is sanskrit and I love Vedic truth.
 
-[13:57:43](#tX8VBsxZIhrbk2RB0TCioiGYVH541If4yVRaGX-orNs) <hardkorebob (hardkorebob)>:
+[13:57:43](#tX8VBsxZIhrbk2RB0TCioiGYVH541If4yVRaGX-orNs) <hardkorebob (RoberRodri)>:
 So is Red a dialect of Red/System or is R/S a dialect of Red?
 
 [14:00:37](#QmXGz04kecGqFNxncE7IhgmHZ8fMpiY2B5Q5IWy6hFA) <rebolek (Boleslav B≈ôezovsk√Ω)>:
@@ -3456,18 +3328,18 @@ R/S is a dialect of Red.
 [14:01:30](#qBPiPH4EUDOpZOcnJeP_fUx0x8ZMrqotLEHBXIeYy3g) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 It may seem strange because Red is build in R/S, but you should think of Red as a data format, not a language (it‚Äôs also a language but the data format part is really important).
 
-[15:17:50](#6CJ1r1RUuoUUHsqYoZOfPMC-fw5n_TqxEl8f-gNavcE) <hardkorebob (hardkorebob)>:
+[15:17:50](#6CJ1r1RUuoUUHsqYoZOfPMC-fw5n_TqxEl8f-gNavcE) <hardkorebob (RoberRodri)>:
 Yes Im letting that sink in
 
-[15:18:00](#Ep1FgiNJCcmz1l4ds2SFM9xsk39RgQGpYCq44Ty_CEw) <hardkorebob (hardkorebob)>:
+[15:18:00](#Ep1FgiNJCcmz1l4ds2SFM9xsk39RgQGpYCq44Ty_CEw) <hardkorebob (RoberRodri)>:
 Thank you @rebolek 
 
-[15:27:18](#T7ARqQIzaLLn1nB239fo9kojW5lld0YZ7y4cQ-jmK6g) <hardkorebob (hardkorebob)>:
+[15:27:18](#T7ARqQIzaLLn1nB239fo9kojW5lld0YZ7y4cQ-jmK6g) <hardkorebob (RoberRodri)>:
 *** Script Error: append does not allow none! for its series argument
 *** Where: append
 *** Stack: view do-events do-actor do-safe open
 
-[15:27:37](#rlfMkdIRTCUdCRGXkxkLL_-ElBJ38UA6p07TRykS7II) <hardkorebob (hardkorebob)>:
+[15:27:37](#rlfMkdIRTCUdCRGXkxkLL_-ElBJ38UA6p07TRykS7II) <hardkorebob (RoberRodri)>:
 open: function ["Open selected file, read contents"][
     if picked: request-file [
 		ide-file-name/data: picked 
@@ -3475,35 +3347,35 @@ open: function ["Open selected file, read contents"][
 	]
 ]
 
-[15:27:46](#vBGFofH9D8jsXJ1T35Iv1sHu6FR2G2krnixNq6JkQZY) <hardkorebob (hardkorebob)>:
+[15:27:46](#vBGFofH9D8jsXJ1T35Iv1sHu6FR2G2krnixNq6JkQZY) <hardkorebob (RoberRodri)>:
 what am i doing wrong?
 
-[15:27:59](#qqwxjIOT8WJdeH4Gk0IGoA8j_ARUCepYa5DHoH4J7A8) <hardkorebob (hardkorebob)>:
+[15:27:59](#qqwxjIOT8WJdeH4Gk0IGoA8j_ARUCepYa5DHoH4J7A8) <hardkorebob (RoberRodri)>:
 I cant see the contents of the file
 
 [15:30:02](#_UpwRzArxw-MYc8C9Wt6jVE8IFD6Vu2Ca_bvtNitnRY) <hiiamboris (NOT THIS ONE)>:
 first, there's a markdown cheatsheet below and to the right of input line here ‚ò∫ --->
 
-[15:30:32](#G37BNy7zsaXIFcWkXA3moN0gmYoFq2FY4ybBMQwSYoM) <hardkorebob (hardkorebob)>:
+[15:30:32](#G37BNy7zsaXIFcWkXA3moN0gmYoFq2FY4ybBMQwSYoM) <hardkorebob (RoberRodri)>:
 Sorry I pasted directly from terminal without realizing the *
 
-[15:30:36](#N5cRxPk6cAkh89qyZq4bNS8bOTuErsqNmVjiPGSyrX0) <hardkorebob (hardkorebob)>:
+[15:30:36](#N5cRxPk6cAkh89qyZq4bNS8bOTuErsqNmVjiPGSyrX0) <hardkorebob (RoberRodri)>:
 :)
 
-[15:31:02](#L2wdFThwDTnN_aVnuKmqwjq8lqW2AE-Fd3G7tL1ani8) <hardkorebob (hardkorebob)>:
+[15:31:02](#L2wdFThwDTnN_aVnuKmqwjq8lqW2AE-Fd3G7tL1ani8) <hardkorebob (RoberRodri)>:
 Oh I see also I can do code blocks. my bad, im not used to such cool features
 
 [15:31:46](#yBvIubckZoE_kiuSC6PJ1qr4VHBckWstooqkBcgG8tA) <hiiamboris (NOT THIS ONE)>:
 second, you can use `probe` to inspect intermediate values
 obviously your `ide-teh-text/text` is none as `append` says
 
-[15:33:17](#DgaAeq8l1CdLexdnoHvJotOxmj7YenuR_Kj1XJ4v0-k) <hardkorebob (hardkorebob)>:
+[15:33:17](#DgaAeq8l1CdLexdnoHvJotOxmj7YenuR_Kj1XJ4v0-k) <hardkorebob (RoberRodri)>:
 fixed it
 
-[15:33:20](#D6sfmCqV3GiSEUs3Nb8zHGLhJgsLx1ku-hqxiyyPvvU) <hardkorebob (hardkorebob)>:
+[15:33:20](#D6sfmCqV3GiSEUs3Nb8zHGLhJgsLx1ku-hqxiyyPvvU) <hardkorebob (RoberRodri)>:
 by adding
 
-[15:34:00](#nhYu1BuONy4hF_8hoO9iCX-fu344uDJ3WYbMpYHVm1E) <hardkorebob (hardkorebob)>:
+[15:34:00](#nhYu1BuONy4hF_8hoO9iCX-fu344uDJ3WYbMpYHVm1E) <hardkorebob (RoberRodri)>:
 an empty string ""
 
 ## 11-Jul-2021
@@ -3587,9 +3459,6 @@ do random/only words-of obj
 ```
 
 [16:41:38](#8YdKHgjYlm2f_8r91c0TgXgnF1f147fQA0O8-KV1iTc) <greggirwin (Gregg Irwin)>:
-That works too. Also `/secure` doesn't make sense here, but I can't edit my post now.
-
-[16:52:21](#dKAb2ZfRo8miiuk_jeu58FI19jmsKjjxFwGID8BDdYQ) <ams02468 (ams02468)>:
 That works too. Also `/secure` doesn't make sense here, but I can't edit my post now.
 
 [16:52:34](#daJU8ZpDo2bWkLwA05gl-baKbVT4QxfZlT-0iLNeidw) <ams02468 (ams02468)>:
@@ -3676,9 +3545,6 @@ Hello everyone for your answers to the previous question. Thank you. I wanted to
 for move file ? (cut)
 
 [13:56:10](#AhiD0HfEpH1iihDvYuEFTI1S86WrN_VkajcwBg6_PC8) <hiiamboris (NOT THIS ONE)>:
-same.
-
-[15:07:21](#RUEQhasI47n0qZUeIjnbkImBjgvc1fu6zpsSrj1xorE) <ams02468 (ams02468)>:
 same.
 
 [15:35:24](#BdlMaTbl0pD0aWeECGq8jJqC7wGETGmXIcm8sHi9ep4) <ams02468 (ams02468)>:
@@ -3783,9 +3649,6 @@ As far as I know, yes.
 [17:03:09](#obK8CKDvxcXlZdZyKjnSfAcGWmjBesdF9TKb3eGlXw8) <xmonader (xmonader)>:
 Hi, the latest post on the website is a year ago? does it mean it's not active anymore?
 
-[17:44:12](#XCTTQJfFlXSznfwiGshd8QZfmyEfM6jMeCeiF19DPF0) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-Hi, the latest post on the website is a year ago? does it mean it's not active anymore?
-
 [18:45:31](#XZiLljTicrirUvCVz6I1_wBe6Exs5mnWnZa4AaOMIp8) <greggirwin (Gregg Irwin)>:
 @xmonader we are active every day. Follow the chat here and watch https://progress.red-lang.org/. We hope to get a new blog post out soon. 
 
@@ -3799,7 +3662,7 @@ Thanks for the heads-up!
 ## 17-Jul-2021
 
 [13:15:01](#pTCeQI27IHUZsUxfhEbXi9aphupk2crFY2MKvQLzPRk) <planetsizecpu (Jose Luis)>:
-@greggirwin it would be great to read some word from @dockimbel as we miss his input since long time, I'm sure he is a lot to tell us. Ì†ΩÌ∏â
+@greggirwin it would be great to read some word from @dockimbel as we miss his input since long time, I'm sure he is a lot to tell us. üòâ
 
 [17:35:18](#i64Fk_NClFnHvMZcIJ5fkj4Wb0aj85tJGJ_zdQKaCqc) <greggirwin (Gregg Irwin)>:
 I'll work on that. :^)
@@ -4169,9 +4032,6 @@ Here's that line in `money.reds`
 [5:23:36](#Saq7J7IdJdz0n2LwRGyHErukUIBHOrvkx7PudWWpyt0) <gltewalt (Greg T)>:
 https://github.com/red/red/blob/ef6ca5e864b2117853f794a34f9af920cbe4328e/runtime/datatypes/money.reds#L40
 
-[5:29:44](#yDoeTedNBiSWgLwVSbS3uYx63Cnmd4YjLiOr6m4Utg8) <gltewalt (Greg T)>:
-https://github.com/red/red/blob/ef6ca5e864b2117853f794a34f9af920cbe4328e/runtime/datatypes/money.reds#L40
-
 [5:29:56](#aM-eELt-20w5x4tz-m0-y4EKeArGYuc2e0043a_PuR0) <gltewalt (Greg T)>:
 * On the off chance...  any change if you use?:
 `sec/2: to-integer 6  * time/second`
@@ -4389,7 +4249,7 @@ e.g. Windows schedules your thread once per 16ms usually
 Thanks. Your work is impressive! As well as the work of the whole team!
 
 [9:00:43](#ewAkWi8UhLMdi8a7-ejW8RgOF5w1MPfRrOaWWf6EeVU) <hiiamboris (NOT THIS ONE)>:
-thanks Ì†ΩÌ∏â
+thanks üòâ
 
 [17:11:31](#qcRfbO2lQIYNTrF2NXis449jd1TLYZpUanWxEVA82Ck) <gtzip (gtzip)>:
 Sergey, that doesn't seem to be the build that ypu compiled clock with. Latest build from website wouldn't report usr/datatypes/ on error
@@ -4580,7 +4440,7 @@ the evaluator takes first value  and evaluates it. if it's a function, it evalua
 thank you for holding my hand @rebolek, I promise to come back with harder questions :)
 
 [7:58:06](#OWR48PNXXzdFIF4QpjHhL0BWmXmJ2FvwXO0Lx-nUHRw) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-@3dc1d3 I hope you will Ì†ΩÌ∏â
+@3dc1d3 I hope you will üòâ
 
 [8:03:58](#KAWHNwGPtMKcaALa70tCCX53uPpHip7MAERHMlnLRr0) <3dc1d3 (pechkin)>:
 :+1:
@@ -4612,7 +4472,7 @@ Thanks, @DideC @gltewalt
 I think I'm coding myself into a corner here. https://gist.github.com/RayMPerry/c58b966cf064bd100f6cdabf614598aa Running into weird issues switching between contexts. Is there a better way to structure something like this? How should I structure this in a more idiomatic fashion?
 
 [14:07:02](#W0qRa0RgiGIbHmFTj0nEOxBNDeB6_zpyO6CJWs6Uhk0) <hiiamboris (NOT THIS ONE)>:
-I don't see any context problems in your code. You're trying to convert arbitrary text into integer though, that is an issue Ì†ΩÌ∏â
+I don't see any context problems in your code. You're trying to convert arbitrary text into integer though, that is an issue üòâ
 
 [14:07:39](#TCT1px5qj_JgacG25ULm5tXew6fWBTJ46psAoSXLLhQ) <RayMPerry (RaycatWhoDat)>:
 Oh? What would be a better way to do that?
@@ -4621,7 +4481,7 @@ Oh? What would be a better way to do that?
 Well, you should consider evaluating your expression (with `do`), and also insert spaces because these are important in Red.
 
 [14:11:57](#e2C0WI14G2AMBkd-N0cwDDCe8TAU5s0xxcistOvkaTo) <hiiamboris (NOT THIS ONE)>:
-Here's two calculators to draw inspiration from (on extreme ends of Red-ness Ì†ΩÌ∏â
+Here's two calculators to draw inspiration from (on extreme ends of Red-ness üòâ
 https://github.com/red/code/blob/master/Showcase/calculator.red
 https://github.com/zwortex/recalculator/blob/main/recalculator.red
 
@@ -4832,7 +4692,7 @@ What happened to Rebol's ~map-each~ and ~apply~ in Red?  Red seems to be perfect
 so in a nutshell it comes down to being difficult to implement well due to the nature of Red's syntax?
 
 [7:04:41](#Ucmp081f5Drk81qwMGpGoKn56KjQje_Dp5hM_uxOa2E) <hiiamboris (NOT THIS ONE)>:
-No Ì†ΩÌ∏â Implementation is the easiest part Ì†ΩÌ∏â
+No üòâ Implementation is the easiest part üòâ
 
 [7:05:51](#emwZmvKac-sqRJBJaGCcJPwgPXL8SxqJDKRjThsMITQ) <hiiamboris (NOT THIS ONE)>:
 Difficult to evaluate how it will work within the big picture in the years ahead, with all the other planned features. 
@@ -4915,16 +4775,7 @@ Hi, how can delete a variable completely?
 [7:08:26](#h46plk0ZyTAzzW0sgVAKZA2deY4AcUiN1u_03Ut_YaE) <ams02468 (ams02468)>:
 thx
 
-[9:50:10](#5HcUyCz5XiE5nGbIbybzVuO_rnI3fLuKpwqOMd5FY00) <ldci (Fran√ßois Jouen)>:
-thx
-
-[9:50:14](#tlo85sj0sRYXCzd2FZMGJPa_5TUEXOwiLNMFHZe6rNQ) <ldci (Fran√ßois Jouen)>:
-thx
-
 ## 30-Aug-2021
-
-[16:11:34](#lp7XU0wHbof3iwPQnBYv_PKiB8LStkO7km4lvI-VRf0) <RayMPerry (RaycatWhoDat)>:
-thx
 
 [19:08:00](#VsQlJr6EZtK-buovrCbk6E5Mg3OjrlXVI5lNHMfyIzw) <RayMPerry (RaycatWhoDat)>:
 Are you able to make custom datatypes?
@@ -5038,7 +4889,7 @@ what type `string/rs-head` is supposed to work with?
 nope, in R/S there's no `string!` type
 
 [21:38:06](#ogsr80bZ42kBl0hCdc70ZCrMY9l_ToL8F0KYhRLxCEk) <hiiamboris (NOT THIS ONE)>:
-you're confusing Red types and R/S types Ì†ΩÌ∏â
+you're confusing Red types and R/S types üòâ
 
 [21:38:37](#gBJb_BSXpsgj2L6Xay3kclR9q88DKRsGCQ4Syp2CU34) <RayMPerry (RaycatWhoDat)>:
 Hmm. Then, why does this compile?
@@ -5259,7 +5110,7 @@ Is `RPi` target not working for it?
 Technically yes *but* the instructions on the 'Getting Started' page say: "If you are using a Debian 7+ or Ubuntu 13.10+ version, you should use libcurl3 with multiarch:" ... this is a Debian 11 system so I used those instructions. Perhaps somewhere about Debian 9/10, it actually changed across to libcurl4?
 
 [11:33:51](#jwCeFreO7VVcy6meNW2KuAas583LwWrjXYcnPeLZI9c) <hiiamboris (NOT THIS ONE)>:
-Yeah, but to update the instructions we need to know which Debian version to list Ì†ΩÌ∏â
+Yeah, but to update the instructions we need to know which Debian version to list üòâ
 
 [11:34:40](#r9mVurPzg9s6ibyhi3rkggdwHgzJY_so5G37SsQ7ino) <quid-agis (Quid Agis)>:
 OK good point.
@@ -5271,7 +5122,7 @@ Excuse my daftness, but I was unable to find an `RPI` version, and in the Roadma
 `red --help`
 
 [11:38:57](#g3TeERCZGz-U1E6n_-aR8V9n6U0J4MYTtvZi_w3nLW8) <hiiamboris (NOT THIS ONE)>:
-roadmap is probably WAY out of date Ì†ΩÌ∏É
+roadmap is probably WAY out of date üòÉ
 
 [11:46:37](#rI4AYVqT4B5gLxkYYSYhYaWMD-VJ34tyQZAdwPnxQ38) <quid-agis (Quid Agis)>:
 Ah `red --help`, and OK 8-)
@@ -5341,7 +5192,7 @@ Something like this
   [loading] (https://lzinga.github.io/ASCII-Loader/)
 
 [7:10:16](#AW-ehZnMLjcNQzdQ_9i5v7m3K5LBKtYDADLKL9LoqL4) <hiiamboris (NOT THIS ONE)>:
-have you read the wiki page? Ì†ΩÌ∏â
+have you read the wiki page? üòâ
 
 [8:56:44](#j1H3KEq-RB_ysW6lxxAQwIxjdZuiflFLKBQnlkev1yA) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 @ams02468 I think that you can print back-space character to remove and than replace content on the line.
@@ -5396,9 +5247,6 @@ Preprocessing string would not help in this case as the back-space is there used
 [6:07:07](#JUFvydIk5vS2i-VzBIR7K3Km1mtWMm6FbrCy_ZpdIUw) <ams02468 (ams02468)>:
 thanks guys so helpful
 
-[13:09:38](#omMGgmyLI71jz-5uxVhSKChH2-u-MyAeIOUNs0dN8aQ) <ams02468 (ams02468)>:
-thanks guys so helpful
-
 ## 8-Oct-2021
 
 [0:29:08](#GGCduucp3VUgjDBu-HSMQftgMdRTsYAXXvHxwNqQZww) <supergrass71 (supergrass71)>:
@@ -5417,7 +5265,7 @@ It is a good way to get started.   It needs a second edition though very bad!   
 I would love to write a red book. Or some red learning videos. The book by ivo is a good start but as others pointed out it needs an update. I contacted him but he said most of his writing projects are on hold for other priorities. So it will be up to us to take the bull by the horns.
 
 [15:33:14](#YCjS2mnZAu9N0of14L1ZtEUDag7bII1o4mjTmn26UDY) <hiiamboris (NOT THIS ONE)>:
-To have a deep Red book we should first finish it's design Ì†ΩÌ∏â
+To have a deep Red book we should first finish it's design üòâ
 
 [15:33:53](#1Mj-2Itu71uvMGkPrrnWFXxr23bfh4KslA5UdVrby2o) <hiiamboris (NOT THIS ONE)>:
 So that book and helpin.red is probably all we'll have for a while
@@ -5426,12 +5274,6 @@ So that book and helpin.red is probably all we'll have for a while
 The Rebol Core Guide is still the best definitive user guide IMO.
 
 ## 12-Oct-2021
-
-[2:41:25](#JjknMe-HwW2w0xxrAn9aguTdcgTqdJ8aZrkpe52KS78) <lylgithub2021 (lylgithub2021)>:
-The Rebol Core Guide is still the best definitive user guide IMO.
-
-[3:00:25](#Y0Qmq8EBfMMeo0ykfUY3NNBypoB_eDTUGVULe7lg-24) <lylgithub2021 (lylgithub2021)>:
-The Rebol Core Guide is still the best definitive user guide IMO.
 
 [11:23:03](#qFiMQ71Ikk70CIISVTmrlfQ3xBVY21N0G3Vbl-U1-WY) <ams02468 (ams02468)>:
 How can I find older red versions, such as 1 month ago?
@@ -5849,12 +5691,6 @@ ahh, `copy/deep`
 [4:19:12](#jwZB21IqkHiRx7zEhmtQ-YfSJOPsBnk0ugLQ9Qp1v-U) <gltewalt (Greg T)>:
 Still, I'd like to hear from someone with deeper knowledge on your questions
 
-[6:39:10](#VG1mDERbriZrqFF50HWqlOsFcz7eR7y_JzwindXplNE) <Sergey_Vladivostok_gitlab (Sergey Vladivostok)>:
-Still, I'd like to hear from someone with deeper knowledge on your questions
-
-[6:42:39](#PdJfhATtt2jxWCA9YQ_W5a_DsmnJQz23EQoKm_TcIXk) <Sergey_Vladivostok_gitlab (Sergey Vladivostok)>:
-Still, I'd like to hear from someone with deeper knowledge on your questions
-
 [6:44:26](#VkN3tADAiyjv9DoJ6PuKRfQZjdp56ybudZtKO-JQJ2o) <Sergey_Vladivostok_gitlab (Sergey Vladivostok)>:
 * I was wrong here 
 ```
@@ -5878,7 +5714,7 @@ Where it's used in practice mostly is to check if two series are actually the po
 >> "a" =? "a"
 == false
 ```
-*I don't understand the source code well yet Ì†ΩÌ∏ü*
+*I don't understand the source code well yet üòü*
 
 
 [9:17:33](#tsi5KFTwi-0-T7Wtit7_2iI89oju5oufdSy9GIJQL6k) <hiiamboris (NOT THIS ONE)>:
@@ -5956,7 +5792,7 @@ Do you know how to resolve it?
 
 
 [9:08:35](#iqdtpoxFmOFwrLCqVIltG-FfkPotOQuLcVp3nTM9xz4) <hiiamboris (NOT THIS ONE)>:
-Hi Slownite, pls disable your AV software Ì†ΩÌ∏â
+Hi Slownite, pls disable your AV software üòâ
 
 [9:27:46](#eOVv6i8FJLFBELATD3lGz_yF4pGpkSRxZHtWtFB3mMw) <Slownite (Samuel .D)>:
 Thank you very much it's working :)
@@ -6008,13 +5844,6 @@ collect [foreach i a [if do reduce [function[x][x > 0] i] [keep i]]]
 ```
 My question now is why you want/need it to be anonymous, since it's faaaarrrr less efficient to recreate the function inside a loop.
 
-[4:09:44](#d69fL55yzzEXOMwpsD10vKueO43ba8twI7kmy_-HD64) <lylgithub2021 (lylgithub2021)>:
-Sorry, I was just thinking about getting the function evaluated, but missed a detail. 
-```
-collect [foreach i a [if do reduce [function[x][x > 0] i] [keep i]]]
-```
-My question now is why you want/need it to be anonymous, since it's faaaarrrr less efficient to recreate the function inside a loop.
-
 [4:12:03](#MY30gRzoQ4xCLukRcc4mE-FTFqvwH7HCF5xQgwumcV0) <greggirwin (Gregg Irwin)>:
 Just like you normally would.
 ```
@@ -6050,7 +5879,7 @@ And another question - is it possible to statically build Red so that all the re
 looks like the issue is in CGI script or server config
 
 [9:47:29](#4VbhSOYur0mi4YCbEV7BtEGrIjIbKD89ECfxNae8brw) <Sergey_Vladivostok_gitlab (Sergey Vladivostok)>:
-I do not have access to server logs Ì†ΩÌ∏ü
+I do not have access to server logs üòü
 
 [9:48:41](#EKnKecpXVU9URsGlv8rKXt6E7vp0ph_0sMsVV6mX248) <Sergey_Vladivostok_gitlab (Sergey Vladivostok)>:
 maybe someone experimented with the CGI mode
@@ -6420,7 +6249,7 @@ nor jpeg or gif
 wait I may be wrong
 
 [9:42:19](#sdc3xz7fZu6KSggeIw9GrrVAebfizv-0iUex1N2yA-c) <hiiamboris (NOT THIS ONE)>:
-it is a PNG alright Ì†ΩÌ∏â
+it is a PNG alright üòâ
 
 [9:43:49](#kKRKsjMiupANzuF5vOjCje-IiK8tBSdUxaxw5wZ63VE) <hiiamboris (NOT THIS ONE)>:
 forgot it starts with a strange symbol
@@ -6551,42 +6380,6 @@ rebase: func [num base][
 == 1000000
 ```
 
-[14:16:35](#5OdWQ2gJQTKXG9Q6FDEZzYq_d5j70-MneZM1kt9v3Lw) <toomasv>:
-Will this count as converter from 10-base to <=10-base :)
-```
-rebase: func [num base][
-    either base <= 10 [
-        res: reduce [num % base] 
-        while [base <= num: to integer! num / base][
-            insert res num % base
-        ] 
-        to integer! rejoin head insert res num
-    ][cause-error 'user 'message "Bases below 10, please!"]
-]()
-
->> rebase 64 32
-*** User Error: "Bases below 10, please!"
-
->> rebase 64 10
-== 64
->> rebase 64 9
-== 71
->> rebase 64 8
-== 100
->> rebase 64 7
-== 121
->> rebase 64 6
-== 144
->> rebase 64 5
-== 224
->> rebase 64 4
-== 1000
->> rebase 64 3
-== 2101
->> rebase 64 2
-== 1000000
-```
-
 [14:41:45](#AwYYV-fevkIHfguPFfB1BAetDYZ0xxGc8nSWvytAi-0) <cloutiy (yc)>:
 Hello, for those who speak french and cone from rebol, which books are available in french? I own `Programmer en Rebol` by `Magaud et Claude Petit`. Also `Rebol` by `Auverlot`. Are there others? Are there books in languanges other than french and english that you know of?
 
@@ -6666,9 +6459,6 @@ https://gitlab.com/hiiamboris/red-mezz-warehouse/-/blob/master/glob.red
 
 ## 13-Dec-2021
 
-[1:38:11](#QoeKNwjl_fMZvlJLdbmr94HfVSkdd2xUrxXD3tRmsHo) <lylgithub2021 (lylgithub2021)>:
-@hiiamboris thx
-
 [1:44:57](#LSVpyDqa5ieUSeYsfeby_os5eybejjAJL7iyEbp4_rQ) <lylgithub2021 (lylgithub2021)>:
 I'd like to get such a result: if the value of an expression is not none, then return the value itself, else return %"". This is not difficult as the following example shows:
 ```
@@ -6747,9 +6537,6 @@ break stuff `write/append %E.txt append/dup "" "e" 4000'000`
 
 ## 19-Dec-2021
 
-[3:02:36](#BIAc3d-KstGflSqiYBXDofGuKG6MZPPbLTgw3Y33CV0) <lylgithub2021 (lylgithub2021)>:
-break stuff `write/append %E.txt append/dup "" "e" 4000'000`
-
 ## 20-Dec-2021
 
 [3:49:46](#eGm3NyezSs7PDgJmqRxFtBwzoSIcjqXyq-_hjZzhAYQ) <lylgithub2021 (lylgithub2021)>:
@@ -6759,9 +6546,6 @@ I put some variables/functions which may change oftenÔºàaddedÔºådeletedÔºåmodifi
 Leave just `#include‚Ä¶`.
 
 [4:45:32](#MIit22BezNSX0TaxfMKOcvn6xtoH6NMrA_p0UnSVqDw) <toomasv>:
-It is interpreted like `do`.
-
-[5:37:17](#ccLEWt5Yjfbl63l9fuoQn6EotvuJhhNSUjNXfyx_d_Y) <lylgithub2021 (lylgithub2021)>:
 It is interpreted like `do`.
 
 [5:41:48](#O5QcEC0kNHgv2hHsLOjNKH7WUJCVMznQHtHXuYwJEj8) <lylgithub2021 (lylgithub2021)>:
@@ -6857,7 +6641,7 @@ You may try something like this https://stackoverflow.com/a/19748576
 And then deleted 
 
 [8:17:54](#pD_KBb3vSD2xE9dfPzg82GIfRDXHDPy_9EcecmX6ZFc) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-Installers usually don't delete itself Ì†ΩÌ∏â
+Installers usually don't delete itself üòâ
 
 [8:22:47](#S0UPRhUw87OIDDwQ_PVHAuEM5oMwEAIjpv7aH_3c9mo) <ams02468 (ams02468)>:
 @Oldes If I want to write a virus or malware, there are much better languages, but in general, I am creating an installation file my own way. 
@@ -6869,7 +6653,7 @@ call/shell rejoin [{/C choice /C Y /N /D Y /T 3 & Del "} system/options/boot {"}
 ```
 
 [8:43:09](#4BhxCshxc7tsi6w5bLHwp1IeKznYR74s2iwLaxNssso) <ams02468 (ams02468)>:
-@Oldes thanks If you are curious what this installation file is for, I have to say  makeing a installation file. for the old game Ì†ΩÌ∏â
+@Oldes thanks If you are curious what this installation file is for, I have to say  makeing a installation file. for the old game üòâ
 
 [8:51:24](#atzttuVBizWG9Pm-NAA4Pvi26m1FkRWaD8LOy08v9ZQ) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 The first `/C ` should be removed btw.
@@ -6956,15 +6740,6 @@ rejoin it first
 [17:10:58](#Fx4Zk-zGDJLFiaJTF-49fM1A5XEAUaA3J3bb_bllBCk) <gltewalt (Greg T)>:
 But... unique does weird things with more elements
 
-[17:12:11](#vaZjDVuvL5cXsFXDrLzXVE31qDvCIqmjDgovnmqd7u8) <gltewalt (Greg T)>:
-But... unique does weird things with more elements
-
-[17:15:56](#knVijptazrwkYwBsink4nKMTjPSKI3eN8AHMZZ1FVg0) <gltewalt (Greg T)>:
-But... unique does weird things with more elements
-
-[17:16:37](#bh0NCB9nUEZe_DstNsSIHqnNYfxsSe9OYPoawA6t1iQ) <gltewalt (Greg T)>:
-But... unique does weird things with more elements
-
 [17:18:48](#akEFaauUjyE6_fTIv5cKEnESnNYEOhqjnsqRpGr70vg) <gltewalt (Greg T)>:
 ```
 >> b2: ["aa" "bb" "cc" "dd"]
@@ -7011,7 +6786,7 @@ rejoin join ["a a" "b b"] " - "
 ```
 
 [17:55:57](#XODJbStwKOV6JqpinfZodHF4KI-TWpa0pz1loUbfGi0) <toomasv>:
-But Ì†ΩÌ∏ü
+But üòü
 ```
 rejoin join [<a> <b>] <c>
 == <a<c><b>>
@@ -7253,7 +7028,7 @@ I think that having only 32bit Red version is a top issue and should be solved a
 @Oldes it is important to us too, but what makes it a top issue in your mind? That is, in the grand scheme of things, are other things more important? This is our constant struggle. What mix of features and projects give us the best of survival?
 
 [23:24:47](#SKZjzfAxQKRvY9ROli7L9ojX7FqHk3F6B7IdMVoSWzo) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-32bit system are dying fast... maybe too fast. One may ask, why use tiny Red app, which fits on one floppy disk, when it depends on installing so many libraries. `apt-get-update` downloads 16MB, and the rest needs 332MB (in clean 64bit Docker image) Ì†ΩÌ∏ï
+32bit system are dying fast... maybe too fast. One may ask, why use tiny Red app, which fits on one floppy disk, when it depends on installing so many libraries. `apt-get-update` downloads 16MB, and the rest needs 332MB (in clean 64bit Docker image) üòï
 
 [23:26:27](#cS7O-GP5aDKQswAmWHipEW9e0UUV7ZYtc8s2A5ZWamU) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 But I don't want to play this _devil advocate_ role.
@@ -7586,7 +7361,7 @@ Header?
 At a glance anyway. Hardly showstoppers. Just doesn't work in mine right now. :^)
 
 [19:47:28](#4lr8kMqMjf432tZOaB5CIqf5jl58OAeMtSLrcTcSuM4) <hiiamboris (NOT THIS ONE)>:
-I see Ì†ΩÌ∏â
+I see üòâ
 
 [19:48:40](#I4d69h_jlPK4HydDL3THjHa6gpZCLbK318DESNYakPg) <greggirwin (Gregg Irwin)>:
 I spent 0:0:30 porting mine, so you get what you pay for. :^)
@@ -7610,9 +7385,6 @@ Right. An underlying parser could share most rules, with the codec registered fo
 On TOML, I vote that it *not* be included as a standard codec. It's not common enough. Once we have a working version, though, what we *should* do is note it in [the wiki](https://github.com/red/red/wiki/%5BHOWTO%5D-SYSTEM-CODECS,-LOAD-AS-and-SAVE-AS).
 
 [22:38:27](#RmUDSzztis1OCuCCQDN5nq0gZ2gDfFRU-8Gy8db5PJc) <hiiamboris (NOT THIS ONE)>:
-can't it be just a variant of ini?
-
-[22:49:22](#diquqK_LjWz3LNi_IWli8fFbPm5n1jXFZtuuGuHjaNQ) <gurzgri>:
 can't it be just a variant of ini?
 
 ## 23-Jan-2022
@@ -7657,9 +7429,6 @@ Should anyone feel masochistic.
 Hello, does anyone have a link to simple red/system examples? 
 
 [7:28:58](#58khGUm5QizM7iQWUoTNgpkKPTHiBPc_ElcS15RcNWw) <greggirwin (Gregg Irwin)>:
-Have you checked out the red/code and red/community repos?
-
-[8:02:35](#kGPFJy1Gkhr0gMMZBWHxhH9M1o2Zl6TGXEasvUL7A7c) <ams02468 (ams02468)>:
 Have you checked out the red/code and red/community repos?
 
 ## 28-Jan-2022
@@ -7779,7 +7548,7 @@ In Rebol I already have:
 ```
 
 [9:05:34](#pbxzgZYL77FdWPblb1iU1FA0EVepS1w1ry-ISXlA5A8) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-It is said, that there was even implementation done, but banned by Nenad Ì†ΩÌ∏ï https://github.com/red/red/pull/4148 
+It is said, that there was even implementation done, but banned by Nenad üòï https://github.com/red/red/pull/4148 
 
 [9:08:42](#yqjBQ1gqdslub_OSvwzkiwRy2vYMKLrNP5HkgS0C1wU) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 * This issue is so often coming back, that Red should do something with it... https://github.com/red/red/issues/3133 https://github.com/red/REP/issues/62
@@ -7996,7 +7765,7 @@ My suggestion is to look at `to-hex` and see if it can be extended (I wish it we
 For now, I'd wrap `enbase`, though we have a number of places "hex" is used in a name, but for different purposes. `form-as-hex` could be a name to use as a playground.
 
 [0:20:57](#khnsnnvHFexXFiCjueFVMCjDV6wmco84JvyPpDdI5Jg) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-I wonder why there must be so much words about it.. as I said.. if there is `mold` and `form` producing same result, why not to have `form` produce something different and reduce the required code? Never mind.. time to read some book and sleep Ì†ΩÌ∏â
+I wonder why there must be so much words about it.. as I said.. if there is `mold` and `form` producing same result, why not to have `form` produce something different and reduce the required code? Never mind.. time to read some book and sleep üòâ
 
 [0:21:18](#OtfUsAH6F2h2-HtotuaaDSHMkW1adyqV2rUbiea-F1Q) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 * I wonder why there must be so many words about it.. as I said.. if there is `mold` and `form` producing same result, why not to have `form` produce something different and reduce the required code? Never mind.. time to read some book and sleep ;-)
@@ -8134,9 +7903,6 @@ what have you tried&
 I want to fit two commands in one line
 
 [14:36:11](#hoqOWsYGDT3HXaWqEXb34JU3EEK73kAX80conFZEOKI) <hiiamboris (NOT THIS ONE)>:
-Red does not distinguish new line from space or tab.
-
-[14:38:49](#tL68CM_JxXq6P3BjHoloRtltMyKEfJlOaNDmU9l_3Rk) <ams02468 (ams02468)>:
 Red does not distinguish new line from space or tab.
 
 [14:39:35](#CrtvIyqyuLX39aj6t2dlBPH7qpyvdRCUsjprcLrmPLI) <ams02468 (ams02468)>:
@@ -8500,9 +8266,6 @@ those bloggers...
 
 ## 12-Jul-2022
 
-[0:06:12](#YmHd-KeVqDgl4mqHGS1DDGICsu-QW9fuEzdNP_0dGkk) <gltewalt (Greg T)>:
-those bloggers...
-
 ## 31-Jul-2022
 
 [16:22:39](#aPrhqFwt6vorHAQqcMuRnQvs9TaLaH5XrYS560I4XfY) <ams02468 (ams02468)>:
@@ -8673,9 +8436,6 @@ just wrote a function, is there any better ways?
 [6:30:11](#BbuW2O6kzbz6Ft55_FfZThc5xiXUR235g7xQoB600A8) <ne1uno (ne1uno)>:
 this used to work?  way off now. `1-Jan-1970 + to time! 894621091000`
 
-[6:36:53](#8Cpm3u2zdeDVlVDUI7amz53M_8jJvxoEX1mSCY--VBs) <WayneCui (WayneCui)>:
-this used to work?  way off now. `1-Jan-1970 + to time! 894621091000`
-
 [6:38:53](#m4U5HEw5rqKvOxDQTFgFREpItGPQelsmgVOXalU50xE) <WayneCui (WayneCui)>:
 ```
 1-Jan-1970 + to time! 894621091   
@@ -8683,16 +8443,16 @@ this used to work?  way off now. `1-Jan-1970 + to time! 894621091000`
 ```
 
 [6:41:27](#npMMjAVPJTYdzd7UeY9GrOPldzJ3gK7eb_8PBtUuz8E) <WayneCui (WayneCui)>:
-@ne1uno Thanks for reply, it works, just change millisecond to second Ì†ΩÌ∏â
+@ne1uno Thanks for reply, it works, just change millisecond to second üòâ
 
 [6:47:17](#7c3TPTIhlnQoKUUAYR4X_E8DYMpbBSZ2HT2bnhwB5kA) <ne1uno (ne1uno)>:
-Ì†ΩÌ±ç
+üëç
 
 [6:57:32](#nheS97AjSXE2gqzma56KVi6fcg5l-_it47MyT_OZXUg) <ne1uno (ne1uno)>:
 the other way, `to float! difference  to date! 8-5-1998/09:51:31 1-Jan-1970`  from an @x8x post
 
 [8:36:36](#-4_aNv3-QfIeqdw3nQFg__S513U3jXrT6FwXcIM9_U4) <WayneCui (WayneCui)>:
-Ì†ΩÌ±ç
+üëç
 
 
 [13:44:32](#wkpRR3G53SYJlCv-00OSGu16u7BHoaScyYahMUT-H1E) <dockimbel>:
@@ -8788,13 +8548,7 @@ Hello, I am working on a hessian client projectÔºåsending/receiving binary data 
 [8:14:23](#gpkOkPTTTRilShU4uJu5VfQ7_v1oozu5HrW18R-dDxo) <WayneCui (WayneCui)>:
 Thanks @ne1uno , I know what's wrong
 
-[8:22:06](#xno547Tk2_I7c75vy5eq8atcyvzGyRNzWLQqQNmWVVw) <WayneCui (WayneCui)>:
-Thanks @ne1uno , I know what's wrong
-
 [8:22:25](#IkaNDY6sZyExDLMB0dyT4A5b4HeCyEmL9qg1jC3s04E) <WayneCui (WayneCui)>:
-request is correct, another error
-
-[8:23:01](#L0asKA3sDNr7GnvrnKuINWEAmMdcwus4SJShR0PmUw4) <WayneCui (WayneCui)>:
 request is correct, another error
 
 [8:37:47](#a-0K5YQQQyfEoAo8xDv23NSsCORvSCYKh9ldRKb6ryk) <WayneCui (WayneCui)>:
@@ -8850,10 +8604,6 @@ seems like it's looking fo 2 byte length, not 1 or 4
 I think it's about the response. Request is the same with Rebol  
 
 [10:56:05](#7-VPL4V53oZ3XhGcyKA0g3aHgfZpDnNySGLpV_DEhIw) <WayneCui (WayneCui)>:
-Simplified  the code
-
-
-[10:56:15](#oMCi994e_u2XWOQ50PUJxhEVWKUTsL15KbVqxYzLmtE) <WayneCui (WayneCui)>:
 Simplified  the code
 
 
@@ -9074,26 +8824,7 @@ react [face/data: a]
 ```
 In this example, I try to refresh the face "drop-down" by "react" so as not to close/restart program when the value of "a" changes. Yet it does not work when the value of "a" changes from ["A" "B"] to ["A" "B" "C"]. Here the value of "a" comes from direct input. In the real program, it comes from reading a file. So, how to refresh a face in Red without restarting program? 
 
-[15:41:42](#wF76vWw709nm-XEgGVBl32FCVrBdx0tVL0nggBFmyrw) <toomasv>:
-```
-a: ["A" "B"]
-view [
-drop-down data a
-react [face/data: a]
-]
-```
-In this example, I try to refresh the face "drop-down" by "react" so as not to close/restart program when the value of "a" changes. Yet it does not work when the value of "a" changes from ["A" "B"] to ["A" "B" "C"]. Here the value of "a" comes from direct input. In the real program, it comes from reading a file. So, how to refresh a face in Red without restarting program? 
-
 [15:42:38](#EpsCJUz6VgBw6S2ZJ6AZzVz3fcJIUMz8uEaG-oiGYMU) <toomasv>:
-* @lylgithub2021 It seems to work on W10 gui-console. I tried this with drop-down data changing whenever `a` changes:
-```
-a: ["A" "B"]
-view/no-wait [drop-down data a react [face/data: a]]
-append a "C"
-remove a
-```
-
-[15:46:54](#fvL9-NDsIxSkvV-m3qsuCl6wAq9HpFDVUvI9eb3eQtM) <toomasv>:
 * @lylgithub2021 It seems to work on W10 gui-console. I tried this with drop-down data changing whenever `a` changes:
 ```
 a: ["A" "B"]
@@ -9228,7 +8959,7 @@ That's a good note for Guru Meditations.
 
 ## 11-Jan-2023
 
-[6:46:25](#mL34rVhgpgEmn5IrOf8VWeruwMcsleZaSA9xVFJMpa0) <JoshieOnNFT_twitter (JÌ†ºÌµæÔ∏èshie)>:
+[6:46:25](#mL34rVhgpgEmn5IrOf8VWeruwMcsleZaSA9xVFJMpa0) <JoshieOnNFT_twitter (JüÖæÔ∏èshie)>:
 GM admin. I'm Joshua, Business Development & Strategic Partnership at Coinstore (Global CEX). May I ask who should I contact for listing?
 
 
@@ -9313,7 +9044,7 @@ some 32bit libraries were missing, got it to work now, thank you for all your he
 :+1:
 
 [16:22:49](#XMnhVcXIBHj9hpFo4RBoR4NW_smK2rnzGdZ4lpH1Mv4) <hiiamboris (NOT THIS ONE)>:
-R2 will also be helpful when you will want to compile your creations Ì†ΩÌ∏â
+R2 will also be helpful when you will want to compile your creations üòâ
 
 [20:21:03](#96YwkbIThXowNgMWh1cJSC3-W8885HKehqvvbmznKig) <Respectech (Respectech)>:
 This article may be helpful in getting Rebol to run on Linux: https://ameridroid.com/blogs/ameriblogs/how-to-run-rebol2-scripting-language-on-debian-based-arm-systems
@@ -9425,9 +9156,6 @@ Many thanks for your solution and info. And why is the inner parenthesis `(a + 1
 [3:01:28](#CzeCm-i8THYoKTMv_P1Jtaxh258sJoJQgTiFt3GxWj0) <ne1uno (ne1uno)>:
 sometimes reads a little award but flipping things around can work. `if 3 > add 1 a [print a]`
 
-[3:03:03](#yTiVREe59xfsrDy3uezIWT7uNsesL1o9-Q9XNatNud4) <lylgithub2021 (lylgithub2021)>:
-sometimes reads a little award but flipping things around can work. `if 3 > add 1 a [print a]`
-
 [3:03:59](#mWQ3BHQv0EvZNsc6x9cDXslCVj0DJle7yTBNHsVxbpE) <ne1uno (ne1uno)>:
 `to-paren [a + 1]`
 
@@ -9475,9 +9203,6 @@ one more question how to access files/database over network can not find any exa
 though I lately have been looking to replace `!(...)` with `@[...]`
 
 ## 2-Feb-2023
-
-[3:33:36](#zxQMLtjRQllqGA0zvx0Mvulbm7ntXyfuMVyTfcky0Ro) <lylgithub2021 (lylgithub2021)>:
-though I lately have been looking to replace `!(...)` with `@[...]`
 
 [3:34:26](#ZywiQnE6uH2nLnV1ybDXZ5Q73yDlzOt6O3xZENCE2DU) <lylgithub2021 (lylgithub2021)>:
 ```
@@ -9547,7 +9272,7 @@ text react [face/text: either r2/data ["r2 yes"]["r2 no"]]
 `text` changing with the condition of related `radio` is expected when running the above codes. The result(the content of `text` and the appearance of `radio`) of clicking `r1` and `r2` is however,  very strange. Any one could try this code and help me with it? 
 
 [5:16:58](#hwdjJsLaYuXYLR8XINM1vjgn14EaZgM2ps8HbqZjUPY) <toomasv>:
-@lylgithub2021 I'm not sure what happens there. Ì†ΩÌ∏ü Hopefully @hiiamboris can explain. Meanwhile there is a way to do this for ordinary people:
+@lylgithub2021 I'm not sure what happens there. üòü Hopefully @hiiamboris can explain. Meanwhile there is a way to do this for ordinary people:
 ```
 clear-reactions 
 view [
@@ -9636,9 +9361,6 @@ view [
 ‚òù [February 3, 2023 4:11 AM](https://gitter.im/red/red/welcome?at=63dc5f5a747c6938e1fcc68d) this is something @dockimbel must look at, to better understand how reactivity performs in practice
 
 [10:49:03](#IXughs9Zw4SI-kYdHvMnfbVS9cJ9GKaG18w3XbXZhSg) <hiiamboris (NOT THIS ONE)>:
-* :point_up: [February 3, 2023 4:11 AM](https://gitter.im/red/red/welcome?at=63dc5f5a747c6938e1fcc68d) this is something @dockimbel must look at, to better understand how reactivity performs in practice, and how hard it can be to debug
-
-[11:37:18](#jp4yABFo_kS8Ka-I53TuVCKThnt5gez1vF2SlszaXRY) <dockimbel>:
 * :point_up: [February 3, 2023 4:11 AM](https://gitter.im/red/red/welcome?at=63dc5f5a747c6938e1fcc68d) this is something @dockimbel must look at, to better understand how reactivity performs in practice, and how hard it can be to debug
 
 [11:38:34](#Bs8xFXWmbalMBeSON59fbkwdt15mulgLGcAop1xtUPk) <dockimbel>:
@@ -9797,30 +9519,6 @@ Also there's a markdown cheatsheet available at a click to the right of the inpu
 [13:44:40](#Na791UE838IZf-OIvQOncs2frZbyIbkVxCzBBm_ya9s) <ProDimSum (ProDimSum)>:
 https://gist.githubusercontent.com/ProDimSum/c135634c6267df6bd1e7785ec99d8823/raw/3a568ee6177829753be52e53e6ee753d2a8803ee/error
 
-[13:46:13](#U1toOSzPG1Xe-BdGA15vu6fspqFiZRbMm6ulhwqHWKM) <ProDimSum (ProDimSum)>:
-https://gist.githubusercontent.com/ProDimSum/c135634c6267df6bd1e7785ec99d8823/raw/3a568ee6177829753be52e53e6ee753d2a8803ee/error
-
-[13:46:43](#DrQfjm_NY78O1gr7_whiahawjARsGIlL8VHWIp0NQFY) <ProDimSum (ProDimSum)>:
-https://gist.githubusercontent.com/ProDimSum/c135634c6267df6bd1e7785ec99d8823/raw/3a568ee6177829753be52e53e6ee753d2a8803ee/error
-
-[13:47:41](#EWoxbLOiQdWqcqpaXEPJS3pECORZ1f9uRAqVRkrv6j8) <ProDimSum (ProDimSum)>:
-https://gist.githubusercontent.com/ProDimSum/c135634c6267df6bd1e7785ec99d8823/raw/3a568ee6177829753be52e53e6ee753d2a8803ee/error
-
-[13:48:44](#m2VDyBnEPFQ0HmLWW1w-LGlvDWoVWDBHbG-nkJrHKPk) <ProDimSum (ProDimSum)>:
-https://gist.githubusercontent.com/ProDimSum/c135634c6267df6bd1e7785ec99d8823/raw/3a568ee6177829753be52e53e6ee753d2a8803ee/error
-
-[13:49:07](#L3xU4Xlh2tv6EBowNJg47I3lGa3St0G6hBIYq-jxI8A) <ProDimSum (ProDimSum)>:
-https://gist.githubusercontent.com/ProDimSum/c135634c6267df6bd1e7785ec99d8823/raw/3a568ee6177829753be52e53e6ee753d2a8803ee/error
-
-[13:49:28](#MTUuSNp6OSfrjQ3Y-89GPEY09B6t02-8pbBNyLjv0tY) <ProDimSum (ProDimSum)>:
-https://gist.githubusercontent.com/ProDimSum/c135634c6267df6bd1e7785ec99d8823/raw/3a568ee6177829753be52e53e6ee753d2a8803ee/error
-
-[13:50:22](#YjRag34j_ewdHtFkoZmZkBbRqDBfFsNAxHeWRcByuFM) <ProDimSum (ProDimSum)>:
-https://gist.githubusercontent.com/ProDimSum/c135634c6267df6bd1e7785ec99d8823/raw/3a568ee6177829753be52e53e6ee753d2a8803ee/error
-
-[13:51:01](#JLIH6ZPGgNHxPaNtO_0Hm6VL05UCqM7SNYTOwK8AYwE) <ProDimSum (ProDimSum)>:
-https://gist.githubusercontent.com/ProDimSum/c135634c6267df6bd1e7785ec99d8823/raw/3a568ee6177829753be52e53e6ee753d2a8803ee/error
-
 [13:52:47](#JFlyFnMwMhJfjCBt258dkkxU9n_Fsqb5fRcs5tTFHEE) <ProDimSum (ProDimSum)>:
 `Red/System
 
@@ -9835,12 +9533,6 @@ kernel-entry: func [
 I can't figure it out
 
 [13:56:33](#wHhX7Uu1myG0cyjPUaKklZxZOgx3o8GDoY0qGTqJifE) <hiiamboris (NOT THIS ONE)>:
-triple backticks
-
-[13:58:02](#G0AvwITvMKg_6VYP9ef0gA023zUwdCw38JTROEf41oY) <ProDimSum (ProDimSum)>:
-triple backticks
-
-[13:58:27](#zanlJlO1keCoSAzsuO-Xi1qrBWBwdPocwMS7wqD6kjo) <ProDimSum (ProDimSum)>:
 triple backticks
 
 [13:59:40](#jaaxnFAWht-D_KTo3anz31c6lfnsFFa5kxQ5P2fIdac) <hiiamboris (NOT THIS ONE)>:
@@ -9870,9 +9562,6 @@ it cuts off Red/System[]
 this line
 
 [14:08:17](#8jnBoYHTXU7qKkog_5UmpAahkIB7eMDg01U7ZxqFtp4) <ttamttam (Matthieu Dubuget)>:
-OK‚Ä¶ (*) For Linux 64-bit distros, you need to install 32-bit supporting libraries.
-
-[14:08:33](#lE3XqOlbfqkgd36HX6I-1WDBq4YGf-C0CI8yb7AubZg) <ProDimSum (ProDimSum)>:
 OK‚Ä¶ (*) For Linux 64-bit distros, you need to install 32-bit supporting libraries.
 
 [14:11:37](#1v-pTvaWFymdLUkSF7AgjQil-qsAnUdZnIroTB8gIXg) <ProDimSum (ProDimSum)>:
@@ -9978,7 +9667,7 @@ and that's it.. it's not like we're making OSes on daily basis and have a ready 
 full os really wow i am not that skilled but would love to get my hands dirty. I am very much new to whole programming and tech stuff.
 
 [16:50:23](#rycth1YV8eE7lwCYcCVPaEBw6Ys4PJBSR2yE95IJESQ) <hiiamboris (NOT THIS ONE)>:
-OS or driver in R/S is a possibility, like it is in C, but you'll be pioneering it (and seeing that you're a total newbie, it will be a rough ride - be warned Ì†ΩÌ∏â
+OS or driver in R/S is a possibility, like it is in C, but you'll be pioneering it (and seeing that you're a total newbie, it will be a rough ride - be warned üòâ
 
 [16:50:32](#EpwFxdN17TfmDJnkpUUZiBVPoJ7aoDENjST29neWrCA) <hiiamboris (NOT THIS ONE)>:
 * OS or driver in R/S is a possibility, like it is in C, but you'll be pioneering this field (and seeing that you're a total newbie, it will be a rough ride - be warned ;)
@@ -10042,7 +9731,7 @@ then understand what they're doing and translate C code into R/S
 Okay bro I will do my best. But I will still ask dev of red if they have some code hidden in their computer and they forgot to upload on internet.
 
 [17:23:08](#4b2kGP0Na58RwrM3mPdx6OWF2VFeKnj9XjJDWy28Jns) <hiiamboris (NOT THIS ONE)>:
-@dockimbel are you hiding the precious Red/OS from us? Ì†ΩÌ∏â
+@dockimbel are you hiding the precious Red/OS from us? üòâ
 
 [17:32:18](#Cy0MbmgUWoRgD9zpWRfSBgfaoHT5oW9FYVjGoiZhUmA) <ProDimSum (ProDimSum)>:
 @dockimbel Hello sir, I am new to programming world and specially kernel development. If you have any code of kernel that you might have played in past written in red/system kindly upload somewhere on public git to test for user like me. thanks again for your valuable time.
@@ -10357,12 +10046,9 @@ Sorry, but where is old logs? In red/help I do not see latest posts
 https://matrix.to/#/!wUTlqkqOhNGtfQzIsO:matrix.org ? History is there for me
 
 [9:27:46](#jMZRweL_tcF3QgBaerb3YR2e8jcPoyk9oJDxWMkw_x8) <ProDimSum (ProDimSum)>:
-Your account has been flagged. my github wow Ì†æÌ¥™ after creating two gist 
+Your account has been flagged. my github wow ü§™ after creating two gist 
 
 ## 15-Feb-2023
-
-[3:11:07](#5Oohu_m953ZpaIjU5VE5OQZilDYuczGkkbOcyXsEGbw) <lylgithub2021 (lylgithub2021)>:
-Your account has been flagged. my github wow Ì†æÌ¥™ after creating two gist 
 
 [3:15:50](#dU69dURu-rYEXdHihLfMOUn6emHSF0cZhpOtLpuZzaU) <lylgithub2021 (lylgithub2021)>:
 ```
@@ -10469,7 +10155,7 @@ ProDimSum (ProDimSum): I've not worked with R/S much, so wait for some more know
 i will try it out
 
 [7:11:08](#qlPhgC_eCc2KMdrSkRNwNlf40jcfnS1nRWGzPB4pAQg) <toomasv>:
-Ì†ΩÌ±çÔ∏è
+üëçÔ∏è
 
 [7:23:10](#x5Jol-rnOY9LRVeJcZxdmzErgWW3qwdFzQ_y4vIqebY) <ProDimSum (ProDimSum)>:
 is Integer! signed or unsigned ?
@@ -10753,25 +10439,25 @@ forall in-text [
 ```
 
 [15:21:26](#z86UYFIwTvvyMO4rSuHoeGzG7Z2RYC6ORKEgM4DbIT4) <htq2222>:
-Ì†ΩÌ∏≤ it's amazing when you know how! I was put off learning Rebol/Red a few years ago but started Red again about two weeks ago. The more I get over the learning pain the more I love it! Your help and example here just deepens my appreciation for the language! Many thanks!
+üò≤ it's amazing when you know how! I was put off learning Rebol/Red a few years ago but started Red again about two weeks ago. The more I get over the learning pain the more I love it! Your help and example here just deepens my appreciation for the language! Many thanks!
 
 [15:23:36](#lR2j8JlITh0w5M6My1rEoOnMGtYEppSgok3GvO4iaIo) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 you're welcome :)
 
 [15:25:38](#-jSBvIKuzzd4zPrTRjrk3aWWcL-CfPx6fDEpJKbREzM) <htq2222>:
-I was trying to refactor some bash/python code in our production environment, scanning and replacing text in SQL file with over a million lines against another file containing reference ids. I thought why not prove my refactoring concept in Red first. Ì†ΩÌ∏Å
+I was trying to refactor some bash/python code in our production environment, scanning and replacing text in SQL file with over a million lines against another file containing reference ids. I thought why not prove my refactoring concept in Red first. üòÅ
 
 [15:27:07](#huUxN_CvLRkLvWwinNBX50fRnqqU6Fe3ymOk8QbsXsk) <htq2222>:
 having spent years getting comfortable with Regex, took me over a day to do something useful with Parse. I can see its a powerful tool.
 
 [15:27:54](#GC-VHCRePvtTFqcr0_anKTOs78pCMbbcaphiqBkjwtY) <htq2222>:
-a lot of unlearning to appreciate Rebol/Red way of doing things Ì†ΩÌ∏Ö
+a lot of unlearning to appreciate Rebol/Red way of doing things üòÖ
 
 [15:28:05](#T1MBBDGgjmHSkUE5COd-xOFWQ5_SS0hnbO-5k2n6anc) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 yeah :D
 
 [15:29:53](#xayjWz0W75yx9teTV4nBDQgHh61Wn4MgSeZ0vAK2_vg) <htq2222>:
-Parse is certainly a lot more "natural" than regex. I've come up with regex sentences that scares even die hard Perl programmers Ì†æÌ¥£ 
+Parse is certainly a lot more "natural" than regex. I've come up with regex sentences that scares even die hard Perl programmers ü§£ 
 
 [15:31:48](#m_8WJRF4QhyauIoyrFNUI19K29RjCz1u9J95MALG95U) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 hehe, yes `parse` much more readable and very powerful
@@ -10853,7 +10539,7 @@ for maximum efficiency on Red level, you should convert your replacement map int
 thanks that was going to be my next step
 
 [16:17:10](#L0xHDaYgC70GFKkPZr-TVGSiA5BKpujiXvjhcFfNuuo) <htq2222>:
-no short cuts for me then - need to learn Parse Ì†ΩÌ∏Ö 
+no short cuts for me then - need to learn Parse üòÖ 
 
 [16:18:19](#-g-ZK8BJ8lucpCvGikaBRNVeo9tFKm4DYbc80Dr-5K0) <hiiamboris>:
 (:
@@ -10992,7 +10678,7 @@ print ["output length=" length? output]
 ```
 
 [21:19:02](#47JQXHJ79YyooKIBMYLO3gSoWfXJgd-p7BdTwRUqX1k) <htq2222>:
-this is next level red-foo. Going to take me some time to digest! Ì†ΩÌ∏Ö
+this is next level red-foo. Going to take me some time to digest! üòÖ
 
 [21:19:26](#QZa98DDhcKTYozMPEr4nXkutHUla9P7_JXQM1HnLg6Q) <hiiamboris>:
 * this takes 3 seconds per 1M lines on my laptop:
@@ -11055,13 +10741,13 @@ print ["output length=" length? output]
 Wow just wow! I modified hiiamboris suggestion above for my performance testing code. Running the test against 100,000  line input in Ruby and Red. Red code performance is like a rounding error compared to Ruby. Results were 
 > Ruby = 17.8s  vs Red = 0.8s
 
- Ì†ΩÌ∏≤ 
+ üò≤ 
 
 [20:40:01](#M_9y7_Jntvm05DRwxyZr66nZmJ4xqg4kZz3ZRCciFas) <htq2222>:
 I did try to perform 1 million lines but encountered `not enough memory` error.
 
 [20:44:19](#pcUPeg4IpXvLgnM9227gUgT8Tx5YM9hhqoqKLpU7XsE) <htq2222>:
-Parse's power is awesome! being able to run commands inside the parse rule allows the use of direct hash lookup based on the matched criteria. Love it!Ì†æÌ¥© 
+Parse's power is awesome! being able to run commands inside the parse rule allows the use of direct hash lookup based on the matched criteria. Love it!ü§© 
 
 [21:01:32](#KNmaywhsJG8ZJ0ilZUZNxVJ5NExkS67m-r0XIN-ABFs) <greggirwin (Gregg Irwin)>:
 Woohoo! Red is optimized for ease of use in most cases, but can be made very fast if you need the speed.
@@ -11075,7 +10761,7 @@ try working on `binary!` data
 ## 11-Apr-2023
 
 [14:41:48](#1LUbOIauVQNbAaFxkQdPMJwQVU65fJCQxfW2kXBrVVs) <planetsizecpu (Jose Luis)>:
-Welcome btw htq2222  Ì†ΩÌ∏É
+Welcome btw htq2222  üòÉ
 
 ## 17-Apr-2023
 
@@ -11134,9 +10820,6 @@ Then, how to make it work as I want?
 lol
 
 [1:20:07](#6BOAlsZsjiKsmAVwbE8by4spXg_1PwKxuBtAEZlpAEU) <cloutiy (yc)>:
-How does one implement an SQLITE? Are there any documentation?
-
-[3:39:49](#D6GpMSVYnJrZ26abPjTggAeO-wH-dbyK1mw2WBv_duc) <gurzgri>:
 How does one implement an SQLITE? Are there any documentation?
 
 [7:35:52](#8-z6VmvwY_LeR76Iu_M3FkixC6LZdvvZsdjEjGmpq5g) <gurzgri>:
@@ -11202,7 +10885,7 @@ we don't have proper character classes yet, you'll have to define them yourself
 * rather: `trim/with s unwanted`
 
 [18:01:26](#xSAQ4z_lDgceBO6MjKUXzc_39twt4d9V8oQjFj2-uiw) <greggirwin (Gregg Irwin)>:
-Ì†ΩÌ±çÔ∏è
+üëçÔ∏è
 
 ## 30-May-2023
 
@@ -11396,11 +11079,6 @@ I found that as well, and noted it for dockimbel .
 
 Hope you will be back working on then. There are many interesting projects that are blocked that could help the community a lot deliver good productivity apps
 
-[13:36:22](#H2dxvwruDLr7skFnn7-fTIbCEkxMlCRIpTpnbLadgOw) <dockimbel>:
-> <@rebolek-5565a4bf15522ed4b3e100bc:gitter.im> I have a working Redis scheme and partially working MySQL one. Unfortunately, I don't have much time for Red these days, so finishing it is not a priority for me. If there would be any interest, I may find some time.
-
-Hope you will be back working on then. There are many interesting projects that are blocked that could help the community a lot deliver good productivity apps
-
 [13:39:11](#gqe-u5TeszZ06646P0xl9r54UGSdVgErolACuV5ds-8) <dockimbel>:
 The interpreter events for infix might have been impacted by the `apply` branch merge:
 
@@ -11472,12 +11150,9 @@ So now, the interpreter will report events in proper order: the first value  is 
 [13:54:05](#hAOzYNm4NHLN_JvZF90gexRx8Ds_0b8gtRpASQjIIkk) <dockimbel>:
 > Red considers text (strings) as a block of characters, so this main text of Red code is just a big block for Red, even without brackets or quotes.
 
-What a great way to totally confuse the reader! Ì†ΩÌπà
+What a great way to totally confuse the reader! üôà
 
 [13:56:18](#NRwhtRtkvpunPak0N38XJunKOU8TzLhscC57F0BebI8) <dockimbel>:
-That said, I really like the look'n feel of that online doc.
-
-[15:42:21](#3JK2aGttiKsOxA-Bj9hd-jYZ0UAbwXtq8H2KpSVwoR8) <hiiamboris>:
 That said, I really like the look'n feel of that online doc.
 
 [15:42:57](#h7zuLUJGqvbhGPk5iGjAkIShHlvWgKvyg-CAGFCl6LM) <hiiamboris>:
@@ -11655,7 +11330,7 @@ I think your system is just as buggy as WSL, and we can't do anything about it
 * I think your system (docker one) is just as buggy as WSL, and we can't do anything about it
 
 [21:15:55](#OP5oaFUUAeI40tvmb7McLHWcTl14FQN3gJTl9L3Xcnk) <greggirwin (Gregg Irwin)>:
-Ì†ΩÌ±çÔ∏è
+üëçÔ∏è
 
 [21:17:12](#hCMfs1kdJB3drcbZ62d0VMxFj1BTaT3a8YL5Cz-l-xc) <hiiamboris>:
 As for the binary, like was said already, `to string!` decodes UTF-8, so you need Bolek's codepages to convert other encodings. R2 has no conversion: it's binary and string is the same thing.
@@ -12093,11 +11768,6 @@ Will leave some running and see if it happens again.
 
 ## 26-Jul-2023
 
-[7:21:29](#cNBN_6se8LQvi_S0nDz1jW0bAwIMAsgplL92UZllX24) <lylgithub2021 (lylgithub2021)>:
-Someone recently commented on GUI console getting stuck. I'm seeing that now, where they've been idle for a while. I did have a system glitch earlier, where one monitor went away for a moment, so could very well have been that. The symptom is that there are one or more insertion point bars visible, in different places, sometimes many in a row, and the control is frozen.
-
-Will leave some running and see if it happens again.
-
 [7:31:01](#I3BZKry3roWoTUM2bLJq4LN_LRTAuQgXWe3yCcrbQ3w) <lylgithub2021 (lylgithub2021)>:
 ```Red []
 a: ["a" 1 "b" 2]
@@ -12357,7 +12027,7 @@ In the IO branch, yes.
 ## 21-Aug-2023
 
 [2:51:49](#SOulKkVEvs59RYSmhk8Gpi79lUuMczcYS1w5UqmiyzY) <cloutiy (yc)>:
-Ì†ΩÌ∫Ä
+üöÄ
 
 ## 28-Aug-2023
 
@@ -12408,7 +12078,7 @@ lylgithub2021 (lylgithub2021): use `find [#[none] %.txt %.red] suffix? %a`
 ## 30-Aug-2023
 
 [1:40:48](#VJa2N_AF_59iqEU5_Q6d7JwNxSAbatEZ6WiIwtoGM78) <lylgithub2021 (lylgithub2021)>:
-Oldes: hiiamboris Ì†ΩÌ±çÔ∏èÌ†ΩÌ±çÔ∏è
+Oldes: hiiamboris üëçÔ∏èüëçÔ∏è
 
 [1:48:04](#yDqlAA9aBBtJyCmw272M07uGePwv797D4pDIyjdW9NM) <lylgithub2021 (lylgithub2021)>:
 I learned that functions in red can be docummented as the following example showes: `f: function["fff" x "xxx"][x + 1]`, and can be reviewed by `? f` in Red Console. My question is how to extract the description string("fff" in this example) in Red programing.
@@ -12877,26 +12547,6 @@ Red [File: %b.red]
 f: func[x][x]
 ```
 
-[8:55:07](#YPIvD4PAA4Gl-p8C6sLb4z5NEtPyMYeCbLPFGPxhS6s) <dockimbel>:
- * %main.red
-
-```
-Red [File: %main.red needs: view]
-#either true [
-    #include %b.red
-    f "cc"
-][]
-a: f "dd"
-view [text a]
-```
-
-%b.red
-
-```
-Red [File: %b.red] 
-f: func[x][x]
-```
-
 [9:45:12](#5Ttv6wYsv7RshL5Sx3W8g7FkFXRGKq-Gm__2artXl0E) <lylgithub2021 (lylgithub2021)>:
 Oldes: I tried `if false [...]`, still get the same error message.
 
@@ -13037,9 +12687,6 @@ view [text "ok"]
 ```
 
 [12:32:04](#ILKttwhlrOzvCjzsR34dQJnWE32-gp9E3EQ1_X1eVDo) <hiiamboris>:
-you've got unicode symbols masked as ascii in your code
-
-[12:36:25](#dzoGTKe8LlQt51xIGH14Iw3UGRCsmd92zTbjiWEy0_w) <lylgithub2021 (lylgithub2021)>:
 you've got unicode symbols masked as ascii in your code
 
 [12:48:00](#46KT3qEpvhy1sHACbdy_d9bOhbLAT7UQSpRupnfb_SQ) <Oldes (@oldes.h:matrix.org)>:
@@ -13594,7 +13241,7 @@ Oldes: Really really appreciate your help!!!!! My question comes from a loop ins
 `head` itself does not modify the series.
 
 [13:16:11](#-IsS_ncpZ1VBV15-Gx-0gONMHpnt1WU_pu8niIod9dM) <lylgithub2021 (lylgithub2021)>:
-Ì†ΩÌ∏ÄÌ†ΩÌ±çÔ∏èÌ†ΩÌ±çÔ∏èÌ†ΩÌ±çÔ∏èÌ†ΩÌ±çÔ∏è
+üòÄüëçÔ∏èüëçÔ∏èüëçÔ∏èüëçÔ∏è
 
 [13:18:19](#rL8-l_26EmCbiMA7xjscyxTIcieqDKsLnNLwAGDRwb4) <lylgithub2021 (lylgithub2021)>:
 Than you so much! I lean a lot from you!
@@ -13786,9 +13433,6 @@ Hello to all. Have a nice day
 [19:48:21](#V4EnakrL3kaELnKRyDB9Ev-LMcVCtqYOlJEYGXd-VwQ) <dislux-hapfyl>:
 mikeyaunish: I have improved it
 
-[19:59:45](#qAq3xg2egKlXkeMFaaWwF22bT5eYI6aY6Zs-KQ7ZHLQ) <dislux-hapfyl>:
-mikeyaunish: I have improved it
-
 [19:59:55](#YAd1yaiSs1j8pSDFHzDWfygCKygE52KwR03af9_5OyE) <dislux-hapfyl>:
 Learning has been fun
 
@@ -13798,18 +13442,6 @@ I have to add code for it to strip spaces and add indentation when you need it a
 [20:03:18](#CYqN3gQjwJdYvwkcOkety3oljm18xrY9VrDVm73QOs4) <dislux-hapfyl>:
 I made a DSL myself in order to make this "IDE" for Red. It is in Shell Script called pnk.lang and it compiles to Python. The program called shimky is the IDE for pnk.lang. As you see in the video my IDEs have access to the shell. I just like having fun with computers. I already have some ideas. Here is the repo for my DSL and IDE. https://github.com/dislux-hapfyl/shimky 
 
-[20:05:29](#unXxTBpXdJBhamloyeWLVN-kIRdQjhB54AZjJ4oZMRo) <dislux-hapfyl>:
-I made a DSL myself in order to make this "IDE" for Red. It is in Shell Script called pnk.lang and it compiles to Python. The program called shimky is the IDE for pnk.lang. As you see in the video my IDEs have access to the shell. I just like having fun with computers. I already have some ideas. Here is the repo for my DSL and IDE. https://github.com/dislux-hapfyl/shimky 
-
-[20:05:30](#exP30p_jtmoydM3n0hzk2np_Xz8dn6gR5gjr70qBoqs) <dislux-hapfyl>:
-I made a DSL myself in order to make this "IDE" for Red. It is in Shell Script called pnk.lang and it compiles to Python. The program called shimky is the IDE for pnk.lang. As you see in the video my IDEs have access to the shell. I just like having fun with computers. I already have some ideas. Here is the repo for my DSL and IDE. https://github.com/dislux-hapfyl/shimky 
-
-[20:05:47](#-9QgV1ZW8oB4zh_WkXlFdt27GZ3M2nrI6WiXeaknUlo) <dislux-hapfyl>:
-I made a DSL myself in order to make this "IDE" for Red. It is in Shell Script called pnk.lang and it compiles to Python. The program called shimky is the IDE for pnk.lang. As you see in the video my IDEs have access to the shell. I just like having fun with computers. I already have some ideas. Here is the repo for my DSL and IDE. https://github.com/dislux-hapfyl/shimky 
-
-[20:05:52](#G9eD6koFbGtZOYXZf30MgxM0rXwtbHszGr19vdL76xU) <dislux-hapfyl>:
-I made a DSL myself in order to make this "IDE" for Red. It is in Shell Script called pnk.lang and it compiles to Python. The program called shimky is the IDE for pnk.lang. As you see in the video my IDEs have access to the shell. I just like having fun with computers. I already have some ideas. Here is the repo for my DSL and IDE. https://github.com/dislux-hapfyl/shimky 
-
 [20:05:58](#dn0PtN3Fnk4Px-iEW0krggttQIyEK3vfiFPWYxK7V1w) <dislux-hapfyl>:
 Runs on Linux only
 
@@ -13817,9 +13449,6 @@ Runs on Linux only
  * You can copy and paste. The red interpreter and compiler should be in your path named red and redc. Mine is /usr/local/bin/
 
 [20:08:54](#kYt9hRNZCBnZr3v_uNPmrqtAOT1v00MsQJvelr9BBY0) <dislux-hapfyl>:
- * and also bash is required if you wan access to the shell. s [linux commands] runs shell Escape removes shell window. o [file in present path] opens file, w [filename] writes a filename, d deletes all inside the text pad above command line. Enter to execute all commands. Escape to clear command line. While in text pad to access command line Escape.
-
-[20:31:53](#5JqDGB08Xmbu2t0t6Snc_wvzwQdEC0ROne0muAL77NM) <dislux-hapfyl>:
  * and also bash is required if you wan access to the shell. s [linux commands] runs shell Escape removes shell window. o [file in present path] opens file, w [filename] writes a filename, d deletes all inside the text pad above command line. Enter to execute all commands. Escape to clear command line. While in text pad to access command line Escape.
 
 [20:32:26](#ycfVisCVqWrx4-c-4O-ClLHtZgD9H_E3xy96_XTo2hA) <dislux-hapfyl>:
@@ -13946,7 +13575,7 @@ Going thru it
 ## 7-May-2024
 
 [6:11:32](#BGwQm2nfuNmt3aZanH9YdUkl_aQKu2oMjZIMzecfV8U) <planetsizecpu (Jose Luis)>:
-Welcome  btw dislux-hapfyl  Ì†ΩÌ∏É
+Welcome  btw dislux-hapfyl  üòÉ
 
 [11:36:18](#j3vAB2GPIYsYuatOeYp5y0DDKf2e3yX_JsAMXcpru0s) <dislux-hapfyl>:
 Gracias!
@@ -14101,12 +13730,12 @@ Welcome Daniel to the Red chat
 ;)
 
 [14:13:20](#SogpJD_r4e-DDGtgDuaEnb-RTIpoGiybQqruByyMeo4) <djongepier>:
-Thanks Ì†ΩÌ∏ä
+Thanks üòä
 
 ## 21-May-2024
 
 [6:46:15](#FpjPvcJhkjC35S2ExXz8dN-J2yZNLbsv-cPp3u5lP2w) <planetsizecpu (Jose Luis)>:
-Welcome btw  Daniel Jongepier Ì†ΩÌ∏É
+Welcome btw  Daniel Jongepier üòÉ
 
 [6:46:56](#oj7GI3z5O-bPWW66n4cuMN2nGbW2ytCYlpl-gpD0d7s) <djongepier>:
 Thank you Jose
@@ -14233,19 +13862,6 @@ ams02468 (ams02468): look at the `source` for those funcs. You'll see they both 
 You can also output stderr as above. Just remember if an error occurs, `s` won't change, so better to `clear` before use it.
 
 
-[20:20:33](#LLtAbwjF2VFAvuQSPJ-ruZFrt_kZCsh7Q8I7ub-UB7I) <‚Äé ‚Äé ‚Äé ‚Äé>:
-@ams0_0:matrix.org: If you mean output of the DOS commands then you can use `call/output`:
-
-```
->> call/output/error "dir" s: copy "" e: copy ""
-== 0
->> s
-== { Volume in drive C is Windows^/ Volume Serial Number is 760...
-```
-
-You can also output stderr as above. Just remember if an error occurs, `s` won't change, so better to `clear` before use it.
-
-
 [20:21:18](#G6cBRuKkTJecboSAmkq5zn4oouPVQ-X0UFe81vEIOJM) <‚Äé ‚Äé ‚Äé ‚Äé>:
 thx greggirwin (Gregg Irwin) endo64  pekr (Petr Krenzelok) 
 
@@ -14263,9 +13879,6 @@ I have an old `send-keys` dialect I did for R2 but haven't looked at updating it
 ## 15-Jun-2024
 
 [6:52:17](#IuoOLvzpjnNwDY2Pyp6tIy_0DwSl6eTC6htgIX3qMWM) <lylgithub2021 (lylgithub2021)>:
-I want to run a shell command and see the result on the console(Win sys) by `call/shell/show "dir"`. 
-
-[7:03:26](#nbakZwcBK6k9_UMuZdk7WqkT-pWFcmfNJy80bfPXN9E) <lylgithub2021 (lylgithub2021)>:
 I want to run a shell command and see the result on the console(Win sys) by `call/shell/show "dir"`. 
 
 [7:08:04](#8sA0x1wtoXdRgydLvDlSVveL7_TWDKEYmq4nUVvnfBY) <lylgithub2021 (lylgithub2021)>:
@@ -14701,9 +14314,6 @@ dockimbel do we want all natives to be supported by the reactivity?
 [6:51:05](#mi-b9JtxBLl9iDR-b2ngJw9XamkAZYCbGZK-hTQ7Dac) <lylgithub2021 (lylgithub2021)>:
 hiiamboris: Many thanks
 
-[6:52:45](#93bGcVyRg3L4pTNpO18zaQbvrBzI5FoAB0tHxQHlhBk) <lylgithub2021 (lylgithub2021)>:
-hiiamboris: Many thanks
-
 [7:00:47](#5nlhVEBFscOkJ08r1L3BdAidnCynl2rEEKCFwrmHTEU) <lylgithub2021 (lylgithub2021)>:
 I'm puzzled by the following codes which make my "Red GUI Console" crashed:
 ```
@@ -14742,9 +14352,6 @@ yes, but I'm asking what it writes in return
 maybe it's chinese glyphs that crash it
 
 ## 15-Sep-2024
-
-[1:44:35](#p8JpJS4XhRJZXCnx8yMjG9T8UT-Rbo0uPgeSgYknuAQ) <lylgithub2021 (lylgithub2021)>:
-maybe it's chinese glyphs that crash it
 
 [1:45:14](#qWQualgG0_g5icrAmJOLmmknF3Op3-wwNHkQ_OkM3f4) <lylgithub2021 (lylgithub2021)>:
  * Thank you hiiamboris: yes, the output of dir contains some chinese glyphs, but delete of these files/folders does not help. Following your instruction of updating `Red`, the problem of "Red GUI Console crash" is solved. But still:
@@ -14882,9 +14489,6 @@ Very nice writeup! Minor sidenote: with `sLenght` you have a - very consistent -
 [12:26:20](#Jc3eYyj47eknxL6BB8IlVfbCspL-7KNts-23IkOfJn4) <ldci (Fran√ßois Jouen)>:
 gurzgri: Oups. I must be dyslexic :)
 
-[12:34:41](#ipOHAENKJI02Bl9ttjilGzaY-gNwJ-ObKS7Z25HmnzA) <ldci (Fran√ßois Jouen)>:
-gurzgri: Oups. I must be dyslexic :)
-
 [12:35:46](#VIeqG7RZWrUR6JQoPIk0FgvzqiKmPqCjcAV7Lybt61o) <ldci (Fran√ßois Jouen)>:
 gurzgri: Code corrected. Thanks a lot :)
 
@@ -14905,9 +14509,6 @@ Agreed.
 
 ## 24-Nov-2024
 
-[21:21:52](#OAqe-z1i7h-5UDi8g22LWlmK_5scL6AgDynHbXHYv5o) <ldci (Fran√ßois Jouen)>:
-Agreed.
-
 ## 9-Jan-2025
 
 [6:41:09](#nAUBsTJOaG4SCsalQ_SW4nw2HISxo9ZOH33EIA6X1r0) <lylgithub2021 (lylgithub2021)>:
@@ -14926,9 +14527,6 @@ I make up some functions in a string, like `funcstr: "f1: function[a b][a + b] f
 `get` doesn't "output" anything, it just returns a value of type `function!` in this case
 
 [7:00:08](#oOXqnGh8NoEsmah1WSwr8EVMUYX_yRwvdjx9ZdRZiv4) <hiiamboris>:
-You can use `preprocessor/func-arity?` for that purpose.
-
-[7:06:34](#2f-kp4g8gf7CUTmINmmpEQPsJsaV4OQu3BSOeUPLRT8) <lylgithub2021 (lylgithub2021)>:
 You can use `preprocessor/func-arity?` for that purpose.
 
 [7:07:44](#OA5HwJWigQ5r_lySRh4P40ZaLhKwf2YKwaig9OifZ0k) <lylgithub2021 (lylgithub2021)>:
@@ -15450,7 +15048,7 @@ By now, I have not found out more info about the concept of micro in Red and how
 I've already given you above a macro that I've tested to be working fine
 
 [6:26:04](#CepklcK-qZulmMjXZEKCtaL-_z2AMzELzMaakabRQtc) <lylgithub2021 (lylgithub2021)>:
-All right. Than you allÌ†æÌ¥ù
+All right. Than you allü§ù
 
 [6:31:54](#pfH1jUPvGp2LUt2jyvr3hNNW6x_LeQsnkvEchy3AM7E) <lylgithub2021 (lylgithub2021)>:
 And another question. How to stringlize definition of a function? For  example, `f: function[x][x]`, `:f` will give its definition as `func [x][x]`. I'd like print or stringlize this definition. I tried `to-string/form/rejoin/print :f`. All these try just give `"?function?"`, not `"func [x][x]"` which I expect. What's wrong with my tries on it?
@@ -15812,9 +15410,6 @@ You got lucky that it worked for that relative path (a side-effect of our curren
 ```
 
 [10:55:01](#XLwqObNM6y4PUH8mZUbVJGJNLowpUKsm6mfSAoLszPU) <lylgithub2021 (lylgithub2021)>:
-![](https://gitter.ems.host/_matrix/media/v3/download/gitter.im/abd20f41f73bf6358f84127122f3a1e36cf5dc2a1911734931357171712)
-
-[10:55:08](#NC1aw4LJTWXqAhpA9pLuomKBvPE9QrL3gkC_o8v8c2E) <lylgithub2021 (lylgithub2021)>:
 ![](https://gitter.ems.host/_matrix/media/v3/download/gitter.im/abd20f41f73bf6358f84127122f3a1e36cf5dc2a1911734931357171712)
 
 [10:55:58](#eQgS0AJZCm3jDku-TH4LrTGuYDZr3iODQnhDqkzv5z0) <lylgithub2021 (lylgithub2021)>:

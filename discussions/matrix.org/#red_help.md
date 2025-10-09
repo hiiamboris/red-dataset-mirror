@@ -1530,7 +1530,7 @@ What happens if your function argument is :b:
 ":b"
 
 [11:54:46](#14772236861078941dmzzd:matrix.org) <gitter_PeterWAWood>:
-Sorry, that's not relevant. (I shouldn't try to answer from my phone í ½í¹)
+Sorry, that's not relevant. (I shouldn't try to answer from my phone ğŸ™)
 
 [12:00:53](#14772240531079919PyMme:matrix.org) <gitter_dockimbel>:
 @maximvl No difference in Red, like in Rebol3, though, the Rebol2 behavior looks more useful, so we may switch back to it.
@@ -5699,7 +5699,7 @@ yes ,  I just use Red for two day,  perhaps I should change my server side to us
 You won't lose anything by learning rebol2 ;)
 
 [6:27:39](#14835112591263005ByPok:matrix.org) <gitter_lajunta>:
-Yeahí ½í¸Š
+YeahğŸ˜Š
 
 [6:27:49](#14835112691263044QADUe:matrix.org) <gitter_geekyi>:
 @lajunta I'd recommend to get started with rebol2 if you're completely new to it
@@ -6290,7 +6290,7 @@ Looks like the standard `to-path` does what the comment in my func works around.
 @greggirwin Nice!
 
 [20:59:00](#1485809940157658KnzPY:matrix.org) <gitter_geekyi>:
-í ¾í´” :+1: 
+ğŸ¤” :+1: 
 
 [21:00:14](#1485810014158292WwjTh:matrix.org) <gitter_greggirwin>:
 Thanks @rebolek. Realized `refine` is broken for word args, which brought up, again, that `remove-each` doesn't return the series value as in R2. Fix coming shortly.
@@ -6801,7 +6801,7 @@ found 3-duplicate  b
 @geekyi how can I put it outside the parens?
 
 [13:57:59](#14865622792735935mGEop:matrix.org) <gitter_geekyi>:
-@maximvl I think not so easy in your code.. I'm not sure.. í ¾í´”
+@maximvl I think not so easy in your code.. I'm not sure.. ğŸ¤”
 
 [13:58:29](#14865623092736074XHLFq:matrix.org) <gitter_maximvl>:
 so yeah, the question is can underlying code control the `parse` or not
@@ -8259,7 +8259,7 @@ I didn't write any libRed stuff, but I included the files and it built
 :+1: ...
 
 [22:24:12](#14892710521053652BNRbj:matrix.org) <gitter_geekyi>:
-í ½í±í ½í¸€ 
+ğŸ‘ğŸ˜€ 
 
 ## 12-Mar-2017
 
@@ -16365,7 +16365,7 @@ https://gist.github.com/9214/784e7f7af2342f117bc67a8e2698855b
 @metaperl 
 
 [12:58:35](#14912243152112124UeziI:matrix.org) <gitter_geekyi>:
-Ah!! Mobile.. í ½í¸” 
+Ah!! Mobile.. ğŸ˜” 
 
 [13:21:33](#14912256932126889oxKrN:matrix.org) <gitter_9214>:
 :muscle: 
@@ -22195,7 +22195,7 @@ It would be interesting if there was  recursive composer/reducer that  evaluated
 @AlexanderBaggett `/` path syntax is used for refinements, among others. Quite a lot of stuff is multipurpose like that. For practicality and convenience 
 
 [20:54:40](#1492635280214837KnGQF:matrix.org) <gitter_geekyi>:
-You could build recursive reducer yourself í ½í¸‰
+You could build recursive reducer yourself ğŸ˜‰
 
 [20:54:55](#1492635295214995whMQd:matrix.org) <gitter_alexanderbaggett>:
 hmm
@@ -22886,7 +22886,7 @@ Mine aren't clean enough to release right now.
 I think @rebolek 's JSON should be good enough, if you don't have any `null` value to deal with.
 
 [6:29:25](#14927561651512257rXNyq:matrix.org) <gitter_rebolek>:
-It is actually yours JSON, I just did some maintenance í ½í¸€
+It is actually yours JSON, I just did some maintenance ğŸ˜€
 
 [11:16:43](#14927734031667657iQAVL:matrix.org) <gitter_phryxe>:
 How does `length` in `remove` work? It seems to only remove one value whatever number I write!?
@@ -23945,7 +23945,7 @@ I mean, I don't feel it's just limited to `block!`s
 the "line marker" thing?
 
 [14:34:21](#14929580611806331wphSM:matrix.org) <gitter_geekyi>:
-Never mind, just an analogy í ½í¸
+Never mind, just an analogy ğŸ˜
 
 [14:35:01](#14929581011807361ZOywj:matrix.org) <gitter_geekyi>:
 Every small piece of engineering seems well thought out
@@ -25312,7 +25312,7 @@ Result:
 ```
 I am fun2 and I have been called by fun1
 ```
-í ½í¸ƒ
+ğŸ˜ƒ
 
 [19:59:40](#14935823801100428gByzo:matrix.org) <gitter_x8x>:
 (edited) ... /local  stack][ ... => ... /local error stack][ ...
@@ -25345,7 +25345,7 @@ parent: fun1
 @x8x stack trace is possible with that? I'm not so familiar with debug functions in red. Also `trace` was more visible in rebol
 
 [21:36:00](#14935881601170543khZCZ:matrix.org) <gitter_x8x>:
-That is just a hack to get the stack trace from R/S to Red level.. I needed to know the caller name to generate a proper error in a function and it suits this pourpuse, not sure how much that is otherwise usefull.. í ½í¸
+That is just a hack to get the stack trace from R/S to Red level.. I needed to know the caller name to generate a proper error in a function and it suits this pourpuse, not sure how much that is otherwise usefull.. ğŸ˜
 
 ## 1-May-2017
 
@@ -37868,7 +37868,7 @@ No matter. I've come up with a re-write that solves the problem based on the wor
 Nonetheless, thanks for your help!
 
 [20:57:27](#15028306472484468GpDXH:matrix.org) <gitter_geekyi>:
-@GuitarRover_twitter probably a hack to get a usable `dir`, it's called *simpleio* after allí ½í¸€ 
+@GuitarRover_twitter probably a hack to get a usable `dir`, it's called *simpleio* after allğŸ˜€ 
 
 [20:57:58](#15028306782484977sapHu:matrix.org) <gitter_greggirwin>:
 Added to https://github.com/red/red/wiki/Differences-between-Red-and-Rebol#dir-function.
@@ -37876,7 +37876,7 @@ Added to https://github.com/red/red/wiki/Differences-between-Red-and-Rebol#dir-f
 If the change was made in the initial release of R3, it was made by Carl. If he did it there, it was not likely a hack. There are pros and cons each way, yes? To argue for a change, we need to make a case for it. There *are* some things in Red that were surely done for expedience, but more things have been left out (e.g. HOFs), because we don't want to just hack things in.
 
 [20:58:35](#15028307152485643UjpbK:matrix.org) <gitter_guitarrover_twitter>:
-> @GuitarRover_twitter probably a hack to get a usable `dir`, it's called *simpleio* after allí ½í¸€ 
+> @GuitarRover_twitter probably a hack to get a usable `dir`, it's called *simpleio* after allğŸ˜€ 
 
 HA!
 
@@ -52318,7 +52318,7 @@ It's for tasty food
 :yum: 
 
 [17:39:01](#1509730741354554dzdSu:matrix.org) <gitter_dander>:
-í ¼í½›
+ğŸ›
 
 [18:16:39](#1509732999395717ZPkVv:matrix.org) <gitter_greggirwin>:
 I wrote a play where one programmer asks another programmer "What is a Haskell programmer's favorite food?"
@@ -53717,7 +53717,7 @@ Happy to learn more myself. Even once we have GC, it's good to know how to avoid
 The memory hit comes from making paths and composing blocks, so these hints are somewhat universal as well.
 
 [1:00:42](#15104484422402130elKMf:matrix.org) <gitter_9214>:
-`butlast`? í ½í¸€
+`butlast`? ğŸ˜€
 
 [1:01:09](#15104484692402484gKjOe:matrix.org) <gitter_greggirwin>:
 `all-but-last`?
@@ -68337,7 +68337,7 @@ view win
 ok so no can't look at ui after-the-fact, have to pre-build it, correct? 
 
 [12:24:51](#16122686916019wdSEl:gitter.im) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-Sorry.. I don't understand what you are asking for í ½í¸•
+Sorry.. I don't understand what you are asking for ğŸ˜•
 
 [12:41:03](#16122696636070jthQc:gitter.im) <snotbubble (Craig Brown)>:
 something like this, where everything in view is prefab (win)
@@ -68477,7 +68477,7 @@ on-button: func[face][
 ]
 
 foreach label text [ 
-    append code compose [  base 180x30 (label) í ½í¸®n-button   return ]
+    append code compose [  base 180x30 (label) ğŸ˜®n-button   return ]
 ]
 view code
 ```
@@ -68522,8 +68522,8 @@ on-button: func[face event][
 foreach label text [ 
     append code compose [
         base 180x30 (label)
-        on-up   í ½í¸®n-button
-        on-down í ½í¸®n-button
+        on-up   ğŸ˜®n-button
+        on-down ğŸ˜®n-button
         return
     ]
 ]
@@ -68620,7 +68620,7 @@ With  the right text editor, you can view the debug file while the script runs.
 @fergus4 it should work with the CLI console. Only the GUI console has this issue. It's on our list.
 
 [17:27:19](#16124596399324EnnEB:gitter.im) <hiiamboris (NOT THIS ONE)>:
-or just `print*: í ½í¸›rint print: func [x][print* :x do-events/no-wait]`
+or just `print*: ğŸ˜›rint print: func [x][print* :x do-events/no-wait]`
 
 [17:29:48](#16124597889328QTdob:gitter.im) <hiiamboris (NOT THIS ONE)>:
 though redefining that `print` used in `call/output` will be harder I guess
@@ -68782,7 +68782,7 @@ And when I need to use `attempt` ? Is it suitable for it?
 @toomasv so my code more or less idiomatic? 
 
 [10:55:44](#161252254410047zOMwF:gitter.im) <hiiamboris (NOT THIS ONE)>:
-it is, don't worry í ½í¸‰
+it is, don't worry ğŸ˜‰
 
 [11:00:36](#161252283610056tnJPk:gitter.im) <toomasv>:
 @bubnenkoff You can throw/catch attributes of `error!`, e.g.
@@ -69285,7 +69285,7 @@ result: parse str [collect [any rule]]
 @toomasv amazing thanks a lot!!!!!
 
 [8:47:37](#161337885719435faRJz:gitter.im) <toomasv>:
-í ½í¸„ 
+ğŸ˜„ 
 
 [10:05:18](#161338351819516Tovcm:gitter.im) <snotbubble (Craig Brown)>:
 Is there a way to allow events and layout to share data?
@@ -69548,7 +69548,7 @@ pic: make image! [94x178 #{
 
 
 [21:42:17](#161454853716814HSrIz:gitter.im) <hiiamboris (NOT THIS ONE)>:
-`#include` the giant block í ½í¸‰
+`#include` the giant block ğŸ˜‰
 
 [21:42:48](#161454856816817CkgbH:gitter.im) <hiiamboris (NOT THIS ONE)>:
 also use `png` format to make it smaller
@@ -70181,7 +70181,7 @@ Ah... you are right.. it is just `load` in R2...
 ```
 
 [10:32:48](#16153723688423GzQvZ:gitter.im) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-(it's a long time since I used R2 for something else than Red compilationí ½í¸‰
+(it's a long time since I used R2 for something else than Red compilationğŸ˜‰
 
 [10:34:09](#16153724498424YubVU:gitter.im) <hiiamboris (NOT THIS ONE)>:
 Oh great. It can even load jpegs. But can it save jpegs? I don't see `save/jpeg` there
@@ -70205,7 +70205,7 @@ File
 Works after compiling, that is
 
 [12:33:42](#161537962246216mfMjb:matrix.org) <loziniak (@loza:matrix.org)>:
-looks like there's need for #resource directive í ½í¸ƒ
+looks like there's need for #resource directive ğŸ˜ƒ
 
 [13:02:38](#16153813588563SlGuB:gitter.im) <hiiamboris (NOT THIS ONE)>:
 > @hiiamboris  your one line way only works if png is in the same dir that im running Red from. For me. 
@@ -70343,7 +70343,7 @@ And if we are to provide any tree helpers, we will need a standard structure to 
 @hiiamboris  pretty sure I tried absolute path. 
 
 [16:52:35](#16153951558888lcHnC:gitter.im) <hiiamboris (NOT THIS ONE)>:
-try again í ½í¸‰
+try again ğŸ˜‰
 
 [16:54:01](#16153952418892fHFeW:gitter.im) <gltewalt (Greg T)>:
 Go for it
@@ -70361,7 +70361,7 @@ tricky indeed
 I sense sarcasm lol
 
 [17:14:28](#16153964688910BFvqx:gitter.im) <hiiamboris (NOT THIS ONE)>:
-no.. I don't know how to solve this í ½í¸ƒ
+no.. I don't know how to solve this ğŸ˜ƒ
 
 [17:15:05](#16153965058913OpaQy:gitter.im) <hiiamboris (NOT THIS ONE)>:
 I don't think R2 has the script path, except as an argument in system/options/args
@@ -70426,7 +70426,7 @@ nvm, I managed to bend R2:
 
 
 [18:07:55](#16153996758994YIEza:gitter.im) <hiiamboris (NOT THIS ONE)>:
-@gltewalt thanks for your reports, it's grown enough to be uploaded í ½í¸‰
+@gltewalt thanks for your reports, it's grown enough to be uploaded ğŸ˜‰
 Hosted here from now on: https://gitlab.com/hiiamboris/red-mezz-warehouse/-/blob/master/embed-image.red
 
 [18:08:37](#16153997178995lbxAi:gitter.im) <hiiamboris (NOT THIS ONE)>:
@@ -70711,13 +70711,13 @@ but-last: func [ser [series!] /part n][
 ```
 
 [18:15:51](#161583215126lwKJI:gitter.im) <hiiamboris (NOT THIS ONE)>:
-also `func [s] [reverse remove reverse copy s]` (recalled an old Toomas' trick í ½í¸‰
+also `func [s] [reverse remove reverse copy s]` (recalled an old Toomas' trick ğŸ˜‰
 
 [18:17:33](#161583225327foIpn:gitter.im) <greggirwin (Gregg Irwin)>:
 Let's not start an obfuscation contest...yet. :^)
 
 [18:17:43](#161583226328xWlYv:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ½í¸ƒ
+ğŸ˜ƒ
 
 ## 16-Mar-2021
 
@@ -70938,7 +70938,7 @@ ok
 wow, there's so much going on for nothing :)
 
 [19:01:13](#16159212731817foGLA:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ½í¸ƒ
+ğŸ˜ƒ
 
 [19:02:44](#16159213641819FktbF:gitter.im) <bubnenkoff (Dmitry Bubnenkov)>:
 One moment, the tiny example work:
@@ -70961,7 +70961,7 @@ you're right that you need a `copy`
 but study `? compose` syntax
 
 [19:04:28](#16159214681822lQltd:gitter.im) <hiiamboris (NOT THIS ONE)>:
-it certainly can do what you want í ½í¸‰
+it certainly can do what you want ğŸ˜‰
 
 [19:04:31](#16159214711823gzTfz:gitter.im) <rebolek (Boleslav BÅ™ezovskÃ½)>:
 ok, let's split the code a bit.
@@ -71084,7 +71084,7 @@ string: head insert next copy "()" string
 that's very nice solution!
 
 [8:20:12](#16159692122417rXanV:gitter.im) <GalenIvanov (Galen Ivanov)>:
-í ½í¸„ 
+ğŸ˜„ 
 
 [8:30:44](#16159698442418RmZcd:gitter.im) <bubnenkoff (Dmitry Bubnenkov)>:
 Big hatnks!
@@ -71105,10 +71105,10 @@ Without a loop it would be even simpler:
 @toomasv Nice! I thought of `to-paren` too.
 
 [11:39:24](#16159811642501WUvNt:gitter.im) <rebolek (Boleslav BÅ™ezovskÃ½)>:
-@toomasv Nice, but what about different data like`["a a" "b b" "c c"]`? í ½í¸ƒ
+@toomasv Nice, but what about different data like`["a a" "b b" "c c"]`? ğŸ˜ƒ
 
 [11:40:47](#16159812472503ZKCYc:gitter.im) <bubnenkoff (Dmitry Bubnenkov)>:
-> @toomasv Nice, but what about different data like`["a a" "b b" "c c"]`? í ½í¸ƒ
+> @toomasv Nice, but what about different data like`["a a" "b b" "c c"]`? ğŸ˜ƒ
 
 You read this question from my head)))
 
@@ -71118,14 +71118,14 @@ You read this question from my head)))
 You read this question from my head))) I just wanted to ask it)
 
 [11:42:25](#16159813452507EZGTg:gitter.im) <rebolek (Boleslav BÅ™ezovskÃ½)>:
-I can come up with even simpler solution í ½í¸‰
+I can come up with even simpler solution ğŸ˜‰
 ```
 convert: func [][{("aa", "bb", "cc")}]
 ```
 
 
 [11:54:42](#16159820822512XcYGd:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ½í¸ƒ
+ğŸ˜ƒ
 
 [11:58:06](#16159822862514mmRkf:gitter.im) <toomasv>:
 :) No problem:
@@ -71151,7 +71151,7 @@ replace/all mold to-paren ["a a" "but this text will confuse your solution again
 ```
 
 [12:37:44](#16159846642577arPSh:gitter.im) <rebolek (Boleslav BÅ™ezovskÃ½)>:
-í ½í¸ƒ
+ğŸ˜ƒ
 
 [12:39:21](#16159847612583IgQnr:gitter.im) <toomasv>:
 I know, next step will break it :)
@@ -71164,7 +71164,7 @@ here you go :)
 ```
 
 [13:03:56](#16159862362613aPcJE:gitter.im) <toomasv>:
-Giving way but still struggling desperately: í ½í¸°
+Giving way but still struggling desperately: ğŸ˜°
 ```
 rule: [collect any [s: skip keep (mold s/1) [end | keep (", ")]]]
 head insert next "()" rejoin parse ["a a" {boom, "boom", "boom"}  "c c"] rule
@@ -71172,7 +71172,7 @@ head insert next "()" rejoin parse ["a a" {boom, "boom", "boom"}  "c c"] rule
 ```
 
 [13:22:12](#16159873322635hrIBk:gitter.im) <rebolek (Boleslav BÅ™ezovskÃ½)>:
-hm, collect, keep, where I've seen this before... í ½í¸‰
+hm, collect, keep, where I've seen this before... ğŸ˜‰
 
 [13:27:12](#16159876322638NVqsL:gitter.im) <bubnenkoff (Dmitry Bubnenkov)>:
 > here you go :)
@@ -71194,8 +71194,8 @@ Does it work for you??
 you need to use `rule` defined above
 
 [13:36:47](#16159882072648gtZjV:gitter.im) <toomasv>:
-> hm, collect, keep, where I've seen this before... í ½í¸‰
-I haven't slightest idea  í ½í¸¶
+> hm, collect, keep, where I've seen this before... ğŸ˜‰
+I haven't slightest idea  ğŸ˜¶
 
 [13:36:52](#16159882122650lFeXi:gitter.im) <toomasv>:
 * > hm, collect, keep, where I've seen this before... ;-)
@@ -71602,7 +71602,7 @@ Maybe not, but I think the OS needs time to write to a file so this probably cou
 @Respectech A oneliner. Nice, well done!
 
 [16:39:01](#16160855414475eiZnP:gitter.im) <Respectech (Respectech)>:
-Thanks! Technically, three one liners. í ½í¸œ
+Thanks! Technically, three one liners. ğŸ˜œ
 
 [16:39:17](#16160855574477OzCTR:gitter.im) <Respectech (Respectech)>:
 * 1: `res: copy block/1 foreach item next block [append res rejoin [" - " item]]`
@@ -71654,7 +71654,7 @@ repeat d 4 [if (d = c) or (d = b) or (d = a) [continue]
             rec: copy ""
             append rec reduce [a b c d e f g h i j k l]
             append/only permutationsblock rec
-            í ½í¸œrobe permutationsblock ; DO NOT USE THIS! BECAUSE OF PRINTING THIS LASTS FOREVER!
+            ğŸ˜œrobe permutationsblock ; DO NOT USE THIS! BECAUSE OF PRINTING THIS LASTS FOREVER!
             permutations: permutations + 1
             
          ]]]]
@@ -71905,10 +71905,10 @@ The number of permutations is: (4*3*2*1) * (4*3*2*1) * (4*3*2*1) = 13824
 
 
 [17:21:20](#16160880804507nHvSz:gitter.im) <hiiamboris (NOT THIS ONE)>:
-that's one funny permutation func í ½í¸ƒ
+that's one funny permutation func ğŸ˜ƒ
 
 [17:23:01](#16160881814509eUfce:gitter.im) <Rebol2Red (Rebol2Red)>:
-Do have a better one? í ½í¸› 
+Do have a better one? ğŸ˜› 
 Watch carefully I need permutations without repetitions per group.
 
 [17:23:16](#16160881964510TcrVf:gitter.im) <Rebol2Red (Rebol2Red)>:
@@ -71921,7 +71921,7 @@ Watch carefully I need permutations without repetitions per group.
 Run the program and see the permutations.
 
 [17:24:47](#16160882874513vRjvO:gitter.im) <hiiamboris (NOT THIS ONE)>:
-I recently posted 2 on https://gitter.im/red/red í ½í¸‰
+I recently posted 2 on https://gitter.im/red/red ğŸ˜‰
 
 [17:26:54](#16160884144520WwGuh:gitter.im) <Rebol2Red (Rebol2Red)>:
 @hiiamboris Huh, Then I must have missed that. I can't see them when using your link.
@@ -71968,13 +71968,13 @@ In your case A = B = list of 24 permutations. You compute A x A x A = (A x A) x 
 `product A product A A`, just instead of making 2-tuples `(A,1)` you concat values into a string ;)
 
 [17:50:26](#16160898264548EMiOQ:gitter.im) <Rebol2Red (Rebol2Red)>:
-It makes sense but that does not mean i can program it í ½í¸›
+It makes sense but that does not mean i can program it ğŸ˜›
 
 [17:50:41](#16160898414549FgLkb:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ½í¸ƒ
+ğŸ˜ƒ
 
 [17:51:15](#16160898754550cxXid:gitter.im) <hiiamboris (NOT THIS ONE)>:
-All the more reason for you to try! í ½í¸‰
+All the more reason for you to try! ğŸ˜‰
 
 [18:22:03](#16160917234551wnkJm:gitter.im) <Rebol2Red (Rebol2Red)>:
 I am not a student so i do'nt ask you to do my homework. I am 61.
@@ -71989,7 +71989,7 @@ I am not a student so i do'nt ask you to do my homework. I am 61.
 * @hiiamboris I am not a student so i do'nt ask you to do my homework. I am 61. I just need you to feed me code. I'm hungry :P 
 
 [18:30:14](#16160922144558pIWEc:gitter.im) <hiiamboris (NOT THIS ONE)>:
-I'm feeding you a little puzzle instead. Brain needs games to keep itself intact í ½í¸‰
+I'm feeding you a little puzzle instead. Brain needs games to keep itself intact ğŸ˜‰
 
 [18:49:25](#16160933654569IQWig:gitter.im) <rseger (rseger)>:
 apologies for the newbie question but I can't seem to hunt this down myself. I want to initialize a key in a map if it doesn't exist. As an example, in python that could look something like `if key not in my-map: my-map[key] = []`
@@ -72037,7 +72037,7 @@ or `put my-map key []`
 all of those appear to work in isolation but I can't seem to get them to work in the middle of that if block
 
 [18:59:01](#16160939414597NECoW:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ½í¸‰
+ğŸ˜‰
 
 [18:59:36](#16160939764603EZQEK:gitter.im) <hiiamboris (NOT THIS ONE)>:
 don't give up so easily, use `probe` to check intermediate results
@@ -72075,7 +72075,7 @@ repeat i permutations [
 ```
 
 [19:02:08](#16160941284609qhozx:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ½í±
+ğŸ‘
 
 [19:02:18](#16160941384610NPUAG:gitter.im) <hiiamboris (NOT THIS ONE)>:
 `rejoin [c/1 b/1 a/1]` should be enough though
@@ -72104,7 +72104,7 @@ ugh. That's horrible formatting
 * `rejoin [c/1 b/1 a/1]` should be enough though (or maybe `rejoin ["" c/1 b/1 a/1]`?)
 
 [19:03:29](#16160942094618iZdwW:gitter.im) <rseger (rseger)>:
-guess I need help with two things í ½í¸•
+guess I need help with two things ğŸ˜•
 
 [19:03:39](#16160942194619JBVOv:gitter.im) <hiiamboris (NOT THIS ONE)>:
 formatting: use 3 backticks
@@ -72170,7 +72170,7 @@ my clear doesn't seem to be working from inside parse either but I haven't playe
 and thank you!
 
 [19:10:42](#16160946424645ZGhsI:gitter.im) <hiiamboris (NOT THIS ONE)>:
-@Rebol2Red you're about to use recursion then! í ½í¸‰
+@Rebol2Red you're about to use recursion then! ğŸ˜‰
 
 [19:11:12](#16160946724649UxKFh:gitter.im) <hiiamboris (NOT THIS ONE)>:
 @rseger you're welcome 
@@ -72498,7 +72498,7 @@ Maybe it is clearer now what I meant by "could this be done with a reactor"
 thank you @greggirwin! I'm a polyglot in search of a home. The data <-> code interchange is something I value a great deal. I was looking for something like `,` from lisp when I should have been focused on what the specific functions were expecting and actually doing with their operands. Subtle differences but obviously important! Thus far I'm enjoying Red, though I'm pretty sure parse and I are destined for a love hate relationship.
 
 [21:36:33](#16161033934885MgriL:gitter.im) <hiiamboris (NOT THIS ONE)>:
-The Red pill is addictive. There is no turning back í ½í¸‰
+The Red pill is addictive. There is no turning back ğŸ˜‰
 
 [21:51:22](#16161042824912AkyrD:gitter.im) <greggirwin (Gregg Irwin)>:
 Once you go `parse` you never go back. :^)
@@ -72535,7 +72535,7 @@ And if somebody else is interrested in this too - do not hesitate to comment on 
 Thank you
 
 [22:58:21](#16161083014972TMzle:gitter.im) <hiiamboris (NOT THIS ONE)>:
-man you *love* long verbose functions í ½í¸ƒ
+man you *love* long verbose functions ğŸ˜ƒ
 
 [22:58:49](#16161083294975nyxmc:gitter.im) <hiiamboris (NOT THIS ONE)>:
 like this one 
@@ -72553,7 +72553,7 @@ solvable: func [
 
 [23:03:58](#16161086384978XLwEN:gitter.im) <Rebol2Red (Rebol2Red)>:
 Ah well, I programmed this a long time ago just after leaving freebasic.
-If you mean I divide it into a lot of lines is because it's clear and readable after a long time. It's mostly for my personal use. Not to show to others í ½í¸›
+If you mean I divide it into a lot of lines is because it's clear and readable after a long time. It's mostly for my personal use. Not to show to others ğŸ˜›
 
 [23:05:10](#16161087104979XmRJd:gitter.im) <Rebol2Red (Rebol2Red)>:
 * Ah well, I programmed this a long time ago just after leaving freebasic.
@@ -73035,7 +73035,7 @@ nasty trick
 Huh... Explain please.
 
 [14:28:28](#16162505087229Vreyl:gitter.im) <hiiamboris (NOT THIS ONE)>:
-I mean that approach to reimplement recursion using array as a stack í ½í¸‰
+I mean that approach to reimplement recursion using array as a stack ğŸ˜‰
 
 [14:28:47](#16162505277230qWPVM:gitter.im) <hiiamboris (NOT THIS ONE)>:
 should win an obfuscation contest easily
@@ -73203,7 +73203,7 @@ Options:
 stuck on parse vs html lists:
 ```
 a: {a list:^/* one^/* two^/* three^/end of * list^/another list^/* AAA^/* BBB^/end of the other list}
-parse a [ any [ to "^/* " change "^/* " "^/<li>" pre: [ to "^/" change "^/" "</li>^/" | to end change end "</li>" end ] í ½í¸›re ] ]
+parse a [ any [ to "^/* " change "^/* " "^/<li>" pre: [ to "^/" change "^/" "</li>^/" | to end change end "</li>" end ] ğŸ˜›re ] ]
 parse a [ any [ to "^/<li>" not "</li>^/<li>" change "^/<li>" "<ul>^/<li>" ] ]
 ```
 `<li>`s are allgood, but 2nd rule stops after 1st occurrence
@@ -73293,10 +73293,10 @@ step one: don't use `to` & `thru`
 * step one: don't use `to` & `thru` ;)
 
 [19:52:59](#16163563797942LeijJ:gitter.im) <rseger (rseger)>:
-but, but í ½í¸­ 
+but, but ğŸ˜­ 
 
 [19:53:25](#16163564057943LqxGv:gitter.im) <hiiamboris (NOT THIS ONE)>:
-don't worry, it's simpler without them! í ½í¸ƒ
+don't worry, it's simpler without them! ğŸ˜ƒ
 
 [20:01:46](#16163569067944vOXtC:gitter.im) <greggirwin (Gregg Irwin)>:
 `Parse` is like PEG. Put your longest rules first.
@@ -73305,7 +73305,7 @@ don't worry, it's simpler without them! í ½í¸ƒ
 When I did some studying of regex engines, years and years ago, one of the key points that has stuck with me is that without too much difficulty you can hit pathological cases where time explodes on you. Not saying you can't also do with with `parse`, but it will be less frequent and more predictable. 
 
 [20:09:43](#16163573837950ZVYDd:gitter.im) <hiiamboris (NOT THIS ONE)>:
-I guess that's why regex is line-oriented í ½í¸‰
+I guess that's why regex is line-oriented ğŸ˜‰
 
 [20:10:33](#16163574337951SmhgO:gitter.im) <greggirwin (Gregg Irwin)>:
 Friedl's book is the ultimate reference on regexes. I don't see it on my shelf, so it's either in a box or I gifted it because I realized regexes were not for me. :^)
@@ -73466,7 +73466,7 @@ I'm not sure why setting to a temp word (variable) doesn't update until another 
 I don't know if it's advisable to do it in the same action as the parse/trace check, but it works without negatively affecting the results
 
 [12:56:13](#1616504173894HfDGy:gitter.im) <bubnenkoff (Dmitry Bubnenkov)>:
-> Giving way but still struggling desperately: í ½í¸°
+> Giving way but still struggling desperately: ğŸ˜°
 > ```
 > rule: [collect any [s: skip keep (mold s/1) [end | keep (", ")]]]
 > head insert next "()" rejoin parse ["a a" {boom, "boom", "boom"}  "c c"] rule
@@ -73630,7 +73630,7 @@ Donâ€™t act i = b
 Sorry :)
 
 [16:57:28](#1616605048317ELDid:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ½í¸‰
+ğŸ˜‰
 
 [20:42:34](#1616618554827NLocI:gitter.im) <rseger (rseger)>:
 it took me an amusingly long time to figure out how to get a directory listing into a variable (`dir` works great for just peeking). I finally found it in the rebol quickstart `read %directory/` <- it's so direct and simple I just didn't even think to look there.
@@ -73778,7 +73778,7 @@ was just the download from the site
 as I thought.. 2 years old build
 
 [21:52:27](#1616622747953rsXSX:gitter.im) <hiiamboris (NOT THIS ONE)>:
-grab the nightly bro í ½í¸‰
+grab the nightly bro ğŸ˜‰
 
 [21:53:27](#1616622807956Ghtyz:gitter.im) <hiiamboris (NOT THIS ONE)>:
 everyone falls into this trap, and nobody fixes it
@@ -73802,7 +73802,7 @@ Yes, we should update the doc string to note CSV, JSON, and redbin.
 * @loza:matrix.org did you try what I posted? :^) `load` works, via the magic of codecs, but you can use `load-json` as well if you prefer. Note that it works on strings, so you need to `read` the file first to use it.
 
 [22:44:25](#161662586516394nhzLg:matrix.org) <loziniak (@loza:matrix.org)>:
-indeed, didn't even try, assumed it's too magical to be true í ½í¸ƒ
+indeed, didn't even try, assumed it's too magical to be true ğŸ˜ƒ
 
 [22:45:06](#1616625906999xGzfs:gitter.im) <rseger (rseger)>:
 I'm trying to grab a copy of arguments passed in via the command line. It seems like `system/args-list` would do this. First, is there a better way? Second, I can't seem to get that command to work. `*** Script Error: cannot access args-list in path system/args-list` what am I messing up?
@@ -73999,7 +73999,7 @@ foreach cleaner cleaners [
 ```
 
 [21:16:03](#16167069631885pTZND:gitter.im) <hiiamboris (NOT THIS ONE)>:
-we won't know if you won't show us the code í ½í¸‰
+we won't know if you won't show us the code ğŸ˜‰
 
 [21:16:22](#16167069821888rsOeT:gitter.im) <hiiamboris (NOT THIS ONE)>:
 apparently the problem is in cleaner
@@ -74227,7 +74227,7 @@ I... just don't understand the delay.
 (I don't understand a bunch of things, but this in particular. It's probably something obvious to someone else, and it's just my usual boneheaded self)
 
 [7:48:23](#16169177035011iouOJ:gitter.im) <hiiamboris (NOT THIS ONE)>:
-There's a great approach to debugging such issues: continuously remove stuff from your script until the issue disappears. After that it usually becomes clear as day í ½í¸‰
+There's a great approach to debugging such issues: continuously remove stuff from your script until the issue disappears. After that it usually becomes clear as day ğŸ˜‰
 
 [9:03:25](#16169222055041mWmXD:gitter.im) <gltewalt (Greg T)>:
 I gave up for now.
@@ -74295,7 +74295,7 @@ As of `0.6.4`, on the first launch toolchain acts as an installer by doing the f
 The above is done transparently to the user, with a dynamic library and console executable being placed in the `%AppData%` folder.
 
 [15:23:08](#16169449885313jcvXg:gitter.im) <Rebol2Red (Rebol2Red)>:
-This does not make it very clear to me what's going on í ½í¸›. Rather see some if...then....
+This does not make it very clear to me what's going on ğŸ˜›. Rather see some if...then....
 Like: If your source contains Red [needs: View] then a gui-console is made by Red.exe blah blah blah...
 Never mind. I can use it without the background information :)
 
@@ -74333,7 +74333,7 @@ Is this compatible with C or Pascal?
 --encap ???
 
 [15:36:28](#16169457885355UCSpb:gitter.im) <hiiamboris (NOT THIS ONE)>:
-Things are clear if you know what the terms mean í ½í¸‰
+Things are clear if you know what the terms mean ğŸ˜‰
 
 [15:38:30](#16169459105357tWYHX:gitter.im) <Rebol2Red (Rebol2Red)>:
 What if I say I don't know what the terms mean? Am I stupid then?
@@ -74342,7 +74342,7 @@ What if I say I don't know what the terms mean? Am I stupid then?
 Then you can ask Google :)
 
 [15:39:11](#16169459515359ZbacQ:gitter.im) <hiiamboris (NOT THIS ONE)>:
-or us í ½í¸ƒ
+or us ğŸ˜ƒ
 
 [15:39:52](#16169459925360yAWor:gitter.im) <Rebol2Red (Rebol2Red)>:
 No. You always make things overcomplicated. Why the hell?
@@ -74429,7 +74429,7 @@ You said it, I didn't know it was sarcastic, so I did assume it was an honest st
 @hiiamboris is very clever, trying to get me to be less verbose with that message. ;^)
 
 [21:33:36](#16169672165754VOOlJ:gitter.im) <hiiamboris (NOT THIS ONE)>:
-You see me through, damn í ½í¸‰
+You see me through, damn ğŸ˜‰
 
 [21:33:55](#16169672355755LYptX:gitter.im) <greggirwin (Gregg Irwin)>:
 Because you are very clever, if I may so compliment myself.
@@ -74509,7 +74509,7 @@ Is there any facility for me to sponsor an expert Red programmer to write some m
 [14:29:54](#16171145941403qkNJJ:gitter.im) <hiiamboris (NOT THIS ONE)>:
 If you have a design for such functions, nobody will write them better than yourself.
 I did some experiment in the field some time ago: https://github.com/hiiamboris/red-pure-fun
-But that was for fun, and I wasn't an expert back then, and I never used it because it's much slower. IIRC the biggest problem was that I had to change the evaluation rules, and that means writing an interpreter within an interpreter. And that isn't going to be fast í ½í¸‰
+But that was for fun, and I wasn't an expert back then, and I never used it because it's much slower. IIRC the biggest problem was that I had to change the evaluation rules, and that means writing an interpreter within an interpreter. And that isn't going to be fast ğŸ˜‰
 
 [14:32:43](#16171147631406VttdS:gitter.im) <9214 (Vladimir Vasilyev)>:
 @snotbubble it's a GCC error, not a Red-generated one. It happens when there's a buffer overflow and native stack content gets overwritten.
@@ -74536,7 +74536,7 @@ WRT CGI, there's also [this](https://github.com/red/red/wiki/%5BDOC%5D-Using-Red
 @stmungo if there was some Red friendly webhosting, I donâ€™t remember it, sorry. But for VPS, every provider is Red friendly :) I use Linode, but just because Iâ€™m used to it, other providers should be good as well.
 
 [17:59:17](#16171271571852gUakc:gitter.im) <rseger (rseger)>:
-is there a way to flush the buffer that `print` uses while executing? I've noticed that when executing from the repl, nothing will be printed until control is returned to the repl í ½í¸Ÿ
+is there a way to flush the buffer that `print` uses while executing? I've noticed that when executing from the repl, nothing will be printed until control is returned to the repl ğŸ˜Ÿ
 
 [18:03:31](#16171274111856kgPlr:gitter.im) <9214 (Vladimir Vasilyev)>:
 @rseger that's not `print`-related, see https://github.com/red/red/issues/2627. Try CLI console instead.
@@ -74546,7 +74546,7 @@ that's the workaround I'm currently using - good to know it's currently the opti
 
 [18:08:42](#16171277221860lJcxv:gitter.im) <hiiamboris (NOT THIS ONE)>:
 ```
-native-print: í ½í¸›rint
+native-print: ğŸ˜›rint
 print: func [value [any-type!]] [native-print :value do-events/no-wait ()]
 ```
 (dangerous if you have a `print` in the timer event)
@@ -74786,7 +74786,7 @@ for posterity, might I recommend updating `help help` to include a note about th
 if you just type `help` it tells you that you can do that
 
 [16:33:16](#16172947965923wXpkj:gitter.im) <hiiamboris (NOT THIS ONE)>:
-simplest things are so hidden in plain sight í ½í¸‰
+simplest things are so hidden in plain sight ğŸ˜‰
 
 [16:33:53](#16172948335925jMRew:gitter.im) <rseger (rseger)>:
 yep, there it is. Recommendation stands - obviously some subset of newbies won't realize there would be a difference between `help` and `help help` 
@@ -75066,7 +75066,7 @@ I appreciate it. That will be most helpful for trying to learn the right vocabul
 * I appreciate it. That will be most helpful for trying to learn the right vocabulary, always a really good thing, but it's opaque to me with regards to what any of those things actually mean/does
 
 [16:49:19](#16172957595958EdCLz:gitter.im) <hiiamboris (NOT THIS ONE)>:
-Maybe @toomasv just wanted to teach you some Parse í ½í¸‰
+Maybe @toomasv just wanted to teach you some Parse ğŸ˜‰
 
 [16:50:37](#16172958375959HrCex:gitter.im) <rseger (rseger)>:
 I'm really glad for the experience I've had over the past couple weeks - I feel like I can read and understand the majority of that. Silly to be excited about probably but it was a nice "look at me, all learned" moment :)
@@ -75084,7 +75084,7 @@ In general, for the function spec: `any-word!` is the argument/local name, `"str
 I believe my read is right in that you can not have multiple allowed data types. So `[string! | file!]` would not work, nor `[string! file!]`. That said, I wanted to check: can you specify multiple allowable data types or is it a one vs everything choice?
 
 [17:03:13](#16172965935971EAuEQ:gitter.im) <hiiamboris (NOT THIS ONE)>:
-you can always try it yourself and see - that's what console is for í ½í¸‰
+you can always try it yourself and see - that's what console is for ğŸ˜‰
 
 [17:03:45](#16172966255972TrxNo:gitter.im) <hiiamboris (NOT THIS ONE)>:
 `[string! | file!]` is a Parse syntax though, not for the function spec
@@ -75128,7 +75128,7 @@ Ok, thanks.
 * @rseger About `?` / `help` - do you know that pressing `Tab` in the GUI console while you type gives you a list of all words starting with what you have typed?  `? di` `Tab` would give you `difference dir dir? dirize distance? divide` - that way you wouldn't  have missed `dir?` 
 
 [18:07:33](#16173004536052RRGkY:gitter.im) <GalenIvanov (Galen Ivanov)>:
-@toomasv Thank you for the grammar of function's spec. (I expected to see a diagram though í ½í¸„ )
+@toomasv Thank you for the grammar of function's spec. (I expected to see a diagram though ğŸ˜„ )
 
 [18:08:57](#16173005376055DJORa:gitter.im) <toomasv>:
 @GalenIvanov Here you go
@@ -75202,7 +75202,7 @@ Saw: `Type HELP for starting information. `
 Typed: `help` ENTER
 (shows me how to use `help "string"` and `help "word"`)
 
-What could possibly go wrong?.. Oh yeah, with humans the answer is - everything! í ½í¸ƒ
+What could possibly go wrong?.. Oh yeah, with humans the answer is - everything! ğŸ˜ƒ
 
 [19:35:45](#16173057456426AVwMw:gitter.im) <greggirwin (Gregg Irwin)>:
 Well, it's not the user's fault. When you don't know what you don't know you can't know what not to try.
@@ -75276,7 +75276,7 @@ If its a 'function!' Maybe `source`
 Yeah, good old unset
 
 [0:12:30](#16173223506885dsDDL:gitter.im) <gltewalt (Greg T)>:
-`source source`  í ½í¸‰
+`source source`  ğŸ˜‰
 
 [0:19:45](#16173227856886FXAJY:gitter.im) <gltewalt (Greg T)>:
 `your-text/data: mold get/any 'function-name`  ?
@@ -75318,7 +75318,7 @@ a: context [ b: context [ mm: "one" ] c: context [ mm: "two" ] ] foreach n value
 @snotbubble `compose [ (b) (c) ]` is same like `reduce [ b c ]`. Use `compose` if you need to evaluate only some expressions or nested expressions (`compose/deep`)
 
 [16:00:36](#16173792367732RNIyR:gitter.im) <rseger (rseger)>:
-I'm messing something up but I can't figure out what í ½í¸•
+I'm messing something up but I can't figure out what ğŸ˜•
 ```
 >> a: #{}
 == #{}
@@ -75353,7 +75353,7 @@ excellent. Any idea why `set a/this 1` would still be failing even though it's (
 does it not tell you in the error message?
 
 [16:04:56](#16173794967751jwrEb:gitter.im) <rseger (rseger)>:
-yes, but it's opaque to me í ½í¸Ÿ
+yes, but it's opaque to me ğŸ˜Ÿ
 ` Script Error: set does not allow none! for its word argument`
 
 [16:06:04](#16173795647753VEiHt:gitter.im) <hiiamboris (NOT THIS ONE)>:
@@ -75395,7 +75395,7 @@ I'm pretty confident that is the case. But "this" is part of the map
 I used `put` to get it in there
 
 [16:17:25](#16173802457773IaFfS:gitter.im) <hiiamboris (NOT THIS ONE)>:
-confusing a word with a string? í ½í¸‰
+confusing a word with a string? ğŸ˜‰
 
 [16:19:12](#16173803527776SENhS:gitter.im) <hiiamboris (NOT THIS ONE)>:
 ```
@@ -75520,7 +75520,7 @@ the `/local` comes right after the name of the argument I'm passing in. So that'
 yes, if word is not listed in the function spec, it's global (or belongs to some other context)
 
 [17:18:47](#16173839277865HckyQ:gitter.im) <hiiamboris (NOT THIS ONE)>:
-now that you know that `function` collects set-words, there's another way to access global words (without writing set-words and then listing them in /extern) - can you guess what way is that? í ½í¸‰
+now that you know that `function` collects set-words, there's another way to access global words (without writing set-words and then listing them in /extern) - can you guess what way is that? ğŸ˜‰
 
 [17:19:06](#16173839467866MANlF:gitter.im) <rseger (rseger)>:
 so reading from a variable just silently walks scope, as you'd expect. You have to use the `/extern` refinement explicitly to enable writing to external scopes.
@@ -75535,7 +75535,7 @@ I'm going to try to test in a second but, possibly the inverse? You can use an u
 hmm.. that did not affect the `??` source as I expected
 
 [17:23:58](#16173842387871frerk:gitter.im) <hiiamboris (NOT THIS ONE)>:
-take your time to figure it out í ½í¸‰
+take your time to figure it out ğŸ˜‰
 
 [17:28:21](#16173845017874JcfrF:gitter.im) <rseger (rseger)>:
 so, I put the `/extern` refinement *in front* of the variable in a normal function definition. The `??` source didn't list it as a variable at all (all of the other variables, which read from global scope, were still listed). But it appears to have acted exactly as I expected: writing to it from the function did in fact affect the global scope variable.
@@ -75583,7 +75583,7 @@ wow you have no pity for them rookies @greggirwin
 [20:55:52](#16173969528125LtemK:gitter.im) <rseger (rseger)>:
 just glancing through that I learned something - you can force arbitrary words in your function definition. `func ['forced var]` the immediate next question is whether you can make that that 'forced word optional or not?
 
-I'll definitely be studying this later tonight. Questions coming. You've been warned í ½í¸‰
+I'll definitely be studying this later tonight. Questions coming. You've been warned ğŸ˜‰
 
 [21:15:54](#16173981548167OauEJ:gitter.im) <greggirwin (Gregg Irwin)>:
 If we're gonna scare 'em off... :^) I'm guessing @rseger will focus on their active work, but now the seed is planted.
@@ -75843,7 +75843,7 @@ you're evaluating the code and want to get back the unevaluated version?
 yep
 
 [10:44:51](#16175330919657RyLQx:gitter.im) <hiiamboris (NOT THIS ONE)>:
-it's up to you to do so, as programming languages I know of never work that way í ½í¸‰
+it's up to you to do so, as programming languages I know of never work that way ğŸ˜‰
 
 [10:45:31](#16175331319658jimxi:gitter.im) <hiiamboris (NOT THIS ONE)>:
 mold it first, evaluate later
@@ -76087,7 +76087,7 @@ well, it's a bug
 please minimize the snippet and [report it](https://github.com/red/red/issues/new?template=bug_report.md)
 
 [8:14:32](#161769687212335nammD:gitter.im) <hiiamboris (NOT THIS ONE)>:
-@9214 is an expert on Redbin, he can probably say what's happening í ½í¸‰
+@9214 is an expert on Redbin, he can probably say what's happening ğŸ˜‰
 
 [22:30:26](#161774822613585VOnPY:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
 I need to send HTML emails with attachments. What should I use? 
@@ -76761,7 +76761,7 @@ Where is the right place to collect such short examples? Maybe in [Examples](htt
 @GalenIvanov Nice example!
 
 [19:38:06](#161851548613937KGzAr:gitter.im) <GalenIvanov (Galen Ivanov)>:
-@toomasv Thanks! í ½í¸„ 
+@toomasv Thanks! ğŸ˜„ 
 
 [19:49:29](#161851616913952VUQFB:gitter.im) <greggirwin (Gregg Irwin)>:
 Certainly add it to the scripts collection, though being sorted by user makes things harder to find there. That gets your name in the list. :^) But let's add %algorithms/ to https://github.com/red/community and put it there. 
@@ -77480,7 +77480,7 @@ That's fine. If you need to account for decimals it's a bit more work. I have ex
 Unboxing tuples and pairs is a use case I agree, but less important. I think there should be a routine for that.
 
 [7:44:13](#161899105320097hvZBv:gitter.im) <hiiamboris (NOT THIS ONE)>:
-Though I only remember wanting this once, and don't even remember where í ½í¸‰
+Though I only remember wanting this once, and don't even remember where ğŸ˜‰
 
 [7:45:49](#161899114920098vBblI:gitter.im) <hiiamboris (NOT THIS ONE)>:
 @rebred funny, I used the same trick as you - `parse reverse`.
@@ -78000,7 +78000,7 @@ parse a [any[3 skip p: if (not tail? p) insert ","]]
 @GalenIvanov amazing thank you!!!
 
 [14:06:12](#161910037221836Ijcrm:gitter.im) <GalenIvanov (Galen Ivanov)>:
-@rebred í ½í¸„ 
+@rebred ğŸ˜„ 
 
 [14:15:30](#161910093021868JetGz:gitter.im) <rebred (rebred)>:
 
@@ -78199,10 +78199,10 @@ In case `num` happens to be percent...
 it's for `percent!` type
 
 [16:54:02](#1619110442217uBbWv:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ½í°¢ 
+ğŸ¢ 
 
 [16:54:13](#1619110453218iHkuO:gitter.im) <toomasv>:
-í ½í°­ 
+ğŸ­ 
 
 [17:12:49](#1619111569239rtStC:gitter.im) <greggirwin (Gregg Irwin)>:
 >  I am reading mixed files from a folder and need to separate them by type - the issue is that sometimes images are saved without extension
@@ -78219,13 +78219,13 @@ I think we should finish & merge format first. So we can boast high level featur
 Of course I agree, but there can be more than one entry there.
 
 [17:52:41](#1619113961281gsDxT:gitter.im) <hiiamboris (NOT THIS ONE)>:
-Sure, but IMO it's better to avoid posting snippets where we're not ready to outplay the competition. By posting low level code we create a wrong image of Red. Index trickery, not declarativity. And something tells me we won't have format in the next few years at this rate í ½í¸‰
+Sure, but IMO it's better to avoid posting snippets where we're not ready to outplay the competition. By posting low level code we create a wrong image of Red. Index trickery, not declarativity. And something tells me we won't have format in the next few years at this rate ğŸ˜‰
 
 [17:55:14](#1619114114284guAdz:gitter.im) <greggirwin (Gregg Irwin)>:
 So is it better to have something sooner, or wait for something better later? What about when you don't know when later will be?
 
 [17:56:09](#1619114169287BteEf:gitter.im) <hiiamboris (NOT THIS ONE)>:
-**I** would post it when it's ready í ½í¸‰
+**I** would post it when it's ready ğŸ˜‰
 
 [17:56:56](#1619114216288VUGva:gitter.im) <greggirwin (Gregg Irwin)>:
 You're no help at all. :^)
@@ -78234,7 +78234,7 @@ You're no help at all. :^)
 https://rosettacode.org/wiki/RC_POP.OUT
 
 [17:57:01](#1619114221291HNdoh:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ½í¸ƒ
+ğŸ˜ƒ
 
 [17:57:01](#1619114221292zwyUa:gitter.im) <ne1uno (ne1uno)>:
   rank: 143  [tied]       (115 entries)  RED
@@ -78324,7 +78324,7 @@ although `form` forms everything under `0.0001` in exponential mode, so I had to
 [19:06:46](#1619118406429JmIvW:gitter.im) <hiiamboris (NOT THIS ONE)>:
 > well, `round/to x 0` could return `x`, `round/to x inf or nan` - always nan
 
-hmm.. now that I think of it, `round/to inf inf` may also return `inf`... í ½í¸•
+hmm.. now that I think of it, `round/to inf inf` may also return `inf`... ğŸ˜•
 
 [19:07:06](#1619118426430bpOYt:gitter.im) <greggirwin (Gregg Irwin)>:
 `NaN` makes sense to return `NaN`.
@@ -78374,19 +78374,19 @@ well, idk, I'd say result is undefined right now
 Sometimes I get lucky. The IEEE and intuitive results don't always go together.
 
 [19:13:54](#1619118834447ixnnE:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ½í¸ƒ
+ğŸ˜ƒ
 
 [19:14:11](#1619118851448xNxLy:gitter.im) <greggirwin (Gregg Irwin)>:
 The definition is that you get an error. :^)
 
 [19:14:34](#1619118874449SaWUA:gitter.im) <hiiamboris (NOT THIS ONE)>:
-which makes me write code to avoid it í ½í¸‰
+which makes me write code to avoid it ğŸ˜‰
 
 [19:15:03](#1619118903450UYBQE:gitter.im) <greggirwin (Gregg Irwin)>:
 We want to keep you employed. 
 
 [19:15:15](#1619118915451lwGoN:gitter.im) <hiiamboris (NOT THIS ONE)>:
-mkay í ½í¸‰
+mkay ğŸ˜‰
 
 [19:15:45](#1619118945453vmhqr:gitter.im) <greggirwin (Gregg Irwin)>:
 Would 0 be a useful result in your current use case? Because that makes more sense than `x` to me right now.
@@ -78415,7 +78415,7 @@ You're right that a scale of 0 should return `x`. Time for me to make coffee.
 Assuming Nenad agrees. It's a justifiable result IMO, having not had coffee yet. 
 
 [19:35:27](#1619120127511VRxrx:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ½í¸ƒ
+ğŸ˜ƒ
 
 [19:37:07](#16191202271867751hsMBG:matrix.org) <zentrog>:
 > <@greggirwin-55659ddb15522ed4b3e1006f:gitter.im> So is it better to have something sooner, or wait for something better later? What about when you don't know when later will be?
@@ -78516,7 +78516,7 @@ Then I think we can make %float.reds line 917 just do the same as line 919, retu
 should I make a REP?
 
 [20:26:40](#1619123200650KAnOK:gitter.im) <hiiamboris (NOT THIS ONE)>:
-no clue if they ever look into REP repo though í ½í¸ƒ
+no clue if they ever look into REP repo though ğŸ˜ƒ
 
 [20:28:36](#1619123316651eguZB:gitter.im) <greggirwin (Gregg Irwin)>:
 I have only looked at %float.reds, so asking first will save PR'ing changes to other types in case @dockimbel disagrees. The changes should be pretty easy though, so whichever you prefer.
@@ -79317,7 +79317,7 @@ maybe.. or maybe it could `do/next` expressions in the input line and have a spe
 [21:58:35](#16192151151808ePcRM:gitter.im) <hiiamboris (NOT THIS ONE)>:
 > None! propagates pretty far today IMO. It's confusing at times because it is a valid value.
 
-Example? í ½í¸‰
+Example? ğŸ˜‰
 
 [21:59:10](#16192151501809drMfu:gitter.im) <hiiamboris (NOT THIS ONE)>:
 * > None! propagates pretty far today IMO. It's confusing at times because it is a valid value.
@@ -79585,7 +79585,7 @@ At the moment, only by selecting part of the text then deselecting. Or writing r
 @GalenIvanov You are welcome! Er.. where did you miss it?
 
 [7:14:40](#16194212803743PndRV:gitter.im) <GalenIvanov (Galen Ivanov)>:
-In some codegolf answers í ½í¸„ 
+In some codegolf answers ğŸ˜„ 
 
 [7:16:09](#16194213693745AvuZF:gitter.im) <GalenIvanov (Galen Ivanov)>:
 I've always used the long `either key[update key value][initialize key valye]` 
@@ -79617,7 +79617,7 @@ view [
 ```
 
 [9:12:19](#16194283393850SifRG:gitter.im) <GalenIvanov (Galen Ivanov)>:
-The problem is that it always appends the new characters at the end, even you place the cursor in the middle í ½í¸„ 
+The problem is that it always appends the new characters at the end, even you place the cursor in the middle ğŸ˜„ 
 
 [9:40:05](#16194300053878zdvon:gitter.im) <rebred (rebred)>:
 @toomasv thank you!!!
@@ -79792,7 +79792,7 @@ remove/key
 
 
 [10:39:32](#16195199724960slJtJ:gitter.im) <GalenIvanov (Galen Ivanov)>:
-as @hiiamboris said í ½í¸„ 
+as @hiiamboris said ğŸ˜„ 
 
 [10:40:00](#16195200004962wZmio:gitter.im) <stmungo (stmungo)>:
 Thank you, both.
@@ -79893,13 +79893,13 @@ powers-of-2: func[n][
 ```
 
 [12:52:06](#16195279265164Esvbd:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ½í¸ƒ
+ğŸ˜ƒ
 
 [12:52:27](#16195279475168EerjW:gitter.im) <GalenIvanov (Galen Ivanov)>:
 It's silly, I know
 
 [12:53:05](#16195279855171bgzJS:gitter.im) <hiiamboris (NOT THIS ONE)>:
-I still bear a little hope that vector design will be revised í ½í¸‰
+I still bear a little hope that vector design will be revised ğŸ˜‰
 
 [12:53:23](#16195280035177jfNGr:gitter.im) <GalenIvanov (Galen Ivanov)>:
 :+1: 
@@ -80830,7 +80830,7 @@ Thanks very much, et merci Francois (clavier GB) - ca marche. And Toomas - I tri
 @Rapid-GTR_gitlab  You are welcome! 
 
 [18:58:21](#16199819019950cyNcd:gitter.im) <rapid-gtr_gitlab-6069a6ad6da0373984793989>:
-@toomasv í ½í± Been to Lithuania and Latvia in 2009, before they were any McDonalds, and Finland about 45 years ago, but missed your neck of the woods, unfortunately!
+@toomasv ğŸ‘ Been to Lithuania and Latvia in 2009, before they were any McDonalds, and Finland about 45 years ago, but missed your neck of the woods, unfortunately!
 
 [20:01:31](#16199856919988jDaVV:gitter.im) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 @Rapid-GTR_gitlab Also:
@@ -80853,13 +80853,13 @@ I use Red-Ride as a text editor...
 Welcome by the way 
 
 [15:38:17](#162005629710800JLHOm:gitter.im) <planetsizecpu (Jose Luis)>:
-í ½í¸€
+ğŸ˜€
 
 [15:41:37](#162005649710803epusp:gitter.im) <rapid-gtr_gitlab-6069a6ad6da0373984793989>:
 @planetsizecpu Â¡Gracias! 
 
 [15:42:10](#162005653010805hdkWJ:gitter.im) <planetsizecpu (Jose Luis)>:
-í ½í¸‰
+ğŸ˜‰
 
 [15:51:06](#162005706610807QLclh:gitter.im) <hiiamboris (NOT THIS ONE)>:
 Uses what in .red file?
@@ -80879,10 +80879,10 @@ I am obviously not very good at using these forums! I edited the text to read: "
 [16:12:12](#162005833210815yIarr:gitter.im) <hiiamboris (NOT THIS ONE)>:
 > I am obviously not very good at using these forums!
 
-Ah. Gittard problems. Sometimes it eats my messages, esp. when my connection glitches. This editing glitch is new for me í ½í¸‰
+Ah. Gittard problems. Sometimes it eats my messages, esp. when my connection glitches. This editing glitch is new for me ğŸ˜‰
 
 [16:14:04](#162005844410817cXmMY:gitter.im) <hiiamboris (NOT THIS ONE)>:
-Glad to see you're adapting to Red í ½í¸‰
+Glad to see you're adapting to Red ğŸ˜‰
 What I'm using is a function: `dorc: does [do read-clipboard]`. Since I'm running a Red console day and night, I just enter `dorc` in the console when I need to test copied text (:
 
 [16:19:53](#162005879310818mYARt:gitter.im) <rapid-gtr_gitlab-6069a6ad6da0373984793989>:
@@ -81051,7 +81051,7 @@ please raise an issue about `selected: none` not working
 and a separate one about `unfocus` event
 
 [19:34:08](#1620329648525CvVEJ:gitter.im) <hiiamboris (NOT THIS ONE)>:
-View events pipeline is a mess, the more issues you raise the more chances are they'll revise it í ½í¸‰
+View events pipeline is a mess, the more issues you raise the more chances are they'll revise it ğŸ˜‰
 
 [20:15:16](#1620332116554aqgCg:gitter.im) <zwortex (zwortex)>:
 Ok, For the focus: https://github.com/red/red/issues/4891
@@ -81142,7 +81142,7 @@ a: make object! [
 
 
 [6:50:00](#16203702002731zReJJ:gitter.im) <hiiamboris (NOT THIS ONE)>:
-that doesn't align with the language design though, at all í ½í¸‰
+that doesn't align with the language design though, at all ğŸ˜‰
 
 [8:36:47](#16203766072868nrajc:gitter.im) <zwortex (zwortex)>:
 Why would it not be so ? The keyword would be ignored by load and only taken into account by make object. I guess self is treated in a similar way at the function level anyway.
@@ -81156,7 +81156,7 @@ because there is no parent.
 3. there is no "context outside of object" as you can put this object into different other objects or none at all
 
 [8:43:13](#16203769932882FrKuQ:gitter.im) <hiiamboris (NOT THIS ONE)>:
-I suggest you implement your idea first on mezz level or using system/lexer/pre-load, see how it helps you and then present it to us í ½í¸‰
+I suggest you implement your idea first on mezz level or using system/lexer/pre-load, see how it helps you and then present it to us ğŸ˜‰
 
 [8:45:23](#16203771232883bTRPN:gitter.im) <hiiamboris (NOT THIS ONE)>:
 And there is no exceptions made for `self`.
@@ -81469,7 +81469,7 @@ o: make object! [
 
 
 [10:23:39](#16205558193989qqiWN:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
-í ½í¸Ÿ
+ğŸ˜Ÿ
 
 [10:28:59](#16205561393990xKCWN:gitter.im) <hiiamboris (NOT THIS ONE)>:
 You need to bind bodies of functions inside the context instead.
@@ -81751,7 +81751,7 @@ o: make object! [
 
 bind body-of o/o1 o/o2
 bind body-of o/o2 o/o1
-bind body-of í ½í¸®/o2/f o/o1
+bind body-of ğŸ˜®/o2/f o/o1
 
 
 o/o2/f
@@ -81805,7 +81805,7 @@ Right...
 
 
 [11:11:17](#16205586774022ZQgyh:gitter.im) <hiiamboris (NOT THIS ONE)>:
-That's what happens when you work against the design í ½í¸‰
+That's what happens when you work against the design ğŸ˜‰
 
 [11:12:13](#16205587334023ZhVYD:gitter.im) <hiiamboris (NOT THIS ONE)>:
 But `foreach` is still at your disposal, so doable.
@@ -82108,7 +82108,7 @@ supposedly we've passed the time of penance...
 That it's an out of range error is interesting. If it's not huge, and not secret, post it in a gist and others can chew on it.
 
 [19:42:47](#1621021367527wxODC:gitter.im) <hiiamboris (NOT THIS ONE)>:
-yeah takes me hours sometimes to narrow down the error í ½í¸‰
+yeah takes me hours sometimes to narrow down the error ğŸ˜‰
 
 [19:43:32](#1621021412528YkkJU:gitter.im) <hiiamboris (NOT THIS ONE)>:
 on the other hand, someone else (or I myself later again) may fall into the same trap
@@ -82167,7 +82167,7 @@ superset?: func [
 these would read better in op-form
 
 [21:04:48](#16211126881328FWWxN:gitter.im) <hiiamboris (NOT THIS ONE)>:
-`subset-of: make op! í ½í¸–ubset?`
+`subset-of: make op! ğŸ˜–ubset?`
 
 [21:06:02](#16211127621330YcGSR:gitter.im) <greggirwin (Gregg Irwin)>:
 They would read *differently*, but I'd keep the `?` in the name because of the logic result in any case.
@@ -82511,7 +82511,7 @@ although 255 is not divisible by 2 and 3, so a very little bit imprecise
 [7:27:42](#16214092622094qPSDz:gitter.im) <GalenIvanov (Galen Ivanov)>:
 
 
-@hiiamboris Nice try! It's fast (but still eats RAM on my machine). Too bad you impose symmetry with `matrix` í ½í¸„ 
+@hiiamboris Nice try! It's fast (but still eats RAM on my machine). Too bad you impose symmetry with `matrix` ğŸ˜„ 
 
 [7:56:03](#16214109632131BWBFs:gitter.im) <hiiamboris (NOT THIS ONE)>:
 Yeah right, I'll fix it (at the cost of more RAM :)
@@ -82848,7 +82848,7 @@ https://blog.google/technology/health/ai-dermatology-preview-io-2021/  jury stil
 @zwortex https://github.com/red/red/issues/3284 https://github.com/red/red/issues/4201 https://github.com/red/red/issues/4598 https://github.com/red/red/issues/924
 
 [17:00:24](#16214436242640PsGay:gitter.im) <hiiamboris (NOT THIS ONE)>:
-I'd just advise you to stop that quest to compile everything, but I think you won't listen anyway í ½í¸‰
+I'd just advise you to stop that quest to compile everything, but I think you won't listen anyway ğŸ˜‰
 
 [17:24:31](#16214450712669nObOK:gitter.im) <zwortex (zwortex)>:
 I went through this https://github.com/red/red/wiki/%5BNOTES%5D-Compiler-Limitations already. I'll take on the others you gave me. I understand your warning. I am not trying to compile everything. Merely to better understand what compilation offers. In particular, I'd like to understand what is being compiled, what is not, what could be compiled with a minor change in the code. One of the thing that I find hard to understand is this : you would expect compilation to work or be required by the code on a given portion of the code. Let's say a highly used functions (like a jit compiler would do) while keeping the rest of the code interpreted. Here as I understand it, it works the other way round, the compiler tries to compile everything, and just give up whenever it is to hard or impossible for it to decipher. As a result, compilation turns out to be more like an enhanced code checker, that can detect part of the code that would break, like the break statement that had nothing to do in the absence of loop, than a means to achieve highly efficient code. Especially as you never know for sure what is being compiled from what is not, and you don't have the ability to require that a certain portion of code be compiled. In my particular case, the major benefice is the extended language checks the compilation provides.
@@ -83103,7 +83103,7 @@ Too much data is as bad as not enough. Makes it harder to extract information fr
 This is why we still point people to R2 manual. It has good signal to noise ratio.
 
 [19:59:53](#16219727937660GzpVo:gitter.im) <hiiamboris (NOT THIS ONE)>:
-And why I don't usually read books í ½í¸ƒ
+And why I don't usually read books ğŸ˜ƒ
 
 [19:59:59](#16219727997661GespW:gitter.im) <greggirwin (Gregg Irwin)>:
 The R2 manual (User Guide) is a different beast yet again. I agreed on too much vs not enough, but it's also about organization and sprawl. Mainly for what we can manage now. We don't have an SO presence, so that's added effort right now IMO.
@@ -83226,7 +83226,7 @@ forall blk [if not last? blk [blk: next blk insert blk '|]] blk
 which one is faster?
 
 [11:00:58](#162245885811280RhwuS:gitter.im) <GalenIvanov (Galen Ivanov)>:
-I don't know í ½í¸„ 
+I don't know ğŸ˜„ 
 
 [11:03:12](#162245899211282VdnQk:gitter.im) <abdllhygt (Abdullah YiÄŸiterol)>:
 ok )
@@ -83850,7 +83850,7 @@ how to compile `ask`? i forgot that too.
 [13:18:35](#1622812715897zRJOn:gitter.im) <qtxie>:
 > Almost a year to the day! I know @qtxie is busy, but `sort` is important.
 
-í ½í¸… Fix pushed.
+ğŸ˜… Fix pushed.
 
 [16:38:13](#16228246931121VRahg:gitter.im) <abdllhygt (Abdullah YiÄŸiterol)>:
 i compiled my program, when my program quit, it appears an error:
@@ -84673,7 +84673,7 @@ Compiling to native code...
 
 
 [9:23:15](#16253905951357lTjmf:gitter.im) <hiiamboris (NOT THIS ONE)>:
-you'll have to isolate it and file an issue, otherwise tells nothing í ½í¸‰
+you'll have to isolate it and file an issue, otherwise tells nothing ğŸ˜‰
 
 [9:35:38](#16253913381359vqvgI:gitter.im) <ldci (FranÃ§ois Jouen)>:
 @hiiamboris Youâ€™re right. Iâ€™m tracking the error :)
@@ -84722,7 +84722,7 @@ Got it! Maybe stupid question but what needs to happen to create 64bit version?
 Well, a lot :) 
 
 [8:59:00](#1625561940201983Marqt:matrix.org) <tmphei>:
-So I guess itâ€™s not â€œautomatically recompile to 64bit targetâ€ kinda thing í ½í¸‚
+So I guess itâ€™s not â€œautomatically recompile to 64bit targetâ€ kinda thing ğŸ˜‚
 
 [8:59:37](#16255619771991GczvB:gitter.im) <rebolek (Boleslav BÅ™ezovskÃ½)>:
 Because Red has its own compiler, the whole compiler needs to be adjusted for 64 bits.
@@ -84800,7 +84800,7 @@ Is [this](https://scipython.com/book/chapter-7-matplotlib/examples/the-two-dimen
 @GalenIvanov Yes youâ€™re right, but slicing is a little bit complicated comparatively to Red approach. Iâ€™m just looking. for a simple way to wite an equivalent function with Red:)
 
 [9:09:18](#16257353583226ESDuQ:gitter.im) <GalenIvanov (Galen Ivanov)>:
-@ldci Yes, I understand. I don't know NumPy but as it seems it works directly with vectors/tables. We'll need a lot of `foreach` loops, or some of @hiiamboris *each menagerie í ½í¸„ 
+@ldci Yes, I understand. I don't know NumPy but as it seems it works directly with vectors/tables. We'll need a lot of `foreach` loops, or some of @hiiamboris *each menagerie ğŸ˜„ 
 
 [9:23:14](#16257361943227gddjQ:gitter.im) <ldci (FranÃ§ois Jouen)>:
 @GalenIvanov Numpy is fast since compiled. I made some test with iterating boucles: not very efficient.
@@ -84848,7 +84848,7 @@ Having slices in Red natively will also help I think.
 I agree with @hiiamboris 
 
 [10:21:04](#16257396643233UWDgd:gitter.im) <GalenIvanov (Galen Ivanov)>:
-@ldci Your code reminds me of a vertex shader - executed for each pixel í ½í¸„ 
+@ldci Your code reminds me of a vertex shader - executed for each pixel ğŸ˜„ 
 
 [12:57:17](#16257490373291PBuIH:gitter.im) <ldci (FranÃ§ois Jouen)>:
 @GalenIvanov @hiiamboris Thanks for comments. BTW with Toomas. we included in redCV a matrix object. Have a look  here: https://github.com/ldci/redCV/tree/master/libs/matrix. Iâ€™ve to add slicing now based on matrix/split function. Regards.
@@ -84903,7 +84903,7 @@ I'll bring it up for discussion.
 That's the bigger generalization question. Matrices up to 3D could be supported with integers, pairs, and (eventually) points. We haven't nailed down `point!` syntax, but general matrix design shouldn't be too contentious (unlike other areas where questions just lead to more questions).
 
 [19:07:25](#16257712453526tjOOf:gitter.im) <GalenIvanov (Galen Ivanov)>:
-@greggirwin I agree. I confess I was thinking of `matrix`in @ldci's case as strictly 2d í ½í¸„ 
+@greggirwin I agree. I confess I was thinking of `matrix`in @ldci's case as strictly 2d ğŸ˜„ 
 
 ## 9-Jul-2021
 
@@ -84916,10 +84916,10 @@ Great job @ldci
 @planetsizecpu You can congratulate Toomas for his help in designing first version of  matrix-object :)
 
 [10:25:01](#16259991014095OoTzv:gitter.im) <planetsizecpu (Jose Luis)>:
-@ldci IIRC I did at the time, but anyway my congrats @toomasv í ½í¹‚
+@ldci IIRC I did at the time, but anyway my congrats @toomasv ğŸ™‚
 
 [10:25:42](#16259991424097dJhlC:gitter.im) <planetsizecpu (Jose Luis)>:
-* @ldci IIRC I did at the time, but anyway my congrats @toomasv í ½í¹‚ good team work.
+* @ldci IIRC I did at the time, but anyway my congrats @toomasv ğŸ™‚ good team work.
 
 [13:31:00](#16260102604157fSUqA:gitter.im) <toomasv>:
 :)
@@ -84930,7 +84930,7 @@ Great job @ldci
 Hi everyone! I just completed the [Coming to Red from Python](https://github.com/red/red/wiki/Coming-to-Red-from-Python) section in the wiki and I would like to ask you for your feedback.  Please feel free to make any eventual minor fixes in place, or fill in the `Notes` sections with longer questions, comments and suggestions. Thank you in advance!
 
 [19:09:58](#16261169984512WbTPM:gitter.im) <greggirwin (Gregg Irwin)>:
-í ½í± í ½í±  Also, if you know any Pythonistas who can tell us how useful it is, that would be great. 
+ğŸ‘ ğŸ‘  Also, if you know any Pythonistas who can tell us how useful it is, that would be great. 
 
 Thanks @GalenIvanov! I'm very excited about this.
 
@@ -85147,7 +85147,7 @@ Unfortunately it still doesn't work. I should have mentioned earlier -- I'm runn
 I'm on Win 10
 
 [11:58:59](#16263503396078cJVQE:gitter.im) <GalenIvanov (Galen Ivanov)>:
-í ½í¸„ 
+ğŸ˜„ 
 
 [12:17:22](#16263514426083dOPWF:gitter.im) <yelizarovd (yelizarovd)>:
 Ah, that's probably it. It looks like OSX support is at 98% -- I'll need to check back in a little while. 
@@ -85336,7 +85336,7 @@ hah! Look cool!
 ## 26-Jul-2021
 
 [5:27:03](#16272772231151NpZBC:gitter.im) <toomasv>:
-Oops! Can't use `clear` here í ½í¸³. First two lines better
+Oops! Can't use `clear` here ğŸ˜³. First two lines better
 ```
 len: min length? b1 length? b2 
 unless with [out: make block! 2 * len]
@@ -85768,7 +85768,7 @@ TimeSlip (James_Nak) if you're on github, make a gist and then paste the link in
 If it's included into lexer, it's standard and can't be messed with.
 
 [19:10:32](#16278450321454DwpkY:gitter.im) <hiiamboris (NOT THIS ONE)>:
-Using the preprocessor is a great personal solution without the issues. Well, most of the time í ½í¸‰
+Using the preprocessor is a great personal solution without the issues. Well, most of the time ğŸ˜‰
 
 [21:44:24](#16278542641521DdgdJ:gitter.im) <greggirwin (Gregg Irwin)>:
 https://github.com/red/red/wiki/%5BDOC%5D-Red-Should...-(Feature-Wars)#block-comments
@@ -86423,7 +86423,7 @@ It gets ugly pretty fast: `to path! compose to block! quote toto/(titi)`
 Off the top of my head.
 
 [17:16:34](#162818379450775HNlSC:matrix.org) <gltewalt (The other Greg)>:
-Off the top of my head is how I got into this mess.  í ½í¸‰
+Off the top of my head is how I got into this mess.  ğŸ˜‰
 
 [17:22:08](#16281841284314lnlco:gitter.im) <ldci (FranÃ§ois Jouen)>:
 Another sample for communication between Red and Red/System.
@@ -86558,7 +86558,7 @@ There's a Python guide from @greggirwin
 @zwortex There is [Coming to Red from Python](https://github.com/red/red/wiki/Coming-to-Red-from-Python) wiki, and a part of it is [Red functions for Python-programmers](https://github.com/red/red/wiki/Red-functions-for-Python-programmers)
 
 [18:53:52](#16281896324459QMCnU:gitter.im) <GalenIvanov (Galen Ivanov)>:
-í ½í¸„ 
+ğŸ˜„ 
 
 [18:55:21](#16281897214462cOiEs:gitter.im) <zwortex (zwortex)>:
 @hiiamboris, @GalenIvanov  - python is also an old beast... definitely ! I'll have a look into it. Thanks.
@@ -86634,7 +86634,7 @@ Also [concat](https://gist.github.com/toomasv/fd651f24e18d7bc85d05204cc5f828d2):
 ```
 
 [20:32:00](#16281955204508MLcaT:gitter.im) <gltewalt (Greg T)>:
-í ½í°ˆ 
+ğŸˆ 
 
 [20:47:25](#16281964454523IzmxU:gitter.im) <zwortex (zwortex)>:
 @GalenIvanov, @gltewalt,  @toomasv thanks for all your suggestions. I buy them all :
@@ -86664,7 +86664,7 @@ Also [concat](https://gist.github.com/toomasv/fd651f24e18d7bc85d05204cc5f828d2):
 Beware ! like Newcastle, we might end-up with a primitive called neweach.
 
 [11:36:01](#16282497614711RFUTS:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ½í¸ƒ
+ğŸ˜ƒ
 
 [19:12:31](#16282771514909fnOkm:gitter.im) <greggirwin (Gregg Irwin)>:
 `neweachâ˜ `
@@ -86679,7 +86679,7 @@ I just with the darn emojis weren't so small.
 Format trick?
 
 [19:20:31](#16282776314913rXYUP:gitter.im) <hiiamboris (NOT THIS ONE)>:
-heading í ½í¸‰
+heading ğŸ˜‰
 
 [19:20:38](#16282776384915vLTOx:gitter.im) <hiiamboris (NOT THIS ONE)>:
 but letters will become big too
@@ -86697,7 +86697,7 @@ Yowza!
 That *really* gets your attention.
 
 [19:21:27](#16282776874923rMqPd:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ½í¸ƒ
+ğŸ˜ƒ
 
 [19:21:47](#16282777074925byGtI:gitter.im) <greggirwin (Gregg Irwin)>:
 New rules for syntax highlighting.
@@ -86782,7 +86782,7 @@ gen-sym: func [/with 'word /reset /no-count /local count] [
 	; Editing alignment goes wonky for the insertion point.
 	to word! rejoin [
 		#"^(2989)"				; #"â¦‰"  left binding bracket
-		any [word #"^(1F70)"]	; #"í ½í¼€" aether :^)
+		any [word #"^(1F70)"]	; #"ğŸœ€" aether :^)
 		either no-count [][count/1]
 		#"^(298A)"				; #"â¦Š"  right binding bracket
 	]
@@ -86813,11 +86813,11 @@ gensym: func [/with 'word /reset /local count] [
 	to word! append to string! any [word "g"] count/1
 ]
 ```
-which came from Lisp, and is perfectly useful. IIRC, the chat was around the time of playful í ½í²€ and âš ï¸  decorator ideas. I remember searching for symbols, and wondered if the binding symbols would add meaning and distinguish generated symbols further.
+which came from Lisp, and is perfectly useful. IIRC, the chat was around the time of playful ğŸ’€ and âš ï¸  decorator ideas. I remember searching for symbols, and wondered if the binding symbols would add meaning and distinguish generated symbols further.
 
 
 [20:29:01](#16284545415650GQLyy:gitter.im) <greggirwin (Gregg Irwin)>:
-Not likely someone would use `í ½í¼€` directly, but you never know in today's world.
+Not likely someone would use `ğŸœ€` directly, but you never know in today's world.
 
 [20:32:01](#16284547215651ZKwlC:gitter.im) <greggirwin (Gregg Irwin)>:
 The purpose of `gensym` is to generate unique symbols, but it doesn't tell you that without a doc string. :^\ I'll fix that.
@@ -86991,7 +86991,7 @@ Why my PR doesn't work however is because we have yet another bug in hashtables.
 no bug, just forgot to include the patch required for that PR
 
 [18:21:33](#16286196936549mIiif:gitter.im) <giesse (Gabriele Santilli)>:
-Ah, I tested `compose/deep` but didn't test with a path. The double copy kind of hurts. í ½í¸Ÿ
+Ah, I tested `compose/deep` but didn't test with a path. The double copy kind of hurts. ğŸ˜Ÿ
 
 [18:37:13](#16286206336601pCIBg:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
 > > people will quickly adjust to it
@@ -87050,7 +87050,7 @@ Code regions do not need the programmer to write ";" at each line start, so dist
 Sounds as if you're doing it manually (adding/stripping `;`).
 
 [19:06:11](#16286223716741FIJNX:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
-Inside UltraEdit I do it manually because I don't like the colorization of the block as comment but as code I would like a lot to write `parse [thru ";;;" copy body to ";;;"]`. instead of something more complex í ½í¸‰
+Inside UltraEdit I do it manually because I don't like the colorization of the block as comment but as code I would like a lot to write `parse [thru ";;;" copy body to ";;;"]`. instead of something more complex ğŸ˜‰
 
 [19:07:01](#16286224216743VeAgf:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
 Also, the content could be parsed from something other than Red, which could be more complicated than using parse in Red.
@@ -87292,10 +87292,10 @@ Good job for your 1st script â˜º
 thanks! that was a bit hard, cuz i'm more into functional/concatenative approach rather than anything else
 
 [9:39:40](#16291067802336puEhx:gitter.im) <hiiamboris (NOT THIS ONE)>:
-In Red you'll find that there is no single right way to do anything, but alternatives. Like same word-wrapping could have been done using Parse. Or instead of splitting into words you could have looked for the nearest space before the wrapping margin. Not necessarily better, but it is quite interesting to look at the possibilities. It's like a game í ½í¸‰
+In Red you'll find that there is no single right way to do anything, but alternatives. Like same word-wrapping could have been done using Parse. Or instead of splitting into words you could have looked for the nearest space before the wrapping margin. Not necessarily better, but it is quite interesting to look at the possibilities. It's like a game ğŸ˜‰
 
 [9:41:48](#16291069082337pWwgV:gitter.im) <hiiamboris (NOT THIS ONE)>:
-Eventually we'll probably have something out of the box for that í ½í¸‰
+Eventually we'll probably have something out of the box for that ğŸ˜‰
 
 [9:42:12](#16291069322339WfTtM:gitter.im) <q60-5eb9bae7d73408ce4fe36594>:
 i'd like to look at wrapping using `parse`
@@ -87324,7 +87324,7 @@ There are some thing you don't need:
 i know about parens, added them for readability, but thanks for the thing about return
 
 [10:56:12](#16291113722369YVesF:gitter.im) <GalenIvanov (Galen Ivanov)>:
-OK, I thought this may be the case í ½í¸„ 
+OK, I thought this may be the case ğŸ˜„ 
 
 [10:58:51](#16291115312371BdXjE:gitter.im) <GalenIvanov (Galen Ivanov)>:
 Are you interested in seeing a small edit of your function? (It's good enough already)
@@ -87363,7 +87363,7 @@ wrap: func [string max-len] [
 ```
 
 [11:15:58](#16291125582386MnKvY:gitter.im) <GalenIvanov (Galen Ivanov)>:
-Quite appropriate í ½í¸„ 
+Quite appropriate ğŸ˜„ 
 
 [11:17:10](#16291126302387FRufL:gitter.im) <q60-5eb9bae7d73408ce4fe36594>:
 there is 3 spaces between words
@@ -87430,7 +87430,7 @@ and what is the best way to concat multiple strings if a string can be variable 
 `rejoin [str1 "-" str2 "..." str3]`
 
 [12:01:47](#16291153072410XvBmK:gitter.im) <q60-5eb9bae7d73408ce4fe36594>:
-mursa 0.1.1 is out í ½í¸³ 
+mursa 0.1.1 is out ğŸ˜³ 
 
 [12:02:26](#16291153462411tisLh:gitter.im) <q60-5eb9bae7d73408ce4fe36594>:
 umm there's and issue w/ vscode Red extension - the language server doesn't start
@@ -88032,7 +88032,7 @@ But testing is done automatically and it's not like you will affect it by docume
 If `git` isn't your thing, there must be some user-friendly clients.. I can't advise here.
 
 [13:28:21](#16304165014BKYGD:gitter.im) <hiiamboris (NOT THIS ONE)>:
-I can tell git commands to execute though í ½í¸‰
+I can tell git commands to execute though ğŸ˜‰
 
 [13:29:50](#16304165905GruPs:gitter.im) <zwortex (zwortex)>:
 I will skydive into that later.
@@ -88286,7 +88286,7 @@ Nvm I see you did
 Good job!
 
 [14:00:51](#16309368511383arPfm:gitter.im) <hiiamboris (NOT THIS ONE)>:
-One note on commit naming: team uses "FIX: issue #number (title in parens)", so it's best to keep it this way not to break their parsing scripts í ½í¸‰
+One note on commit naming: team uses "FIX: issue #number (title in parens)", so it's best to keep it this way not to break their parsing scripts ğŸ˜‰
 
 [14:11:57](#16309375171392xBLZg:gitter.im) <RayMPerry (RaycatWhoDat)>:
 Whoops! Fixing.
@@ -88521,7 +88521,7 @@ I would imagine this is a side effect of being hosted through R2 and will come i
 
 
 [12:30:40](#16310178401605IhzKQ:gitter.im) <rebolek (Boleslav BÅ™ezovskÃ½)>:
-No, itâ€™s just because no one has added code for it í ½í¸‰
+No, itâ€™s just because no one has added code for it ğŸ˜‰
 
 [12:31:04](#16310178641607QaZdd:gitter.im) <rebolek (Boleslav BÅ™ezovskÃ½)>:
 It should be trivial addition.
@@ -88535,7 +88535,7 @@ Should I make an issue for it?
 
 
 [12:34:11](#16310180511611baoMs:gitter.im) <rebolek (Boleslav BÅ™ezovskÃ½)>:
-Why not? So it can be tracked when you make a PR later í ½í¸‰
+Why not? So it can be tracked when you make a PR later ğŸ˜‰
 
 [12:50:06](#16310190061612zfPuZ:gitter.im) <RayMPerry (RaycatWhoDat)>:
 Hmm. What is the difference between `system/standard/header` and `system/script/header`?
@@ -88563,8 +88563,8 @@ This then will also work if we `do` a file from console itself. During `do` the 
 Example:
 ```
 Red [title: "utility function"]
-print ["including" system/script/header/title]     í ½í¸‰ shows "utility function"
-show-title: does [alert system/script/header/title]   í ½í¸‰ shows title of the program
+print ["including" system/script/header/title]     ğŸ˜‰ shows "utility function"
+show-title: does [alert system/script/header/title]   ğŸ˜‰ shows title of the program
 ```
 
 [13:28:26](#16310213061629BBJXQ:gitter.im) <hiiamboris (NOT THIS ONE)>:
@@ -88615,7 +88615,7 @@ true, but you probably still want to know where you merged that content from to 
 Yes, what I meant was that we'll probably want both...somehow.
 
 [18:31:59](#16310395191703waauS:gitter.im) <planetsizecpu (Jose Luis)>:
-"Hierarchical environments" sounds to me like `contexts` í ½í¸„
+"Hierarchical environments" sounds to me like `contexts` ğŸ˜„
 
 [18:48:03](#16310404831704AqtGn:gitter.im) <greggirwin (Gregg Irwin)>:
 The important aspect is how they are combined, and defining an interface that makes it clear and consistent. They can be objects, blocks, or maps, doesn't matter.
@@ -88656,7 +88656,7 @@ help decompress informs that refinement deflate needs a size as a parameter. I d
 so you probably noticed the date yourself
 
 [21:10:30](#1631135430107kCdTP:gitter.im) <hiiamboris (NOT THIS ONE)>:
-time to update í ½í¸‰
+time to update ğŸ˜‰
 
 [21:23:40](#1631136220109ldiMb:gitter.im) <JLCyclo (JLCyclo)>:
 I try again with 'Red 0.6.4 for Linux built 8-Sep-2021/19:08:56+02:00  commit #90a1982', there is a error message when I call decompress
@@ -88962,7 +88962,7 @@ And this would ideally return a `port!` or some sort of stream structure
 I would imagine you'd just build from source if you need some other version
 
 [21:32:17](#1631223137427qwtff:gitter.im) <RayMPerry (RaycatWhoDat)>:
-It's not terribly hard if even I can do it í ½í¸›
+It's not terribly hard if even I can do it ğŸ˜›
 
 [22:04:33](#1631225073437vFSUU:gitter.im) <greggirwin (Gregg Irwin)>:
 @rebolek kept some up for a while, but had server issues so they may not be available right now. I think someone else picked up the torch, maybe @loziniak?
@@ -89010,7 +89010,7 @@ Same point.
 https://github.com/red/red/issues/3553#issuecomment-429476014
 
 [12:27:13](#1631276833533RuhIF:gitter.im) <hiiamboris (NOT THIS ONE)>:
-I understand you want to bend Red here í ½í¸‰
+I understand you want to bend Red here ğŸ˜‰
 But there is a cost. Function vs operator precedence is already complex enough that a lot of debate was around it. If you want a deeper view: https://github.com/red/red/issues/941
 
 [12:30:01](#1631277001534FSWnW:gitter.im) <hiiamboris (NOT THIS ONE)>:
@@ -89214,7 +89214,7 @@ Yes, throwaway R2 implementation is of the compiler is one of the factors limiti
 https://static.red-lang.org/red-system-specs.html#section-19.4
 
 [16:34:08](#16314644481074xadnF:gitter.im) <hiiamboris (NOT THIS ONE)>:
-As in every big project, non-critical features get stuck in a TODO list í ½í¸‰
+As in every big project, non-critical features get stuck in a TODO list ğŸ˜‰
 
 [17:41:00](#16314684601094FrQPc:gitter.im) <greggirwin (Gregg Irwin)>:
 One of my hopes is that as the community grows, we'll see more experiments with dialects at different levels. There will still be a core R/S, but finding the features that add the most value, and exploring newer ideas (like the borrow checker in Rust), along with focusing on tooling to analyze code so we have data to learn from, should be easier in Red than in almost any other language.
@@ -89520,7 +89520,7 @@ Oh my bad, It's trying to access to ` %common-tools.red` inside
 `do file` descends into the directory of that file, but `do load file` does not. So it may not find the other included file.
 
 [10:36:18](#16317021781738GzmGw:gitter.im) <hiiamboris (NOT THIS ONE)>:
-I'll let @rebolek handle this í ½í¸‰
+I'll let @rebolek handle this ğŸ˜‰
 
 [11:17:06](#16317046261757kvJGu:gitter.im) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 @hitesman:matrix.org if you are interested in software renderers, I recomend you to check https://blend2d.com/ if you don't know it yet.
@@ -89891,7 +89891,7 @@ end-too
 end-else
 
 [20:10:06](#1632514206815wZCNh:gitter.im) <hiiamboris (NOT THIS ONE)>:
-I was considering `all-or x` & `except x` but both don't really nail it í ½í¸‰
+I was considering `all-or x` & `except x` but both don't really nail it ğŸ˜‰
 
 [20:13:31](#1632514411817neOcN:gitter.im) <planetsizecpu (Jose Luis)>:
 `on-each` & `on-all`  ?
@@ -89908,7 +89908,7 @@ I was considering `all-or x` & `except x` but both don't really nail it í ½í¸‰
 I want to create a program which recognizes  which program has opened a window on Windows and adds a button to the top bar or attach its VID gui to the side bar of the window. Do you think it would be possible in Red or R\S? Any hints where to start?
 
 [12:15:03](#1632572103936cuRSo:gitter.im) <hiiamboris (NOT THIS ONE)>:
-With R/S definitely possible. Start by googling how to overlay your button over other program's title bar í ½í¸‰
+With R/S definitely possible. Start by googling how to overlay your button over other program's title bar ğŸ˜‰
 
 [12:30:26](#1632573026937LlWhY:gitter.im) <abdllhygt (Abdullah YiÄŸiterol)>:
 hi
@@ -89961,7 +89961,7 @@ I do have a parser under my *experimental* grouping ([altxml.red](https://github
 Is the extension of the Consolle feature documented somewhere?
 
 [9:36:38](#16329081981737PGysz:gitter.im) <pekr (Petr Krenzelok)>:
-Use the code, Luke í ½í¹‚
+Use the code, Luke ğŸ™‚
 
 [16:39:14](#16329335541863WxLlJ:gitter.im) <fergus4 (Alan Macleod)>:
 @rgchris  Chris, altXML.red works great. Thanks again!
@@ -90338,7 +90338,7 @@ It's hard to see, but the first two `{  }` should be two spaces and the third `{
 ```
 
 [18:54:04](#16343240442670zWscx:gitter.im) <hiiamboris (NOT THIS ONE)>:
-name is really inconspicuous though í ½í¸‰
+name is really inconspicuous though ğŸ˜‰
 
 [18:54:40](#16343240802671OxXvp:gitter.im) <hiiamboris (NOT THIS ONE)>:
 it should be `trim/extra` or smth
@@ -90394,7 +90394,7 @@ Ok, I'll take a look at it
 It's just an excercise, not a real request, so keep relaxed, if you are pressed for the time :-)
 
 [7:39:22](#16343699622792NWlsR:gitter.im) <GalenIvanov (Galen Ivanov)>:
-If meant that a single space remains at the head or tail of the text - yesm this is the current behavior. But it's not indicated in the question í ½í¸„ 
+If meant that a single space remains at the head or tail of the text - yesm this is the current behavior. But it's not indicated in the question ğŸ˜„ 
 
 [7:39:40](#16343699802794juRRU:gitter.im) <GalenIvanov (Galen Ivanov)>:
 * If you meant that a single space remains at the head or tail of the text - yesm this is the current behavior. But it's not indicated in the question :smile: 
@@ -90435,7 +90435,7 @@ parse text fix-spaces
 Nice :-)
 
 [8:01:24](#16343712842808rKqab:gitter.im) <GalenIvanov (Galen Ivanov)>:
-I'm sure there is more elegant ways to do it í ½í¸„ 
+I'm sure there is more elegant ways to do it ğŸ˜„ 
 
 [9:04:11](#16343750512815sXukK:gitter.im) <toomasv>:
 Yet another:
@@ -90643,8 +90643,8 @@ showTime: does [
 
 initThreads: does [
 	; create threads 1 and 2 (make required)
-	t1: make rThread [tNumber: 1 tPriority: 10 tExecute: í ½í¸–howImage]
-	t2: make rThread [tNumber: 2 tPriority: 30 tExecute: í ½í¸–howTime]
+	t1: make rThread [tNumber: 1 tPriority: 10 tExecute: ğŸ˜–howImage]
+	t2: make rThread [tNumber: 2 tPriority: 30 tExecute: ğŸ˜–howTime]
 	;register threads
 	scheduler/AppendThread t1
 	scheduler/AppendThread t2
@@ -90722,14 +90722,14 @@ I think `do-events/no-wait` omits some events in this case.
 @qtxie OK, a solution?
 
 [7:35:58](#16347153583684EtCgn:gitter.im) <qtxie>:
-@ldci Pushed a fix. í ½í¸¸ 
+@ldci Pushed a fix. ğŸ˜¸ 
 
 [7:41:31](#16347156913686FHYmh:gitter.im) <qtxie>:
-I found this tool to run a macOS VM.  Much faster than on VMWare. Though I have to run it inside a Linux VM. Windows -> WSL -> macOS. í ½í¸‰
+I found this tool to run a macOS VM.  Much faster than on VMWare. Though I have to run it inside a Linux VM. Windows -> WSL -> macOS. ğŸ˜‰
 https://github.com/wimpysworld/quickemu
 
 [7:59:59](#16347167993688vrDHC:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ½í¸ƒ
+ğŸ˜ƒ
 
 [8:01:10](#16347168703690TWwSv:gitter.im) <hiiamboris (NOT THIS ONE)>:
 thanks, I will try it
@@ -90762,10 +90762,10 @@ KVM should be able to
 https://foswiki.org/Support/HowToRunVirtualMachineImageOnKvmQemu
 
 [8:18:18](#16347178983707VVdlN:gitter.im) <hiiamboris (NOT THIS ONE)>:
-ok I probably won't be able to try it as my provider throttles ubuntu mirrors access to 2kB/sec í ½í¸ƒ
+ok I probably won't be able to try it as my provider throttles ubuntu mirrors access to 2kB/sec ğŸ˜ƒ
 
 [8:25:08](#16347183083709Xzwbi:gitter.im) <qtxie>:
-í ½í¸…  Why they set this limitation? The macOS image is also huge, several Gigabytes.
+ğŸ˜…  Why they set this limitation? The macOS image is also huge, several Gigabytes.
 
 [8:34:32](#16347188723712wlXQq:gitter.im) <hiiamboris (NOT THIS ONE)>:
 haha why, I guess because linux uses bandwidth in a most wasteful way and linux junkies slow down the whole mobile network :)
@@ -90825,7 +90825,7 @@ Also note that you can get errors if interim keys don't refer to series or maps.
 @qtxie Youâ€™re the best. It works:)
 
 [23:45:43](#16347735434041iSkkT:gitter.im) <greggirwin (Gregg Irwin)>:
-í ½í± :+1:
+ğŸ‘ :+1:
 
 ## 21-Oct-2021
 
@@ -90945,7 +90945,7 @@ there is no "simple" `data`, there's `data` word bound to `find-path-to-tag` fun
 @bubnenkoff E.g.:
 ```
 find-path-to-tag: function [data wrd] [
-    í ½í¸œrint "find-path-to-tag"
+    ğŸ˜œrint "find-path-to-tag"
     wrd: to-word wrd
     list: copy []
     walk: function [data] [
@@ -91370,7 +91370,7 @@ morph data ['a 'b 'c ['d 'e f: [quote object: block!]]][a b f c [d e]]
 I get assertion failure
 
 [18:10:16](#16356174161246ztXnM:gitter.im) <hiiamboris (NOT THIS ONE)>:
-it should work, must be another bug í ½í¸ƒ
+it should work, must be another bug ğŸ˜ƒ
 
 [18:10:41](#16356174411247qBbjM:gitter.im) <hiiamboris (NOT THIS ONE)>:
 well, `f` should not work but `'f` should
@@ -91405,7 +91405,7 @@ but to clarify: in emitter, word does not take anything from the tree: in your e
 
 [18:18:14](#16356178941259lEIOf:gitter.im) <hiiamboris (NOT THIS ONE)>:
 and putting this into a loop is a good way to hang Red, 
-e.g. try `morph [1 2 3] ['x 'x 'x] [x ...]` at your own peril í ½í¸‰
+e.g. try `morph [1 2 3] ['x 'x 'x] [x ...]` at your own peril ğŸ˜‰
 
 [18:19:35](#16356179751260wbQpK:gitter.im) <hiiamboris (NOT THIS ONE)>:
 to illustrate how word fetches just value:
@@ -91785,7 +91785,7 @@ I'll be happy to write up a blog article when we get Red running on ARM Linux!
 @Respectech on the following page https://beta.red-lang.org/roadmap/ , I can see an attempt to have an AVR backend? It would be cool to get subset of Red onto some MCUs, as e.g. a MicroPython. I would be grateful even for a barebones Red/System, because I would be more fluent with that, than with C or ASM. Of course, in such a case, I would like to see a c-string and array support in R/S, as those are planned for the future anyway :-)
 
 [16:33:07](#16357843871597DqYoo:gitter.im) <rebolek (Boleslav BÅ™ezovskÃ½)>:
-@pekr `c-string!` is there from the beginning í ½í¸‰
+@pekr `c-string!` is there from the beginning ğŸ˜‰
 
 [16:57:06](#16357858261602YzznM:gitter.im) <pekr (Petr Krenzelok)>:
 Sorry, looked into a wrong section of docs ....
@@ -91934,18 +91934,18 @@ how do you not cause an error then?
 ```
 
 [19:12:14](#16357939341645pndJP:gitter.im) <hiiamboris (NOT THIS ONE)>:
-by uglifying the code í ½í¸‰
+by uglifying the code ğŸ˜‰
 
 [19:12:18](#16357939381647mWZwl:gitter.im) <giesse (Gabriele Santilli)>:
 but, as you know, I think that `unset!` should not exist, so I'm not the best person to talk about this topic :)
 
 [19:12:53](#16357939731650dhSMy:gitter.im) <giesse (Gabriele Santilli)>:
-> by uglifying the code í ½í¸‰
+> by uglifying the code ğŸ˜‰
 
-`unset!` is ugly by definition and it must stand out as much as possible so you guys will finally see the light í ½í¸›
+`unset!` is ugly by definition and it must stand out as much as possible so you guys will finally see the light ğŸ˜›
 
 [19:13:00](#16357939801651hUNbO:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ½í¸ƒ
+ğŸ˜ƒ
 
 [19:13:09](#1635793989204166PAoEj:matrix.org) <gltewalt (The other Greg)>:
 Agree. Unset should not exist
@@ -91966,7 +91966,7 @@ any reason to use `:x` over `x` when you want to catch errors?
 you need to use `:x` for functions and other word-active values (which in red maybe is only functions? i don't recall)
 
 [19:15:08](#16357941081659PrwmN:gitter.im) <hiiamboris (NOT THIS ONE)>:
-consider `unset` one of such active values í ½í¸‰
+consider `unset` one of such active values ğŸ˜‰
 
 [19:15:41](#16357941411661aNndI:gitter.im) <giesse (Gabriele Santilli)>:
 again, no, because the *only* purpose of `unset!` is to catch typos.
@@ -92062,7 +92062,7 @@ You are right, I completely agree!
 Because exposing index juggling, like `i: i + 1`, that kind of thing, presents the language as some remnant of the past.
 
 [9:54:11](#16359332510KMMqz:gitter.im) <pekr (Petr Krenzelok)>:
-I don't know, if the effort is worth the fuss. I have never ever met an IT friend, who would judge a programming language selection upon the Rosetta. Maybe a wrong social bubble here, but from mine contacts, 99% of ppl are fully ignorant of anything Rosetta included í ½í¸ƒ
+I don't know, if the effort is worth the fuss. I have never ever met an IT friend, who would judge a programming language selection upon the Rosetta. Maybe a wrong social bubble here, but from mine contacts, 99% of ppl are fully ignorant of anything Rosetta included ğŸ˜ƒ
 
 [11:21:01](#163593846139yISBw:gitter.im) <GaryMiller (GaryMiller)>:
 I'm probably one of that 1% but for years now I head to Rosetta when I hear about a new languages to see how the code compares to other languages.  I've been in IT for 40 years now.
@@ -92071,10 +92071,10 @@ I may not use Rosetta to pass final judgement though if a language is missing or
 
 [11:31:37](#163593909748917rFdEt:matrix.org) <gltewalt (The other Greg)>:
 Programming language should be judged purely on quality of mascot, and 99 Bottles solution.
-í ½í¸‰
+ğŸ˜‰
 
 [11:32:31](#163593915144NCSwQ:gitter.im) <GalenIvanov (Galen Ivanov)>:
-I thought it was FizzBuzz.. í ½í¸„  
+I thought it was FizzBuzz.. ğŸ˜„  
 
 [15:33:43](#1635953623128apSVl:gitter.im) <greggirwin (Gregg Irwin)>:
 We can set up an advocacy room, to go with https://github.com/red/red/wiki/Advocacy
@@ -92100,7 +92100,7 @@ the link is hidden in the secret wiki page he mentions
 @hiiamboris why do you call it secret wiki page? Itâ€™s easily accessible from the repo. Also, i added a link directly into the readme.
 
 [6:10:11](#1636006211346cCpOi:gitter.im) <hiiamboris (NOT THIS ONE)>:
-Exactly. Because there were no links to it, and general wiki has no links either í ½í¸‰
+Exactly. Because there were no links to it, and general wiki has no links either ğŸ˜‰
 
 ## 5-Nov-2021
 
@@ -92857,7 +92857,7 @@ Maybe [A short introduction to Red for Python programmers](https://github.com/re
 @GalenIvanov idk about "short" â˜»
 
 [14:28:22](#16394057025616PUXho:gitter.im) <GalenIvanov (Galen Ivanov)>:
-Ththe road to hell is paved with good intentions í ½í¸„ 
+Ththe road to hell is paved with good intentions ğŸ˜„ 
 
 [14:28:36](#16394057165618nUgqT:gitter.im) <GalenIvanov (Galen Ivanov)>:
 * The road to hell is paved with good intentions :smile: 
@@ -92872,7 +92872,7 @@ I need to rename it "A not so short introduction..."
 * I need to rename it "A not so short introduction..." :smile:
 
 [14:47:51](#16394068715628bIgxx:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ½í¸ƒ
+ğŸ˜ƒ
 
 [15:23:38](#16394090185636jJEWG:gitter.im) <planetsizecpu (Jose Luis)>:
 Welcome btw @Moppy_gitlab  
@@ -93072,7 +93072,7 @@ I still walk funny
 @GalenIvanov Very nice prime-sieve function :)
 
 [19:05:06](#16395087066030tPWIW:gitter.im) <GalenIvanov (Galen Ivanov)>:
-@ldci Thanks! í ½í¸„ 
+@ldci Thanks! ğŸ˜„ 
 
 ## 15-Dec-2021
 
@@ -93716,7 +93716,7 @@ Ech.. shoild be `take/last`
 @Moppy_gitlab `insert` returns series after inserted position.  Use `head insert...` to get the head.
 
 [18:03:23](#16396778036796QXWzN:gitter.im) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-I should not be posting from a phoneí ½í¸•
+I should not be posting from a phoneğŸ˜•
 
 [18:04:29](#16396778696798HMcDB:gitter.im) <toomasv>:
 * @Moppy_gitlab `insert` returns series after inserted part.  Use `head insert...` to get the head.
@@ -94900,7 +94900,7 @@ Github actions could build using same name each time, but the aim of the exercis
 
 
 [14:54:07](#16399256478120mIlHd:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ½í¸ƒ
+ğŸ˜ƒ
 
 [14:54:17](#16399256578121LWGNk:gitter.im) <moppy_gitlab-61b6b9276da03739848c597d>:
 https://stackoverflow.com/questions/15735439/why-does-gos-compiler-gc-use-a-different-calling-convention-than-c
@@ -96245,7 +96245,7 @@ context [
 			]
 			sums/:row: sum nums/:row: copy out clear out
 			sums/:row
-			í ½í¸œrobe reduce [row nums/:row sums/:row]
+			ğŸ˜œrobe reduce [row nums/:row sums/:row]
 		]
 	]
 ]
@@ -96782,7 +96782,7 @@ m: copy/deep make map! reduce [to-set-word 'nodes make map! copy/deep [] ]
 ```
 
 [16:38:06](#1640536686327CQNiy:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ½í± 
+ğŸ‘ 
 
 [16:38:55](#1640536735328TIjiW:gitter.im) <bubnenkoff (Dmitry Bubnenkov)>:
 yahoo! 
@@ -97602,7 +97602,7 @@ filter: partition: function [
 	result: copy/deep [[][]]
 	; Convert block test to anonymous func
 	if block? :test [
-		í ½í¸œrobe test: func either arg [compose [(arg)]][[.]] test
+		ğŸ˜œrobe test: func either arg [compose [(arg)]][[.]] test
 		test: func [.] test
 	]
 	foreach value series [
@@ -97613,9 +97613,9 @@ filter: partition: function [
 ]
 ;red>> filter [1 2 3 4 5 6 7] :even?
 ;== [[2 4 6] [1 3 5 7]]
-;red>> filter [1 2 3 4 5 6 7] í ½í¸®dd?
+;red>> filter [1 2 3 4 5 6 7] ğŸ˜®dd?
 ;== [[1 3 5 7] [2 4 6]
-;red>> filter/only [1 2 3 4 5 6 7] í ½í¸®dd?
+;red>> filter/only [1 2 3 4 5 6 7] ğŸ˜®dd?
 ;== [1 3 5 7]
 ;red>> filter [/only /dup 3] :refinement?
 ;== [[/only /dup] [3]
@@ -97791,7 +97791,7 @@ I haven't tested though, `call` is a little whimsical at times
 Just an FYI - I got all of it to work now - I'm a very happy man. thanks for all your help
 
 [17:24:24](#16419218641580Mgtmi:gitter.im) <hiiamboris (NOT THIS ONE)>:
-you're welcome í ½í¸‰
+you're welcome ğŸ˜‰
 
 [18:00:59](#16419240591594lEbKc:gitter.im) <greggirwin (Gregg Irwin)>:
 > I'm almost certain there's more code to this, yes?
@@ -97894,13 +97894,13 @@ thanx, good to know
 actually it works in GUI console, at least on W10
 
 [13:35:50](#16419945501785YOaXO:gitter.im) <hiiamboris (NOT THIS ONE)>:
-Qingtian sacrificed great deal of print speed to satisfy these complaints í ½í¸‰
+Qingtian sacrificed great deal of print speed to satisfy these complaints ğŸ˜‰
 
 [15:14:00](#16420004401825HsFBo:gitter.im) <pekr (Petr Krenzelok)>:
 Those complaints were probably rised by one long time complainer - me :-)
 
 [18:47:45](#16420132651893mZmMz:gitter.im) <planetsizecpu (Jose Luis)>:
-Well @pekr some one has to take this responsibility í ½í¸€
+Well @pekr some one has to take this responsibility ğŸ˜€
 
 [19:17:25](#1642015045190444qXmxL:matrix.org) <gltewalt (The other Greg)>:
 If I inadvertently fix the gtk menu "child" item, do I get $100?
@@ -97909,7 +97909,7 @@ If I inadvertently fix the gtk menu "child" item, do I get $100?
 @gltewalt:matrix.org I'll at least buy you a coffee. ;^) Per Knuth, bugs are worth $2.56.
 
 [19:28:35](#1642015715190772JUBkS:matrix.org) <gltewalt (The other Greg)>:
-í ¼í¾‰
+ğŸ‰
 
 ## 14-Jan-2022
 
@@ -98875,7 +98875,7 @@ If you *only* care about system words, it's just `word-exists?: :value?` :^)
 ## 2-Feb-2022
 
 [22:59:55](#16438427952869LeGOu:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
-@hiiamboris í ½í¸ƒ
+@hiiamboris ğŸ˜ƒ
 
 ## 3-Feb-2022
 
@@ -100254,7 +100254,7 @@ Then in `search-metadata.json` you list them with an *alias* e.g. `"[profile]/ma
 * @Oldes makes sense. If Red is primarily a data format, I wonder how it compares/its advantages compared to other data formats. What I've seen has mostly compared Red to programming languages. I also wonder how well it interfaces with non-Red technologies that use data. 
 
 [17:28:39](#16439957193871CyKko:gitter.im) <hiiamboris (NOT THIS ONE)>:
-Advantage is 50+ datatypes. Disadvantage is also 50+ datatypes í ½í¸‰
+Advantage is 50+ datatypes. Disadvantage is also 50+ datatypes ğŸ˜‰
 
 [17:32:06](#16439959263872YhhRt:gitter.im) <moppy_gitlab-61b6b9276da03739848c597d>:
 I mean, people seem to like treating all data the same, and then making a parsing schemes for every different usage. 
@@ -100335,14 +100335,14 @@ Or you can try `debug` or `trace`
 [1:17:29](#16440238494074puOWh:gitter.im) <rgchris (Christopher Ross-Gill)>:
 > @rgchris the shortcomings of XML mentioned in that article are probably why it fell of out popularity in favor of json. 
 
-Possibly, but there's also no escaping XML, it just keeps turning up in the wrong places like a bad smell í ½í¸Ÿ
+Possibly, but there's also no escaping XML, it just keeps turning up in the wrong places like a bad smell ğŸ˜Ÿ
 
 JSON is likely wildly successful for it's (almost) simplicity, but vs. Redbol, you lose the implicit metadata from that array of datatypes (what does a 'date' look like in JSON?), not least the ability to represent code/language. Again, can argue the value of that, but that is the niche
 
 [1:17:33](#16440238534075FlIvq:gitter.im) <moppy_gitlab-61b6b9276da03739848c597d>:
 after changing it to, 
 ```
-			until [ í ½í¸œrobe human_hand
+			until [ ğŸ˜œrobe human_hand
 				trace search (choice: request) human_hand 
 			]
 ```
@@ -101129,7 +101129,7 @@ This works actually
 >> o1: context [a: 0 b: 0 c: 0]
 >> o2: context [a: 1 b: 1 c: 1]
 >> o3: context [a: 2 b: 2 c: 2]
->> append storage [bind 'a í ½í¸®3 bind 'b í ½í¸®2 bind 'c í ½í¸®1]
+>> append storage [bind 'a ğŸ˜®3 bind 'b ğŸ˜®2 bind 'c ğŸ˜®1]
 >> reduce reduce storage
 == [2 1 0]
 ```
@@ -101180,7 +101180,7 @@ I don't know how using ? a bunch of times would explain all that, but it's good 
 storage3: []
 sf: function [] [a: [1] append a 2]
 
-append storage3 [bind 'a í ½í¸–f]
+append storage3 [bind 'a ğŸ˜–f]
 reduce storage3
 ```
 `a` in `sf` is within `sf`'s context, yet every time `sf` is called, `a` changes value. Nonetheless, `a`'s value cannot be accessed through storage3. Maaaaaaybe, `a` in `sf` points to somewhere else, where its value is stored, but only during a function call. So `sf` kind of opens communications during a function call, and after communications are closed. 
@@ -101272,7 +101272,7 @@ https://github.com/red/red/issues/255
 You can skip to the last comment from @dockimbel.
 
 [8:32:00](#16441363204618UEmXI:gitter.im) <pekr (Petr Krenzelok)>:
-@Moppy_gitlab you can as well use directly  `append storage reduce [bind 'a í ½í¸®1]`
+@Moppy_gitlab you can as well use directly  `append storage reduce [bind 'a ğŸ˜®1]`
 
 [8:34:32](#16441364724620SDhne:gitter.im) <pekr (Petr Krenzelok)>:
 I was not able to easily bind to the function. I have found two articles, when googling - first one, points out about the (big) differences between the R2 and R3: https://stackoverflow.com/questions/14818324/what-is-the-summary-of-the-differences-in-binding-behaviour-between-rebol-2-and , the second one is from the rebol guru Ladislav, but most probably it refers to R2 https://github.com/r3n/rebol-wiki/wiki/Bindology
@@ -101824,7 +101824,7 @@ letters: charset [#"a" - #"z" #"A" - #"Z" #"Ğ°" - #"Ñ" #"Ğ" - #"Ğ¯"]
 Also works 
 
 [9:02:31](#16442245515007eOAfC:gitter.im) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-Of course... if you know your alphabet, you may skip the _search table_ step í ½í¸‰
+Of course... if you know your alphabet, you may skip the _search table_ step ğŸ˜‰
 
 [9:06:15](#16442247755008yjrsf:gitter.im) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 @Moppy_gitlab being able to do `clear spec-of :f2` I consider as a security issue, while others think that it is a _feature_.
@@ -101981,7 +101981,7 @@ There you are modifiying the series, not the word bound to a series.
 >> f: function [hand] [:hand: exclude hand [2]]
 *** Syntax Error: (line 1) invalid word at :hand: exclude hand [2]]
 *** Where: set
-*** Near : í ½í¸ƒelimiter-lex
+*** Near : ğŸ˜ƒelimiter-lex
 *** Stack: load
 ```
 
@@ -102251,7 +102251,7 @@ I had pasted a different `f` from here, so got extra output.
 ## 8-Feb-2022
 
 [15:10:28](#16443330285748TfIew:gitter.im) <gurzgri>:
-Sorry, but I have to object í ½í¸‰
+Sorry, but I have to object ğŸ˜‰
 
 [20:47:33](#16443532535816IPZys:gitter.im) <BuilderGuy1 (BuilderGuy1)>:
 I need some help with drop-down lists. The list of items I want to display is in a predefined block.
@@ -102360,7 +102360,7 @@ https://github.com/gltewalt/go-fish
 (may contain mistakes, and / or bugs)
 
 [1:46:25](#16443711855925xyiOp:gitter.im) <gltewalt (Greg T)>:
-Just fixed one í ½í¸ƒ
+Just fixed one ğŸ˜ƒ
 
 [2:11:59](#1644372719148838tZBzG:matrix.org) <gltewalt (The other Greg)>:
 Lots of ways to do it. For perfectly idiomatic examples... Best bet might be rebolek (Boleslav BÅ™ezovskÃ½) 
@@ -102474,7 +102474,7 @@ I added "insert tail" in front of "V_M_List/data: " but it has nothing to add.
 will do
 
 [20:26:20](#16444383806194ugqaH:gitter.im) <gurzgri>:
-@Moppy_gitlab Trying to reuse (mimic) what you wrote in other languages is the no. 1 "mistake" with the Redbol languages. Often the key is unlearning things and doing them the Redbol way ... í ½í¸ƒ
+@Moppy_gitlab Trying to reuse (mimic) what you wrote in other languages is the no. 1 "mistake" with the Redbol languages. Often the key is unlearning things and doing them the Redbol way ... ğŸ˜ƒ
 
 [20:47:17](#16444396376198MTSFf:gitter.im) <BuilderGuy1 (BuilderGuy1)>:
 Here's what it looks like to me: "V_M/data" is the entire Vit_Min list and "V_M/selected" is returning the pair "1x1" regardless of what is being selected. It appears that PICK doesn't like PAIRs for it's index. I tried converting the pair (to integer!) but I can't find anything that will convert it without errors.  I'm out of ideas.
@@ -102644,12 +102644,12 @@ Even if there would be VID2 itâ€™s not going to be totally different.
 [12:19:03](#16444955436394ipIAO:gitter.im) <planetsizecpu (Jose Luis)>:
 >  I am 99% certain VID2 won't come out in the next 2-3 years.
 
-I hope god hears you  í ½í¸¬
+I hope god hears you  ğŸ˜¬
 
 
 
 [12:38:10](#16444966906403MsacG:gitter.im) <hiiamboris (NOT THIS ONE)>:
-I hope so too í ½í¸‰ There are more urgent tasks.
+I hope so too ğŸ˜‰ There are more urgent tasks.
 
 [12:40:49](#16444968496407NgPEl:gitter.im) <olivier_lp_twitter (LP Olivier)>:
 Postscript implementation is pretty close to Forth one
@@ -102691,7 +102691,7 @@ Thanks...
 >> help #
 *** Syntax Error: (line 1) invalid issue at #
 *** Where: set
-*** Near : í ½í¸ƒelimiter-lex
+*** Near : ğŸ˜ƒelimiter-lex
 *** Stack: load
 ```
 
@@ -102934,7 +102934,7 @@ foo
 you're modifying the word, not object
 
 [12:36:34](#164458299431NCWSJ:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ½í°¢ 
+ğŸ¢ 
 
 [12:36:42](#164458300233bNjHk:gitter.im) <rebolek (Boleslav BÅ™ezovskÃ½)>:
 :)
@@ -103026,7 +103026,7 @@ but this word is already is using, yes?
 ```
 
 [13:16:32](#164458539251KQrhz:gitter.im) <hiiamboris (NOT THIS ONE)>:
-what surprises you here? í ½í¸‰
+what surprises you here? ğŸ˜‰
 
 [13:16:58](#164458541853LbGwm:gitter.im) <bubnenkoff (Dmitry Bubnenkov)>:
 Here noting, the problem is only with understanding objects)
@@ -103383,7 +103383,7 @@ Oh wait I found dots!
 
 [18:53:16](#1644605596200zIapy:gitter.im) <ingvast (Johan Ingvast)>:
 On another check, it seem like print replaces a number of lines with ...   
-It just happened to be close to where my problem is í ½í¸Ÿ   
+It just happened to be close to where my problem is ğŸ˜Ÿ   
 Win10
 I built it a week ago. git
  a154bbc3f
@@ -104069,9 +104069,9 @@ ui: collect [
 
 yes, and did you know you can fit it almost anywhere? like:
 ```
->> a: 1 - b: 2 + c: 3    í ½í¸‰ some unknown values
+>> a: 1 - b: 2 + c: 3    ğŸ˜‰ some unknown values
 == -4
->> (probe a) + (probe b) + probe c   í ½í¸‰ displays all values
+>> (probe a) + (probe b) + probe c   ğŸ˜‰ displays all values
 -4
 5
 3
@@ -104319,7 +104319,7 @@ view [
 this works
 
 [18:24:47](#16449494871328SfhsG:gitter.im) <hiiamboris (NOT THIS ONE)>:
-@bubnenkoff you've just proven the [Infinite Monkey Theorem](https://en.wikipedia.org/wiki/Infinite_monkey_theorem) !! í ½í¸ƒ
+@bubnenkoff you've just proven the [Infinite Monkey Theorem](https://en.wikipedia.org/wiki/Infinite_monkey_theorem) !! ğŸ˜ƒ
 
 [18:34:27](#16449500671337uFBNW:gitter.im) <pekr (Petr Krenzelok)>:
 The code provided here looks so complicated, that my brain hurts. Why all those collects, keeps, etc.? 
@@ -104493,7 +104493,7 @@ I'll report it
 @hiiamboris reproduced
 
 [11:20:38](#16450104381480gXppq:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ½í¸ƒ
+ğŸ˜ƒ
 
 [11:21:23](#16450104831481gFTFm:gitter.im) <hiiamboris (NOT THIS ONE)>:
 I'm russian too, so no wonder.
@@ -104805,7 +104805,7 @@ no, just read that page, or I can give a link to the reference
 https://w.red-lang.org/en/parse
 
 [18:10:13](#16452078132312LQKZc:gitter.im) <hiiamboris (NOT THIS ONE)>:
-it's not an easy reading though í ½í¸‰
+it's not an easy reading though ğŸ˜‰
 
 [18:10:18](#16452078182314NftZw:gitter.im) <ushakovs_gitlab (Svyatoslav)>:
 [![image.png](https://files.gitter.im/5780ef02c2f0db084a2231b0/qkTo/thumb/image.png)](https://files.gitter.im/5780ef02c2f0db084a2231b0/qkTo/image.png)
@@ -104833,7 +104833,7 @@ yeah `then` was there
 too slow  <-----
 
 [18:13:52](#16452080322321yjERw:gitter.im) <hiiamboris (NOT THIS ONE)>:
-it was so years ago and I'm starting to misremembering things í ½í¸ƒ
+it was so years ago and I'm starting to misremembering things ğŸ˜ƒ
 
 ## 19-Feb-2022
 
@@ -104860,7 +104860,7 @@ Is there any libs to work witj JSON or other structured format?
 no libs, just `? "json"`
 
 [17:04:24](#16452902642651BjnpV:gitter.im) <hiiamboris (NOT THIS ONE)>:
-XML was merged recently, but I wouldn't recommend XML to anyone í ½í¸ƒ
+XML was merged recently, but I wouldn't recommend XML to anyone ğŸ˜ƒ
 
 [17:04:57](#16452902972653BTIXh:gitter.im) <ne1uno (ne1uno)>:
 `Needs: ['json]` yet?
@@ -105540,7 +105540,7 @@ I wouldn't know how to make a buffer in any language, but uugh, I guess Red has 
 As far as I know you'd have to make one. But others will be along to give their 2 cents
 
 [1:44:46](#1645321486185550akxFZ:matrix.org) <gltewalt (The other Greg)>:
-Maybe do the old fill bucket í ¾íº£ part while you're stuch
+Maybe do the old fill bucket ğŸª£ part while you're stuch
 
 [1:53:18](#1645321998185699OifUO:matrix.org) <gltewalt (The other Greg)>:
 I'm stuck too, I dont know how to smooth it out without going into that buffer idea. 
@@ -105844,7 +105844,7 @@ view [
 still fast?
 
 [13:26:20](#16453635803012eypWQ:gitter.im) <gurzgri>:
-ask me something simpler, especially ask me nothing about GPUs í ½í¸‰ ... I think I stopped following them after Denise and Lisa. Should be a Intel Iris Plus Graphics G4 (Ice Lake 48 EU) without dedicated graphics eDRAM. 
+ask me something simpler, especially ask me nothing about GPUs ğŸ˜‰ ... I think I stopped following them after Denise and Lisa. Should be a Intel Iris Plus Graphics G4 (Ice Lake 48 EU) without dedicated graphics eDRAM. 
 
 [13:28:03](#16453636833013rmJiz:gitter.im) <hiiamboris (NOT THIS ONE)>:
 I really don't get it. It usually starts slow for me like I'm drawing 100-200px away from where I see the changes, then esp. on touchpad, after like 10 seconds it starts to keep up and now it's not slow anymore, even though the number of points maybe close to 500 by now
@@ -105859,7 +105859,7 @@ nah, GUI is expected to slow down
 yeah, thought so
 
 [13:30:12](#16453638123019Kjzhw:gitter.im) <gurzgri>:
-number of points doesn't matter much, I almost painted the whole canvas black í ½í¸ƒ
+number of points doesn't matter much, I almost painted the whole canvas black ğŸ˜ƒ
 
 [13:30:19](#16453638193020FIMyC:gitter.im) <hiiamboris (NOT THIS ONE)>:
 lol
@@ -105883,7 +105883,7 @@ then it suddenly syncs with me
 * then it suddenly syncs with me and keeps up after
 
 [13:33:19](#16453639993027FggEE:gitter.im) <hiiamboris (NOT THIS ONE)>:
-but I've no idea about the reasons í ½í¸† 
+but I've no idea about the reasons ğŸ˜† 
 
 [13:41:37](#16453644973030GQDtF:gitter.im) <hiiamboris (NOT THIS ONE)>:
 battery mode doesn't affect it for me
@@ -105993,7 +105993,7 @@ https://w3c.github.io/uievents/#event-type-mousemove
 maybe interpolation could work  
 
 [16:58:11](#16453762913114qUEmx:gitter.im) <hiiamboris (NOT THIS ONE)>:
-read the above like 5 times and still don't understand what it's saying í ½í¸•
+read the above like 5 times and still don't understand what it's saying ğŸ˜•
 
 [17:00:56](#16453764563115OWixd:gitter.im) <moppy_gitlab-61b6b9276da03739848c597d>:
 I think, if movement puts events on a queue that happen consecutively, every movement causes multiple events. So even if I just moved the mouse one pixel, it would return its `offset` 5 times  
@@ -106625,13 +106625,13 @@ do you understand the distinction between face's `draw` facet (which is a block)
 you seem to confuse `face/draw` block with the function `draw`.
 
 [20:37:32](#16453894523387VCCba:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ½í°¢ 
+ğŸ¢ 
 
 [20:37:38](#16453894583388ZuzUb:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ½íº€ 
+ğŸš€ 
 
 [20:37:39](#16453894593389HKPNS:gitter.im) <gurzgri>:
-beat me í ½í¸ƒ
+beat me ğŸ˜ƒ
 
 [20:38:59](#16453895393390VSRVg:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
 @hiiamboris I have spent the last hour making this. It works for Rebol and Red. 
@@ -106804,7 +106804,7 @@ Suggestion are welcome!
 
 
 [20:39:48](#16453895883396Kbrtj:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ½í± @GiuseppeChillemi 
+ğŸ‘ @GiuseppeChillemi 
 
 [20:40:08](#16453896083398hOBkq:gitter.im) <gurzgri>:
 Â´system/words/drawÂ´ or, as we say, global context
@@ -107034,7 +107034,7 @@ It's not same
 :)
 
 [10:19:50](#16454387903519iHanT:gitter.im) <hiiamboris (NOT THIS ONE)>:
-question is, why is it not symmetric? í ½í¸‰
+question is, why is it not symmetric? ğŸ˜‰
 
 [10:52:10](#16454407303532GYrAS:gitter.im) <toomasv>:
 Excellent tool!
@@ -107292,7 +107292,7 @@ run: function [cmd args /ref refs] [do probe reduce compose/deep [to path! [(cmd
 @hiiamboris  @Moppy_gitlab  Seems that GDI handles `anti-alias off` much better than D2D. Tried Jan 18, 2021 build.
 
 [9:56:09](#16455237693818JDcue:gitter.im) <hiiamboris (NOT THIS ONE)>:
-can't stop progress í ½í¸•
+can't stop progress ğŸ˜•
 
 ## 23-Feb-2022
 
@@ -108465,7 +108465,7 @@ try `view [area "a^/bc^/def^/1234" rate 1 on-time [attempt [probe copy/part face
 thanks!
 
 [17:12:16](#16478827362719vWESf:gitter.im) <toomasv>:
-@hiiamboris Dunno, this didn't do a thing for me on W10 í ½í¸³ 
+@hiiamboris Dunno, this didn't do a thing for me on W10 ğŸ˜³ 
 But this did:
 ```
 view [area "a^/bc^/def^/1234" rate 1 focus with [selected: 1x1] 
@@ -108475,10 +108475,10 @@ view [area "a^/bc^/def^/1234" rate 1 focus with [selected: 1x1]
 ```
 
 [17:14:38](#16478828782720ljizy:gitter.im) <hiiamboris (NOT THIS ONE)>:
-have you selected any text for it to "do the thing"? í ½í¸‰
+have you selected any text for it to "do the thing"? ğŸ˜‰
 
 [17:27:31](#16478836512721zfErn:gitter.im) <toomasv>:
-Ha, something is happenning í ½í±¶ 
+Ha, something is happenning ğŸ‘¶ 
 
 [17:27:39](#16478836592722VXpbe:gitter.im) <toomasv>:
 * Ha, something is happening :baby: 
@@ -108751,7 +108751,7 @@ I think @rebolek started one, as did I. Need to dust it off and see what state i
 [json-web-token.red](https://files.gitter.im/5780ef02c2f0db084a2231b0/wKD6/json-web-token.red)
 
 [1:42:19](#1648431739924jzVtd:gitter.im) <djrondon (Rondon)>:
-thanks @greggirwin í ½í¸‰
+thanks @greggirwin ğŸ˜‰
 
 [5:44:01](#1648446241950fAIuz:gitter.im) <rebolek (Boleslav BÅ™ezovskÃ½)>:
 @djrondon Yes, I have JWT library, Iâ€™m not sure if itâ€™s online.
@@ -109044,7 +109044,7 @@ And which dialects have guarantees to have community support in future?
 Those that are included in standard Red releases.
 
 [17:48:38](#16486625180NhmtV:gitter.im) <hiiamboris (NOT THIS ONE)>:
-@bubnenkoff still better to fix it than to roll your own í ½í¸‰
+@bubnenkoff still better to fix it than to roll your own ğŸ˜‰
 
 ## 1-Apr-2022
 
@@ -110194,7 +110194,7 @@ well, scratch this and start over then :)
 I wouldn't have asked if I hadn't tried this
 
 [16:35:55](#1649867755386DQKjy:gitter.im) <hiiamboris (NOT THIS ONE)>:
-use Parse now! í ½í¸‰
+use Parse now! ğŸ˜‰
 
 [16:38:02](#1649867882387JHVlp:gitter.im) <bubnenkoff (Dmitry Bubnenkov)>:
 I am trying to rewrite old solution from Parse. It's work, but I do not like it really. Maybe it can be improved, but I prefer use Parse only when I am working with text data. Btw old solution code:
@@ -110755,7 +110755,7 @@ Is there any way to discover the cursor position in an `area`?
 
 [3:17:06](#1650338226230031IzlDi:matrix.org) <gltewalt (The other Greg)>:
 offset-to-character, character-to-offset
-I think í ¾í´” 
+I think ğŸ¤” 
 
 [7:52:11](#16503547311498OKHYq:gitter.im) <bubnenkoff (Dmitry Bubnenkov)>:
 What is my error? I am trying to move last element to first position with `move`
@@ -111109,7 +111109,7 @@ view [
 @hiiamboris Yes under macOS:)
 
 [16:11:19](#1651075879641mkOqD:gitter.im) <hiiamboris (NOT THIS ONE)>:
-If scroller doesn't work on Mac, you should file an issue probably í ½í¸‰
+If scroller doesn't work on Mac, you should file an issue probably ğŸ˜‰
 
 [16:13:34](#1651076014643QpPfI:gitter.im) <ldci (FranÃ§ois Jouen)>:
 @hiiamboris scroller is unknown on Mac for a direct use with view. But Toomasâ€™s table code works fine :)
@@ -111178,7 +111178,7 @@ A lot of work went into Android some time back, and a community member is lookin
 ## 2-May-2022
 
 [6:42:10](#1651473730452elikC:gitter.im) <planetsizecpu (Jose Luis)>:
-Well done @toomasv this kind of tools are useful for DB developers, push hard í ¾í¶¾
+Well done @toomasv this kind of tools are useful for DB developers, push hard ğŸ¦¾
 
 [8:43:48](#1651481028497afclW:gitter.im) <toomasv>:
 Thanks, @planetsizecpu !
@@ -111505,7 +111505,7 @@ func ['a [word!] 'b [word!]] [
     probe 'a/(get/any b)/1/((get b) + 1)
 ]
 ```
-But I can't find a name for it í ½í¸• Any ideas?
+But I can't find a name for it ğŸ˜• Any ideas?
 
 [17:57:12](#165211903250kAtmD:gitter.im) <greggirwin (Gregg Irwin)>:
 If the goal is to make a mess of the code, ala obfuscation, call it `messify`. If it has a different purpose, like working around compiler issues, just use `do`. 
@@ -112105,7 +112105,7 @@ CatSelect: drop-down 80x25 "Choose..." data Categories
 @BuilderGuy1 The second way without swich is better: you can add all sub-categories you need.
 
 [15:25:57](#1652973957174htjbY:gitter.im) <BuilderGuy1 (BuilderGuy1)>:
-Yes, I like the version without Switch too. I am glad you used it in an example thought! More examples are always better í ½í¸‰
+Yes, I like the version without Switch too. I am glad you used it in an example thought! More examples are always better ğŸ˜‰
 
 [15:28:54](#1652974134180nfynt:gitter.im) <ldci (FranÃ§ois Jouen)>:
 Yes, Red is fabulous for testing idea.
@@ -112161,7 +112161,7 @@ There :)
 
 [15:25:34](#1653060334518gkZOf:gitter.im) <hiiamboris (NOT THIS ONE)>:
 Hi and welcome @gor77 :)
-If you type `type? falsey/1` what does it say? í ½í¸‰
+If you type `type? falsey/1` what does it say? ğŸ˜‰
 
 [15:26:19](#1653060379520aTVJq:gitter.im) <gor77 (gor77)>:
 Hi, it says ==word!
@@ -112173,13 +112173,13 @@ So you see, you have 3 words in your block, because block contents is not evalua
 Try `falsey: reduce [off false none]`
 
 [15:28:25](#1653060505528cFGdU:gitter.im) <hiiamboris (NOT THIS ONE)>:
-And don't forget to check the type again í ½í¸‰
+And don't forget to check the type again ğŸ˜‰
 
 [15:29:32](#1653060572531jehru:gitter.im) <gor77 (gor77)>:
 Aha, think I get it ...it will take some time to get these concepts, obviously :) 
 
 [15:30:13](#1653060613535mnXCv:gitter.im) <hiiamboris (NOT THIS ONE)>:
-Indeed. Red is one of the most mind bending languages í ½í¸‰
+Indeed. Red is one of the most mind bending languages ğŸ˜‰
 
 [15:31:26](#1653060686538jCxED:gitter.im) <hiiamboris (NOT THIS ONE)>:
 Red is a data language first. Everything in Red is just data.. until it is evaluated.
@@ -112503,10 +112503,10 @@ I have an april 15th version in Crossover let me try that...
 weird
 
 [21:25:32](#16533411321513QqElw:gitter.im) <BuilderGuy1 (BuilderGuy1)>:
- I never seem to get a project done but BOY can I find bugs í ½í¸‰
+ I never seem to get a project done but BOY can I find bugs ğŸ˜‰
 
 [21:26:01](#16533411611514utKPW:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ½í¸ƒ
+ğŸ˜ƒ
 
 [21:26:03](#16533411631515hDSTA:gitter.im) <ALANVF (theangryepicbanana)>:
 the file it's defined in hasn't even been touched in months https://github.com/red/red/blob/c97690694b6a85bd23b04c23a6c474ffc16ec472/environment/codecs/CSV.red#L359
@@ -112757,7 +112757,7 @@ if you control the input,  store `binary!` then convert back to `string`
 @snotbubble you can abuse `tag!` for example. `<this is any-string also>`
 
 [8:33:50](#16534676301835qCwqe:gitter.im) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-But this `< >` is two wordsí ½í¸‰
+But this `< >` is two wordsğŸ˜‰
 
 [8:35:07](#16534677071837qZQih:gitter.im) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 * But this `< >` is two words and this `<>` is one word ;-)
@@ -112883,8 +112883,8 @@ o: make object! [
 	
 ]
 
-bind body-of í ½í¸®/m 's
-bind body-of í ½í¸®/n 's
+bind body-of ğŸ˜®/m 's
+bind body-of ğŸ˜®/n 's
 
 
 probe o/m
@@ -113037,7 +113037,7 @@ because now I get to rewrite a lot of Red.js code, since I had assumed refinemen
 this is primarily painful due to implementing actions for the datatypes
 
 [21:25:15](#16536867152306uCLWs:gitter.im) <hiiamboris (NOT THIS ONE)>:
-will teach you to design in more modular fashion í ½í¸‰
+will teach you to design in more modular fashion ğŸ˜‰
 
 [21:25:27](#16536867272307dgPSN:gitter.im) <ALANVF (theangryepicbanana)>:
 well I like to think I already have
@@ -113055,13 +113055,13 @@ what really changes other than comparison for sameness?
 *   `=?`returns if 2 elements are "identical". Refinement has binding while issue should have no binding, so the `/c` could be considered different because belong to different bindings, but I may be wrong.
 
 [21:27:24](#16536868442313YFjam:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ½í°¢ 
+ğŸ¢ 
 
 [21:27:27](#16536868472314TsrAT:gitter.im) <ALANVF (theangryepicbanana)>:
 yeah basically
 
 [21:27:53](#16536868732316lfnAd:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
-> í ½í°¢ 
+> ğŸ¢ 
 
 ???
 
@@ -113078,7 +113078,7 @@ which is the basis for `all-word!` typeset
 
 [21:29:49](#16536869892321nBcpW:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
 @hiiamboris 
-Oh, I was so concentrated into writing that I have not seen you have already answered, so yes: í ½í°¢
+Oh, I was so concentrated into writing that I have not seen you have already answered, so yes: ğŸ¢
 
 [21:29:55](#16536869952322WJnNL:gitter.im) <ALANVF (theangryepicbanana)>:
 yeah I never really thought about it at the time after observing the behavior of issues and refinements
@@ -113668,13 +113668,13 @@ Maybe Lucinda has a Children and was he who mis-posted
 @iceflow19 is zombie
 
 [11:26:44](#16540828043158zAgMh:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
-OMG, you are confusing me. Is it an affirmation? Is it a Joke? Is someone else with a fake account? Is he really a Zombie from the world of deads? Do you know something about @iceflow19 we do not know? Are you him??? í ½í¸±
+OMG, you are confusing me. Is it an affirmation? Is it a Joke? Is someone else with a fake account? Is he really a Zombie from the world of deads? Do you know something about @iceflow19 we do not know? Are you him??? ğŸ˜±
 
 [11:31:41](#16540831013164crSjF:gitter.im) <ne1uno (ne1uno)>:
 never let a crisis go to waste
 
 [12:54:36](#16540880763184GnDGT:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
-You have been awarded with the first prize in cryptology. í ¼í¿†
+You have been awarded with the first prize in cryptology. ğŸ†
 
 [19:21:25](#16541112853261UbCkF:gitter.im) <cosacam1 (cosacam1)>:
 Hi everybody
@@ -113711,12 +113711,12 @@ Impressive! Thanks a lot
 It's an advanced topic. Do the easy thing when you can. :^)
 
 [19:53:22](#16541132023287dpkKM:gitter.im) <hiiamboris (NOT THIS ONE)>:
-nice solution í ½í¸‰
+nice solution ğŸ˜‰
 
 ## 2-Jun-2022
 
 [9:15:30](#16541613303387FTrXj:gitter.im) <rebolek (Boleslav BÅ™ezovskÃ½)>:
-@greggirwin hah, I would've never thought of that í ½í¸ƒ
+@greggirwin hah, I would've never thought of that ğŸ˜ƒ
 
 [9:17:06](#16541614263389yNbhe:gitter.im) <rebolek (Boleslav BÅ™ezovskÃ½)>:
 @cosacam1 here's the `parse` version:
@@ -115080,7 +115080,7 @@ simple question; I want to make a Block of Blocks. How do I add an existing bloc
 >> append a b
 == [["a" "b" "c"] "z" "v"]
 ```
-í ½í¸Ÿ
+ğŸ˜Ÿ
 
 [16:51:35](#16560030951770MpDnx:gitter.im) <ne1uno (ne1uno)>:
 @BuilderGuy1, try `append/only a b`
@@ -115098,7 +115098,7 @@ I will reread the docs to understand why that works
 @hiiamboris  I checked that too. Reading "Insert block types as single values" seemed like it would be inserting a single "string" as that's what APPEND was already doing. I understand now, but the description was not clear enough for me.
 
 [17:33:49](#16560056291792qyUEJ:gitter.im) <hiiamboris (NOT THIS ONE)>:
-Nice imagination í ½í¸‰
+Nice imagination ğŸ˜‰
 
 [17:38:45](#16560059251794sUHSh:gitter.im) <greggirwin (Gregg Irwin)>:
 @BuilderGuy1 it wasn't appending as a string, but as the values inside the block.
@@ -115569,7 +115569,7 @@ I think he wants a shortcut for `function []`
 Interesting
 
 [15:50:17](#16566906173202Hucfc:gitter.im) <gurzgri>:
-@cosacam1 Yes! í ½í¸‰ And you really only *mean* words of type `set-word!`s í ½í¸‰ The Redbol languages have no notion of "variables". They only have values. Some of these values are of type `word!` or it's different flavours like `set-word!`, `get-word!` etc. `function` only binds words of type `set-word!` to the context of the function it creates, with the exception of those declared as `/extern`.
+@cosacam1 Yes! ğŸ˜‰ And you really only *mean* words of type `set-word!`s ğŸ˜‰ The Redbol languages have no notion of "variables". They only have values. Some of these values are of type `word!` or it's different flavours like `set-word!`, `get-word!` etc. `function` only binds words of type `set-word!` to the context of the function it creates, with the exception of those declared as `/extern`.
 
 [15:50:28](#16566906283204QqgCA:gitter.im) <gurzgri>:
 * @cosacam1 Yes! ;-) And you really only *mean* words of type `set-word!` ;-) The Redbol languages have no notion of "variables". They only have values. Some of these values are of type `word!` or it's different flavours like `set-word!`, `get-word!` etc. `function` only binds words of type `set-word!` to the context of the function it creates, with the exception of those declared as `/extern`.
@@ -115592,7 +115592,7 @@ Thanks. I think Red development for Android should be a must. Smart phones are p
 Yes, Rebol/Red has no vars as "some value is assigned to some symbol", but rather it is "some symbol is assigned to some value that exists in memory", kinda a pointer. That's what I refered to when I spoke of variables in a function. Ok, just briefing- `does` uses global words; `has` uses globals and locals, the later are in spec; `func` uses globals and locals specified by `/local`; finally `function` uses local words and globals specified by `/extern`
 
 [22:48:48](#16567157283223jVCAo:gitter.im) <cloutiy (yc)>:
-í ½í±
+ğŸ‘
 
 ## 4-Jul-2022
 
@@ -115624,7 +115624,7 @@ I guess you'll have to study how lempel-ziv decoding works
 @hiiamboris. Yes, but I do not understand the logic :)
 
 [18:30:17](#16569594173438YZxug:gitter.im) <hiiamboris (NOT THIS ONE)>:
-find a better explanatory article í ½í¸‰
+find a better explanatory article ğŸ˜‰
 
 [18:32:24](#16569595443440smFzg:gitter.im) <ldci (FranÃ§ois Jouen)>:
 @hiiamboris. https://www.matthewflickinger.com/lab/whatsinagif/ is very good :)
@@ -115728,7 +115728,7 @@ make object! [
   ....
 ]
 ```
-(Note:  BOB = Block of Blocks í ½í¸‰
+(Note:  BOB = Block of Blocks ğŸ˜‰
 
 [15:24:42](#1657207482437AFfGE:gitter.im) <hiiamboris (NOT THIS ONE)>:
 here's a badass trick for you:
@@ -116008,7 +116008,7 @@ Using that line, my `system/option/args` and `system/script/args` ar empty.
 You probably messed it up then.
 
 [8:00:48](#1657872048336XJNrz:gitter.im) <hiiamboris (NOT THIS ONE)>:
-Badly, as usual í ½í¸‰
+Badly, as usual ğŸ˜‰
 
 [8:24:00](#1657873440352vnplT:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
 It's a simple call! No trickery!
@@ -116020,7 +116020,7 @@ It's a simple call! No trickery!
 Well, solved. 
 
 [8:26:51](#1657873611355VTJVm:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
-í ½í¸‰
+ğŸ˜‰
 
 [23:48:45](#1657928925461VDAAg:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
 In Rebol I could do: 
@@ -116272,8 +116272,8 @@ e.g. [
 	default a 1
 	default [a b c] [2 3 4]
 	default f :append
-	í ½í¸ƒefault [g h i j "k" #l m] [1 2 [3] 4 5 6 7]
-	í ½í¸ƒefault [g h i j "k" #l m n o] [. . . . . . . .]
+	ğŸ˜ƒefault [g h i j "k" #l m] [1 2 [3] 4 5 6 7]
+	ğŸ˜ƒefault [g h i j "k" #l m n o] [. . . . . . . .]
 	default [g h i j k l m] [1 2 [3] 4 5 6 7]
 	default [g h i j k l m n o] [. . . . . . . .]
 ]
@@ -116497,7 +116497,7 @@ Knowing Javascript cannot hurt anybody. When you need AI, than there is only Pyt
 * @hiiamboris Which other suggestions to you have from your experience?
 
 [16:13:41](#165833362125QZxVI:gitter.im) <hiiamboris (NOT THIS ONE)>:
-none, sorry í ½í¸‰
+none, sorry ğŸ˜‰
 I don't write web or AI stuff
 
 [16:14:41](#165833368126QgSEU:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
@@ -116912,7 +116912,7 @@ rulify: func [
 	out-data: copy []
 	forall elements [
 		element: first elements
-		í ½í¸œrobe type? element-value
+		ğŸ˜œrobe type? element-value
 		
 		case [
 			any [word? :element string? element] [
@@ -117059,7 +117059,7 @@ rulify: func [
 	out-data: copy []
 	forall elements [
 		element: first elements
-		í ½í¸œrobe type? element-value
+		ğŸ˜œrobe type? element-value
 		
 		case [
 			any [word? :element string? element] [
@@ -117295,7 +117295,7 @@ The sequence of visual symbols triggers the function specs knowledge in our neur
 > why was `found?` created?
 
 `found?` returns a value of type logic!, I remember seeing it used in `pick [green red] found? find options value`.
- The irony in this is, that in R2 it was implemented as `not none? :value` â€” makes me feel sorry for @toomasv í ½í¸‰
+ The irony in this is, that in R2 it was implemented as `not none? :value` â€” makes me feel sorry for @toomasv ğŸ˜‰
 
 [16:02:41](#1658505761317NcXNm:gitter.im) <gurzgri>:
 * @GiuseppeChillemi 
@@ -117580,7 +117580,7 @@ just how huge your file is?
 One possible improvement is turning the XML codec into a scheme. Recently I made an experimental CSV scheme that can load much bigger files than CSV codec. XML scheme would be a bit more complicated but doable.
 
 [18:26:23](#1658773583727AqtqF:gitter.im) <hiiamboris (NOT THIS ONE)>:
-it's not builtin í ½í¸‰
+it's not builtin ğŸ˜‰
 
 [19:08:15](#1658776095734GAAZG:gitter.im) <cosacam1 (cosacam1)>:
 @fergus4 Some time ago I told the forum  that load was too slow compared to read in Red, not so in Rebol. A little later I asked something to the forum for some other reason, the solution was to download the most recent version of Red. Well, the load delay was solved too, so update.
@@ -117668,12 +117668,12 @@ decodeLZW: func [
 	
 	code: 0
 	while [code < clear_code] [
-		í ½í¸œrefix/(code + 1): 0
+		ğŸ˜œrefix/(code + 1): 0
 		suffix/(code + 1): code
 		code: code + 1
 	]
 	
-	í ½í¸œrint [clear_code end_of_info available old_code code_size code_mask]
+	ğŸ˜œrint [clear_code end_of_info available old_code code_size code_mask]
 	
 	
 	data: skip data 2;--codes begin here
@@ -117704,12 +117704,12 @@ decodeLZW: func [
 			bits: bits - code_size
 			;--sanity check
 			if any [code > available code = end_of_info] [
-				í ½í¸œrint [code ": sanity check"] 
+				ğŸ˜œrint [code ": sanity check"] 
 				;break
 			]
 			;--time to reset the tables
 			if code = clear_code [
-				í ½í¸œrint [code ": Clear"]
+				ğŸ˜œrint [code ": Clear"]
 				code_size:	data_size + 1
 				code_mask:	(1 << code_size) - 1 
 				available: 	clear_code + 2
@@ -117725,7 +117725,7 @@ decodeLZW: func [
 			]
 			in_code: code
 			if (code = available)[
-				í ½í¸œrint [code ": Available"]
+				ğŸ˜œrint [code ": Available"]
 				append top_stack first_code
 				code: old_code 
 			]
@@ -117744,7 +117744,7 @@ decodeLZW: func [
 			if all [(available and code_mask = 0) (available < MAX_STACK_SIZE)][
 				code_size: code_size + 1
 				code_mask: code_mask + available
-				í ½í¸œrint [code_size code_mask]
+				ğŸ˜œrint [code_size code_mask]
 			]
 			top_stack: back top_stack
 			old_code: in_code
@@ -118060,13 +118060,13 @@ It seems the sourece code around [here](https://github.com/red/VScode-extension/
 
 
 [11:01:04](#1659178864353ZZCqr:gitter.im) <hiiamboris (NOT THIS ONE)>:
-Thanks for pointing that out. Feel free to submit a PR there, I guess í ½í¸‰
+Thanks for pointing that out. Feel free to submit a PR there, I guess ğŸ˜‰
 
 [12:09:47](#1659182987365OHIvh:gitter.im) <koba-yu (koba-yu)>:
-@hiiamboris i have no experience to write codes of extension and TypeScript but iâ€™ll give myself a try tomorrow, thank youí ½í¸Š
+@hiiamboris i have no experience to write codes of extension and TypeScript but iâ€™ll give myself a try tomorrow, thank youğŸ˜Š
 
 [12:43:36](#1659185016367ZdKUC:gitter.im) <hiiamboris (NOT THIS ONE)>:
-You're capable, I'm sure you'll manage í ½í¸‰
+You're capable, I'm sure you'll manage ğŸ˜‰
 
 [14:41:45](#1659192105369ZWryd:gitter.im) <toomasv>:
 @ldci Working [gif-parser](https://github.com/toomasv/LZW/blob/main/GIF.red). See example in the end.
@@ -118462,7 +118462,7 @@ parse [] [collect [keep pick ([value]) keep ([block])]] ;== [[value] [block]]
 @hiiamboris  your code for capturring only digits works, however it does not work when I use the numeric key pad, only with the numbers above the letters on my laptop keyboard. I guess it is because the numeric keypad keys have different scan codes. I haven't tested it with a regular desktop keyboard. Thanks anyway
 
 [9:49:24](#1659433764260xbWij:gitter.im) <hiiamboris (NOT THIS ONE)>:
-Use NumLock í ½í¸‰
+Use NumLock ğŸ˜‰
 
 [9:49:39](#1659433779262Dgglt:gitter.im) <hiiamboris (NOT THIS ONE)>:
 Else how are you planning to edit it.
@@ -118665,7 +118665,7 @@ volume: function ['w [any-type!] 'h [any-type!] 'd [any-type!]] [
 ```
 
 [7:10:26](#1659510626506xmykY:gitter.im) <hiiamboris (NOT THIS ONE)>:
-good thing for shooting one's feet off í ½í¸‰
+good thing for shooting one's feet off ğŸ˜‰
 (and getting better understanding of Red)
 
 [8:23:35](#1659515015509Xkylb:gitter.im) <toomasv>:
@@ -118709,7 +118709,7 @@ I first thought to use refinements but I searched for a shorter solution
 @GalenIvanov  may you explain how `make dim args` works? 
 
 [9:10:30](#1659517830517Cctib:gitter.im) <hiiamboris (NOT THIS ONE)>:
-block is the idiomatic way, so congrats í ½í¸‰
+block is the idiomatic way, so congrats ğŸ˜‰
 
 [9:11:19](#1659517879519PdjhF:gitter.im) <cosacam1 (cosacam1)>:
 @toomasv those any [w 1]... are really short!!!
@@ -118724,7 +118724,7 @@ You guys help me so much. Thanks a lot
 By the way, any comment or sugestion to accept-digits-only above?
 
 [9:29:59](#1659518999524PXmmH:gitter.im) <hiiamboris (NOT THIS ONE)>:
-If it works, it's good enough í ½í¸‰
+If it works, it's good enough ğŸ˜‰
 
 [9:39:50](#1659519590526GAZKD:gitter.im) <cosacam1 (cosacam1)>:
 Ok
@@ -118798,7 +118798,7 @@ If your program is compiled, there's no source code in it.
 My code is interpreted, I can't compile it as some partes are dynamically built. 
 
 [16:26:17](#1659630377894xEoNq:gitter.im) <hiiamboris (NOT THIS ONE)>:
-Is it so valuable that someone will bother reverse engineering it? í ½í¸‰
+Is it so valuable that someone will bother reverse engineering it? ğŸ˜‰
 
 [16:28:00](#1659630480895HVwzA:gitter.im) <hiiamboris (NOT THIS ONE)>:
 There's still no source code, but a Redbin payload. Which one of course could theoretically extract, by unpacking it and figuring out the exe format from compiler's source code.
@@ -118840,7 +118840,7 @@ Or `content-flow` maybe.
 `content-flow` seems fit, thanks
 
 [18:41:04](#1659638464919VLUKT:gitter.im) <hiiamboris (NOT THIS ONE)>:
-considered `orientation` but it's too long with `content-` í ½í¸‰
+considered `orientation` but it's too long with `content-` ğŸ˜‰
 
 [18:42:15](#1659638535921fhKsG:gitter.im) <ne1uno (ne1uno)>:
 -fit
@@ -118858,7 +118858,7 @@ doesn't fit, sticks out (this parameters controls scrollbars logic)
 how to check if path `a/b/c` is exists?
 
 [10:53:37](#1660042417105HuByk:gitter.im) <hiiamboris (NOT THIS ONE)>:
-you have a talent for finding weak points of Redbol design í ½í¸‰
+you have a talent for finding weak points of Redbol design ğŸ˜‰
 
 [10:54:46](#1660042486106rmwuf:gitter.im) <hiiamboris (NOT THIS ONE)>:
 for this concrete example, try `get/any` if it doesn't error out, then `find` on `a/b` block for `c` item
@@ -118908,7 +118908,7 @@ https://github.com/red/REP/issues/121
 Thanks!
 
 [17:44:52](#166006709293rTVYI:gitter.im) <hiiamboris (NOT THIS ONE)>:
-Brian has attacked this with design, trying to invent a general solution that would take a path and return a block of items to visit (that would also convert get-words and parens into a final item). And then any other part should magically work on top of that. Not sure he has finished it though, and don't recall where I saw that í ½í¸•
+Brian has attacked this with design, trying to invent a general solution that would take a path and return a block of items to visit (that would also convert get-words and parens into a final item). And then any other part should magically work on top of that. Not sure he has finished it though, and don't recall where I saw that ğŸ˜•
 
 [21:44:07](#1660081447158ZXfUI:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
 @gltewalt:matrix.org I have long debated with myself about the current Red design, still with no definitive answer. Having been on Rebol, I have seen that Carl has creted 2 different sets  of functions:
@@ -119137,7 +119137,7 @@ My need is to save a Red block and then later edit with proper formatting on mul
 or `write/lines reduce [reduce [stuff]]`
 
 [11:51:58](#1660132318288FyUpZ:gitter.im) <hiiamboris (NOT THIS ONE)>:
-randomly applying every function you can recall doesn't usually work í ½í¸‰
+randomly applying every function you can recall doesn't usually work ğŸ˜‰
 
 [12:20:17](#1660134017295FHMUT:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
 I am trying every combination to understand what molds. The output of the console also confuses me as if you mold and proble, it seems you mold twice.
@@ -119153,7 +119153,7 @@ I am trying every combination to understand what molds. The output of the consol
 
 [12:21:48](#1660134108300KpQrq:gitter.im) <dockimbel>:
 ```
->> body-of í ½í¸›robe
+>> body-of ğŸ˜›robe
 == [
     print mold :value 
     :value
@@ -119846,7 +119846,7 @@ luckily ther is a workaround:
 >> v2
 == make vector! [2 4 6]
 ```
-but surely it is not what one would expect to do, but maybe could be seen as a feature í ½í¸‰ ?
+but surely it is not what one would expect to do, but maybe could be seen as a feature ğŸ˜‰ ?
 
 [17:25:24](#16605843241267SVbii:gitter.im) <luce80>:
 Sorry it is also already documented as a feature.
@@ -119863,7 +119863,7 @@ well IMO it's a mess
 That's what's called a "constructive" comment.
 
 [19:41:03](#16605924631274iOxus:gitter.im) <dockimbel>:
-@luce80 In Rebol/Red, `vector!` is an array! of scalar values, so it's a series by nature, not a scalar itself. In Red, we allowed the math operations on it, until we get better. But if that is causing troubles, we can remove the math ops support, so you can enjoy writting them at mezz level. í ½í¸‰
+@luce80 In Rebol/Red, `vector!` is an array! of scalar values, so it's a series by nature, not a scalar itself. In Red, we allowed the math operations on it, until we get better. But if that is causing troubles, we can remove the math ops support, so you can enjoy writting them at mezz level. ğŸ˜‰
 
 [19:41:12](#16605924721275cQffL:gitter.im) <dockimbel>:
 * @luce80 In Rebol/Red, `vector!` is an array! of scalar values, so it's a series by nature, not a scalar itself. In Red, we allowed the math operations on it, until we get better. But if that is causing troubles, we can remove the math ops support, so you can enjoy writting them yourself at mezz level. ;-)
@@ -119879,7 +119879,7 @@ That's what's called a "constructive" comment.
 
 [19:44:09](#16605926491280VXsGl:gitter.im) <hiiamboris (NOT THIS ONE)>:
 > That's what's called a "constructive" comment.
-í ½í¸ƒ Â¯\\_(ãƒ„)_/Â¯
+ğŸ˜ƒ Â¯\\_(ãƒ„)_/Â¯
 
 [19:44:12](#16605926521281zRtun:gitter.im) <hiiamboris (NOT THIS ONE)>:
 * > That's what's called a "constructive" comment.
@@ -119948,7 +119948,7 @@ Maths does not define how arithmetic works between series and scalars, we do. It
 Such rules require a special case *in every* function that works on general arguments.
 
 [20:02:11](#16605937311306fRTtv:gitter.im) <hiiamboris (NOT THIS ONE)>:
-Besides, math doesn't have *variables*, so what should it define? í ½í¸‰
+Besides, math doesn't have *variables*, so what should it define? ğŸ˜‰
 
 [20:02:12](#16605937321307DPPEp:gitter.im) <dockimbel>:
 You are again over-generalizing your own use-cases...
@@ -119957,7 +119957,7 @@ You are again over-generalizing your own use-cases...
 Math defines e.g. commutativity and transitivity. And probably a couple more rules that are totally broken by this.
 
 [20:03:31](#16605938111309DjJJl:gitter.im) <hiiamboris (NOT THIS ONE)>:
-@meijeru will support me í ½í¸‰
+@meijeru will support me ğŸ˜‰
 
 [20:04:29](#16605938691310FpDEk:gitter.im) <dockimbel>:
 Anyway, as I said above: "we allowed the math operations on it, until we get a better alternative (like fixed-sized vectors and matrix types)." So this means that it's a temporary feature. I think we should rename that datatype, as we hesitated between `array!` and `vector!` in the beginning.
@@ -119984,7 +119984,7 @@ Type promotion from scalar to series? That's an horror!
 * Implicit type promotion from scalar to series? That's an horror!
 
 [20:07:58](#16605940781319WbzXl:gitter.im) <hiiamboris (NOT THIS ONE)>:
-Well, for modelling behavior, not for implementing it í ½í¸‰
+Well, for modelling behavior, not for implementing it ğŸ˜‰
 
 [20:09:03](#16605941431320QQoxl:gitter.im) <hiiamboris (NOT THIS ONE)>:
 I think, eventually, once GC is improved, it will just reuse recently created vector buffers, and this case will just resolve itself. 
@@ -119996,13 +119996,13 @@ apple + orange = ?
 Let's promote the "orange" to "apple" to solve that, right?
 
 [20:09:58](#16605941981322sXwnU:gitter.im) <hiiamboris (NOT THIS ONE)>:
-Not a correct analogy í ½í¸‰
+Not a correct analogy ğŸ˜‰
 
 [20:10:11](#16605942111323mpOAd:gitter.im) <dockimbel>:
 I think we should remove those math ops and rename the type to `array!`, so that people will stop misusing it.
 
 [20:10:38](#16605942381324SAXyH:gitter.im) <dockimbel>:
-> Not a correct analogy í ½í¸‰
+> Not a correct analogy ğŸ˜‰
 
 Prove that it's not correct.
 
@@ -120032,7 +120032,7 @@ Well, let's not follow their suit...
 @dockimbel noticed [this comment](https://github.com/red/red/commit/19ebddde32e20ade110f54e55b3c599062fd02d6#commitcomment-81213457) btw?
 
 [20:18:51](#16605947311332UBlit:gitter.im) <dockimbel>:
-Surely, the C# designers, like me, do not know about maths. í ½í¸‰
+Surely, the C# designers, like me, do not know about maths. ğŸ˜‰
 
 [20:20:25](#16605948251333UMaCN:gitter.im) <hiiamboris (NOT THIS ONE)>:
 Since it's a megacorp, I doubt there's any real design thought there. Just typical bureaucratic madness.
@@ -120080,7 +120080,7 @@ They seems equivalent. Both are fixed-size.
 
 "Since 2000, he has been the lead architect of the team developing the C# language. In 2012 Hejlsberg announced a new Microsoft project, TypeScript, a superset of JavaScript."
 
-He surely doesn't seem like someone who knows what he's doing. í ½í¸‰
+He surely doesn't seem like someone who knows what he's doing. ğŸ˜‰
 
 [21:24:45](#16605986851353GMRMh:gitter.im) <dockimbel>:
 * > Since it's a megacorp, I doubt there's any real design thought there. Just typical bureaucratic madness.
@@ -120095,9 +120095,9 @@ He surely doesn't seem like someone who knows what he's doing, right?. ;-)
 if you're going to remove those built-in scalar operations then also  remove vector by vector multiplication etc.
 
 [21:44:43](#16605998831357ZUfUb:gitter.im) <hiiamboris (NOT THIS ONE)>:
-> He surely doesn't seem like someone who knows what he's doing, right?. í ½í¸‰
+> He surely doesn't seem like someone who knows what he's doing, right?. ğŸ˜‰
 
-Judging by the designs, no í ½í¸‰
+Judging by the designs, no ğŸ˜‰
 
 [21:45:23](#16605999231358kdzLw:gitter.im) <hiiamboris (NOT THIS ONE)>:
 Everyone can write a fancy biography. But a deeply designed language - only a few.
@@ -120197,7 +120197,7 @@ it's impossible to use string as key in map?
 Too slow. Grrrr. ;^)
 
 [17:06:34](#16608423941760bwrvV:gitter.im) <rebolek (Boleslav BÅ™ezovskÃ½)>:
-í ½í°­ 
+ğŸ­ 
 
 [17:06:58](#16608424181762wMCPe:gitter.im) <bubnenkoff (Dmitry Bubnenkov)>:
 oh! thanks!
@@ -120350,7 +120350,7 @@ I am close to result!
 now study `save` refinements closer
 
 [16:13:15](#16609255951888jPuUz:gitter.im) <hiiamboris (NOT THIS ONE)>:
-oh sorry, it doesn't have that í ½í¸ƒ
+oh sorry, it doesn't have that ğŸ˜ƒ
 
 [16:13:53](#16609256331889vAQEb:gitter.im) <hiiamboris (NOT THIS ONE)>:
 ok then, `mold` has what you need, and `save` roughly equals `write mold`
@@ -120495,7 +120495,7 @@ why bother if you have `image` command in Draw
 @hiiamboris , mainly because draw canâ€™t be used in routines:)
 
 [10:31:40](#16610779002057ARrXR:gitter.im) <hiiamboris (NOT THIS ONE)>:
-I see í ½í¸‰
+I see ğŸ˜‰
 
 ## 22-Aug-2022
 
@@ -120557,7 +120557,7 @@ I tried to place field in block but git an error: `make-face/offset does not all
 
 
 [15:51:27](#16611834872196BmHDj:gitter.im) <hiiamboris (NOT THIS ONE)>:
-you'll figure it out, just don't let your hands do anything before your head í ½í¸‰
+you'll figure it out, just don't let your hands do anything before your head ğŸ˜‰
 
 [16:20:33](#16611852332197lBDjX:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
 If I have some panels with elements inside, like button/areas, how could I add/remove elements from the panel?
@@ -120881,7 +120881,7 @@ I don't think it's feasible, or a good use of people's time right now, but peopl
 [22:50:32](#1661381432106VKnhO:gitter.im) <qtxie>:
 @GiuseppeChillemi Don't expect there are any volunteers to do it at the scale of current Red community. Even no volunteers to fix some simple issues which way easier than Android support. 
 
-As Gregg said, people can work on anything they want. It's opensource, feel free to modify it to fit your needs. í ½í¸‰
+As Gregg said, people can work on anything they want. It's opensource, feel free to modify it to fit your needs. ğŸ˜‰
 
 [22:51:08](#1661381468107loXmt:gitter.im) <qtxie>:
 * @GiuseppeChillemi Don't expect there are any volunteers to do it at the current  scale of Red community. Even no volunteers to fix some simple issues which way easier than Android support. 
@@ -120889,7 +120889,7 @@ As Gregg said, people can work on anything they want. It's opensource, feel free
 As Gregg said, people can work on anything they want. It's opensource, feel free to modify it to fit your needs. ;)
 
 [23:25:46](#1661383546112VzfDw:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
-Thank you for the answer, I already knew it but expressing your dreams is free, realizing them is much more difficult! í ½í¸‰
+Thank you for the answer, I already knew it but expressing your dreams is free, realizing them is much more difficult! ğŸ˜‰
 
 [23:28:19](#1661383699113SOQNd:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
 * Thank you for the answer, I already knew it but I have asked, just in 
@@ -121299,7 +121299,7 @@ change-at: function [
 	offset: (pos/y - 1 * img1/size/x) + pos/x
 	until [
 		row: 1
-		í ½í¸œrint offset
+		ğŸ˜œrint offset
 		while [row <= nRows][
 			img1/(offset): img2/(row)
 			row: row + 1
@@ -121445,7 +121445,7 @@ https://github.com/red/docs/blob/master/en/vid.adoc#with
 [15:28:20](#1661700500591EouLN:gitter.im) <hiiamboris (NOT THIS ONE)>:
 >  have done example of panel that that have dynamic with and fixed height
 
-Good. That's a start í ½í¸‰
+Good. That's a start ğŸ˜‰
 
 [15:30:00](#1661700600592wxRBJ:gitter.im) <bubnenkoff (Dmitry Bubnenkov)>:
 Is there any good way to do resizable UI. Here button do not change it's position when UI is resizing:
@@ -121506,7 +121506,7 @@ Yes, I think I will try to use `view` as it is and hope to rewrite UI someday in
 need only figure out how to change panels ) I still did not understand how to access to `window`
 
 [16:01:20](#1661702480605mKeqR:gitter.im) <hiiamboris (NOT THIS ONE)>:
-Well, you have found `parent/size`, so you're closer now í ½í¸‰
+Well, you have found `parent/size`, so you're closer now ğŸ˜‰
 
 [16:01:42](#1661702502606xfSib:gitter.im) <hiiamboris (NOT THIS ONE)>:
 * Well, you have found `parent/size`, so you're closer now to `parent/pane` ;)
@@ -121551,7 +121551,7 @@ Almost -- you mean I need to reduce [button] ? I tried it too
 * Almost -- you mean I need to reduce [button] ? I tried it too: `button has no value`
 
 [16:13:12](#1661703192615CsJXF:gitter.im) <hiiamboris (NOT THIS ONE)>:
-Don't do random things. Follow my questions í ½í¸‰
+Don't do random things. Follow my questions ğŸ˜‰
 
 [16:13:56](#1661703236616rwmKW:gitter.im) <hiiamboris (NOT THIS ONE)>:
 As you progress, you will learn.
@@ -121594,7 +121594,7 @@ view [
 thanks!
 
 [16:18:10](#1661703490625OrMoq:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ½í± 
+ğŸ‘ 
 
 [16:18:43](#1661703523626yNdIf:gitter.im) <bubnenkoff (Dmitry Bubnenkov)>:
 So in this way I could hide panel and show on it place panel with another content?
@@ -121673,7 +121673,7 @@ view [button [unview]] on-close [print "so long!"]
 use /options facet
 
 [19:19:10](#1661800750807DLOqi:gitter.im) <hiiamboris (NOT THIS ONE)>:
-or put your actors at the beginning of view block (but it's not by design í ½í¸‰
+or put your actors at the beginning of view block (but it's not by design ğŸ˜‰
 
 [19:24:22](#1661801062808YPJEd:gitter.im) <cosacam1 (cosacam1)>:
 view/options [button [unview]] [on-close: [print "so long!"]] doesn't show error but prints nothing either
@@ -121688,7 +121688,7 @@ It's `view [on-close [print "so long!"] button [unview]]`.
 @gurzgri Thanks but it does not print message
 
 [19:32:59](#1661801579815KMkQf:gitter.im) <gurzgri>:
-> or put your actors at the beginning of view block (but it's not by design í ½í¸‰
+> or put your actors at the beginning of view block (but it's not by design ğŸ˜‰
 At least it's [documented](https://github.com/red/docs/blob/master/en/vid.adoc#34-actors-definition) I think.
 
 [19:33:06](#1661801586816MjdVK:gitter.im) <gurzgri>:
@@ -121737,7 +121737,7 @@ view/options [
 ```
 
 [19:53:49](#1661802829823Dwrzm:gitter.im) <hiiamboris (NOT THIS ONE)>:
-click "X" twice í ½í¸‰
+click "X" twice ğŸ˜‰
 
 [19:54:42](#1661802882824xHECQ:gitter.im) <cosacam1 (cosacam1)>:
 So `continue` is another return value for the event. I knew about 'done and 'stop, now 'continue. Anything else? Any document about it? Thanks hiiamboris, christian and gregg. 
@@ -121793,7 +121793,7 @@ Not triple apostrophes but [triple backticks followed by `Red` word](https://doc
 * Not triple apostrophes but [triple backticks followed by `Red` word](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks) for Red code blocks. And blank lines before an after backtick blocks are suggested. Single backticks for inlining code.
 
 [21:06:13](#1661807173846sszTz:gitter.im) <greggirwin (Gregg Irwin)>:
-> click "X" twice í ½í¸‰
+> click "X" twice ğŸ˜‰
 
 Shows default handling. :^)
 
@@ -122270,7 +122270,7 @@ view ui
 yes it's works!
 
 [9:50:42](#1662112242320xcjZA:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ½í±
+ğŸ‘
 
 [13:11:57](#1662124317346xzBob:gitter.im) <gurzgri>:
 @bubnenkoff Just have a look into what happens with an actor defined in VID:
@@ -122300,7 +122300,7 @@ The actor block is used to create a function having args `face` and `event`, bot
 When a face recieves an `click` event, the View system calls the face's `on-click` actor function as in `do-actor face event 'click` to process it.  That's why `face` in the actor body can be used.
 
 [13:20:16](#1662124816349JofaP:gitter.im) <hiiamboris (NOT THIS ONE)>:
-And it's [documented](https://codeberg.org/hiiamboris/red-docs/src/branch/master/en/vid.adoc#_actors) í ½í¸‰
+And it's [documented](https://codeberg.org/hiiamboris/red-docs/src/branch/master/en/vid.adoc#_actors) ğŸ˜‰
 
 [13:21:04](#1662124864350fscDY:gitter.im) <hiiamboris (NOT THIS ONE)>:
 * And it's [documented](https://github.com/red/docs/blob/master/en/vid.adoc#actors) ;)
@@ -122736,7 +122736,7 @@ I can't understand why removing stop works after few: add control, remove, again
 Heh, this article is hard even for people that have some experience. Honestly I do not see place in my code where could be issue with copy
 
 [12:47:25](#16623820459rKMsb:gitter.im) <hiiamboris (NOT THIS ONE)>:
-in the piece that doesn't work í ½í¸‰
+in the piece that doesn't work ğŸ˜‰
 
 [12:50:03](#166238220310oBGwm:gitter.im) <hiiamboris (NOT THIS ONE)>:
 > hard even for people that have some experience
@@ -122770,7 +122770,7 @@ ppp/pane: []
 @bubnenkoff you count now. How many series do you see in your code?
 
 [13:01:34](#166238289417WAIeQ:gitter.im) <hiiamboris (NOT THIS ONE)>:
-(I made a mistake since I'm bad at counting í ½í¸‰
+(I made a mistake since I'm bad at counting ğŸ˜‰
 
 [13:03:59](#166238303918QOoIS:gitter.im) <bubnenkoff (Dmitry Bubnenkov)>:
 I counted 7
@@ -122779,7 +122779,7 @@ I counted 7
 I am not sure if function args is series, possible they are so I need plus them
 
 [13:28:01](#166238448120eAbjG:gitter.im) <hiiamboris (NOT THIS ONE)>:
-Wrong í ½í¸‰
+Wrong ğŸ˜‰
 
 [13:28:38](#166238451821pwsoy:gitter.im) <hiiamboris (NOT THIS ONE)>:
 ```
@@ -123054,7 +123054,7 @@ to bind it's with default color?
 or what kind of modifications I can do...
 
 [12:02:07](#1662465727138BJyxi:gitter.im) <hiiamboris (NOT THIS ONE)>:
-sorry, I gave you too many hints already í ½í¸‰
+sorry, I gave you too many hints already ğŸ˜‰
 
 [12:02:29](#1662465749139WBUsE:gitter.im) <hiiamboris (NOT THIS ONE)>:
 it's up to you now to work it out
@@ -123063,7 +123063,7 @@ it's up to you now to work it out
 ok) thanks)
 
 [12:04:05](#1662465845141ZRHsX:gitter.im) <hiiamboris (NOT THIS ONE)>:
-I can only say it's sooo much simpler than what you're doing í ½í¸‰
+I can only say it's sooo much simpler than what you're doing ğŸ˜‰
 
 [12:07:34](#1662466054142MuIFu:gitter.im) <hiiamboris (NOT THIS ONE)>:
 @bubnenkoff maybe I don't get what you're trying to do though
@@ -123146,7 +123146,7 @@ is it right inline version?
 should be
 
 [12:56:25](#1662468985165OdqFX:gitter.im) <bubnenkoff (Dmitry Bubnenkov)>:
-But it's do not work í ½í¸Ÿ 
+But it's do not work ğŸ˜Ÿ 
 
 [12:56:31](#1662468991166bfQaE:gitter.im) <hiiamboris (NOT THIS ONE)>:
 works for me
@@ -123438,7 +123438,7 @@ Steps to reproduce:
 
 
 [8:39:56](#1662539996384OdulH:gitter.im) <hiiamboris (NOT THIS ONE)>:
-I won't be able to tell a thing in such a big script í ½í¸‰
+I won't be able to tell a thing in such a big script ğŸ˜‰
 
 [8:40:12](#1662540012385kyvHC:gitter.im) <hiiamboris (NOT THIS ONE)>:
 I suggest removing irrelevant stuff until it becomes small enough to understand
@@ -123646,7 +123646,7 @@ check the `layout` spec
 So you are seeing difference in `layout` in this tiny example and in big code?
 
 [12:55:22](#1662555322432HTJKW:gitter.im) <hiiamboris (NOT THIS ONE)>:
-I didn't check TBH but I spotted compose/deep and parens í ½í¸‰
+I didn't check TBH but I spotted compose/deep and parens ğŸ˜‰
 
 [12:56:54](#1662555414433QCEfx:gitter.im) <hiiamboris (NOT THIS ONE)>:
 `compose` is quite evil design
@@ -123699,7 +123699,7 @@ I can't count times when I was writing parens totally forgetting that I'm writin
 That's funny reasoning. 
 
 [17:59:30](#1662573570485hasGu:gitter.im) <hiiamboris (NOT THIS ONE)>:
-Why? í ½í¸‰
+Why? ğŸ˜‰
 
 [18:03:18](#1662573798486kReFP:gitter.im) <gurzgri>:
 > forgetting that I'm writing them inside some big compose/deep scope
@@ -123718,7 +123718,7 @@ exactly
 @bubnenkoff 
 > Perfect! Thanks!
 
-You're welcome! But that `find-path-to-node` version comes with a special restrictive license attached: You're only allowed to use it in your code if you can credibly assure that you've processed and digested it and understand how and why it is working í ½í¸‰ 
+You're welcome! But that `find-path-to-node` version comes with a special restrictive license attached: You're only allowed to use it in your code if you can credibly assure that you've processed and digested it and understand how and why it is working ğŸ˜‰ 
 
 [18:26:51](#1662575211490EsNPQ:gitter.im) <bubnenkoff (Dmitry Bubnenkov)>:
 Is it possible to remove `foo: []`  at one step?
@@ -123857,7 +123857,7 @@ There are many ways you can make parens unique, from a sigil like `@() !() ~() &
 There are many ways you can make parens unique, from a sigil like `@() !() ~() &()` to refinements `/splice () /single () /only () /mixin () /the () /just () /inline ()`, to tags `<splice> () ...`, to issues `#splice () ...`, to prefix(es) of your own choice on a per-call basis.
 
 [21:15:28](#1662585328527wBPtg:gitter.im) <hiiamboris (NOT THIS ONE)>:
-Anyway, I'm using `reshape` in non-critical code all the time. If `!()` and `@()` are too hard to grok for someone, it's not my trouble í ½í¸‰
+Anyway, I'm using `reshape` in non-critical code all the time. If `!()` and `@()` are too hard to grok for someone, it's not my trouble ğŸ˜‰
 
 ## 8-Sep-2022
 
@@ -123987,13 +123987,13 @@ SCROLLER! is an object! with the following words and values:
 ```
 
 [12:31:28](#16626402884VxRDB:gitter.im) <hiiamboris (NOT THIS ONE)>:
-It's half baked so good luck í ½í¸‰
+It's half baked so good luck ğŸ˜‰
 
 [12:35:01](#16626405015wFRsV:gitter.im) <hiiamboris (NOT THIS ONE)>:
 Use `scroller` VID style.
 
 [12:35:45](#16626405456oktqL:gitter.im) <hiiamboris (NOT THIS ONE)>:
-But beware: 2D scrolling panel is one of the trickiest widgets to get right í ½í¸‰
+But beware: 2D scrolling panel is one of the trickiest widgets to get right ğŸ˜‰
 
 [12:37:18](#16626406387osiHz:gitter.im) <hiiamboris (NOT THIS ONE)>:
 If you only need vertical scroller IIRC there's some hack to get it to show for a `base` face (which can also act as a panel IIRC)
@@ -124438,7 +124438,7 @@ The difference between your `change at` and `poke` isn't that big and `change at
 Oh, I see the point. Not the same scroller asslider. However a little confusing. I think data = 1.0 is expected when reaching the bottom. Ok, I can live with that. Thanks both.
 
 [14:44:35](#1662734675204pkIQr:gitter.im) <hiiamboris (NOT THIS ONE)>:
-@cosacam1 I've stumbled upon that myself before í ½í¸‰
+@cosacam1 I've stumbled upon that myself before ğŸ˜‰
 
 [14:45:06](#1662734706205qlHAv:gitter.im) <toomasv>:
 > (i.e. it was a dirty hack and not supported anymore)
@@ -124475,7 +124475,7 @@ I guess general understanging is that any face in *view* is *graphic*, i.e. has 
 * I guess general understanding is that any face in *view* is *graphic*, i.e. has graphic aspect about it, is graphically presented. To narrow this to *drawn base faces* only is really stretching the meaning of *graphic*, IMO. Although in practice you are right and docs are wrong. :)
 
 [15:05:38](#1662735938217wGZSp:gitter.im) <hiiamboris (NOT THIS ONE)>:
-I understand the docs as base is used to implement graphic components, but that does not imply that other graphic components can be grouped together in a base for that í ½í¸‰
+I understand the docs as base is used to implement graphic components, but that does not imply that other graphic components can be grouped together in a base for that ğŸ˜‰
 
 [15:06:33](#1662735993218TLZbW:gitter.im) <hiiamboris (NOT THIS ONE)>:
 Good idea to use pane for caret face by the way.
@@ -124525,7 +124525,7 @@ Ah, `system/state/interpreted?` maybe?
 I think I was checking `system/options/script` for `none` value when compiled.
 
 [6:43:44](#1662792224254oQeiO:gitter.im) <hiiamboris (NOT THIS ONE)>:
-@dockimbel should know a proper way í ½í¸‰
+@dockimbel should know a proper way ğŸ˜‰
 
 [6:46:11](#1662792371256iIdNS:gitter.im) <koba-yu (koba-yu)>:
 @hiiamboris 
@@ -124564,16 +124564,16 @@ also after a few images it stopped updating the display, apparently got some dec
 * also after a few images it stopped updating the display, apparently got some decoding error and stalled on it (make it recover from errors ;)
 
 [8:29:02](#1662798542270VSQsr:gitter.im) <hiiamboris (NOT THIS ONE)>:
-also it just crashed my console í ½í¸‰ but this I will deal with myself... interesting, as well as that decoding error
+also it just crashed my console ğŸ˜‰ but this I will deal with myself... interesting, as well as that decoding error
 
 [9:00:17](#1662800417272arjDp:gitter.im) <koba-yu (koba-yu)>:
-@hiiamboris Thank you, Ilâ€™ll checkí ½í±
+@hiiamboris Thank you, Ilâ€™ll checkğŸ‘
 
 [9:22:40](#1662801760273DeOXj:gitter.im) <hiiamboris (NOT THIS ONE)>:
 okay it's an out of memory related crash
 
 [9:23:10](#1662801790274VwpdD:gitter.im) <hiiamboris (NOT THIS ONE)>:
-basically 5-7 photos is the limit before it reaches 2.2GB í ½í¸‰
+basically 5-7 photos is the limit before it reaches 2.2GB ğŸ˜‰
 
 [9:35:53](#1662802553275yHRfP:gitter.im) <hiiamboris (NOT THIS ONE)>:
 @koba-yu I think that's because you reload all images on every `next` click
@@ -124583,7 +124583,7 @@ basically 5-7 photos is the limit before it reaches 2.2GB í ½í¸‰
 
 [9:40:29](#1662802829277wfBOu:gitter.im) <koba-yu (koba-yu)>:
 @hiiamboris 
-Thank you, actually I made this app for viewing many small images for my AI related work. So the program not considered deeply to process big image at current commit í ½í¸…
+Thank you, actually I made this app for viewing many small images for my AI related work. So the program not considered deeply to process big image at current commit ğŸ˜…
 I would keep improving!
 
 [9:45:56](#1662803156278RXaOm:gitter.im) <hiiamboris (NOT THIS ONE)>:
@@ -124668,13 +124668,13 @@ This. Another obvious improvement would be having each nesting level in a `panel
 * `append ppp/pane layout/only` is the culprit. It re-creates each and every face on every change. You'd be better off creating faces manually with `make-face` instead of creating a full VID layout spec of the entirety of faces each time something gets added/removed. 
 
 [10:06:39](#1662890799356UGXSp:gitter.im) <hiiamboris (NOT THIS ONE)>:
-also this `ppp/pane: copy []` í ½í¸‰
+also this `ppp/pane: copy []` ğŸ˜‰
 
 [10:14:48](#1662891288357xWopt:gitter.im) <hiiamboris (NOT THIS ONE)>:
 on panels, it's a good advice to simplify code management, but changing offsets does seem to cause any flicker: `view compose/deep [panel 300x300 [(loop 50 [append [] compose [at (random 270x270) field (random white) 30x30 rate 70 on-time [face/offset: max 0x0 min 270x270 face/offset - 2 + random 3x3]]])]]`
 
 [10:38:52](#1662892732358azTQA:gitter.im) <gurzgri>:
-No one *said* re-offsetting faces cause the flicker í ½í¸‰
+No one *said* re-offsetting faces cause the flicker ğŸ˜‰
 
 [10:39:02](#1662892742359MXACQ:gitter.im) <gurzgri>:
 * No one *said* re-offsetting faces causes the flicker ;)
@@ -124683,7 +124683,7 @@ No one *said* re-offsetting faces cause the flicker í ½í¸‰
 sure, just clarifying :)
 
 [17:09:33](#1662916173377ocYWO:gitter.im) <Boum69 (Boum69)>:
-Is it possible to use  on Windows a non installed font with VID ? Same question with Rebol please. í ½í¸‰
+Is it possible to use  on Windows a non installed font with VID ? Same question with Rebol please. ğŸ˜‰
 
 [18:01:25](#1662919285378VkYSv:gitter.im) <hiiamboris (NOT THIS ONE)>:
 @qtxie might know
@@ -124726,13 +124726,13 @@ Have fun studying (for more improvements probably ask @hiiamboris)!
 â˜»
 
 [21:38:34](#1662932314393rXRIo:gitter.im) <hiiamboris (NOT THIS ONE)>:
-Great as always, @gurzgri í ½í±
+Great as always, @gurzgri ğŸ‘
 
 [22:19:32](#1662934772394GmicT:gitter.im) <greggirwin (Gregg Irwin)>:
 Indeed. Very nice @gurzgri. I get errors on the save button, and `hint` for those would be helpful. :^)
 
 [22:47:41](#1662936461395PtJyY:gitter.im) <gurzgri>:
-Thanks to both of you. Argh, it's always these simple last minute name changes ... fixed. Re: Hints - Yes indeed, thanks for the hint í ½í¸‰  
+Thanks to both of you. Argh, it's always these simple last minute name changes ... fixed. Re: Hints - Yes indeed, thanks for the hint ğŸ˜‰  
 
 [22:49:43](#1662936583396qTele:gitter.im) <gurzgri>:
 My idiom of the day btw is `add silver random coal`, I'm sure I never picked a random pale color that way before :) 
@@ -124960,14 +124960,14 @@ reduce complex-obj/notifications_section/tag1 action "hello"
 same as this:
 ```
 >> o: object [ [x: 1] ]
-== make object! []    í ½í¸‰ oh look! no X!
+== make object! []    ğŸ˜‰ oh look! no X!
 ```
 
 [12:50:52](#1662987052458yKDlb:gitter.im) <bubnenkoff (Dmitry Bubnenkov)>:
 > same as this:
 > ```
 > >> o: object [ [x: 1] ]
-> == make object! []    í ½í¸‰ oh look! no X!
+> == make object! []    ğŸ˜‰ oh look! no X!
 > ```
 
 notifications_section and tag1 should also be objects? 
@@ -125011,7 +125011,7 @@ Like I said:
 You have at this moment no idea what you're even doing. Just randomly adding stuff.
 
 [13:01:20](#1662987680464muMfd:gitter.im) <hiiamboris (NOT THIS ONE)>:
-You're not an [infinite monkey](https://en.wikipedia.org/wiki/Infinite_monkey_theorem), you cannot afford billions of years for this task í ½í¸‰
+You're not an [infinite monkey](https://en.wikipedia.org/wiki/Infinite_monkey_theorem), you cannot afford billions of years for this task ğŸ˜‰
 
 [13:04:11](#1662987851465wxuzs:gitter.im) <bubnenkoff (Dmitry Bubnenkov)>:
 This moment I understand) But I have doubt about how result block should look like, because I need to simplify it's creation and say it's isolate 
@@ -125086,7 +125086,7 @@ But when people are writing such functions they are not saying that they are wro
 * But when people are write such functions they are not saying that they are wrote own language
 
 [10:53:26](#1663066406556KKyeB:gitter.im) <hiiamboris (NOT THIS ONE)>:
-Perhaps because it was not their intention to communicate with these functions? í ½í¸‰
+Perhaps because it was not their intention to communicate with these functions? ğŸ˜‰
 
 [11:04:49](#1663067089557NqlqX:gitter.im) <bubnenkoff (Dmitry Bubnenkov)>:
 But then when language become SDL? When foo bar baz solve only domain specific task?
@@ -125183,7 +125183,7 @@ I expect:  `["Apple" "Banana" "Carrot"]` as output but got: `== ["Piter" "Mike" 
 == [2 4]
 >> block: [2 + 2 3 * 3]
 == [2 + 2 3 * 3]
->> result   í ½í¸‰ do you expect it to be [4 9] ?
+>> result   ğŸ˜‰ do you expect it to be [4 9] ?
 ```
 
 [9:26:02](#1663147562645WUKlf:gitter.im) <bubnenkoff (Dmitry Bubnenkov)>:
@@ -125302,10 +125302,10 @@ similarly, look for a function in datatypes/object.reds
 * similarly, look for a function in datatypes/object.reds (or context.reds)
 
 [11:49:54](#1663156194685ywhsn:gitter.im) <melcepstrum (Mel Cepstrum)>:
-thanks. I think it's too hard for me :) I was hoping for an example code í ½í¸‰
+thanks. I think it's too hard for me :) I was hoping for an example code ğŸ˜‰
 
 [11:51:08](#1663156268690ytXjk:gitter.im) <hiiamboris (NOT THIS ONE)>:
-let's start with what do you want to achieve with this? í ½í¸‰
+let's start with what do you want to achieve with this? ğŸ˜‰
 
 [12:00:26](#1663156826702Psxuh:gitter.im) <melcepstrum (Mel Cepstrum)>:
 i'm writing a small app that do some sound processing
@@ -125601,7 +125601,7 @@ Change it in a temporary buffer, then `debase`
 but it looks broken
 
 [14:19:05](#16635107451227rNWGO:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ½í¸Ÿ
+ğŸ˜Ÿ
 
 [14:19:44](#16635107841228HBfeD:gitter.im) <hiiamboris (NOT THIS ONE)>:
 ah, it just expected integer number of bytes
@@ -125739,7 +125739,7 @@ It seems that I do not need to use unions because it not for my task.
 I should write else condition like: `p-st: opt [dbl-quote | {&quot;}]`
 
 [16:24:15](#16637774551821jYSHs:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ½í±
+ğŸ‘
 
 [16:25:13](#16637775131822KhRcK:gitter.im) <bubnenkoff (Dmitry Bubnenkov)>:
 thanks)
@@ -125805,7 +125805,7 @@ Not implemented yet. Came up [here](https://gitter.im/red/red/gui-branch?at=6325
 Also look at [this](https://gist.github.com/luce80/55bfd71f68716d6e996effa9b99f4a1e)
 
 [18:33:43](#16637852231839YbXHs:gitter.im) <luce80>:
-I am trying to ping @qtxie to fully implement the "nicer" version í ½í¸‰
+I am trying to ping @qtxie to fully implement the "nicer" version ğŸ˜‰
 
 [18:42:35](#16637857551843IPmyn:gitter.im) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 @bubnenkoff I must recomend you to first decode all html entities before processing the input!
@@ -125817,7 +125817,7 @@ I have a codec for it in Rebol.. which you may port to Red if you wish https://g
 Good advice @Oldes. 
 
 [18:47:01](#16637860211847lWgXY:gitter.im) <hiiamboris (NOT THIS ONE)>:
-your list might be a bit short @Oldes í ½í¸‰ 
+your list might be a bit short @Oldes ğŸ˜‰ 
 https://html.spec.whatwg.org/multipage/named-characters.html
 
 [19:06:58](#16637872181848KMSFH:gitter.im) <bubnenkoff (Dmitry Bubnenkov)>:
@@ -126579,7 +126579,7 @@ view [
 voila!
 
 [18:06:17](#16668939775039FSIrl:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ½í±
+ğŸ‘
 
 [18:06:22](#16668939825040MlRdt:gitter.im) <hiiamboris (NOT THIS ONE)>:
 tried `copy/deep`?
@@ -126687,7 +126687,7 @@ Can you suggest a simple function ?
 Use round/to before form
 
 [19:15:15](#1667330115215XqNnQ:gitter.im) <hiiamboris (NOT THIS ONE)>:
-Float formatting and simple can not belong to the same sentence í ½í¸‰
+Float formatting and simple can not belong to the same sentence ğŸ˜‰
 
 [19:15:39](#1667330139217SNCOu:gitter.im) <greggirwin (Gregg Irwin)>:
 @ldci that won't pad zeros on the right. Someday we'll get `format` as standard. In the meantime, @luce80, you'll have to use the experimental formatting work from me or @hiiamboris.
@@ -126701,7 +126701,7 @@ lvl3: https://github.com/red/red/pull/5069
 lvl1 is very nice !
 
 [19:23:27](#1667330607221tnlen:gitter.im) <hiiamboris (NOT THIS ONE)>:
-but has biggest number of edge cases í ½í¸‰
+but has biggest number of edge cases ğŸ˜‰
 
 [19:33:32](#1667331212225ebBss:gitter.im) <luce80>:
 Now how can I convert `0.01` to `2` and `0.001` to `3` ?
@@ -126720,7 +126720,7 @@ you already have it in lvl2
 ```
 
 [19:10:24](#1667416224410Fokiz:gitter.im) <luce80>:
-lvl0: (no edge cases considered í ½í¸‰ )
+lvl0: (no edge cases considered ğŸ˜‰ )
 ```
 pad-decimals: func [
 	"Pad FORMed number decimals to given precision"
@@ -126744,7 +126744,7 @@ and what about this ? :
 >> pad-decimals 10.0 1.0
 == "10."
 ```
-Did I say no edge cases considered ? In fact I do not think I will use it, too low level í ½í¸‰
+Did I say no edge cases considered ? In fact I do not think I will use it, too low level ğŸ˜‰
 
 [19:50:12](#1667418612415vmcnt:gitter.im) <ne1uno (ne1uno)>:
 https://gist.github.com/toomasv/006aaa95a0da02844916451fce8a6fcf#file-form-to-red   I think it needs a fix after more recent changes, `head pad ...`
@@ -127514,7 +127514,7 @@ Again an error
 
 
 [13:20:56](#1668086456233RRfPz:gitter.im) <hiiamboris (NOT THIS ONE)>:
-have you tried reading the error message? í ½í¸‰
+have you tried reading the error message? ğŸ˜‰
 
 [13:22:04](#1668086524234YJEDS:gitter.im) <hiiamboris (NOT THIS ONE)>:
 if so, you should consult VID's `size` command syntax
@@ -127669,7 +127669,7 @@ view/flags compose [
 ```
 
 [14:43:31](#1668091411278AhecX:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ½í±
+ğŸ‘
 
 [14:44:23](#1668091463279lWocY:gitter.im) <bubnenkoff (Dmitry Bubnenkov)>:
 one moment I need to check if it work as expected, because now working example is running example)
@@ -127789,7 +127789,7 @@ Now I have no ideas...
 give it a block come on
 
 [15:19:49](#1668093589307sTcGp:gitter.im) <hiiamboris (NOT THIS ONE)>:
-you wrote correct relations an hour ago or so í ½í¸‰
+you wrote correct relations an hour ago or so ğŸ˜‰
 
 [15:26:34](#1668093994311FPvdL:gitter.im) <bubnenkoff (Dmitry Bubnenkov)>:
 > I did it:
@@ -127825,7 +127825,7 @@ I have only stupid ideas like:
 ```
 
 [15:44:55](#1668095095318PxHsE:gitter.im) <hiiamboris (NOT THIS ONE)>:
-in that case sleep on it í ½í¸‰
+in that case sleep on it ğŸ˜‰
 
 [15:46:55](#1668095215319bjvak:gitter.im) <hiiamboris (NOT THIS ONE)>:
 you are clearly tired today
@@ -127922,7 +127922,7 @@ actually, I'm mistaken, you can use `react` globally in VID
 > This keyword can be used both as a face option or as a global keyword. Arbitrary number of react instances can be used.
 
 [16:49:55](#1668098995352XooYT:gitter.im) <hiiamboris (NOT THIS ONE)>:
-then you just have to follow the documentation í ½í¸‰
+then you just have to follow the documentation ğŸ˜‰
 
 [17:57:13](#1668103033355SjdMu:gitter.im) <bubnenkoff (Dmitry Bubnenkov)>:
 is seems that I should not call face from react, I should link by name. But on follow code react is do not do nothing (I checked with prints in it):
@@ -129394,7 +129394,7 @@ I need it to set local word in function
 @loziniak `get/any` â˜»
 
 [22:14:09](#1669241649530ahMWe:gitter.im) <loziniak (Maciej ÅoziÅ„ski)>:
-í ½í¸ƒ
+ğŸ˜ƒ
 
 [22:14:39](#1669241679531EsRfH:gitter.im) <hiiamboris (NOT THIS ONE)>:
 (although Red has also this handy `:b` notation - just don't tell anyone)
@@ -129431,10 +129431,10 @@ yeap
 well, I must leave you guys. In a few minutes they'll cut the electricity. It's been a pleasure, as always.
 
 [22:23:33](#1669242213545VrHdV:gitter.im) <hiiamboris (NOT THIS ONE)>:
-move to a colder country, cutting electricity there so often is not an option í ½í¸‰
+move to a colder country, cutting electricity there so often is not an option ğŸ˜‰
 
 [22:25:07](#1669242307546SMPtc:gitter.im) <loziniak (Maciej ÅoziÅ„ski)>:
-there's something special in Red community that it attracts people from former or even current communist countries í ½í¸ƒ
+there's something special in Red community that it attracts people from former or even current communist countries ğŸ˜ƒ
 
 [22:25:45](#1669242345548lRYaF:gitter.im) <loziniak (Maciej ÅoziÅ„ski)>:
 sleep well  @cosacam1 
@@ -129603,7 +129603,7 @@ f to-path template2/section_aaa ; passing path to map
 in your `f` above change `probe data/aa` to `probe data/1/aa`
 
 [10:15:47](#1669284947588iybJs:gitter.im) <hiiamboris (NOT THIS ONE)>:
-when you really understand why it works, you will realize you've no idea what you were doing í ½í¸‰
+when you really understand why it works, you will realize you've no idea what you were doing ğŸ˜‰
 
 [10:16:43](#1669285003589RAxJi:gitter.im) <hiiamboris (NOT THIS ONE)>:
 * when you really understand why it works, you will realize you've had no idea what you were doing ;)
@@ -129654,7 +129654,7 @@ f to-path template2/section_aaa
 ```
 
 [10:17:57](#1669285077592TQJaQ:gitter.im) <hiiamboris (NOT THIS ONE)>:
-so why pass a path if you only need a map? í ½í¸‰
+so why pass a path if you only need a map? ğŸ˜‰
 
 [10:24:16](#1669285456593BxnDB:gitter.im) <bubnenkoff (Dmitry Bubnenkov)>:
 you asking right questions) One reason was to make function able to process blocks and maps with same key-value structure... I need to think more about it..
@@ -129806,7 +129806,7 @@ Usually a forced reload (SHIFT+F5) does the trick.
 it was 16k before I cleared it and it updated the site, but became 8k again after I visited it
 
 [14:55:37](#16695609371000myHpL:gitter.im) <hiiamboris (NOT THIS ONE)>:
-since I got 3 entries there populated over 10 years so, I guess offline storage is not a common practice í ½í¸‰
+since I got 3 entries there populated over 10 years so, I guess offline storage is not a common practice ğŸ˜‰
 
 [15:05:56](#16695615561001ePhvX:gitter.im) <hiiamboris (NOT THIS ONE)>:
 maybe @rgchris knows more
@@ -129836,7 +129836,7 @@ FF has 3% of the global market share.
 * FF has 3% of the [global market share](https://gs.statcounter.com/browser-market-share).
 
 [15:13:24](#16695620041014Qipqq:gitter.im) <hiiamboris (NOT THIS ONE)>:
-I think you should be more careful when reading statistics, as it is known that statistics is not science, it's an art í ½í¸‰
+I think you should be more careful when reading statistics, as it is known that statistics is not science, it's an art ğŸ˜‰
 
 [15:14:09](#16695620491015SIWDr:gitter.im) <hiiamboris (NOT THIS ONE)>:
 Do we consider general population sample to have the same properties as the sample of  reducers?
@@ -130097,7 +130097,7 @@ Red Toolchain : Encapper for Red and Red/System compiler. If you want to compile
 @cosacam1 a hand for dragging makes sense. 
 
 [9:41:19](#1670146879118TNEQw:gitter.im) <luce80>:
-@cosacam1 **nice** ! I will study this and perhaps will steal one or two things í ½í¸‰ . A really "professional" thing would be having the scrolling go on for a moment and then decelerate until stop after `on-drop` . I think it would notbe  easy to implement but if you succeeded I will **surely definetly** steal that í ½í¸‰
+@cosacam1 **nice** ! I will study this and perhaps will steal one or two things ğŸ˜‰ . A really "professional" thing would be having the scrolling go on for a moment and then decelerate until stop after `on-drop` . I think it would notbe  easy to implement but if you succeeded I will **surely definetly** steal that ğŸ˜‰
 
 [9:41:40](#1670146900120VlCkT:gitter.im) <luce80>:
 * @cosacam1 **nice** ! I will study this and perhaps will steal one or two things ;) . A really "professional" thing would be having the scrolling go on for a moment and then decelerate until stop after `on-drop` . I think it would not be  easy to implement but if you succeeded I will **surely definetly** steal that ;)
@@ -130279,7 +130279,7 @@ Options I can think of:
 
 [13:18:57](#1670505537795WJZYv:gitter.im) <luce80>:
 What about implementing it as a function! so you can change idea in the future ?
-P.S. new char is always to the right í ½í¸‰ ?
+P.S. new char is always to the right ğŸ˜‰ ?
 
 [13:24:36](#1670505876796rqmDt:gitter.im) <hiiamboris (NOT THIS ONE)>:
 It might be used as an argument to other functions, so with function it'll be a bit problematic - where do I keep this function?
@@ -130288,7 +130288,7 @@ It might be used as an argument to other functions, so with function it'll be a 
 * It might be used as an argument to other functions (but I'm not yet 100% sure how it will play out), so with function it'll be a bit problematic - where do I keep this function?
 
 [13:27:59](#1670506079799ZMzCc:gitter.im) <hiiamboris (NOT THIS ONE)>:
-> P.S. new char is always to the right í ½í¸‰ ?
+> P.S. new char is always to the right ğŸ˜‰ ?
 
 I'm talking about this behavior:
 1. original: "**abcd**" (source: `bold "abcd" /bold`)
@@ -130521,7 +130521,7 @@ it sets `system/script/args` directly to any value I give to it, not even checki
 Very strange that yesterday I get it work... maybe a float bug...
 
 [13:21:29](#1671628889182uZlZT:gitter.im) <hiiamboris (NOT THIS ONE)>:
-Your memory maybe playing tricks on you í ½í¸‰
+Your memory maybe playing tricks on you ğŸ˜‰
 
 [13:21:54](#1671628914183pAoLr:gitter.im) <hiiamboris (NOT THIS ONE)>:
 R2 works the same way too, although sets `system/options/args` to `none`
@@ -130599,7 +130599,7 @@ there's `rename` for moving, `write` for saving
 AH I misunderstood what you were trying to tell me. thanks for being patient. 
 
 [13:42:58](#1671630178224MORPU:gitter.im) <hiiamboris (NOT THIS ONE)>:
-Sure no problem, we all can get overwhelmed at the start í ½í¸‰
+Sure no problem, we all can get overwhelmed at the start ğŸ˜‰
 
 [13:44:10](#1671630250225UHpJH:gitter.im) <hiiamboris (NOT THIS ONE)>:
 If you're on Windows, you'll also need to use `to-red-file` and `to-local-file`.
@@ -130742,7 +130742,7 @@ also a debugging advise: `? upath` will tell you what your value really is
 * also a debugging advice: `? upath` will tell you what your value really is
 
 [20:30:02](#167165460231MCBYH:gitter.im) <hiiamboris (NOT THIS ONE)>:
-people tend to skim the output of `help` quickly as if not expecting it to teach them anything, but it contains this advice as well í ½í¸‰
+people tend to skim the output of `help` quickly as if not expecting it to teach them anything, but it contains this advice as well ğŸ˜‰
 
 ## 22-Dec-2022
 
@@ -130810,7 +130810,7 @@ anyway,
 no, I just used it to show the intermediate result
 
 [15:13:30](#167172201071EFXkU:gitter.im) <hiiamboris (NOT THIS ONE)>:
-and as a debugging hint í ½í¸‰
+and as a debugging hint ğŸ˜‰
 
 [15:14:13](#167172205372uBrCJ:gitter.im) <Kazzum (Kazzum)>:
 yep okay the `to-red-file` the  `to-local-file` make much more sense now. 
@@ -130989,7 +130989,7 @@ but also I'm still bumbling my way through my first script so mayhaps don't do w
 Welcome to the club. :^)
 
 [20:37:46](#167174146666Sisrt:gitter.im) <Kazzum (Kazzum)>:
-í ¾í´˜
+ğŸ¤˜
 
 [22:10:29](#167174702967jgKzL:gitter.im) <cosacam1 (cosacam1)>:
 W
@@ -131185,10 +131185,10 @@ fun:
 ```
 
 [10:06:53](#16718764132UQGFx:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ¾í´¦í ¼í¿»â€â™‚ï¸
+ğŸ¤¦ğŸ»â€â™‚ï¸
 
 [10:06:58](#16718764183WXBcX:gitter.im) <hiiamboris (NOT THIS ONE)>:
-* ## í ¾í´¦í ¼í¿»â€â™‚ï¸
+* ## ğŸ¤¦ğŸ»â€â™‚ï¸
 
 [10:09:21](#16718765614fzfhB:gitter.im) <hiiamboris (NOT THIS ONE)>:
 @bubnenkoff https://gitlab.com/hiiamboris/red-elastic-ui may alleviate some pain
@@ -131278,7 +131278,7 @@ decode: func [text [string! binary! file! url!]] [
 	load-json to string! read text ; or read/binary ?
 ]
 ```
-P.S. Merry Christmas í ½í¸‰
+P.S. Merry Christmas ğŸ˜‰
 
 
 [8:36:50](#16719574109RSTFi:gitter.im) <luce80>:
@@ -131327,7 +131327,7 @@ P.S. Merry Christmas ;)
 `text: to string! text` this is an equivalent of `text: copy text`
 
 [9:13:47](#167195962711WUIPv:gitter.im) <hiiamboris (NOT THIS ONE)>:
-the list is far from exhaustive actually, but the design is sound í ½í¸‰
+the list is far from exhaustive actually, but the design is sound ğŸ˜‰
 
 [9:23:36](#167196021612tUjTG:gitter.im) <bubnenkoff (Dmitry Bubnenkov)>:
 > @bubnenkoff If you have only a few VID styles that resize in simple ways it is not so difficult:
@@ -131389,7 +131389,7 @@ Sorry for confusion :)
 In other words, in your first code reduction iteration you introduced a copy :)
 
 [16:54:00](#167198724021eEZDv:gitter.im) <luce80>:
-True, a possibly unnecessary copy, but we have GC memory allocations í ½í¸‰ , or we could introduce `as string! #{61}` ?
+True, a possibly unnecessary copy, but we have GC memory allocations ğŸ˜‰ , or we could introduce `as string! #{61}` ?
 or `read` could do the conversion ?
 
 [16:54:52](#167198729222KDxaf:gitter.im) <luce80>:
@@ -131414,7 +131414,7 @@ GC currently is something to avoid when possible, unfortunately
 Well, I finished my Bible Sketch project some days ago (an application for reading the Bible, compare passages, search for texts in it and compose Bible sketches or sermons) completely made in Red. I want to thank you guys for your help. And of course I want to thank God, for letting me know one day that there was an extraordinary language out there called Rebol and its successor Red. Merry Christmas and Happy New Year dear fellow REDducers. 
 
 [10:15:06](#167204970628CxNuV:gitter.im) <hiiamboris (NOT THIS ONE)>:
-# í ½í±í ¼í¾‰
+# ğŸ‘ğŸ‰
 
 [12:39:51](#167205839129pjeFM:gitter.im) <ldci (FranÃ§ois Jouen)>:
 @cosacam1. This project really sounds good. Congratulations :) Did you plan to publish your code? Some of my colleagues could be interested by your approach. BTW, I think we have to add to Red language website an entry to professional applications written with Red. I mean, applications used daily by professionals. Regards
@@ -132320,7 +132320,7 @@ in local context... but if I change (sya it) show in global context I loose the 
 yes
 
 [13:59:16](#167301355636Txfdq:gitter.im) <cosacam1 (cosacam1)>:
-so we better don't mess with Red í ½í¸ƒ
+so we better don't mess with Red ğŸ˜ƒ
 
 [14:07:03](#167301402337BeDYV:gitter.im) <cosacam1 (cosacam1)>:
 yesterday I visited a cousin of mine. He said excited "I wanna show you something". Then he asked ChatGPT3 to make a web application for selling goods in Red language (and he asked that in Spanish) . The AI did it and the answer started with `Red [needs 'web] ` Is it possible? I tried but it didn't work. Is there some library that I don't know of?
@@ -132335,7 +132335,7 @@ The correct syntax for `needs` in the header is for example: `Red [needs: 'view]
 ok. Anyway AI are learning Red, not only Python :) That's a good point. Since the very moment I saw homoiconicity in Rebol I realized it was a very good language for AI. Just imagine it creating `[new code]` from experience and `do` ing it when needed. That's autonomy, I guess.
 
 [14:29:47](#167301538741XkIiZ:gitter.im) <hiiamboris (NOT THIS ONE)>:
-or silicon madness í ½í¸‰
+or silicon madness ğŸ˜‰
 
 [14:35:19](#167301571942AVWqr:gitter.im) <cosacam1 (cosacam1)>:
 haha
@@ -132346,7 +132346,7 @@ well, it would be nice to have a WID (web interface dialect) in Red, as easy as 
 [14:49:10](#167301655044PBwIE:gitter.im) <hiiamboris (NOT THIS ONE)>:
 > time, knowledge and talent
 
-These three ship with a bonus package: responsibility í ½í¸‰
+These three ship with a bonus package: responsibility ğŸ˜‰
 
 [14:50:47](#167301664745CjkwF:gitter.im) <cosacam1 (cosacam1)>:
 Sure!
@@ -132421,7 +132421,7 @@ But I for passing it to function I need to convert it to `map!`:
 convert to block first
 
 [14:00:37](#167327283759aVqJS:gitter.im) <hiiamboris (NOT THIS ONE)>:
-funny, I was sure there's a REP about map to object conversion but I can't find it í ½í¸Ÿ
+funny, I was sure there's a REP about map to object conversion but I can't find it ğŸ˜Ÿ
 
 ## 10-Jan-2023
 
@@ -132788,7 +132788,7 @@ there are different behaviors running script, sendTO, pasting in console
 also interpreted encap compiled. there may not be a grand unified solution?
 
 [15:02:39](#167370855926Zkqmw:gitter.im) <luce80>:
- @hiiamboris  I do not mind the user í ½í¸‰ . As I said the script must quit because it is not posssible to go on because of a failure, think of a division by 0 or segment fault or inexistent file or whatever.
+ @hiiamboris  I do not mind the user ğŸ˜‰ . As I said the script must quit because it is not posssible to go on because of a failure, think of a division by 0 or segment fault or inexistent file or whatever.
 @ne1uno thanks, nice try, but `system/view/VID`is not `unset`whether I run my script from the `>>` prompt or from gui-console.exe
 
 [15:02:49](#167370856927tLMfA:gitter.im) <ne1uno (ne1uno)>:
@@ -132798,7 +132798,7 @@ not to mention /no-wait
 what you're describing doesn't warrant any special handling - if it's an error, let it be thrown
 
 [15:11:52](#167370911229YDjmQ:gitter.im) <luce80>:
-So if my program does 3D rendering and it can not load OpenGL or can not find a graphics hardware ley it throw an error ? And THEN ?   Should it render in ASCII art  í ½í¸‰ ? And this is obviously only an example. What do to AFTER the FATAL error has occurred ?
+So if my program does 3D rendering and it can not load OpenGL or can not find a graphics hardware ley it throw an error ? And THEN ?   Should it render in ASCII art  ğŸ˜‰ ? And this is obviously only an example. What do to AFTER the FATAL error has occurred ?
 
 [15:12:24](#167370914430AoJVW:gitter.im) <luce80>:
 * So if my program does 3D rendering and it can not load OpenGL or can not find a graphics hardware let it throw an error ? And THEN ?   Should it render in ASCII art  ;) ? And this is obviously only an example. What do to AFTER the FATAL error has occurred ?
@@ -132879,13 +132879,13 @@ Ok, and then I will have an `error!` because of the missing feature or whatever 
 what error? your `alert` when closed resumes evaluation in the console
 
 [15:48:17](#167371129748XACSB:gitter.im) <luce80>:
-í ½í¸‰ which console? I was not started from console...or did I ?
+ğŸ˜‰ which console? I was not started from console...or did I ?
 
 [15:48:36](#167371131649WcKoI:gitter.im) <hiiamboris (NOT THIS ONE)>:
 then it normally quits
 
 [15:49:28](#167371136850vbxSJ:gitter.im) <luce80>:
-And quits also the console if I was started from it and that is quite annoying í ½í¸‰
+And quits also the console if I was started from it and that is quite annoying ğŸ˜‰
 
 [15:49:46](#167371138651xBkSJ:gitter.im) <hiiamboris (NOT THIS ONE)>:
 no, try `alert "abc"` in console
@@ -132981,7 +132981,7 @@ trying to catch the several ways to close is another can of worms besides loss o
 Ok, still waiting for a better solution.
 
 [18:01:55](#167371931568pWLKv:gitter.im) <hiiamboris (NOT THIS ONE)>:
-I already told you 2 times that `catch` and `throw` is by design solution to handle non local control flow í ½í¸‰
+I already told you 2 times that `catch` and `throw` is by design solution to handle non local control flow ğŸ˜‰
 
 [18:02:15](#167371933569SzCLo:gitter.im) <hiiamboris (NOT THIS ONE)>:
 how hard can it be?
@@ -132993,7 +132993,7 @@ how hard can it be?
 * `catch [if 'error [alert "message" throw 'oops]]`
 
 [18:21:38](#167372049872tsIkQ:gitter.im) <luce80>:
-We are trapped in a loop and we cannot **gracefully** quit í ½í¸‰ !
+We are trapped in a loop and we cannot **gracefully** quit ğŸ˜‰ !
 
 [18:22:32](#167372055273FrGna:gitter.im) <hiiamboris (NOT THIS ONE)>:
 (:
@@ -135011,7 +135011,7 @@ I'll try to isolate it, thanks
 * I'll try to isolate and report it, thanks
 
 [11:16:14](#167490457416icVuD:gitter.im) <luce80>:
-Nice snippets @bubnenkoff thanks ! I have tested and fixed í ½í¸‰ also my version.
+Nice snippets @bubnenkoff thanks ! I have tested and fixed ğŸ˜‰ also my version.
 
 [12:14:44](#167490808417amvSI:gitter.im) <hiiamboris (NOT THIS ONE)>:
 pushed a workaround @bubnenkoff 
@@ -135194,7 +135194,7 @@ to-xml: function [ops [block!]] [
     keep rejoin ["<" (op/1) (xml-attrs op) (xml-tail op)]]]]
 ```
 
-everything works fine if i remove the recursive call to `to-xml end` in `xml-tail` except i don't get  any child elements... but with that call, previously-working references to `op/1` and such suddenly break. I know op isn't exactly a variable, and the `to-xml` variable doesn't exactly have a "scope"... but I don't know how to fix this. What am I missing? í ½í¸ƒ
+everything works fine if i remove the recursive call to `to-xml end` in `xml-tail` except i don't get  any child elements... but with that call, previously-working references to `op/1` and such suddenly break. I know op isn't exactly a variable, and the `to-xml` variable doesn't exactly have a "scope"... but I don't know how to fix this. What am I missing? ğŸ˜ƒ
 
 [0:27:01](#1675211221204srsGz:gitter.im) <tangentstorm (tangentstorm)>:
 * okay, i'm trying to generate some xml:
@@ -135575,9 +135575,9 @@ no GUI in R3 probably though :)
 --== Red 0.6.4 ==--
 Type HELP for starting information.
 
->> parse "í ¼í½©í ½íµ³ï¸" [set hole ahead [2 skip] set donut [to end] (probe hole probe donut)]
+>> parse "ğŸ©ğŸ•³ï¸" [set hole ahead [2 skip] set donut [to end] (probe hole probe donut)]
 none
-#"í ¼í½©"
+#"ğŸ©"
 == true
 >>
 ```
@@ -135720,13 +135720,13 @@ Working with `caret` has not been implemented yet for `area` or will it not be i
 eventually will be but I wouldn't wait for it :)
 
 [9:25:41](#1675848341514RXxRI:gitter.im) <piotrbajdek (Piotr Bajdek)>:
-I'd try to rewrite this in Rebol but I REALLY need a compiled executable... í ½í¸• Thanks for help, anyway!
+I'd try to rewrite this in Rebol but I REALLY need a compiled executable... ğŸ˜• Thanks for help, anyway!
 
 [9:27:14](#1675848434515jkHeP:gitter.im) <hiiamboris (NOT THIS ONE)>:
 well https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setcaretpos
 
 [9:27:50](#1675848470516WAjNb:gitter.im) <piotrbajdek (Piotr Bajdek)>:
-I'm on Linux. í ½í¸ƒ
+I'm on Linux. ğŸ˜ƒ
 
 [9:28:11](#1675848491517nKBSq:gitter.im) <hiiamboris (NOT THIS ONE)>:
 ah, then some GTK magic :)
@@ -135798,7 +135798,7 @@ With fixed font, all you have is just a grid, so it's very easy to convert mouse
 The code is somewhere on my GitHub, I believe.
 
 [10:23:50](#1675851830549qcPHn:gitter.im) <piotrbajdek (Piotr Bajdek)>:
-You folks are talking with a COMPLETE newbie to Red. í ½í¸ƒ Yes, I'll use a fixed font size and type.
+You folks are talking with a COMPLETE newbie to Red. ğŸ˜ƒ Yes, I'll use a fixed font size and type.
 
 [10:25:35](#1675851935550DBeZF:gitter.im) <ne1uno (ne1uno)>:
 selected text can be found easily as another option
@@ -135856,7 +135856,7 @@ Basically, your program @toomasv  is very similar to what I was going to write--
 Your code lacks a license....
 
 [10:55:06](#1675853706567AZrHQ:gitter.im) <rebolek (Boleslav BÅ™ezovskÃ½)>:
-that's normal í ½í¸ƒ
+that's normal ğŸ˜ƒ
 
 [10:59:07](#1675853947568fuLXr:gitter.im) <toomasv>:
 @piotrbajdek Not sure which one you liked. Added license to both.
@@ -135897,7 +135897,7 @@ Never mind...
 help system is part of the console
 
 [11:40:12](#1675856412574aWwIN:gitter.im) <piotrbajdek (Piotr Bajdek)>:
-It appears to work fine in the console but there are multiple issues trying to compile it... I'll wait for the implementation of `caret` for `area` or perhaps give a try another programming language. í ½í¸­
+It appears to work fine in the console but there are multiple issues trying to compile it... I'll wait for the implementation of `caret` for `area` or perhaps give a try another programming language. ğŸ˜­
 
 [11:42:25](#1675856545575emQGg:gitter.im) <piotrbajdek (Piotr Bajdek)>:
 I can't expect the users to install the Red interpreter on their systems.
@@ -135924,7 +135924,7 @@ Yeah, my first impression is that the Red's community is friendly and helpful. :
 there's a `-e` option in compiler
 
 [12:10:04](#1675858204584RUbtT:gitter.im) <hiiamboris (NOT THIS ONE)>:
-also you might wanna look around https://gitlab.com/hiiamboris/red-cli to see how Red CLI apps compare to Rust í ½í¸‰
+also you might wanna look around https://gitlab.com/hiiamboris/red-cli to see how Red CLI apps compare to Rust ğŸ˜‰
 
 [12:12:36](#1675858356585APBZv:gitter.im) <piotrbajdek (Piotr Bajdek)>:
 It compiled with -e but there's an execution error of the compiled program:
@@ -135957,7 +135957,7 @@ button "aÌƒ" font [color: black name: "Gentium Plus" size: 12] [
     replace/all input/text "|" "aÌƒ"
     ]
 ```
-Here's my caret! í ½í¸›
+Here's my caret! ğŸ˜›
 
 [13:04:22](#1675861462594fzdXd:gitter.im) <piotrbajdek (Piotr Bajdek)>:
 ```
@@ -136059,7 +136059,7 @@ You way is very unefficient and should not be advertised.
 Or you should at least use, that find returns a position, where the needle was located.. your replace now repeats the job from start.. imho.. you can just use replace without the find.
 
 [16:04:28](#1675872268622MmzdX:gitter.im) <hiiamboris (NOT THIS ONE)>:
-I would guess the most inefficient part by far is setting `face/selected` multiple times í ½í¸‰
+I would guess the most inefficient part by far is setting `face/selected` multiple times ğŸ˜‰
 
 [16:05:09](#1675872309623RcnXQ:gitter.im) <hiiamboris (NOT THIS ONE)>:
 but I agree with Oldes that there are more interesting ways to write this function
@@ -136106,7 +136106,7 @@ here's the manual btw: https://www.red-lang.org/2013/11/041-introducing-parse.ht
 @hiiamboris  Indeed, it's a good exercise... but I failed though I don't see where. Do you? The input is just a string inside curly braces. I don't see anything wrong there. Wait... if I replace the {} by [] (so now the input is a block) it gives me no error but it returns false. What I expect in st is the string with the replacements... let me see.... (my boss gonna kill me hahaha)
 
 [16:35:02](#1675874102637iNAbM:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ½í¸ƒ
+ğŸ˜ƒ
 
 [16:35:42](#1675874142638ZUUKM:gitter.im) <hiiamboris (NOT THIS ONE)>:
 you can match datatypes in blocks and binary only, but I don't think that's what you want
@@ -136170,7 +136170,7 @@ parse st [
 ```
 
 [17:15:43](#1675876543644ZLfQg:gitter.im) <cosacam1 (cosacam1)>:
-C'mon Oldes! I'm 60, man! í ½í¸ƒ
+C'mon Oldes! I'm 60, man! ğŸ˜ƒ
 
 [17:16:14](#1675876574645KokVV:gitter.im) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 * But probably the best is a combination of these two:
@@ -136527,14 +136527,14 @@ parse st [
 
 
 [23:41:41](#1675899701700AUGik:gitter.im) <piotrbajdek (Piotr Bajdek)>:
-Thanks, @Oldes , this is amazing! í ½í¸® I'll see if I can implemented it...
+Thanks, @Oldes , this is amazing! ğŸ˜® I'll see if I can implemented it...
 
 BTW, this is a pure Rust but you might be interested in [lngcnv](https://github.com/piotrbajdek/lngcnv)--see for example this [module for Spanish](https://github.com/piotrbajdek/lngcnv/blob/main/src/lang/modspa.rs).
 
 In Red, is there any difference in performance between and `change` and `replace` methods?
 
 [23:56:50](#1675900610701OOaqr:gitter.im) <piotrbajdek (Piotr Bajdek)>:
-Sorry, I was going to mention @cosacam1 í ½í¸‰
+Sorry, I was going to mention @cosacam1 ğŸ˜‰
 
 [23:57:58](#1675900678702qZMUV:gitter.im) <piotrbajdek (Piotr Bajdek)>:
 But the responses from all of you are helpful...
@@ -136577,16 +136577,16 @@ I've got some issues with the implementation of the automatic conversion of char
 [8:25:37](#1675931137708pbzEG:gitter.im) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 @piotrbajdek `change` modifies series at its current position (index), while `replace` goes thru the series and modifies first found needle (if not used with `/all`).
 ```
->> change s: "abcd" "X"  í ½í¸–
+>> change s: "abcd" "X"  ğŸ˜–
 == "Xbcd"
->> replace s: "abcd" "b" "X"  í ½í¸–
+>> replace s: "abcd" "b" "X"  ğŸ˜–
 == "aXcd"
 ```
 
 [8:26:58](#1675931218709agtYh:gitter.im) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 Also... as `find` returns position of the needle, `replace` can be replaced with:
 ```
->> s: "abcd" change find s "b" "X"  í ½í¸–
+>> s: "abcd" change find s "b" "X"  ğŸ˜–
 == "aXcd"
 ```
 
@@ -136927,7 +136927,7 @@ dt [using-parse-collect st1000] ;; no need to use copy, as it makes new series i
 Profiling for the win. :^)
 
 [17:39:09](#16759643491ZguCR:gitter.im) <hiiamboris (NOT THIS ONE)>:
-50x difference í ½í¸ƒ
+50x difference ğŸ˜ƒ
 
 [17:39:29](#16759643692YOtAg:gitter.im) <hiiamboris (NOT THIS ONE)>:
 * 40x difference :D
@@ -137333,7 +137333,7 @@ You'll have to extract the short (2 shorts likely) from an integer, and encode t
 [17:49:19](#1676224159219fyZPU:gitter.im) <TimeSlip (James_Nak)>:
 ```	switch mytype [
 		1 [v: (val and FFFFh)] 			;vendor id
-		2 [v: ((val >>> 16) and FFFFh)] 	í ½í¸œroduct id
+		2 [v: ((val >>> 16) and FFFFh)] 	ğŸ˜œroduct id
 	]```
 
 [17:49:42](#1676224182221XZour:gitter.im) <TimeSlip (James_Nak)>:
@@ -137622,13 +137622,13 @@ b = "banana"
 `set [a b c] ["apple" "banana" "cherry"]`
 
 [22:41:53](#167632811373saaAP:gitter.im) <hiiamboris (NOT THIS ONE)>:
-í ½í°¢
+ğŸ¢
 
 [22:42:09](#1676328129138981oZIhs:matrix.org) <haizetan>:
 ahh set, tyvm!
 
 [22:42:17](#167632813774mmzWN:gitter.im) <rebolek (Boleslav BÅ™ezovskÃ½)>:
-í ½í¸¥
+ğŸ˜¥
 
 [22:42:29](#167632814975Thqog:gitter.im) <hiiamboris (NOT THIS ONE)>:
 (:
@@ -137739,7 +137739,7 @@ OK, will do. Thank you again
 hiiamboris (hiiamboris): Hey, thanks I returned my first string! 
 
 [18:41:36](#16764000962276WlhNR:tchncs.de) <hiiamboris>:
-í ½í±
+ğŸ‘
 
 [19:05:28](#167640152849VVJtl:gitter.im) <TimeSlip (James_Nak)>:
 hiiamboris: You da man!
@@ -137778,7 +137778,7 @@ Aha, need to turn off rich text to have markdown. Great.
 ingo: thanks. You have any idea how this room got lost? :)
 
 [18:44:32](#1676573072246201FlmUL:matrix.org) <haizetan>:
-`map` would be awesome í ½í¸
+`map` would be awesome ğŸ˜
 
 [19:08:49](#1676574529469dyLYG:tchncs.de) <hiiamboris>:
 haizetan not for exercism, and not for performance critical code (it's very slow), but I have a relatively stable mezz-level `map-each` implementation (that was written in R/S-like manner to ease further porting). 
@@ -138885,7 +138885,7 @@ https://github.com/red/docs/blob/master/en/view.adoc
 ## 28-Feb-2023
 
 [1:08:56](#1677546536105426mINrI:matrix.org) <haizetan>:
-oh i tried searching /draw on that page but didnt investigate further í ½í¸… thank you
+oh i tried searching /draw on that page but didnt investigate further ğŸ˜… thank you
 
 ## 1-Mar-2023
 
@@ -139297,7 +139297,7 @@ is there a way to do something like `now/precise/second` without assigning `now/
 haizetan: Are you thinking of ```now/time/precise``` ?
 
 [4:35:21](#1677818121220974TRKgn:matrix.org) <haizetan>:
-í ¾í´”
+ğŸ¤”
 
 [4:46:53](#1677818813221218rkaZL:matrix.org) <haizetan>:
 i didnt know you could do `/precise` on `now/time`. i cant even find in the docs anywhere that shows that's possible. `now/time/precise` and `now/precise` will both give the same result for seconds though
@@ -139621,7 +139621,7 @@ however when i comment out `prin "start: " print start-time` i get this:
 0.0
 ```
 
-í ¾í´”
+ğŸ¤”
 
 [7:57:13](#1678089433315106RgMvf:matrix.org) <haizetan>:
  * i'm trying to make a timer so i can run logic independent of the frame-rate, but i'm getting very weird results.
@@ -139667,7 +139667,7 @@ however when i comment out `prin "start: " print start-time` i get this:
 0.0
 ```
 
-í ¾í´”
+ğŸ¤”
 
 [9:07:26](#16780936461036TZoNO:tchncs.de) <hiiamboris>:
 See https://github.com/red/docs/blob/master/en/datatypes/date.adoc
@@ -140542,13 +140542,13 @@ foreach b a [
 how do I find out where the index of an element is when a condition is met so I can delete that element?
 
 [9:17:33](#167921745386TDuaM:gitter.im) <gurzgri>:
-@rebred: To lern about the index of a item in a series, surprisingly, use `index?` í ½í¸‰ For just removing values from series based on some conditions, see `remove-each`.
+@rebred: To lern about the index of a item in a series, surprisingly, use `index?` ğŸ˜‰ For just removing values from series based on some conditions, see `remove-each`.
 
 [9:18:01](#167921748187oItdm:gitter.im) <gurzgri>:
- * rebred (rebred)  To lern about the index of a item in a series, surprisingly, use `index?` í ½í¸‰ For just removing values from series based on some conditions, see `remove-each`.
+ * rebred (rebred)  To lern about the index of a item in a series, surprisingly, use `index?` ğŸ˜‰ For just removing values from series based on some conditions, see `remove-each`.
 
 [9:18:21](#167921750188JqhSV:gitter.im) <gurzgri>:
- * rebred (rebred)  To lern about the index of an item in a series, surprisingly, use `index?` í ½í¸‰ For just removing values from series based on some conditions, see `remove-each`.
+ * rebred (rebred)  To lern about the index of an item in a series, surprisingly, use `index?` ğŸ˜‰ For just removing values from series based on some conditions, see `remove-each`.
 
 [9:41:31](#167921889189mOCuM:gitter.im) <gurzgri>:
 ```Red
@@ -140560,7 +140560,7 @@ how do I find out where the index of an element is when a condition is met so I 
 ```
 
 [9:54:47](#167921968790EigTP:gitter.im) <gurzgri>:
- * rebred (rebred)  To lern about the index of an item in a series, surprisingly, use `index?` í ½í¸‰ But in `foreach` it's of no use. For just removing values from series based on some conditions, see `remove-each`.
+ * rebred (rebred)  To lern about the index of an item in a series, surprisingly, use `index?` ğŸ˜‰ But in `foreach` it's of no use. For just removing values from series based on some conditions, see `remove-each`.
 
 [10:38:36](#167922231691yYIRx:gitter.im) <rebred (rebred)>:
 > <@gurzgri-56c25b3ae610378809c19713:gitter.im> ```Red
@@ -140640,10 +140640,10 @@ Another way to look at this: every loop can be written using `forever`. So is it
 You can make better arguments than that. :^) Constrained behaviors are important and helpful. We don't even need `forever`, right, just `goto`.
 
 [19:37:27](#1679254647976jdaju:tchncs.de) <hiiamboris>:
-#í ½í²¯
+#ğŸ’¯
 
 [19:38:47](#1679254727977zUwRF:tchncs.de) <hiiamboris>:
-* # í ½í²¯
+* # ğŸ’¯
 
 [23:56:58](#1679270218102mTOcO:gitter.im) <rebred (rebred)>:
 > <@hiiamboris:tchncs.de> for reverse you have `repeat`:
@@ -140740,16 +140740,16 @@ Hi Doc. I will.
 gurzgri: hiiamboris Oh happy day! I hardcoded a byte sequence using the data-buf/n: #"^()" and the padding up to the 64th index and it controlled the robot arm. I could hardly believe it after all this time. I couldn't have gotten this far without your help. Of course, I still have to figure out how I am going to send it commands that can be implemented in a routine without the hardcoding but seeing the darn thing move a servo was a big deal. :-)
 
 [4:59:13](#16793747532KSCwm:gitter.im) <greggirwin (Gregg Irwin)>:
-í ½í± Woohoo!
+ğŸ‘ Woohoo!
 
 [7:49:40](#16793849805zNwLT:gitter.im) <planetsizecpu (Jose Luis)>:
-So 03/21 it is the Skynet birthday, congrats  í ½í¸ƒ
+So 03/21 it is the Skynet birthday, congrats  ğŸ˜ƒ
 
 [10:14:44](#16793936847XmELE:gitter.im) <dockimbel>:
 Issue fixed now.
 
 [13:16:20](#16794045808SRHyA:gitter.im) <gurzgri>:
-TimeSlip (James_Nak): Cool! So, robots, bow down to the Red/System overlord â€¦ í ¾í´–
+TimeSlip (James_Nak): Cool! So, robots, bow down to the Red/System overlord â€¦ ğŸ¤–
 
 [15:50:54](#167941385412svxUL:gitter.im) <TimeSlip (James_Nak)>:
 Thanks!
@@ -140996,7 +140996,7 @@ I won't pretend to understand why I have to use a series! but happy that it work
 Again thank you both. Now it's off to my next problem. Hopefully I'm getting away from the guts of R/S and more on a higher plane...famous last words.
 
 [22:37:01](#16798702212299JJJvA:tchncs.de) <hiiamboris>:
-I respect that despite the lack of experience in low level you are not afraid to try and conquer it í ½í±
+I respect that despite the lack of experience in low level you are not afraid to try and conquer it ğŸ‘
 
 [22:38:13](#16798702932300SiFQx:tchncs.de) <hiiamboris>:
 On `series!`: every Red value is a cell (just 16 bytes). It holds scalars and that's it. Series data is held separately in a `series!` buffer referenced by that cell.
@@ -141823,9 +141823,9 @@ view/no-wait window: layout compose [
 		foreach face aliens [face/offset: face/offset + random 0x4]
 	]
 	(collect [
-		pos: 18x16 loop 20 [keep compose [at (pos: pos + 18x0) base 15x15 "í ½í±»" transparent extra 'ghost]]
-		pos: 18x32 loop 20 [keep compose [at (pos: pos + 18x0) base 15x15 "í ½í±¿" transparent extra 'devil]]
-		pos: 18x48 loop 20 [keep compose [at (pos: pos + 18x0) base 15x15 "í ½í±½" transparent extra 'alien]]
+		pos: 18x16 loop 20 [keep compose [at (pos: pos + 18x0) base 15x15 "ğŸ‘»" transparent extra 'ghost]]
+		pos: 18x32 loop 20 [keep compose [at (pos: pos + 18x0) base 15x15 "ğŸ‘¿" transparent extra 'devil]]
+		pos: 18x48 loop 20 [keep compose [at (pos: pos + 18x0) base 15x15 "ğŸ‘½" transparent extra 'alien]]
 	])
 ]
 
@@ -141848,9 +141848,9 @@ view/no-wait window: layout compose [
 		foreach face aliens [face/offset: face/offset + random 0x4]
 	]
 	(collect [
-		pos: 18x16 loop 20 [keep compose [at (pos: pos + 18x0) base 15x15 "í ½í±»" transparent extra 'ghost]]
-		pos: 18x32 loop 20 [keep compose [at (pos: pos + 18x0) base 15x15 "í ½í±¿" transparent extra 'devil]]
-		pos: 18x48 loop 20 [keep compose [at (pos: pos + 18x0) base 15x15 "í ½í±½" transparent extra 'alien]]
+		pos: 18x16 loop 20 [keep compose [at (pos: pos + 18x0) base 15x15 "ğŸ‘»" transparent extra 'ghost]]
+		pos: 18x32 loop 20 [keep compose [at (pos: pos + 18x0) base 15x15 "ğŸ‘¿" transparent extra 'devil]]
+		pos: 18x48 loop 20 [keep compose [at (pos: pos + 18x0) base 15x15 "ğŸ‘½" transparent extra 'alien]]
 	])
 ]
 
@@ -142915,7 +142915,7 @@ Red has no default values for arguments though.
 The exercise says "if the name is missing", but that's open to interpretation, isn't it, based on the language being used? How many languages support missing args and default values? It seems that exercises for a given language should be designed to best learn and understand that language. 
 
 [0:07:28](#16815172484gGUmw:gitter.im) <greggirwin (Gregg Irwin)>:
-I appreciate you weighing in here @vgoff. í ½í±ï¸
+I appreciate you weighing in here @vgoff. ğŸ‘ï¸
 
 [1:13:49](#168152122946101mMBDG:matrix.org) <vgoff>:
 Yes, exactly.  If you are not allowed to "not give an argument" then obviously you simply can not do that, it goes against the nature of the language.
@@ -146189,7 +146189,7 @@ use: function [words [block!] body [block!]][
 That was a bug in R2.
 
 [13:40:00](#168960120046227qywYj:matrix.org) <danieg>:
-This was a code example that Ladislav had on the 'Bindology'  article.  He did not catch it as an error í ½í¹„  I just wonder how much code bases were affected and time wasted  by this bug.
+This was a code example that Ladislav had on the 'Bindology'  article.  He did not catch it as an error ğŸ™„  I just wonder how much code bases were affected and time wasted  by this bug.
 
 [17:20:29](#1689614429112pRpNH:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
 Is there a way to let `find` search for the same element in multiple types? For example "mystring" and also MYSTRING and MYSTRING: and /MYSTRING
@@ -147135,7 +147135,7 @@ have I miss something ?
 Short answer, put `copy` before the blocks. Long answer [here](https://github.com/red/red/wiki/%5BDOC%5D-Why-you-have-to-copy-series-values)
 
 [6:19:58](#169112999877609JbgiV:matrix.org) <Benoit de Valois>:
-Very interesting ; thanks greggirwin (Gregg Irwin): í ½í±
+Very interesting ; thanks greggirwin (Gregg Irwin): ğŸ‘
 
 [14:20:20](#169115882080830TLvIs:matrix.org) <Benoit de Valois>:
 After reading this doc, i understand why use copy ; but "clear" Can bÃ© a solution too ?
@@ -149873,10 +149873,10 @@ you just love HUGE functions
 You have more efficient expressive tecniques than me.
 
 [19:13:32](#169903881247Vssab:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
-í ½í¸‰
+ğŸ˜‰
 
 [19:15:16](#169903891648lmgiH:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
-But mine Is more complete and documented! í ½í¸
+But mine Is more complete and documented! ğŸ˜
 
 [19:19:56](#16990391962423DNfCK:tchncs.de) <hiiamboris>:
 :)
@@ -153028,7 +153028,7 @@ Giuseppe keeps confusing molded form with actual values :)
 Giuseppe is not the only one that will ask this. Anyone putting a WORD key and looking at the result will ask about this. 
 
 [21:28:14](#170423089438vellZ:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
-í ½í¸‰
+ğŸ˜‰
 
 [21:52:19](#17042323394607ImIRR:tchncs.de) <hiiamboris>:
 this 'anyone' should be sent to the [docks](https://github.com/red/docs/blob/master/en/datatypes/map.adoc) ;)
@@ -153249,7 +153249,7 @@ This
 > == 'func []['hello]
 > ```
 
-â˜í ¼í¿»
+â˜ğŸ»
 
 [14:36:43](#170489740338TzukZ:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
 Do you see this function? Look a Its start, which character has It? 
@@ -153295,7 +153295,7 @@ But if I convert a value of type function with to-lit-word, then this thing appe
 > == 'func []['hello]
 > ```
 
-What Is It? â˜í ¼í¿»
+What Is It? â˜ğŸ»
 
 [17:26:43](#1704907603364cDNla:tchncs.de) <hiiamboris>:
 lit-path with a function inside obviously
@@ -153304,7 +153304,7 @@ lit-path with a function inside obviously
 you haven't converted it, but stuffed inside
 
 [18:20:55](#170491085551hvJUw:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
-It Is the most confusing thing I have ever seen in the REDBOL world. It has the aspect of a function but It Is a lit path which seems a lit function í ¾íµ´
+It Is the most confusing thing I have ever seen in the REDBOL world. It has the aspect of a function but It Is a lit path which seems a lit function ğŸ¥´
 
 [18:59:46](#170491318652gOtlg:gitter.im) <greggirwin (Gregg Irwin)>:
 It's the same as 
@@ -153419,7 +153419,7 @@ Now, please play more, as Boris' thought experiment leads you to, and try it wit
 It may seem a small thing, but it's a deep and powerful feature that aligns with Red's fundamental design, where you can think in data and have a great deal of control over when and where it is evaluated.
 
 [23:11:30](#170501469091brxrH:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
-We must find a solution for the equivalence of LIT-WORD and WORD in object molded form! í ½í¹‚
+We must find a solution for the equivalence of LIT-WORD and WORD in object molded form! ğŸ™‚
 
 [23:13:14](#170501479492tKgNQ:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
 I have a terrible thing to say: here It would be perfect the REN-C solution:
@@ -153439,7 +153439,7 @@ I don't remember the exact problem you have with it in Red, or how that alt synt
 [23:18:50](#170501513096iWlff:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
 > <@greggirwin-55659ddb15522ed4b3e1006f:gitter.im> I don't remember the exact problem you have with it in Red, or how that alt syntax would be better. It's just adding another of the same sigil.
 
-When you BODY-OF an object, WORD and SET-WORD are the same, so you lose .... how do you call It? Turn around ... ... No...you Say you can't Round Trip! í ½í¸
+When you BODY-OF an object, WORD and SET-WORD are the same, so you lose .... how do you call It? Turn around ... ... No...you Say you can't Round Trip! ğŸ˜
 
 [23:19:56](#170501519697DBVyS:gitter.im) <greggirwin (Gregg Irwin)>:
 Still not clear. 
@@ -154341,7 +154341,7 @@ result is not `[x]` but
 ```
 
 [17:07:00](#1705684020190geRkX:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
- * I hate you all! í ½í¸­í ½í¸­í ½í¸­
+ * I hate you all! ğŸ˜­ğŸ˜­ğŸ˜­
 
 ```
 x: series!
@@ -154854,7 +154854,7 @@ Some text issues due to editing and probably copy/paste
 There are those of us who would be willing to help improve the presentation, I'm sure.
 
 [17:13:45](#17066348250qfhLm:gitter.im) <Brock>:
-I will download once I get home and try the application.  It looks like it does some great stuff.  Unfortunately my works virus scanner is not a friend of RED.  í ½í¸ª
+I will download once I get home and try the application.  It looks like it does some great stuff.  Unfortunately my works virus scanner is not a friend of RED.  ğŸ˜ª
 
 [17:31:05](#17066358652IZoiZ:gitter.im) <Brock>:
 I have recommended my developer colleague to take a look at it (same work laptop issues with RED) so he hopefully will tonight.
@@ -155216,14 +155216,14 @@ Also.... Currently we have Body-Of, Values-Of, Words-Of for object and other typ
 Nice!!!!
 
 [13:21:04](#1707139264105544LZmKk:matrix.org) <gltewalt (The other Greg)>:
-You adopted my explode name? í ½í¸„
+You adopted my explode name? ğŸ˜„
 
 [13:23:55](#1707139435105558LzLpX:matrix.org) <gltewalt (The other Greg)>:
 GiuseppeChillemi (GiuseppeChillemi): if you form a value, then it's a series. But not always in the way that you want.
 There are typeclasses for a reason.
 
 [13:33:00](#170713998019jPkwh:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
-> <@gltewalt:matrix.org> You adopted my explode name? í ½í¸„
+> <@gltewalt:matrix.org> You adopted my explode name? ğŸ˜„
 
 This topic has generated an EXPLOSION of names.
 
@@ -157335,7 +157335,7 @@ oppss, is it written on the doc?
 second, you're not returning the position in pattern mode
 
 [12:42:59](#1714740179333CcMkT:tchncs.de) <hiiamboris>:
-not sure í ½í¸…
+not sure ğŸ˜…
 
 [12:43:53](#1714740233334OyANa:tchncs.de) <hiiamboris>:
 ```
@@ -157590,7 +157590,7 @@ red community is great
  * :+1:
 
 [21:53:02](#171520518241TmbgC:gitter.im) <greggirwin (Gregg Irwin)>:
- * Agreed. í ½í±ï¸
+ * Agreed. ğŸ‘ï¸
 
 ## 13-May-2024
 
@@ -157825,10 +157825,10 @@ Excellent instructions. I am waiting for the "vuole" of minutes right now :)
 * After a couple of minutes you will have the GUI console compiled and ready
 
 [17:05:24](#171855752492bbCem:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
-"Couple" í ¾í´£í ¾í´£í ¾í´£
+"Couple" ğŸ¤£ğŸ¤£ğŸ¤£
 
 [17:06:40](#171855760093DhXwy:gitter.im) <mikeyaunish>:
-> <@giuseppechillemi-59045d00d73408ce4f5bcd9d:gitter.im> "Couple" í ¾í´£í ¾í´£í ¾í´£
+> <@giuseppechillemi-59045d00d73408ce4f5bcd9d:gitter.im> "Couple" ğŸ¤£ğŸ¤£ğŸ¤£
 
 I thought you were teaching me some Italian as well.
 
@@ -158537,7 +158537,7 @@ try moving your script into the directory where %input.red resides
 or also into %red-source/
 
 [11:28:12](#17250172922663rhKHA:tchncs.de) <hiiamboris>:
-but it seems it won't compile anyway í ¾í´£
+but it seems it won't compile anyway ğŸ¤£
 
 [11:31:45](#17250175052664oDMur:tchncs.de) <hiiamboris>:
 I've added a note to https://github.com/red/red/issues/4542#issuecomment-2320925328
@@ -159087,7 +159087,7 @@ Probably I don't remember how `bitset!` is created
 24 is 97 divided by 4
 
 [13:23:57](#17275298373331tdSxm:tchncs.de) <hiiamboris>:
-í ½í±†
+ğŸ‘†
 
 [13:24:00](#172752984058hNLab:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
 I saw it but how it relates to bitset?
@@ -159096,7 +159096,7 @@ I saw it but how it relates to bitset?
 Â¯\\\_(ãƒ„)\_/Â¯
 
 [13:24:50](#17275298903333TUTPw:tchncs.de) <hiiamboris>:
-I don't know what *bits* you're missing í ½í¸…
+I don't know what *bits* you're missing ğŸ˜…
 
 [13:25:22](#172752992259clMZB:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
 :-D 
@@ -159181,10 +159181,10 @@ It lack a visual clue
  * It lacks a visual clue
 
 [13:36:13](#17275305733340lYnxT:tchncs.de) <hiiamboris>:
-I'm sure if you practice for a few weeks you'll develop you lazer eye skill to read bitsets from hex í ½í¸
+I'm sure if you practice for a few weeks you'll develop you lazer eye skill to read bitsets from hex ğŸ˜
 
 [13:36:35](#17275305953341GTrJX:tchncs.de) <hiiamboris>:
-* I'm sure if you practice for a few weeks you'll develop your laser eye skill to read bitsets from hex í ½í¸
+* I'm sure if you practice for a few weeks you'll develop your laser eye skill to read bitsets from hex ğŸ˜
 
 [13:36:39](#172753059975tLoar:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
 I am sure...
@@ -159816,7 +159816,7 @@ circle: object [
 >> circle/area: 200 ()
 >> circle/radius ;== 7.978845608028654
 ```
-with a little bit of creativity í ¾í´ª
+with a little bit of creativity ğŸ¤ª
 
 [18:19:47](#173117638715wUZKg:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
 This is the creativity I love! Nice work!
@@ -159846,7 +159846,7 @@ circle: object [
 >> circle/radius ;== 7.978845608028654
 ```
 
-with a little bit of creativity í ¾í´ª
+with a little bit of creativity ğŸ¤ª
 
 (fixed bug)
 
@@ -159876,7 +159876,7 @@ circle: object [
 >> circle/area ;== 200
 ```
 
-with a little bit of creativity í ¾í´ª
+with a little bit of creativity ğŸ¤ª
 
 (fixed bug)
 
@@ -159906,7 +159906,7 @@ circle: object [
 >> circle/area ;== 200.0
 ```
 
-with a little bit of creativity í ¾í´ª
+with a little bit of creativity ğŸ¤ª
 
 (fixed bug)
 
@@ -159976,7 +159976,7 @@ circle: object [
 >> circle/area ;== 200.0
 ```
 
-with a little bit of creativity í ¾í´ª
+with a little bit of creativity ğŸ¤ª
 
 (fixed bug)
 
@@ -160066,7 +160066,7 @@ circle: mutator-object [
 ````
 without having to write the `on-change*` handler by yourself. 
 
-So far, I've tested it with nothing else but that one example â€” be warned, there might be dragons í ½í°²
+So far, I've tested it with nothing else but that one example â€” be warned, there might be dragons ğŸ²
 
 [22:40:39](#173127843957iMqGV:gitter.im) <gurzgri>:
  * GiuseppeChillemi (GiuseppeChillemi) This getter/setter thing has been fun, so here's some toy dialected sugar for easier definition using [mutator-object](https://gist.github.com/gurzgri/79f04bf4d7313f08e1cd3d1ee38baae3) function allowing you to do
@@ -160081,7 +160081,7 @@ circle: mutator-object [
 
 without having to write the `on-change*` handler by yourself.
 
-So far, I've tested it with nothing else but that one example â€” be warned, there might be dragons í ½í°²
+So far, I've tested it with nothing else but that one example â€” be warned, there might be dragons ğŸ²
 
 [23:47:17](#173128243759ntWdg:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
 this discussion is generating nice things!
@@ -160098,10 +160098,10 @@ Yes, I wanted to keep it simple and wrote it mostly to procrastinate from cleani
 Cooking 4 6 is harder than this recipe! 
 
 [14:05:00](#173133390066Ftgfs:gitter.im) <gurzgri>:
-GiuseppeChillemi (GiuseppeChillemi): Guess what? Arancini í ½í¸‹
+GiuseppeChillemi (GiuseppeChillemi): Guess what? Arancini ğŸ˜‹
 
 [18:20:08](#173134920868cLKgi:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
-> <@gurzgri-56c25b3ae610378809c19713:gitter.im> GiuseppeChillemi (GiuseppeChillemi): Guess what? Arancini í ½í¸‹
+> <@gurzgri-56c25b3ae610378809c19713:gitter.im> GiuseppeChillemi (GiuseppeChillemi): Guess what? Arancini ğŸ˜‹
 
 Picture or it never happened! 
 
@@ -160109,10 +160109,10 @@ Picture or it never happened!
 However? Were have you learned making arancini? 
 
 [20:11:29](#173135588970lzngK:gitter.im) <gurzgri>:
-Reading the docs í ½í¸œ
+Reading the docs ğŸ˜œ
 
 [20:12:24](#173135594471ZYefh:gitter.im) <gurzgri>:
-* Learned by reading the docs í ½í¸œ
+* Learned by reading the docs ğŸ˜œ
 
 ## 15-Nov-2024
 
@@ -160302,10 +160302,10 @@ It's your code. Reconfigure it :)
 * It's *your* code. Reconfigure it :)
 
 [8:01:13](#173191687324nkcKC:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
-A dynamic generated code? How do I retrieve the combination? í ½í¸†
+A dynamic generated code? How do I retrieve the combination? ğŸ˜†
 
 [8:01:45](#173191690525fCOuI:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
-* An anonymous dynamically generated function code? How do I retrieve the combination? í ½í¸†
+* An anonymous dynamically generated function code? How do I retrieve the combination? ğŸ˜†
 
 [8:02:33](#17319169531105npPJn:tchncs.de) <hiiamboris>:
 Without you giving me specifics I don't know what else to say ;)
@@ -160696,7 +160696,7 @@ Names are chosen to better fit the meaning, but it's easy to notice that they ha
 I find that the main criterion I have for separation of these funcs is their names. This way it just makes them more meaningful (for me at least ;). But what do you guys think? Could they be unified under a single interface? How would you call it?
 
 [10:27:59](#173296247924IRAXY:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
-Funny, I have the same function for building objects or map protos from a continuous block  Same name! í ¾í´£
+Funny, I have the same function for building objects or map protos from a continuous block  Same name! ğŸ¤£
 
 [10:34:19](#173296285925ehHck:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
 I have looked at it. I think INTERLEAVE name is meaningful for everything and DELIMIT could be dropped. 
@@ -162526,7 +162526,7 @@ do we have a FIND tha searches every flavour of words? I mean FIND [/HELLO] 'HEL
 ```
 
 [6:09:32](#1738908572109OhtWD:gitter.im) <gurzgri>:
-Ha, rebolek (Boleslav BÅ™ezovskÃ½) just trying in console there, with samples even shorter than the question. Don't ya think that's cheating somehow? í ½í¸œ
+Ha, rebolek (Boleslav BÅ™ezovskÃ½) just trying in console there, with samples even shorter than the question. Don't ya think that's cheating somehow? ğŸ˜œ
 
 [13:28:50](#1738934930112RJXHv:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
 My console say a different thing:
@@ -163689,7 +163689,7 @@ Your near to "zero" Rebol 3 has the highest number of modern features of all Reb
 * Your near to "zero" Rebol 3 stars has the highest number of modern features of all Rebol languages. Waiting for the GUI system! 
 
 [19:58:55](#17396495355ucQwh:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
-hiiamboris: If you continue being passive aggressive with Oldes, you will soon find an empty Space! í ½í¸ˆ
+hiiamboris: If you continue being passive aggressive with Oldes, you will soon find an empty Space! ğŸ˜ˆ
 
 [21:09:40](#17396537806QrCNN:gitter.im) <rebolek (Boleslav BÅ™ezovskÃ½)>:
 As an active user, I probably won't use it soon but who knows. Thanks!
@@ -165039,7 +165039,7 @@ Rebol legacy
 Maybe I have to ask Carl :)
 
 [11:51:44](#174921070422kkwqw:gitter.im) <Rebol2Red (Rebol2Red)>:
-* Maybe I have to ask Carl í ½í¹‚
+* Maybe I have to ask Carl ğŸ™‚
 
 [14:04:01](#1749218641861IYHsi:matrix.org) <Oldes (@oldes.h:matrix.org)>:
 Do you have a better name?
@@ -165895,7 +165895,7 @@ You rather mean the binary is UTF-8 encoded? The codepoint seems to be 35F:
 I got my codepoints and utf8 sequences mixed up. i've corrected the entry/
 
 [14:50:04](#17525046047VvQlt:gitter.im) <gurzgri>:
-PeterWAWood: A better wording might be "Red strings require UTF-8 sequences rather than Unicode codepoints, whereas character escaping requires Unicode codepoints rather than UTF-8" í ¾í´ª
+PeterWAWood: A better wording might be "Red strings require UTF-8 sequences rather than Unicode codepoints, whereas character escaping requires Unicode codepoints rather than UTF-8" ğŸ¤ª
 
 [15:00:31](#17525052311898riXIW:tchncs.de) <hiiamboris>:
 Red strings are not UTF-8 based.
@@ -166128,7 +166128,7 @@ drlat  You can fence an entire block of code with triple backticks `\`\`\`` befo
 The repeated `either` pattern can be greatly simplified. You can use `switch`, combined with `find` to cover multiple cases that use the same logic. For example,   the chars `\ %` all use the same logic, so you could use `find "\ %" first-char`. You also don't need to convert `first-char` to a string. Chars are a datatype themselves, with their own literal form.
 
 [18:13:11](#175312159110mQCwG:gitter.im) <gurzgri>:
-Duplicated effort í ½í¸œ I was holding a back a demonstrational rewrite addressing pretty much all the same things and `to-file` :
+Duplicated effort ğŸ˜œ I was holding a back a demonstrational rewrite addressing pretty much all the same things and `to-file` :
 
 ````
 foreach book books: read/lines %rf-books.txt [
@@ -166158,10 +166158,10 @@ foreach book books: read/lines %rf-books.txt [
 ] 
 ```
 
-but was hoping for some data to run it against í ½í¸‰
+but was hoping for some data to run it against ğŸ˜‰
 
 [18:15:24](#175312172411WPhEf:gitter.im) <gurzgri>:
-* Duplicated effort í ½í¸œ I was holding back a demonstrational rewrite addressing pretty much all the same things and `to-file` :
+* Duplicated effort ğŸ˜œ I was holding back a demonstrational rewrite addressing pretty much all the same things and `to-file` :
 
 ````
 foreach book books: read/lines %rf-books.txt [
@@ -166191,10 +166191,10 @@ foreach book books: read/lines %rf-books.txt [
 ] 
 ```
 
-but was hoping for some data to run it against í ½í¸‰
+but was hoping for some data to run it against ğŸ˜‰
 
 [18:16:03](#175312176312Chbpi:gitter.im) <gurzgri>:
-* Duplicated effort í ½í¸œ I was holding back a demonstrational rewrite addressing pretty much all the same things and `to-file` :
+* Duplicated effort ğŸ˜œ I was holding back a demonstrational rewrite addressing pretty much all the same things and `to-file` :
 
 ```
 foreach book books: read/lines %rf-books.txt [
@@ -166224,7 +166224,7 @@ foreach book books: read/lines %rf-books.txt [
 ] 
 ```
 
-but was hoping for some data to run it against í ½í¸‰
+but was hoping for some data to run it against ğŸ˜‰
 
 ## 28-Jul-2025
 
@@ -166274,7 +166274,7 @@ I don't believe such a feature is implemented. R/S is very minimalistic at this 
 You can declare a separate struct and then copy its memory over a new one.
 
 [16:45:36](#175372113612fIdgQ:gitter.im) <munael>:
-So it seems. I was trying to make a starter SDL3 wrapper just to see how it looks, but perhaps it's not time for it yet í ¾í´·â€â™‚ï¸
+So it seems. I was trying to make a starter SDL3 wrapper just to see how it looks, but perhaps it's not time for it yet ğŸ¤·â€â™‚ï¸
 
 [16:44:23](#17537210631097kMBri:tchncs.de) <hiiamboris>:
 * You can declare a separate (static) struct and then copy its memory over a new one.
@@ -166561,12 +166561,12 @@ And do we have a tool to load and convert it?
 [15:06:25](#175483838517wWUvl:gitter.im) <gurzgri>:
 ["You havenâ€™t failed. Youâ€™ve diagnosed the failure of the system. Thatâ€™s a win."](https://copilot.microsoft.com/shares/2RnLEX9x7ZwfEiAPSTz6w)
 
-Wanted to see if Copilot can help with that. No, it can't. No by any means. í ¾í´£
+Wanted to see if Copilot can help with that. No, it can't. No by any means. ğŸ¤£
 
 [15:06:40](#175483840018VENzW:gitter.im) <gurzgri>:
 * ["You havenâ€™t failed. Youâ€™ve diagnosed the failure of the system. Thatâ€™s a win."](https://copilot.microsoft.com/shares/2RnLEX9x7ZwfEiAPSTz6w)
 
-Wanted to see if Copilot can help with that. No, it can't. Not by any means. í ¾í´£
+Wanted to see if Copilot can help with that. No, it can't. Not by any means. ğŸ¤£
 
 [15:07:47](#175483846719QIihx:gitter.im) <gurzgri>:
 I can't count how often it tried to "fix this once and for all".
@@ -166731,7 +166731,7 @@ I don't like this "New Boris" as much as the old one.
 Tried the same with the new and shiny ChatGPT-5 but it's rather hopeless: https://chatgpt.com/share/689b6cac-ded4-800a-8582-b4ba6801ce3c
 
 [16:35:16](#1755016516213dTmad:tchncs.de) <hiiamboris>:
-Conclusion: context is key í ½í¸‰
+Conclusion: context is key ğŸ˜‰
 
 ## 15-Aug-2025
 
@@ -166897,7 +166897,7 @@ Maybe you should just use some tool to convert all your texts into UTF8 at once 
 That last approach would be my favourite way to address this: delegate conversion to some tool which is specialized in such detections and be rigid in what you accept. Accept utf-8 only, such separating concerns. Everything else would just allow encoding problems into your software deeper and deeper, only making them harder to identify.
 
 [12:27:53](#175560647313jZXNc:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
-Actually I use Table Cruncher and Modern CSV to help me debugging problems. Both easily recognize the input file. CSV Comes from so many different soruces that I must be enough flexible to handle them. As CSV, any program that aims to read Text Files produced around the world must be flexible enough in input files. No one can give the end user the task to convert them, it's not their job. However, we have a different opinion on this point í ¾í´·â€â™‚ï¸
+Actually I use Table Cruncher and Modern CSV to help me debugging problems. Both easily recognize the input file. CSV Comes from so many different soruces that I must be enough flexible to handle them. As CSV, any program that aims to read Text Files produced around the world must be flexible enough in input files. No one can give the end user the task to convert them, it's not their job. However, we have a different opinion on this point ğŸ¤·â€â™‚ï¸
 
 [12:35:47](#175560694715ahbpL:gitter.im) <rebolek (Boleslav BÅ™ezovskÃ½)>:
 I'm not saying we should have such tool, I'm just against including it by default. I agree it's useful in some rare situations and I've done some codepage related work for CASTR (see above) - but it's missing autodetection as it relies on HTTP headers. 
@@ -166960,7 +166960,7 @@ It must really be done from an external tool apart the most common ones
 I surrender!
 
 [13:06:43](#175560880326IiMxf:gitter.im) <gurzgri>:
-> <@giuseppechillemi-59045d00d73408ce4f5bcd9d:gitter.im> Actually I use Table Cruncher and Modern CSV to help me debugging problems. Both easily recognize the input file. CSV Comes from so many different soruces that I must be enough flexible to handle them. As CSV, any program that aims to read Text Files produced around the world must be flexible enough in input files. No one can give the end user the task to convert them, it's not their job. However, we have a different opinion on this point í ¾í´·â€â™‚ï¸
+> <@giuseppechillemi-59045d00d73408ce4f5bcd9d:gitter.im> Actually I use Table Cruncher and Modern CSV to help me debugging problems. Both easily recognize the input file. CSV Comes from so many different soruces that I must be enough flexible to handle them. As CSV, any program that aims to read Text Files produced around the world must be flexible enough in input files. No one can give the end user the task to convert them, it's not their job. However, we have a different opinion on this point ğŸ¤·â€â™‚ï¸
 
 Neither Boris nor me where delegating the conversion task to the end user of your tool, in fact, Boris literally wrote â€Maybe **you** should use some toolâ€ (my emphasis). As always the advice boils down to: use whatâ€˜s there and GTD instead of waiting for Red deliver something no one is waiting for except you ;) Just dance with `iconv` on linux or some XY tool on Windows to let it handle conversion for you and be done before lunch.
 
@@ -167035,7 +167035,7 @@ It is an use of switch together with `attempt` or other functions
 But isn't the point of `attempt` to *not* return the error, if any? Your code wouldn't work even if there was a a construction syntax for errors. In your last example `switch #(none) [ ... #(error) [code] ]` won't work. In your previous example `switch make error! "Something" [ #(error) [code] ]` both would be different errors, so no match  there too. 
 
 [21:27:02](#17557252226vwKSR:gitter.im) <gurzgri>:
-What *would* work is a simple `switch attempt [...] [ #(true) [a] #(false) [b] #(none) [c] ]` , but that has the downside of not requiring new construction syntaxes, refinements and other language constructs í ½í¸‰
+What *would* work is a simple `switch attempt [...] [ #(true) [a] #(false) [b] #(none) [c] ]` , but that has the downside of not requiring new construction syntaxes, refinements and other language constructs ğŸ˜‰
 
 [21:28:15](#17557252957VClhb:gitter.im) <GiuseppeChillemi (GiuseppeChillemi)>:
 Have you seen my ticket on `LOAD-CSV` returning an error instead of throwing it?
@@ -167071,7 +167071,7 @@ See `mold my-error`
 ## 26-Aug-2025
 
 [16:43:18](#1756226598807TnGph:tchncs.de) <hiiamboris>:
-I just noticed that this room is on matrix.org, while all the others are on gitter.im í ¾í´¦
+I just noticed that this room is on matrix.org, while all the others are on gitter.im ğŸ¤¦
 
 [16:44:57](#1756226697809yoZzj:tchncs.de) <hiiamboris>:
 If gitter transition could have been more of a mess, my imagination can't picture it

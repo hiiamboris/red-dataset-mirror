@@ -25,55 +25,7 @@ How would you do this? (I mean taking the existing image, not by new image with 
 My [attempt](https://gist.github.com/toomasv/eee95ae869b71d221076aebf2da7bb8a).
 
 
-[19:17:21](#eY5LSkvtxRuaNJHWgOrghlCqxor9rAaUlnxQttk3zdg) <toomasv>:
-Did anybody have a need to make parts of an image transparent based on color? E.g. you have image ...
-```
-img1: draw 120x120 [
-	anti-alias off 
-	pen off 
-	box 0x0 119x119 
-	pen black 
-	line-width 10 
-	fill-pen red 
-	circle 59x59 40
-]
-```
-... that is on blue background...
-```
-view [backdrop blue image img1]
-```
-... and you'd like to make black (or red or white) transparent? 
-How would you do this? (I mean taking the existing image, not by new image with new Draw)
-
-My [attempt](https://gist.github.com/toomasv/eee95ae869b71d221076aebf2da7bb8a).
-
-
 [19:18:58](#brYW9PvzeKG5_yuBBOALxIVFDVUDVy0Gu9BL63htguA) <toomasv>:
-* Did anybody have a need to make parts of an image transparent based on color? E.g. you have image ...
-```
-img1: draw 120x120 [
-	anti-alias off 
-	pen off 
-	box 0x0 119x119 
-	pen black 
-	line-width 10 
-	fill-pen red 
-	circle 59x59 40
-]
-```
-... that is on blue background...
-```
-view [backdrop blue image img1]
-```
-[![image.png](https://files.gitter.im/57f22e43d73408ce4f2b38c1/x76p/thumb/image.png)](https://files.gitter.im/57f22e43d73408ce4f2b38c1/x76p/image.png)
-
-... and you'd like to make black (or red or white) transparent? 
-How would you do this? (I mean taking the existing image, not by new image with new Draw)
-
-My [attempt](https://gist.github.com/toomasv/eee95ae869b71d221076aebf2da7bb8a).
-
-
-[19:19:07](#v9CsslUJmrJlFbE_bX8OHqpCrrrH-54j6xGl8JQG9Ww) <toomasv>:
 * Did anybody have a need to make parts of an image transparent based on color? E.g. you have image ...
 ```
 img1: draw 120x120 [
@@ -127,65 +79,7 @@ How would you do this? (I mean taking the existing image, not by new image with 
 My [attempt](https://gist.github.com/toomasv/eee95ae869b71d221076aebf2da7bb8a).
 
 
-[19:20:34](#5wVnXDHVxNYdMBztUMxxqZmdGDsSAxK6vf6QQVbIcao) <toomasv>:
-* Did anybody have a need to make parts of an image transparent based on color? E.g. you have image ...
-```
-img1: draw 120x120 [
-	anti-alias off 
-	pen off 
-	box 0x0 119x119 
-	pen black 
-	line-width 10 
-	fill-pen red 
-	circle 59x59 40
-]
-```
-... that is on blue background...
-```
-view [backdrop blue image img1]
-```
-
-[![image.png](https://files.gitter.im/57f22e43d73408ce4f2b38c1/x76p/thumb/image.png)](https://files.gitter.im/57f22e43d73408ce4f2b38c1/x76p/image.png)
-
-... and you'd like to make black (or red or white) transparent? 
-
-[![image.png](https://files.gitter.im/57f22e43d73408ce4f2b38c1/ujQR/thumb/image.png)](https://files.gitter.im/57f22e43d73408ce4f2b38c1/ujQR/image.png)
-
-How would you do this? (I mean taking the existing image, not by new image with new Draw)
-
-My [attempt](https://gist.github.com/toomasv/eee95ae869b71d221076aebf2da7bb8a).
-
-
 [19:20:59](#8Qm22NxPztk3_t0yPbTCSaiPWhqIHuurS0a-uCJ8Abo) <toomasv>:
-* Did anybody have a need to make parts of an image transparent based on color? E.g. you have image ...
-```
-img1: draw 120x120 [
-	anti-alias off 
-	pen off 
-	box 0x0 119x119 
-	pen black 
-	line-width 10 
-	fill-pen red 
-	circle 59x59 40
-]
-```
-... that is on blue background...
-```
-view [backdrop blue image img1]
-```
-
-[![image.png](https://files.gitter.im/57f22e43d73408ce4f2b38c1/x76p/thumb/image.png)](https://files.gitter.im/57f22e43d73408ce4f2b38c1/x76p/image.png)
-
-... and you'd like to make black (or red or white) transparent? 
-
-[![image.png](https://files.gitter.im/57f22e43d73408ce4f2b38c1/ujQR/thumb/image.png)](https://files.gitter.im/57f22e43d73408ce4f2b38c1/ujQR/image.png) [![image.png](https://files.gitter.im/57f22e43d73408ce4f2b38c1/iJqb/thumb/image.png)](https://files.gitter.im/57f22e43d73408ce4f2b38c1/iJqb/image.png)
-
-How would you do this? (I mean taking the existing image, not by new image with new Draw)
-
-My [attempt](https://gist.github.com/toomasv/eee95ae869b71d221076aebf2da7bb8a).
-
-
-[19:21:47](#OD215MLEmB4SN38BpI-49JD3sQfKiuI1XiybgzYoyQM) <toomasv>:
 * Did anybody have a need to make parts of an image transparent based on color? E.g. you have image ...
 ```
 img1: draw 120x120 [
@@ -247,7 +141,7 @@ My [attempt](https://gist.github.com/toomasv/eee95ae869b71d221076aebf2da7bb8a).
 Using `img/argb` should be faster
 
 [19:28:04](#RjK-VjbgYKHToR-amNqOTirwmPuTys4c7Qayckk_oKE) <hiiamboris (NOT THIS ONE)>:
-what's your use case? Ì†ΩÌ∏â
+what's your use case? üòâ
 
 [19:35:52](#5r1vNfzREHpz7Dk3sfYYKw0LpSX1oSszWKUrcstOZR0) <toomasv>:
 Just playing around now.
@@ -260,7 +154,7 @@ It won't happen on D2D. It's a workaround for a GTK+ issue.
 * It (color being off) won't happen on D2D. It's a workaround for a GTK+ issue.
 
 [19:37:43](#ePFUDHkwjW_DnhnGLWe0ykPtVDG9ZCDoP9PtqsSYj_Q) <hiiamboris (NOT THIS ONE)>:
-I do have a need to subtract and multiply images though Ì†ΩÌ∏â
+I do have a need to subtract and multiply images though üòâ
 
 [19:38:07](#I7xyC8rD9XQqQdTfHL0-GfDo0fQqVgF44XrKq9nrqv4) <hiiamboris (NOT THIS ONE)>:
 We really need that and some masking in Draw.
@@ -277,7 +171,7 @@ Using 3 charsets is a clever way out :+1:
 I mean you can parse (change) whole `argb` then set it back `img/argb: ..` and it'll be faster than mold/load
 
 [9:36:49](#tYs6lDYdoYqkVCStg-qNG81YQMDBQBq2U6j9mkCnMNE) <hiiamboris (NOT THIS ONE)>:
-I think it's intended but better ask @qtxie Ì†ΩÌ∏â
+I think it's intended but better ask @qtxie üòâ
 
 [9:52:23](#6jpnegPCIoCXvUM58GsTqxPp0UuaJIGj1xTINma0jbg) <toomasv>:
 Ok, thanks!
@@ -409,13 +303,13 @@ that's odd
 this one seems best
 
 [16:36:21](#JE0e4IIoJ6fN4X7wZsQtP4T3JCaTKa8BQ0WymCUquws) <hiiamboris (NOT THIS ONE)>:
-ideally we want `collect into` but it's broken on binary Ì†ΩÌ∏ü
+ideally we want `collect into` but it's broken on binary üòü
 
 [16:37:27](#YjwSUpe0hMgBWYF13onnTSOO5si0pdRhkWOpBRAkP60) <hiiamboris (NOT THIS ONE)>:
 I find it suspicious though that parse's `change` is that slow
 
 [18:52:23](#SchQUsqjMs1E0-uTcARj1OArS1y0T21wtjmKLCtXlNI) <toomasv>:
-Thanks! But.. er.. this doesn't work  Ì†ΩÌ∏ß
+Thanks! But.. er.. this doesn't work  üòß
 
 [19:03:59](#6s7M5mAcWUCZkHu3x-lc7Evr5BOCZ_MoQDWeFWxnfrQ) <toomasv>:
 It works (and is best so far) this way:
@@ -456,7 +350,7 @@ It works (and is best so far) this way:
 ```
 
 [19:23:08](#2Ir36sQFtO_hwX55Z2wKhZD4HZ4a8YcYDde1q1LzRmo) <hiiamboris (NOT THIS ONE)>:
-Ah right! I forgot that `alpha` is complementary to alpha in `argb` Ì†ΩÌ∏â
+Ah right! I forgot that `alpha` is complementary to alpha in `argb` üòâ
 
 [19:48:56](#gOzdMHaPt0FG3gfNKWtxxWzedP1hbfKUM7WTV61dA9w) <toomasv>:
 There is another possibility of direct change, that is best memory-wise but worst time-wise:
@@ -496,7 +390,7 @@ Very nice Toomas. Thanks for posting that.
 I always love the creative things you come up with.
 
 [21:18:21](#77DOfHetl454aRC8o7uwlp0u4xIib00Ro1UlNgBv8VU) <toomasv>:
-Ì†ΩÌ∏Ñ  Thanks! Code is below. `transparent` is any func from above. For some reason switching off anti-aliasing seems sometimes not to work and there are still half-tones. I added a step to eliminate these but this makes font fatter. The version above was made without this step.
+üòÑ  Thanks! Code is below. `transparent` is any func from above. For some reason switching off anti-aliasing seems sometimes not to work and there are still half-tones. I added a step to eliminate these but this makes font fatter. The version above was made without this step.
 ```
 xmas: make font! [size: 32 style: 'bold]
 ximg: draw 360x70 [
@@ -720,7 +614,7 @@ make-merry/color/font sky [size: 48 style: 'bold name: "Courier New"]
 ```
 
 [13:47:32](#G6ZvHZLiqXVOUuyQwuGb_-YlnFYHrb_XNHLbCp1A1Uk) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ±è
+üëè
 
 [14:04:48](#m6uw_45gBIwuTT1nsLyTTRCp2nrAOgAry2RA1LVI_IY) <toomasv>:
 @hiiamboris Thanks for your help!
@@ -784,39 +678,24 @@ It's snowing here
 [![white-christmas](https://toomasv.red/images/Misc/flakes.gif)](https://toomasv.red/images/Misc/flakes.gif)
 
 [18:43:20](#WPwLs-ZfVJaZbwTXdj2ypaT4UvdKc1KX75EkQ7I6WUo) <greggirwin (Gregg Irwin)>:
-Ì†ΩÌ±è  :^)
+üëè  :^)
 
 [18:45:15](#R6P4dqukfpqagdDtyO3TtHmSx2FephP7jz0vUxq6R6Y) <greggirwin (Gregg Irwin)>:
 Maybe we should add a holiday folder to red/code or red/community for seasonal demos.
 
 ## 31-Dec-2020
 
-[17:19:20](#aJTlnClvEB6Au1RGPSgay6cADb2OyA1Iy8K_kHtU2ew) <toomasv>:
-Maybe we should add a holiday folder to red/code or red/community for seasonal demos.
-
 ## 3-Jan-2021
 
 [11:15:49](#ggOzoxv90HJQS3JR3vQ8lGHoqx4Q-RdSSvD4T0oAVdI) <planetsizecpu (Jose Luis)>:
-Cool @toomasv  Ì†ΩÌ±å
+Cool @toomasv  üëå
 
 ## 8-Jan-2021
 
 [23:39:16](#QoKCWCT4GceEZJRdQjk7l9mxRDWS6vJQ2B3Md9go5_A) <gltewalt (The other Greg)>:
 Docs converted to html via asciidoctor look ok on the rendered side. Source is ugly.
 
-[23:39:36](#59roYiMtwjsMC9d2kkRNKtdS49EWlpDymPbFAtQ_DIY) <gltewalt (The other Greg)>:
-Docs converted to html via asciidoctor look ok on the rendered side. Source is ugly.
-
-[23:42:59](#_2oCJoiAgeZXHoj7_-WcRYJYADm1vy7cDoqwHtTeS-M) <gltewalt (Greg T)>:
-Docs converted to html via asciidoctor look ok on the rendered side. Source is ugly.
-
-[23:51:09](#gG_U49d-s3M-bYWnnnHgrVikJ4UFuMpoWPLljTEzc5I) <gltewalt (Greg T)>:
-Docs converted to html via asciidoctor look ok on the rendered side. Source is ugly.
-
 ## 29-Jan-2021
-
-[3:51:44](#O_Z5AMog99uejnpNgKh9YP0xobP3lKGW7pBdGGmbbK8) <gltewalt (Greg T)>:
-Docs converted to html via asciidoctor look ok on the rendered side. Source is ugly.
 
 ## 23-Feb-2021
 
@@ -923,10 +802,10 @@ You can upload to Gist directly from Red console with GitHub API.
 @rebolek how?
 
 [7:15:10](#3l4uMJknEfFIR31h02T1mh53ZR2V5jANXNEsMl9l3wI) <zentrog>:
-Ì†ΩÌ∏ÑÌ†ΩÌ¥™
+üòÑüî™
 
 [7:50:55](#IMCmMyCp-0VPrc9eN0eG6NruV883gsB2tdQenVWSBiY) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-@GiuseppeChillemi It seems that Github finally killed basic authentication so I need to update Github API to use tokens. So sorry, it‚Äôs currently not possible Ì†ΩÌ∏É
+@GiuseppeChillemi It seems that Github finally killed basic authentication so I need to update Github API to use tokens. So sorry, it‚Äôs currently not possible üòÉ
 
 [10:05:40](#_fFp4I3k-TdL7FjMFSXcHt6ZfEqxe6LDJoLMUaEs9S4) <GiuseppeChillemi (GiuseppeChillemi)>:
 Remember I cannot use networking because of https://github.com/red/red/issues/4791
@@ -952,7 +831,7 @@ Gitlab!
 I was confused by the Microsoft mentions :)
 
 [15:13:53](#0i3oa483S2e9wALhW_LEQ-MUoM6Z0otyZiZaXWNesik) <hiiamboris (NOT THIS ONE)>:
-Yeah looks like they host on Azure Ì†ΩÌ∏â
+Yeah looks like they host on Azure üòâ
 
 [15:14:13](#YL1y1T-C9p25UyWz2YfgosaVModJX9c71XePnP4wkUw) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 However I still have Gitlab only in queue and haven‚Äôt tried doing their API yet, so sorry, I‚Äôm not sure.
@@ -989,7 +868,7 @@ If I use Panther... legal troubles?
 Chances are low, but I have good luck
 
 [18:42:53](#T_IXlblLkhA1cGLvafDlZ4uwhthbvhmIlmPwElkdzw8) <hiiamboris (NOT THIS ONE)>:
-Probablly Ì†ΩÌ∏â
+Probablly üòâ
 
 [18:42:56](#kFFgYHkO3brYLyn5Bw8CLoYrfqqHZarQ5Yu00YpoIc8) <hiiamboris (NOT THIS ONE)>:
 * Probably ;)
@@ -998,10 +877,6 @@ Probablly Ì†ΩÌ∏â
 Couple things I need to look up. How to keep console from running when I use the compiled version.  Keep all the error messages from filling up console if in interpreted mode. (It reports a bunch because it's constantly checking the parse rul as you type)
 
 [18:45:21](#Gd3iSXuOYZRfdRd_5B6YHI7_X4b-CbBANgzOlUJ6-EM) <hiiamboris (NOT THIS ONE)>:
-![](https://i.gyazo.com/47258633822fb6e1360d93f4a9b461c6.png)
-I had to use parens for init code
-
-[18:45:49](#pm7EPlvxch9w26Zo9yBkuDDa5A4rRRUJ3LOTpU1sVoY) <gltewalt (Greg T)>:
 ![](https://i.gyazo.com/47258633822fb6e1360d93f4a9b461c6.png)
 I had to use parens for init code
 
@@ -1079,7 +954,7 @@ It's not that we wanna stay win98-compatible here.
 Size 512 is only for Microsoft store
 
 [22:21:52](#yL8yU7kZEYC6w2z_rtqY1yh6MZ-PAEhXO6EOdubGDTs) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-never mind... now I have icon with sizes 16, 20, 24, 30, 32, 36, 40, 48, 60, 64, 72, 80, 96, 128 and 256, but still see used only 24 and 48... maybe it's in some cacheÌ†ΩÌ∏ï
+never mind... now I have icon with sizes 16, 20, 24, 30, 32, 36, 40, 48, 60, 64, 72, 80, 96, 128 and 256, but still see used only 24 and 48... maybe it's in some cacheüòï
 
 [22:22:21](#vicClGi5OtD4PbKolgxdAH1IXQ04Svr0a2wmtz4HwFs) <greggirwin (Gregg Irwin)>:
 @hiiamboris I'd have to see what the icon app controls are for those options. 
@@ -1175,7 +1050,7 @@ return: true
 Seems like I didn't have these issues earlier on. Oh well...
 
 [5:52:31](#PeSqPbKuCFQXdqRZIxuJvz4hp-UjNiwNtDn2NwR0A1A) <gltewalt (Greg T)>:
-Ì†ΩÌ∞± 
+üê± 
 
 [8:24:34](#0gyG-gQUuWA1tUTGWogUKc-GBdLOkq81s6lTOOdnQ_I) <toomasv>:
 ```
@@ -1297,7 +1172,7 @@ Runtime profiling of code scattered anywhere across the project:
 ![](https://i.gyazo.com/70605ed966ab4f5ddb72019b5b80c0f7.gif)
 
 [19:29:26](#II6iQJV8BaKsnHdOsJ-0joG5BfMxRIN8aebIHHIbL1Q) <toomasv>:
-Amazing! Ì†ΩÌ±è 
+Amazing! üëè 
 
 [20:13:48](#hqfN5wyYp00LOjkDKPey1V-z9olznG9EKFB6uMHZJK4) <pekr (Petr Krenzelok)>:
 Looks good :-)
@@ -1517,7 +1392,7 @@ Haha nice :)
 But now that I have a prompt I probably can get rid of it and stop it from prompt.
 
 [13:03:09](#MTuOE1V8_vKyAQ24kpciryNkGS8FXu5xTlx_rTngXjQ) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-And report the bug  Ì†ΩÌ∏É
+And report the bug  üòÉ
 
 [17:43:30](#-iv8-AWJ46ag6BeognJf5eqgfDU99lMLe2HMiS5FCAM) <Respectech (Respectech)>:
 @rebolek Awesome!
@@ -1559,14 +1434,6 @@ I‚Äôve been doing some HTTP request from Red and looking at them with Wireshark 
 If you set your own `User-Agent` the above values are replaced. I‚Äôm not sure what‚Äôs going on here :) Can someone confirm it?
 
 [10:40:05](#aWxpbgxr_xnmz5BVghLr3IMkUwcHQ18x1jfIfnbjqrA) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-* I‚Äôve been doing some HTTP requests from Red and looking at them with Wireshark and I noticed some funny things:
-
-* if you do `read http://www.google.com`, `User-Agent` is set to `Mozilla/5.0 (Windows NT 6.1; Win64; x64)` (I am on Mac)
-* if you do `write/binary http://www.google.com [GET []]`, `User-Agent` is set to `Go-http-client/1.1`
-
-If you set your own `User-Agent` the above values are replaced. I‚Äôm not sure what‚Äôs going on here :) Can someone confirm it?
-
-[10:45:45](#QxispEBx_JJbbeDd1fubKLXQynuSV721axPiyys99BE) <hiiamboris (NOT THIS ONE)>:
 * I‚Äôve been doing some HTTP requests from Red and looking at them with Wireshark and I noticed some funny things:
 
 * if you do `read http://www.google.com`, `User-Agent` is set to `Mozilla/5.0 (Windows NT 6.1; Win64; x64)` (I am on Mac)
@@ -1636,7 +1503,7 @@ I'm in town for a couple meetings tomorrow @gltewalt. Let me know if you're free
 You have @Respectech on hand, and can then provide more feedback for them too. Good for everyone.
 
 [3:17:53](#unN2pBh2cP2UtMDtfbJG27_siPesOD_umrrtk3cCzC8) <gltewalt (The other Greg)>:
-Most likely free at some block of time before 4Ì†ΩÌµì
+Most likely free at some block of time before 4üïì
 
 [16:40:15](#iMdbUVsPDKjqqRKAY6X4F7MGBp8EGQwQl8nXSFb_XwM) <Respectech (Respectech)>:
 I'm going to be driving to Wyoming and then Montana and back to California later this month. Boise is a bit out of the way depending on the route we take home from Montana, but it would be fun to meet up if I could work it into the schedule.
@@ -1648,7 +1515,7 @@ I'll be using the PinePhone as my mobile 4G router on the trip. I'll probably us
 Let me know timing and your route when the time comes. Would be great to see you.
 
 [16:50:19](#0l410bd6KCBsSwC7TgFIbpIg_z18JkdA5OWsZGAWZNs) <Respectech (Respectech)>:
-Looks like it is 45 hours of road time if we bypass Boise, and 46 hours if we go through Boise. I'll see if I can sell Rosemary on the idea of an extra hour on the road. Ì†ΩÌ∏ú
+Looks like it is 45 hours of road time if we bypass Boise, and 46 hours if we go through Boise. I'll see if I can sell Rosemary on the idea of an extra hour on the road. üòú
 
 [16:54:44](#Sbz1V3X6C7hLPiWl0pEniX2k_cRrwCKos5J68-fwyFs) <greggirwin (Gregg Irwin)>:
 I can come to you as well, if it's not too far. We can talk more privately.
@@ -1732,7 +1599,7 @@ It came with this dongle that has USB, hdmi and ethernet. I can use a keyboard t
 Can I install a different distribution from USB or does it have to be a flash via SD card?
 
 [20:20:37](#zKuZCk6a_ufdZqCVEUI76z4OHIQG_mdbkpHG_GEmuGA) <Greg T>:
-Ì†ΩÌ∞ë
+üêë
 
 [20:54:11](#fLF_uNrR78TSxA4F5Tauvw926cujxCrmGgBLZk2VdfM) <greggirwin (Gregg Irwin)>:
 I don't know what the sheep means, but that's very cool about using a keyboard so easily.
@@ -1769,7 +1636,7 @@ I still like this one: https://www.youtube.com/watch?v=y3RIHnK0_NE
 ## 3-Aug-2021
 
 [13:12:03](#Ql2BawZkVQpcWcq-lYmKtGU2q4fJ3UQkdae1fnvMMSg) <planetsizecpu (Jose Luis)>:
-Amazing @greggirwin   Ì†ΩÌ∏Ñ
+Amazing @greggirwin   üòÑ
 
 ## 12-Sep-2021
 
@@ -1910,12 +1777,6 @@ make-block/all %entities.red
 
 ## 13-Oct-2021
 
-[12:08:01](#wMN-MwQEeSyxF7yfqT2bNhGBdEBwdrw67Rp-xlbW-fE) <abdllhygt (Abdullah Yiƒüiterol)>:
-:+1:
-
-[12:09:01](#sqhlBe9GHd-_4tGv0RWYP-wynnwJvCqrMC9ba_oy_no) <abdllhygt (Abdullah Yiƒüiterol)>:
-:+1:
-
 ## 31-Oct-2021
 
 [9:24:54](#pCxKHgdNrtKIdZAWxtmdVY8GPe9yeAamFoqDiAnkyfo) <toomasv>:
@@ -2027,10 +1888,6 @@ Is it?
 I'd have to review the code in detail, which will have to wait for another day.
 
 [0:04:05](#COffj3BS_GdNMGgwVxBjKrNxYCWsS9tMQn4me64S6rE) <gltewalt (The other Greg)>:
-Yeah.
-It works as is, but leaving behind "" elements is a wart
-
-[23:05:06](#lnlrjkCJ1Sni65ix2Shx8gbVR7CbwCCq-WAcrvJ95g4) <gltewalt (Greg T)>:
 Yeah.
 It works as is, but leaving behind "" elements is a wart
 
@@ -2459,7 +2316,7 @@ Excellent :-)
 yes, really nice :)
 
 [12:28:26](#Ha3MmHxm1kU4KLh2KW4nV6IVieT_I-EB5xOzh-nlCZ4) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ±è
+üëè
 
 [12:41:06](#XnTh5y5rcf3eLZK57fir6Nvbx_OnUxyKSHs4PxMeo_M) <toomasv>:
 Thanks! Here is another:
@@ -2607,7 +2464,7 @@ Red seeds by default
 work in progress https://usercontent.irccloud-cdn.com/file/rmkwcU2N/mandala-3d.png
 
 [13:04:49](#59GXG2zwY2J9iImnzitBnKXSPorhZw4vpWDJz8vIgkQ) <gltewalt (The other Greg)>:
-Ì†ΩÌ±ç
+üëç
 
 [14:50:47](#cWHV2sms2JHW6oK-7wFE8MhFIXS3w8f0PPVtintPWdw) <toomasv>:
 @ne1uno Interesting! 
@@ -3041,7 +2898,7 @@ Doesn't the func need to know the *two* items being compared?
 [21:26:42](#yUlUDa196EouuxY-R1P0TbNJ4L1N-G8y0LBKKUSoaSc) <gurzgri>:
 ```Red
 by-func: func [fun [any-function!]] [get in context [f: :fun g: func [a b] [case [greater? a: f a b: f b [-1] lesser? a b [1] true [0]]]] 'g]
->> sort/compare [0 45 90 135 180 225 270 315 360] by-func Ì†ΩÌ∏ñine
+>> sort/compare [0 45 90 135 180 225 270 315 360] by-func üòñine
 == [270 225 315 360 180 0 45 135 90]
 >> sort/compare [0 45 90 135 180 225 270 315 360] by-func :cosine
 == [180 135 225 270 90 315 45 360 0]
@@ -3207,7 +3064,7 @@ From the experiments, it seems it scans all data as supposed but, the second arg
 But for stable sort the return value is more complex: -1 for unordered, 0 for equal, 1 for ordered
 
 [13:35:55](#U-5qgoiv9TN8T-6Zke38lq0LTQZ_1Z8walW7g-LNesM) <hiiamboris (NOT THIS ONE)>:
-Or vice versa. I never can quite recall the sign Ì†ΩÌ∏É
+Or vice versa. I never can quite recall the sign üòÉ
 
 [14:16:08](#lwHLD4JO9OjUlAA3rJsNu9QhukGoQ-tEprXA0EqEua0) <GiuseppeChillemi (GiuseppeChillemi)>:
 Answering false, the order does not change, maybe the question is: should it be changed? `True`: yes, `False`: no ?
@@ -3450,7 +3307,7 @@ Type and value checking and more:
 Thanks for including all the design notes.
 
 [19:05:36](#ibh20FKo8ZMcswJ-2yCJaug01wGfcJznE5KCai2y-G4) <hiiamboris (NOT THIS ONE)>:
-Yeah, couldn't do otherwise Ì†ΩÌ∏â Too many different design aspects coming in touch with this.
+Yeah, couldn't do otherwise üòâ Too many different design aspects coming in touch with this.
 
 ## 23-Sep-2022
 
@@ -3548,8 +3405,8 @@ Good stuff as always @toomasv. :+1:
 ;;                            ^default     ^check for integer  ^fallback check (applies for string)
 func [/ref x [integer! string!]][
 	switch/default type? :x [
-		none! [x: 1] 						Ì†ΩÌ∏â applies default when X is not given
-		integer! [							Ì†ΩÌ∏â integer type check
+		none! [x: 1] 						üòâ applies default when X is not given
+		integer! [							üòâ integer type check
 			unless (x >= 0) [
 				do make error! form reduce [
 					"Failed" "(x >= 0)" "for" type? :x "value:" mold/flat/part :x 40
@@ -3557,13 +3414,13 @@ func [/ref x [integer! string!]][
 			]
 		]
 	] [
-		unless (find x "0") [				Ì†ΩÌ∏â fallback type check
+		unless (find x "0") [				üòâ fallback type check
 			do make error! form reduce [
 				"Failed" {(find x "0")} "for" type? :x "value:" mold/flat/part :x 40
 			]
 		]
 	] 
-	x										Ì†ΩÌ∏â actual body starts...
+	x										üòâ actual body starts...
 ]
 ```
 @GiuseppeChillemi IIRC you wanted some parts of this, I think defaults for locals or something...
@@ -4881,43 +4738,7 @@ The only allowed literal form seems to be the one which uses parens
 
 ## 30-Sep-2023
 
-[16:33:25](#aad4GWSdS2ClYMoEJGM86mXmqb5xLiQr5bTU696OM-0) <GiuseppeChillemi (GiuseppeChillemi)>:
-The only allowed literal form seems to be the one which uses parens
-
 [16:33:41](#R72hgSChOoaKUY4l33TXI11ldqtaB-MFW6Vw_xz1vaQ) <GiuseppeChillemi (GiuseppeChillemi)>:
- * A little experiment in parse to remove consecutive values:
-
-```
-remove-consecutive: func [
-	"Remove consecutive elements of the same value  "
-	string [String!] "String to remove from"
-	value [string! char!] "The value to search"
-	/min
-	number [integer!] "The minumum number ov values to keep, otherwise 1"
-] [
-	
-	parse string [any [number value remove any value | skip]]
-	string
-]
-
-x: {some
-word
-to test
-this parse rule
-
-Ok
-
-it
-
-
-
-works!
-}
-
-probe remove-consecutive x lf
-probe remove-consecutive/min x lf 2
-
-[16:33:51](#W4QJEJnPjAi0nSecAPDbS2p3EuRkCrME1j9jEQ929AQ) <GiuseppeChillemi (GiuseppeChillemi)>:
  * A little experiment in parse to remove consecutive values:
 
 ```
@@ -5036,7 +4857,7 @@ Proof of concept: parsing progress interactive visualisation.
 Great work 
 
 [19:26:01](#dbspX7HjfaOHiSVDXObU8t3BnTjV8YeZ_e9YC2VM2ds) <greggirwin (Gregg Irwin)>:
-Very cool. Ì†ΩÌ±çÔ∏è Would be great to see the actual rule, optional or as a tooltip. I know this is an early prototype of course. Nice work.
+Very cool. üëçÔ∏è Would be great to see the actual rule, optional or as a tooltip. I know this is an early prototype of course. Nice work.
 
 [19:29:01](#Mrd0nPDd94JUgEtbqLvru4Sz0g5CPe6Nm2fRR-l5yz4) <hiiamboris>:
 Thanks for the idea, may be useful indeed.
@@ -5633,7 +5454,7 @@ GiuseppeChillemi (GiuseppeChillemi) I've [simplified](https://codeberg.org/hiiam
 This also addresses Gregg's complaint that it was too bloated.
 
 [18:42:06](#mfmjbda2QlHULgduuiD6EOKSsHTD5QBlxe6_HVPcY8c) <greggirwin (Gregg Irwin)>:
-Can't wait to review! Ì†ΩÌ±çÔ∏è
+Can't wait to review! üëçÔ∏è
 
 [18:49:13](#tiduQQ-gXcGbQ0LKuvRmqLzrSVRU81ASy0h9rnuWDtY) <GiuseppeChillemi (GiuseppeChillemi)>:
 > <@hiiamboris:tchncs.de> GiuseppeChillemi (GiuseppeChillemi) I've [simplified](https://codeberg.org/hiiamboris/red-common/src/branch/master/reshape.md#syntax) `reshape` by a big margin and that allowed me to add support for user-provided grammar, e.g.:
@@ -5780,13 +5601,6 @@ resomething: function [name input] [ctx: get name reshape/with/sub reduce [to li
 mybind: func [expr] bind [do bind expr :ctx] :resomething
 ```
 
-[19:56:58](#yPKS6oGKn3SQ4tU6SdmRviWxRgKuuuYhSwuhtp2ODF0) <GiuseppeChillemi (GiuseppeChillemi)>:
-* or this will be even faster if that matters
-```
-resomething: function [name input] [ctx: get name reshape/with/sub reduce [to lit-word! name] input :mybind]
-mybind: func [expr] bind [do bind expr :ctx] :resomething
-```
-
 [19:58:10](#N4hBhIZUutpHntbvygcFIE7zfLKB52UnZQJMAKYp61s) <GiuseppeChillemi (GiuseppeChillemi)>:
 > <@hiiamboris:tchncs.de> ```
 > >> resomething: func [name input] [reshape/with/sub reduce [to lit-word! name] input func [expr] compose [do bind expr (name)]]
@@ -5797,10 +5611,10 @@ mybind: func [expr] bind [do bind expr :ctx] :resomething
 Great work hiiamboris, my function have been retired without having been used but a couple of times.
 
 [20:03:10](#OEbkPZSZR9o8sdEwmz4DmXh-M9LpuLlSsAE5EKTP3T4) <GiuseppeChillemi (GiuseppeChillemi)>:
-Change It's name to RECOPLACE because it is a mix of REduce COmpose and rePLACE but selective Ì†æÌ¥£
+Change It's name to RECOPLACE because it is a mix of REduce COmpose and rePLACE but selective ü§£
 
 [20:03:21](#jUhpRb4dAWjhLyp-_YF3woltpNPRCOwpPZ16UNYI8ds) <GiuseppeChillemi (GiuseppeChillemi)>:
-* Change Its name to RECOPLACE because it is a mix of REduce COmpose and rePLACE but selective Ì†æÌ¥£
+* Change Its name to RECOPLACE because it is a mix of REduce COmpose and rePLACE but selective ü§£
 
 [20:36:58](#oJu0iuJz9tg5TY7IVu2ESrHRQalmrBi5dSdl3t7jJoE) <GiuseppeChillemi (GiuseppeChillemi)>:
 Maybe I have another simple improvement. I need to some time to thing about It.
@@ -6017,18 +5831,12 @@ had to turn text into image, otherwise text itself is too slow :)
 Use Vulkan or OpenGL
 
 [21:04:12](#uPM8hC9JX-58YlVMJIDk8PSwNnTU5ius-U7eAsq3hZc) <GiuseppeChillemi (GiuseppeChillemi)>:
-Ì†ΩÌ∏Å
+üòÅ
 
 [21:38:54](#9P5GEb6rJTXgXVJVvpH7crDJJnSBz72frW691NpKPes) <hiiamboris>:
 well, it's D2D :)
 
 ## 21-Jan-2024
-
-[22:02:14](#62AFi6SDtX54nIw_7LevBhLiIBpti7MVKN78WLkSwdE) <GiuseppeChillemi (GiuseppeChillemi)>:
-well, it's D2D :)
-
-[22:02:43](#QSPfJ9JP3qrzHnHpchSF2hBYtiRUER5ziY18yPaIZsI) <GiuseppeChillemi (GiuseppeChillemi)>:
-well, it's D2D :)
 
 [23:01:04](#VVtoY6VDWzJfQ12OQLgAcuj6ffBY7ZC86WrPyacOHLk) <GiuseppeChillemi (GiuseppeChillemi)>:
 Could please check this For-Skip implementation? It is called [For-Record](https://gist.github.com/GiuseppeChillemi/2d9f3339eb2e96b1847e90d0ab0f1a98)
@@ -9825,9 +9633,6 @@ With tranformation code:
 [23:48:04](#QO4dgQVCux5NogITZFU2f88Uk0bcuk_5mnFzNKhJr-M) <greggirwin (Gregg Irwin)>:
 Sounds interesting, and flexible. So it's like a reactive system across objects?
 
-[23:48:13](#XfTJspylSUtv91SX4UeZtu1qZqTe2WpzqXFHkGNPbFU) <GiuseppeChillemi (GiuseppeChillemi)>:
-Sounds interesting, and flexible. So it's like a reactive system across objects?
-
 [23:48:32](#B_vqc57N4Vv3VGZ1JzI18YLaP4KqJILZ5Wd0w4KNDsk) <GiuseppeChillemi (GiuseppeChillemi)>:
  * With tranformation code:
 ```
@@ -10326,7 +10131,7 @@ Now I can go back to work on panels.
  * Now I can go back to work on composable panels, I have the instrument I need.
 
 [11:33:18](#_viKQJ9sfnrB2_XE2lyOknt_qbuPmIVA4Le59jNtIME) <GiuseppeChillemi (GiuseppeChillemi)>:
-It still misses something: function execution support. Back to work using Apply! Ì†ΩÌ≤™Ì†ºÌøª
+It still misses something: function execution support. Back to work using Apply! üí™üèª
 
 [20:28:44](#F9HO1JNeMfk1xz74KRMi3huoKURK_tbZGMVX6bNekx8) <GiuseppeChillemi (GiuseppeChillemi)>:
 Well, I am on the way.  I have used the functions from the `apply` [article](https://www.red-lang.org/2023/06/dynamic-refinements-and-function.html). If you want to create the same function and and call the original one from the inside of the copy, I face a problem with all the approaches of the article: the `APPLY` function reduces his block. So if APPLY encounters a function, other args are EATEN, if the argument if a path, you have the same problem. So, how do I AVOID `APPLY` reducing the values without using QUOTE?
@@ -10690,23 +10495,10 @@ So you would save a lot of cycles having a common passing a CTX without the need
 
 What about this?
 
-[23:52:37](#obUH9-oiQZpZJ3q38_o0AqD9i-RYqiJbZ11jfym2D2g) <GiuseppeChillemi (GiuseppeChillemi)>:
-* I have many functions that work on the same set of data. They have similar interface and context. Each function does the basic init of its context and the continues its operation. Instead of doing  this, it could receive the context ready to be used from the previous functions and set its context to the corresponding values.
-It would be great if I could:
-
-`apply/ctx :function-name ctx`
-
-So you would save a lot of cycles having a common passing a CTX without the need to recreating it.
-
-What about this?
-
 [23:52:58](#DNl_nCGY-Jmcl-rRvGhTKkUPWTiq0Y_IpWrt4YJvDhU) <GiuseppeChillemi (GiuseppeChillemi)>:
 * A variation of the idea could be to pass a second `CTX` with the words of the invoked function that are not in the passed CTX.
 
 [23:53:21](#8N_XeSjPSgGYO2D-sMZNBlMthOU07TqfCpF3R_OCjwU) <GiuseppeChillemi (GiuseppeChillemi)>:
-* A variation of the idea could be to pass a second `CTX` with the words of the invoked function that are not in the passed CTX as:
-
-[23:53:42](#XVlLFlSJrpYTk7roWn5A0rHZvOBdI0Zl-7da8pOWXfc) <GiuseppeChillemi (GiuseppeChillemi)>:
 * A variation of the idea could be to pass a second `CTX` with the words of the invoked function that are not in the passed CTX as:
 
 [23:54:49](#taQqJUvv1FUdsbpxFrT6x-BlYQBGjk4zggmFQauCpbI) <GiuseppeChillemi (GiuseppeChillemi)>:
@@ -10949,9 +10741,6 @@ looks ultra complicated ;)
 Don't be fooled by `compose` it is just to speed up things creating a pre-made object.
 
 [16:13:12](#nVb_e9jek2lDNHP1E97Yq1vBOFz7_m-Khmp5myJ2qwc) <hiiamboris>:
-I don't even see a `compose`...
-
-[16:15:03](#-XB1AOWAfAwZq2tJOXR4MP1HtyHUtSeZU-Of5EBIZEE) <hiiamboris>:
 I don't even see a `compose`...
 
 [16:18:45](#tVTHB_fBmTbDRlkbtYjDperqnea-xERiQBc2KTyQbtQ) <hiiamboris>:
@@ -11993,10 +11782,10 @@ You simply remove `/local` when there are no refinements, otherwhise you add to 
 Also, I am planning to not use the intermediate context in the first function but simply set all the words of the function using `set-word function-ctx context-passed`
 
 [8:46:49](#_o_xUcKYLni7ScGx_9LcRwl6I5Ev8kZr6W_AZ0V2Gic) <GiuseppeChillemi (GiuseppeChillemi)>:
-Note: After 12 hours working on a model to pass the context and set the function one to it, init, testing, using path notation, building full specs parser, writing notes and writing here.... before going to bed I have realized the best solution seems taking the SPECS OF a function,  remove /LOCAL, take its BODY and recreate it with an additional character at the end of its name! Just one line of code Ì†ΩÌ∏Å
+Note: After 12 hours working on a model to pass the context and set the function one to it, init, testing, using path notation, building full specs parser, writing notes and writing here.... before going to bed I have realized the best solution seems taking the SPECS OF a function,  remove /LOCAL, take its BODY and recreate it with an additional character at the end of its name! Just one line of code üòÅ
 
 [8:47:36](#SS1LJ5CCVR1Y3l2PYP_yDtoh985GQhbrI4Umn4eyqWM) <GiuseppeChillemi (GiuseppeChillemi)>:
-* Note: After 12 hours working on a model to pass the context and set the function one to it, init, testing, using path notation, building full specs parser, writing notes and writing here.... before going to bed I have realized the best solution seems taking the SPECS OF a function,  remove /LOCAL, take its BODY and recreate it with an additional character at the end of its name! Then use APPLY. Just one line of code! Ì†ΩÌ∏Å
+* Note: After 12 hours working on a model to pass the context and set the function one to it, init, testing, using path notation, building full specs parser, writing notes and writing here.... before going to bed I have realized the best solution seems taking the SPECS OF a function,  remove /LOCAL, take its BODY and recreate it with an additional character at the end of its name! Then use APPLY. Just one line of code! üòÅ
 
 [19:17:33](#DllUA0dkdBIxyK9iBoVBwHxvtcUcDHzPeYi2-ghkq3A) <greggirwin (Gregg Irwin)>:
 Red often involves doing things more than once to distill a solution you like.
@@ -12642,11 +12431,11 @@ Also I have discovered that REBOL3 is able to use `local` as refinement, so you 
 
 [16:49:48](#ek1ashfabc4oZtwYaesF6CbmYrmQhatSNcqLcdcSjFU) <GiuseppeChillemi (GiuseppeChillemi)>:
 I have completed the specs-parser. I have tested it against the whole `system/words` object and none ot the specs failed and was able to test all!
-Ì†ºÌΩæÌ†ºÌΩæÌ†ºÌΩæ
+üçæüçæüçæ
 
 [16:55:59](#7NPwkAdJHq_fJqdOsNQSrfjor-swnfRl6Zl-jhkaDso) <GiuseppeChillemi (GiuseppeChillemi)>:
 * I have completed the specs parser. I have tested it against the whole `system/words` object and none ot the specs failed and was able to test all!
-Ì†ºÌΩæÌ†ºÌΩæÌ†ºÌΩæ
+üçæüçæüçæ
 
 [19:42:31](#0c-0uA3g1HL5SKS1yMTTcJYx5jfxKXahDqW9H5sbfwY) <greggirwin (Gregg Irwin)>:
 Nice work!
@@ -12771,7 +12560,7 @@ note: /attempt mode still not implemented
 https://codeberg.org/hiiamboris/red-common/src/branch/master/leak-check.red ‚òª
 
 [10:35:44](#H_XoBhjFQmTQHU-GjEN1hKK5SorSld7Ek0uDnunU5i0) <GiuseppeChillemi (GiuseppeChillemi)>:
-Ì†æÌ¥£Ì†æÌ¥£Ì†æÌ¥£
+ü§£ü§£ü§£
 
 [13:26:42](#06YC1hm01WXUlMj-ma2iVaZ-nTQZiQAMOxH-mZvhFQ4) <GiuseppeChillemi (GiuseppeChillemi)>:
 hiiamboris: Now it is important to creata a "Boris Dupe Check", to prevent this from happening.
@@ -14236,9 +14025,6 @@ The last one is an `init` block
 [15:16:09](#6BX3I1Vm7kQbZWnOf98r1zzlHecDXgu40PjT88lO61E) <hiiamboris>:
 it is addressed by the last sentence in my message
 
-[15:17:51](#vzs2k7whw-77Vojy86jAKEnSkXuvFykemlQocxqyjtc) <hiiamboris>:
-it is addressed by the last sentence in my message
-
 [15:18:24](#mIdM424MidMTrVhMErKqUtkTz8F2IPrX4FqsNrgRvCo) <hiiamboris>:
 https://github.com/red/REP/issues/168
 
@@ -14810,27 +14596,6 @@ table/m/col
 
 
 [0:45:22](#JGoD1oSaOnxWbx_Aev9kKC924QDgITTE09huil8yfU0) <GiuseppeChillemi (GiuseppeChillemi)>:
-* GiuseppeChillemi (GiuseppeChillemi): Experimenting with paths
-
-While discussing about path pickers, I tought about having a caracter in the middle of a path to JOIN the result of a paren instead of using it to select.
-This is the result:
-
-```
-pt: 'table/!/('m/col)
-
-parse pt [
-	any [
-		change ['! set code paren!] (do code) 		 
-	|
-		any-type!
-	]
-]
-
->> probe pt
-table/m/col
-```
-
-[0:46:53](#nmppoRvG5il1YZWhbAZ4AsNucG9aHXXxl0xzOubrhdI) <GiuseppeChillemi (GiuseppeChillemi)>:
 * GiuseppeChillemi (GiuseppeChillemi): Experimenting with paths
 
 While discussing about path pickers, I tought about having a caracter in the middle of a path to JOIN the result of a paren instead of using it to select.
@@ -15456,38 +15221,6 @@ This latter and the former code, take up to 70% of the CPU cycles.
 The conclusion is simple: the correct way of creating such functions is to put each container creation on the outside, until Red will not be able, like Rebol3, to accept an external context for the called function. The Rebol3 way if the one to choose.
 
 [21:20:06](#tKj2TRc4xPSaCgfJP7AnN0wlVI1Q8Mg_beEwlxGVl9g) <GiuseppeChillemi (GiuseppeChillemi)>:
-* The code extracts some keys from a `map!` or `object` container, creating another one, the result, with just the key requested and their values. So, if you have:
-
-```
-#[a: 22 b: 33 c: 44 .....]
-```
-
-and you request `a` and `b`, you must create a target container with these keys and their values.
-
-```
-#[a: none b: none]
-```
-
-The test aims to show that if you create the target container inside the function, your code speed is  about 35% slower than passing the passing and reusing container at each function call. So, the correct style for function that needs strict loop optimization, is creating it externally and reusing it with `copy`.
-Also, the function accepts couples of words
-
-```
-[source-key1 dest-key1 source-key2 dest-key2]
-```
-
-for creating asimetric keys. In this case, the function uses `keys-to-write: extract/index keys 2 2` to get the keys and create the target container:
-
-```
-#[dest-key1: none dest-key2: none]
-```
-
-Values will be take from the other keys.
-
-This latter and the former code, take up to 70% of the CPU cycles.
-
-The conclusion is simple: the correct way of creating such functions is to put each container creation on the outside, until Red will not be able, like Rebol3, to accept an external context for the called function. The Rebol3 way is the one to choose.
-
-[21:27:33](#46VbhNfWZXjJF-iwqWMbX_Mrp1ql7FjIFiAcJDbtHD0) <GiuseppeChillemi (GiuseppeChillemi)>:
 * The code extracts some keys from a `map!` or `object` container, creating another one, the result, with just the key requested and their values. So, if you have:
 
 ```
@@ -16268,7 +16001,7 @@ And as I pointed out earlier: How are going to discern between selecting a and b
 >> select map 'a
 == #(none 'no-key)
 ```
-I guess we‚Äòll need `#(none 'really-no-key-believe-me)` pretty fast Ì†ΩÌ∏â
+I guess we‚Äòll need `#(none 'really-no-key-believe-me)` pretty fast üòâ
 
 
 [17:39:13](#ibrVf5pNzYdvbby_KY5CMaqcJjyrITt9aN2cf82HIb0) <GiuseppeChillemi (GiuseppeChillemi)>:
@@ -16301,16 +16034,16 @@ We have plenty of possibilities with truthy do this but we have zero falsey cont
 [18:38:10](#oApd4VolMvTuneKFjGX9vn4Jgehs9zi8pAVayrN4yP8) <gurzgri>:
 Sorry, I don't follow, I fail to understand how ‚Äûwith none-containers you don't have to invent a new datatype‚Äú and ‚Äûwe have zero falsey containers‚Äú go together. 
 
-I promise you won‚Äòt ever get your none-container - not because I am against it, that doesn‚Äôt matter. But because no one except you will ever be convinced that it is the right thing to do - I‚Äòm betting the Ì†ºÌΩø on it I‚Äòm watching this discussion with. Ì†ΩÌ∏ú
+I promise you won‚Äòt ever get your none-container - not because I am against it, that doesn‚Äôt matter. But because no one except you will ever be convinced that it is the right thing to do - I‚Äòm betting the üçø on it I‚Äòm watching this discussion with. üòú
 
 [18:49:29](#Ya8-24Dq41gtyAcN0EoKQ1Y4JtMhPn5U80lXAlKebPY) <GiuseppeChillemi (GiuseppeChillemi)>:
-Read the whole thread, it has been written. I also have written multiple times the need of side data with custom informations like /SKIP value requested by Boris. This is needed to extend or use existing structure for new uses, enrich them in specific coding areas. A falsey container has this purpose: having extra info in the case NONE Is returned. You can understand the idea with an open mindset instead of a popcorn one. Ì†ΩÌ∏û
+Read the whole thread, it has been written. I also have written multiple times the need of side data with custom informations like /SKIP value requested by Boris. This is needed to extend or use existing structure for new uses, enrich them in specific coding areas. A falsey container has this purpose: having extra info in the case NONE Is returned. You can understand the idea with an open mindset instead of a popcorn one. üòû
 
 [18:49:53](#i8q9aR6WIrrS-LsPvV-5ZUG_-czloZBKKbYtO2CMx7o) <GiuseppeChillemi (GiuseppeChillemi)>:
-* Read the whole thread, it has been written why it is useful and when. I also have written multiple times the need of side data with custom informations like /SKIP value requested by Boris. This is needed to extend or use existing structure for new uses, enrich them in specific coding areas. A falsey container has this purpose: having extra info in the case NONE Is returned. You can understand the idea with an open mindset instead of a popcorn one. Ì†ΩÌ∏û
+* Read the whole thread, it has been written why it is useful and when. I also have written multiple times the need of side data with custom informations like /SKIP value requested by Boris. This is needed to extend or use existing structure for new uses, enrich them in specific coding areas. A falsey container has this purpose: having extra info in the case NONE Is returned. You can understand the idea with an open mindset instead of a popcorn one. üòû
 
 [18:59:16](#Xypxnbuwm_pjRRw6mIm1w2RvrQuq1c5cYFeXDVsDoQ0) <GiuseppeChillemi (GiuseppeChillemi)>:
-* Read the whole thread, it has been written why it is useful and when. I also have written multiple times the need of side data with custom informations like /SKIP value requested by Boris. This is needed to extend or use existing structures in new ways, enrich them in specific coding areas. A falsey container has this purpose: having extra info in the case NONE Is returned. You can understand the idea with an open mindset instead of a popcorn one. Ì†ΩÌ∏û
+* Read the whole thread, it has been written why it is useful and when. I also have written multiple times the need of side data with custom informations like /SKIP value requested by Boris. This is needed to extend or use existing structures in new ways, enrich them in specific coding areas. A falsey container has this purpose: having extra info in the case NONE Is returned. You can understand the idea with an open mindset instead of a popcorn one. üòû
 
 [22:18:50](#_vbeKYXnjGvo5DgXCIo_ZC8CETFtyzCku2aBNuqIht8) <Oldes (@oldes.h:matrix.org)>:
 I would really like to see your real life example. Code snippets above are not good enough. I don't remember when I ever needed to differentiate if none returned from a map is because the value is none or that there is no key. Simply none means none and one must treat it as none. And if I really need to know, if the key exists, I may use the `find` function as was noted above.
@@ -17896,14 +17629,11 @@ Not to mention that you still don't understand, that although it could make your
 [5:46:56](#zUyOXSNYJ3smDJVq7WkPY_WauTDM_KkNfM-2efUb_nc) <Oldes (@oldes.h:matrix.org)>:
 And `any` returns `none` only when there were no truthy values in the block, so it cannot _break at falsey container_.
 
-[5:50:38](#ziBRctEASyw89CAsU94eZmcAZiYii5_s0m2R1IzqMQ0) <Oldes (@oldes.h:matrix.org)>:
-And `any` returns `none` only when there were no truthy values in the block, so it cannot _break at falsey container_.
-
 [7:39:52](#iiwogNeocblq12OHByqSn-ljhV-ZAGYIIuZ6kZhxueU) <hiiamboris>:
-Ì†æÌ¥¶‚Äç‚ôÇÔ∏è This whole notion of changing the language for the sake of getting one function right reminds me of the old joke *'how many persons are needed to change a light bulb near the ceiling?'
+ü§¶‚Äç‚ôÇÔ∏è This whole notion of changing the language for the sake of getting one function right reminds me of the old joke *'how many persons are needed to change a light bulb near the ceiling?'
 
 [7:40:00](#Vxie4h5V-Mxh_Zn5k4o9iuJSV0ekeDUS1iNyA0ktPFw) <hiiamboris>:
-* Ì†æÌ¥¶‚Äç‚ôÇÔ∏è This whole notion of changing the language for the sake of getting one function right reminds me of the old joke *'how many persons are needed to change a light bulb near the ceiling?'*
+* ü§¶‚Äç‚ôÇÔ∏è This whole notion of changing the language for the sake of getting one function right reminds me of the old joke *'how many persons are needed to change a light bulb near the ceiling?'*
 
 [9:02:05](#0mTzSBN--c4F2pRIKSmFhzO6_9H2FrGFSTbFF7e3B9A) <Oldes (@oldes.h:matrix.org)>:
 This is my last chance to get you on the right track GiuseppeChillemi (GiuseppeChillemi) 
@@ -18352,9 +18082,6 @@ It is on my plan but I love Red. For the next years we must stay together! :D
 [16:19:44](#hyZnCoSBw3LPZDVhX6hestJimefC1yhk101zIwTONfc) <GiuseppeChillemi (GiuseppeChillemi)>:
 Please, look at here: isn't it easier to read?
 
-[16:20:26](#KYTzh8IGg4lPRgx6cJdaLSwkB1aU12nTiaSwoMlkYW8) <GiuseppeChillemi (GiuseppeChillemi)>:
-Please, look at here: isn't it easier to read?
-
 [16:22:48](#hLy1_Za_2_tOREHCbYJhznxGrUb0ZfcWBxKMAUZ_7S4) <GiuseppeChillemi (GiuseppeChillemi)>:
 ![](https://gitter.ems.host/_matrix/media/v3/download/gitter.im/63d05c0a3f43126acfafbfb193efa5ba85cd72e71904569664273383424)
 
@@ -18550,4 +18277,9 @@ Nice presentation as well: https://github.com/rsheehan/Remix/files/7551327/Intro
 
 [17:18:17](#6Gi4Qe2MGLIutNN3AcmnlFTuYZ-nX54cGrh-hU4ZD0Q) <hiiamboris>:
 I guess a graduation project or something
+
+## 28-Aug-2025
+
+[21:21:38](#3U_sN_GMWiJaF491a5g2aMUvx6IU0gJLt231cudF0kA) <greggirwin (Gregg Irwin)>:
+If I knew about it, I forgot about it. Nice find.
 

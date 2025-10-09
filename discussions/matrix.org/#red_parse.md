@@ -220,7 +220,7 @@ resultify: function [expr vars /by ref][
 ```
 
 [20:38:27](#3qFoqXGtiqPr-8KVs_ALMQcYYbreXbYTNhFt3WelH84) <toomasv>:
-There should be `if (not empty? o)` before second alternative in `parse` Ì†ΩÌ∏≥ 
+There should be `if (not empty? o)` before second alternative in `parse` üò≥ 
 
 [20:39:02](#uz3ASkezh3YHMa-1lGjYJkj8PBZrEVfOHatlzHuUhpw) <toomasv>:
 * There should be `if (not empty? o)` in beginning of the second alternative in `parse` :flushed: 
@@ -316,7 +316,7 @@ Unless you're @hiiamboris and have a thousand faces in a dynamically generated l
 Keep us posted @mikeyaunish, as this type of feature is important in IDEs related to GUI design.
 
 [20:29:10](#5b5JETv5cU5fC3eDKQoFB9k1h_D6fkeaqFD2YSwaU9M) <hiiamboris (NOT THIS ONE)>:
-A man with a thousand faces Ì†ΩÌ∏É
+A man with a thousand faces üòÉ
 
 [20:29:11](#gYrhpPzvtaN7xc28aYXKnAYfmShxFl_AoT7a1WkGVIw) <greggirwin (Gregg Irwin)>:
 We're happy to learn from both success and...less success. :^)
@@ -355,10 +355,10 @@ Happens to all of us. Or at least me. :^)
 ## 11-Jan-2021
 
 [7:46:53](#H4J4Ajm1U8mcM36pjdxRvWsE3fP6ZAe3PjNg9McHsZA) <gltewalt (Greg T)>:
-Percy the Parse Ì†ΩÌ∞Å - finding his way `to end` of mazes 
+Percy the Parse üêÅ - finding his way `to end` of mazes 
 
 [7:47:07](#Nm4zmFs_2Ed--Gx1-a0tXhHOrYHg3S6bYLpZmi5tnno) <gltewalt (Greg T)>:
-Ì†ΩÌ∞≠ 
+üê≠ 
 
 ## 25-Jan-2021
 
@@ -412,7 +412,7 @@ Like so?
 
 [4:40:57](#knYWfLK5JOl-mR421Zpvs8eIOP7u0dIUQl3VjqAG990) <toomasv>:
 ```
->> parse txt [s: collect some [ahead " =>" Ì†ΩÌ∏ñ keep to " " 2 skip | #" " s: | skip]]
+>> parse txt [s: collect some [ahead " =>" üòñ keep to " " 2 skip | #" " s: | skip]]
 == ["Hello" "World"]
 ```
 
@@ -454,7 +454,7 @@ parse txt [
 		; the input is " =>". If so, set the input to the position
 		; s from the next rule. Then collect text until you get
 		; to the next space. Finally eat the " =>" marker.
-		ahead [some #" " "=>"] Ì†ΩÌ∏ñ keep to #" " some #" " "=>"
+		ahead [some #" " "=>"] üòñ keep to #" " some #" " "=>"
 		; Mark where you found a space.
 		| #" " s:
 		; Otherwise it's text and you can move forward.
@@ -562,7 +562,7 @@ The trick is that `s:` sets the position just past the last known space, and par
 [5:21:33](#3VTTnpqb23sMJMpoOERLY6hX8ZluVLR9uObCAnntakY) <toomasv>:
 Thanks @greggirwin , I started explaining it too, and then changed the rule a bit, and here it is with explanation:
 ```
-parse txt [s: collect any [some #" " "=>" e: Ì†ΩÌ∏ñ keep to #" " :e | #" " s: | skip]]
+parse txt [s: collect any [some #" " "=>" e: üòñ keep to #" " :e | #" " s: | skip]]
 ```
 Explained:
 ```
@@ -571,7 +571,7 @@ collect any [          ; it doesn't really matter if it is `any` or `some`
                        ; Principal alternative:
   some #" " "=>"       ;   we hit some spaces and "=>" (let's call it "separator")
   e:                   ;   record position after separator
-  Ì†ΩÌ∏ñ                   ;   go back to last recorded position ...
+  üòñ                   ;   go back to last recorded position ...
   keep to #" "         ;   ... and keep word between that position and next space
   :e                   ;   now jump to position after separator and continue from there
                        ; Second alternative:
@@ -609,7 +609,7 @@ collect any [          ; it doesn't really matter if it is `any` or `some`
 ```
 
 [5:25:16](#E5HMI_nYt3IVOeF2ZFpSox-mpksjuZvCAoNm86W1oAE) <toomasv>:
-Ì†ΩÌ∏∏ 
+üò∏ 
 
 [5:48:28](#XDZKYEXNI2hbtsjiu3B2pDwsc5NvUI8sOiFkywW2cVY) <toomasv>:
 But it is still too brittle. Suppose you have text where "=>" may have no spaces before it. Here is solution:
@@ -703,7 +703,7 @@ Yes, look at result of `parse-trace` and compare it to [this function](https://g
 @toomasv Thank you, it's iteresting indeed.
 
 [15:23:43](#kCwSUx_5OSxU7_RvUOgKXYlkz5lvUg-APCs7ce6KM80) <toomasv>:
-@GalenIvanov Working on your solution I got it 15 chars shorter Ì†ΩÌ∏Ñ
+@GalenIvanov Working on your solution I got it 15 chars shorter üòÑ
 ```
 func[s][a: charset"<>"until[parse s[any[t: change[a"<"a](t/1)| change[a">"a](t/3)| change["("a")"](t/2)| skip]]2 > length? s]probe s]
 ```
@@ -715,9 +715,6 @@ func[s][a: charset"<>"until[parse s[any[t: change[a"<"a](t/1)| change[a">"a](t/3
 ```
 
 [15:29:13](#1LtI6bYfJiPbTD34gXKX8vuHk5m1TLNs4HnK_g-IKdA) <toomasv>:
-But for given patterns the shortest possible is just `<`.
-
-[17:08:17](#mUhbxr1tBr-qmQkyv_nBKimObdKoNVPbMZhNc12FPkU) <GalenIvanov (Galen Ivanov)>:
 But for given patterns the shortest possible is just `<`.
 
 [17:15:30](#mnCVyBsGW-YAYteWG_ifbzbc-CX6N4Y_OMV53yd1O48) <GalenIvanov (Galen Ivanov)>:
@@ -744,7 +741,7 @@ as far as obfuscation goes.. 95b
 who needs spaces anyway
 
 [17:50:17](#_8Piq2QTxP4AQ0OwCs98r8uB46ne9_pCT9lAY5a68lA) <toomasv>:
-@hiiamboris Wohoo! Still 22 shorter than @GalenIvanov 's latest! Ì†ΩÌ±è 
+@hiiamboris Wohoo! Still 22 shorter than @GalenIvanov 's latest! üëè 
 
 [19:05:33](#ySr2j6ef4dSmxgd8eYU0t-JzzPUtoTuXFz_wqIsr9C8) <GalenIvanov (Galen Ivanov)>:
 @hiiamboris Wow! That's great!  After seeing yours and @toomasv solutions, they look obvious - too bad I didn't find something similar by myself. Thank you for your lessons!
@@ -752,7 +749,7 @@ who needs spaces anyway
 [19:13:42](#g3FyNSOguVd-519yyRM3s2MRkPRF5qeA53ku67Q39VE) <hiiamboris (NOT THIS ONE)>:
 we can probably cut 2 more bytes by using `while`: 
 `func[s][r:["<"|">"]while[parse s[to change[opt"("x:[r"<"r | r">"x: r]opt")"](x/1)to end]]][]`
-Ì†ΩÌ∏É
+üòÉ
 
 [19:16:26](#4bkNKItAIVNlYIJKSU4ez7jphx8tyPbDB1tMnUgtVuY) <GalenIvanov (Galen Ivanov)>:
 :+1: 
@@ -817,23 +814,12 @@ Without `opt`'s 85.
 [10:05:08](#kPSJs_emC8XBZyGMN43OINZkYj7vR2FmU9veEVcoZhU) <GalenIvanov (Galen Ivanov)>:
 [86 bytes](https://tio.run/##ZVLLbsMgELz3KxAnOFW9Wqv5iF4RhyjGTarUiXCq5tB/d/eB7Vj1YWXYYR4LtfTze@lTfhm6efgej2nKqXbJk//18PnndL6UdDvUqbgp3a/ueDqMHyX54B@dq4KrTpCyyj76HB6vb5GBZexzTnnK83Ct5XA8uckl9@L48wB5@yMKBIptFQDEtRe4R4hcKEZadwMYRpEb4O4OT9wjpmB80C4XRQrFel4W0lMa09cFn1tRrGEMaoBbDd42@dzGJxpWxC5XQ0J5yULELZPBLeoiDLFDFuzJBQvvXKMpaKpNH2qTGgZPGWDDkzCE/75hltFsUjOPJxTIgDAamPHYpoZNLbR5tnvRYryGJ@yVaR2NRNc/MlrseWm9IqXCMmwsw9YE@2kIk56SG1uyyZ2qstxGTu5Wz@Pdpa/rpee36bvOu8HV8nk9j/K@ZY/fc3Z5/gM ) - I add a `s` to make it work iin TIO
 
-[10:07:13](#PxV4ktxHo0s5qoDP2yU6cXPlZiuK07CTPoBhyFEycqY) <toomasv>:
-[86 bytes](https://tio.run/##ZVLLbsMgELz3KxAnOFW9Wqv5iF4RhyjGTarUiXCq5tB/d/eB7Vj1YWXYYR4LtfTze@lTfhm6efgej2nKqXbJk//18PnndL6UdDvUqbgp3a/ueDqMHyX54B@dq4KrTpCyyj76HB6vb5GBZexzTnnK83Ct5XA8uckl9@L48wB5@yMKBIptFQDEtRe4R4hcKEZadwMYRpEb4O4OT9wjpmB80C4XRQrFel4W0lMa09cFn1tRrGEMaoBbDd42@dzGJxpWxC5XQ0J5yULELZPBLeoiDLFDFuzJBQvvXKMpaKpNH2qTGgZPGWDDkzCE/75hltFsUjOPJxTIgDAamPHYpoZNLbR5tnvRYryGJ@yVaR2NRNc/MlrseWm9IqXCMmwsw9YE@2kIk56SG1uyyZ2qstxGTu5Wz@Pdpa/rpee36bvOu8HV8nk9j/K@ZY/fc3Z5/gM ) - I add a `s` to make it work iin TIO
-
 [10:07:21](#zU482GFDehBR00OCEcIBI0Prea4va7C81xKd2LJWVkk) <toomasv>:
 * But, sorry, `opt` seems necessary after all. Second block of patterns doesn't solve without it.
 
 ## 8-Feb-2021
 
 [3:47:40](#_LHe1MuFnng611SpZysT-C0MX0OX7XJsH75p7QuXSVw) <qtxie>:
-Why this parse rule works in Rebol but not in Red?
-https://gist.github.com/qtxie/e321ac4d1c737fc6e5d843f67cbb7de4
-
-[5:07:27](#rGVApBplnW0_QV64VBBNz8DqpGQDClQNo9fwiFMSgls) <toomasv>:
-Why this parse rule works in Rebol but not in Red?
-https://gist.github.com/qtxie/e321ac4d1c737fc6e5d843f67cbb7de4
-
-[5:59:25](#oonSTSedJgJzTCABMaf6aKerhAha9u-u-Ar2ZK-X6Is) <toomasv>:
 Why this parse rule works in Rebol but not in Red?
 https://gist.github.com/qtxie/e321ac4d1c737fc6e5d843f67cbb7de4
 
@@ -896,7 +882,7 @@ Yep
 Order does matter. You need to put the longest matching rules first.
 
 [1:06:25](#n9JkSF69_iJHuP7GyRtZm9M7hilUi3UygXVWrUCOd_s) <gltewalt (Greg T)>:
-This is `very` deliberate and basic, down to the simplest I can make it while  I stumble through it - so... don;t make fun of me Ì†ΩÌ∏é 
+This is `very` deliberate and basic, down to the simplest I can make it while  I stumble through it - so... don;t make fun of me üòé 
 
 https://gist.github.com/gltewalt/4bdba9588bec79d111bb4056fc209e41
 
@@ -1327,7 +1313,7 @@ level-3-rule: [change "==== " {<a href="#Lnk">} to newline insert "</a><p>" newl
 [18:50:22](#LMpfnjCcnkUZMkoIVkDQx_oNHzQ1Xs7tB1OIikTtRFg) <gltewalt (Greg T)>:
 > Thanks @greggirwin , I started explaining it too, and then changed the rule a bit, and here it is with explanation:
 > ```
-> parse txt [s: collect any [some #" " "=>" e: Ì†ΩÌ∏ñ keep to #" " :e | #" " s: | skip]]
+> parse txt [s: collect any [some #" " "=>" e: üòñ keep to #" " :e | #" " s: | skip]]
 > ```
 > Explained:
 > ```
@@ -1336,7 +1322,7 @@ level-3-rule: [change "==== " {<a href="#Lnk">} to newline insert "</a><p>" newl
 >                        ; Principal alternative:
 >   some #" " "=>"       ;   we hit some spaces and "=>" (let's call it "separator")
 >   e:                   ;   record position after separator
->   Ì†ΩÌ∏ñ                   ;   go back to last recorded position before separator ...
+>   üòñ                   ;   go back to last recorded position before separator ...
 >   keep to #" "         ;   ... and keep word between that position and next space
 >   :e                   ;   now jump to position after separator and continue from there
 >                        ; Second alternative:
@@ -1387,28 +1373,6 @@ I swear there was an error on my linux version - cant check until after work, no
 As it belongs to `any-string!` typset it is supported. Just not matching.
 
 
-[6:24:13](#ILHF_4FPMcxMlz0QaxHiQCUHuWX_3PjCIgeqctJ1Vtc) <toomasv>:
-@Oldes It is just the same as you showed before:
-```
->> parse "aa" [%aa]
-== true
->> parse "1" [%1]
-== true
-```
-As it belongs to `any-string!` typset it is supported. Just not matching.
-
-
-[6:30:00](#xFHiOqAmBhQrVRUDwRIIJh2sXEU0eD-rIM8PCsr8vhU) <toomasv>:
-@Oldes It is just the same as you showed before:
-```
->> parse "aa" [%aa]
-== true
->> parse "1" [%1]
-== true
-```
-As it belongs to `any-string!` typset it is supported. Just not matching.
-
-
 [6:30:32](#TO_sbgg9R7f_4mRvJzMitnMD6Up_jAeWle_UgUw12Ws) <toomasv>:
 * Alternatively:
 ```
@@ -1430,8 +1394,8 @@ As it belongs to `any-string!` typset it is supported. Just not matching.
 [6:41:09](#vpm9FMi97NJ4YYCpGrOlOMqYkl3DH67E9WQWHyzGEFI) <toomasv>:
 @gltewalt Yes, copy and juggle indexes:
 ```
->> level-3-rule: [s: change "==== " {<a href="#Lnk">} copy lnk to newline Ì†ΩÌ∏ñ thru "#" change "Lnk" (lowercase replace/all copy lnk #" " #"-") to newline insert "</a><p>" newline]
-== [s: change "==== " {<a href="#Lnk">} copy lnk to newline Ì†ΩÌ∏ñ thru "#" change "Lnk" (lowercase re...
+>> level-3-rule: [s: change "==== " {<a href="#Lnk">} copy lnk to newline üòñ thru "#" change "Lnk" (lowercase replace/all copy lnk #" " #"-") to newline insert "</a><p>" newline]
+== [s: change "==== " {<a href="#Lnk">} copy lnk to newline üòñ thru "#" change "Lnk" (lowercase re...
 >> parse str: "==== Usage^/" level-3-rule str
 == {<a href="#usage">Usage</a><p>^/}
 >> parse str: "==== Usage example^/" level-3-rule str
@@ -1669,7 +1633,7 @@ Not in R2:
 >> parse [1] [any [1 1 1 1 1 1 quote 1]]
 == false
 ```
-Not that is useful   Ì†ΩÌ∏ï
+Not that is useful   üòï
 
 [18:46:05](#GWWmZk6Yn7LgJzDyXGQAn7h2LDRwHr9-VNsaBYPv95U) <toomasv>:
 Plain integer is *always* a rule in Red
@@ -1756,7 +1720,7 @@ I bet @toomasv cheated and used DiaGrammar. ;^)
 [![image.png](https://files.gitter.im/5b147b8fd73408ce4f9bc4b4/WFBw/thumb/image.png)](https://files.gitter.im/5b147b8fd73408ce4f9bc4b4/WFBw/image.png)
 
 [20:03:47](#t9ZMIVxGCy_nEeVw72Jc6nTejl3LJoITjHjqkAv8iBQ) <toomasv>:
-Ì†ΩÌ∏Ñ I'd like to have had that idea!
+üòÑ I'd like to have had that idea!
 
 ## 24-Feb-2021
 
@@ -1789,7 +1753,7 @@ Might be
 Im running to the other job right now so i cant try to check
 
 [20:34:29](#c5ATQkqFoYm3NEXjwtq6ZYCmGOS_Pw5PcR6sjqaIz7A) <hiiamboris (NOT THIS ONE)>:
-You'll hunt it down eventually Ì†ΩÌ∏â
+You'll hunt it down eventually üòâ
 
 [20:37:29](#DF7Fx4ugpGXL7fecbvETC_g4L49wCAq_NTNCJnw1Ngg) <gltewalt (Greg T)>:
 Pulling from on-parse-event
@@ -1970,7 +1934,7 @@ Thanks for the addenda and errata @toomasv. :+1:
 Never be ashamed. :^)
 
 [16:29:09](#AAJv7i8xp-aTln7yeYWP2VSwkNd6vnvRg-aJIiAAO2g) <toomasv>:
-Ì†ΩÌ∏≥ 
+üò≥ 
 
 [17:24:44](#fZ6Na6HyXxfY4v2t8355pX7oAS9FtINasAbYEgOYo8g) <GiuseppeChillemi (GiuseppeChillemi)>:
 > Never be ashamed. :^)
@@ -2002,7 +1966,7 @@ https://github.com/gltewalt/parse-caddy
 Thanks for posting @gltewalt ! Nice mascot. :^) I will check it out soon.
 
 [6:05:55](#zxt91eQWG3emJEHlRobja0G5z9vmqVx864QXzZ9mW0Y) <gltewalt (Greg T)>:
-Ì†ΩÌ∏ä  I hope it's ok for completed v1 
+üòä  I hope it's ok for completed v1 
 
 [9:20:02](#FjbbMShvtJZmgIO8co9mLfNkSfhOt4N1-c6R7kF1SPM) <hiiamboris (NOT THIS ONE)>:
 I'd like such tool to remember start and end of every match. Then when I select one char/value or more, it would highlight in green parts of the rule that matched this whole selection, and in red - parts that tried to match it but failed. Or smth like that :)
@@ -2200,7 +2164,7 @@ parse data [
 wow!!! Thanks!!!
 
 [11:15:47](#AiitcLx2tg_UzdQIpspNGuuVtqZ_jw5Cbw6NNwTz6vw) <toomasv>:
-Ì†ΩÌ∏Ñ
+üòÑ
 
 [11:17:42](#HE53JH7HVCAhH-K87mS4QjsK5ngnv1Yt9xyP6CW5dhU) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
 Now I will study the above few lines of code for one week and hope I get a clue, what it does :-)
@@ -2765,9 +2729,6 @@ Ys, it continues after exiting from `rule`, i.e. after `into rule`.
 [12:59:29](#RFiL_3_2VFootkw0pOKn3Nu6jsOU6VZ3YA9Ee9kw2X8) <toomasv>:
 * Yes, it continues after exiting from `rule`, i.e. after `into rule`.
 
-[13:08:22](#GV6v2T7rLjPsw1pJQgAubgcwItxeXuA3fUdYI86vSeQ) <bubnenkoff (Dmitry Bubnenkov)>:
-* Yes, it continues after exiting from `rule`, i.e. after `into rule`.
-
 [13:14:21](#MnFBNGyJZ6kOyEikyYgkJ9Zu8cIuM7Eu1MOw1bxZSq8) <bubnenkoff (Dmitry Bubnenkov)>:
 Oh! I understood!
 
@@ -2939,7 +2900,7 @@ Thanks, I take a look. I‚Äôm not using `fail` or `reject` very much but `break` 
 ```
 
 [14:08:43](#7-bh8rC5ax8Dq96JQzoP5trylCYP8gvKuqfdJBEHgeE) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-@hiiamboris I just FAILed reading the 3478 issue, because my brain REJECTed to understand all of mentioned cases and I must take a BREAK now Ì†ΩÌ∏â
+@hiiamboris I just FAILed reading the 3478 issue, because my brain REJECTed to understand all of mentioned cases and I must take a BREAK now üòâ
 
 [14:09:04](#h8P0uxkOxx_dxpTvzbuE_N382S35q9bGgRn2zPxOwJY) <hiiamboris (NOT THIS ONE)>:
 lol
@@ -2982,7 +2943,7 @@ In R3 it could be:
 BTW, just now I‚Äôve updated my [HTML parser](https://gitlab.com/rebolek/castr/-/blob/master/html.red) so now it can handle even more buggy HTML than before. Stuff like `<b>start<a href="/">inner</p><p.</a>end</b>` and other monstrosities can be parsed without a problem.
 
 [14:26:23](#lgvHA8EuiHg0QBB_GQqRWtOz5sE-J4AgA0K93zZGDKU) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-But `return (true)` is in R3 14x slower than `to end` and longerÌ†ΩÌ∏ï
+But `return (true)` is in R3 14x slower than `to end` and longerüòï
 
 [14:27:08](#bpq_uZk7G5ajEvcUjPkeUAVFM03j0OoBnaQP4dFSmkE) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 14x slower? wow
@@ -3024,7 +2985,7 @@ maybe it was there 2-3 years ago but was removeed
 
 > Maybe `parse "ab" ["a" accept]` should return `true` instead of `false` in (R3).. there is no `accept` in Red. It could be added into the red/red#3478 to make it even more complicated:)
 
-That's an interesting consideration, but probably should be left for a separate REP? Ì†ΩÌ∏â
+That's an interesting consideration, but probably should be left for a separate REP? üòâ
 We don't have infinite data, but to exit parse asap, I recall I used `exit` at least once. Otherwise I could write `loop 1 [parse ... [ .. (break)..]]`. But that's a workaround alright.
 
 
@@ -3124,7 +3085,7 @@ I will to add examples later, I am doing small collections of good solutions
 
 [18:38:26](#9TvTiCcrML-lknmZz8imqGEFP9YoBDdd1h8PRVxLXqI) <hiiamboris (NOT THIS ONE)>:
 @bubnenkoff FYI there's another way to do the same task: https://gitlab.com/hiiamboris/red-mezz-warehouse/-/blob/master/collect-set-words.red#L9
-In Red there's always another way Ì†ΩÌ∏É
+In Red there's always another way üòÉ
 
 [18:44:56](#K6lNg__75EaF0Kgw5D4NpxZcMGuiFqgrL-CGKZwXGVA) <bubnenkoff (Dmitry Bubnenkov)>:
 @hiiamboris hah! Funny!
@@ -3142,10 +3103,10 @@ Thanks @bubnenkoff ! You've been doing a lot of `parse` work.
 Very clever leverage of `function`.
 
 [19:06:10](#00nGsHiFaj_PDDkJSHgn4S333C7N_n5wc2yVvwqRn10) <hiiamboris (NOT THIS ONE)>:
-Had to google it Ì†ΩÌ∏É Turns out it's one of the guys who wrote `2001`
+Had to google it üòÉ Turns out it's one of the guys who wrote `2001`
 
 [19:16:34](#1g3qkOT98gyDfPypCPFhB2KnDiwqyyGJIlc0HVlTIO8) <hiiamboris (NOT THIS ONE)>:
-You know I was staring at a microSD card the other day and thinking.. how could such 1cm thing fit 1TB of data? And what would an *uninformed* person do with it? Chew it? Try to make some tea? Ì†ΩÌ∏â
+You know I was staring at a microSD card the other day and thinking.. how could such 1cm thing fit 1TB of data? And what would an *uninformed* person do with it? Chew it? Try to make some tea? üòâ
 
 [19:31:00](#3mSE0Zad89q_MGDljaKtTLAEr-1hrn0x0esM9P9otYY) <toomasv>:
 Yes, @hiiamboris , funny func! :)
@@ -3168,7 +3129,7 @@ But how much of that is redundant information? And how much of an atom is empty 
 Maybe run us through a dehydrator as well.
 
 [20:25:09](#hfjxvJopACOTbFyEjIYR3o-gPEnTNWeq4uD51Uu-Z4o) <hiiamboris (NOT THIS ONE)>:
-Good luck looking for volunteers Ì†ΩÌ∏â
+Good luck looking for volunteers üòâ
 
 [20:27:16](#Xi13IREjphZ_NG2Sl5AHeRygOo-7R7a5XyeORm_mO4E) <greggirwin (Gregg Irwin)>:
 I volunteer...well, not you because we need you. I'd do it myself, but somebody has to clean up the mess after it's done.
@@ -3582,7 +3543,7 @@ parse a compose/deep [ quote (to-set-word needle) set x skip insert [(to-set-wor
 ```
 
 [11:11:37](#AG1ODMn4EQyZVwxnQblfKJMj6X3ZENyQ6g45y1FjsEw) <toomasv>:
-Did you try it in fresh console? Ì†ΩÌ∏â
+Did you try it in fresh console? üòâ
 
 [11:17:42](#hFd3ykHhI-qb0CAe4Xttygo9kspGN__3DFsML56M904) <bubnenkoff (Dmitry Bubnenkov)>:
 hah! In fresh do not work)
@@ -3690,16 +3651,6 @@ No
 then where `[]` ?
 
 [13:18:00](#d-7WZagdC9tr-TJqjoGwzbcgv4pahU19bGgbdSscAaA) <hiiamboris (NOT THIS ONE)>:
-```
->> append [1 2] [3 4]
-== [1 2 3 4]
->> append [1 2] ((([3 4])))
-== [1 2 3 4]
->> ((([3 4])))
-== [3 4]
-```
-
-[13:18:30](#ykfA9mRNCHVYWaayjw0RxFecLrJTLyeqALJ7OlV0fY0) <toomasv>:
 ```
 >> append [1 2] [3 4]
 == [1 2 3 4]
@@ -3837,9 +3788,6 @@ How many nones are in your input? None.
 @bubnenkoff sometimes it can help to use other funcs to explore your data. e.g. `foreach ... print type? ...]` or a general `parse` rule that accepts any value and dumps info about it.
 
 ## 19-Mar-2021
-
-[12:41:18](#Pi6x74KIMPrcchtRncRFk5REsSEw1-B1vxJyn2RYJ2I) <bubnenkoff (Dmitry Bubnenkov)>:
-@bubnenkoff sometimes it can help to use other funcs to explore your data. e.g. `foreach ... print type? ...]` or a general `parse` rule that accepts any value and dumps info about it.
 
 [12:43:13](#rUBNAstIjpRfse8C4qGmGZCeNZdP7SL_FDMtsZc-pR0) <bubnenkoff (Dmitry Bubnenkov)>:
 * Could anybody show me how should look like rule that at first step process all set-words that have value int or string and at second step enter in words that have block as value:
@@ -4010,9 +3958,6 @@ am I understanding `to rule` correctly: even if `rule` advances the input consid
 [21:35:07](#iHx0uqfQ8_4oIflZYbkUXM9GQ6B9NvtrFuBUncHuf5I) <hiiamboris (NOT THIS ONE)>:
 Exactly. This is called backtracking.
 
-[21:35:52](#5KUTKrrxW0jGpKj8jsVy08I-tfU9ZwsJQfYQ3UoOXb4) <hiiamboris (NOT THIS ONE)>:
-Exactly. This is called backtracking.
-
 [21:38:13](#HH_mNJUbAUNVbbKU5B6Vf0aR_C8qPBXJxDU3GgRoIHk) <rseger (rseger)>:
 excellent, makes sense. Love it when that happens :)
 
@@ -4023,7 +3968,7 @@ you can hack it to work your way :)
 read this? https://www.red-lang.org/2013/11/041-introducing-parse.html
 
 [21:40:55](#ZPs2DSEV8n0rXuK3lf5JwMrLC64rRAHI_KURC9ISNBA) <hiiamboris (NOT THIS ONE)>:
-there's `word:` an `:word` things in there of particular interest Ì†ΩÌ∏â
+there's `word:` an `:word` things in there of particular interest üòâ
 
 [21:41:16](#CudcIl4OnIHcIbTrbVsLQ8YSAo4Qn0RzIrKfTbMPEIs) <hiiamboris (NOT THIS ONE)>:
 but I don't recommend hacking `to` 
@@ -4042,7 +3987,7 @@ learning a ton, but struggling mightily for it :)
 I struggle too
 
 [21:46:54](#devI_G1VKJ7huFAHeDJMFZLTywYnILDBuw9F20XE-ic) <hiiamboris (NOT THIS ONE)>:
-@rseger when stuck, parse your code snippet here, someone will offer an advice Ì†ΩÌ∏â
+@rseger when stuck, parse your code snippet here, someone will offer an advice üòâ
 
 [21:47:15](#Q-4mcK0qhm2iVCCbFWBmJibgcBrufeXW6e05deUajB4) <hiiamboris (NOT THIS ONE)>:
 * @rseger when stuck, post your code snippet here, someone will offer an advice ;)
@@ -4051,7 +3996,7 @@ I struggle too
 sanitizing data isn't so wildly out of parse's use case that I'm running at a dead end, right? I have a semi-functioning horrific version working with regexes that I can no longer maintain because I can no longer read the gd regexes. Parse is like a goldmine for readability and I'm really hoping I can figure out how to use it this way without losing that
 
 [21:58:08](#oXuiEN6OqD-LXAjo1QEJFhr-_ev5_KGjm16wYos2CmE) <hiiamboris (NOT THIS ONE)>:
-you'll learn it Ì†ΩÌ∏â
+you'll learn it üòâ
 
 [21:58:35](#-UohmYgE2OO2aAA5Eqgq5CqERRHFZ04xDdIuYiHmvQk) <hiiamboris (NOT THIS ONE)>:
 sanitizing works just as well as anything else really
@@ -4065,7 +4010,7 @@ As @hiiamboris if you post sample data and goals, you'll often get help here.
 it has to work against intentionally degenerate data, unfortunately. Both the nugget and the surrounding opaque data are available to the attacker to manipulate in any way they like before it all gets passed through my engine. The data has to come out squeaky clean without destroying the good stuff in the process
 
 [23:10:43](#6Y2oWP3XkOiCWkHKbAdNt7fMq19Y9MCW3ob7ZlFjyis) <rseger (rseger)>:
-bah, my `to` hack works but it is painfully slow Ì†ΩÌ∏≠ why you gotta be right @hiiamboris? 
+bah, my `to` hack works but it is painfully slow üò≠ why you gotta be right @hiiamboris? 
 
 [23:15:42](#L-SdZ2lRxdYVhSlPplOqanlgq4kZ6FajKsAvc-8XOVw) <rseger (rseger)>:
 I gotta take a break for a bit but if anyone is bored and interested in a concrete example, this works save being painfully slow
@@ -4121,7 +4066,7 @@ whatever
 ## 24-Mar-2021
 
 [15:24:30](#kVelNAym62GBsev3_4SGpaMbS9VfnrvSveW-UKmDm0A) <hiiamboris (NOT THIS ONE)>:
-@perk I've implemented your idea of a [parse tool](https://gitlab.com/hiiamboris/red-cli/-/tree/master/mockups/parse) (how I imagined it) so check it out Ì†ΩÌ∏â 
+@perk I've implemented your idea of a [parse tool](https://gitlab.com/hiiamboris/red-cli/-/tree/master/mockups/parse) (how I imagined it) so check it out üòâ 
 Can we improve it?
 
 [15:24:43](#zOhg4wnM3A6lBcBIo4ubFUnE5YVRmUJRk-2ynwbn5c0) <hiiamboris (NOT THIS ONE)>:
@@ -4141,7 +4086,7 @@ wut? In just two days? How's that? :-)
 I will try to run the examples, thanks for that!
 
 [16:22:44](#PZu6WH1e2eDVs773j0Bpw9aVZxi7XIQOg3O5t0ODG04) <hiiamboris (NOT THIS ONE)>:
-in 4 hrs Ì†ΩÌ∏â
+in 4 hrs üòâ
 
 [16:23:34](#rByjPmwTJ9dN84JvsyMwjUapic00JtOTbXH383bcw1E) <greggirwin (Gregg Irwin)>:
 Look at how little code it takes @pekr, and everyone please say what you think of his CLI approach. We've had that waiting in the wings for quite some time.
@@ -4209,10 +4154,10 @@ good to know
 (and thank you - that is exactly what I was hoping to learn!)
 
 [20:27:10](#rcRPzqsg_SIYblrzIPU1W5vVIOTQ6X0byGGYUQZ24kk) <hiiamboris (NOT THIS ONE)>:
-I added `--write` to the Parse tool to batch edit files Ì†ΩÌ∏â
+I added `--write` to the Parse tool to batch edit files üòâ
 
 [20:27:23](#_RFnnZsi1guebJnvHgBYtCIm0qGlolL-CXGldLPe9jc) <hiiamboris (NOT THIS ONE)>:
-With ports it will kill `sed` Ì†ΩÌ∏â
+With ports it will kill `sed` üòâ
 
 [21:30:24](#23qwYjGJBDsbbtJy6-wGyuAR4vpSPCV4qjz7zZI1dwM) <GiuseppeChillemi (GiuseppeChillemi)>:
 Wow
@@ -4226,7 +4171,7 @@ line-rule: [
 	s: #L set line integer! e: (
 		s: remove/part s 2
 		new-line s yes
-	) Ì†ΩÌ∏ñ
+	) üòñ
 ]
 
 src: [
@@ -4240,7 +4185,7 @@ src: [
 parse src blk: [
 	some [
 	 line-rule
-	| p: [path! | set-path!] Ì†ΩÌ∏õ into [some [defs | skip]]	;-- process macros in paths
+	| p: [path! | set-path!] üòõ into [some [defs | skip]]	;-- process macros in paths
 	| s: 
 	  [into blk | block! | paren!]			;-- black magic...
 	  s: (print "END?" ? src halt)
@@ -4297,18 +4242,6 @@ Where happens the:
 parse [""][into [none!]]
 ```
 
-[22:15:03](#y5k-t5ohdi3FomhAU1RvwP_DPQB-cmO0YAPcBEPSWWs) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-@Oldes try this in R2, R3, and Red. 
-```
-parse [""][into [none!]]
-```
-
-[22:16:23](#hVkoqPHNFLKgmwGWQVUYgoV1NLao5-LRuzjPm700J7Y) <9214 (Vladimir Vasilyev)>:
-@Oldes try this in R2, R3, and Red. 
-```
-parse [""][into [none!]]
-```
-
 [22:16:34](#g8N4OZGb5EAsug-x7x7NYLtE0Z632_c1C-tjUlW0JTI) <9214 (Vladimir Vasilyev)>:
 * `into blk` tries to match `"R/S"` because it's a series. The other `into` does some pre-checking (poor man's `ahead`) for paths and avoids that.
 
@@ -4357,13 +4290,13 @@ not "greedy" :) `skip` just means accept any token. Parse rules do not look ahea
 * not "greedy" :) `skip` just means accept any token. Parse rules do not look ahead to see what rule is next.
 
 [17:08:46](#2TYzL5i3aDDyofktnHhetp9-xjJESLCy_BX5s_sA3qg) <rseger (rseger)>:
-fair, still stuck in regex land a bit Ì†ΩÌ∏≥ 
+fair, still stuck in regex land a bit üò≥ 
 
 [17:14:18](#tQjd00QsQRuMKXmA4YOSGC5ecWV9sMDSWjBFiEOEB04) <rseger (rseger)>:
-I just went through a chunk of my code from a week ago. Two things became apparent: I have actually learned a lot, my original cut.. Ì†ΩÌ∏≠ 
+I just went through a chunk of my code from a week ago. Two things became apparent: I have actually learned a lot, my original cut.. üò≠ 
 
 [18:15:36](#cBVYFMDd2YT0URdiLd_E1r7Gz_6Jq3MR66Pmwz0XkN8) <hiiamboris (NOT THIS ONE)>:
-maybe you can start a "Parse for Regex users" wiki entry Ì†ΩÌ∏â
+maybe you can start a "Parse for Regex users" wiki entry üòâ
 
 [19:03:00](#cQiNZVpWNEGwwPEZIUW-_0Iek45OfKaAS_W-O101Oq0) <rseger (rseger)>:
 lol. I feel like maybe I should figure that out a little first :)
@@ -4428,7 +4361,7 @@ Docs say "Forces enclosing block! rule to instantly succeed. " but only repetiti
 The great thing about new people is that they don't know what to tiptoe around, reminding us of traps we automatically avoid. 
 
 [21:11:37](#CqfHihsbfQxH2MwK87ET1BCkRNSZxtNaG2MUAfx6xVQ) <hiiamboris (NOT THIS ONE)>:
-True Ì†ΩÌ∏â
+True üòâ
 
 [21:13:09](#sSS23SQhdLIHA4zSYDbUbtOz_Rdf7AantaDuvtv21rY) <hiiamboris (NOT THIS ONE)>:
 * @rseger I suggest [raising an issue](https://github.com/red/red/issues/new?template=bug_report.md) about that. `break`, `fail` and `reject` designs are fundamentally flawed IMO. There was a discussion about them previously in https://github.com/red/red/issues/3478 , but unfortunately I don't know if Nenad saw it.
@@ -4439,10 +4372,10 @@ A more in-depth material https://w.red-lang.org/en/parse/ says that for Parse to
 "Input exhaustion" is what's missing. But to me it looks like a special case where one shouldn't be.
 
 [21:29:18](#GO8DifDocHp3NuzllaUPVPlFj75jP1-NsGHLRhc5Mpg) <rseger (rseger)>:
-Ì†ΩÌ≤• <- my true skillset Ì†ΩÌ∏â
+üí• <- my true skillset üòâ
 
 [21:32:21](#MrJQ9CdJw1XgkLAQSQF-JIoV22inBIRKTJbJ9pqntNY) <hiiamboris (NOT THIS ONE)>:
-Dangerous! Ì†ΩÌ∏É
+Dangerous! üòÉ
 
 [21:35:24](#DRtnxt7tqfc1kAO3houa_3U--2BdO-itG6eAtr5Xmio) <greggirwin (Gregg Irwin)>:
 Save that codepoint for function name annotations. We can blow Hungarian Notation out of the water, almost literally.
@@ -4622,7 +4555,7 @@ There was some talk in the past about adding extra modes to Parse (reverse, Pack
 ```
 >> block: tail [a b c d e f g]
 == []
->> parse block [[any [s: if (head? s) break | (probe s s: back s) Ì†ΩÌ∏ñ]] :block]
+>> parse block [[any [s: if (head? s) break | (probe s s: back s) üòñ]] :block]
 []
 [g]
 [f g]
@@ -4657,19 +4590,19 @@ block: [a b c [d a g f e] g h]
 needle: 'a 
 parse block rule: [
     (mark: none) 
-    s: opt [if (head? s) (done: tail s) Ì†ΩÌ∏Éone] 
+    s: opt [if (head? s) (done: tail s) üòÉone] 
     [
         any [
-            s: (done: tail s) ahead needle mark: Ì†ΩÌ∏Éone 
+            s: (done: tail s) ahead needle mark: üòÉone 
         |   ahead block! into rule s: [
                 if (mark) thru end 
             |   (s: back s) fail
             ] 
         |   if (head? s) [
                 if (s = block) fail 
-            |   Ì†ΩÌ∏Éone
+            |   üòÉone
             ] 
-        |   (s: back s) Ì†ΩÌ∏ñ
+        |   (s: back s) üòñ
 ]]] 
 mark
 == [a g f e]
@@ -4743,9 +4676,6 @@ this is highly inefficient though, you would be better of with find/reverse
 [8:46:59](#uDXahSOY7ZHdWiQkwg7pNM19TJOX5nGCu7KLxycqGXA) <hiiamboris (NOT THIS ONE)>:
 * this is highly inefficient though, you would be better off with find/reverse
 
-[8:47:42](#WJkq7pzlmnwyJGNNxMMN366byoCVpDCGv_JnZl8SxAw) <toomasv>:
-* this is highly inefficient though, you would be better off with find/reverse
-
 [9:36:05](#fMoPz_Wgbq4px1ugTu-P9FncdGqEsad9t_-JdvPHIKs) <hiiamboris (NOT THIS ONE)>:
 @toomasv for the record, what's your use case?
 
@@ -4810,7 +4740,7 @@ Sure
 so much love
 
 [15:18:54](#zljoHvj8K4kbfpCNKg5Xn6N68qSfRRMnfCWSNtm_Ijk) <hiiamboris (NOT THIS ONE)>:
-It looks like some people come here not because of Red, but because of Parse alone Ì†ΩÌ∏â
+It looks like some people come here not because of Red, but because of Parse alone üòâ
 @rseger how did you find out about Parse?
 
 [15:20:54](#6zLxs82kzbipdbeqO1ocJWmGSJ5nkGGUDC6lhPpK7GU) <rseger (rseger)>:
@@ -4823,7 +4753,7 @@ So you've been digging Red a bit and realized Parse is what you need and started
 I ran into the limits of regex, thought about creating my own one-off solution, and remembered that there's no way in the world I'm the first person to have this problem. Took some aggressive googling but I did finally find an alternative. Originally my goal was effectively just a subset of regex with great readability. I found a superset, just need to totally upend the way I look at the problem, lol
 
 [15:23:47](#xbJJQP2IKOCWID7V93lSq5Ed1ZiKosQxNOv9dJ5Hxq0) <hiiamboris (NOT THIS ONE)>:
-I see. Do you happen to recall what webpage told you that there's Parse? Ì†ΩÌ∏â
+I see. Do you happen to recall what webpage told you that there's Parse? üòâ
 
 [15:24:35](#_NzQGypcidhaNcknGZsMdEZR15p_mrwtK9A7QuMWsnA) <hiiamboris (NOT THIS ONE)>:
 I'm just curious because like you say I imagine it'll require some really aggressive googling to find it..
@@ -4838,7 +4768,7 @@ let me see if I can't recreate the searches real quick
 it definitely wasn't a "oh, here's your perfect answer" situation :)
 
 [15:31:53](#CAm-ZwxrHLDu_qdIUYm7BGjgsXpEWy34qKof3aqICpg) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [15:39:13](#6XMmRc8sy58FM7vsv6yzvP0b514nFrYUrD-WAMQahNw) <rseger (rseger)>:
 alright, here's the high level. I'm not sure whether google's algorithm is lying to me now or not. I recall digging through 10s of pages of results for the last step and now it's only the fourth down but ultimately, here's the ark
@@ -4853,7 +4783,7 @@ Thanks! That's quite a lot to skip thru to finally find what's you're looking fo
 I imagine Parse being useful on it's own should have more active advocacy agenda (something for @greggirwin to consider).
 
 [15:44:40](#CrW2KlsTErffc8r-2qmBvK_MNB9lqsblKc3kYH5RBSo) <hiiamboris (NOT THIS ONE)>:
-@bubnenkoff should you come around, please tell us how did you discover Parse? Ì†ΩÌ∏â
+@bubnenkoff should you come around, please tell us how did you discover Parse? üòâ
 
 [15:46:26](#FG3Z23SUezijZ3qQ19HWoN7rb0peHwQKTImUxrtvP_w) <hiiamboris (NOT THIS ONE)>:
 * Thanks! That's quite a lot to skip thru to finally find what's you're looking for..
@@ -4894,7 +4824,7 @@ And put things here too: https://github.com/red/red/wiki/Parse-Cookbook
 
 [18:36:42](#iaVJ7ij29jmD0Z4yWDXuQCO1WmMK49bBhPfdhm9gqWo) <bubnenkoff (Dmitry Bubnenkov)>:
 Is the re
-> @bubnenkoff should you come around, please tell us how did you discover Parse? Ì†ΩÌ∏â
+> @bubnenkoff should you come around, please tell us how did you discover Parse? üòâ
 
 I will answer tomorrow. 
 
@@ -4954,7 +4884,7 @@ or `find [aa: [] cc: 1 bb: []] integer!`
 ## 30-Mar-2021
 
 [8:12:28](#bOTVHGW7G94bi8xd6Q_Px2DsFMlE1MR18TB8LKxcHpc) <bubnenkoff (Dmitry Bubnenkov)>:
-> @bubnenkoff should you come around, please tell us how did you discover Parse? Ì†ΩÌ∏â
+> @bubnenkoff should you come around, please tell us how did you discover Parse? üòâ
 
 Be honestly I knew somthing about Rebol from Kaj de Vos who was co-developer of Syllable. I take part in it's community, but at that time I was not programmer. After long time I become programmer, and re-discovered Red. For few years I have not time\task for it. And I started from Parse. It's take around 2-3 month to getting *minimal* experience. With incredible help from community. And it take for me around one year before I was able to write some more o less working. It took a long time, but algorithms have never been my strong suit. So only every day practice.  
 
@@ -5068,7 +4998,7 @@ white-space: charset " ^-^/^L"
 @GalenIvanov feel free to pass that along to the author. If they want to use it, ask if they'll give us credit and point to https://www.redlake-tech.com/products/diagrammar-for-windows/. You can send them the working grammar from @toomasv as well.
 
 [20:31:45](#mQ0DC2VncsfzHctyzO5Ys2eTKWbBSccB_6IEQhbGpGg) <hiiamboris (NOT THIS ONE)>:
-the image doesn't zoom for me (files.gitter.im inaccessible) Ì†ΩÌ∏ï
+the image doesn't zoom for me (files.gitter.im inaccessible) üòï
 
 [20:32:14](#uy6d5DMoxnY0k6E2hPB1fjykapxpGHs2xzrmWsqq3hA) <hiiamboris (NOT THIS ONE)>:
 * the image doesn't zoom for me (says files.gitter.im inaccessible, but ping works) :/
@@ -5442,7 +5372,7 @@ SQLify: func [data][
 @toomasv I was wondering isn't it possible to change `head insert next copy "()"` with `mold to-paren`?
 
 [8:56:14](#UPi8scW6vkGeHgaOK-6kB3yUE-RISzj80vxhM3Xzkx4) <GalenIvanov (Galen Ivanov)>:
-Apparently not in this particular case Ì†ΩÌ∏Ñ 
+Apparently not in this particular case üòÑ 
 
 [8:58:28](#sRGiD6-uvfS1h3lNV13HMk-MJh2I1m1miCwDusCHDx4) <toomasv>:
 As `to-paren` loads string, so yes, i.e. no.
@@ -5502,13 +5432,13 @@ text
 @GalenIvanov Nope. Just testing Red. BTW I really appreciate your contribution for L-System and graphics stuff:)
 
 [18:09:20](#9tFrIGeM_QAgACqZpKmFqd9aHBXApTSNI_2t_VxTE20) <GalenIvanov (Galen Ivanov)>:
-Thank you! I hope there will be more to come Ì†ΩÌ∏Ñ 
+Thank you! I hope there will be more to come üòÑ 
 
 [18:10:27](#IJ5nwBiziDAgjgmNppj74HwnU3rgjSU1KOE6L87xPLc) <ldci (Fran√ßois Jouen)>:
 @GalenIvanov We have to connect your work and redCV. :)
 
 [18:14:36](#BIQSfd_Fdneiak2JDBLJOEJ1Drp2Ndn3tPFvUa1nGMs) <GalenIvanov (Galen Ivanov)>:
-Yes, I need to get familiar with redCV and stop reinventing things Ì†ΩÌ∏Ñ 
+Yes, I need to get familiar with redCV and stop reinventing things üòÑ 
 
 [18:17:46](#QAMzY3a2n3W34gAopwrmaSpTi1vtDMS8w57koboxuYI) <ldci (Fran√ßois Jouen)>:
 @GalenIvanov Please feel free to contribute. You‚Äôre welcome. 
@@ -5522,9 +5452,6 @@ Yes, I need to get familiar with redCV and stop reinventing things Ì†ΩÌ∏Ñ
 @GalenIvanov Solution with trim is 2x faster than with parse. Probably because  with parse this is char by char.
 
 [6:55:02](#5omFZWINS1x-iNFC6e-ce6yG8bzFbdGCtTSUpO5lwKo) <GalenIvanov (Galen Ivanov)>:
-@ldci I don't know why - I'm not aware of the implementation details. Btw, have you tried `emove-each`? 
-
-[6:55:09](#SVIDVD7eTfh3MWxLPkWcb6eX0LNZp4M5LIuz5IGTY7g) <GalenIvanov (Galen Ivanov)>:
 @ldci I don't know why - I'm not aware of the implementation details. Btw, have you tried `emove-each`? 
 
 [6:56:06](#KGtyAVwiQ3o_Ts895AJmsTIbFypscPeZ8EUQ4cSf96E) <GalenIvanov (Galen Ivanov)>:
@@ -5709,9 +5636,6 @@ how to use parse/trace? i was using it before, but i couldn't use now.
 [21:02:17](#-CGZRUnzOW0hMGZ1ntSXn_gKI_mpVqTK528VcDvfK7w) <abdllhygt (Abdullah Yiƒüiterol)>:
 ah it is `parse-trace`, i really forgot. long time i don't write ` Red`.
 
-[21:06:24](#FJG6K-rvTvWXXUL5dO9ykHcDE78Vql11KCSH19OlOL4) <abdllhygt (Abdullah Yiƒüiterol)>:
-ah it is `parse-trace`, i really forgot. long time i don't write ` Red`.
-
 [21:08:42](#LeF5jKKAlHmp-R4Gbxg-EvBpVihXU7BNxuGXmbCt-MQ) <abdllhygt (Abdullah Yiƒüiterol)>:
 is there a better method for reading result of `parse-trace`?
 
@@ -5845,9 +5769,6 @@ Thanks guys! Also nice to see there's a docs page now; I've just been referring 
 
 ## 14-Oct-2021
 
-[1:26:16](#TsWUnVMbVfCxavTfGiTQuOMyTftp0dZq2fMBo2cdRwo) <lylgithub2021 (lylgithub2021)>:
-Thanks guys! Also nice to see there's a docs page now; I've just been referring to the blog post.  I guess I was thinking a "true with no pass" would attempt to use the other rules but that wouldn't make sense - this helps! 
-
 [1:27:19](#XVlYK3f2HGk-8vOEf0XZoHoY8XlR7lDznVK3U-H4MSA) <lylgithub2021 (lylgithub2021)>:
 I want to convert "%abc.txt.def.txt" to "%abc.txt.def" ‚Äî that is to say, only keep the part before the last dot. How can I achieve 
 
@@ -5899,19 +5820,6 @@ http://www.rebol.com/docs/core23/rebolcore-6.html
 The above reference seems not explain why the result of `find` can be regarded as length that can be used as argument of other function(i.e. `copy`).
 
 [2:36:26](#n6BGPWxgq3A7dQIoIXj80F7a6XBMnYxTwMaXOqcwk1U) <dsunanda (dsunanda)>:
-It may help to realize that `str: "%abc.txt.def.txt"` and `xxx: ".txt"` are completely separate series.
-
-So `copy/part str xxx` is meaningless in this instance, while `copy/part str find/last str ".txt"` means copy `str` up to the position found within `str`
-```
-str: "%abc.txt.def.txt"
- xxx: ".txt"
- index? find/last str "."
-== 13
-index? xxx
-== 1
-```
-
-[2:46:20](#Kioo5mTRvj4kZmwLAaOLw620vq_rkmbpUyduVqy4okA) <lylgithub2021 (lylgithub2021)>:
 It may help to realize that `str: "%abc.txt.def.txt"` and `xxx: ".txt"` are completely separate series.
 
 So `copy/part str xxx` is meaningless in this instance, while `copy/part str find/last str ".txt"` means copy `str` up to the position found within `str`
@@ -6006,7 +5914,7 @@ Some more:
 >> first parse "%abc.txt.def.txt" [collect keep copy _ [2 thru dot to dot]]
 == "%abc.txt.def"
 ; Interesting :)
->> first parse tail "%abc.txt.def.txt" [collect any [dot keep (copy/part head s s) reject | s: (s: back s) Ì†ΩÌ∏ñ]]
+>> first parse tail "%abc.txt.def.txt" [collect any [dot keep (copy/part head s s) reject | s: (s: back s) üòñ]]
 == "%abc.txt.def"
 ```
 
@@ -6071,20 +5979,10 @@ file  ;== %abc.txt.def
 
 ## 15-Oct-2021
 
-[0:49:35](#tD3Otxo4ajH8zi_RQW_0Vq8uyubCxeJwULT8rjN8oOM) <lylgithub2021 (lylgithub2021)>:
-@lylgithub2021 when the series is used for the _part_, than it is zero-based index and it makes sense. You want `s: "abc" copy/part s s` to be `""` and not `"a"`.
-
 [0:50:29](#LDXIy827FUc638_6cBEde5bZuArMDkDh4b8_eHfnID8) <lylgithub2021 (lylgithub2021)>:
 Thank you all. I'm learning them.
 
 [2:46:20](#Lzvsm1FL0hAPWyZK8xAzvjGPcPXkhT18C52nEdscyJg) <gltewalt (Greg T)>:
-lol
-```
->> reverse remove/part reverse str 4 
-== "%abc.txt.def"
-```
-
-[6:35:53](#O3hdyczd854J2NfNhF3dJO_BqnYCRect4vEkR5RmIWo) <lylgithub2021 (lylgithub2021)>:
 lol
 ```
 >> reverse remove/part reverse str 4 
@@ -6219,7 +6117,7 @@ Thanks for the comment on the ticket, @hiiamboris . I was hoping Red could solve
 Haven't I provided you with a workaround?
 
 [18:00:21](#8pG-iaP8ERn-E8T4RDBQFzPow4lrW1JMogBHv4uVqfg) <hiiamboris (NOT THIS ONE)>:
-I don't see how that can impair your dialect Ì†ΩÌ∏â
+I don't see how that can impair your dialect üòâ
 
 [18:00:34](#apqFKxQSMSxIPMvo4Y1Lqb5w0QANbRWUmQW2oLvRr1U) <hiiamboris (NOT THIS ONE)>:
 Just produce the rules that work.
@@ -6266,7 +6164,7 @@ To me, this bug is a critical issue as it severely hinders one of the key featur
 Ah, so them others would need to modify your dialect then. I see.
 
 [19:59:25](#dOUwxR4bs3YYDi3FMuYIAsHSCsUZzGzC28kG_MI4DjA) <hiiamboris (NOT THIS ONE)>:
-Well, you can fix the bug and PR the solution then Ì†ΩÌ∏â
+Well, you can fix the bug and PR the solution then üòâ
 
 [20:06:26](#AvKIeaEvIiuUKhmL11zIvZFH_uvuckXEKnOes3YC8HE) <hiiamboris (NOT THIS ONE)>:
 https://github.com/red/red/issues/3029#issuecomment-436438710 here it was reported as a regression
@@ -6341,9 +6239,6 @@ trim/with "81128A24826" "0123456789"
 hah! Cool!
 
 ## 13-Dec-2021
-
-[2:43:54](#o8vLGJXGnBSgh7WA6ZE1993M8WuzXPua_wSNE2m67RU) <lylgithub2021 (lylgithub2021)>:
-hah! Cool!
 
 [2:45:27](#aek415yK_UBwNLBrGfzyWRyDJsJj107D-YtGtoaM4Zg) <lylgithub2021 (lylgithub2021)>:
 A string like this: "a.b.c.d.e.f.g"(the number of "." and the content of string are both unknown in advance). How to get "a.b.c.d.e.f" by parse? That is to say, all things before the last dot.
@@ -6499,21 +6394,6 @@ parse str [any [digit not digit insert space | skip]] new-line/all load str no
 [2:22:58](#p5x2HMyPqlxti84jSWS2Ds6biu5N7SS-6eHKGBHESJE) <lylgithub2021 (lylgithub2021)>:
 Good solutions! Thank you all.
 
-[2:44:35](#M5NqJDI1FVEs-XTadX6W1wU0F-VGL4RCCdeguL6gz9o) <lylgithub2021 (lylgithub2021)>:
-Good solutions! Thank you all.
-
-[2:54:11](#dL0TigMRy-ecoGkC4lNNYuUhWBNXSfpj_ir2bYYaOYM) <lylgithub2021 (lylgithub2021)>:
-Good solutions! Thank you all.
-
-[3:03:59](#ScF_HFPz9_p-39mpBFGf5vzWj4xAxzY1uaaFc2jrYAM) <lylgithub2021 (lylgithub2021)>:
-Good solutions! Thank you all.
-
-[3:06:46](#vSlthxcNumqS_GimAGapLDEBtIFjB2KTdYtS7hySKCs) <lylgithub2021 (lylgithub2021)>:
-Good solutions! Thank you all.
-
-[3:07:16](#WuhD0CiNvhtYpvU6jqoL7MsfM-mKCO-ZMmRY8qi4as8) <lylgithub2021 (lylgithub2021)>:
-Good solutions! Thank you all.
-
 [3:07:46](#Szpne8VLHOrSH8pBpSFV-07tiU6Nx9VYjWnKSm9Jatg) <lylgithub2021 (lylgithub2021)>:
 @toomasv I modified your first method with this:
 ```
@@ -6544,9 +6424,6 @@ Thank you @toomasv so much!
 You are welcome!
 
 ## 27-Dec-2021
-
-[5:42:13](#EHUriWGislBl6LVyASWdZX0BkEVKko5LPTg4-d5Wrng) <lylgithub2021 (lylgithub2021)>:
-You are welcome!
 
 ## 13-Jan-2022
 
@@ -7323,9 +7200,6 @@ Nor I.
 [23:02:12](#BKrdv55WCXz-76BCvWQSs2ZJUkEE30BMq-TTuDBYCbI) <mikeyaunish>:
 @greggirwin  Thanks - can't seem to get the 'some idea clear in my head.
 
-[23:17:21](#GukK--CCeOBIKra81rdVDLucodeEZG_XeCUh4zV7-xM) <mikeyaunish>:
-@greggirwin  Thanks - can't seem to get the 'some idea clear in my head.
-
 [23:19:19](#vzuPSml_uBxudo4SZEZRK_caE7KXf92YwcwdQxWVKIY) <mikeyaunish>:
 * Gregg gave me a full solution. But just for clarity of problem  without parens the  ```res```  doesn't  include ```button```  like this: 
 ```res: parse [style btn: button "hello" 120x24] [
@@ -7488,15 +7362,6 @@ parse to-binary "Hello Giuseppe!" reduce ['thru to-binary "Hello" space quote s:
 == "Giuseppe!"
 ```
 
-[4:27:14](#QUpXSGVr3uT_9jnyYUdPN1kZRK-IE0EcvyM4-X7aee0) <toomasv>:
-* @GiuseppeChillemi 
-```
->> binary: to-binary "Hello Giuseppe!" 
-== #{48656C6C6F20476975736570706521}
->> parse binary reduce [to-binary "Hello" space quote s:] to-string s
-== "Giuseppe!"
-```
-
 [4:38:43](#-cvm1-ffWMkXbDgOCnHoODKJfUEM2iInMJodSczJajc) <toomasv>:
 But also:
 ```
@@ -7641,9 +7506,6 @@ it should be correct if you wrap `<my parsing rules>` in a block
 
 ## 2-Jun-2022
 
-[12:29:03](#jI4ASVlRXoEICuSKKw7QTg3gTxYGjogdkDEEojt_G5Q) <bubnenkoff (Dmitry Bubnenkov)>:
-it should be correct if you wrap `<my parsing rules>` in a block
-
 [12:30:42](#EqV9oL4deBpTpauPaFUMvFji9Uuv-pnOQqaR0sblk0w) <bubnenkoff (Dmitry Bubnenkov)>:
 * I am stuck with extracting of attrs:
 ```
@@ -7658,19 +7520,6 @@ probe inner-item
 How to create rule that will ignore spaces in single attribute?
 
 [12:35:54](#RPdsiyBY67vO3bsbkXwl02lO2oE3s_z_mChW25rac1o) <bubnenkoff (Dmitry Bubnenkov)>:
-* I am stuck with extracting of attrs:
-```
-inner-items: copy []
-parse  {ABC="2120280 502912" date="2012-09-26"} [ ; or can be: {ABC="2120280 502912" date=123}
-		; some [ copy inner-item thru [{" } | sp | end ] (append inner-items trim inner-item)  ]
-                 some [ copy inner-item to ahead {" } {"}  (probe inner-item)  ]  ; look like ahead is good here
-	]
-
-probe inner-item	
-```
-How to create rule that will ignore spaces in single attribute?
-
-[12:40:01](#aZkQg6NR5hXWIdKMhpwOLKxEXpsmsuJgf6_gGa2CXi8) <bubnenkoff (Dmitry Bubnenkov)>:
 * I am stuck with extracting of attrs:
 ```
 inner-items: copy []
@@ -7713,7 +7562,7 @@ I sthat good enough?:
 ```
 foreach tag-name list [
     	starting?: yes
-        only-tag-name: rejoin parse tag-name [ collect [keep "<" s: any [sp (starting?: no) Ì†ΩÌ∏ñ keep to end | if (starting?) ":" keep to end | skip]]]
+        only-tag-name: rejoin parse tag-name [ collect [keep "<" s: any [sp (starting?: no) üòñ keep to end | if (starting?) ":" keep to end | skip]]]
         probe only-tag-name
 ]
 {<foo bar="123" baz="2002-02-26" region="En">}
@@ -7780,7 +7629,7 @@ parse "a" [
 ```
 
 [21:51:23](#bd45gHgLDDZZqWvJ1ZfO0fcmeIqdM-VyBpwRlVi02bI) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-Possible reason is, that there would have to be another condition in the code, so it would slow down evaluation Ì†ΩÌ∏ï
+Possible reason is, that there would have to be another condition in the code, so it would slow down evaluation üòï
 
 [21:59:24](#RbTOAifL9QqhwKv5hpZr_HRA-rpnIJAVOicnHj_MnVg) <hiiamboris (NOT THIS ONE)>:
 Alan wants this too
@@ -8010,10 +7859,6 @@ write it explicitly `[collect [collect keep integer! collect [keep integer! coll
 
 
 [8:56:18](#WxJLul_0dY7KpFr8cNAhIwOvHl7d2In2l4Qysgw10jo) <hiiamboris (NOT THIS ONE)>:
-* write it explicitly `[collect [keep integer! collect [keep integer! collect keep integer!]]]`
-
-
-[15:29:17](#w9t-gVRjQWFPgsUi7GgUtvEm3Tf8IedP0nxkKqQ5o0c) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 * write it explicitly `[collect [keep integer! collect [keep integer! collect keep integer!]]]`
 
 
@@ -8521,24 +8366,6 @@ probe a
 while if the beginning of the string `(^)` was in the bitset, it could return:  
 `== "<s>xx</s> x\+y <s>yy</s>"`
 
-[14:01:37](#hhlni2L8iRhsG54iF9rysA-wepwKsDVR7ldFNFbkte0) <gurzgri>:
-is there an equivalent of the Regex `(^)` in Parse?  
-having trouble detecting the a character at the start of a string while also skipping past an escape character, eg:
-```
-d: complement charset "\"
-a: "+xx+ x\+y +yy+"
-parse a [ 
-  some [ 
-    to [ d #"+" ] skip remove thru #"+" insert ("<s>") 
-    to [ d #"+" ] skip remove thru #"+" insert ("</s>") 
-  ] 
-]
-probe a
-== "+xx<s> x\+y </s>yy<s>"
-```
-while if the beginning of the string `(^)` was in the bitset, it could return:  
-`== "<s>xx</s> x\+y <s>yy</s>"`
-
 [14:02:04](#Mt-8lQfVIu29We6BFEHSj11P_1kt_oF4kvWV1oj0EHM) <gurzgri>:
 * No, "start of string" is not a character which can be part of a charset.
 
@@ -8548,19 +8375,7 @@ while if the beginning of the string `(^)` was in the bitset, it could return:
 == "<s>xx</s> x\+y <s>yy</s>
 ```
 
-[14:03:55](#sh8_XxPyWF2Q2Gj_Uh1W037xoOPTcXuLiQkQXj74iwo) <gurzgri>:
-* No, "start of string" is not a character which can be part of a charset.
-
-```Red
->> a: "+xx+ x\+y +yy+"
->> parse a [any ["\+" | change "+" "<s>" to [not "\+" "+"] change thru "+" "</s>" | skip]] a
-== "<s>xx</s> x\+y <s>yy</s>
-```
-
 [14:04:33](#N7OcYlaabgDN5zXhK0VRS-QOepOD-qgKHcvE6vQ09Gk) <gurzgri>:
-* You can test for `head?` with `parse` with e.g. `[... pos: if (head? pos) ...]` though. A rule will fail unless `pos` is at it's head.
-
-[14:16:59](#ddlHmOA9BcSx_PFmTi1G4Nc6_jNRmi5WiihWFn4B8nI) <gurzgri>:
 * You can test for `head?` with `parse` with e.g. `[... pos: if (head? pos) ...]` though. A rule will fail unless `pos` is at it's head.
 
 [14:17:09](#T4bAwPDts64Zp2cdm7mPIk1QSs8X_66o1r9M4KxmIlg) <gurzgri>:
@@ -8865,7 +8680,7 @@ maybe you should read parse docs to understand what value `parse` returns or how
 Parse is one of my last beasts. I have started to conquer VID, then will come a full work on parse.
 
 [8:23:20](#-Iy4c6YYO8K62S1DW-CB9F2Xvqh9SPWagiToPVfL3ko) <hiiamboris (NOT THIS ONE)>:
-push hard Ì†ΩÌ∏â
+push hard üòâ
 
 [8:24:26](#tEKxPkl1KEoFs8y2PPsyNNTax2fP2OHGrl2_M05SO98) <GiuseppeChillemi (GiuseppeChillemi)>:
 However, `thru` approach is dangerous for me:
@@ -8877,19 +8692,6 @@ However, `thru` approach is dangerous for me:
 @toomasv @hiiamboris I forgot to thank you.
 
 [23:16:37](#SJM11JStRMg-4VifqZVyPdzEnm69WcAC-PvQ4fJrGEo) <GiuseppeChillemi (GiuseppeChillemi)>:
-@toomasv 
-
-I was studying it your version but it has one problem:
-```
-check: ['a integer!]
-f: func [b] [parse b [any [check any [check (return false) | skip] | skip]] true]
-
->> f [a b]
-== true
-```
-It should return false.
-
-[23:17:54](#0LLYzflBmPF0t1OhRxnKg8ZhvD6IsgUqn35duUaSkg8) <GiuseppeChillemi (GiuseppeChillemi)>:
 @toomasv 
 
 I was studying it your version but it has one problem:
@@ -8984,7 +8786,7 @@ So, how does the latest `f` perform?
 I confess I am still in my bed surfing internet, I will try soon!
 
 [11:24:36](#ZmjlrmvTvZvHHD3rpjsJ3juLdK_DVvnDU-NUeNr3fAk) <toomasv>:
-Ì†ΩÌ∏Ç 
+üòÇ 
 
 [12:26:48](#-q7Ppsu1jox5aCkJi5e46sKS0nUFHoQFhwX-bt4ONjQ) <GiuseppeChillemi (GiuseppeChillemi)>:
 @toomasv Ok, now I am out of my bed!
@@ -9104,12 +8906,6 @@ view [
 Ops, this is the reason why I was not finding it! I have sent to the wrong group! 
 
 ## 21-Dec-2022
-
-[8:11:37](#2yb_sAVvw2b5AWBbp0TN3Dixf34RZWjLhG6VF4fj2v4) <bubnenkoff (Dmitry Bubnenkov)>:
-Ops, this is the reason why I was not finding it! I have sent to the wrong group! 
-
-[8:31:54](#6ttxtbe5oJbUngfiP9k99hrXEcP4B_z_FggYr_NigpY) <bubnenkoff (Dmitry Bubnenkov)>:
-Ops, this is the reason why I was not finding it! I have sent to the wrong group! 
 
 [8:34:53](#OZL7rv1mzclkaINGmaYReZBWf3fgN86GM2V13TqpEKY) <bubnenkoff (Dmitry Bubnenkov)>:
 ```
@@ -9605,7 +9401,7 @@ skp: charset { "=:}
 toomasv: thanks!! I need some time for testing but it seems that it work
 
 [12:29:02](#zu31GPeso8ahCgP4crpMMgJBo-IJ_fQrRz0NqOZnJ5A) <toomasv>:
-Ì†ΩÌ±çÔ∏è
+üëçÔ∏è
 
 [12:59:44](#Gjz-myhS-IIJow8zd2x-T1E_CgUaXLUey9qXyTYwh3g) <bubnenkoff (Dmitry Bubnenkov)>:
 toomasv: how to save slash here?
@@ -9663,15 +9459,6 @@ Not working...
 Yes, wait a second...
 
 [13:50:11](#rm_E8CgIWYQ1IAPXQUSq-IF_Izshhkab-uzKyXGO2jc) <bubnenkoff (Dmitry Bubnenkov)>:
-```
-"<registrationKO>"
-```
-should be:
-```
-"</registrationKO>"
-```
-
-[13:51:46](#ZBmllIWg9F2oCVEdAMWH8zaPXVjX0gPYjOb3jMGfMX4) <toomasv>:
 ```
 "<registrationKO>"
 ```
@@ -11099,11 +10886,6 @@ Wow, I will wait for the day you will creare It!
 
 That's a wrong abstraction, parse rules are not func args.
 
-[9:56:24](#Fu1ZiTz16jU4dRF4UYtjRgxFJVkdQYvlJr8Ati27Qwo) <Oldes (@oldes.h:matrix.org)>:
-> <@giuseppechillemi-59045d00d73408ce4f5bcd9d:gitter.im> Because if you think as with function parameters, It is a missing one. If you  use another logic, It Is not.
-
-That's a wrong abstraction, parse rules are not func args.
-
 [10:27:41](#CWXYV41Am-z9uzAJzCnELNbNAYsCHqm5I82xTIlGbq4) <GiuseppeChillemi (GiuseppeChillemi)>:
 > <@rebolek-5565a4bf15522ed4b3e100bc:gitter.im> That's a wrong abstraction, parse rules are not func args.
 
@@ -11906,7 +11688,7 @@ Anyways, you just can't statically parse Red code and have hopes to find anythin
 ```
 challenge-giuseppe: apply get pick [func function] odd? now/weekday [[] ["go find that!"]]
 ``` 
-Ì†ΩÌ∏ú
+üòú
 
 [14:56:24](#M8tAEOBrO516ICwY2A0yYyJoa5b8QdeTlfXkHsxypxQ) <GiuseppeChillemi (GiuseppeChillemi)>:
 > <@gurzgri-56c25b3ae610378809c19713:gitter.im> See how that assumption cannot work out? Entering another block from the block which is currently parsed is not "changing series position", it's continuing with parsing _another_ series - a completely different story. Hence you have to tell `parse` what to expect from the block you've just entered with `into`. And note that your `ahead block!` isn't required to just `into` in it if a block is what is to be found at the current parse position. It is however preventing you from `into`ing into `paren!`s, with the chance being that inside such a paren a function is defined which you are going to miss. 
@@ -11914,7 +11696,7 @@ challenge-giuseppe: apply get pick [func function] odd? now/weekday [[] ["go fin
 > ```
 > challenge-giuseppe: apply get pick [func function] odd? now/weekday [[] ["go find that!"]]
 > ``` 
-> Ì†ΩÌ∏ú
+> üòú
 
 I know, I just want to list the simple declaration. For other kind of code It is really impossible. You must be at runtime.
 
@@ -11964,11 +11746,6 @@ Have you published the version without the typo?
 yes
 
 [19:09:09](#5fs1nDeKu-8rzelDltgScI4DIFe3I0SYeF9w3WqzLNI) <GiuseppeChillemi (GiuseppeChillemi)>:
-> <@hiiamboris:tchncs.de> https://codeberg.org/hiiamboris/red-spaces/src/branch/master/programs/README.md#parsee-parsing-flow-visual-analysis-tool-parsee-red
-
- * No luck, it chrashes Red and closes the console.
-
-[19:12:10](#Mk33K4DiRXfEG97RujEIm6w5KWP248cAXUpqAwLIoWM) <GiuseppeChillemi (GiuseppeChillemi)>:
 > <@hiiamboris:tchncs.de> https://codeberg.org/hiiamboris/red-spaces/src/branch/master/programs/README.md#parsee-parsing-flow-visual-analysis-tool-parsee-red
 
  * No luck, it chrashes Red and closes the console.
@@ -12390,7 +12167,7 @@ I'll write to you some notes at the end of my experiments. I am using both `pars
 > ```
 > challenge-giuseppe: apply get pick [func function] odd? now/weekday [[] ["go find that!"]]
 > ``` 
-> Ì†ΩÌ∏ú
+> üòú
 
 I have found one source of problems: what is AHEAD: the position in front of the current one or the current position?
 
@@ -12428,18 +12205,6 @@ parse-trace page [any linear]
 When the input succeeds on the block, then the `AHEAD` rule seems halting the whole execution. I exect a dead lock as `ANY` is "match the rule one or more times". Instead after AHEAD matching, there are no more matches.
 
 [23:26:23](#rztNY_b6vf103ZMGQ7yfUCIcpvJg72HiEZa_QiRrvAI) <GiuseppeChillemi (GiuseppeChillemi)>:
- * This part amazes me:
-
-```
-page: [a1 [b2 c2 [c3 [b4]]] x y [x1 [z1]] ]
-linear: [ahead block! | skip]
-
-parse-trace page [any linear]
-```
-
-When the input succeeds on the block, then the `AHEAD` rule seems halting the whole execution. I exected a dead lock as `ANY` is "match the rule one or more times". Instead after AHEAD matching, there are no more matches.
-
-[23:46:08](#yeEFNbVJsQH8EuPeR4E9yo-Fsrs6D_JiQdmxcF5zcq8) <GiuseppeChillemi (GiuseppeChillemi)>:
  * This part amazes me:
 
 ```
@@ -12615,7 +12380,7 @@ Maybe you should try documentation?
 I have already read parse red-lang blog, parse wiki, Ungaretti page and documentation. If there is anything else to read which explain exactly how `ahead` works you are welcome.
 
 [13:54:54](#OGAyx6JiN6DE5zczfEv0HIG2ejKuBLW2iH2mtEw_F-Y) <hiiamboris>:
-I just inserted a quote Ì†ΩÌ±ÜÌ†ºÌøª
+I just inserted a quote üëÜüèª
 
 [13:55:14](#u4hvZe89KyGlo5krc8YZuqap5J0iD5O7L6Q1Q2UhVjI) <hiiamboris>:
 Again, something is completely wrong with your way of reading.
@@ -12681,20 +12446,20 @@ So let people express their problem and opinions with the documentation and lang
  * So let people express their problem and opinions with the documentation and language experience as it is their role.. Expecially if their formation belongs to that science.
 
 [14:18:23](#wRvqLKgkT4mVAukFUyDypSonsN7v4dkRsJiHqQNhyeY) <hiiamboris>:
-but I'm listening to you, don't I ? ;) even though in a scientist role I would exclude you from statistics as a wicked outlier Ì†ΩÌ∏à
+but I'm listening to you, don't I ? ;) even though in a scientist role I would exclude you from statistics as a wicked outlier üòà
 
 [14:21:00](#myp3F1YnBCpNgdo3W3OD0ddmxeeKNlqq_NMXoz_n5W4) <GiuseppeChillemi (GiuseppeChillemi)>:
-> <@hiiamboris:tchncs.de> but I'm listening to you, don't I ? ;) even though in a scientist role I would exclude you from statistics as a wicked outlier Ì†ΩÌ∏à
+> <@hiiamboris:tchncs.de> but I'm listening to you, don't I ? ;) even though in a scientist role I would exclude you from statistics as a wicked outlier üòà
 
 Lets return to conquer PARSE. Now I have a working rule able to extract quite all the set words of a scirpt until you use dynamic coding and/or different builigin instructions
 
 [14:21:14](#4OZmKqQcBrjznmM5MH-L5BP9_7epEMwBaNMCbrpQF9E) <GiuseppeChillemi (GiuseppeChillemi)>:
-> <@hiiamboris:tchncs.de> but I'm listening to you, don't I ? ;) even though in a scientist role I would exclude you from statistics as a wicked outlier Ì†ΩÌ∏à
+> <@hiiamboris:tchncs.de> but I'm listening to you, don't I ? ;) even though in a scientist role I would exclude you from statistics as a wicked outlier üòà
 
  * Lets return to conquer PARSE. Now I have a working rule able to extract quite all the set words of a scirpt until you use dynamic coding and/or different buildin instructions
 
 [17:40:34](#ZW2UCdozkI28H54-s0vp6dmarjlecKDDx690M_zVLFY) <gurzgri>:
-GiuseppeChillemi (GiuseppeChillemi) At this point, I really start to feel helpless. Hardly can't think of other words and ways to explain the obvious to you. But, here's yet another try: A rule `ahead something` differs from a rule `something` by succeeding if fed with the right some-thing at the current position but without advancing input beyond that thing. It is nothing but a "look-ahead rule", a "look what's coming now and succeed if it meets expectation"-rule instead of the usual "process what's coming now if it meets expectation AND move input position beyond it if so". Ì†ΩÌπè
+GiuseppeChillemi (GiuseppeChillemi) At this point, I really start to feel helpless. Hardly can't think of other words and ways to explain the obvious to you. But, here's yet another try: A rule `ahead something` differs from a rule `something` by succeeding if fed with the right some-thing at the current position but without advancing input beyond that thing. It is nothing but a "look-ahead rule", a "look what's coming now and succeed if it meets expectation"-rule instead of the usual "process what's coming now if it meets expectation AND move input position beyond it if so". üôè
 
 ```
 meal: word! eat: [meal]
@@ -12702,9 +12467,9 @@ parse [pasta] [ahead 'pasta eat] ;== true
 parse [pizza] [ahead 'pasta eat] ;== false, pasta lover dislikes pizza
 ```
 
-"So AHEAD on success modifies the working of ANY" - No, just no. Ì†æÌª® I think I give up, I have no idea where that comes from and I think I don't want to know. Ì†ΩÌ∏â 
+"So AHEAD on success modifies the working of ANY" - No, just no. ü´® I think I give up, I have no idea where that comes from and I think I don't want to know. üòâ 
 
-Why do even reason about `any` and complicate things further with, well, your ... made up theories ... before understanding just `ahead`. Why always try to be `ahead` of yourself (Cambridge Dictionary: "to do something too early, or before you are ready or prepared")? Ì†æÌµ∫
+Why do even reason about `any` and complicate things further with, well, your ... made up theories ... before understanding just `ahead`. Why always try to be `ahead` of yourself (Cambridge Dictionary: "to do something too early, or before you are ready or prepared")? ü•∫
 
 [17:54:04](#Ri1bX0uZRdGT0UBJO2uPec1ydNhcSGOrHhmabe41moc) <gurzgri>:
 > <@giuseppechillemi-59045d00d73408ce4f5bcd9d:gitter.im> Please observe this:
@@ -12824,7 +12589,7 @@ Yes, that's the tedious old way `ahead` now solves.
 "Who does not know the past cannot understand the present and cannot shape the future." ‚Äî Helmut Kohl 1995
 
 [19:16:04](#wSrMNWshIObW4TutBN9fV2XLf3L3_XalFvWqElLRC-Y) <GiuseppeChillemi (GiuseppeChillemi)>:
-> <@gurzgri-56c25b3ae610378809c19713:gitter.im> GiuseppeChillemi (GiuseppeChillemi) At this point, I really start to feel helpless. Hardly can't think of other words and ways to explain the obvious to you. But, here's yet another try: A rule `ahead something` differs from a rule `something` by succeeding if fed with the right some-thing at the current position but without advancing input beyond that thing. It is nothing but a "look-ahead rule", a "look what's coming now and succeed if it meets expectation"-rule instead of the usual "process what's coming now if it meets expectation AND move input position beyond it if so". Ì†ΩÌπè
+> <@gurzgri-56c25b3ae610378809c19713:gitter.im> GiuseppeChillemi (GiuseppeChillemi) At this point, I really start to feel helpless. Hardly can't think of other words and ways to explain the obvious to you. But, here's yet another try: A rule `ahead something` differs from a rule `something` by succeeding if fed with the right some-thing at the current position but without advancing input beyond that thing. It is nothing but a "look-ahead rule", a "look what's coming now and succeed if it meets expectation"-rule instead of the usual "process what's coming now if it meets expectation AND move input position beyond it if so". üôè
 > 
 > ```
 > meal: word! eat: [meal]
@@ -12832,9 +12597,9 @@ Yes, that's the tedious old way `ahead` now solves.
 > parse [pizza] [ahead 'pasta eat] ;== false, pasta lover dislikes pizza
 > ```
 > 
-> "So AHEAD on success modifies the working of ANY" - No, just no. Ì†æÌª® I think I give up, I have no idea where that comes from and I think I don't want to know. Ì†ΩÌ∏â 
+> "So AHEAD on success modifies the working of ANY" - No, just no. ü´® I think I give up, I have no idea where that comes from and I think I don't want to know. üòâ 
 > 
-> Why do even reason about `any` and complicate things further with, well, your ... made up theories ... before understanding just `ahead`. Why always try to be `ahead` of yourself (Cambridge Dictionary: "to do something too early, or before you are ready or prepared")? Ì†æÌµ∫
+> Why do even reason about `any` and complicate things further with, well, your ... made up theories ... before understanding just `ahead`. Why always try to be `ahead` of yourself (Cambridge Dictionary: "to do something too early, or before you are ready or prepared")? ü•∫
 
 You are not helpless, you have provided a good explanation, even with italian words. The problema I had where basically 2: AHEAD in italian, language can be translated to "davanti" which means position too. So when you look ahead, you "guardi davanti". If you are in a car in the rear seat, you are looking to the street in front you or to the front seat... and yes, to the events in front of you too. In the mental combinatory, the positional explanation has prevailed, so I ended up thinking that AHEAD looks at the next (series) element instead of looking are the next event (rule) from the current position.
 
@@ -12932,14 +12697,6 @@ How do I parse a datatype? This does not work:
 (Obviosly, as it is a word... )
 
 [1:48:35](#B1m6mFLZuB55vJkxxGIjtbXSjSXgwLRr0MmQebDQXmQ) <GiuseppeChillemi (GiuseppeChillemi)>:
-I have found only this one:
-
-```
->> parse [string!] [set word word! if (datatype? get/any word)]
-== true
-```
-
-[1:59:16](#5IVjKPPAqMt4A6mUnEly_-yf1ZBqizUU0hZ0twbD7iM) <GiuseppeChillemi (GiuseppeChillemi)>:
 I have found only this one:
 
 ```
@@ -13426,7 +13183,7 @@ trial-and-error is the way ;)
 :) it's not easy. But I like the language, it's so effective and clever actually.
 
 [13:44:48](#5th_ct7BQcUEhoCwvCc0j-7jCaNHBwbCJsWToCa-tvQ) <hiiamboris>:
-beware, there's no turning back to other langs at some point Ì†ΩÌ∏Ö
+beware, there's no turning back to other langs at some point üòÖ
 
 [13:45:40](#KC0E-rCV4OHXBuPvqSPrBT_aNK-KJspdGRmCOQnOGTU) <gor77 (gor77)>:
 Yes...I know that could happen. But if it gives you anything you need, especially with the Red/System, maybe it doesn't matter.
@@ -13563,16 +13320,6 @@ In this particulare use case a simpler
 would do.
 
 [12:22:28](#OQly0x6QN1wATpzZLJJ5v5SHSVGOPwfTEbvaCASBgDs) <gurzgri>:
- * In this particular use case a simpler
-
-```
->> parse "<fa><fb><fc><fx><fd><fe><ff>" [collect some [thru "<" copy t to ">" [if (find t "x") break | keep (t)]]]
-== ["fa" "fb" "fc"]
-```
-
-would do.
-
-[12:24:14](#EcUkJmekmSQPfYhZDpB1J7ZmI0vEPtJG6zMnNqmf7Tw) <Rebol2Red (Rebol2Red)>:
  * In this particular use case a simpler
 
 ```
@@ -13800,7 +13547,7 @@ You have a strong tendency to overcomplicate things.
 Because duplicates mean error in my case, they should not be there.
 
 [9:33:00](#tDxgPs8k4wfmspixJ3t5g_x3PJSXCdRU34JoCQBGaQE) <GiuseppeChillemi (GiuseppeChillemi)>:
-hiiamboris: don't agree with him or I will delete your repositories and backups! Ì†ΩÌ∏ë
+hiiamboris: don't agree with him or I will delete your repositories and backups! üòë
 
 [12:48:39](#ognOB2GwA5vMe232ILknTSFYSICb3MCocCMFgVec-7E) <ldci (Fran√ßois Jouen)>:
 The spirit of Red and Rebol is to keep the code simple and find simple solutions to complicated problems.
@@ -13891,12 +13638,6 @@ P is a path! value.  length: 2  some/path
 It serm I have made a mistake somewhere. I apologize. Thank you everyone.
 
 ## 30-Nov-2024
-
-[13:07:34](#p5ammeG1Kx5ezGBCG2QTZDcdDjzuXRZD9SWTO4lhRuU) <GiuseppeChillemi (GiuseppeChillemi)>:
-It serm I have made a mistake somewhere. I apologize. Thank you everyone.
-
-[13:08:06](#z0VhqAj_StdWTxCj5rVfBGw-R6kCa72GuwXgZyUFHHc) <GiuseppeChillemi (GiuseppeChillemi)>:
-It serm I have made a mistake somewhere. I apologize. Thank you everyone.
 
 ## 2-Jan-2025
 
@@ -13995,9 +13736,6 @@ I know, I have already used this but I thought the word is reduced and the the p
 * I know, I have already used this but I thought the word is reduced and then the parsing continues with its content. But It seems it should be a complete rule.
 
 ## 3-Jan-2025
-
-[14:36:36](#4ihkHVJYzHLThuj3dM8Tz7bn6GYG7OZKeRt4tYldbW4) <GiuseppeChillemi (GiuseppeChillemi)>:
-* I know, I have already used this but I thought the word is reduced and then the parsing continues with its content. But It seems it should be a complete rule.
 
 [14:40:05](#dNFMisclPw5sJc18lZCNLoiIknjim38MwarS2QPHHPI) <GiuseppeChillemi (GiuseppeChillemi)>:
 As logic, aren't 2 optional rules failed TRUE?
@@ -14916,7 +14654,7 @@ Play with it in the console, get a feel of it first.
 ```
 
 [11:34:35](#K9znGjluQy6A_aw9siFd6LcDMZTOblJZeWi-OiJ9OJ0) <Rebol2Red (Rebol2Red)>:
-Aha, I will try. 'I'll be back' If I can't get it working. The reason I want this as a showoff of Red to my son. He is very smart. Studying mathematics and physics on a university in holland. Maybe I can convince him with this code to switch from Python to Red. Then we have another ReducerÌ†ΩÌ∏Ä
+Aha, I will try. 'I'll be back' If I can't get it working. The reason I want this as a showoff of Red to my son. He is very smart. Studying mathematics and physics on a university in holland. Maybe I can convince him with this code to switch from Python to Red. Then we have another ReducerüòÄ
 
 [11:37:03](#olOa6JR0D5IsL-4DcQ4bTxgO8stqYHzLmokyDQOVGes) <hiiamboris>:
 Try it and if you feel blocked again, don't hesitate to ask ;)
@@ -16202,7 +15940,7 @@ parse text [any [to #"H" [ahead ["Hillary" whitespace "Clinton"] change "Hillary
 (it uses `skip` only in case that `H` is found, but it is not `Hillary Clinton`)
 
 [10:16:46](#MPoVy5r4rHhKpno0xI6GEccly9Xw-s4ZrB4s73pjVV8) <Rebol2Red (Rebol2Red)>:
-Ì†ΩÌ≤Ø
+üíØ
 
 [10:17:59](#5CVf4bP9rDfvTbK7hZQoZsjz3UhbQB0_YqeWAWBt1dE) <hiiamboris>:
 There's [ParSEE](https://codeberg.org/hiiamboris/red-spaces/src/branch/master/programs/README.md#parsee-parsing-flow-visual-analysis-tool-parsee-red), there's [Parse Caddy](https://github.com/gltewalt/parse-caddy) and there's out of the box `parse-trace`
@@ -16257,19 +15995,7 @@ hiiamboris: If I scroll it to the start the text will be the same which is the c
 [16:56:58](#HHpSUFZdglTi_chz_derEdNERbXYYbU4cZUn7Cm3UAU) <Rebol2Red (Rebol2Red)>:
 * hiiamboris: If I scroll the timeline to the start, the text will be the same which is the changed text.
 
-[19:01:54](#yf_W-SL1UqQK8U3fgiFU8I4xE6IeC7JJTgsQWMmNeio) <Rebol2Red (Rebol2Red)>:
-* hiiamboris: If I scroll the timeline to the start, the text will be the same which is the changed text.
-
-[19:01:57](#y88_wRqfGagKuQTuREKuMDtT5uqmDilz-k9-gMgpnCo) <Rebol2Red (Rebol2Red)>:
-* hiiamboris: If I scroll the timeline to the start, the text will be the same which is the changed text.
-
-[19:03:55](#I4uMQiVfH8eAVEkRbPD-2Kn8q-ouMisV_758WQazSjg) <Rebol2Red (Rebol2Red)>:
-* hiiamboris: If I scroll the timeline to the start, the text will be the same which is the changed text.
-
 [19:04:21](#G3j6kEro9_d_nQYvuoov9XNBqDAxc3pHx_W3vmJBwE4) <Rebol2Red (Rebol2Red)>:
-* Look at this screenshots. When started (first screenshot) and when scrolled (second screenshot)
-
-[19:05:57](#OeehZPPrwqY1ORHqoTfNyemQGUOx7GDzROxTUJRHyvA) <Rebol2Red (Rebol2Red)>:
 * Look at this screenshots. When started (first screenshot) and when scrolled (second screenshot)
 
 [19:06:56](#fxUHqhzCSsReDpOG1wsAZLS4Smn0-vd6EDkcT7NRClE) <Rebol2Red (Rebol2Red)>:
@@ -16419,9 +16145,6 @@ We have discussed about "dynamic incomplete rules" but neve about wordy rules. I
 * We have discussed about "dynamic incomplete rules" but never about wordy rules. I don't know the cause of the limitation but if possible, like for some wordy rules in Rebol3 demonstrate, it would be good to have all wordy rules accepted and overcome this limitation.
 
 [14:29:34](#jphPU9pwwyAJv3_Oa9nTHb5avJ6fBaaE-ce4DFlvREU) <GiuseppeChillemi (GiuseppeChillemi)>:
-This is how languages make steps forward: discussing about the limitations that forces us "patchy" solutions and implement them when useful.
-
-[14:31:25](#Wxr69xPJoLZRbKhGuxhfcOPe-1mnKpfT-1zQN6gERfs) <GiuseppeChillemi (GiuseppeChillemi)>:
 This is how languages make steps forward: discussing about the limitations that forces us "patchy" solutions and implement them when useful.
 
 [14:33:33](#98CO3vYG9AqGoVmUMacRNy_Rx19iOeFvEw2Oq2A-ZSo) <GiuseppeChillemi (GiuseppeChillemi)>:
@@ -16954,9 +16677,6 @@ To parse commands like `none` work: `[none]`
 To match the value `none`: `#(none)` or `[#(none)]`
 
 [1:15:51](#NTd1MgSx7RszgoPm7flyEqxxy5fW9u22fFmSDzY7u4Q) <GiuseppeChillemi (GiuseppeChillemi)>:
-In the meantime I have produced an element quoter for parse. Please [test it](https://gist.github.com/GiuseppeChillemi/191e55404f76c24ffeb48beb4a8587f3) and report if you spot any bug
-
-[3:29:24](#s8VPgYYIMK9BRsYLZab9vfVw7krCOPbt9miAv7DbvfA) <hiiamboris>:
 In the meantime I have produced an element quoter for parse. Please [test it](https://gist.github.com/GiuseppeChillemi/191e55404f76c24ffeb48beb4a8587f3) and report if you spot any bug
 
 [3:30:01](#VqMoHVsCUbQ8Ew6TfexrzsLLyyUzJjxV7Lva4CZdZvg) <hiiamboris>:

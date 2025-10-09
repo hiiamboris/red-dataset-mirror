@@ -28,7 +28,7 @@ This is the power of Red, and why a full stack language is empowering. Without h
 Once @rebolek, who authored the JSON codec based on old R2 code, signs off on the PR we'll get it merged. What would be great, then, is to look for other JSON loader benchmarks and see how Red stacks up both in performance and code size.
 
 [18:04:49](#6Hf8-6GEe4B-ohCS2SMMP49tiOE_MDEGyGsxB_9TncU) <hiiamboris (NOT THIS ONE)>:
-I also recall Bolek working on it. However it says `Author:  "Gabriele Santilli"` in the header Ì†ΩÌ∏â
+I also recall Bolek working on it. However it says `Author:  "Gabriele Santilli"` in the header üòâ
 
 [18:08:39](#W8ZEk5G_KFyAfw4Th5G00fAso6antTTAEvH9BK-j1ZI) <GiuseppeChillemi (GiuseppeChillemi)>:
 Do we have other JSON codecs?
@@ -54,7 +54,7 @@ I did JSON, but based on your own code @greggirwin :) I only rewrote `to-json` b
 @greggirwin you have talked about other json codes, so I have asked about them.
 
 [18:44:51](#Rs9EE3BNIpUf3FSwvETiu_jMo5d3G5UUZKuJHGkV7L0) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [18:45:39](#fnB1IjBQFdMYn-SSc0SveIaQAgIPs0ba77NbVfHI3Mg) <greggirwin (Gregg Irwin)>:
 Thanks @giesse. I will take blame but not too much credit. :^) Romano did the original. I've just been the maintainer for 15 years or so.
@@ -638,7 +638,7 @@ I still own an abacus, though I haven't used it in so long I imagine I've forgot
 * (Thank you, I will learn `delta-time`)
 
 [22:30:25](#cnoNwJmnS3Rw5iY7KRpkVieML8IbL469ufI2XbqwMzg) <GiuseppeChillemi (GiuseppeChillemi)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [22:50:01](#K1dQZHEWc1P-nwEBfhkmm-af4gWbGYz6e1xwCn_WT_4) <GiuseppeChillemi (GiuseppeChillemi)>:
 @Oldes 
@@ -838,21 +838,21 @@ I was extensively using XML parsing using code based on this Rebol2 script: http
 I'm using:
 ```
 	get-node: func[dom path /flat /local tags node-name cont? result ][
-		Ì†ΩÌ∏úrobe path
+		üòúrobe path
 		tags: parse path "/"
 		node-name: last tags
 		remove back tail tags
 		foreach tag tags [
 			cont?: false
 			foreach node dom [
-				Ì†ΩÌ∏úrobe node
+				üòúrobe node
 				if all [
 					block? node
 					node/1 = tag
 				][
 					dom: node/3
 					cont?: true
-					Ì†ΩÌ∏Éom: third cont
+					üòÉom: third cont
 					break
 				]
 			]
@@ -872,20 +872,20 @@ I'm using:
 		third get-node/flat dom path
 	]
 	get-nodes: func[dom path /flat /local tags node-name cont? result ][
-		Ì†ΩÌ∏úrobe path
+		üòúrobe path
 		tags: parse path "/"
 		node-name: take/last tags
 		foreach tag tags [
 			cont?: false
 			foreach node dom [
-				Ì†ΩÌ∏úrobe node
+				üòúrobe node
 				if all [
 					block? node
 					node/1 = tag
 				][
 					dom: node/3
 					cont?: true
-					Ì†ΩÌ∏Éom: third cont
+					üòÉom: third cont
 					break
 				]
 			]
@@ -952,13 +952,13 @@ Same here. My notes were on the general design side. I'm buried but will try to 
 I do have some notes on path/structure/foreach access etc.
 
 [15:37:50](#VZClYCNpdt09EX3Ji-JvCqsecPkcTxOc7yT3r7iHqjs) <hiiamboris (NOT THIS ONE)>:
-Gregg "No Time" Irwin Ì†ΩÌ∏â
+Gregg "No Time" Irwin üòâ
 
 [15:38:11](#-4I5vuBchBQaWNSOQb1FrkZ3tg95NLpaFl5dDaTOO1g) <greggirwin (Gregg Irwin)>:
 Well, it's all priorities. :^\
 
 [15:39:48](#0rqEFHaE9GNOVDPEXIsL02pUFzs_C841afou-UwTyKE) <hiiamboris (NOT THIS ONE)>:
-I'll upload a few series related designs soon, to ensure you're busy Ì†ΩÌ∏â
+I'll upload a few series related designs soon, to ensure you're busy üòâ
 
 [15:40:27](#U0qLZi67GPRHLp2teNDvpGCb9o9umEFsLkFQFzIFv0o) <hiiamboris (NOT THIS ONE)>:
 * I'll upload a few series related designs soon, to keep you busy ;)
@@ -985,7 +985,7 @@ Thanks @rebolek! Nice that you have [tests](https://github.com/rebolek/red-tools
 ```
 
 [15:55:47](#UsSsCjACztzfXNW0mESOjCuKiZ0YkdlnONKLoVqtL4g) <hiiamboris (NOT THIS ONE)>:
-this is still too complicated for my head Ì†ΩÌ∏â
+this is still too complicated for my head üòâ
 
 [15:55:51](#rwS5urQApJmaB17r8nQmYRmRMToxRQ6OhNxyFrnKTNs) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 I'm not happy with the format my XML codec is producing but that's what I came up with when working on it. 
@@ -994,7 +994,7 @@ I'm not happy with the format my XML codec is producing but that's what I came u
 @hiiamboris I agree, it's certainly not perfect. OTOH it's easy to use programmatically :-)
 
 [15:56:58](#-4kyeiIArgpaWA7bybgxdMZabp35hSR9ImgrsmKJNbQ) <hiiamboris (NOT THIS ONE)>:
-Yes and that's what I love about it when I decode server response! Ì†ΩÌ∏â
+Yes and that's what I love about it when I decode server response! üòâ
 
 [16:00:27](#_OlIR1BHLdy3KwpgH_ImeSD5crn2RP4sIS_VHC4gKfc) <greggirwin (Gregg Irwin)>:
 From my notes, I hadn't found a perfect solution to this. For iterating, we need consistency, which means empty elements (potentially a LOT of them), and everyone pays that price. For path access we need keys. Parsing solves it all but variability makes other approaches harder. Then you have locality (attr distance from their related tag) if a human is reading it. Lower priority, but shouldn't be forgotten. 
@@ -1031,13 +1031,13 @@ we were stuck on what it should return
 ideally you'd have something like https://giesse.github.io/rebol-power-mezz/mezz/load-html.html
 
 [20:40:57](#hMydW_bcUIc9jNEFg_FNOQSEUqAxPCzmUBZvOhrEhE4) <greggirwin (Gregg Irwin)>:
-How to hide in your own context: `parse-markup: Ì†ΩÌ∏õarse-markup/parse-markup` :^)
+How to hide in your own context: `parse-markup: üòõarse-markup/parse-markup` :^)
 
 [20:59:11](#RrNshvYcKe2K13QuuHWiqlW3FfCmrLwj34vn0phqqB4) <greggirwin (Gregg Irwin)>:
 `Make` just keeps asking me for the path to Topaz parse. Doesn't like anything I tell it apparently. But now I see that %compiled-rules.red was created.
 
 [21:53:29](#7YPAXnM_WH_LbyPuUp1vq96FMDLvIOCaRt-VVE3IuBg) <hiiamboris (NOT THIS ONE)>:
-> How to hide in your own context: `parse-markup: Ì†ΩÌ∏õarse-markup/parse-markup` :^)
+> How to hide in your own context: `parse-markup: üòõarse-markup/parse-markup` :^)
 
 Haha great!
 
@@ -1538,7 +1538,7 @@ Parse is now my friend here. I can bend it further using it. Like a BOOST! on th
 It's a wiki, so go for it. 
 
 [23:15:02](#e0Cz4sGd3i-BgS2RNzEAhaoaFNRsqy8q_e8DSBZuGjU) <GiuseppeChillemi (GiuseppeChillemi)>:
-You know why I don't write but maybe I am now a little better talking about Red and **someone** will accept my editings Ì†ΩÌ∏â
+You know why I don't write but maybe I am now a little better talking about Red and **someone** will accept my editings üòâ
 
 [23:56:09](#tE0mfW0lezPm6cowkG5Tnb5UlUJ0hHX31grUyjIwVx0) <greggirwin (Gregg Irwin)>:
 Good writing is rewriting. If we get something in there it can always be improved.
@@ -1660,7 +1660,7 @@ It first loads the XML into a raw block, then walks that and maps each value usi
 @giesse Is there any specific reason why JSON codec returns an error instead of throwing one? Or is it just an oversight?
 
 [19:18:29](#lTfagXvjViidW20eNVK0ORwdlSAbqIhFjGtPCUp10vw) <giesse (Gabriele Santilli)>:
-I didn't change `load-json`. Looking at https://github.com/greggirwin/red-json/commit/d034df6268f81ad7b1dbc84e595ac51d055f141d#diff-7a2689d7c2ae95425eac90483c2810220659bf626bd012d97fe409a6d62dd2d7 I'm going to blame Gregg Ì†ΩÌ∏õ
+I didn't change `load-json`. Looking at https://github.com/greggirwin/red-json/commit/d034df6268f81ad7b1dbc84e595ac51d055f141d#diff-7a2689d7c2ae95425eac90483c2810220659bf626bd012d97fe409a6d62dd2d7 I'm going to blame Gregg üòõ
 
 [19:19:30](#m0rg85cWyd4fjyycJMUAuCGPLLLIfC6tvNIibsj0WiQ) <giesse (Gabriele Santilli)>:
 I guess it needs a `do` in there? or using `cause-error`.
@@ -1784,7 +1784,7 @@ I‚Äôve made a repo for the various protocols so they‚Äôre not shattered around. 
 * I‚Äôve made a repo for the various protocols so they‚Äôre not shattered around. I also moved the wiki there: https://gitlab.com/rebolek/protocols/-/wikis/Red-networking-(layer-6-&-7)
 
 [15:16:16](#oZRIimFsz3-4wZ1lgqTvMU5Y7ICrXFw61cAADcUteuM) <hiiamboris (NOT THIS ONE)>:
-secret wiki page Ì†ΩÌ∏â
+secret wiki page üòâ
 
 [15:41:00](#bcSBEp5HqOEdqp5mbO2YfqvvLVqxTAleUODk4wCBzJc) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 secret? :)
@@ -1859,9 +1859,9 @@ xml: [
 	]
 ]
 
-xml/tag-1/#attr-1/!				Ì†ΩÌ∏â "t-1"
-xml/tag-1/tag-2/!				Ì†ΩÌ∏â "cccccc"
-xml/tag-1/tag-2/a/#attr-a/! 	Ì†ΩÌ∏â "aa-1
+xml/tag-1/#attr-1/!				üòâ "t-1"
+xml/tag-1/tag-2/!				üòâ "cccccc"
+xml/tag-1/tag-2/a/#attr-a/! 	üòâ "aa-1
 ```
 - `/!` implies we want content, not a branch, and short enough not to be annoying
 - lexer will have to be adjusted to not append slash to the issue
@@ -1983,7 +1983,7 @@ I'm not convinced it is useful for most XML either, but since I avoid XML like t
 Why would it be useless for HTML?
 
 [19:51:02](#38xbGgplVS21Z_NOvdsBQtwiBBpGcwycHD81FxakIlA) <hiiamboris (NOT THIS ONE)>:
-I'd love to hear what's *possibly* wrong with it on XML side too Ì†ΩÌ∏â
+I'd love to hear what's *possibly* wrong with it on XML side too üòâ
 
 [19:52:27](#gjef_u-hRKA9Y4XtXfsH3MMqon7C8myRd10-7rNrp2E) <hiiamboris (NOT THIS ONE)>:
 I guess you mean that HTML is ordered. OK.
@@ -1997,7 +1997,7 @@ In that case we'll need to think about graceful adaptation. Like insert `! conte
 How to store attributes is one problem, but XML is great at bringing much more problems.
 
 [17:14:47](#ejr_xv9pzuHgCX_YU9wY3ZK6xqdRNFp5x7yWyEuYpWs) <hiiamboris (NOT THIS ONE)>:
-Indeed. It's the worst data format probably Ì†ΩÌ∏â
+Indeed. It's the worst data format probably üòâ
 
 [17:14:56](#fyrYMm87b__ASKhXAiIIw0zzuEI3Vu-vZK39LQH_HpA) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 For example, how to store processing information (tags enclosed in `<? ... ?>`) and stuff like `CDATA` (`<! ...!>`)-
@@ -2011,9 +2011,6 @@ No doubt about that.
 [17:15:34](#0Ak9QKYwuEOGynPS2teceEjbnSM2LC6kP-r3MAit6kM) <hiiamboris (NOT THIS ONE)>:
 What is `<? ?>` `<! !>` used for?
 
-[17:15:40](#6anY9uu0J876d-w2qScuK6tBZdrN7nEAlhB4a13w39c) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-What is `<? ?>` `<! !>` used for?
-
 [17:16:17](#beHbKrgab2YijJSB0GJ5MDTY5wjc3NPRKvOYWGu9-Rw) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 `<? ?>` are so called processing information, they are used for ... hm ... processing.
 
@@ -2023,7 +2020,7 @@ What is `<? ?>` `<! !>` used for?
 [17:17:08](#nfnAQqs0BlsYI-xNLhMVjWKDG9W0NNr-_lZ3X0EGDEw) <hiiamboris (NOT THIS ONE)>:
 > `<? ?>` are so called processing information, they are used for ... hm ... processing.
 
-Just a bit vague Ì†ΩÌ∏É
+Just a bit vague üòÉ
 
 [17:19:23](#eCjlxmesZWg3wyPmpuAIZHZCUwsLO0UaZ5Tdm-VlVe8) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 If you think it‚Äôs vague, here‚Äôs the definition:
@@ -2138,7 +2135,7 @@ I'm working with `xml.red` right now (the older version) and it's completely imp
 Such a headache to convert into anything useful...
 
 [16:02:41](#s_qbAwdDTjPOmnDEcKtwDq5H7oqWBiIrPjI18Y2RGJE) <hiiamboris (NOT THIS ONE)>:
-And having `"^/^-^-"` represented as *content* is very harmful too Ì†ΩÌ∏â
+And having `"^/^-^-"` represented as *content* is very harmful too üòâ
 
 [16:03:28](#CCznFfjeydSqLL6CNOfzOnIAcKNtfTcjW-P5sGKYfjY) <hiiamboris (NOT THIS ONE)>:
 * And having `"^/^-^-^-^-"` represented as *content* is very harmful too ;)
@@ -2160,7 +2157,7 @@ Unless you care about HTML as explained above. The new XML codec ignores such st
 makes sense
 
 [17:11:22](#K2tZYppQLoyP9aUFktqGVLie9wrGFMFpj6wJmO5zPsA) <hiiamboris (NOT THIS ONE)>:
-keep me updated on your progress on xml2.red Ì†ΩÌ∏â
+keep me updated on your progress on xml2.red üòâ
 
 [17:11:32](#_9oKTUbtSmPtZkvKrgHPCi8T57CwJA4JHo660zkTTmQ) <hiiamboris (NOT THIS ONE)>:
 I will need it for locale data extraction
@@ -2194,12 +2191,12 @@ Leveraging datatypes is something I'm 100% behind, like @hiiamboris showed in hi
 I have thought that XML, since the invention of simplified things like JSON, is used mostly by diehard nerds and lunatics :-)
 
 [21:43:45](#apVaXcsikpfUxWVJNTSCGGSPSnux3o2c0At1kSQl_Ws) <hiiamboris (NOT THIS ONE)>:
-lunatics aren't hard to come by though Ì†ΩÌ∏â
+lunatics aren't hard to come by though üòâ
 
 ## 24-Nov-2021
 
 [6:09:55](#HbXQn2_alwFj1iaLHF1skIorcPEeWp-bvUTVbYyE13k) <zentrog>:
-I've done a fair amount of work with XML and XSLT, and I mostly hate XML, but actually kind of like XSLT. I'm not sure which category that puts me into Ì†ΩÌ∏è
+I've done a fair amount of work with XML and XSLT, and I mostly hate XML, but actually kind of like XSLT. I'm not sure which category that puts me into üòè
 
 [6:26:24](#gAR1AL3nvh_vkXEWMWvNTpbhYgXar0qUjMDzP0xC1TQ) <zentrog>:
 To me the most important things are to be able to convert markup into a Red format, and also reliably generate markup from Red data. I don't think some implementation of XSLT makes a lot of sense to me because I could just call into one of the many existing xslt tools if I already have a style sheet for it, or feed the Red formatted data into parse
@@ -2274,7 +2271,7 @@ that's not true, XHTML which was XML based lost and we have HTML5 which is not X
 That's not a bug but a missing feature :) It's a very early version.
 
 [11:24:50](#Y027c-xHXGY1aZFHcwdFUp66cVPXeGNYPSz7Me1sH-Q) <hiiamboris (NOT THIS ONE)>:
-okay Ì†ΩÌ∏â
+okay üòâ
 
 [15:10:45](#dDaE7qKkCfXgag3mfZHG-vhjG6marEt7WHa4Lhirja8) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 @hiiamboris your test now should work as expected
@@ -2312,9 +2309,6 @@ Regarding the emitter, I believe they can be shared much easier than a parser.
 [7:03:21](#O1yazr2O26VWFNvI2KwzC9vCrLGDd2HlCSvg327XZ6w) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
 I do agree here. If you know you are dealing with xml, use xml codec then.
 
-[7:21:26](#R9veolZVdUx9BWWmPYQN-0PmpwmanEXra7inJyDdHLw) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-I do agree here. If you know you are dealing with xml, use xml codec then.
-
 [8:33:28](#AU83d2Sa7Tpv2ug65XHNpMI_8O_xldmJXYIrDtdNNEY) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 Another important difference between HTML and XML is that in XML there can be only whitespace between tags and you can ignore that, but in HTML there can be content which you can‚Äôt ignore.
 
@@ -2328,7 +2322,7 @@ rebolek (Boleslav B≈ôezovsk√Ω): That is actually not true. XML elements can cont
 @zentrog:matrix.org sorry, you‚Äôre right, I was confused a bit here.
 
 [9:19:44](#skeuCd7AqFi3Ua1sxcw6hLPKGsatwAHWMJBUBUhPWik) <zentrog>:
-No worries! And I believe you if you say that it makes more sense to keep them separate. I'm just trying to be helpful if I can Ì†ΩÌ∏ä
+No worries! And I believe you if you say that it makes more sense to keep them separate. I'm just trying to be helpful if I can üòä
 
 [20:02:51](#ZiGNTirjnxmo49HrkF7imhK0XNQTnZB5etK1fChUVdE) <greggirwin (Gregg Irwin)>:
 Your input is absolutely appreciated @zentrog:matrix.org. Especially the theory vs practice part. While it might be nice to say we match the theoretical spec, if nobody uses features, we have to ask how much effort to put into supporting them. I'm good with pragmatic implementations as standard, and others can build what they need for special cases.
@@ -2416,7 +2410,7 @@ ldml [
 ```
 
 [10:38:03](#w4tU65CFSvdAa9HnQZPqBfzriLVB9J2sVhG3OEe6Cjg) <hiiamboris (NOT THIS ONE)>:
-found issues on other data though Ì†ΩÌ∏â
+found issues on other data though üòâ
 
 [10:47:09](#NeIlkDJh57huPlCtqlp5bcchMwpQS5fdqI3XadNepVs) <hiiamboris (NOT THIS ONE)>:
 @rebolek your assumption on spaces count is wrong in most cases, e.g.
@@ -2539,7 +2533,7 @@ Couldnt it be pretty by default and somehow more packed for other purposes?
 It could but the question is if most of XMLs are read by people or machines. If by machines, having pretty as default would be just a waste of space(s).
 
 [17:09:32](#1u-HY0WPrqK8ZZEIBwRu5oQ_kxGV2CmCrSID-9SxngU) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
-For over 20 years I can hear about xml being for machines to talk yet all I can see is programners stearing at its output Ì†ΩÌ∏É
+For over 20 years I can hear about xml being for machines to talk yet all I can see is programners stearing at its output üòÉ
 
 [17:15:45](#QORog7EXSDk4eiwBM_Er32avlDdRCTKfi_Y1T9WstBo) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 Well if I open the XML in for example Firefox, it will pretty-print it for me, I guess IDEs can do it too, so I 'm really not sure if it should be the default, but I can take a look how others do it.
@@ -2598,7 +2592,7 @@ do you have examples of namespaces ?
 hiiamboris (hiiamboris): https://gitlab.com/rebolek/markup/-/blob/main/data/menu.xslt
 
 [21:17:57](#XRVbk_LeTq3wghqAQraUPEkyj36OUOhAHHZXJhTZNms) <hiiamboris (NOT THIS ONE)>:
-I don't know xml enough to interpret that Ì†ΩÌ∏É
+I don't know xml enough to interpret that üòÉ
 
 [21:20:48](#WD7jL1G3Cw7ISkn69EyxoSmSWmj3WsKlJC5lKDQBVNE) <zentrog>:
 I've spent a bit of time looking/thinking about the locate/sift functions. I like the idea of having a common pattern dialect. I don't think I have the full picture of what you can do with those, but the thing that stood out to me was that `sift` seems to be used to filter a flat data structure, while xpath is sort of like filesystem globbing + predicate filtering, so it's tuned for a tree structure.
@@ -2733,7 +2727,7 @@ No, they can‚Äôt start with numbers and some other chars, but they can start wit
 [8:59:20](#2DTyfTvn-41vb36RFD9JFXmOr7oa8oQS04xi3NvHHIg) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 > Goal here is to present it to reducers in the simplest form possible. Form that'll be pleasant to work with.
 
-Those are two goals and they can be opposite Ì†ΩÌ∏â
+Those are two goals and they can be opposite üòâ
 
 [9:02:34](#EcvqoklJGhAwzZQYp-pNBR6_Dgsz-bmp0Yj3-yXCBW8) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 Yes, I‚Äôve (ab)used this in an older version of Redis scheme which also uses #":" delimiter (by convention, you can actually use whatever you want).
@@ -2790,7 +2784,7 @@ options:
 It‚Äô√ü XML. It‚Äôs complex by definition :-)
 
 [9:28:32](#jO15y-ankjgk1Jis_fHvYUEmGNYUZencpFR78nOoqKw) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [9:28:32](#1boGDX5JWHM7_xd69Mkx53JhQ4TYUecgFmg3biy3PQo) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 * It‚Äôs XML. It‚Äôs complex by definition :-)
@@ -3036,7 +3030,7 @@ got it
 While I did not like syntax of Morph much, I surprisingly like most of the suggestions here made by @hiiamboris. I tend to be in favor of consistency, but I must not affect readability. Using none and maps seems to be messy. Prefer blocks and ! 
 
 [13:02:10](#KwdUA-HO6gEFLOh8FOE0YgYcRlxEin47WH0wCBduoUc) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
-I have to admit thought, that I strongly hate how maps look visually. Can't stand parens there and wonder, idlf that's just me Ì†ΩÌ∏ü Imo #[map here] or some other block form using @ or ! followed by block, would be more reddish.
+I have to admit thought, that I strongly hate how maps look visually. Can't stand parens there and wonder, idlf that's just me üòü Imo #[map here] or some other block form using @ or ! followed by block, would be more reddish.
 
 [13:10:37](#CVlHaBS2vxbo2-F0OzwObiPeXNWn7L3C4xND5tvWOng) <hiiamboris (NOT THIS ONE)>:
 That's what Gregg pushes for too.
@@ -3116,7 +3110,7 @@ The only issue is after save + load it's going to become bigger. Unless Redbin i
 Still, I'm not convinced that `@text` is a win over `!text` or just `!`. I'm just *okay* with all these variants.
 
 [8:51:51](#IHuWnb3hFAlHQKtylICpUUbTTcPV2NNf3SI_mqVvEpk) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-Ì†ΩÌ∏õ that‚Äôs what contexts are for
+üòõ that‚Äôs what contexts are for
 
 [8:52:16](#b_S7khpTMWZ2D3OKZPTekBuEhI_GIVLMNql6QknLFm8) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 `@text` is a win over `!` because you immediately know what it means.
@@ -3143,7 +3137,7 @@ To us, right purpose is to distinguish it from XML elements. Any other purpose i
 That‚Äôs why I prefer custom functions for XML structure access.
 
 [10:06:51](#VxcAYqmyJt8szWzQylHKShbeqWMKgmRfUuyQDlrK1Vo) <hiiamboris (NOT THIS ONE)>:
-but then those function names will have to be repeated Ì†ΩÌ∏É
+but then those function names will have to be repeated üòÉ
 
 [18:10:26](#yOJvAYPV1ODK9Nx2I_FJYoM24bWkAFj9StZaPwlCd8o) <greggirwin (Gregg Irwin)>:
 Using strings and not copying them will either be a recipe for disaster or a brilliant feature. I can't say which. The fact that the behavior will change entirely when saved/loaded leans toward disaster. The idea that you could do simple field renaming by changing one instance leans toward clever feature. Taking steps to avoid disaster is always good though.
@@ -3310,7 +3304,7 @@ E.g. I don't want to write 10+ loops to get the data from `tree/ldml/dates/calen
 I‚Äôm not sure if should optimize for one use-case. But OK, I‚Äôll change the emitter and show you the new structure.
 
 [12:21:24](#zOcpwhT-jfw1jDSOIvhQv1A2dw508S124Qq7uXSIONQ) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
-Maybe we need to introduce another forms like ![ ], @[. ], 16#[. ], Hash![. ].    Simply put, default is block, coul be literal forms, binary, hash, whatever. Kill the parens fornother thing than computation, evakuation precedence Ì†ΩÌπÇ
+Maybe we need to introduce another forms like ![ ], @[. ], 16#[. ], Hash![. ].    Simply put, default is block, coul be literal forms, binary, hash, whatever. Kill the parens fornother thing than computation, evakuation precedence üôÇ
 
 [12:21:57](#OG22-NGGGxm2em0F7lcRlVO_u0OLRbDdt3eJq7x2Hfk) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
 evakuation = evaluation. 
@@ -3373,7 +3367,7 @@ In the example above, `body` has children, so the content is `block!`. `a` doesn
 thanks!
 
 [13:08:54](#giwOnfLzMQt3qbQyxEyctmXg5MI06LOUsT1sAM8NCwQ) <hiiamboris (NOT THIS ONE)>:
-still, the biggest issue with CLDR is aliases linking to other aliases linking to other aliases.. Ì†ΩÌ∏É
+still, the biggest issue with CLDR is aliases linking to other aliases linking to other aliases.. üòÉ
 I guess it's not a standard XML thing, is it?
 
 [13:09:22](#u6PMck7hEMsdtTZ3U-hxLQdVM3siUs3qkml7FLAmJPc) <rebolek (Boleslav B≈ôezovsk√Ω)>:
@@ -3521,7 +3515,7 @@ Ok and what do you expect from this input:
 I added some content for the `version` tag.
 
 [15:07:11](#vVR7hfSiAncXaNglZmdmgb0DJIZZ7R9OEl2UbQov-CU) <hiiamboris (NOT THIS ONE)>:
-we discussed it like 100 times already Ì†ΩÌ∏â
+we discussed it like 100 times already üòâ
 ```
     identity [
         version [#number "$Revision$" ! "1.0"]
@@ -3583,7 +3577,7 @@ The input was uniform so the output should be uniform as well:
 `list [a [! "here"] a [#type "b" ! "there"]]`
 
 [15:14:29](#fSgeGvGhINlkChs830x5qA9z0ibP6yxDLXaNDl_CLi8) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-@hiiamboris I don‚Äôt understand. What separate logic? Also, it doesn‚Äôt look like anything I want to produce, there‚Äôs `!` in it Ì†ΩÌ∏â
+@hiiamboris I don‚Äôt understand. What separate logic? Also, it doesn‚Äôt look like anything I want to produce, there‚Äôs `!` in it üòâ
 
 [15:14:46](#ABcP-I2-UpDCVI815Sa-61i-aH-_gR6-Vnb2DSD1TWA) <hiiamboris (NOT THIS ONE)>:
 ok I'll change `!`
@@ -3602,7 +3596,7 @@ The input was uniform so the output should be uniform as well:
 better? :)
 
 [15:15:11](#3iqYNzzGpnHJSMt4HSm_D8jAqHLRUW7tBdOdl7giPSs) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [15:15:20](#5Z4xqcrVWasfGjWtRYT6PV9-zm3s-xpVtoQ7Ov-9_o4) <hiiamboris (NOT THIS ONE)>:
 * Also, I thought about your idea of `<a>here</a>` -> `a "here"`. It's not gonna work. 
@@ -3675,7 +3669,7 @@ No, I like some of his ideas and I don‚Äôt like some too. I will implement them 
 I call it his emitter just because it‚Äôs based on his ideas and I don‚Äôt have a better/more descriptive name yet. My emitter is called `wbb` because its structure is word-block-block. The other emitter has more free form structure, so I can‚Äôt choose some similar simple name. As always, I‚Äôm open to suggestions.
 
 [15:53:07](#naWLaVH1wtP75Rdoeb6B7VnTepdHnSFitv75Rvv4FQA) <hiiamboris (NOT THIS ONE)>:
-I knew there will be `Boris` emitter a few days before you coded it Ì†ΩÌ∏É
+I knew there will be `Boris` emitter a few days before you coded it üòÉ
 
 [15:53:47](#Cz_d8X_cjh_6j4xoa1yvXj4zle7AuM0juVfAKi6OuJk) <hiiamboris (NOT THIS ONE)>:
 On a different thing. I would also like some smart prettification algo for the future. For example here's what I'm working with:
@@ -3872,10 +3866,10 @@ Also, if you have a better name for "your" emitter, just let me know :-)
 didn't think about it :)
 
 [15:46:11](#pNg-k2fzS1kW6qO462XEKq0A2sZqZWt5l5DGAj2TjPo) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-It‚Äôs strange to write commit messages like "Boris now supports some metadata" Ì†ΩÌ∏â
+It‚Äôs strange to write commit messages like "Boris now supports some metadata" üòâ
 
 [15:46:17](#VY_n33YFLyTAdyvpOItNwE4swl6aMhMKO36R7r5iaU8) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [15:47:52](#1KeZ95B_UglWO64PfnQzp8MWQZDkaYZbs0iHYxmxR4I) <hiiamboris (NOT THIS ONE)>:
 idk yet, maybe Gregg will have any ideas
@@ -3937,13 +3931,8 @@ The nice thing with json is that it just has maps and lists, and those are well 
 
 I guess what I'm trying to say is I don't think there are going to be any hard and fast rules for number or size of xml data, and almost certainly someone can come up with some gigantic xml that tips over the system, but they probably should be using a stream-based xml processor anyway. I agree with "basic, fixed structure that easy easy to reason about, which makes it easier to write processors against, and where HOFs can be applied". That should handle the vast majority of cases. If simple path lookup works for cases where there is no ambiguity, that's great! Make simple things easy, and complex things possible, right?
 
-[8:43:56](#90fr5_upEjwHjafd_Xqe59W9CbyKrjbgtVAwYzDcwfA) <zentrog>:
-The nice thing with json is that it just has maps and lists, and those are well suited for distinct kinds of tasks. The problem with xml is it has more data structures, which are more general so they apply to more kinds of tasks, but are less well suited to all of them. So if you are trying to decide how to generate some schema, you might decide to store keys and values in attributes, or maybe elements and text. Maybe you would base it on humans editing the document and esthetics, or maybe it is machine generated and you just need to accept whatever nightmare it spits out at you.
-
-I guess what I'm trying to say is I don't think there are going to be any hard and fast rules for number or size of xml data, and almost certainly someone can come up with some gigantic xml that tips over the system, but they probably should be using a stream-based xml processor anyway. I agree with "basic, fixed structure that easy easy to reason about, which makes it easier to write processors against, and where HOFs can be applied". That should handle the vast majority of cases. If simple path lookup works for cases where there is no ambiguity, that's great! Make simple things easy, and complex things possible, right?
-
 [8:47:50](#p4QcaTycXFLyOZ9woqD_ckOqDjMvG2KzBuNwrHlxat4) <zentrog>:
-Here's a (pretty small) example that an application I work on generates. It can produce documents which have this entire xml embedded within an *attribute* of another xml document. I don't take any responsibility for this Ì†ΩÌ∏ã
+Here's a (pretty small) example that an application I work on generates. It can produce documents which have this entire xml embedded within an *attribute* of another xml document. I don't take any responsibility for this üòã
 
 [9:10:25](#yYhZQD7178N-ZL5jwvq_ywIs_50x-bY_VMCSbQF3Xok) <hiiamboris (NOT THIS ONE)>:
 Scary :)
@@ -4051,7 +4040,7 @@ Who's the president of United Nations? I will ask him to vote on prohibiting XML
 :)
 
 [11:23:34](#0s09LOt613gwdpclSknzLL_N7_zAOhWA-z3I-z_RBcA) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-XML is a shitty format but at least it‚Äôs open and standardized. There are other formats that are shitty too but closed and proprietary. If you want to ban something start there Ì†ΩÌ∏â
+XML is a shitty format but at least it‚Äôs open and standardized. There are other formats that are shitty too but closed and proprietary. If you want to ban something start there üòâ
 
 [11:29:40](#pKLi7-bjnONYKAz7fbVF3M_0Xx3MEFyspomjsF5466s) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
 "standardized" is a way too strong claim, but yeah, whatever :-) As for other formats - as far as they are kept being used in closed environments, I don't mind. XML is a typical example of overenginnered commitee kind of work and one of the reasons for JSON existence :-)
@@ -4158,7 +4147,7 @@ Yes, I‚Äôm trying to solve one bug, this must wait.
 F*#! The bug was not in the code but in the test file. Anyway, I can move on to the empty string elimination :)
 
 [14:52:07](#ZZJJf7ecOr7aMIAtS60Bv7FXohr9Wa2P5WnrmXXYEQo) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [14:58:55](#cS_KA-JtaC6hSzRYHOFuzTBN_gyx7CgcF2GExdm89z8) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 Fixed.
@@ -5001,7 +4990,7 @@ I'm obviously not going to comment on 3
 I've chatted about XML with Oldes a bit and he told me about XML library required for one project. That library is cca 2MB.
 
 [23:29:17](#qMod3LrX3_LMIa9aSosx7K_JTsi3ey5NG02VuD5AlSY) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-My codec is 17kb with all the variants, so we have a lot of space for experiments Ì†ΩÌ∏â
+My codec is 17kb with all the variants, so we have a lot of space for experiments üòâ
 
 ## 17-Dec-2021
 
@@ -5204,7 +5193,7 @@ Maybe it could be just:
 I also should remind everyone that HTML tests are no good to judge XML codec.
 
 [9:00:31](#vmfFC5-2OQXQb_ZasDt7AvjOWfbrbHASKXy20drBGrI) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-Don't know... I'm quite happy that I don't have to work with XML now. I just wanted to put my little bit into the decision mess Ì†ΩÌ∏É
+Don't know... I'm quite happy that I don't have to work with XML now. I just wanted to put my little bit into the decision mess üòÉ
 
 [9:02:22](#V0lgC4kxfXYpI6DHCNyjwF75cyNfn5uU3hwvj5VLAzQ) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 Here is a little piece of real code where I used XML last time (years ago):
@@ -5239,7 +5228,7 @@ Here is a little piece of real code where I used XML last time (years ago):
 		if shpNode [
 			shpNode/3: shp/3
 		]
-		Ì†ΩÌ∏úrobe shpNode
+		üòúrobe shpNode
 		repend/only dom-symbols compose/deep ["Include" ["href" ( join name %.xml ) "itemIcon" "1" "loadImmediate" "false"] none]
 		;ask ""
 		write file: xfl-target-dir/LIBRARY/(join encode-filename name %.xml) form-xfl symbol
@@ -5284,7 +5273,7 @@ Just forget about smart tags. Nenad strongly said No, and not once.
 * Just forget about smart tags. Nenad strongly said No, and not just once.
 
 [10:13:09](#fHci69FVsAYxQqszptnsoZ5VnRvXpxNYq0tCwFVpVIA) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-Who is Nenad? Ì†ΩÌ∏â
+Who is Nenad? üòâ
 
 [10:13:44](#pa6ke26XoOb49yU9tHbQLtdKPQPYOBhUFq2vmMK-syo) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 * Who is Nenad? ;-) Btw... in czech.. Ne means No.
@@ -5756,30 +5745,6 @@ I just found, that Github is now returning "+1" as a key in its json data. That 
 ```
 Do we have any strategy, how to deal with something like this?
 
-[11:03:46](#VFfgy7WaBr9wTRvekNKNEL7qC_9rcPXKGUcr3RapgBA) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-I just found, that Github is now returning "+1" as a key in its json data. That is not a valid word, so it breaks the codec.
-```red
->> load-json {{"a": 1}}
-== #(
-    a: 1
-)
->> load-json {{"+1": 1}}
-*** Script Error: contains invalid characters
-```
-Do we have any strategy, how to deal with something like this?
-
-[11:05:08](#YOUW4GLXv1mQgyUaqO-tGFmFxrAEFlNL7AWnlVbRjfI) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-I just found, that Github is now returning "+1" as a key in its json data. That is not a valid word, so it breaks the codec.
-```red
->> load-json {{"a": 1}}
-== #(
-    a: 1
-)
->> load-json {{"+1": 1}}
-*** Script Error: contains invalid characters
-```
-Do we have any strategy, how to deal with something like this?
-
 [11:15:48](#tTkmqXoHCKb2EQ8_f6zZt6PqnJbjlwf6g9e49_2gimQ) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 I guess that only possible solution is keep it as a string.
 
@@ -5857,7 +5822,7 @@ Found a bug.
 I like `!` but Gregg vetoes it :)
 
 [11:09:09](#aq-E11-1GanfbGHZpgtojipfhfP2BRDgUIzTT2aSVBo) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-`!` is still in code Ì†ΩÌ∏â
+`!` is still in code üòâ
 
 [11:09:47](#cMSNkKP7xdwyAeWLlEqmtyKfsIywZ9mVy3cRoyxIB5g) <hiiamboris (NOT THIS ONE)>:
 Good! :)
@@ -6771,7 +6736,7 @@ I said not long ago that I think we can remove `/mark`. We can always add it lat
 Can we gavel that?
 
 [20:13:21](#IWsEZ8ijtrt4TTDLqSfXJXavQpDU_G7ENQxKbf8VDvE) <hiiamboris (NOT THIS ONE)>:
-Hands off /mark!!! Ì†ΩÌ∏â
+Hands off /mark!!! üòâ
 
 [20:14:36](#XPNtJjhzCqeoeruYuGZkE1Y4YtZr--xhbOfqFlRyfns) <hiiamboris (NOT THIS ONE)>:
 I certainly wouldn't want to parse 1MB+ file extra time.
@@ -6797,7 +6762,7 @@ I also find that `!` is good with path access but `text!` is good for defining f
 An order of magnitude either way would make it an easier call. :^( 
 
 [21:03:53](#bK4hdbKgSj7X_6Y5JHjakq7APGfqbg_dEHjXSutiRRM) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [21:03:56](#EArFghBmXRjppdEySGzcvxsJLwQJ_xJxySJWKUcMmlQ) <greggirwin (Gregg Irwin)>:
 @rebolek any idea why this doctype decl would cause a problem?
@@ -7433,9 +7398,6 @@ OTHER CODECS:
 [7:08:43](#zzpmtP4ZJGMTqExkIYdIVbGkrwPTK9eNEEvo85pJuHQ) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 (there is a bug... QOI should have set `image` type)
 
-[7:10:08](#8cYR88uY7JXxU-0PnkZ61f_ULO67gLpMyQ847dPvlX4) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-(there is a bug... QOI should have set `image` type)
-
 [7:11:40](#pu2UPzhXbbn-_w-5npN-mXUds2TWEm3Fu7zA4rfb-w4) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 * @greggirwin I'm currently having in Rebol (in the Bulk version) 25 codecs:
 ```rebol
@@ -7757,7 +7719,7 @@ And `init` is also finished.
 I am going to review the chat again, to see if I haven‚Äô forgot anything. If not, we‚Äôre probably ready to go.
 
 [19:10:29](#Y3e7NeGq_Ks3CpxxcaxenMrSnB8MEyWE44o8_gTwopY) <zentrog>:
-Ì†ΩÌ±è
+üëè
 
 [20:51:00](#xTGoJ_GkqwSdJjE3xyN6teK4hG09H0NxbYGCFLj5gOc) <greggirwin (Gregg Irwin)>:
 @rebolek I think we agreed the prolog would be in a separate block. Is that right?
@@ -7792,7 +7754,7 @@ The point of putting it *all* in a separate block is so you just get two values 
 In the spec, the prolog rule includes those misc elements.
 
 [22:40:51](#VadRFl0Z4hoPipC9lpID3F1loeOtyQ8emabMy4sX9lA) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-Ok, I need to think about it a bit more and do some tests tomorrow (not in 20 minutes, but after some sleep Ì†ΩÌ∏â to see how it's going to work.
+Ok, I need to think about it a bit more and do some tests tomorrow (not in 20 minutes, but after some sleep üòâ to see how it's going to work.
 
 ## 26-Jan-2022
 
@@ -8004,7 +7966,7 @@ Yup. ;^)
 When I saw #delayed and other cool tricks, I got a bit scared that we are going to end with the code golf  :-) 
 
 [18:46:31](#zO68ego7VgH8qijM79b2Yyzif9O9OiA-KbYU-NA_WQc) <hiiamboris (NOT THIS ONE)>:
-who you're betting on @pekr? Ì†ΩÌ∏â
+who you're betting on @pekr? üòâ
 
 [20:07:19](#c7IfN8Zp76z4cYdc9nCyjyBamEixkWq51v9ek1pmap0) <zentrog>:
 > my benchmark for easy is `set [prolog content] load-xml/meta <file>`. What does easy look like the way it is now?
@@ -8165,7 +8127,7 @@ I will note that in the blog.
 ## 4-Feb-2022
 
 [7:44:09](#pEUyVsq8ptYeE_AV0vT_rg-nFlaJeuNX-uyvty9svFo) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-Here's an alternative solution how to deal with options in codecs Ì†ΩÌ∏â 
+Here's an alternative solution how to deal with options in codecs üòâ 
 https://twitter.com/bikerglen/status/1482516332432162820
 
 [12:08:33](#K6FB6xkiYv3KqX3NjMtIwBLu9Xt9iWIkRjbeSE2RENg) <hiiamboris (NOT THIS ONE)>:
@@ -8283,7 +8245,7 @@ Agree.
 This month, `split` and `format`. :^)
 
 [19:53:31](#uZ5FTb2eZLovIpYqOb9m7R2PKajK-xp8UgdrQ2_ULZg) <hiiamboris (NOT THIS ONE)>:
-It depends how lagging behind are you Ì†ΩÌ∏â
+It depends how lagging behind are you üòâ
 
 [19:55:32](#7OxQSVGog8lmvVb7Yq-sU4D4OfxeBJwcjhgkXlQWuXw) <greggirwin (Gregg Irwin)>:
 Looking at prologs in each format, that approach would seem to work. @rebolek, do you agree?
@@ -8471,7 +8433,7 @@ Yes. I would prefer testing for metatags (there's just five of them) instead of 
 [22:07:19](#FHX1ytghPGfWqgoHCj393K9pZxpxIPKjL3vpKqb5PcA) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 > Sorry, my note on Boris' idea was for finding the root. Mixing up chat. :^\
 
-No problem, I can parse it Ì†ΩÌ∏â I probably should reply in a thread but I still can't get used to them.
+No problem, I can parse it üòâ I probably should reply in a thread but I still can't get used to them.
 
 [22:07:26](#yzosLDdzmv2mBeGTBKZitfpJ7sgMqWciYFAybGMBjGE) <greggirwin (Gregg Irwin)>:
 That's fine. Please add it to docs, wrapped in a func called `find-element` as @dander proposed, unless a better name comes up.
@@ -8599,7 +8561,7 @@ One of my oldest friends took to calling me Gregorious decades ago, and does it 
 [20:15:29](#1ziM7rkbT-Y9VpgPCAYY16ByHCmIpi4eRAbwIkOAYPA) <hiiamboris (NOT THIS ONE)>:
 > Typos in your code @hiiamboris. `greg-format` should be `gregg-format`, etc. ;^)
 
-I thought about that Ì†ΩÌ∏É
+I thought about that üòÉ
 
 
 ## 6-Feb-2022
@@ -8820,9 +8782,6 @@ https://github.com/red/red/issues/5075
 [12:59:18](#DeLclz7wGIo2IuCxYvODpb0ENjpVZ-RIuU-6-bKUkSE) <toomasv>:
 Ah, thanks!
 
-[13:30:46](#OXAQdfd6it4b01D9SOEqr8OaeJ4E45gpwVaZJgtKmAU) <toomasv>:
-Ah, thanks!
-
 [13:34:59](#gs5yhHSLf3wSM0OK15kXbxpW7M9Cm0CYQxGGPF5EeXY) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 @toomasv thanks, I'll fix it
 
@@ -8950,7 +8909,7 @@ continuing from Red/Red, HTML codec can be found in [CASTR repo](https://gitlab.
 [8:40:58](#Vtk-T9B6gVBNn9GkEB3gRH0pzye_tecLhDODf3Nnx6E) <Boum69 (Boum69)>:
 > <@rebolek-5565a4bf15522ed4b3e100bc:gitter.im> continuing from Red/Red, HTML codec can be found in [CASTR repo](https://gitlab.com/rebolek/castr/-/blob/master/html-codec.red?ref_type=heads)
 
-Ì†æÌµ≥
+ü•≥
 
 ## 4-Feb-2024
 
@@ -9149,12 +9108,6 @@ What if someone modifies `ser` or the `par`? like using `append` or `remove`?
 try it, I hope the code still works :)
 
 ## 8-Feb-2024
-
-[17:10:29](#Xc6hP2IgFIJee361NSgJCSr4bu_b194j4M82UjBNaqk) <hiiamboris>:
-try it, I hope the code still works :)
-
-[17:10:46](#GuutK0Xw2ZbaLcm0fR2u-fcFuo0Mg0h2z9X5MnnKbxE) <hiiamboris>:
-try it, I hope the code still works :)
 
 [17:21:31](#F__U0Yvy4Ifans1j6dJ_rqr2lnN8MDl9ggwP_Yiwd6A) <hiiamboris>:
 * I'm seeing [these morons](https://bingx-api.github.io/docs/#/en-us/swapV2/trade-api.html) freely abusing JSON by passing int64 values in and out without enclosing into strings. Should we try to support some workarounds?

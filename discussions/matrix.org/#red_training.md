@@ -36,9 +36,6 @@ Ok, seems not so green, because write access does not equal access to settings (
 
 ## 12-Feb-2021
 
-[20:13:03](#STHQCMGhOKnLjTWKzKBoUnyrlk0DESZFvnReluVhfEM) <loziniak (Maciej ≈Åozi≈Ñski)>:
-Ok, seems not so green, because write access does not equal access to settings (and thus webhooks). So, I think let's leave it for now.
-
 [20:33:45](#9R1d2ZAdb6vD4FuX8QTuL92-ZUaKXZ6wRvxEwJWw9y0) <loziniak (Maciej ≈Åozi≈Ñski)>:
 @greggirwin 
 > should we point people to a prebuilt console
@@ -82,7 +79,7 @@ Woohoo! Thanks @loziniak. I will try to review in the next few days.
 ## 14-Feb-2021
 
 [7:31:24](#AD2ag1BUk1LwPlWYcLbutJKanLNC8nWeUjt43qozyzQ) <wallysilva (Wally)>:
-Oooh, this is cool stuff! If you guys need some one to try the exercises, I will be happy to be your a guinea pig Ì†ΩÌ∏É
+Oooh, this is cool stuff! If you guys need some one to try the exercises, I will be happy to be your a guinea pig üòÉ
 
 [17:54:03](#IGaoVZ0f4OBQjwWyr17M0-XfxOS_mSZJfp3lXRffL3M) <greggirwin (Gregg Irwin)>:
 Thanks @wallysilva. We will indeed need people to do that.
@@ -120,7 +117,7 @@ And a lack of 64-bit support for newest macOS...
 ## 10-Mar-2021
 
 [4:41:10](#XHgoPurdNI0EK7hrbL31ONqSsGI_cBAmCsIpH8hDSKs) <wallysilva (Wally)>:
-Great job!Ì†ΩÌ±èÌ†ºÌøªÌ†ΩÌ±èÌ†ºÌøªÌ†ΩÌ±èÌ†ºÌøª
+Great job!üëèüèªüëèüèªüëèüèª
 
 [5:11:46](#MmImfpy5di_Mfjq4mhEvgq0b9x2PwixQJNPNOSAqEJU) <greggirwin (Gregg Irwin)>:
 Thanks @loziniak. Will try to catch up and review soon.
@@ -163,9 +160,6 @@ Thanks, @greggirwin for review, I included all suggestions. Also, I have a [prob
 * Thanks, @greggirwin for review, I included all suggestions: https://github.com/exercism/red-test-runner/pull/5 . Also, I have a problem with isolating *runner*'s context: https://github.com/exercism/red-test-runner/issues/4, I don't have idea how to do it elegantly. Perhaps someone could help?
 
 [21:56:08](#U1Yq8LF2SgCJ6TGs5hWuAdyOxUHw9T0TZHJiyncCZKQ) <greggirwin (Gregg Irwin)>:
-When executing arbitrary Red code, there's no easy answer. When `protect` is added that will help, and modules should be restrictable, but we don't have those yet. In this case a catch is that you want it in your environment for the `print...` redefinitions. You've probably already thought of the inelegant solution of loading and binding to a context created for the runner (with words you want to catch). 
-
-[21:59:23](#pIhOBbOIykiGBlUXApEIA1vhcM1OA14KHN9skqPHRuo) <loziniak (Maciej ≈Åozi≈Ñski)>:
 When executing arbitrary Red code, there's no easy answer. When `protect` is added that will help, and modules should be restrictable, but we don't have those yet. In this case a catch is that you want it in your environment for the `print...` redefinitions. You've probably already thought of the inelegant solution of loading and binding to a context created for the runner (with words you want to catch). 
 
 [21:59:41](#4FZezZ0Q79w6TRjWmduSQ6VVCE4-pkguONHox9yHSTs) <loziniak (Maciej ≈Åozi≈Ñski)>:
@@ -228,7 +222,7 @@ Yes. It's up to exercise description to request/enforce a specific form, like a 
 `last words-of ...` takes a value of last assignment in student's answer script.
 
 [14:31:41](#JGhQt2avjsxaPZ6n4XQbXXMBGkLF_h6g87d3HLfI6Gg) <loziniak (Maciej ≈Åozi≈Ñski)>:
-I realised though, that it only stops from overwriting *test-runner* context by *answer*, and still access to this context is possible, so it's just partially a success Ì†ΩÌ∏ï
+I realised though, that it only stops from overwriting *test-runner* context by *answer*, and still access to this context is possible, so it's just partially a success üòï
 
 [14:32:06](#OmpBravDLszaKTkMM2dxmSk1IuKGf8BDK6gXS4F5_Gk) <loziniak (Maciej ≈Åozi≈Ñski)>:
 * I realised though, that my solution only stops from overwriting *test-runner* context by *answer*, and still access to this context is possible, so it's just partially a success :-/
@@ -392,10 +386,10 @@ loziniak (Maciej ≈Åozi≈Ñski): Thanks for the link!
 I found an interesting issue with the sgf-parser exercise, which is that the canonical data uses the property "parse", which makes the generated code use that name for the exercise stub function. That causes an obvious conflict with `parse`. The simple fix would be to just rename those to something that doesn't conflict. But it raises the question of whether there needs to be a mechanism to remap certain names, because it breaks the automation for that exercise.
 
 [18:46:39](#6gTF7vQ5Xr3shMenqv7mNs8YQUMRvItG7rLUnramkpA) <zentrog>:
-greggirwin (Gregg Irwin): I'm shocked that your plans are a bit overloaded Ì†ΩÌ∏è
+greggirwin (Gregg Irwin): I'm shocked that your plans are a bit overloaded üòè
 
 [18:47:58](#0YFHmSthmmxw912gnz0ZWkI1Rhefk3sg_WpubCY-t-k) <zentrog>:
- * greggirwin (Gregg Irwin): I'm shocked that your plans are a bit overloaded Ì†ΩÌ∏è (<- if it's hard to see what that is, it's the smirking/sly smile face, btw)
+ * greggirwin (Gregg Irwin): I'm shocked that your plans are a bit overloaded üòè (<- if it's hard to see what that is, it's the smirking/sly smile face, btw)
 
 [18:50:44](#oH66A-CML_kTWck_JzR31CUIhicvwcIgNUW-4Rdi1-M) <greggirwin (Gregg Irwin)>:
 I got it. ;^)
@@ -413,9 +407,6 @@ Coming soon. :^)
 
 ## 16-Nov-2021
 
-[19:17:35](#L_Ee-TEDJKy2vG9JW8W_U5MsfmiX4zDW5skKZTEwh8M) <zentrog>:
-Coming soon. :^)
-
 ## 12-Aug-2022
 
 [10:10:01](#A2jQTqpKNN90gg3PnJY6wD0A9ti4M_1fDy-VbUsw5-I) <loziniak (Maciej ≈Åozi≈Ñski)>:
@@ -425,7 +416,7 @@ https://exercism.org/mentoring
 
 Anyone interested? I'll also do this for sure, but I'm not feeling super-knowledgeable about Red, so probably someone would be better for this task. I'll let you know here, when our track will be released.
 
-I wonder how many people will start submitting exercises. Will we have a flood of curious developers, or just nobody will notice Ì†ΩÌ∏É 
+I wonder how many people will start submitting exercises. Will we have a flood of curious developers, or just nobody will notice üòÉ 
 
 [10:20:05](#9e1W_2swIMnioONvJ52SsJhcQC0-CiazOh2B1zm3dC0) <loziniak (Maciej ≈Åozi≈Ñski)>:
 https://github.com/exercism/red/issues/31
@@ -433,7 +424,7 @@ https://github.com/exercism/red/issues/31
 ## 15-Aug-2022
 
 [16:20:07](#lSQzRJNfZyhG8aDjyQd8OkTz6XQSlx6685JLyQrjhs8) <endo64>:
-Ì†ΩÌ±ç
+üëç
 
 ## 18-Aug-2022
 
@@ -552,7 +543,7 @@ Unfortunately...
 ## 25-Feb-2023
 
 [11:43:38](#HvI6WxB215v49KxuHBfXx1JKtQhMCZi5bMrfA1plHjM) <toomasv>:
-Ì†ºÌæâ All exercises done Ì†ΩÌ≤™ Great work loziniak (Maciej ≈Åozi≈Ñski) ("Simple Linked List" seems unfinished?)
+üéâ All exercises done üí™ Great work loziniak (Maciej ≈Åozi≈Ñski) ("Simple Linked List" seems unfinished?)
 
 ## 13-Apr-2023
 
@@ -573,9 +564,6 @@ Exercism is featuring Red during their [Mindshifting May](https://exercism.org/b
 I only twitch in real life, but that's very cool! Thanks for the note zentrog !
 
 ## 12-May-2023
-
-[11:23:28](#_SqGvgqNg09rRSdr_dHIiMvOhXOgyZfI37lUHBPxQV4) <loziniak (Maciej ≈Åozi≈Ñski)>:
-I only twitch in real life, but that's very cool! Thanks for the note zentrog !
 
 [11:27:10](#tpY-mTSqkuF-8D9ryffBsl5-seVdj81ek-FohOytTjE) <loziniak (Maciej ≈Åozi≈Ñski)>:
 zentrog: will you stream?

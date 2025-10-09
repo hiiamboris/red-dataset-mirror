@@ -68,11 +68,6 @@ Humbly ask for your additions to a "common tasks" list that I've started in the 
 
 https://github.com/red/red/wiki/%5BHOWTO%5D-How-Do-I-Do-X-with-Red%3F
 
-[1:48:25](#8nLtSyv7SYgb_zctMCgz139A1d-zrOmInMYoXoLvd9U) <gltewalt (Greg T)>:
-Humbly ask for your additions to a "common tasks" list that I've started in the Wiki.
-
-https://github.com/red/red/wiki/%5BHOWTO%5D-How-Do-I-Do-X-with-Red%3F
-
 [2:51:24](#-5hYCRsD3_DoSMcnok_VVg9b8i9gJgHIaAlWjf1dl2k) <greggirwin (Gregg Irwin)>:
 I made a list at the bottom. One of the keys to helping people find answers is using language they know. Then we can teach them our nomenclature. e.g. we think of reading URLs, but the rest of the world things of making HTTP requests.
 
@@ -621,19 +616,19 @@ Oldes, I can see it and I can understand the fears you have but I use the `WORD/
 * `(code)/(code)` (as a path) is a nonsense... you would not be able to write `(1 + 1)/(2 * 2)`
 
 [16:26:07](#KFD8xyzdVqWaXIUdt32bOJrCpmVCKhl3SzLltQdOJoY) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-And I don't have any fears Ì†ΩÌ∏â  I have nothing against `word/(index + 1)`. I was requesting it in Rebol to be implemented years ago... I just see also the dark sides. Occasionally. 
+And I don't have any fears üòâ  I have nothing against `word/(index + 1)`. I was requesting it in Rebol to be implemented years ago... I just see also the dark sides. Occasionally. 
 
 [16:26:09](#VuNl7lNOr3BD0jH_3djnddVcIoxyRa8HvyvzZO6mzBM) <GiuseppeChillemi (GiuseppeChillemi)>:
 I see, but if there could be a solution, I think it's whort trying to find it.
 
 [16:27:16](#PzqCKMx-dhl5MRrS2_DqlCoU4H4Upcik8g2FN2p4sVI) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-Every solution has its price and sometimes the price is too high. But go ahead and make a wish Ì†ΩÌ∏â
+Every solution has its price and sometimes the price is too high. But go ahead and make a wish üòâ
 
 [16:37:26](#qHFnEk9l7yGKGknzjad_DiLYuxIo239eoCua9IZSEY4) <GiuseppeChillemi (GiuseppeChillemi)>:
 @Oldes 
 > `(code)/(code)` (as a path) is a nonsense... you would not be able to write `(1 + 1)/(2 * 2)`
 
-/(code)/(code) could be the road to this but how to make it without disturbing refineents Ì†ΩÌ∏â 
+/(code)/(code) could be the road to this but how to make it without disturbing refineents üòâ 
 Also, I think it is now time to move elsewhere, I propose [red/red](https://gitter.im/red/red)
 
 [16:37:51](#uMfzxhrsH3zJLidNQrSxB8tacA_jMmrRbWFuGquxNd0) <GiuseppeChillemi (GiuseppeChillemi)>:
@@ -693,7 +688,7 @@ a/b/c/d
 ```
 Or go even further:
 ```
->> //: make op! Ì†ΩÌ∏õath
+>> //: make op! üòõath
 == make op! [[a b]]
 >> [a b] // [c d]
 == a/b/c/d
@@ -743,7 +738,7 @@ foreach series [s-one s-two s-three s-four] [
 ```
 
 [18:05:20](#lpXg3erCm1R5IwcaC98dVj5kgwhNkFKQW3gIMFQpz4M) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-Not mentioning that someone must also write a compiler to support this theoretical code patern. Ì†ΩÌ∏ï
+Not mentioning that someone must also write a compiler to support this theoretical code patern. üòï
 
 [18:06:22](#WTO3thfs_H5UNdEKBUMxkHKb0LIpIFd6jp0B-bjlIIU) <GiuseppeChillemi (GiuseppeChillemi)>:
 * Think about some series sharing the same structure and stored in different words:
@@ -803,7 +798,7 @@ HF has just a couple of good ideas but he is totally changing the way Redbol lan
 * HF has just a couple of good ideas but he is totally changing the way Redbol languages works, without realizing the solid grounds, even neurological ones,  Carl ideas is based onto. Also, he is forgetting the importance of code/skill reuse (20 years of Rebol experience); and that everyone needs something stable to work with. I have seen different members suffering from this **experimental stage**. Red is now ready and has its first commercial application. As things are now, we will see REN-C apps in another 5 to 10 years time frame. I will deliver my fist application *made with red (tm)* just after the new Android branch will be released.
 
 [18:32:19](#xwP94O5nk3ygtCCUzkuvNNbOWfCAX_I6kRqwXEChcMU) <GiuseppeChillemi (GiuseppeChillemi)>:
-@toomasv This one `//: make op! Ì†ΩÌ∏õath` is the way to start with.
+@toomasv This one `//: make op! üòõath` is the way to start with.
 
 [18:32:41](#9WJaUhuzYJU78mQIcULvjhksraJHZcy6qF8MEADRhFY) <GiuseppeChillemi (GiuseppeChillemi)>:
 * HF has just a couple of good ideas but he is totally changing the way Redbol languages works, without realizing the solid grounds, even neurological ones,  Carl idea are based onto. Also, he is forgetting the importance of code/skill reuse (20 years of Rebol experience); and that everyone needs something stable to work with. I have seen different members suffering from this **experimental stage**. Red is now ready and has its first commercial application. As things are now, we will see REN-C apps in another 5 to 10 years time frame. I will deliver my fist application *made with red (tm)* just after the new Android branch will be released.
@@ -827,7 +822,7 @@ I have created a gist to show the application field of relative paths: https://g
 (Thank you @toomasv !)
 
 [20:43:52](#FTGqAFo3cMupSGOFGDv9jJfSt43OuJAY1bwCvYtDtV0) <toomasv>:
-Ì†ΩÌ∏∏ 
+üò∏ 
 
 ## 15-Jan-2021
 
@@ -1103,7 +1098,7 @@ https://asciidoctor.org/
 Bonus - the headers are colored red
 
 [12:07:09](#CfZwedzuXCzyhlY4_iikK55iOQ06t9xWP4ZtsmtNAio) <FLuX>:
-@gltewalt we use asciidoctor since always.. and we also do SPA and PWA if that's the new buzz words.. Ì†ΩÌ∏É 
+@gltewalt we use asciidoctor since always.. and we also do SPA and PWA if that's the new buzz words.. üòÉ 
 
 [12:38:29](#1-Ptb4QRouBHv4OKmR2mmhh2LN6PEYOsI-0Kr4sLQ58) <gltewalt (Greg T)>:
 'We' as in?
@@ -1768,7 +1763,7 @@ Sounds nice!
 Hey, there Is already my Augmented Docs project to be merged!
 
 [16:54:08](#tWGrk0TUTzLWun5Nn4nYDkdZWrowH8V3W70sz3mcEmg) <GiuseppeChillemi (GiuseppeChillemi)>:
-Ì†ΩÌ∏ÅÌ†ΩÌ∏ÅÌ†ΩÌ∏Å
+üòÅüòÅüòÅ
 
 [16:56:07](#i3qHWEjj3kuG4-dyePjzrRCiPpvAgKmVMdKEkXF-cvs) <greggirwin (Gregg Irwin)>:
 I guess we should all get our work out there for evaluation.
@@ -1913,7 +1908,7 @@ simple scripts may run for months, but the more data crunching you're doing and 
 though you still have an option of doing the risky work in the C lib, and using Red for the UI.. just more work and requires system level coding skills
 
 [18:08:54](#WmDbeFHxZT7xoFY7DJCsVKSMXmFvGx5poVxywAEORLk) <3xtraterrestrial>:
-Ì†ΩÌ±çÔ∏è
+üëçÔ∏è
 
 What about Rebol itself? Would the change from building out applications in Rebol then transitioning to Red when more stable not be worth the squeeze, in terms of the amount of work that would be required probably.
 
@@ -1934,7 +1929,7 @@ Thank you for your input
 Yes, estimates based on e.g. story points are well established and ubiquitous, but in my opinion, too, it‚Äôs a pity that far too less people in the industry are privy to duodecimal time based estimates /s
 
 [10:59:58](#ybERUtCoR_RWpcmkKQ4CBDJbLs6ch1uAYNXdwlM3Bhk) <gurzgri>:
-* Yes, estimates based on e.g. story points are well established and ubiquitous, but in my opinion, too, it‚Äôs a pity that far too less people in the industry are privy to duodecimal time based estimates /s Ì†ΩÌ∏â
+* Yes, estimates based on e.g. story points are well established and ubiquitous, but in my opinion, too, it‚Äôs a pity that far too less people in the industry are privy to duodecimal time based estimates /s üòâ
 
 ## 26-Sep-2024
 

@@ -64,19 +64,6 @@ So it would more work as a shortcut for much longer:
 == [a b]
 ```
 
-[22:46:25](#BIUKPqKyXEV3Xq4hsK-jsc9uucInzRYpJ1C01lnj85M) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-Anyway.. if used for non `map!` series... now it is:
-```
->> remove/key [a b b c] 'b
-== [a c]
-```
-Wouldn't it be better to have it `== [a b]`?
-So it would more work as a shortcut for much longer:
-```
->> if pos: find/skip blk: [a b b c] 'b 2 [ remove/part pos 2 ] blk
-== [a b]
-```
-
 ## 3-Dec-2020
 
 [4:47:37](#Q9U_MHxRdfFbWg8OQSbGqcB4Loh2fnelHLlaBPsBk9g) <greggirwin (Gregg Irwin)>:
@@ -339,10 +326,10 @@ Funny though, it never quits the multi-line mode. That's certainly a bug:
 
 [18:05:23](#LPwuIpN6aTaFSILn4yArPkaBo0pnmuLWzsSZQyji3Hk) <loziniak (Maciej ≈Åozi≈Ñski)>:
 https://github.com/red/red/issues/4743
-Maybe we could treat it as a bug in Windows then, since Mac and GTK versions act the same? Ì†ΩÌ∏â
+Maybe we could treat it as a bug in Windows then, since Mac and GTK versions act the same? üòâ
 
 [18:11:23](#sPzCkNnhfUV-VvtF5Yj79aNNiAt9p8vfw9My-HwQzCU) <hiiamboris (NOT THIS ONE)>:
-ask @toomasv  Ì†ΩÌ∏â
+ask @toomasv  üòâ
 
 [18:11:52](#q4euvpQzDHI-pig8kaMfL9KGLHJVqlP85AW8cv9aPP8) <toomasv>:
 Nooooooo!
@@ -634,7 +621,7 @@ And last one for today.. I promise!
 https://github.com/red/red/issues/3369
 
 [15:23:39](#g0RDwZeTsKUr3RCiP5aHAr3haq0UDrAbQx-xD7JoLtM) <hiiamboris (NOT THIS ONE)>:
-I fixed it all 2 years ago Ì†ΩÌ∏â still waiting for review
+I fixed it all 2 years ago üòâ still waiting for review
 
 [15:24:26](#vz5zw0cYxJ_OZ_HutEGcqx-gJqjoHdxHDK_lxYvlO2A) <hiiamboris (NOT THIS ONE)>:
 * I fixed it all a year ago ;) still waiting for review
@@ -790,7 +777,7 @@ Platform : Windows 10 x64 /  Red 0.6.4
 This is an artifact of IEEE floating-point handling. See this https://0.30000000000000004.com/
 
 [15:00:34](#VsuodvvFfo0IAfxgoP43nKJzUJcx3zT9FVHJLNie91A) <hiiamboris (NOT THIS ONE)>:
-@zwortex Ì†ΩÌ∏â
+@zwortex üòâ
 on `halt` - it's a bug right, and I don't believe it was reported, so feel free to do so
 on errors - probably no point, it's a well known issue that will be improved in due time (but if you encounter error reports where even stack trace gets you nowhere - please add those to #4532)
 on floating point output - you got your answer, I'll just add that `t` is time and is formatted accordingly, but `t/second` is a float, so `mold` output with maximum precision is expected for it
@@ -856,10 +843,10 @@ print t4/second ; => 35.11230000000069
 ```
 
 [19:11:20](#UJvb3LOYzonCzUals0nPVxW4DkUchT7rAhtfyKGNXts) <hiiamboris (NOT THIS ONE)>:
-This is by design that `mold` outputs with better precision than `form`. It was done to get rid of "weird decimals" as you call them Ì†ΩÌ∏â
+This is by design that `mold` outputs with better precision than `form`. It was done to get rid of "weird decimals" as you call them üòâ
 
 [19:14:27](#mhdFZsUtlnefHTekspOgeTiULjG1ciHSTNJf4WqewQI) <hiiamboris (NOT THIS ONE)>:
-I'll show you a trick. Maybe you'll understand. It explains all your confusion when you get it Ì†ΩÌ∏â
+I'll show you a trick. Maybe you'll understand. It explains all your confusion when you get it üòâ
 ```
 >> t: 10:05:12.8
 == 10:05:12.8
@@ -1049,7 +1036,7 @@ Right, thanks for correction.
 That makes a lot of sense, thanks !
 
 [15:30:52](#9ypliiGyxwbxhr3dG_ar6BAaotyUNEoTwLT6nFCA8N4) <toomasv>:
-Although, I'm not sure if `append` needs to append `o`s to words  Ì†ΩÌ∏ú
+Although, I'm not sure if `append` needs to append `o`s to words  üòú
 
 [15:32:41](#6UD_t7U-cq5ePMRpWoeEMDmiRP5aZbYw_W4hpdzpiDA) <toomasv>:
 * Although, I'm not sure if `append` needs to append `o`s to words. @rebolek, may be you should rise an issue  :stuck_out_tongue_winking_eye:
@@ -1278,7 +1265,7 @@ I believe it has been reported, wasn‚Äôt it?
 [16:20:17](#pR5J_7vq3mkDE8Dz5z0ala7S8B06Jjbyw-by8KnoyAs) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 This also does not look gooo:
 ```
->> body-of Ì†ΩÌ∏õrint
+>> body-of üòõrint
 == 23
 ```
 
@@ -1422,19 +1409,19 @@ Yes... that is the issue:)
 * Yes... that is the issue:) I think that if one explicitly use `/dir` than the dir should be used and not some previous one, which may be unrelated. 
 
 [11:09:59](#xJEi5ySveB7E-Kkm6d-6NOt8P6i2Qfdvk5wf-0W2qQ8) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-But hard to say.. to be honest.. I was not using `request-dir` so far. That is reason why I try to discuss it here Ì†ΩÌ∏â
+But hard to say.. to be honest.. I was not using `request-dir` so far. That is reason why I try to discuss it here üòâ
 
 [11:10:14](#xEihU1lut4sb-KpG4bQPbognhLJDlqX6kXd3KWyoYtw) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 * But hard to say.. to be honest.. I was not using `request-dir` so far. That is the reason why I try to discuss it here ;-)
 
 [11:44:15](#0Q3mleUoADLZguUmE8EZb1b9UrUZ9RZd7dQK_H2Zu64) <hiiamboris (NOT THIS ONE)>:
-I see Ì†ΩÌ∏â Well, then in this model you'll have to reinvent the `/keep/dir` logic in your program likely, by using `/dir` for the first request and then with no refinements after that.
+I see üòâ Well, then in this model you'll have to reinvent the `/keep/dir` logic in your program likely, by using `/dir` for the first request and then with no refinements after that.
 
 [13:08:22](#TnvhE26b27HuYrrqx9iimCyXIV8fDj1MWF5mZQUVcLI) <loziniak (Maciej ≈Åozi≈Ñski)>:
-@hiiamboris thanks for reporting [that](https://gitter.im/red/bugs?at=5fdd2eeb93af5216fc4d3925)‚Üë. I'm always a little late Ì†ΩÌ∏õ
+@hiiamboris thanks for reporting [that](https://gitter.im/red/bugs?at=5fdd2eeb93af5216fc4d3925)‚Üë. I'm always a little late üòõ
 
 [14:17:19](#CCNrIW06a82nvSpgT_EpRLR6Kx2_LCU7EZV_kVx7ujE) <hiiamboris (NOT THIS ONE)>:
-Sure. Bugs are easy to forget about, so better to report them asap Ì†ΩÌ∏â
+Sure. Bugs are easy to forget about, so better to report them asap üòâ
 
 ## 25-Dec-2020
 
@@ -1627,7 +1614,7 @@ I know, xp is not a supported platform but this issue may be serious enough if a
 What is the default font coded in red ?
 
 [23:01:43](#sOEAxmCeXaMEa25JtOgwR4aH_laZvi691p7adm-FNpk) <pepdiz (Pep)>:
-another issue is console blows out when trying to "parse system", I suppose it's a memory issue but very unpolite Ì†ΩÌ∏â
+another issue is console blows out when trying to "parse system", I suppose it's a memory issue but very unpolite üòâ
 
 [23:02:19](#uH2CIz6Be6VPa4SLOHA027GbrJcGeudmWcu6HKyS-BE) <pepdiz (Pep)>:
 sorry, not "parse system" but "probe system"
@@ -1744,7 +1731,7 @@ what is encap mode? I suppose it's a kind of wrap of rebol core with your source
 [10:16:51](#1HRx7s3d8YfaVpvC5QVB-FB05OkDaJGG5B6G7SdjwQc) <hiiamboris (NOT THIS ONE)>:
 > rebol core
 
-red core Ì†ΩÌ∏â
+red core üòâ
 
 [20:29:24](#zHJoH7tN4Nb2GMNcSFbhV6iWO91QFARe28mXFublhyM) <greggirwin (Gregg Irwin)>:
 The `--encap` command line switch for the compiler causes the code to be embedded basically as-is, and interpreted at runtime. This allows you to distribute a single EXE that contains code which is too dynamic for the compiler to handle, or to work around compiler limitations. You can see all the compiler options in the readme of the main Red github repo.
@@ -1910,9 +1897,9 @@ change-dir: func [
 >> source cd
 cd: func [
     "Changes the active directory path" 
-    Ì†ΩÌ∏Éir [file! word! path!] {New active directory of relative path to the new one}
+    üòÉir [file! word! path!] {New active directory of relative path to the new one}
 ][
-    change-dir Ì†ΩÌ∏Éir
+    change-dir üòÉir
 ]
 ```
 
@@ -2172,7 +2159,7 @@ hi @hiiamboris, thanks for your replies. Ok for 2x2 image. What about the crash 
 What would your contribution be? There is an infinity of snippets that will trigger this bug.
 
 [15:37:05](#23WbnH3gyAc59XkRt3CjGjchBUOPwParBisJq_C-BKk) <hiiamboris (NOT THIS ONE)>:
-Don't bother Ì†ΩÌ∏â
+Don't bother üòâ
 
 [15:43:12](#8kgpdNcvhdreY2uFow16-lQXX8g-R2xuW8f2Kaq3zzQ) <zwortex (zwortex)>:
 no problem
@@ -2307,7 +2294,7 @@ obj: make object! [
     ]
 ]
 append obj/s 1
-obj/on-deep-change*: Ì†ΩÌ∏Æbj/new-on-deep-change*
+obj/on-deep-change*: üòÆbj/new-on-deep-change*
 append obj/s 2
 ```
 
@@ -2480,7 +2467,7 @@ you can't cache `word` for it is yours to change
 ok I need to review that. changing the input dynamically is one thing ; changing the rules is another. 
 
 [18:26:55](#3Bv6QUvi1mK_VrAnK2R2RkGg94k_2MfdzQpVIZJAcZ4) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ∏â
+üòâ
 
 [18:27:34](#4AvLLHaF9QaCV9QUGNKMiBvUfs1HNoy7eNk97Zy_sMc) <hiiamboris (NOT THIS ONE)>:
 you've just stumbled upon one of the really *dynamic* concepts of Redbol
@@ -2495,7 +2482,7 @@ you can for example add new rules from the input you are parsing
 OK. I understand that it is possible. Be it advisable is another story.
 
 [18:32:01](#ro0k5DdLxFWbZ1NAgTiJKSUA4jGdhpq_Q-QwYP2wJ4Y) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-it's certainly fun Ì†ΩÌ∏â
+it's certainly fun üòâ
 
 [18:32:01](#REHFWTdxLUJqxqigfj2WF2oSdiY6WDZE1WT6Gt01rYE) <hiiamboris (NOT THIS ONE)>:
 why not?
@@ -2541,7 +2528,7 @@ A final image : you're cutting grass with a big scythe and from time to time you
 Indeed. Chosen strategy depends on the application. And Red gives you enough power to not be limited by the tool once and for all.
 
 [21:14:29](#cQ2yQcgUoSxLjgyXoHcnI42--1MwP74D8U0eQb1dbE8) <hiiamboris (NOT THIS ONE)>:
-That power comes at a price. Like, principal incompileability Ì†ΩÌ∏â
+That power comes at a price. Like, principal incompileability üòâ
 
 [21:22:20](#6UD7qqni4QytoKXVTuLW9DfE98TJPtzzKHL5Mh1cgOQ) <zwortex (zwortex)>:
 With great power comes... great responsibility ?? I heard that one. No => great incompileability ! That's a nice one. 
@@ -2645,9 +2632,6 @@ view/no-wait lo
 ```
 
 [17:32:55](#l0pKl87XaHG6GjAdKYYZUlUAeskFpjdmb_ErNfPOSEI) <greggirwin (Gregg Irwin)>:
-I never got a crash with @dsunanda's code, but did get a couple flickers. With @hiiamboris' code it's rock solid here.
-
-[18:03:25](#7sEXSgAeLh-sgZ0agiOIYOPs6HIjozfzHgS4CVNAWSQ) <dsunanda (dsunanda)>:
 I never got a crash with @dsunanda's code, but did get a couple flickers. With @hiiamboris' code it's rock solid here.
 
 [18:04:31](#T5SdlmPw1Rs7QxRa_PKKUOD2ZA9r-FKivvAZtcDfSFo) <hiiamboris (NOT THIS ONE)>:
@@ -2960,7 +2944,7 @@ https://github.com/red/red/issues/4784
 @hiiamboris Thanks - that was quick! It kinda makes any attempt to code pointless as bugs are invisible :)
 
 [15:59:21](#6KfuJj62lZLlLyQDvPpDp2r2z3fcv3c26qj9dODvVUE) <hiiamboris (NOT THIS ONE)>:
-use D2D branch Ì†ΩÌ∏â
+use D2D branch üòâ
 
 [16:02:08](#EiMWWyHOB8Kf54YIGlAnJ8fLDRfsNjkA74c5g7RGTx4) <dsunanda (dsunanda)>:
 I've just gone back a month or so :) 
@@ -3019,7 +3003,7 @@ Thanks. I was thinking about it after seeing your first message, and trying to c
 @greggirwin Hey, I figured out why I was getting a weird TLS error from https://static.red-lang.org/. Turns out my ISP was to blame. They considered the website to be "untrustworthy" for some reason, and were inserting an interstitial page which was breaking the TLS. I didn't realize, because the TLS error was so bad that no browser would let me see the page. I had to explicitly visit the HTTP version (so it would load at all) and click the button telling them I knew what I was doing, and after that (at least for a few days before the page is re-inserted by my ISP) both HTTP and HTTPS work fine. I guess there's nothing you all can do about that, since I doubt Comcast will be of any help in explaining things.
 
 [9:17:06](#uvLZCZ5-cxnPhMrUW2jFf-aL0x_9hTQrHuVqZGhsxX0) <hiiamboris (NOT THIS ONE)>:
-Where I live, rebol.com and rebol.org were completely banned for like two years Ì†ΩÌ∏â These Evil Redbol sites!
+Where I live, rebol.com and rebol.org were completely banned for like two years üòâ These Evil Redbol sites!
 
 [18:58:57](#lpDKN6_FVlSlh2yipIyjZR_qJReAaDkMj5EWhN_UD4c) <greggirwin (Gregg Irwin)>:
 @x8x is the one who has all the power and knowledge in that area. Thanks for the report @raxod502.
@@ -3148,7 +3132,7 @@ So is it a bug or a feature?
 It's a good question. :^)
 
 [16:40:55](#4487DSh6zrQ4Qb-B_0KDaGV6j0uwbGEAk5P23JTuDWo) <hiiamboris (NOT THIS ONE)>:
-`/` is not a *back*slash Ì†ΩÌ∏â
+`/` is not a *back*slash üòâ
 
 [16:41:25](#hEnuPDpKmAuExnnOuhsIHHsy-sT-h4OgkRNvNWN1gF4) <greggirwin (Gregg Irwin)>:
 * `dir?` checks for slash at tail (which my local version obviously extends to backslash as well ;^).
@@ -3157,7 +3141,7 @@ It's a good question. :^)
 ...whatever do you mean? (thankful for editability to look less stupid)
 
 [16:42:25](#Jv3rAyWIlRG15Y8QXpaJp9UclH1qyNENFnHMEsdKSuI) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [16:43:03](#zA3U5Mj5TFh2SixsB2BSTxxu24Ol42C3uXwHkQ3mn3o) <hiiamboris (NOT THIS ONE)>:
 I don't know why `dir?` should not support `\` as well.
@@ -3353,10 +3337,10 @@ Red 0.6.4 for Linux built 18-Jan-2021/10:06:33+01:00 commit #de5c05e
 ```
 
 [9:32:45](#OmD_ddUtBH8gusVRgfKBEcno7sFvyXhf1Z8T-9KVNEU) <hiiamboris (NOT THIS ONE)>:
-need a way to reproduce it Ì†ΩÌ∏â
+need a way to reproduce it üòâ
 
 [9:54:45](#ATT73js0RdCx9gswvTdZuZfZmWu7tcePVMbNIauOX1A) <loziniak (Maciej ≈Åozi≈Ñski)>:
-It can be hard, probably no way to separate it into minimal case, as this is GC. And my code is not public Ì†ΩÌ∏ü
+It can be hard, probably no way to separate it into minimal case, as this is GC. And my code is not public üòü
 
 [12:33:11](#jhj0XrxAP_OLLIZgq4eclQkAYKCIZiN7mLuLlRAFNYc) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 I recently had GC doing `recycle` very hard for almost three minutes and no crash! :-)
@@ -3368,7 +3352,7 @@ When GC crashes it is no guarantee that GC is to blame. Something else may have 
 @hiiamboris is your memory marker experiment something @loziniak could use locally? 
 
 [17:26:27](#EBhaCkOtSaY1M-5Npv4N70hmGpbiTmASRtNpzCvkOgM) <hiiamboris (NOT THIS ONE)>:
-Not if he cannot reproduce it himself Ì†ΩÌ∏â
+Not if he cannot reproduce it himself üòâ
 
 [17:26:35](#U1svvNgsXQ_tnj5uOTVbOIYABQ01NNn1JsO-yKTZEtw) <hiiamboris (NOT THIS ONE)>:
 And it's 1.5 years old already...
@@ -3614,7 +3598,7 @@ But now only error is returned.
 Is it bug, or, more probably, intentional change? If intentional, is there some other way to get previous behavior? And then help should also reflect the change.
 
 [13:54:51](#2hbtsWvAHcdguta5RC9jD-WtQ7CwbVzptINyPG6aU84) <hiiamboris (NOT THIS ONE)>:
-Better ask on TG Ì†ΩÌ∏â
+Better ask on TG üòâ
 
 [13:54:58](#Q8WI98M1ldgxhA_hxWDZrwwZYPfVAIvDZeT3bXBc4Cw) <hiiamboris (NOT THIS ONE)>:
 Tests were commented out https://github.com/red/red/commit/3bf08791f0208761c0a93acca21b8f96c558890c
@@ -3637,7 +3621,7 @@ dl from github
 @hiiamboris Of course It‚Äôs possible by Github. I was juste pointing to a problem with Red web server :)
 
 [17:57:41](#wCMuPi_GMD6e01CTS2oTlqDbUfJVhqHeJSFwVxsNGJ0) <hiiamboris (NOT THIS ONE)>:
-Sure, thanks Ì†ΩÌ∏â IIRC it's known, just idk why it takes so long to fix a broken link on the site..
+Sure, thanks üòâ IIRC it's known, just idk why it takes so long to fix a broken link on the site..
 
 [18:03:22](#6Y7tFQkxQpboIswLxAxhxYL6hCIAVAGDjE_TOgiPwEE) <ldci (Fran√ßois Jouen)>:
 BTW: https://twitter.com/fjephe/status/1358838235775049733/photo/1
@@ -3677,7 +3661,7 @@ So it zooms in for 1/4 sec when you hover over it?
 Yep when I click on base facet :)
 
 [18:27:01](#-eIRZpC9Xvd268dd1XBpD6g-5cjj2YNWppWpP1DelPU) <hiiamboris (NOT THIS ONE)>:
-I see Ì†ΩÌ∏â
+I see üòâ
 
 [18:27:13](#FLgyXh-CCa30sskEdVYTkVVIe3TnhNj_AoMgYKDabKc) <ldci (Fran√ßois Jouen)>:
 Rather funny
@@ -3781,10 +3765,10 @@ The bug disappears when I run it using: Red Build 0.6.4 - 31-Jul-2020/9:55:01-07
 It runs perfectly now with: Red Build 0.6.4 - 4-Feb-2021/17:06:04-07:00. Thanks for the second set of eyes @hiiamboris 
 
 [16:21:16](#srl4gK6DazsXmjkf0p7kw2ZJsDsAv0ZR3ZjiztFRFyw) <hiiamboris (NOT THIS ONE)>:
-Well, I expect it will return to haunt you yet Ì†ΩÌ∏â
+Well, I expect it will return to haunt you yet üòâ
 
 [16:40:42](#iAxoGv8Q8uQxAsUiDRQSKj8zO2oVjKqcB821xlulHjc) <mikeyaunish>:
-I guess as Direct Code continues it will be a bit of a torture test for Red Ì†ΩÌ∏â I am good as long as I have a stable version I can play with.
+I guess as Direct Code continues it will be a bit of a torture test for Red üòâ I am good as long as I have a stable version I can play with.
 
 ## 11-Feb-2021
 
@@ -3946,7 +3930,7 @@ I think the bug is related to the console being frozen for a long time while doi
 @hiiamboris Redbin codec [goes brrr](https://knowyourmeme.com/memes/money-printer-go-brrr) way too fast and generates torsion fields that interfere with GUI console, as in https://github.com/red/red/issues/4825.
 
 [15:31:04](#aZJNbiHAmM2rA1nyiT0ZbhdSIfJh9GJvQ-sdeFK2HMc) <hiiamboris (NOT THIS ONE)>:
-haha thanks @9214 that makes sense then Ì†ΩÌ∏É
+haha thanks @9214 that makes sense then üòÉ
 
 [15:48:11](#A9FK4D_3YZ-0BNsEtRVDLEyQKFP3LuKJhdM3Vpj-sN0) <hiiamboris (NOT THIS ONE)>:
 Tried 2M strings, can't reproduce.
@@ -4121,7 +4105,7 @@ rule: [
 	]
 ]
 ;s: read %bookmarks
-Ì†ΩÌ∏úrint parse ss: copy s rule
+üòúrint parse ss: copy s rule
 ```
 
 [16:56:27](#gOtWmt6GMhFg9Hfks705P6XaWZZQkNaGNu0synRfzrw) <greggirwin (Gregg Irwin)>:
@@ -4196,7 +4180,7 @@ Exactly
 I ran out of patience and just killed the console
 
 [17:21:40](#aDqgqiCY6GgxBsDd5eWnnrVzbKjtlPDKEIH78O36VF8) <GiuseppeChillemi (GiuseppeChillemi)>:
-My patience is still here but it is being consumed too by the `recycle`, I can see it in my inner task manager Ì†ΩÌ∏â
+My patience is still here but it is being consumed too by the `recycle`, I can see it in my inner task manager üòâ
 
 [17:21:54](#P0NoCfviNjvgezcDyEn7tdvos7uIpXhIh0-TkXzC94E) <GiuseppeChillemi (GiuseppeChillemi)>:
 * My patience is still here but it is being consumed too by the `recycle` process, I can see it in my inner task manager ;-)
@@ -4396,7 +4380,7 @@ You got yourself into this mess.
 ```
 
 [19:44:28](#A_sQ9Uf7V0yzVi1RSb4vfPoaRwaO7ZTfLpgEHgJK-V8) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [20:40:52](#fmVSJTbPixbrkh2gnEJVYLM_vhs5aQ2ttKWNTwtM0g4) <gltewalt (Greg T)>:
 That's the help message I get all the time
@@ -4433,10 +4417,6 @@ There is a race for the to here, go Red, go go go!
 [![image.png](https://files.gitter.im/5902e8c1d73408ce4f5b94ba/LLLQ/thumb/image.png)](https://files.gitter.im/5902e8c1d73408ce4f5b94ba/LLLQ/image.png)
 
 [23:21:18](#LyjsDJJQSk2tOJzXLiHSyY7RmFAFHm3f9Td7gZhDtOM) <GiuseppeChillemi (GiuseppeChillemi)>:
-* There is a race for the to here, go Red, go go go! You are reaching google chrome memory usage!
-
-
-[23:21:33](#s0YrILs3eq687VnFxRCon3RYu3pHnopYwyYkxq9J8Rs) <GiuseppeChillemi (GiuseppeChillemi)>:
 * There is a race for the to here, go Red, go go go! You are reaching google chrome memory usage!
 
 
@@ -4504,7 +4484,7 @@ This complicates debugging a lot. I have tried to add some code in the middle of
 * This complicates debugging a lot. I have added  some print code in the middle of the test loop but nothing has been printed on screen until the end of the loop which took place after many hours.
 
 [10:32:45](#F9JCZ8IHO37DiHp0anH9_OpP1oHbXUyHL8eJ1mP3Ic4) <hiiamboris (NOT THIS ONE)>:
-Perhaps you should learn `do-events/no-wait` command then Ì†ΩÌ∏â
+Perhaps you should learn `do-events/no-wait` command then üòâ
 
 [11:28:30](#ZMwNN0A1bd3r3cNR9YVPRZNPF5yoF6mcOb6NFbafqe4) <GiuseppeChillemi (GiuseppeChillemi)>:
 Ohhh, food for my mind!
@@ -4528,13 +4508,13 @@ DT Result: 9:17:36.5448
 ```
 
 [18:42:12](#n5s1R22BaW988MCxu7LEnNqySZ924MoXJbn1eQNazsc) <GiuseppeChillemi (GiuseppeChillemi)>:
-Ì†ΩÌ∏ü
+üòü
 
 [19:07:19](#PQ47agB-bInYQimYh8DRF41__wYPIbTDaCogyyRxnQc) <GiuseppeChillemi (GiuseppeChillemi)>:
 I am redoing everything from scratch. tomorrow morning the anonymization process will end. 
 
 [19:08:06](#UJ5BT8gMYXJJgz3XCSCyi3alk6X6aGQBAqKwo086Dr8) <hiiamboris (NOT THIS ONE)>:
-Some persistence Ì†ΩÌ∏â
+Some persistence üòâ
 
 [19:08:44](#AR8cqUbcCaa9jiEYE-i0W2zV5e4jNjrr-2Y-CrU4rzk) <GiuseppeChillemi (GiuseppeChillemi)>:
 * I am redoing everything from scratch. tomorrow morning the anonymization process will end. It will try to append one char at time in the output file, traversing the whole string. Very slow but it is the only non memory consuming thing to do.
@@ -4921,8 +4901,8 @@ In Rebol I have used this code:
 
 ```
 anon: func [val][
-	Ì†ΩÌ∏úrobe val
-	Ì†ΩÌ∏úrint val
+	üòúrobe val
+	üòúrint val
     alpha: "aieouAEIOU bcdfghlmprst BCDFGHLMPRST"
 ;    xx: copy/part random rejoin [val alpha] length? val
     xx: random val
@@ -5071,7 +5051,7 @@ parse/all ss rule3
 
 
 [10:03:59](#NqX_3lntLY_6MDIR8scq316sduTnZhwLxv2-RprecxY) <GiuseppeChillemi (GiuseppeChillemi)>:
-@hiiamboris please, take a look now Ì†ΩÌ∏â
+@hiiamboris please, take a look now üòâ
 
 [10:05:18](#Vep4vxktGArsPUIVRaBEAtkDbgYFK0x0dj9fR2UXLfc) <GiuseppeChillemi (GiuseppeChillemi)>:
 * In Rebol I have used this code:
@@ -5334,7 +5314,7 @@ Yeah, this file has really been a can of worms!!!
 The funny thing is that sync metadata field is half the file, so it's ~45M, as a single string, on a single line.  Really Google?
 
 [20:06:15](#2rbLYgKGw3ePA_fFJKxBPcg9KAP_eNDuG7z1NX1ipik) <GiuseppeChillemi (GiuseppeChillemi)>:
-Yes, it is Ì†ΩÌ∏É
+Yes, it is üòÉ
 
 [20:09:32](#NSVCLlunlSr5_KaWfFj481bDby0ktHUy1gPf8L0OFLA) <greggirwin (Gregg Irwin)>:
 Step one might be to make the JSON error location more informative. It's not helpful at all right now. 
@@ -5703,9 +5683,6 @@ That's not a block up there?
 [18:18:50](#su66KXGL0LTIic6r9lc-7zK4wnMlp8EaIRAyhtjuoAc) <hiiamboris (NOT THIS ONE)>:
 I see a string, unloadable
 
-[18:20:16](#ZwGpvP9EfPusqytaz1QEmkze7NmRlklzW3Hgj39ZBig) <gltewalt (Greg T)>:
-I see a string, unloadable
-
 [18:21:50](#E1bMvRwICEB996UmR8bOCskzebqdlVx9sHgnHqo_gCg) <gltewalt (Greg T)>:
 I see a block with 2 weird words. Only they aren't legal
 
@@ -5887,7 +5864,7 @@ If window offset is not the client area top-left corner but the window top-left 
 As in any case, it should be possible to get any face absolute position within the screen.
 
 [12:42:36](#r8A5i6o1epuLrpNZD8fj6ErZcvvCMAPQnjkhHvw5JpQ) <hiiamboris (NOT THIS ONE)>:
-I agree. Should you have any ideas on how to solve it and make everyone happy, share them, we'll be listening Ì†ΩÌ∏â
+I agree. Should you have any ideas on how to solve it and make everyone happy, share them, we'll be listening üòâ
 
 [13:02:02](#k02yapSu409gYfb9u7W9qfoyyVKvZWCXmet__v9kyjQ) <zwortex (zwortex)>:
 I laid before you examples of behaviours that look strange to me. Either you tell me, raise a case, maybe several, or that's the way it is, so be it. Your latest answer is in between and leaves me confuse. What shall I do : raise a case, several or not ?
@@ -5923,7 +5900,7 @@ Yep
 * Yep. "Total" window. Or *offset of non-client area of the window*.
 
 [13:31:02](#M-GD-VKA7sKr8T6zq-p3PtxVRKHE8nIJK5ZJ5h81oJs) <hiiamboris (NOT THIS ONE)>:
-Like I said, think again on the result of `( event/offset + face/offset + event/window/offset )`. You miss by a titlebar, then Red missed by a titlebar and it *looks like* none of you missed. But it's not the case Ì†ΩÌ∏â
+Like I said, think again on the result of `( event/offset + face/offset + event/window/offset )`. You miss by a titlebar, then Red missed by a titlebar and it *looks like* none of you missed. But it's not the case üòâ
 
 [14:09:13](#2dXKFtPRDGw3osH-BkH-PAaiR6ywCfgGqLyTonbnp9c) <zwortex (zwortex)>:
 ok - everything trickles down to window/offset that is not reporting the client-area offset but the window's offset (your non-client area) and therefore, there is this gap of the client-area offset within the window that prevents computing the screen absolute position of a widget, or of a mouse event. Surely, this should be a bug ? Maybe re-open/extend #4270.
@@ -5959,7 +5936,7 @@ Then problem settled. Up you go.
 For the record, what's your use case? Why you require screen offsets?
 
 [16:27:41](#g5CCfzTDIoHh7rh3cO12YT1EH7qjgJCOonzgt_HHDRQ) <hiiamboris (NOT THIS ONE)>:
-If it's just reinventing context menus, that doesn't count Ì†ΩÌ∏â
+If it's just reinventing context menus, that doesn't count üòâ
 
 [16:39:30](#Bj-3TEzV2WMBvyqFnrX3P4k6AcDrf9wMgaRo4qdxhTE) <zwortex (zwortex)>:
 It is a sort of contextual menu, but an extension of it. Anyway, any situation where you need to display a sub-window (popup, information box) at a precise location related to the main window might need the screen location. I guess any communication back and forth with another process might require that as well.  
@@ -6038,12 +6015,6 @@ But whatever. We should focus on how this works on high level
 Agreed. A lot of things can be done locally, e.g. highlighting or pointing to faces,  but sometimes the global view is useful. e.g. old "spy" tools that let you mouse around and inspect values for any window. That of course opens security questions as well, but other ideas too. e.g. once we have programmatic IPC, a tool might let you hover over a face and see details about it, or imagine a telemetry based tool that's a heat map for user interactions. The UI gathers data, and in our secret lab we can see the UI with hotspots and patterns of use.
 
 ## 6-Mar-2021
-
-[3:38:49](#fJ5bFtN7BnG_yfanrKAljVk04sMNTiCkUQOW8qPQhnM) <gltewalt (Greg T)>:
-Agreed. A lot of things can be done locally, e.g. highlighting or pointing to faces,  but sometimes the global view is useful. e.g. old "spy" tools that let you mouse around and inspect values for any window. That of course opens security questions as well, but other ideas too. e.g. once we have programmatic IPC, a tool might let you hover over a face and see details about it, or imagine a telemetry based tool that's a heat map for user interactions. The UI gathers data, and in our secret lab we can see the UI with hotspots and patterns of use.
-
-[3:39:26](#guDdSYyWS3CF0ZlC32rRbtSarJgBfkx76JxZbjW3ZhA) <gltewalt (Greg T)>:
-Agreed. A lot of things can be done locally, e.g. highlighting or pointing to faces,  but sometimes the global view is useful. e.g. old "spy" tools that let you mouse around and inspect values for any window. That of course opens security questions as well, but other ideas too. e.g. once we have programmatic IPC, a tool might let you hover over a face and see details about it, or imagine a telemetry based tool that's a heat map for user interactions. The UI gathers data, and in our secret lab we can see the UI with hotspots and patterns of use.
 
 ## 8-Mar-2021
 
@@ -6160,9 +6131,6 @@ on macOS it‚Äôs OK
 [9:28:53](#Iu9kOGXQjkRT3p4wasIrxNZ6ynKlehkTky4XfBUkgSo) <dsunanda (dsunanda)>:
 @ldci Sorry - should have said seeing under Windows
 
-[9:30:20](#R8nBHQgJ4mAHHWt6j4_WAF3K2XNZYZsYSfl_-FBcAdg) <dsunanda (dsunanda)>:
-@ldci Sorry - should have said seeing under Windows
-
 [9:56:25](#F16z5zU5hiqar94bd0O6h0jSna2tVotqKJtSeuiIn28) <dsunanda (dsunanda)>:
 @hiiamboris There are some much more messed up examples too - what I posted was just the simplest. Will bug-report....
 
@@ -6180,7 +6148,7 @@ on macOS it‚Äôs OK
 ## 18-Mar-2021
 
 [19:14:14](#_mpzQrAMSkVUd3I6D9ClYV-51iMFMN1dqRKLnusuGaI) <hiiamboris (NOT THIS ONE)>:
-ANNOUNCEMENT: `about/cc` now will automatically copy the version into the clipboard, saving you from mouse/touchpad aiming exercise Ì†ΩÌ∏â
+ANNOUNCEMENT: `about/cc` now will automatically copy the version into the clipboard, saving you from mouse/touchpad aiming exercise üòâ
 
 [19:16:30](#Lr86EFJvA_LbaonHbfhMCgVU3kAOeMAMNzuYe1HhKoQ) <GiuseppeChillemi (GiuseppeChillemi)>:
 I am about to like it! (Just the time to download the new version)
@@ -6503,7 +6471,7 @@ And:
 ```
 
 [15:48:27](#4V3QTLsw2sUFZqEqImLI6FsPda0P6pzuXi33TKThskM) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-It looks that lexer is somehow undefined in this field Ì†ΩÌ∏ï
+It looks that lexer is somehow undefined in this field üòï
 ```red
 >> type? load {<-~~}
 == word!
@@ -6576,10 +6544,10 @@ https://github.com/red/red/issues/4731.
 https://github.com/red/red/issues/4731.
 
 [17:46:29](#M3ny984Mn8Uqe5Z5WX5wRvMQqSL-KXt-uh2_9wLK8qc) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-Yes... I had a feeling of a _D√©j√† vu_ Ì†ΩÌ∏Æ)
+Yes... I had a feeling of a _D√©j√† vu_ üòÆ)
 
 [17:50:56](#2qGxa355Y0pFCW0zKx-gBG_D2L_U5Nqxr7hsKQvss38) <hiiamboris (NOT THIS ONE)>:
-it's clear that .txt is outdated and not valid anymore, while lexer state table is probably the very reason lexer is in such a messy state Ì†ΩÌ∏â
+it's clear that .txt is outdated and not valid anymore, while lexer state table is probably the very reason lexer is in such a messy state üòâ
 
 [17:51:50](#3I_JeywAQlyFrVjNZYpqgroR8crr5bMUmlI3kxg0dGg) <hiiamboris (NOT THIS ONE)>:
 (because go try to figure out all the sequences of jumps for any given type)
@@ -6651,7 +6619,7 @@ RSP was using `<% %>` and `<%= %>`... PHP has `<?php ?>`, `<? ?>` and `<?= ?>`. 
 Btw... when mentioning tags, I still have a feeling that the datatype should be more clever.. not just a string with different decoration as it is now.
 
 [19:18:55](#i8WAE-1pqx2Rx0C27b1M0eAoVCy9dSZmYDG5JPihD9I) <hiiamboris (NOT THIS ONE)>:
-Design actions for it Ì†ΩÌ∏â
+Design actions for it üòâ
 
 [19:25:05](#KDDiM6rRCgmMbPzdHSbb-unPhuRWsenVvkGBdDBcQ2c) <9214 (Vladimir Vasilyev)>:
 >  I still have a feeling that the datatype should be more clever.. not just a string with different decoration as it is now.
@@ -6659,7 +6627,7 @@ Design actions for it Ì†ΩÌ∏â
 https://github.com/red/red/issues/4326#issuecomment-602311890
 
 [19:28:24](#3UhZz-5toR6nw-KehYJ0Nptmg_5ZJeyksnz06VAcJaM) <hiiamboris (NOT THIS ONE)>:
-I knew he said that somewhere! thanks for digging it Ì†ΩÌ∏â
+I knew he said that somewhere! thanks for digging it üòâ
 
 [19:43:37](#Xo26F0iOclMBnRs_Kd7V39_eSHnb8xzLHFH9EmiEhd4) <greggirwin (Gregg Irwin)>:
 The problem with supporting tags as they are used in the wild today, but seeing into their structure, is that you are escaping into a different lexical form. If Red treats them as opaque values, you can still process them at the mezz level. They are foreign invaders, just as they are used to infiltrate HTML and escape to script code.
@@ -6955,7 +6923,7 @@ While testing reactivity with objects that are node trees, I encountered a crash
 
 Digging into the code from reactor/on-change, I pinpointed the following file, line and code :
 reactivity.red, line #31 :
-if any [series? Ì†ΩÌ∏Æld object? Ì†ΩÌ∏Æld][modify old 'owned none]
+if any [series? üòÆld object? üòÆld][modify old 'owned none]
 
 In my case, the old word refers to an object that is a node tree, however with circularities : i.e. children of the tree refer back to their respective parents.
 
@@ -7069,7 +7037,7 @@ thanks! added this to https://github.com/red/red/issues/4546#issuecomment-826114
 You're very welcome. A one liner bug ! I cannot be that terse.
 
 [16:42:00](#vas6OfRdTp2HQcMj18pE5QxaTP04dd5vE5xydIqgJDw) <hiiamboris (NOT THIS ONE)>:
-you've done the hardest part of locating the buggy line Ì†ΩÌ∏â
+you've done the hardest part of locating the buggy line üòâ
 
 [16:42:11](#IeU8h-WcxYNHPN6oDzqx4qtnS6-VC2uDd_Ko4NUwo90) <hiiamboris (NOT THIS ONE)>:
 * you've done the hardest part of locating the buggy `modify` line ;)
@@ -7097,15 +7065,6 @@ as a bonus, GUI console compiled this way will mirror it's output to the termina
 Worthy bonus indeed !
 
 ## 30-Apr-2021
-
-[3:28:38](#vGNYc33Y5RLPlkCy1H3XR2v39PqVSNOC6n66-pmFrlM) <gltewalt (Greg T)>:
-Worthy bonus indeed !
-
-[3:30:26](#LeiaO0a0WWEs9eocYfRBejT0_COCnbVltKeafBu79HM) <gltewalt (Greg T)>:
-Worthy bonus indeed !
-
-[3:31:01](#nQW9GGZWdK6iR1pxtOdbiU499en4brBXaJd4elXimDk) <gltewalt (Greg T)>:
-Worthy bonus indeed !
 
 ## 4-May-2021
 
@@ -7187,8 +7146,8 @@ win/actors: object [
     on-key: function [face event] [
         check-event "window" event
     ]
-    on-key-down: Ì†ΩÌ∏Æn-key
-    on-key-up: Ì†ΩÌ∏Æn-key
+    on-key-down: üòÆn-key
+    on-key-up: üòÆn-key
 ]
 view/no-wait win
 ```
@@ -7444,39 +7403,6 @@ Here it goes : https://github.com/red/red/issues/4893
 ## 8-May-2021
 
 [9:38:53](#K5uz8ugy6gY_2ww65rR2xee5xoNeY1Ecd-EGVJ0lbos) <zwortex (zwortex)>:
-Is it known ? Documenting return: for a function provokes an error
-
-```
-f: function [
-   "My function"
-   value [integer!] "Value"
-   return: [string!] "Returned value"
-][
-    s: copy "res"
-    append s to-string value
-    return s
-]
-```
-
-*** Script Error: invalid function definition: return:
-*** Where: =
-*** Stack:  
-
-The same with func works fine though
-```
-f: func [
-   "My function"
-   value [integer!] "Value"
-   return: [string!] "Returned value"
-][
-    s: copy "res"
-    append s to-string value
-    return s
-]
-help f
-```
-
-[9:50:59](#vWlzgudjv1DUTbGGNH1Z4cWPZ3tQJNJN-2_Kb3SqgaQ) <zwortex (zwortex)>:
 Is it known ? Documenting return: for a function provokes an error
 
 ```
@@ -7901,14 +7827,14 @@ try/except [1 / 0][ print "No divide by zero, please!" ]
 `except` is an OK name too. Thanks. I'll consider it in my mezz.
 
 [11:18:39](#5GewH3vqjnhzlnFGVArdppv6-w5Lk0KSSPE0Tfm3HfM) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-I consider it very useful as one can use also function as an exception, like: `try/except [...] Ì†ΩÌ∏Æn-error-quit-gracefully`
+I consider it very useful as one can use also function as an exception, like: `try/except [...] üòÆn-error-quit-gracefully`
 
 [11:19:34](#F75uAHu3n18bvRI-CCWUNR8a0owG-3bc0iJmtG-jc3o) <hiiamboris (NOT THIS ONE)>:
 would this be any better than just `try/except [...] [on-error-quit-gracefully]`?
 
 [11:20:46](#6xLhG5eC70Nw3KVOaO9z_h-ahowdw76UdZDMXX0Mtlo) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 ```rebol
->> on-error: func[e][print "oh no!"] try/except [1 / 0] Ì†ΩÌ∏Æn-error
+>> on-error: func[e][print "oh no!"] try/except [1 / 0] üòÆn-error
 oh no!
 ```
 
@@ -7985,7 +7911,7 @@ no IO no ports, coming soon ‚Ñ¢
 :+1:
 
 [17:59:36](#hASrYXTA2fnSWdA7XAajTl8KEWK2PaGJBgKtZRY-TtQ) <hiiamboris (NOT THIS ONE)>:
-Did he listen? Ì†ΩÌ∏â
+Did he listen? üòâ
 
 [18:01:12](#RM10fGStHEXayaqntdeg4_7QUCItWzThNVQVVWTaoF0) <hiiamboris (NOT THIS ONE)>:
 Well, maybe R3 design is the result of that talk..
@@ -8261,7 +8187,7 @@ my system is *Arch Linux*
 Yep. Everyone.
 
 [14:30:26](#D_JGI91RnhpPWJ8_UNyboUl2UA2PnRkHnr166U_HK3w) <loziniak (Maciej ≈Åozi≈Ñski)>:
-Ì†ΩÌ∏É
+üòÉ
 
 [14:30:31](#XSwRUsWtvxWqjsmsoezOp4ejB4g08I1XGCCKFTCBj0g) <hiiamboris (NOT THIS ONE)>:
 https://github.com/red/red/issues/4889
@@ -8294,7 +8220,7 @@ but for your issue, just running a console and typing `q` should be enough :)
 Isn't this code used only when running console through `red` executable?
 
 [15:15:20](#ETNv-GtPqvr4DDc9ZkjmKkKcBj77S3DCSZoCCBgAEn0) <hiiamboris (NOT THIS ONE)>:
-ah.. right, I forgot you're modifing the launcher itself Ì†ΩÌ∏É
+ah.. right, I forgot you're modifing the launcher itself üòÉ
 
 [15:15:25](#CvpXqfUCcM-kqtEfh4Wee0-Xg6B1M-JASM0saAu4L_g) <loziniak (Maciej ≈Åozi≈Ñski)>:
 btw `console` and `q` is clear :-)
@@ -8792,9 +8718,6 @@ Thank you.
 
 ## 24-May-2021
 
-[9:48:22](#JTW4h2TopCGkaFaKsNwIId-e5zvSwPsoZmovmg9fnq8) <ldci (Fran√ßois Jouen)>:
-Thank you.
-
 [20:12:23](#QG-qT2FmHLEqZbTpGgJLaZJhkc8NdA0iLoeFcD7lT5U) <greggirwin (Gregg Irwin)>:
 I agree that more info in error messages is better. If we don't have a ticket for that, let's open one.
 
@@ -8899,7 +8822,7 @@ Well, it's a fun bug.
 Not enough type checking in `make`. Only checks for integers and blocks currently. Anything else falls to `to`, which should probably be an error. I can't imagine we want to rely on the current behavior, and hope it's not used anywhere.
 
 [6:59:54](#mLQn2ttFeBH7vstALDeZWcWjiWGp08O-gUrVBc69Kc0) <qtxie>:
-Ì†ΩÌ∏Ö 
+üòÖ 
 
 ## 14-Jun-2021
 
@@ -9275,7 +9198,7 @@ I agree with @Oldes .
 Hm... it looks that gitter has some issues, because I believe that I was answering in the `help` room, but it's all in `bugs`.
 
 [15:18:54](#J8txutS3DRUUm0ABRaQCLY4_r7RRLKHU-GCDqFBiJw8) <hiiamboris (NOT THIS ONE)>:
-Familiar issue to me Ì†ΩÌ∏â Been there many times.
+Familiar issue to me üòâ Been there many times.
 
 [15:19:22](#nKItFbkeaSpMCRZ19X2J4a7qLGYKNITqIM96QtPW8X4) <hiiamboris (NOT THIS ONE)>:
 Seemingly happens when you change rooms before it fully loads the previous one.
@@ -9284,10 +9207,10 @@ Seemingly happens when you change rooms before it fully loads the previous one.
 * Seemingly happens when you change rooms before it fully loads the previous one (but sometimes right away when you open gitter).
 
 [15:52:51](#Tfk2TQnbbV8mxbTJyv8RbMq3-6fXWzlgR6CKj7bPk6o) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-Use gritter Ì†ΩÌ∏â
+Use gritter üòâ
 
 [15:57:01](#_6ALFBE4A9y7uOVsLp6NZ0pzl320kRnkIKpww0yhdC4) <hiiamboris (NOT THIS ONE)>:
-I once tried Ì†ΩÌ∏â
+I once tried üòâ
 
 [16:08:42](#qBSJZhVozW68Qaw3LEoBzw1qrEEqG2cnnpxGSBPwhxg) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 :-)
@@ -9298,16 +9221,16 @@ Without proper IO it's barely usable. It can't properly refresh and not block UI
 Riight.. single-threadedness...
 
 [16:10:31](#s8CFspYaK4IUwkwQBur7HVAQdYksAVsOHUNEpICGUQ8) <hiiamboris (NOT THIS ONE)>:
-And I have such internet that gitter sometimes takes 10 min to load Ì†ΩÌ∏â
+And I have such internet that gitter sometimes takes 10 min to load üòâ
 
 [16:12:06](#cIwuJJDbaL8qdyqRsBB6tjtxxKypwjN5Mpeiq33_TiA) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 wow. I believe gritter should really help in such case as it doesn't need so many requests to just show a room.
 
 [16:13:28](#dNetlSk3lVO1_RmE3fZuiwABcS5t2UN9hX8JyuaKFR8) <hiiamboris (NOT THIS ONE)>:
-Will it handle huge packet drop? Ì†ΩÌ∏â
+Will it handle huge packet drop? üòâ
 
 [16:18:02](#lyf2ZS14D5ogAOgehYDvsZ1bQFFwY6k7oC5rddHmvY8) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-I guess that depends on their API. Ì†ΩÌ∏ü
+I guess that depends on their API. üòü
 
 [17:31:08](#k78cj5coL66WrYuLA-jItG4-Jy_S3xl6SGGCUUD3ZbY) <GiuseppeChillemi (GiuseppeChillemi)>:
 @Oldes Could you make a table with your proposal?  3 Columns: on the leftmost one: the command used together with the block, then comes the proposed result, and on the rightmost one, some additional observation from you/us.
@@ -9319,12 +9242,6 @@ I guess that depends on their API. Ì†ΩÌ∏ü
 @zentrog, I'll try breaking things out in the future. Thanks.
 
 ## 29-Jun-2021
-
-[2:51:30](#e2jk2ZWa2JX-HobLQPiHbCkfUtCmriNroRuT6K9W1f0) <gltewalt (Greg T)>:
-@zentrog, I'll try breaking things out in the future. Thanks.
-
-[2:52:34](#ku7ndNaBY80pSBFUNkhTieI-JKswPCPwNFMJMZEcmmg) <gltewalt (Greg T)>:
-@zentrog, I'll try breaking things out in the future. Thanks.
 
 [2:53:14](#aF11bZ2nAlW98H6ldfAcrDFhIZrk0pMx4pXhA__tPV0) <greggirwin (Gregg Irwin)>:
 Yes.
@@ -9476,10 +9393,6 @@ It should be one of the common things that newcomers would care about ...and not
 I doubt there's a ticket unless boris made one just recently, but I'll look
 
 [17:50:44](#chTRIkEAJFHrzCUfq2BoHi2wpr7GmaBJ7Bol350I4ls) <gltewalt (Greg T)>:
-Oh, there is:
-https://github.com/red/red/issues/4307
-
-[17:53:58](#f6wskdm0Yly-CqUw9UyMGDGeqDTMt1nki0CsJusARC0) <gltewalt (Greg T)>:
 Oh, there is:
 https://github.com/red/red/issues/4307
 
@@ -9854,9 +9767,6 @@ Ah, yes. So @hiiamboris' point is the one to take.
 
 ## 1-Sep-2021
 
-[10:12:05](#vq8dBpHCtyt8C96ci4BntLMSK2JUMymmxQltaEjcGNM) <ldci (Fran√ßois Jouen)>:
-Ah, yes. So @hiiamboris' point is the one to take.
-
 ## 6-Sep-2021
 
 [23:08:23](#CgXZ7TKmdkVEIeQGrrqHKtvO8XD84JKkaN33HB5gTQw) <cjglo (Chris J Gallo)>:
@@ -10129,7 +10039,7 @@ Ah
 Sorry, I can. Returns 0 for me too.
 
 [16:21:34](#DEajrlHgfpxW13VGKsZayzcOVtYyzcGb5VW5SNWtHjU) <hiiamboris (NOT THIS ONE)>:
-Looks like you fixed it for Mac only Ì†ΩÌ∏â
+Looks like you fixed it for Mac only üòâ
 
 [16:22:41](#4sl6_bbN43baNIHYmgjFIXbO3H7tMMt3tcyQZ3I92r8) <hiiamboris (NOT THIS ONE)>:
 Nope, that's not it
@@ -10144,7 +10054,7 @@ I have some idea. Perhaps you [were right](https://gitter.im/red/bugs?at=5dab130
 libc's `system` returns a value of *console* exit code, but [it's not returned](https://github.com/red/red/blob/15b13004d3263ad0a9182be6bcb851b77346f653/red.r#L510) from `red`.
 
 [16:53:33](#PmN9axuN52qFo6ht-vbtx4RIKGwVl90dwkEgiGtfHfU) <hiiamboris (NOT THIS ONE)>:
-but why? Ì†ΩÌ∏â
+but why? üòâ
 
 [16:54:30](#8XSEDF7adZn6l-B_lYMT-9ErWLEkC0ZBeZ2LX9PGyyc) <hiiamboris (NOT THIS ONE)>:
 I mean you're referring to a very old build
@@ -10180,9 +10090,6 @@ I'm just guesssing why the code is written like that.
 ShellExecute is a mess, I wouldn't bother trying to fix it: https://stackoverflow.com/questions/10896778/how-to-get-return-value-of-an-exe-called-by-shellexecute
 
 [17:03:29](#3RSxxVxte0EQPrcJwkgcK-Il_fXYKVFDuBaaRuX5odI) <hiiamboris (NOT THIS ONE)>:
-CLI `red` command returns proper on W10
-
-[17:05:14](#MAuNAVxNfLqtkjJ9B0ibzkfOu9t3sAdOYpzlIBxPrTE) <loziniak (Maciej ≈Åozi≈Ñski)>:
 CLI `red` command returns proper on W10
 
 [17:07:31](#SeJCeE40EGL2g5-u4pC6frahxryL13NbfFTic0qLRXs) <loziniak (Maciej ≈Åozi≈Ñski)>:
@@ -10360,7 +10267,7 @@ It will match the end position but is not required for Parse to terminate at tha
 Also I think it's an esoteric use case :)
 
 [12:51:54](#wAtTyxpDOMT1QpX8T9s4ByWo8fgPn6YLDXCPgUmPpng) <hiiamboris (NOT THIS ONE)>:
-`replace` should expect non-empty rule matches Ì†ΩÌ∏â
+`replace` should expect non-empty rule matches üòâ
 
 [12:53:38](#YnCEYK1BY1-WnAnVYKV4exkNSbw3NpiK6NEolC-KYcs) <hiiamboris (NOT THIS ONE)>:
 I also think `replace` should not be using Parse at all.
@@ -10428,7 +10335,7 @@ I don't think it is bug:
 ```
 
 [13:24:16](#tFsB69i_BZU8Of10vY18HFWpQPUZPA5wy3h2m1kFJwc) <hiiamboris (NOT THIS ONE)>:
-Then a design flaw Ì†ΩÌ∏â
+Then a design flaw üòâ
 
 [13:25:13](#LzCxQZ5U_HT0yAm_IA6NxA3OOKahoQGgNAnKLDuWyiQ) <hiiamboris (NOT THIS ONE)>:
 * Then a design flaw ;) Or documentation flaw..
@@ -10458,7 +10365,7 @@ Nice try :)
 ```
 
 [13:27:38](#42DA_PDzxAdTMhLdvNrYw76aIUwfdoUpi1nIle2xGcg) <hiiamboris (NOT THIS ONE)>:
-You get trimming of dangling spaces for free Ì†ΩÌ∏â
+You get trimming of dangling spaces for free üòâ
 
 [13:28:16](#HaNTrT0JZahaI_AabOzU_C_ADL5e57CetBQsrUT_S6k) <toomasv>:
 Well, as said above "allowing other whitespaces" before final newline.
@@ -10520,7 +10427,7 @@ Could have been written
 ```
 
 [14:02:47](#KOH-nBFVl8QxdWBl7HEhHaxP3tHh3CmXwc-mVkMbeuU) <hiiamboris (NOT THIS ONE)>:
-My point is, relying on the order of rules inside `replace` (which is not defined) will not make your code robust and long-living Ì†ΩÌ∏â
+My point is, relying on the order of rules inside `replace` (which is not defined) will not make your code robust and long-living üòâ
 
 [14:08:48](#GsnSeA805PwFUb5shcG1FAgGsBC0IdgwMIbIhC0e01o) <toomasv>:
 PEG parser rules are inherently order-dependent. Excluding some specific cases of order does not make it order-independent. But ok ...
@@ -10605,7 +10512,7 @@ Invalid `map!` make console quit:
 ```
 
 [13:57:43](#rkSItNTw7ixq4d1olffeddmI-tH8_IeB-2Dtt18GO5I) <hiiamboris (NOT THIS ONE)>:
-Make a ticket Ì†ΩÌ∏â
+Make a ticket üòâ
 
 [13:58:43](#Wq56zHtkxLCTccwOXM1hyDXsg-GcGvp0QYUPJXUHZ-c) <hiiamboris (NOT THIS ONE)>:
 Some recent regression.
@@ -10727,12 +10634,6 @@ OK, file a ticket for it then. But it's a very low priority IMO, not a showstopp
 I don't have a machine on my network called `a` to see if that overrides the floppy. Oh, I don't have a floppy in this machine either. 
 
 ## 15-Oct-2021
-
-[4:25:55](#fk5z7aNadsF4jLqg5yYCUI5szqBbBFPqfGEw4zmLTaU) <gltewalt (Greg T)>:
-I don't have a machine on my network called `a` to see if that overrides the floppy. Oh, I don't have a floppy in this machine either. 
-
-[4:26:18](#tvR7lO4b36IMBfWbHhNF54klqVt6B5OBJjUdk6N4N1w) <gltewalt (Greg T)>:
-I don't have a machine on my network called `a` to see if that overrides the floppy. Oh, I don't have a floppy in this machine either. 
 
 [5:43:17](#3hYJgKZzgm-E1HTkFqNekvP1Hi2H8d-7sRdnb34pXQc) <ne1uno (ne1uno)>:
 https://github.com/red/red/issues/2254    says not implemented?
@@ -11149,7 +11050,7 @@ there's more:
 then there's errors when accessing object's missing fields..
 
 [17:23:54](#uJHAtQ4_8kGETwb3k-yFPrBnemvO3T2OKMMvoIC3eKI) <hiiamboris (NOT THIS ONE)>:
-I can't even think of all the differences between paths access and select Ì†ΩÌ∏â
+I can't even think of all the differences between paths access and select üòâ
 
 [17:27:06](#8weoV-uQ7TQ01Kb2bQLUte_WBPwMfYSWuAoRM_OwZzU) <gltewalt (The other Greg)>:
 ```
@@ -11322,7 +11223,7 @@ select b: [[1 2] 3] k: [[1 2]]
 It is all ok, but needs some reflection.
 
 [17:58:13](#oKtaTXdn9eKpnhZezDQzIg_jsOskth46g7t-lH-jIQw) <hiiamboris (NOT THIS ONE)>:
-There's also set-path/poke/put abyss Ì†ΩÌ∏â
+There's also set-path/poke/put abyss üòâ
 ```
 >> t: 1:2:3
 == 1:02:03
@@ -11370,7 +11271,7 @@ This topic was raised here https://github.com/red/REP/issues/68
 @greggirwin I think this happens because I take uncommon coding roads.
 
 [20:35:44](#5Y0GgX2x-T6akj-G_FBxYoG78u8_hdG_yjSppSKc5-4) <hiiamboris (NOT THIS ONE)>:
-The longest ones Ì†ΩÌ∏â
+The longest ones üòâ
 
 [20:44:53](#eW8e5l7Hy6tWLHbKlQRUazHVkyG6HXQ4w-pM9UiSFzw) <greggirwin (Gregg Irwin)>:
 Thanks @hiiamboris. Touched briefly on there, yes. At least I seem consistent with my own comments. :^)
@@ -11406,17 +11307,14 @@ I think I am on the right road to make something simple and compatible with curr
 [5:23:13](#fcsbkZiBl5_rTSxT8DifHJ8int_EBiFW3PdyhYbLtbI) <loziniak (Maciej ≈Åozi≈Ñski)>:
 I think I found something in Redbin implementation:
 
-[5:23:16](#L2u0irnCw0dL0JioFtAIK2kZUBmQSyMQM_JqZ5ya8Gc) <loziniak (Maciej ≈Åozi≈Ñski)>:
-I think I found something in Redbin implementation:
-
 [5:23:30](#Feq26dl0kFlr-MmbGV23cBDByr4iUvqJaxRhs0oeiks) <loziniak (Maciej ≈Åozi≈Ñski)>:
 * I think I found something in Redbin implementation:
 ```
-echo -n "Ì†ΩÌ≤ñ" | iconv -f UTF-8 -t UCS-4 -o ucs
+echo -n "üíñ" | iconv -f UTF-8 -t UCS-4 -o ucs
 red
 >> read/binary %ucs
 == #{0001F496}
->> save/as a: copy #{} "Ì†ΩÌ≤ñ" 'redbin
+>> save/as a: copy #{} "üíñ" 'redbin
 == #{
 52454442494E0200010000001000000007040000000000000100000096F40100
 }
@@ -11442,7 +11340,7 @@ Uhm.. and?
 
 ...and I solved it :-)
 ```
-echo -n "Ì†ΩÌ≤ñ" | iconv -f UTF-8 -t UCS-4LE -o ucs
+echo -n "üíñ" | iconv -f UTF-8 -t UCS-4LE -o ucs
 red
 >> read/binary %ucs
 == #{96F40100}
@@ -11637,10 +11535,10 @@ No chance
 maybe you need debug console to get warnings
 
 [13:12:05](#a597h3kbbYfs27VizOJQRuNNZJ3O8IZFDyyFpMtF5ZU) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-Hm, my Void Linux VM crashed and the file is gone. I would need to start from scratch Ì†ΩÌ∏ï
+Hm, my Void Linux VM crashed and the file is gone. I would need to start from scratch üòï
 
 [13:12:41](#YbuDYf0agOI18HzNS2-MPskj5cBnt4ndI0YInr5-9lw) <duskhorn>:
-> <@rebolek-5565a4bf15522ed4b3e100bc:gitter.im> Hm, my Void Linux VM crashed and the file is gone. I would need to start from scratch Ì†ΩÌ∏ï
+> <@rebolek-5565a4bf15522ed4b3e100bc:gitter.im> Hm, my Void Linux VM crashed and the file is gone. I would need to start from scratch üòï
 
 That really sucks to hear
 I'll try the debug console since I didn't know it was a thing
@@ -11871,7 +11769,7 @@ How can I try doing this?
 * @duskhorn:matrix.org Do you know how to run `gdk-pixbuf-query-loaders --update-cache` for 32bit gdk-pixbuf ?
 
 [12:25:35](#jV6ZRjUtWH_NPmcn-AEsMaza3JXbNn2ioWyorpizd_8) <qtxie>:
-I don't know. Ì†ΩÌ∏Ö This is the first time I use Void Linux.
+I don't know. üòÖ This is the first time I use Void Linux.
 
 [12:25:35](#ZuxLlpxqKjJ_uq3iPA9bpqnL3yXuc91qETSOTeV04Co) <qtxie>:
 * @duskhorn:matrix.org Do you know how to run `gdk-pixbuf-query-loaders --update-cache` for 32bit gdk-pixbuf ?
@@ -11900,7 +11798,7 @@ I *love* floating point...
 Welcome to Hell. 
 
 [19:08:13](#g60B3MqfmG62EUj-nQd4QY4H0fJrObkktdsIlpsz7hI) <hiiamboris (NOT THIS ONE)>:
-what's also fun is that both `round/ceiling` and `round/floor` produce the same value, but not the original one Ì†ΩÌ∏â
+what's also fun is that both `round/ceiling` and `round/floor` produce the same value, but not the original one üòâ
 
 [19:10:36](#z_Tc9uXti6A3-we0zNANS--YMNHXvyReEn4a47kIrb8) <greggirwin (Gregg Irwin)>:
 `ceil` and `floor` are coming from the std C lib?
@@ -11915,7 +11813,7 @@ I see that now.
 But is that only for scales >= 1?
 
 [19:41:26](#kq5QEBknHC1xPDsB6WZJALRvsX6o-yxNpdC5SByqrjI) <hiiamboris (NOT THIS ONE)>:
-I guess it should be the same issue. Just need to figure out magic numbers Ì†ΩÌ∏â
+I guess it should be the same issue. Just need to figure out magic numbers üòâ
 
 [19:43:16](#MzJoyH8At6e6yXzyERjASMmIjOlXDC19OT3k-oOABvM) <hiiamboris (NOT THIS ONE)>:
 It's solved at formatting level though, if I limit precision at 16 digits.
@@ -11942,7 +11840,7 @@ This is the most recent: https://gitter.im/red/bugs?at=618995c3fb8ca0572b0e8cd7
 @hiiamboris I'm OK with 16 digits in `format`.
 
 [22:06:07](#kIxjsje57PSxKdeTBGiX3jQvH_oaxuKom4UZu2M57mM) <hiiamboris (NOT THIS ONE)>:
-Yeah I'm too Ì†ΩÌ∏â 
+Yeah I'm too üòâ 
 
 [22:37:13](#LZns-ZanVLxObkHxKySc4gqQG0YatfdgNtBd3fQOdT4) <GiuseppeChillemi (GiuseppeChillemi)>:
 Here it is: someone move to red/code
@@ -12989,7 +12887,7 @@ x: [a 1] case/all [a: x/a [a] b: x/b [b]]
 true
 
 [13:45:27](#M102WJujQdTYIhVpHTK5sJVMKit1qWyqsYTST4Kj_ko) <hiiamboris (NOT THIS ONE)>:
-better report that to Nenad though Ì†ΩÌ∏â
+better report that to Nenad though üòâ
 
 [14:42:02](#EoB02JSgkkGIsMwiJ9F1zy70rJw94bhDOI9eZ0_eGso) <toomasv>:
 Another problem with console on W10: generate a view, let it fall behind some other window, close the view without bringing it into foreground first -- console that produced the view hungs.
@@ -13203,7 +13101,7 @@ The latest build returns an integer
 ```
 >> body-of :zero?
 == 98
->> add body-of :zero? body-of Ì†ΩÌ∏õrint
+>> add body-of :zero? body-of üòõrint
 == 121
 ```
 
@@ -13716,7 +13614,7 @@ that's actually `#{EEEE}`
 ```
 
 [18:58:28](#z4bGhmOuyuoNUldqwp5EdzZuozccmpdXHQvYrHTByRw) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-Now it is, but I don't want it to be Ì†ΩÌ∏ï
+Now it is, but I don't want it to be üòï
 
 [18:58:55](#On61OFMEjuW9oTWIxaze3MWN3SC5Z3PHkl9S6CACDQI) <hiiamboris (NOT THIS ONE)>:
 you want the original buffer modified, yes
@@ -13728,7 +13626,7 @@ write a routine :)
 But the reason probably is, that it does not modify the source, but creates a new binary
 
 [18:59:16](#0qHawVx9nloWaRjEB-lQJ6Bfpfs84k4HPqVYMLK2E2g) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-so it is not a bugÌ†ΩÌ∏ï
+so it is not a bugüòï
 
 [18:59:39](#ggINfycKKtWjN1-iCnGpLP3LoH_yOAY4Z7JQraX8WlY) <hiiamboris (NOT THIS ONE)>:
 > creates a new binary
@@ -13761,14 +13659,6 @@ Right. I don't want to create so many copies anyway... better to do it byte-by-b
 ## 1-Feb-2022
 
 [9:50:06](#UBo7IfLl54lXTvuD20SC-Z9-qdAf-pz-Dc5wQOVroRk) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-```red
-a: make block! 0
-b: at [1 2 3 4 5 6 7 8 9] 5
-insert/part a b -2
-a ;== [5 6 7 8 9] ;<---- it should be [3 4], like in Rebol!
-```
-
-[11:25:19](#waR5LovcOFIWpTuCFrnzUhSYdAw3rOiX1ybhIOZusm0) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 ```red
 a: make block! 0
 b: at [1 2 3 4 5 6 7 8 9] 5
@@ -13867,7 +13757,7 @@ append/part buffer tail b -2
 I totally agree with Oldes.
 
 [21:41:37](#dROSmrokKWTdnSag_YdHPtDiWrsxdkLF9yij15GFLNU) <hiiamboris (NOT THIS ONE)>:
-@greggirwin sometimes experiences a hard reset in his design thoughts Ì†ΩÌ∏â
+@greggirwin sometimes experiences a hard reset in his design thoughts üòâ
 
 [21:42:41](#fGax3uQ8d8T5ZfT4QkoaEpvbuyvaES97QSICc_G-nks) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 * Negative length/range is something, what is completely normal in Rebol... it is sad, that in Red one would have to write:
@@ -13944,15 +13834,7 @@ which is nice, but:
 ```
 
 [13:35:05](#YeJnbEMwU5itFD3zkZPaJgmx_wpqG463Kq_N82zK1hU) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-Hm... the inner block is just _formed_ and it has same result like in Rebol Ì†ΩÌ∏ï
-```red
->> rejoin ["a" ["b" now]]
-== "ab now"
-```
-
-
-[13:36:43](#9X-kGra_2_6xEbPfqjOks6BXxBekZ2VQ2PpzceQ__-w) <toomasv>:
-Hm... the inner block is just _formed_ and it has same result like in Rebol Ì†ΩÌ∏ï
+Hm... the inner block is just _formed_ and it has same result like in Rebol üòï
 ```red
 >> rejoin ["a" ["b" now]]
 == "ab now"
@@ -14109,12 +13991,6 @@ Ok.. counted your opinion. I will wait on @greggirwin's input, why it is how it 
 [16:44:44](#VPj4cL8EIzFKK9TpAG2lGh9gQUcUKJ5OukxSudUTC3c) <hiiamboris (NOT THIS ONE)>:
 * I can't agree. The role of select is to select, not to `find`. Making yet another special case in the design only to omit one if-expression is not worth it.
 
-[16:45:08](#r-VunhkB3xtC1hpP18L6Ymeh0rO0ld60_WpcC3OrUrs) <toomasv>:
-* I can't agree. The role of select is to select, not to `find`. Making yet another special case in the design only to omit one if-expression is not worth it.
-
-[16:45:49](#Hkd1s6BHtQ_ppt0eFjikRmUdmmbCITv43w0DnyHKzpI) <hiiamboris (NOT THIS ONE)>:
-* I can't agree. The role of select is to select, not to `find`. Making yet another special case in the design only to omit one if-expression is not worth it.
-
 [16:46:42](#V450xKGTI-fqAdkYzQqJ7egRyuqblYzG0kphfr_qeJI) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 So instead of:
 ```
@@ -14147,7 +14023,7 @@ Yes... there are options, but I wanted to know, if everybody is find with curren
 [17:33:08](#3QdNSNLwHydiUOzQwU6X5p5Dkk6nDP9Ay5rs2j7Pcuw) <toomasv>:
 It might be good to get the whole record after needle, but I usually need just one element of the record, so there is not much difference between
 ```
-pick select/skip data 'b 3 2  Ì†ΩÌ∏úrovided /skip returns block
+pick select/skip data 'b 3 2  üòúrovided /skip returns block
 ```
 and 
 ```
@@ -14321,11 +14197,6 @@ Horrible idea :)
 Or people would still write a lot of useful code, completely ignorant of what happens behind the scenes. Fewer people would optimize beyond that, by choice or need. That's what I think would happen.
 
 ## 15-Feb-2022
-
-[10:29:43](#W7PeYRcL9R6YKLw_P3a9MEVBH29XZjhSV3ykjMp6CLA) <rebolek (Boleslav B≈ôezovsk√Ω)>:
->  GC pressure of this design would render select near-useless for anything but console tinkering.
-
-Or people would still write a lot of useful code, completely ignorant of what happens behind the scenes. Fewer people would optimize beyond that, by choice or need. That's what I think would happen.
 
 [13:34:11](#ZH3PKxXFkPgdTIge9svUfJ3gwIYn0T6FeaGTVQRD3zs) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 There is not much info in the [Altme chat](http://www.rebol.org/aga-display-posts.r?offset=0&post=r3wp453x13747) either. But it looks that years ago the preferences were to have R2 behavior. 
@@ -14669,13 +14540,13 @@ It's an imperfect world. :^)
 :)
 
 [21:36:26](#fb1_4MUl1oFaY6p5IDLeE97LKyDbIJW2pIoLrDqlekE) <hiiamboris (NOT THIS ONE)>:
-If we switch to emojis, no more verb/noun issues Ì†ΩÌ∏â
+If we switch to emojis, no more verb/noun issues üòâ
 
 [21:37:21](#QPBqn821uR-l-SPDQZ2qH2VOEPeH0zkcCo3AohmuEg0) <greggirwin (Gregg Irwin)>:
 I think you mean *more* issues. :^)
 
 [21:39:31](#iIqp_MeKNHWw5QlZfKZTUJx5LZNaitDD3yCytvz6yL8) <hiiamboris (NOT THIS ONE)>:
-Of other type, yes Ì†ΩÌ∏â
+Of other type, yes üòâ
 
 ## 1-Mar-2022
 
@@ -14758,7 +14629,7 @@ Good catch!
 [11:22:50](#yDblSMJoFIm-KeA2VA7ekX3PtILEy8jTNytfZKQ3z1Q) <hiiamboris (NOT THIS ONE)>:
 > Thanks, I‚Äôll open a ticket for it.
 
-@rebolek forgot? Ì†ΩÌ∏â
+@rebolek forgot? üòâ
 
 [16:37:04](#iMZBUR135Jm3oP1xepHcMIiM_VknKuJZzqzJ6NYL_YE) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 @hiiamboris Yup, totally :) It was a byproduct of working on IO and I focused on it again.
@@ -14989,7 +14860,7 @@ my use case is eliminating boring errors [like this](https://gitlab.com/hiiambor
 1) Has anyone ever hit this error in production code? 2) Since it returns an integer offset, we can justify it not erroring out. It doesn't error on `32 - #"a"`, which is a case for consistency. 
 
 [21:46:46](#xI7uP8KXKAPJzU3TZJ0OMAkLyfA5AwUNc8-TlVDAyn4) <hiiamboris (NOT THIS ONE)>:
-do we have "production code" in Red? Ì†ΩÌ∏â
+do we have "production code" in Red? üòâ
 
 [21:47:17](#z3jA2uLy6Srfs19KJj3HKix_FMypgw2sSKxxBieWe-U) <hiiamboris (NOT THIS ONE)>:
 that was not a made up example if that's what you mean
@@ -15039,10 +14910,10 @@ http://www.tlc-systems.com/babbage.htm
 [15:24:35](#tltXsOMudg2WUFaxJjD7PUI89TMZPRySMqiI3pQBrGk) <hiiamboris (NOT THIS ONE)>:
 > Wow, time machine exists! 
 
-Brain is a time machine Ì†ΩÌ∏â [We know the future before it happens](https://www.spiritualityhealth.com/articles/2012/01/27/science-premonitions)
+Brain is a time machine üòâ [We know the future before it happens](https://www.spiritualityhealth.com/articles/2012/01/27/science-premonitions)
 
 [15:25:05](#mCupOGKwzrW854G57oKdmz0mMxPisDaPr_WmmYfQFVc) <hiiamboris (NOT THIS ONE)>:
-No wonder Red learned that as well Ì†ΩÌ∏É
+No wonder Red learned that as well üòÉ
 
 [15:35:26](#zzei4AFvprx44v2S9QvQ7n-gGoBsNg5_ZaAaaP-BOa4) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
 @hiiamboris with your negative time measures, we have finally got ultra fast timers, so we can compete with the LibEvent, LibUV,  etc event loops :-) https://stackoverflow.com/questions/9433864/whats-the-difference-between-libev-and-libevent
@@ -15385,7 +15256,7 @@ ah, I usually just keep like a text/markdown file for stuff like that lol
 pog found a new crash:
 ```red
 o: make object! [ f: does [self] ]
-context? first body-of Ì†ΩÌ∏Æ/f
+context? first body-of üòÆ/f
 ```
 
 [22:54:56](#WS3l60SSKDzMjSHOZGORcCXcipuKCTIfmAul8ZvfZ34) <ALANVF (theangryepicbanana)>:
@@ -15456,9 +15327,6 @@ Without -e, I get a correctly compiled .exe, as expected.
 a long known bug
 
 [17:11:25](#kcatQkuc8r2_PWYH6mXK4kwhVG3FyRA967QNjoV_xxg) <hiiamboris (NOT THIS ONE)>:
-solution: https://gitlab.com/hiiamboris/red-cli/-/tree/master/mockups/inline
-
-[17:12:07](#9QdbkD-NsCglazsnpb1Im_zQ8IAZ6rMnfc5XBix0pk8) <hiiamboris (NOT THIS ONE)>:
 solution: https://gitlab.com/hiiamboris/red-cli/-/tree/master/mockups/inline
 
 [17:23:56](#49laCOLkHkT_IysxXD2_HoEEuF-4gzN_GLtlB84mxn0) <dsunanda (dsunanda)>:
@@ -15716,7 +15584,7 @@ Right now, it looks like Red is not an appropriate choice if the app needs to di
 Gregg will come and say that our coffee machine is not smart enough :)
 
 [12:47:38](#gwoTddSBjk0x5XP4T414eCOxWtJZOEZoIE6_p3lVAjQ) <hiiamboris (NOT THIS ONE)>:
-But we have an old coffee machine which is noisy but was able to clean the glasses Ì†ΩÌ∏â
+But we have an old coffee machine which is noisy but was able to clean the glasses üòâ
 
 [13:14:15](#8I6a9WxNe_gp7XARSjmUdBteMmAldduMSSou0oT8iBs) <dsunanda (dsunanda)>:
 :) But the slowly growing problem with the Rebol app is that it is accumulating cruft - eg things like 'browse doesn't work properly any more.
@@ -16118,7 +15986,7 @@ Also... currently there is:
 >> to string! [(a b) [c d] e/f g h]
 == "a bc de/fgh"
 ```
-I think, that `"a b c d e/f g h"` looks like better result Ì†ΩÌ∏ï
+I think, that `"a b c d e/f g h"` looks like better result üòï
 
 [20:40:18](#C6TA3Gf8BP5293bNRR0MstYNnOFCEOknYJUadR_h2H0) <hiiamboris (NOT THIS ONE)>:
 I would prefer `form` to form and `to-string` to call itself
@@ -16347,12 +16215,6 @@ m
 [11:45:29](#plBVJ9uzQxi2xg6KAJk9emLZQRAB6kDlp00VOI4Rjpc) <ldci (Fran√ßois Jouen)>:
 `#"a" = #¬†¬ªA¬†¬ª`is also true with R3
 
-[12:23:07](#VbHOEiWKJBYpwWGP4GZROCnvFUFfwO4wRNlRQ5pc0d4) <ldci (Fran√ßois Jouen)>:
-`#"a" = #¬†¬ªA¬†¬ª`is also true with R3
-
-[12:25:35](#G3DqA-6xO9dvKMya9ifz8C3cJcFzf4klUhqCEOGJuao) <toomasv>:
-`#"a" = #¬†¬ªA¬†¬ª`is also true with R3
-
 ## 21-Jul-2022
 
 [21:14:13](#QnoHxDm_E6TfK-563Qop3Y2QpwM8321foJk1p-bWRv4) <GiuseppeChillemi (GiuseppeChillemi)>:
@@ -16474,7 +16336,7 @@ It is executed!
 Actually it is not a bug... you just made a function, where `/b` has 2 arguments: `arg-b` and `word!`
 
 [21:21:44](#PSWdAqZAdkwvcl4lwZbYPga53sdLpdKxshowQqDHX3Q) <GiuseppeChillemi (GiuseppeChillemi)>:
-Nice explanation but I don't think it should be allowed Ì†ΩÌ∏â
+Nice explanation but I don't think it should be allowed üòâ
 
 [21:21:45](#Q2SPolRnlWVPcT6iPaHyPeYy7yF4MIMAETlZ2zqihgo) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 Because:
@@ -16623,51 +16485,7 @@ to-lit-word word word!
 Is sufficient to have a word with a context
 
 
-[22:17:41](#WMBBhkmhjctbs0I8Imz84Qe8AXheq2d1l6LtQwrvFSs) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-* Being in the middle of the transition from Rebol to Red, I have discovered interesting things:
-
-**Rebol2**
-```
-probe bound? to-lit-word! word!
-== none
-```
-
-You must do 
-```
-to-lit-word! to-word word!
-```
-
-While in **Red** 
-```
-to-lit-word word word!
-```
-
-Is sufficient to have a word with a context
-
-
 [22:17:54](#WgoDtip310wV0VpTSazOS2eJkWshSkRmcSDzCMW6pMs) <GiuseppeChillemi (GiuseppeChillemi)>:
-* Being in the middle of the transition from Rebol to Red, I have discovered interesting things:
-
-**Rebol2**
-```
-probe bound? to-lit-word word!
-== none
-```
-
-You must do 
-```
-to-lit-word! to-word word!
-```
-
-While in **Red** 
-```
-to-lit-word word word!
-```
-
-Is sufficient to have a word with a context
-
-
-[22:18:23](#fO4_LTCgU_wTBXHN9GgrngeyESQ15JkUJoBonUJWq_Y) <GiuseppeChillemi (GiuseppeChillemi)>:
 * Being in the middle of the transition from Rebol to Red, I have discovered interesting things:
 
 **Rebol2**
@@ -16725,28 +16543,6 @@ Don't understand what you mean.
 ```
 
 [22:21:54](#aZtqf2DmT43hK8tk3FTvhQ2SPLun_8whO7QhxB7gmyk) <GiuseppeChillemi (GiuseppeChillemi)>:
-* Being in the middle of the transition from Rebol to Red, I have discovered interesting things:
-
-**Rebol2**
-```
-probe bound? to-lit-word word!
-== none
-```
-
-You must do 
-```
-to-lit-word to-word word!
-```
-
-While in **Red** 
-```
-to-lit-word word!
-```
-
-Is sufficient to have a word with a context
-
-
-[22:22:47](#NrrWxu_5iluq3-zoy76Zv1CxLltJQD-RbUPe01_QZ1w) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 * Being in the middle of the transition from Rebol to Red, I have discovered interesting things:
 
 **Rebol2**
@@ -17080,7 +16876,7 @@ that would be weird
 oh
 
 [8:42:38](#OUz4XNCvdRfDdwYMBoMywN2t9u3mx9EJJP2GvZArbDQ) <hiiamboris (NOT THIS ONE)>:
-right Ì†ΩÌ∏É
+right üòÉ
 
 [8:42:42](#AcqLcVsigieJDEEbk4ru_rffg1tylIg9__ZAyiOhesk) <hiiamboris (NOT THIS ONE)>:
 even on WSL
@@ -17365,7 +17161,7 @@ I understand `/next ` does the same thing.
 No fair asking the same question back in reverse. I asked first :^)
 
 [20:08:27](#3o9ZK6tmubwAPSqUfcthw_yv5X08PUPKK18t4OdvpAo) <hiiamboris (NOT THIS ONE)>:
-Ì†ΩÌ∏â
+üòâ
 
 [20:08:47](#3l2DkycgkTGcXd4hCxjmEzYchGArVFO57vPCpLnxGYg) <hiiamboris (NOT THIS ONE)>:
 a question can partly be an answer in itself
@@ -17491,7 +17287,7 @@ I mean, should not `odd? w` be in a block?
 I apologize, of course it should!
 
 [15:12:43](#1eaQfofnTpVza2q1HrBaP18iozq3J7xQfJHLIc0v_KQ) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
-I was not sure anyway, long time since I last programmed, so did not remember the exact syntax. Shame on me, I get okder and start to forget things Ì†ΩÌπÇ
+I was not sure anyway, long time since I last programmed, so did not remember the exact syntax. Shame on me, I get okder and start to forget things üôÇ
 
 [15:29:19](#ow15Nf9jnEG2uUl_fNDPXUONV4V5g7diySvRKfGgpQc) <ldci (Fran√ßois Jouen)>:
 remove-each w a [odd? w]
@@ -17881,7 +17677,7 @@ I didn't expect `function` would collect any `set-word!` even  prototypes keys i
 * I didn't expect `function` would collect any `set-word!` even  on prototypes keys in object creation
 
 [16:39:18](#nSa7uQGl6BXQhcvvDsT4j2XsuDQQ8sNVVzZBRjhWRy4) <hiiamboris (NOT THIS ONE)>:
-I get caught by careless overrides all the time Ì†ΩÌ∏â
+I get caught by careless overrides all the time üòâ
 
 [16:49:51](#rCBk3FFsBqwVKsmXylij3ObKT7PulBfE_Bbx07jfSv4) <GiuseppeChillemi (GiuseppeChillemi)>:
 It is one more reason to keep using `func` instead of  `function`. Having nested functions and objects definition inside them, makes `function` really a plague!  You have to shield blocks from it defining them in a word outside the `function` binding range and then reduce the word when needed. But then you loose the binding of the refinement and you must bind the block manually. OMG, you can go crazy with this!
@@ -18088,7 +17884,7 @@ In which way is the spec unparseable or malformed ?
 same result for me, even on today's build
 
 [14:31:38](#JuThvXjNhbnDIZ2joTknS_FwCf3UIo1ki2K9qv80DkI) <hiiamboris (NOT THIS ONE)>:
-I think it was reported but can't find the report itself Ì†ΩÌ∏ï
+I think it was reported but can't find the report itself üòï
 
 [15:01:54](#gMeGZqnEAvcSbRsRG7krG1BtjyevMJhkvLSZvR13x30) <dockimbel>:
 Contributions are welcome to fix that `help` issue.
@@ -18106,7 +17902,7 @@ Contributions are welcome to fix that `help` issue.
 ```
 
 [18:44:26](#_wO_eelns_HRpRxI1BiBzzPmNzJPcVtCldOKpDT5DZg) <hiiamboris (NOT THIS ONE)>:
-found a regression after all Ì†ΩÌ∏â
+found a regression after all üòâ
 
 [19:25:19](#949LDYuO9EDE2MKt-HeNiishKT1ZkcynaT9AX3FM3d8) <dockimbel>:
 Thanks, fix pushed.
@@ -18348,7 +18144,7 @@ A strange thing happens on Win11.
 * when you go back to console it is as if the script did not finished
 
 [14:12:45](#DPDaeS0Vg4qCwVBz22eNXSRx6znEpdz2T3FAApr4pyU) <hiiamboris (NOT THIS ONE)>:
-it's a known bug for a year or so, but I can't find it Ì†ΩÌ∏ï
+it's a known bug for a year or so, but I can't find it üòï
 
 [20:27:33](#-J7mvecfbGjbbojfxOzH7Lk4L-CepnC7_ULMgkcFPnw) <dockimbel>:
 I can reproduce the issue using your description. Please put it in a ticket.
@@ -18433,7 +18229,7 @@ SW_HIDE
 0 	Hides the window and activates another window.
 ```
 
-*activates another window* Ì†ΩÌ∏ì 
+*activates another window* üòì 
 
 [11:25:25](#_6C1JRw1PnFoUGUDPvfJvsxCJ_rNNM_ISzA8t2xjQu0) <hiiamboris (NOT THIS ONE)>:
 But that makes sense. Otherwise focus will just get lost, which is the most annoying thing to happen.
@@ -18442,10 +18238,7 @@ But that makes sense. Otherwise focus will just get lost, which is the most anno
 The fix works fine. But how is SW_HIDE an issue I wonder?
 
 [11:39:17](#v5tRlU3jqX4nSVohEIfo_TJvM_oH2rk2APL6pBG6pyk) <hiiamboris (NOT THIS ONE)>:
-I have a regression though. Need to locate it only Ì†ΩÌ∏ï
-
-[11:44:59](#NAYC0D_k6EE3-frtMrsnMAfW4geZjoi00Ecwdnqjkog) <hiiamboris (NOT THIS ONE)>:
-I have a regression though. Need to locate it only Ì†ΩÌ∏ï
+I have a regression though. Need to locate it only üòï
 
 [11:52:25](#dWX_0jNuvI6PTRhVeOZKFt214VIr6hYlzC7RlUtPxX4) <hiiamboris (NOT THIS ONE)>:
 Ohh that's a big one.
@@ -18686,9 +18479,6 @@ and my last one on the console the same? (Apart the first `random`?
 I don't understand, what you don't understand.
 
 [9:57:54](#U2AlcsykCx3vZ1EXEgvstZy3a2uwzKEuqyGzOZUAtMA) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-It is event in the doc string twice... _...shuffles series... result (modified when series)..._
-
-[10:00:08](#6DK6eHCSplKoM4URl8nni6a__H3-i1DHjKauicQ9Eb0) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 It is event in the doc string twice... _...shuffles series... result (modified when series)..._
 
 [10:01:24](#_uDBCG240vvr3eBjbRsUrmr2g1-cQH0ltEnAC5z1fhk) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
@@ -19057,7 +18847,7 @@ and:
 And that is really my final post on this topic. If you don't understand it, you should go to the first class again and learn, why we have to use `copy` when working with series.
 
 [10:59:58](#sIb9ZYqcVqmUz0kBwGGL1QrHry29gHhIJOSlLQVuI7I) <GiuseppeChillemi (GiuseppeChillemi)>:
-@Oldes don't offend me, otherwise I will say to Hostile Fork that you love his Ren-C and you are asking to accept all his modifications to your Rebol3 Ì†ΩÌ∏ÅÌ†ΩÌ∏ÅÌ†ΩÌ∏Å
+@Oldes don't offend me, otherwise I will say to Hostile Fork that you love his Ren-C and you are asking to accept all his modifications to your Rebol3 üòÅüòÅüòÅ
 
 [11:15:06](#DAJmzlxJwkka7-gSvbwmdsYBd5dk2C-istFsN21eM1s) <GiuseppeChillemi (GiuseppeChillemi)>:
 I have finally understood. The console shows the correct behaviour.  It returns the same series but modified. Inside the block the second `random` modifies the series a second time,  so that all results,  being the same series are modified. In my code there are 4 random numbers but see just the last result in all (the last modification of the series).
@@ -19075,7 +18865,7 @@ It modifies the series and returns the original one. This was to understand.  Be
 @Oldes Thank you, this time I have been caught by a really powerful illusion. Without your example where you have used `happend`, I would still be entrapped. Redbol languages have multiple possible working scenarios you can imagine, because of the multiple ways things could be done. 
 
 [11:33:08](#CQYMrs-ssBqiWxZgKEm38joX5JMxUFoVAbIXf7rH3iY) <GiuseppeChillemi (GiuseppeChillemi)>:
-(I promise I will not tell Hostile Fork you love his work and you want to merge Ì†ΩÌ∏É )
+(I promise I will not tell Hostile Fork you love his work and you want to merge üòÉ )
 
 [11:47:33](#COBygCNuHi27Zu9TldVdbx-JN3hcr_zt-zpRi-lzYlo) <GiuseppeChillemi (GiuseppeChillemi)>:
 I sudden storm has forced me to remain home, so I have done further investigations on all parts involved.
@@ -19239,7 +19029,7 @@ make object! [
 == make object! [
     x: none
 ]
->> Ì†ΩÌ∏â 'x word was reported bound to `system/words`
+>> üòâ 'x word was reported bound to `system/words`
 ```
 
 [15:46:36](#vmdlkEs7jGD4gD26w2fvT4CfDiTobSigoVTAqUHkDXg) <dockimbel>:
@@ -19344,7 +19134,7 @@ It's the `wrap` flag that's the culprit
 ![](https://i.gyazo.com/e84cca6d43764106b98f70e6c9ab9c28.png)
 
 [12:54:14](#xA0Xm_7DY1s7SbAlLVocIh3vDM3nEFEcTf-f9Vylb6A) <hiiamboris (NOT THIS ONE)>:
-well, also a failure Ì†ΩÌ∏â
+well, also a failure üòâ
 
 [13:01:20](#8UKHpIa9UP41i_X0lx7HsGpR8y3op2eJ-OpGFmdenoc) <luce80>:
 About ellipsization wouldn't it better to have a third option instead of assuming ellpsization instead of clipping ?
@@ -19659,12 +19449,12 @@ But how can you possibly achieve this?
 >> a: 1.0
 == 1.0
 >> b: to float! head change back tail to binary! a 1
-== 1.0   Ì†ΩÌ∏â 1.0 + epsilon!
+== 1.0   üòâ 1.0 + epsilon!
 >> b == a
 == false
 >> b < a
 == false
->> b > a    Ì†ΩÌ∏â greater? is already true
+>> b > a    üòâ greater? is already true
 == true
 ```
 Plus `lesser-or-equal?` will be true as well
@@ -19721,7 +19511,7 @@ Look above. Oldes does the same, just in a random way.
 He's just doing math. I seriously thought you used that kind of thing in your code somewhere.
 
 [18:00:38](#5IOsFV6-BpwcrTC6mL-iPb4shz_zV07nX8UukUCuchY) <hiiamboris (NOT THIS ONE)>:
-Ah. No Ì†ΩÌ∏â
+Ah. No üòâ
 
 [18:02:10](#AlmaHZGIb-L6Qtk-BtuPAC9wT4zn4dUJ_9ZzRK83p_A) <meijeru (Rudolf Meijer)>:
 Another thought: the problem does not occur with `<=` and `<=` because almost equal numbers will satisfy both. But in testing `<` one could perhaps first test `=` (with deviation allowed) and if that is true, `<` will be false; i it is not true, only then `<` will be tested.
@@ -19767,7 +19557,7 @@ It doesn't lead to alternate version for me. It leads to extra work, as @meijeru
 i.e. it puts that on the user.
 
 [18:25:44](#SmZ_Yi06E2XjAlTGzmiPaDhQqbN3DpNAsC6Ck0KfnJU) <hiiamboris (NOT THIS ONE)>:
-So, instead of `a => b` we'll write `to logic! any [a == b a > b]`, nice Ì†ΩÌ∏â
+So, instead of `a => b` we'll write `to logic! any [a == b a > b]`, nice üòâ
 
 [18:25:57](#ppptn2Z0Px3M7ve7ns9u75Yu-lKzYHmH2Uj94gQeRRo) <hiiamboris (NOT THIS ONE)>:
 * So, instead of `a >= b` we'll write `to logic! any [a == b a > b]`, nice ;)
@@ -19800,10 +19590,10 @@ It could, yes, which was my original thought as well, but then Boris said "no ma
 Don't use floats. :^)
 
 [18:42:33](#N8FEe0REUSfAGaTX0cJbFTTFqGPrvA4szeS5Elwt9GY) <hiiamboris (NOT THIS ONE)>:
-My hunch: this will ruin most of the math code Ì†ΩÌ∏â
+My hunch: this will ruin most of the math code üòâ
 
 [18:43:41](#BPb18dfobifVu79AR7kXRkLUXFS8-XuTeyxGTI0HH3M) <hiiamboris (NOT THIS ONE)>:
-Besides, not Red problem. Proponents should find a language where this is implemented and see how that fared Ì†ΩÌ∏â
+Besides, not Red problem. Proponents should find a language where this is implemented and see how that fared üòâ
 
 [18:45:06](#gMKWskLpxB39-KsaFhXu8M8Qxzs9U_Ci6yIX5Jgjk6Q) <hiiamboris (NOT THIS ONE)>:
 (I can almost see Nenad coming and saying "let's remove fuzziness from equality to make everyone happy" :)
@@ -20080,9 +19870,6 @@ Ah, too bad I didn't see your PR in time. I've pushed a fix too, but yours is be
 
 ## 24-Oct-2022
 
-[7:43:40](#o0AnbUFJBDmZ_8aLEyOZRNsRaOW01dpRO2Sv4iA6bX0) <Dobeash (Ashley)>:
-@dsunanda You're welcome!
-
 ## 11-Nov-2022
 
 [16:27:01](#Cjx4JG2qo4vK6eaN5FqUbuuCe6l42EX3h3VvExl8j8E) <hiiamboris (NOT THIS ONE)>:
@@ -20323,7 +20110,7 @@ Still, doesn't explain why it should return `none`.
 ## 3-Dec-2022
 
 [17:35:04](#M8dQOHKm2tGBC__ffq2xytQgeND0Gk4b3kHjDLTH4Gg) <luce80>:
-@hiiamboris Very nice trick. It's right on time ! Ì†ΩÌ∏â but what does it happen here ? Ì†ΩÌ∏ü
+@hiiamboris Very nice trick. It's right on time ! üòâ but what does it happen here ? üòü
 `draw size-text r: rtd-layout [<font> 20 <bg> red "a" </bg> </font>] compose [text 0x0 (r)]`
 
 [17:35:48](#RVe1VK2Zrh4fc2PWzNIMqF_55ADCq1i-Wx9qv9yeu7Q) <luce80>:
@@ -20538,7 +20325,7 @@ How its result should be encoded in HTML? As `ab <b> cd <u> ef </u> </b> <u> gh 
 That is, I don't see anything wrong here. And I don't know if HTML spec speaks against it or not.
 
 [16:24:09](#ToAU-SxQYx1lJ846uRmKYH4IU58od1ZCFRksne6nhm8) <hiiamboris (NOT THIS ONE)>:
-I'd ask google, but have hard time formulating the query ATM Ì†ΩÌ∏â
+I'd ask google, but have hard time formulating the query ATM üòâ
 
 [16:26:31](#Zwdued58HMzoamcRpzzB6z52wSMxHkVAe_xmiPNyBfE) <hiiamboris (NOT THIS ONE)>:
 IMO it's a fundamental mistake of HTML to encode both text attributes and document tree structure using tags. Tree nodes cannot intersect, while attributes can.
@@ -20611,7 +20398,7 @@ Perhaps, though arguably in HTML those aren't formatting elements, rather part o
 The mechanism for making that span darker than other text is a separate concern (aka. style sheets)
 
 [23:45:45](#Z8s00m-RNSZLSwdvHSYra6IwXQjpBMVx0WXvaBkGXIo) <rgchris (Christopher Ross-Gill)>:
-(and since I used `<i>` above _"[The i element](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-i-element) represents a span of text in an alternate voice or mood, or otherwise offset from the normal prose in a manner indicating a different quality of text, such as a taxonomic designation, a technical term, an idiomatic phrase from another language, transliteration, a thought, or a ship name in Western texts."_ Ì†ΩÌπÇ)
+(and since I used `<i>` above _"[The i element](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-i-element) represents a span of text in an alternate voice or mood, or otherwise offset from the normal prose in a manner indicating a different quality of text, such as a taxonomic designation, a technical term, an idiomatic phrase from another language, transliteration, a thought, or a ship name in Western texts."_ üôÇ)
 
 [23:51:48](#vZSvZ37YAm7yR7ALNUzHsnqdnHbNNAG4VS_UpcoCnqw) <rgchris (Christopher Ross-Gill)>:
 I've made the argument prior that View should similarly define UIs semantically and apply style separately. It doesn't always fit (same with HTML‚Äîparticularly when using it to describe the elements of 'Web Apps') but there's a versatility to it.
@@ -20713,7 +20500,7 @@ This doesn't seem correct to me:
 ```
 
 [16:15:36](#W6UD_NgWO4Vm5eLet5rvJUUamjM3pNwWAu_VBq1S0Jk) <hiiamboris (NOT THIS ONE)>:
-Same on Oldes' R3 Ì†ΩÌ∏ü
+Same on Oldes' R3 üòü
 
 [16:30:34](#l4qklKD_QTnWwc5D5f_Di8Fzdtfop2dOvMNvgAvXmJ8) <hiiamboris (NOT THIS ONE)>:
 It should either auto-trim itself (slower flipping of trailing bits) or ignore trailing zeroes (slower equality)
@@ -20769,7 +20556,7 @@ PLATFORM: [ name: "Windows 10" OS: 'Windows arch: 'x86-64 version: 10.0.0 build:
 >> m: make map! [0¬†0 1 1 2 1]
 *** Syntax Error: (line 1) invalid integer at 0¬†0 1 1 2 1]
 *** Where: set
-*** Near : transcode/trace buffer Ì†ΩÌ∏Éelimiter-lex
+*** Near : transcode/trace buffer üòÉelimiter-lex
 ```
 
 [2:00:35](#8x-ej9x7jAmRxpLLkXwJJirEIfdqksMjmILxPe6fQFs) <ne1uno (ne1uno)>:
@@ -20964,7 +20751,7 @@ s-func: func [a b /x /local ra rb][
   print [rb b/x b/y]
    return ra < rb
    ]
-sort/compare data Ì†ΩÌ∏ñ-func
+sort/compare data üòñ-func
 
 *** Script Error: rb is missing its value argument
 *** Where: rb
@@ -21009,7 +20796,7 @@ Red:
 >> sort/case/reverse [a /a]
 == [a /a]
 ```
-@dockimbel bug or feature? Ì†ΩÌ∏â
+@dockimbel bug or feature? üòâ
 
 [16:32:15](#IQqXTQ1tVDvqiCIqvNJOV74qmUrVZl2BrEmV0N0HpoY) <luce80>:
 Script A:
@@ -21039,7 +20826,7 @@ no, it's not: `do` contains an implicit `catch`, so you need to catch your throw
 Wow! this is quite deep, thanks for the trick !
 
 [16:43:12](#Mk9HUgSGR_MoApfIHf8t6fx0_cFBKOgPFPl7lbiMiPY) <hiiamboris (NOT THIS ONE)>:
-but you're onto something here... because `halt` works somehow... Ì†ΩÌ∏â
+but you're onto something here... because `halt` works somehow... üòâ
 
 [16:53:24](#sHSvUSKKZ-pMvM_yFNImYe9VNWbRAMjmrQN98KECq4I) <hiiamboris (NOT THIS ONE)>:
 I reported the discrepancy https://github.com/red/red/issues/5267
@@ -21313,15 +21100,6 @@ OK.
 ## 28-Feb-2023
 
 [1:12:50](#82KDgwbEm1hL9J5PlbHXLGPn0yKV4gOZ_sBWsXzg1qY) <mikeyaunish>:
-Confirming 'all-over removes 'password effect from style.
-
-[1:12:54](#EsNcbnUt-rJ1vWmA59xu_huefK9O6285vSMmaOdOBBk) <mikeyaunish>:
-Confirming 'all-over removes 'password effect from style.
-
-[1:12:57](#b-S0aXMP1r9_mBv5GqBbk3EcU39-G8hRb8Ip-UOJdE4) <mikeyaunish>:
-Confirming 'all-over removes 'password effect from style.
-
-[1:12:58](#JIFWIfJx727LNiJU81Ut_uP-gd-V0uHsHb_UnRXgtdE) <mikeyaunish>:
 Confirming 'all-over removes 'password effect from style.
 
 [1:15:02](#iN-xysiRcXuB-WXmYAqkQ2l8FOMZ-cajmE7tCPPh0bE) <mikeyaunish>:
@@ -21608,9 +21386,6 @@ I understand why it is like it is now, but I am not sure, if it is good o not.
 [13:05:08](#ExdbckTicrqUMr0EcuHQidyRuuYNoPBNjLweJ_8o92E) <Oldes (@oldes.h:matrix.org)>:
  * I understand why it is like it is now, but I am not sure, if it is good or not.
 
-[13:10:54](#dmBGRcD6Zro-M8K-00qiDwwGkHC9cJKCfWyDth62xo4) <Oldes (@oldes.h:matrix.org)>:
- * I understand why it is like it is now, but I am not sure, if it is good or not.
-
 [13:15:18](#WyWHqenXCjzTBrWD5WvU7q6ZGLKFqb7vlFIr67sHuj8) <hiiamboris>:
 I can see tradeoffs either way
 
@@ -21699,12 +21474,6 @@ https://github.com/Oldes/Rebol3/commit/be1edd25db0b959f7ddaa234adcabd629f893280
 ## 9-Apr-2023
 
 [14:01:35](#vhHtIU9ULvgqagzYMKvlSCgeJlTI_ZS6M57hX50ZDKg) <Oldes (@oldes.h:matrix.org)>:
-Thanks.. resolved: https://github.com/Oldes/Rebol-issues/issues/2544
-
-[20:40:11](#GY3F_Emvh3KnY0h70iKTmYqAss_TRXnVP23wMsuoTw4) <chinewcastle>:
-Thanks.. resolved: https://github.com/Oldes/Rebol-issues/issues/2544
-
-[20:40:27](#P8sEgz1MRzoRZ73kII_n_odEi-fJgkxBqR1D2GxFR6A) <chinewcastle>:
 Thanks.. resolved: https://github.com/Oldes/Rebol-issues/issues/2544
 
 [20:53:22](#lwoWVCICCHypB4bRTjpxYax1oAPVZ0R6DSGY5Mvt6Mg) <hiiamboris>:
@@ -22933,10 +22702,10 @@ It's just a bug, not a design issue. The sentence in the docs need to be improve
  * It's just a bug, not a design issue. The sentence in the docs need to be fixed. It is obviously not interchangeable if the year is expressed with two digits only.
 
 [12:10:14](#4wBGYOpEwL7ATkbPBWEH4DgYlUgEm_YL5BJSbJ2iWMI) <dockimbel>:
-On second examination, it seems there's a design issue, mixed with error in docs and a bug in the code. Ì†ΩÌ∏Ü
+On second examination, it seems there's a design issue, mixed with error in docs and a bug in the code. üòÜ
 
 [14:41:12](#BmydOHiFeaX4S4lVk9DJfrewODLF3UWDZ8AOdYRabqE) <GiuseppeChillemi (GiuseppeChillemi)>:
-> <@dockimbel-556597ad15522ed4b3e10020:gitter.im> On second examination, it seems there's a design issue, mixed with error in docs and a bug in the code. Ì†ΩÌ∏Ü
+> <@dockimbel-556597ad15522ed4b3e10020:gitter.im> On second examination, it seems there's a design issue, mixed with error in docs and a bug in the code. üòÜ
 
 So it is a feature!
 
@@ -23410,11 +23179,6 @@ I have the same error on the latest build
 
 Red told you what's wrong.
 
-[11:59:50](#sM-0C7DZ6rr5DrlsXU3rcHZzEKFJgJc7GT1H_IS5qdk) <GiuseppeChillemi (GiuseppeChillemi)>:
-> *** Syntax Error: (line 11) missing ] at [print ["a: " a "b: " b] ;Shif
-
-Red told you what's wrong.
-
 [12:00:15](#_xedaGi0VI9vQt7kg-mPMmc2N5CXOpQRt9dtzMfNido) <GiuseppeChillemi (GiuseppeChillemi)>:
 > <@dockimbel-556597ad15522ed4b3e10020:gitter.im> > *** Syntax Error: (line 11) missing ] at [print ["a: " a "b: " b] ;Shif
 > 
@@ -23432,9 +23196,6 @@ How could I scan the remaining part of the code for comment, even in presente of
 * How could I scan the remaining part of the code for comments, even in presence of errors in the script? 
 
 [12:03:27](#X9UKK03qCqrVDyRCTPsw1Hxa812MxqB8jP1BOskoSQw) <hiiamboris>:
-handle `error` event
-
-[14:03:48](#RNAKy1W06HFkPTH1kAo-72QX3bJyBdbypYFin5evHQ8) <GiuseppeChillemi (GiuseppeChillemi)>:
 handle `error` event
 
 [14:04:15](#HgiBtazmb7BuYKLgtMwspkSyjXB1UCC3v1_J7kLOD_M) <GiuseppeChillemi (GiuseppeChillemi)>:
@@ -23492,9 +23253,6 @@ working on implementing this in red.js right atm, I think I will go with the for
 ah I am stupid it offsets the string
 
 [3:55:16](#ZbJYqhp3l2QvUHVqH2RKiR7rsg5XYYvym1wB5YqWjlY) <ALANVF (theangryepicbanana)>:
-either way there does not seem to be a special case in the code for `binary!` so that's a bit odd
-
-[7:59:08](#aVLUiDWZ6mNUUtDmiLnsSr-FDMLn1q317Go_nuGPNXA) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 either way there does not seem to be a special case in the code for `binary!` so that's a bit odd
 
 [8:01:35](#Wbxz3zmALvBT4KTRkSqYIuokB7_hslZq3B8Q7-Fyt3U) <rebolek (Boleslav B≈ôezovsk√Ω)>:
@@ -24108,7 +23866,7 @@ ah apparently that happens for any type you mix and match
 confirmed, please open a ticket
 
 [16:58:01](#Dzih7DZFmoJj4dPReACMBeyXJLbeOeJbfihuTZTn0AM) <ALANVF (theangryepicbanana)>:
-will do that once I get back home Ì†ΩÌ±ç
+will do that once I get back home üëç
 
 ## 3-Oct-2023
 
@@ -24161,7 +23919,7 @@ You have commented that behavior, in #3527.
 https://github.com/red/red/issues/3527#issuecomment-546393323
 
 [16:27:08](#BcaLEDxLh4OI2ykZiXmckaGQyRWrbGyluj5hkvhVzRs) <hiiamboris>:
-oh Ì†ΩÌ∏Ö
+oh üòÖ
 
 [16:41:10](#9oyOdOt3N_sRX3QC2IvljiDmUA_pqlbHxUXBbPqSpbo) <endo64>:
 But I still think it could be better to fix this individual bug, without waiting to complete rewrite `move`.
@@ -24229,9 +23987,6 @@ Thanks .... I'll report an issue.
 ....And it's fixed! Thanks - That was fast!!
 
 ## 22-Oct-2023
-
-[18:58:14](#7OVAbDiU1eIdXCoXmwCImPm6Jl-mj817QXKXcXcb0uo) <hiiamboris>:
-....And it's fixed! Thanks - That was fast!!
 
 ## 27-Oct-2023
 
@@ -24593,13 +24348,6 @@ this isn't what I expected either
 == ['a/b/c]
 ```
 
-[18:47:23](#BXLZinpPIJ0ML-0s_JdPOuB0FOs5uHUODmysKWsMZrs) <ALANVF (theangryepicbanana)>:
-this isn't what I expected either
-```
->> collect [keep quote ('a/b/c)]
-== ['a/b/c]
-```
-
 ## 5-Dec-2023
 
 [8:24:59](#RZBa5-IzJWJFYd50DcDAWdLlP7OQxn_lm4QbH5riNYE) <rebolek (Boleslav B≈ôezovsk√Ω)>:
@@ -24632,13 +24380,6 @@ But it's consistent with rest of Red:
 ```
 
 [17:02:48](#l7L53HINiWHMM9CxYsV9XX3q9a3gTTEHSsE0MvDpQSw) <rebolek (Boleslav B≈ôezovsk√Ω)>:
-That's expected, as is this:
-```
->> reduce ['a/b/c]
-== [a/b/c]
-```
-
-[17:04:31](#wsMQd_wnm-ym8CmM_zIbOk6B4wnKMEEK1ybHg21rCpQ) <hiiamboris>:
 That's expected, as is this:
 ```
 >> reduce ['a/b/c]
@@ -24892,13 +24633,10 @@ They where my sincere 2 hours
 [21:29:17](#R0cgigHma4O-FWf4yS7URSjU_ET3RSHXcHEVNVz8twc) <hiiamboris>:
 well, garbage in - garbage out :)
 
-[21:29:23](#6RL_loEVy6MtgndGQPop_6xAo6vEMV8TCBKQuLYT8k0) <hiiamboris>:
-well, garbage in - garbage out :)
-
 [21:29:24](#NKc9wZOcmketXbfKis3gxlxVNlKyY3E_X15NQUbFPlw) <gurzgri>:
 > <@giuseppechillemi-59045d00d73408ce4f5bcd9d:gitter.im> I did my job. Let we see
 
-Your "job" would have been to create a [minimal_reproducible_example](https://en.wikipedia.org/wiki/Minimal_reproducible_example), the more effort you put into showing a problem with less code, the better Ì†ΩÌ∏â
+Your "job" would have been to create a [minimal_reproducible_example](https://en.wikipedia.org/wiki/Minimal_reproducible_example), the more effort you put into showing a problem with less code, the better üòâ
 
 [21:42:05](#Bk7TSmMqGtpG4KPcuHWTbDiK-mSvjMuSAAQR1jzNQbY) <GiuseppeChillemi (GiuseppeChillemi)>:
 Think that reducing It further could take me another couple of hours I don't have and spend this time for removing just 10 lines is a thing I can't do. Aldo, The DPI bug is something that needs to be seen. I am 100% sure will immediately understand whats happening and what Is triggering the resize bug.
@@ -24935,7 +24673,7 @@ glad I kept my popcorn can xD
 [12:56:33](#sGc3mhT4UruUv8EQnoMAc_i8RmHhfQaVpC3WbEw2WpI) <GiuseppeChillemi (GiuseppeChillemi)>:
 > <@hiiamboris:tchncs.de> glad I kept my popcorn can xD
 
-I will hack your Space repository and delete it. Ì†ΩÌπÇ
+I will hack your Space repository and delete it. üôÇ
 
 [12:57:07](#w-2VPFMFsp-jHNVNJCzOh4DTQFKCpzYTNguyvJRdpIw) <GiuseppeChillemi (GiuseppeChillemi)>:
 (so the backups)
@@ -24947,9 +24685,6 @@ I will hack your Space repository and delete it. Ì†ΩÌπÇ
 I have replied to [this](https://github.com/red/red/issues/5466) when it was already closed. Do you think Nenad will read it? 
 
 [17:01:39](#DBMqteg1_juUEDTSjuKEfeVj7U0d-FzMY4T5mTDNNkU) <GiuseppeChillemi (GiuseppeChillemi)>:
-Yes, he has answered. 
-
-[18:14:13](#gw8LBMNrPm8LlvPCrpSwTSgUBYsk22H708MhPkUhGW8) <GiuseppeChillemi (GiuseppeChillemi)>:
 Yes, he has answered. 
 
 [18:14:20](#A_N6Q7AOoK-IL1sv8Qe0cEjLR4hP-fzM6rZIcd6aiak) <GiuseppeChillemi (GiuseppeChillemi)>:
@@ -26168,9 +25903,6 @@ confirmed, and it's a different one
 [19:49:38](#vK0ZkFj3_dXYq-vNdgqztrYFTnLDetx-BJTbgk7mq3g) <greggirwin (Gregg Irwin)>:
 Reproduced.
 
-[19:50:53](#EKHuIZQK4yq8Q54PE5DVW0HnlYosgxO4UVcGjppfL-4) <hiiamboris>:
-Reproduced.
-
 [19:52:22](#aACE75LtkKfeyptdgpjRdYCze6HqqPq76AixrNhpZ-c) <hiiamboris>:
 is it related to the rtd-layout though?
 
@@ -26377,7 +26109,7 @@ you may also want to change `attempt` to `if function? in face/actors 'on-focus 
 * you may also want to change `attempt` to `if function? select face/actors 'on-focus [face/actors/on-focus face none]` or your minor mistakes will lead to silent actor failures and a lot of head scratching
 
 [16:08:56](#ykoZ7V8h6voJ_wT3gaNs5__T9MzOaWf6NoYo6TFZbKY) <luce80>:
-Yes I am lazy Ì†ΩÌ∏á  and talking about `unfocus`:
+Yes I am lazy üòá  and talking about `unfocus`:
 ```
 set-focus: func [
     "Sets the focus on the argument face" 
@@ -26517,7 +26249,7 @@ system/view/handlers/tab: func [face event] compose/deep [
 ```
 
 [17:32:07](#BZkDJrYPnfPbooaxiYKHyv4iBnPQAlilJmB_RA4yf6o) <luce80>:
-Weren't we talking about kludges ;) . It works but strangely... You need to insist to get key presses Ì†æÌ¥î
+Weren't we talking about kludges ;) . It works but strangely... You need to insist to get key presses ü§î
 
 [17:35:21](#8pmymwjvTigvud0TxuWMvLLkypiPK6DXxEXCTjFCisM) <hiiamboris>:
 your event filtering maybe ? ;)
@@ -27051,7 +26783,7 @@ view [
 		]
 ]
 ```
-Perhaps my comment in the issue source code was misleading Ì†æÌ¥î ?
+Perhaps my comment in the issue source code was misleading ü§î ?
 
 [18:48:23](#1KLbbmSQg2l0v6F6lSsVS9_illZBll-k6vqZejbtLs8) <hiiamboris>:
 reopen the issue
@@ -27735,7 +27467,7 @@ Let's start with more correct calls:
 So far so good?
 
 [1:24:22](#7doedecomSJPSM_84yPcFwwGxn4vuMsNvS5pm-jL15I) <greggirwin (Gregg Irwin)>:
-OK, you figured it out while I was playing. Ì†ΩÌ±çÔ∏è
+OK, you figured it out while I was playing. üëçÔ∏è
 
 [1:25:32](#eiRrS38fLh8VepebmjqxE1PFpvbFPT2fJVorjdOC20o) <greggirwin (Gregg Irwin)>:
 > "Not a refinement in /C slot"
@@ -28044,7 +27776,7 @@ Now I know the reason. Unprecise timers and scheduler doing task switching slowe
 [9:12:48](#fPlwQ5Hx6pzf4tWn6Aa21Qonlgc5ZTPIE7pjLEz2ivg) <pekr (Petr Krenzelok) (@pekr:matrix.org)>:
 > <@hiiamboris:tchncs.de> PR with precise timers for Windows was rejected, and it would not increase timing reliability by a big margin anyway due to unpredictable nature of the OS scheduler, so just add zeroes
 
-So when you push PR to Microsoft, to fix their lame Windows scheduler architecture? Ì†æÌ¥™
+So when you push PR to Microsoft, to fix their lame Windows scheduler architecture? ü§™
 
 ## 15-Mar-2024
 
@@ -28106,26 +27838,6 @@ while strings does not?
 ```
 
 [10:34:17](#Erd6m-P5CXWXssm2PcmeSEWDJB_CS-_ptUcTMKZEW0Y) <Oldes (@oldes.h:matrix.org)>:
- * Is it by design, that chars as map keys are always case sensitive
-
-```red
->> m: make map! 1000 m/(#"a"): 1 m/(#"A"): 2 m
-== #[
-    #"a" 1
-    #"A" 2
-]
-```
-
-while strings not?
-
-```red
->> m: make map! 1000 m/("a"): 1 m/("A"): 2 m
-== #[
-    "a" 2
-]
-```
-
-[14:21:23](#zcxGwj4aq2NS80AdX02On5wwrtnG10lr7QnFshDDVHw) <rebolek (Boleslav B≈ôezovsk√Ω)>:
  * Is it by design, that chars as map keys are always case sensitive
 
 ```red
@@ -28936,9 +28648,6 @@ Oups. Same problem with Windows 11
 
 ## 3-Jun-2024
 
-[14:05:16](#RqVNc5NcM_0nxl21FRSAfBnq25ZEhfVl77PeKr72qFo) </-+>:
-Oups. Same problem with Windows 11
-
 ## 17-Jun-2024
 
 [1:38:00](#BBvHuUj408j_8zs0_DB9lm9PRit6NaL7mUM7e5An5Pk) <SkySpiral7>:
@@ -29632,11 +29341,6 @@ It was about copy/deep truncating the series on objects.
 
 Is it published? 
 
-[21:31:11](#eiQ1-YZkibEC8RKncXnAul9qseljz8xdOV9pTigiWmg) <greggirwin (Gregg Irwin)>:
-> <@greggirwin-55659ddb15522ed4b3e1006f:gitter.im> I have a whole file of notes on `make/copy` with various compound types. Needs to be improved.
-
-Is it published? 
-
 [21:35:39](#kSF34c8vCiVVKbjK3qsT1VJ-5lAKrbcghvTFf00FrdA) <GiuseppeChillemi (GiuseppeChillemi)>:
 Thank you, I'll read it
 
@@ -29771,7 +29475,7 @@ I disagree, this is a common use case where you give the opportunity to customiz
 Think also about a game where you move the tiles but also they react on a click.
 
 [21:19:14](#wewpVNrpil9mXq58W6ZMqcV985mN-C7d2_i7wLyAYbA) <hiiamboris>:
-loose buttons is definitely not a common use case Ì†ΩÌ∏Ç
+loose buttons is definitely not a common use case üòÇ
 
 [21:19:48](#oaLJLtc2jnp4jsvOEiIwz9HZ8g4pHgh9T04aV-ntd-Y) <hiiamboris>:
 you'll handle it, it can't be harder than 2 lines of code
@@ -30336,9 +30040,6 @@ Now the picture is quite complete! Thank you!
 again, it's all written there
 
 [22:09:52](#9cwEJz0MDhOTB8wXnwEO2KKkyLiVBSK1OChiK012ohI) <hiiamboris>:
-I suggest reading :)
-
-[22:12:21](#q4P-PHUwKItiDDeo99jZCrPHNC1Lh3T9v8QyKxh1JoY) <hiiamboris>:
 I suggest reading :)
 
 [22:15:39](#_nBppox6l8JQTOAl5NwuHGP8WsC3p6u9zcvJRq-zzG4) <hiiamboris>:
@@ -30954,9 +30655,6 @@ And this is a terrible thing as I am fored to mention anything.
 [5:16:57](#YEoqz9nDnrp9KbirDLbHT2S-9HSSLLrHvj4Zoy8EhYc) <GiuseppeChillemi (GiuseppeChillemi)>:
  * And this is a terrible thing as I am forced to mention anything. 
 
-[5:38:36](#HZwPQq3z083I0HwTcC_bc7imKqzzVlgZFxuLAx0pRJw) <GiuseppeChillemi (GiuseppeChillemi)>:
- * And this is a terrible thing as I am forced to mention anything. 
-
 [6:00:01](#w3RsQqGV4Pb4p-xulvC_2NpyaNdPpBG0hwjb0oKQOHw) <GiuseppeChillemi (GiuseppeChillemi)>:
 Again on `REACT/LINK` is it triggered for every word mentioned in the body which exists in the source object? In this case, as there is no way to know which word triggered the reaction, I need to write a function for each word I want to map to another object, don't I?
 
@@ -31216,7 +30914,7 @@ If you change it to a reactor you have a different result. (I am not.in front of
 [8:22:56](#ujSbKcdHFiOzO29ykqIH0voLg808uRzc5HC9FvifWmY) <GiuseppeChillemi (GiuseppeChillemi)>:
 > <@hiiamboris:tchncs.de> hm yeah, curious that it even works...
 
-I was curious too Ì†ΩÌ∏Å
+I was curious too üòÅ
 
 [8:24:47](#03nIAoMfpzXOqccIzNsI0BbhkmQesWImOApG6p7u-Ms) <GiuseppeChillemi (GiuseppeChillemi)>:
 Also today I had different parameters uncompatible with system/reactor/check but I have changed my code before discovering what caused this.
@@ -31805,9 +31503,6 @@ I am "probe"ing the whole `system/words` context.. what you think is happening h
 Also can't dupe, from a raw console. You surely have lots of other things in your system at the time, so hard to say.
 
 ## 12-Jan-2025
-
-[13:34:25](#7GV2bh5irw6Ub3pymTvUmJYc5LDrc9jQ9FEZBHKN0Qc) <GiuseppeChillemi (GiuseppeChillemi)>:
-Also can't dupe, from a raw console. You surely have lots of other things in your system at the time, so hard to say.
 
 [13:34:59](#FwV3NjgdWD9pWoSBm7jNqECtAtI_AZrFskPo-YylQhs) <GiuseppeChillemi (GiuseppeChillemi)>:
 * I am experimenting using `apply` to create a `repeat-on` command to repeat ANY function on multiple targets. Thinks about appending on multiple containers.
@@ -32897,10 +32592,10 @@ So it remains the first one
 * So remains the first one
 
 [22:05:24](#tq9TzDWQoAMjzKKthVRaCcucsF3jb89sqEL3DVVy958) <gurzgri>:
-Re-read the error message `*** Script Error: f: needs a value` Ì†ΩÌ∏â 
+Re-read the error message `*** Script Error: f: needs a value` üòâ 
 
 [22:06:00](#ySFd8M0oKYsrfoi5KSDaef1gW_nAxq9LDna84a7mNvo) <GiuseppeChillemi (GiuseppeChillemi)>:
-In fact Ì†ΩÌ∏Ö
+In fact üòÖ
 
 [22:07:38](#F2nSF4AhoUZmCW3krb2UFnaSh7eYYOOOPDm-0dPqKmM) <GiuseppeChillemi (GiuseppeChillemi)>:
 I have already used this syntax buy this evening it has totally disappeared from my mind. Maybe I am too tired
@@ -32925,23 +32620,6 @@ So, what's wrong with `show`?
 Declaring `return:` *after* `/local` is invalid, isn't it? Makes sense to me, `return:` is part of the "public" spec, `/local` is to be considered "private" sepc ...
 
 [22:14:35](#nMs2MAV5bbg5dQdXlZlDI2glk30GjeLOP1bptFG22PI) <gurzgri>:
-* So, what's wrong with `show`?
-
-```
->> f: function [return: [integer!] /local i] [1]
-== func [return: [integer!] /local i][1]
->> g: function [/local i return: [integer!]] [1]
-*** Script Error: invalid function definition: [/local i return: [integer!]]
-
->> f': func [return: [integer!] /local i] [1]
-== func [return: [integer!] /local i][1]
->> g': func [/local i return: [integer!]] [1]
-*** Script Error: invalid function definition: [/local i return: [integer!]]
-```
-
-Declaring `return:` _after_ `/local` is invalid, isn't it? Makes sense to me, `return:` is part of the "public" spec, `/local` is to be considered "private" sepc ...
-
-[22:17:33](#a08hUeuwlO7r9ARe-Tu-AAXTat4nxMlMXTjkSxUElXY) <GiuseppeChillemi (GiuseppeChillemi)>:
 * So, what's wrong with `show`?
 
 ```
@@ -33437,7 +33115,7 @@ However, latest commits were really deep, the GC has been redone
 ## 31-Jan-2025
 
 [6:14:48](#xYca_suVx98-pwcLaCild5AlOed8VCfk2ujwLouL8es) <hiiamboris>:
-Thanks dsunanda, I'll make a ticket. Very good catch Ì†ΩÌ±ç
+Thanks dsunanda, I'll make a ticket. Very good catch üëç
 
 [6:54:13](#sWPCu8Mo_ZSPprJ_U7bIWCFfNwjnVczfeC4RSP6JaqA) <hiiamboris>:
 https://github.com/red/red/issues/5586
@@ -33560,9 +33238,6 @@ How would Red know? Unless objects become extensible at runtime, there's no way.
 Are you telling me the scanner statically collects all first level set-words and not while interpreting the block? 
 
 [9:45:22](#v_PJz8mM9HnJkiubsbGuXBgeSj4GCPW5mn_mKv6iG2A) <hiiamboris>:
-At `make` time, yes.
-
-[9:45:25](#bbpKNRZTbi5BKMmwxhHhKTvX88l1ptuTrVFgFa3wtW0) <rebolek (Boleslav B≈ôezovsk√Ω)>:
 At `make` time, yes.
 
 [9:45:45](#2Oq6gGosI57n6qLQFolLxmvPBrWYGcRGL8tgtnk3XcI) <rebolek (Boleslav B≈ôezovsk√Ω)>:
@@ -34235,7 +33910,7 @@ About this and length remaining at 1 for blocks and parens but not paths, any id
 I did this? Where???
 
 [2:01:54](#0ZbuFhKmzC1w28JeFNp7bHZIUpYpm0WxDzxRE7k-kJM) <GiuseppeChillemi (GiuseppeChillemi)>:
-I have seen it Ì†ΩÌ∏Å
+I have seen it üòÅ
 
 [6:05:08](#rQTjbBdfG_ScJeWBY7TMfcqbExNS3XO3uZ56nzcaQJM) <hiiamboris>:
 Why it doesn't feel correct to you?
@@ -34470,9 +34145,6 @@ If use it for 100 reaction, it is no more than 400KB, my 1MB amiga 2000 is able 
 [17:39:12](#G3NxbK1dKWt1ERcDo4Eq1P4DR-axqxO22iB3RsxO_yo) <GiuseppeChillemi (GiuseppeChillemi)>:
 However, I would like to request "Full-reactor!" than handles `MAP!` too.
 
-[18:10:59](#FD2qGbFIXPxCUFYNobKEIcrBn1uq1PSp990MBtXELP8) <hiiamboris>:
-However, I would like to request "Full-reactor!" than handles `MAP!` too.
-
 [18:11:13](#z3q5st9q_hTPdGy5ewTpGD4w61BqAF7z0T5ngNOGiT4) <hiiamboris>:
 > <@giuseppechillemi-59045d00d73408ce4f5bcd9d:gitter.im> However, I would like to request "Full-reactor!" than handles `MAP!` too.
 
@@ -34625,9 +34297,6 @@ I have learn on the blog, su that "until failure" shoud be corrected.
 you may open an issue in red/docs about that
 
 ## 4-Mar-2025
-
-[19:40:33](#_k5nx2CKO7e_lr1gzF_nYMfOOTLKbREANZ8nqqgYk-4) <GiuseppeChillemi (GiuseppeChillemi)>:
-you may open an issue in red/docs about that
 
 ## 10-Mar-2025
 
@@ -34843,10 +34512,10 @@ It's broken by [commit #02999cc 10-Mar-2025/0:03:45+01:00](https://github.com/re
 for me it says *undefined word 'about'* during compilation
 
 [18:27:34](#vt8efowZehxqUaQ8JYYloM1VhhuRD81jgoBHi5koh9U) <gurzgri>:
-You're not supposed to compile the small `Red [...] about view layout [text "Test"]` snippet to try to interpret it with the nightly builds Ì†ΩÌ∏â
+You're not supposed to compile the small `Red [...] about view layout [text "Test"]` snippet to try to interpret it with the nightly builds üòâ
 
 [18:27:46](#lFcrFNNnmQ52HYKE1tzLuXC7dyIUBlooYVLjOI9Hfwo) <gurzgri>:
-* You're not supposed to compile the small `Red [...] about view layout [text "Test"]` snippet, but to try to interpret it with the nightly builds Ì†ΩÌ∏â
+* You're not supposed to compile the small `Red [...] about view layout [text "Test"]` snippet, but to try to interpret it with the nightly builds üòâ
 
 [18:45:33](#S86vEC7MvSLgREm2K-E7fxhTigkoezyEH94xOLyWALU) <hiiamboris>:
 ah ok :)
@@ -35134,17 +34803,7 @@ Thanks -  done that #5611 . Had to change the suffix on the file name, Github is
 
 ## 5-May-2025
 
-[6:11:42](#Slb6jV3G0TSGNxmLfgEcvp9iRMUPuLGIpKNFf1KRuSs) <PeterWAWood>:
-Thanks -  done that #5611 . Had to change the suffix on the file name, Github is picky about that. Good luck with the analysis!
-
 [6:12:38](#UnwWIqMvPXNrEJBDR1XTLYGlfOqcVv07BxOWyFbTX7I) <PeterWAWood>:
-I experienced in a silent crash with red-view-066 on Raspberry Pi when I tried to access a map! value within a map!. The map! value was created by loading JSON.
-
-Here is a brief screen recording of the crash:
-
-
-
-[6:12:58](#2npdVc1cl0iaTvT1NR8oIj6JUVPuspXNjQOgGSJOr4w) <PeterWAWood>:
 I experienced in a silent crash with red-view-066 on Raspberry Pi when I tried to access a map! value within a map!. The map! value was created by loading JSON.
 
 Here is a brief screen recording of the crash:
@@ -35512,7 +35171,7 @@ I got a similar compilation error with `--target Rpi`.
 ## 8-May-2025
 
 [7:12:09](#_GL4LunEce-jrNMrgtAyT-BpNeTYBp8Ww1-0I4twfPY) <hiiamboris>:
-[@dockimbel-556597ad15522ed4b3e10020:gitter.im](https://matrix.to/#/@dockimbel-556597ad15522ed4b3e10020:gitter.im) Ì†ΩÌ±Ü
+[@dockimbel-556597ad15522ed4b3e10020:gitter.im](https://matrix.to/#/@dockimbel-556597ad15522ed4b3e10020:gitter.im) üëÜ
 
 ## 9-May-2025
 
@@ -35522,9 +35181,6 @@ Fix pushed.
 ## 10-May-2025
 
 [12:27:51](#dIIo7fXX1MhDklRfn-pFipHIlsXuZQdpXDL6q2WIGaI) <PeterWAWood>:
-Thanks. The new executable doesn't crash. :-)
-
-[12:31:33](#iTPynOD2An0Dl8MUj9azxjdoZNjzRQOrJDcu3wQ36nk) <PeterWAWood>:
 Thanks. The new executable doesn't crash. :-)
 
 [12:31:38](#QRV-I3Flvuuzx-oguDBz7NR5Gk0S-0pE4bmu6NdVqMg) <PeterWAWood>:
@@ -35680,7 +35336,7 @@ Does it happen to you too?
 ## 12-May-2025
 
 [4:13:23](#8aoSfj7rzenKX4DmSWDuCwLEdxjTJBR4Ba67JMoXZIA) <hiiamboris>:
-Looks weird. Probably some stack corruption by `unview`. Can't test though, my W10 decided yesterday it won't boot anymore, no matter what I try dead is dead Ì†ΩÌ∏Ö
+Looks weird. Probably some stack corruption by `unview`. Can't test though, my W10 decided yesterday it won't boot anymore, no matter what I try dead is dead üòÖ
 
 [10:05:39](#dVAXnWIl7Db2zzkJNWmfn8uVrRhOU_XRA1Jun4x9NA4) <PeterWAWood>:
 I left the layout mockup script running overnight and found that it had crashed.
@@ -35700,19 +35356,7 @@ Would you like me to open a new Gtihub issue, update #5612 or is this channel su
 
 
 
-[10:10:05](#jz5LQvpgBvFUP3ZguNvY1vRgpteQJRm8LNLaYost5cM) <PeterWAWood>:
-After a short while the script crashed with a Runtime Access Violation in datatypes/object.reds (line 81).
-
-I've saved the console log (attached below).
-
-Would you like me to open a new Gtihub issue, update #5612 or is this channel sufficient.
-
-
-
 [10:10:29](#YFMIhBlC7VuU4TchCG8f-l-3JyCe5bR1DHWS-ZB9zi4) <PeterWAWood>:
-This is the layout mockup script:
-
-[10:12:11](#8zJV4Vlf_jxn3EqWPrmhFYWyVTe-PUqKbc2LXr1I6iw) <PeterWAWood>:
 This is the layout mockup script:
 
 [11:25:34](#FVMwRVMUUrF-bKC1GncdLmEAQBeeWrOGN-5Kf1EXCYw) <GiuseppeChillemi (GiuseppeChillemi)>:
@@ -35786,9 +35430,6 @@ I feel like it would be better to cast to integer if the host value is a pair!, 
 [20:41:46](#N6rE9SFdLlIS9yUVpcbnOle24PLhQuDKR3AbuFkl-Y0) <GiuseppeChillemi (GiuseppeChillemi)>:
 From multi monitor support, Red is no more compatible with Windows Server2012
 
-[20:41:49](#MlwZkJU5YXRrvz4qW910HMYxdNI7CdMvxU-J-3OEzlo) <GiuseppeChillemi (GiuseppeChillemi)>:
-From multi monitor support, Red is no more compatible with Windows Server2012
-
 [20:42:44](#FfBGWS7WQuenx8R3SYmlvqj90yCmH6uoQldVHY4hEDM) <GiuseppeChillemi (GiuseppeChillemi)>:
 ![](https://gitter.ems.host/_matrix/media/v3/download/gitter.im/21b279298b8bc314a73818920a1046b042fb26761923116861726130176)
 
@@ -35812,11 +35453,6 @@ It did mean that I needed to specify the size of the containing face rather than
 
 ## 24-May-2025
 
-[18:16:21](#EnoaGLCkyUoXPZ--Hns6cWxXkxYcRLURqWGJHYPyQvE) <nazgulsenpai (NazgulSenpai)>:
-Thanks for the insight. My work around was to size the containing face so that the difference in width of the containing face and the tab-panel was a multiple of two.
-
-It did mean that I needed to specify the size of the containing face rather than let VID calculate it.
-
 [18:16:30](#yOyV-QwJ89ZPx6UXcX0GB_Fo5nSLrIvU9xPx9yXDa74) <nazgulsenpai (NazgulSenpai)>:
 When clicking buttons in red-view (066 or master branch) Directed here from creating github issue
 
@@ -35837,12 +35473,6 @@ Seems Void Linux on desktop. [@nazgulsenpai-5ab10513d73408ce4f923cec:gitter.im](
 
 ## 28-May-2025
 
-[7:43:00](#HElymuCExK6Wz6h0PaEzm2IBJXgU_PEfR9AwUnSXiP0) <planetsizecpu (Jose Luis)>:
-Seems Void Linux on desktop. [@nazgulsenpai-5ab10513d73408ce4f923cec:gitter.im](https://matrix.to/#/@nazgulsenpai-5ab10513d73408ce4f923cec:gitter.im) can you compile Red in debug mode to see the stack trace? See above for instructions https://matrix.to/#/!mjbZGzLqlsqlDLaQVP:gitter.im/$Hb-n6rt68VZGjS_ST5F8qPLIoEJiywJGQVtA5JABMF0?via=gitter.im&via=matrix.org&via=nitro.chat
-
-[9:53:05](#pg6P4zvWx57H70w9NsaU1iJqq-tAz-nQrn9tWKLsTbQ) <planetsizecpu (Jose Luis)>:
-Seems Void Linux on desktop. [@nazgulsenpai-5ab10513d73408ce4f923cec:gitter.im](https://matrix.to/#/@nazgulsenpai-5ab10513d73408ce4f923cec:gitter.im) can you compile Red in debug mode to see the stack trace? See above for instructions https://matrix.to/#/!mjbZGzLqlsqlDLaQVP:gitter.im/$Hb-n6rt68VZGjS_ST5F8qPLIoEJiywJGQVtA5JABMF0?via=gitter.im&via=matrix.org&via=nitro.chat
-
 [9:53:24](#ej14zijs4q4hlyfM-y3X9JMYzQzuBo9xa68EuaOAUm8) <planetsizecpu (Jose Luis)>:
 * I tested on older versions of Red, `unview` not only closes the window, but also returns control to the next sentence. That behavior has changed, and causes the game freeze, so I'm not sure if it is the wanted behavior, and better to ask here and wait for a while.
 
@@ -35853,10 +35483,10 @@ Seems Void Linux on desktop. [@nazgulsenpai-5ab10513d73408ce4f923cec:gitter.im](
 * I tested on older versions of Red, `unview` not only closes the window, but also returns control to the next sentence. That behavior has changed, and causes the game freeze, so I'm not sure if it is the wanted behavior, and better to ask here and wait for a prudent while.
 
 [9:58:18](#bL5iAPkySSwoAaJfdWN6IIWn_1qNDFLjlY0gOfNu7Ns) <planetsizecpu (Jose Luis)>:
-* I tested on older versions of Red, `unview` not only closes the window, but also returns control to the next sentence. That behavior has changed, and causes the game freeze, so I'm not sure if it is the wanted behavior, and better to ask here and wait for a prudent Ì†ΩÌ∏Å while.
+* I tested on older versions of Red, `unview` not only closes the window, but also returns control to the next sentence. That behavior has changed, and causes the game freeze, so I'm not sure if it is the wanted behavior, and better to ask here and wait for a prudent üòÅ while.
 
 [9:59:16](#J3Z5VzHD_d18zjM_yE9CExF-eN-onOI0Vae3KRjK4zc) <planetsizecpu (Jose Luis)>:
-* I tested on older versions of Red, `unview` not only closes the window, but also returns control to the next sentence. That behavior has changed, and causes the game freeze, so I'm not sure if it is the wanted behavior, and better to ask here and wait for a  prudent while. Ì†ΩÌ∏Å
+* I tested on older versions of Red, `unview` not only closes the window, but also returns control to the next sentence. That behavior has changed, and causes the game freeze, so I'm not sure if it is the wanted behavior, and better to ask here and wait for a  prudent while. üòÅ
 
 [14:45:41](#arEsE10uNrTk7ESpddvsqzmKbFsiqLmFp9s1SzT9Rws) <nazgulsenpai (NazgulSenpai)>:
 Yes I will this evening. Thanks for response
@@ -36297,17 +35927,17 @@ libgdk3.0-cil/noble 2.99.3-4.1build2 amd64
 and there's one lib prefixed with dash, another without
 
 [17:16:45](#LZn3w3hupgAbcVhyDTOvDeTBc7C7ClM2nN14rDGMTeg) <hiiamboris>:
-linux Ì†æÌ¥¶‚Äç‚ôÇÔ∏è
+linux ü§¶‚Äç‚ôÇÔ∏è
 
 ## 29-Jun-2025
 
 [10:12:02](#08uwLQcumheW_hhkd-TH0v_b0I1mn7xs4EFyjSunYpg) <bazub>:
-> <@hiiamboris:tchncs.de> linux Ì†æÌ¥¶‚Äç‚ôÇÔ∏è
+> <@hiiamboris:tchncs.de> linux ü§¶‚Äç‚ôÇÔ∏è
 
 It‚Äôs a distro issue. Ubuntu is does not represent the whole Linux ecosystem.
 
 [10:12:22](#h7ShQQZYU2u7YOQa_B36YT9Axz9EZ5zs9ypzfUtJaR8) <bazub>:
-> <@hiiamboris:tchncs.de> linux Ì†æÌ¥¶‚Äç‚ôÇÔ∏è
+> <@hiiamboris:tchncs.de> linux ü§¶‚Äç‚ôÇÔ∏è
 
 * It‚Äôs a distro issue. Ubuntu does not represent the whole Linux ecosystem.
 
@@ -36904,7 +36534,7 @@ Was this a conscious design decision or it is an accidental design choice?
 To me it looks ok. Result is type of the first argument. `#"^A" = 1`
 
 [8:25:43](#XZhdRUJqYmSBoHEBm6xSYwwHozi7KK4Gq_K7QU24Co8) <PeterWAWood>:
-Something to catch the unsuspecting - like me  Ì†ΩÌπÇ 
+Something to catch the unsuspecting - like me  üôÇ 
 
 [8:26:49](#p7WNSWis20DOdFmxcv-Ikg8VoilDmD8mFU8k1tAuDRI) <Oldes (@oldes.h:matrix.org)>:
 * To me it looks ok. Result is type of the first argument. `#"^A" = 1` and `(to float! #"^A") = 1.0`
@@ -37230,12 +36860,12 @@ to-binary #"^(035F)"
 What should be result of `mold "^(D834)^(DD22)"`?
 
 [14:31:23](#SncLRxo9bHglJCR5bp-N1Uc6hEN0yTMYB8yoGzIDjHw) <Oldes (@oldes.h:matrix.org)>:
-Red displays `{"Ì†¥Ì¥¢"}` (tested on Windows), but I wonder if it is not just a side effect. It is not possible to load such a value.
+Red displays `{"ùÑ¢"}` (tested on Windows), but I wonder if it is not just a side effect. It is not possible to load such a value.
 ```
 >> load mold "^(D834)^(DD22)"
 *** Access Error: invalid UTF-8 encoding: #{B4EDB4A2}
 *** Where: transcode
-*** Near : load mold "Ì†¥Ì¥¢"
+*** Near : load mold "ùÑ¢"
 ```
 
 [14:32:10](#MeEEPCzP633UuDyS9ReChXDng7WtYDWg40wq6n_cojQ) <Oldes (@oldes.h:matrix.org)>:
@@ -37657,4 +37287,495 @@ time for some CSV updates I guess :)
 
 [10:51:58](#QJCXxlaYSQS-OTU3f7hRIjIDgp7yAKAypotppEWCYZA) <GiuseppeChillemi (GiuseppeChillemi)>:
 It would be nice to have some debugging information from the codec. The number of records loaded and the stop position, so one can manually inspect the text file for the error
+
+## 27-Aug-2025
+
+[17:49:55](#A_PkkTwit-GM5PJg01GcA_GYIcryagUpAMd6aB6emNo) <mikeyaunish>:
+Having an issue with modifying data and then saving it with redbin.
+```
+stor: #[]
+d1: make object! [	
+    name: "joe"
+]
+stor/1: d1
+save/as %stor.redbin stor 'redbin
+load-stor: load/as %stor.redbin 'redbin
+print [ "First reload load-stor = " mold load-stor ]
+remove/key stor 1
+?? stor
+save/as %stor.redbin stor 'redbin
+print "second save complete"
+load-stor: load/as %stor.redbin 'redbin
+print [ "Second reload load-stor = " mold load-stor ]
+```
+Get this result:
+```
+>> 
+First reload load-stor =  #[
+    1 make object! [
+        name: "joe"
+    ]
+]
+stor: #[]
+second save complete
+*** Script Error: REDBIN - invalid record at index 37
+*** Where: decode
+*** Near : codec/decode source
+*** Stack: context view do-events do-actor do-safe error? run ask ask do-events do-actor do-safe load 
+```
+Is there a work around for this? 
+
+
+
+[17:59:41](#rTN4i-ncjwdtrW2New8mvIV-WxVKh_vXLF-5j1a7hys) <hiiamboris>:
+Confirmed!
+
+[17:59:59](#l8EwpvQm8Rms82d_313CZNrOL0mLIslxZlZHUjjNDBY) <hiiamboris>:
+Please report it
+
+[18:00:04](#eQP1SzYV7ahOeiD8MNJAdA2BA0B37HXX1bFlGGL88h8) <hiiamboris>:
+Minimal snippet: `do bind [decode encode remove/key m: #[1 2] 1 {}] system/codecs/redbin`
+
+[18:04:11](#E5rvRwa6wYHGR5npFOK3jaMvCgHXJojIz470g8FYJCk) <hiiamboris>:
+This workaround seems to work: `do bind [decode encode to map! to block! remove/key m: #[1 2] 1 {}] system/codecs/redbin`
+
+[19:43:56](#sUF2ZHWqh8TwERHHirv-GKLst2mFFMPv3QL9QlzFv3Q) <mikeyaunish>:
+OK -will do.
+
+[20:05:35](#6bDjkxByFuljHOsngnSZQhpvfCvwjYx-cgSB781c3v8) <mikeyaunish>:
+Thank hiiamboris for the workaround. I would have never found this myself.
+
+## 30-Aug-2025
+
+[4:15:52](#tCe1CHVZt-770y71TRVO_e7PYE-o9Uu7AKdFxOXa3rs) <PeterWAWood>:
+I was using the console to identify "truthy" values in Red and came across what seems an anomaly:
+```
+>> if prin "" [ print "oh!" ]
+oh!
+>> if #(unset!) [ print "oh!" ]
+oh!
+>> 
+```
+
+
+[4:17:56](#ZJ_2kZ8fUg6FeCcLl_72147EKYOp_SOF9d0ncwSRr88) <PeterWAWood>:
+Rebol's `if` doesn't receive the `unset` from`prin`:
+```
+>> if prin "" [ print "Oh!" ]
+** Script Error: if is missing its condition argument
+** Near: if prin "" [print "Oh!"]
+>> if #[unset!] [ print "Oh!" ]
+** Script Error: if is missing its condition argument
+** Near: if unset [print "Oh!"]
+>>
+
+[4:19:27](#obqRRlrs-wiSSPXlXDKLkdW2yit5PHJGzPYjSqJ0Eww) <PeterWAWood>:
+Personally, I feel that it would be more convenient for the "end-user programmers` like me if #(unset!) was considered falsy rather than truth.
+
+[4:19:58](#aAaKeXhkhTxFxQBErUJe9qkr4O5_tnFoZ4V-1L8Istk) <PeterWAWood>:
+* Personally, I feel that it would be more convenient for "end-user programmers\` like me if #(unset!) was considered falsy rather than truth.
+
+[4:20:09](#BJJydWHBn2FA_0eHuzRNGCXjnIHWO4Qhu62YJD65lAg) <PeterWAWood>:
+* Personally, I feel that it would be more convenient for "end-user programmers\` like me if #(unset!) was considered falsy rather than truthy.
+
+[4:20:22](#Ctgp0E-HKKgIuKV2FNgNXRKEg_zETSNFisDUEDlpDuU) <PeterWAWood>:
+* Rebol's `if` doesn't receive the `unset` from `prin`:
+
+```
+>> if prin "" [ print "Oh!" ]
+** Script Error: if is missing its condition argument
+** Near: if prin "" [print "Oh!"]
+>> if #[unset!] [ print "Oh!" ]
+** Script Error: if is missing its condition argument
+** Near: if unset [print "Oh!"]
+>>
+```
+
+[4:21:18](#DCr2vVZ-TM5pM6K6c6yMHGUXaU3RSdxisx2eYNwL-0I) <PeterWAWood>:
+* Personally, I feel that it would be more convenient for "end-user programmers" like me if #(unset!) was considered falsy rather than truthy.
+
+[5:41:52](#ghWM7lvlOUOQe1Lc0DugmIX-IrrsrWHiSaz9siK6RUk) <hiiamboris>:
+http://www.rebol.net/cgi-bin/r3blog.r?view=0207
+
+[5:43:26](#jkY6SShdgWipQlnsOtb4G_RYHIrZB4eiQ86RviB3vAQ) <hiiamboris>:
+IIRC either errors out on unset. But there's no general consensus as far as I can see because unset is neither truthy nor falsy 
+
+[5:43:41](#Tuo4QdLhNMksV6hECnLH63te-o1SthMlQVr3RrCvQwI) <hiiamboris>:
+* IIRC `either` errors out on unset. But there's no general consensus as far as I can see because unset is neither truthy nor falsy
+
+[6:45:22](#rPcH22v3sa3u_TogpBzjC7Eiukinlkhaa2DyaL9t8-A) <PeterWAWood>:
+`either` also evaluated `#(unset!)` to truthy for me:
+```
+>> either #(unset!) [ print "true"] [ print "false" ]
+true
+>> about/debug
+RED & PLATFORM VERSION 
+RED: [ branch: "master" tag: #v0.6.6 ahead: 67 date: 30-May-2025/6:49:11 commit: #979d8e1bf808fd0c43ebe58806404f1be010f9c1 ]
+PLATFORM: [ name: "Raspbian GNU/Linux 12 (bookworm)" OS: 'Linux arch: 'aarch64 version: 6.12.34 build: {#1 SMP PREEMPT Debian 1:6.12.34-1+rpt1~bookworm (2025-06-26)} ]
+
+
+[6:56:32](#hna7c9xe4Lmh7XuuVgEp5939jX5gMr3MbPD7ozHio6A) <PeterWAWood>:
+`error` is truthy both in Red and Rebol2:
+```
+
+
+[6:59:08](#VJPkhfC8amkwYCLs4kWlWN51ogAQuLfoIoTaBm6Iroc) <PeterWAWood>:
+* `error` is truthy both in Red and Rebol2:
+
+Red:
+```
+>> if try [ 1 / 0 ] [ print "error is truthy" ]
+error is truthy
+```
+
+Rebol2:
+```
+>> if disarm err: try [ 1 / 0 ] [ print "error is truthy" ]
+error is truthy
+```
+
+[7:45:00](#ISsXFso-Hmpn4-J8p40mPto1ErnnwFHmp7h96YhindY) <hiiamboris>:
+```
+>> either () [1][2]
+*** Script Error: block did not return a value
+*** Where: either
+*** Near : either () [1] [2]
+*** Stack:
+```
+
+[7:45:35](#n-QEUCfMhDi4-GgR4M1cC6WsguVcNAc3aUp18ZgW9e4) <hiiamboris>:
+```
+>> type? #(unset!)
+== datatype!
+>> type? #(unset)
+== unset!
+```
+
+[8:08:01](#Ja7Soas4sGbPHqkVtNHOnSvELc7yWYe04gMUBY93tCE) <PeterWAWood>:
+This is an improvement over Rebol that I had overlooked, Rebol requires #[unset!] to create an `unset` value
+
+[8:08:18](#nvXp2jzCxnKBZ3DHpc-BdKOqNQxBAMypYp5UEaY0NIw) <PeterWAWood>:
+```
+
+[8:08:30](#HMZGWxzcq_Fb0ynXX3uGB7F7GTLdvGVHxmcYGfenJ_Y) <PeterWAWood>:
+* >> #[unset!]
+>> #[unset]
+** Syntax Error: Invalid construct -- #[
+** Near: (line 1) #[unset]
+>>
+
+[8:15:15](#rF6Tpz6Y6e2T6kLXL276nh3IEMJCBeXBRyX0-cenIlE) <PeterWAWood>:
+`either` does raise a script error with an `unset` with the correct syntax.
+```
+>> either #(unset) [ "unset is truthy" ] [ "unset is falsy" ]
+*** Script Error: block did not return a value
+*** Where: either
+*** Near : either unset ["unset is truthy"] ["unset "]
+*** Stack:
+``` 
+
+[8:18:52](#223oDwmMWBO9_3bq9DMmWZTQGRndsYDn6VusknKazes) <PeterWAWood>:
+If treats a syntactically correct `unset` as truthy:
+```
+>> if #(unset) [ "unset is truthy" ]
+== "unset is truthy"
+```
+
+[8:20:47](#hfFrJlVeyMOsu_t6fXH6GXKjHXBnHAu8pQk9BVqxTbY) <PeterWAWood>:
+This is giving me a lot to think about. As is:
+```
+>> to logic! #(unset)
+== true
+>> to logic! not #(unset)
+== false
+```
+
+[8:20:59](#_hmTSrph4aqZsWvuJld0E8J6ilaGWpJa57RlUQMijiE) <hiiamboris>:
+https://github.com/red/red/issues/4482
+
+[18:03:50](#RyviRMbgAHNsfA0fuC0MgBkCkKc-9A1Dd_90eHci9j8) <greggirwin (Gregg Irwin)>:
+Don't forget https://github.com/red/red/pull/4484
+
+[18:05:53](#Uuj1jVPrAHz-Gz-mMafu7ZmINjlKJFeqpBnylgQSKiE) <greggirwin (Gregg Irwin)>:
+We also have `true?` which just wraps `to logic!`.
+
+## 31-Aug-2025
+
+[6:53:13](#Kde-krEhoKXrLvnE6CZjDnjm6zWUCAPc7-K8FjebKy4) <Nek (Nikita Dudnik)>:
+The macOS build provided for download on the official website of Red seems to be completely broken. 
+The link is https://static.red-lang.org/dl/mac/red-view-066?reload=true
+The provided "binary" is actually a zip archive.
+
+nek@Nek bin % ./red-view-066        
+zsh: exec format error: ./red-view-066
+nek@Nek bin % tar -xf ./red-view-066 
+
+Which gives me a red-view-19mar25-6942c7a02.app that I can try to run, but there is an architecture mismatch.
+
+nek@Nek bin % ./red-view-19mar25-6942c7a02.app/Contents/MacOS/red-view-19mar25-6942c7a02 
+zsh: bad CPU type in executable: ./red-view-19mar25-6942c7a02.app/Contents/MacOS/red-view-19mar25-6942c7a02
+
+nek@Nek bin % # what arch is the binary?
+file -b "./red-view-19mar25-6942c7a02.app/Contents/MacOS/red-view-19mar25-6942c7a02"
+lipo -info "./red-view-19mar25-6942c7a02.app/Contents/MacOS/red-view-19mar25-6942c7a02"
+
+# what arch is your Mac?
+uname -m
+zsh: no matches found: binary?
+Mach-O executable i386
+Non-fat file: ./red-view-19mar25-6942c7a02.app/Contents/MacOS/red-view-19mar25-6942c7a02 is architecture: i386
+zsh: no matches found: Mac?
+arm64
+
+It's a mess! I don't understand why such file is even provided. It's quite a rabbit hole of problems with a dead end at the end. :)
+
+I'll try to compile Red from source for myself but the binary on the website should be either updated or removed.
+
+[7:25:02](#wDtCfLuthSwj5U-nq8hByOLTQJk_bFWmL2yA4Khk360) <PeterWAWood>:
+Red is currently only available as a 32-bit application. I believe that a MacOS (32-bit) build is still made available for users who wish to run it on either old versions of MacOS on old Intel-based Macs (or have containerised versions). 
+
+As I understand the two main reasons are, firstly,  there are only 32-bit versions of Rebol2 available. (The underlying Red/System compiler is written in Rebol2.)
+
+Secondly, the compiler will be re-written in Red once Red has all the necessary features. It has been clearly mentioned that the "self-hosted" complier will provide 64-bit support.
+
+
+[7:26:43](#x2FGKaVEzUOt7oP2Z_TKpvpBcP3vlsR3gum0eeskFbY) <PeterWAWood>:
+The Red download page does list only 32-bit executables for Mac:
+
+
+[7:26:52](#VNjvtH9aX6vlk64sk4p-VrzEtLgnMsHXTrIPzBhb9qE) <PeterWAWood>:
+![https://gitter.ems.host/_matrix/media/v3/download/gitter.im/e132fd7c5a3bf7d3ee14865f21434c37381d02bd1962054461140500480](https://gitter.ems.host/_matrix/media/v3/download/gitter.im/7c1b5f48aaa4897a9507602ff8f95af160bdbccb1962054464328171520)
+
+[7:27:37](#iipclfeDimxbs5yLLYIWIkVX6Xop_YDScmP0OX5v1ME) <PeterWAWood>:
+Unfortunately, the big Red button at the top of the page doesn't make this clear.
+
+[8:08:20](#6dvb3XnBPwnsqN0_gI8NqSEV8QRAiIBtTbdgYmrINeM) <hiiamboris>:
+People don't read beyond the first line üòÅ
+
+[11:34:26](#lrQ8F3mB8aom0NUGiIYlto-G7DYpOdm3sBrbWK4J9A0) <PeterWAWood>:
+I guess that's the consequence of the big Red buy me now button which are typically used on sales pages as they are known to generate more clicks than other coloured and styled butttons.
+
+[11:34:57](#JKp4KAimPXvIgvO6I-cR8Lk8AFw7_PJtf_3ivejujZ0) <PeterWAWood>:
+* I guess that's the consequence of the big Red "buy me" now button which are typically used on sales pages as they are believed to generate more clicks than other coloured and styled butttons.
+
+[16:41:03](#UJ3VN2tkvUUCbcv7BnY2TSm4gr2g3kxKsIHL8PoQQyg) <Nek (Nikita Dudnik)>:
+Does the doenloaded file works as it is on 32-bit systems? I was also confused by it being a zipped mac app bundle instead of a single binary.
+
+[16:41:15](#a9CEvhmwDa9mYI-5sejDuyxYrIVxZ-0PAC-0zjeOlK4) <Nek (Nikita Dudnik)>:
+* Does the downloaded file works as it is on 32-bit systems? I was also confused by it being a zipped mac app bundle instead of a single binary.
+
+[16:41:41](#dpt5oldvXkdDmHnKlHEuuELcCIUQD2kV7dCwuAPEFP4) <Nek (Nikita Dudnik)>:
+Also, I was hoping Rosetta could handle it.
+
+[16:44:55](#-XXsAKZxv-pGfeJ_SVJZPGQCU4s4r-aUSsu9bbBV4JA) <Nek (Nikita Dudnik)>:
+Apart from it being a 32-bit executable I was expecting it to be a binary, not a zipped app bundle with binary hidden inside of it :) Not sure if reading could helped me with it.
+
+[16:45:44](#VIl2_5HfLdC8KeoexCstwk9hXaSkFgWJHydAHXcWvg8) <Nek (Nikita Dudnik)>:
+* Does the downloaded file work as it is on 32-bit systems? I was also confused by it being a zipped mac app bundle instead of a single binary.
+
+[16:46:56](#zu8vg9NJTqUK5ICTOjL8XQgLiA7T8jwlosvPyZNYEkk) <Nek (Nikita Dudnik)>:
+* Apart from it being a 32-bit executable I was expecting it to be a binary, not a zipped app bundle with binary hidden inside of it :) Not sure if reading could help me with it.
+
+[17:17:12](#Nv01przKY46JJmKzLSRTL3soYxnwWq-fxSm1JPkYZew) <ldci (Fran√ßois Jouen)>:
+Nek (Nikita Dudnik): Red for macOS is still 32-bit and only for Intel processors. No support for Apple's ARM processors. In addition, the Tool Chain option for macOS no longer exists on the website. You have to recompile from source, and for that you need a Rebol2 SDK, which is no longer available from Rebol, particularly for the license key. I still have an old  MacBook Pro running Mojave (10.14.6, which is the last version to support 32-bit applications). I use this machine to maintain redCV.
+
+
+
+[17:31:50](#Xh2cTovSixC0NI6bO7pDDya8Hx54nwy72fEkMilFKs0) <Nek (Nikita Dudnik)>:
+Looks like a trap :) I'd love to recompile it and find a sustainable solution for future releases. I'm on M1 Apple Silicon. Is there any escape route you can see and I can follow? Or is it too much of an effort? It'd be nice to make it work on AArch64.
+
+[17:40:51](#6Nn79Ryhkyod81BH4idZQnq2v7S3kH8wSWBu8kTL6CA) <ldci (Fran√ßois Jouen)>:
+I am also on Silicon M1 or M2. But I migrated to the Rebol 3 version, which is maintained by Oldes. This version can be compiled for Apple's ARM processors.
+
+[17:53:04](#ym4EjW8VgXhZoY97T6cTgQuFlnnHrrLhD-DVoDaQqio) <Nek (Nikita Dudnik)>:
+So, do I just recompile from source using Rebol 3 SDK?
+
+[17:54:18](#ZymU_Cqe0GFB8zCJt5lUw6MOhO_n8gZoD4EKbh5fqRU) <Nek (Nikita Dudnik)>:
+Found this! https://www.reddit.com/r/redlang/comments/10klwam/is_source_code_for_red_available_i_want_to_try_it/
+
+[18:27:06](#jp16mmBaabEh3O16oG4DiLI5euqCr3xRpHawJhCPzM4) <Nek (Nikita Dudnik)>:
+Oldes's Rebol version works just fine, but Red's source code doesn't seem to be compatible with it. Is there a separate branch for it?
+
+[19:14:17](#msk0R8-naRsPyui_-Rsfpw06DVHtoiCiGbYHrzz6h2w) <hiiamboris>:
+No, there's only R2 compiler.
+
+[19:16:10](#wg_mn61C6jSvSYus8VQ7PXIThaPHu_iExS1QG0-cI1o) <hiiamboris>:
+There's a handful of docker containers mentioned on the wiki. Also a few other emulation solutions have been discussed in the past but I don't remember exactly.
+
+[19:17:57](#Tq7kaqGMFEE6BPuTlvJyqEMVD-BPUsWbjShJ9fJwT3k) <hiiamboris>:
+Maybe [@dockimbel-556597ad15522ed4b3e10020:gitter.im](https://matrix.to/#/@dockimbel-556597ad15522ed4b3e10020:gitter.im) will chime in and clarify. Last time I used a Mac compiler it produced an AppBundle, not a zip, when asked to compile for MacOS target. Whatever happened to that ü§∑‚Äç‚ôÇÔ∏è
+
+[23:13:34](#EsCCmXNTzAQcaACZ323LdiL8vwE1xAyhXOaYqRAakcE) <ldci (Fran√ßois Jouen)>:
+Oldes' Rebol 3 version is compatible with Red in about 95% of cases. But there is no GUI for macOS. Apple Rosetta can emulate 64-bit Intel code, but not 32-bit code. One option is to use UTM (free) or Parallel Desktop (paid) to install Windows 11 on your M1 Mac.
+
+[23:39:00](#IuEG2_1wFTfPeUESj6X3ia7f7nW_5IA4d2csAfGrXBs) <ldci (Fran√ßois Jouen)>:
+Then you can use Windows Red version :)
+
+## 1-Sep-2025
+
+[11:17:08](#q6M0PpLggJeTzuYQHRV4_O3ynFQ2x7q4AyKkLrQrZtE) <PeterWAWood>:
+No need for Windows VM or running old macOSes in containers. I use Raspberry Pis for Red whilst waiting for a 64-bit macOS version. Red and Red/View run happily on a Pi Zero 2W. 
+
+## 2-Sep-2025
+
+[1:49:04](#AhdLaDD6zzLL6Pohm5ucJFJ6KNWAlp7AkHkkZMP-DGo) <ldci (Fran√ßois Jouen)>:
+PeterWAWood: No experience with Raspberry Pi :)
+
+[9:24:28](#NUCuPM1e14DC-6EaEY4zD2qZ_ZdHmFnpy1AYf5jmwn0) <PeterWAWood>:
+Raspberry Pi still has supported 32-bit OS versions (that run on ARM64 hardware). Sadly, no working version of Rebol so no compiling on Raspberry Pi. I find it sufficient for experimenting with Red and Red/View.
+
+## 8-Sep-2025
+
+[13:04:50](#EulNfxJHevjRgg06fqua7lZbHvV5awteLD88rPWzkS8) <Oldes (@oldes.h:matrix.org)>:
+Is this expected?
+```red
+>> make bitset! [not #{0102} 1 2]
+== make bitset! [not #{0102}]
+```
+
+[13:05:21](#l106dSqLPyZ-UC6wCtLiyKaKF3PUcDi7ifLERXeamaE) <Oldes (@oldes.h:matrix.org)>:
+```red
+>> make bitset! [not #{0102} here may be anything]
+== make bitset! [not #{0102}]
+```
+
+[13:06:09](#NOD4Hswlrh9QhGnhpdNgGKNBSmTG9ZOWmXcTia-2AUU) <hiiamboris>:
+a bug definitely
+
+[13:08:42](#6a-7PiCPI7CVX6PsZVmyixqrAJnVaOyuI-rNiN4izuw) <hiiamboris>:
+according to file:///D:/devel/red/red-src/docs/html/datatypes/bitset.html binary should not be allowed in the spec
+
+[13:09:46](#AzjAYfHiCSo2gwrq6tsZKqHYkCz7DLbEUvJp8cdzR6U) <hiiamboris>:
+though examples do use it :D
+
+[13:10:09](#twfLMzAHT4YPlbHn6LYXA9N-pjswIXqDAXkhIskkK3c) <hiiamboris>:
+but only as `mold` output
+
+[13:11:22](#spEme1Qv93hyBmsQzJwoSZmsENjwDmRJiK5KfHy0e6I) <hiiamboris>:
+* according to https://github.com/red/docs/blob/master/en/datatypes/bitset.adoc binary should not be allowed in the spec
+
+[13:17:21](#cocqiERnv-Jz7BT3SD5PfOFsvs0IU3lzj2rgJZhcfrE) <Oldes (@oldes.h:matrix.org)>:
+I'm going to implement this in Rebol3:
+```rebol
+>> make bitset! [#{0001} #{0200}]
+== #(bitset! #{0201})
+
+>> make bitset! [#{0001} #{0200} #"a"]
+== #(bitset! #{02010000000000000000000040})
+
+>> make bitset! [#{0001} #{0200} foo]
+
+** Script error: invalid argument: [#{0001} #{0200} foo]
+```
+
+[13:19:09](#H77BYL96qXb4ap0AoEb0LU9mKspEqFUnI2KokU1Gk98) <Oldes (@oldes.h:matrix.org)>:
+* I'm going to implement this in Rebol3:
+
+```rebol
+>> make bitset! [#{0001} #{0200}]
+== #(bitset! #{0201})
+
+>> make bitset! [#{0001} #{0200} #"a"]
+== #(bitset! #{02010000000000000000000040})
+
+>> make bitset! [not #{0001} #{0200}]
+== #(bitset! not #{0201})
+
+>> make bitset! [#{0001} not]
+
+** Script error: invalid argument: [#{0001} not]
+```
+
+[13:23:08](#JG49rrg4Rlvya0-ZQzEomObLqb9fCqcPx9odOppImWQ) <hiiamboris>:
+are you going to OR the binary sets? regardless of `not` flag presence?
+
+[13:24:42](#Qd3Prf0c5nKf5dEdX7qCeBkRIgch0SprFf_FfLzcW0k) <hiiamboris>:
+makes sense I guess, unless one is set on esoterifying the code
+
+[13:28:47](#HZSniyZLRssWuEbVKQvJ-bJp9xgcT_kYPaT28AhTZc0) <Oldes (@oldes.h:matrix.org)>:
+Yes... ORed.. until now it was strange in R3... like:
+```rebol
+>> make bitset! [#{0001} #{0200}]
+== make bitset! #{E000} ;<--- ???
+``` 
+
+## 10-Sep-2025
+
+[21:16:00](#s8EffnqReehsj8tzU8qKYqrViEVRf_53Du71aqKLHNw) <greggirwin (Gregg Irwin)>:
+"Esoterifying" is great. I am going to steal it as "esoterrifying".
+
+## 22-Sep-2025
+
+[0:36:23](#5opLaUWYyJ_BZnxxCLtOlWNx8wnMs1elHSYb3xO6JbM) <GiuseppeChillemi (GiuseppeChillemi)>:
+Set does not error on wrong target path:
+
+```
+>> x: make object! [a: 22]
+== make object! [
+    a: 22
+]
+>> set 'x/aaaa 33
+```
+Is it correct?
+
+[4:59:57](#JC4TOdiv1M8RbmRf2wxiV4c-MouSaR9dOLyGLMfkbsA) <hiiamboris>:
+No, I think it should complain
+
+[7:07:04](#9q4k5LzpfKj1dOTsJbCsc204ZsVwHfFI2BVBgS-ydBc) <ldci (Fran√ßois Jouen)>:
+Rebol-R3:
+** Script error: cannot access aaaa in path x/aaaa
+** Where: set
+** Near: set 'x/aaaa 33
+
+[13:35:59](#mzGAyo5v_k7BVMThseqXSa79_9DFRgFuHVzRDLdEP_g) <GiuseppeChillemi (GiuseppeChillemi)>:
+Reported
+
+## 3-Oct-2025
+
+[23:16:47](#T-uLmrINN-GqvFBObwoRzp7i1zlLG1vdjMSmbqrOrQ8) <greggirwin (Gregg Irwin)>:
+Remove/key has to match the case of the key, which sounds familiar, but I don't see a ticket for it.
+```
+>> m: #[abc: 1]
+== #[
+    abc: 1
+]
+>> remove/key m 'ABC
+== #[
+    abc: 1
+]
+>> remove/key m 'abc
+== #[]
+
+>> m: #["abc" 1]
+== #[
+    "abc" 1
+]
+>> remove/key m "ABC"
+== #[
+    "abc" 1
+]
+>> remove/key m "abc"
+== #[]
+```
+Does anyone recall this?
+
+[23:18:02](#TA_eG737E7aZnzLlklF14ewZiTEfMcanaKP3a76Ixb8) <greggirwin (Gregg Irwin)>:
+Internally it's using `COMP_STRICT_EQUAL`, but there's no comment to say whether that's by design.
+
+[23:40:11](#OkPq0UaApK_Kq19FhA8-hSExUpQB9XE9L2EoT5vYo04) <ldci (Fran√ßois Jouen)>:
+Red is not case insensitive ?
+
+## 4-Oct-2025
+
+[2:11:11](#IOm1cL-G8_PbbhseXRWJqCRf6_-7qkJZY4sjuSgtAgk) <greggirwin (Gregg Irwin)>:
+It is, generally, but there are some exceptions. In this case, looking up a key is case insensitive, but removing the key is not. I think it should be case insensitive. `Parse` has had some design questions arise in the past as well, WRT words and case sensitivity. The gray areas are where we think of things more as data, and not strictly code.
+
+[3:27:34](#7ulqO8XigzocvdX0qANW5Z3ETeFxWjfVp4pFqY0qdN0) <greggirwin (Gregg Irwin)>:
+Assigning to a key in a map is also case insensitive.
+
+[4:12:51](#IRtyYOX_4MBQ65ld6PogcBvuL-8jn1Q_9ADz5yGNz2A) <hiiamboris>:
+I don't remember either
+
+[16:48:10](#6QWqde-xda20PjYEhAz6C-QFmMFmJsMUuEc2UgL6WBY) <greggirwin (Gregg Irwin)>:
+I will open a ticket. Thanks.
 
