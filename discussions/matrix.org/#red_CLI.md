@@ -82,7 +82,7 @@ But if we target Reducers with our tools it starts making sense.
 They should be strandartized as ISO 16711680.
 
 [10:44:34](#_bggn6h6M4q1szX9Fo_D66TyZvdSZrsOkm7YBizSryg) <hiiamboris (NOT THIS ONE)>:
-í ½í¸ƒ
+ðŸ˜ƒ
 
 [10:45:11](#X3FTHfUahs7ZrHPOa9lmz4t_wuUNqNGU7LEmWl0K71I) <rebolek (Boleslav BÅ™ezovskÃ½)>:
 ISO 3840 is taken I guess.
