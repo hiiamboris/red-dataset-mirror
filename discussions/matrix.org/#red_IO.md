@@ -9,7 +9,7 @@ If anyone is interested to test HTTP client and server for the new IO branch, le
 @rebolek Thanks a lot :)
 
 [13:27:58](#NNhDyQXNniBRiUU00TKQ30PJ9jaJzRmLBJrNioLO7X8) <pekr (Petr Krenzelok) (@pekr-556ae86715522ed4b3e131b2:gitter.im)>:
-Count me in, please í ½í¹‚
+Count me in, please ðŸ™‚
 
 [14:01:46](#L2X2ZRdh123b6yWiTjUMPHR6FlRBVXY-RWr33sOPIMU) <rebolek (Boleslav BÅ™ezovskÃ½)>:
 Of course :) You just need to build IO version of Red and then clone my [Castr repo](https://gitlab.com/rebolek/castr/) and check out the `open-url` branch. Iâ€™ll merge it into the master branch soon to make it easier.
@@ -139,7 +139,7 @@ So if all that lies inside `read` call and is opaque to the user, why should we 
 I was talking about the situation when user does it manually, without `read`.
 
 [12:15:11](#dllUDkUBPePYQHoEYb8oNrPkI0BMw4jPEIk9FhgzGl4) <hiiamboris (NOT THIS ONE)>:
-Still not getting it í ½í¸Ÿ If it's done manually, what about /binary refinement you mentioned?
+Still not getting it ðŸ˜Ÿ If it's done manually, what about /binary refinement you mentioned?
 
 [12:20:05](#JxZ6VrzVgsrCs-uD6Lp65P6cfkaN2xJNRy4pDyNC5Lk) <rebolek (Boleslav BÅ™ezovskÃ½)>:
 OK, let me try to explain it. You have two metods for reading from web: `read` and `open/copy/close`.
@@ -588,13 +588,13 @@ The format is very simple:
 payload
 
 [8:55:41](#ncQPaZkq4HvQAbD1zv1qRSirRihUAmppOZEZMzA7uVI) <endo64>:
-I thought `rbdt` is `ReBolek's datatype` í ½í¸Š
+I thought `rbdt` is `ReBolek's datatype` ðŸ˜Š
 
 [8:56:59](#Wzb-8RcRDW53rK0XTCyj5sZ34CxIGB7v5PmGPUBLMEQ) <endo64>:
 `rbin://` or `redbin://` could be easier to remember.
 
 [8:57:07](#CIhyyCN8DxB-eaoywGhXrOcZBDZuGlB5uzzDAWpWCKQ) <rebolek (Boleslav BÅ™ezovskÃ½)>:
-í ½í¸ƒ
+ðŸ˜ƒ
 
 [8:57:53](#IYPNAMa0wV7dO0ANPPBwh9vBsXuE8a95c0aZ7rEHsd4) <rebolek (Boleslav BÅ™ezovskÃ½)>:
 it can transfer text and binary also
@@ -893,7 +893,7 @@ OK, so no timeframe...
 ## 29-Nov-2022
 
 [16:54:34](#sG74kK8k65nJBhOW3z5NF5Y7un_nSD2avycHgfHCL_A) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
-Will be Red ports full duplex? I was playing with Websockets in Rebol3 and it looks that there are serious issues as Rebol's implementation is only half-duplexí ½í¸•
+Will be Red ports full duplex? I was playing with Websockets in Rebol3 and it looks that there are serious issues as Rebol's implementation is only half-duplexðŸ˜•
 
 [16:55:57](#8PAQcN3HfumdcpivpOCwJ_HY0IY1T3g_M-0YkMXaQgk) <Oldes (@oldes-556aec4015522ed4b3e131da:gitter.im)>:
 * Will be Red ports full duplex? I was playing with Websockets in Rebol3 and it looks that there are serious issues as Rebol's implementation is only half-duplex:/ (Incoming message may corrupt outgoing one)
@@ -935,7 +935,7 @@ Has anyone worked with oauth
 OAuth2 is relatively easy but very provider-specific. It's basically impossible to provide OAuth2 library.
 
 [15:50:33](#Umeo_83LW-mr7FFLr_jH_AbJ2tO3DoyiBBxwh-cfhaw) <pekr (Petr Krenzelok) (@pekr:matrix.org)>:
-How can standards be provider specific? í ½í¹‚
+How can standards be provider specific? ðŸ™‚
 
 [22:38:26](#VVyH5gWYk8v10XDg5heV8r9EJFcKAICj49MMao6MD68) <greggirwin (Gregg Irwin)>:
 They're more like guidelines, really. :^\
@@ -1081,9 +1081,6 @@ No. The change to 0.6.5 was because of the syntax swap between maps and construc
 dockimbel: if the migration to 64bit is in early stages, why not complenting I/O, so we have a wonderful instrument to play with until 64 bit is completed?
 
 ## 27-Feb-2024
-
-[3:35:49](#nmbhTaEUhcCJQUoi1A8Pz8QM4FxUdy5d5nODQP7U8nM) <GiuseppeChillemi (GiuseppeChillemi)>:
-dockimbel: if the migration to 64bit is in early stages, why not complenting I/O, so we have a wonderful instrument to play with until 64 bit is completed?
 
 [7:18:31](#hlyQwgzAvTmdAbF7HmCccuGx_6a4WaGaxIiLsDcvUOk) <pekr (Petr Krenzelok) (@pekr:matrix.org)>:
 0.6.5. got merged into the new IO2 branch, hence I expect some potential new developments towards the IO happening in there ....

@@ -178,9 +178,6 @@ Correct.
 [18:09:15](#xb_N3Mql_vJoQMts_Ft-_tWPZoxolULpt8yAh1AqG1A) <greggirwin (Gregg Irwin)>:
 ```
 
-[18:09:46](#VSEPKG7_O0nSWFUBb5zgSaiYpq2Iu5Bh2022BMp66wc) <greggirwin (Gregg Irwin)>:
-```
-
 [18:09:53](#Td2z1j9wbRqK6ONVOo0zWkS6DFdKGipDdZMMirJ0Yxg) <greggirwin (Gregg Irwin)>:
  * ```
 >> fn: function [][x: 0 set 'y 1]
