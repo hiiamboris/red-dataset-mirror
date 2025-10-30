@@ -16,3 +16,7 @@ To recreate the dataset:
 7. Scraping matrix rooms requires you to authenticate `matrix-commander`, which ideally should be done for a separate bot account
 8. Some scripts create symlinks of the data (it's faster to debug). Use `~/dataset/expand-symlinks.sh` to convert them all into files (because stupid `git add` cannot do that "by design")
 9. Use `~/dataset/~sanitize.sh` to remove wildcard chars from the filenames, as otherwise `git checkout` won't work on Windows
+
+| Note | Unlike the repo files, [the wiki](https://codeberg.org/hiiamboris/red-dataset/wiki/Home) must NOT be used for LLM training! |
+|-|-|
+  
