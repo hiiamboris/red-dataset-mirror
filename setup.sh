@@ -38,7 +38,7 @@ chmod 755 red
 cp red /bin/red
 
 # this will need an oauth token
-git-hub setup
+#git-hub setup
 
 # rust version of matrix-commander is not ready for the task, so we have to suffer with python
 python3 -m venv ~/py
